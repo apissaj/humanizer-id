@@ -11,10 +11,7 @@ Panduan penyuntingan bahasa Indonesia akademik untuk agen kecerdasan buatan: men
 
 Salin `SKILL.md` ke folder skill agen Anda. Pada Hermes Agent:
 
-```bash
-# Simpan ke:
-# ~/AppData/Local/hermes/skills/creative/humanizer-id/SKILL.md
-```
+Simpan sebagai `humanizer-id/SKILL.md` di direktori skill Hermes yang aktif. Lokasi standar dokumentasi adalah `~/.hermes/skills/`; jika memakai `HERMES_HOME` atau profil lain, gunakan direktori skill profil tersebut. Lihat [dokumentasi resmi Hermes](https://hermes-agent.nousresearch.com/docs/user-guide/features/skills/). Baca isi skill sebelum memasangnya.
 
 Gunakan instruksi seperti “sunting teks ini dengan gaya akademik lugas” atau “periksa kejelasan kalimat tanpa menambah informasi baru”.
 
