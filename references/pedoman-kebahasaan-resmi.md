@@ -11,17 +11,17 @@ Imbuhan pembentuk kata kerja aktif transitif `meN-` mengalami peluluhan fonem aw
 2. Huruf kedua pada kata dasar adalah **vokal** (a, i, u, e, o).
 
 ### Contoh Peluluhan Wajib:
-- `meN-` + **p**engaruh $ightarrow$ **memengaruhi** *(bukan mem-pengaruhi)*
-- `meN-` + **t**arget $ightarrow$ **menargetkan** *(bukan men-targetkan)*
-- `meN-` + **s**intesis $ightarrow$ **menyintesis** *(bukan men-sintesis)*
-- `meN-` + **k**aji $ightarrow$ **mengaji** / **menguji** *(pada uji)*
+- `meN-` + **p**engaruh → **memengaruhi** *(bukan mem-pengaruhi)*
+- `meN-` + **t**arget → **menargetkan** *(bukan men-targetkan)*
+- `meN-` + **s**intesis → **menyintesis** *(bukan men-sintesis)*
+- `meN-` + **k**aji → **mengaji** / **menguji** *(pada uji)*
 
 ### Pengecualian (Konsonan Rangkap / Kluster Tidak Luluh):
 Jika huruf kedua setelah k, t, s, p adalah **konsonan** (gugus konsonan seperti *pr-*, *st-*, *tr-*, *kr-*), maka fonem awal **TIDAK luluh**:
-- `meN-` + **pr**aktik $ightarrow$ **mempraktikkan**
-- `meN-` + **st**abil $ightarrow$ **menstabilkan**
-- `meN-` + **tr**ansmisi $ightarrow$ **mentransmisikan**
-- `meN-` + **kr**itik $ightarrow$ **mengkritik**
+- `meN-` + **pr**aktik → **mempraktikkan**
+- `meN-` + **st**abil → **menstabilkan**
+- `meN-` + **tr**ansmisi → **mentransmisikan**
+- `meN-` + **kr**itik → **mengkritik**
 
 ---
 
@@ -80,4 +80,4 @@ Teks ilmiah membedakan secara tegas tingkat validitas klausa pernyataan:
 - **Fakta Empiris Teruji:** Gunakan verba deklaratif pasti: *menunjukkan, menghasilkan, mencatatkan, membuktikan*.
 - **Inferensi & Korelasi:** Gunakan verba terukur: *mengindikasikan, berkorelasi dengan, mencerminkan*.
 - **Prakiraan / Hipotesis:** Gunakan penanda probabilitas tunggal: *diduga, diproyeksikan, berpotensi*.
-- **Larangan Tumpukan Hedging:** Dilarang menumpuk lebih dari satu penanda ketidakpastian dalam satu klausa (*“data ini mungkin berpotensi dapat diindikasikan bahwa...”* $ightarrow$ *“data ini mengindikasikan bahwa...”*).
+- **Larangan Tumpukan Hedging:** Dilarang menumpuk lebih dari satu penanda ketidakpastian dalam satu klausa (*“data ini mungkin berpotensi dapat diindikasikan bahwa...”* → *“data ini mengindikasikan bahwa...”*).

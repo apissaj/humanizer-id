@@ -199,8 +199,8 @@ Sitasi dalam naskah ilmiah tidak boleh mengikuti pola formulaik berulang AI ("Me
 
 Rujukan kaidah resmi tersedia di `references/pedoman-kebahasaan-resmi.md`. Aturan pendek yang paling sering melanggar pada naskah AI:
 
-1. **Peluluhan KTSP:** *mempengaruhi* $ightarrow$ *memengaruhi*; *merubah* $ightarrow$ *mengubah*; *mensintesis* $ightarrow$ *menyintesis*. Gugus konsonan tidak luluh: *menstabilkan, mentransmisikan, mempraktikkan*.
-2. **Bentuk terikat serangkai:** *pasca bencana* $ightarrow$ *pascabencana*; *antar modul* $ightarrow$ *antarmodul*; *multi disiplin* $ightarrow$ *multidisiplin*.
+1. **Peluluhan KTSP:** *mempengaruhi* → *memengaruhi*; *merubah* → *mengubah*; *mensintesis* → *menyintesis*. Gugus konsonan tidak luluh: *menstabilkan, mentransmisikan, mempraktikkan*.
+2. **Bentuk terikat serangkai:** *pasca bencana* → *pascabencana*; *antar modul* → *antarmodul*; *multi disiplin* → *multidisiplin*.
 3. **Partikel *pun* terpisah** kecuali pada kata hubung baku (*meskipun, kendatipun, maupun, adapun*): *apa pun* (bukan *apapun*), *data ini pun*.
 4. **Larangan preposisi pembunuh subjek:** *Dalam penelitian ini menunjukkan...* salah; perbaiki menjadi *Penelitian ini menunjukkan...* atau pasif baku *Dalam penelitian ini ditunjukkan...*.
 5. **Kesejajaran predikat:** jangan mencampur nomina pe-an dengan verba me- dalam satu deret (*mengumpulkan data, analisis hasil, menguji* salah; pilih satu pola konsisten).
