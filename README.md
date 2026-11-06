@@ -19,7 +19,7 @@ Kekakuan tulisan AI bahasa Indonesia jarang disebabkan oleh kesalahan tata bahas
 
 ## Perbandingan Sebelum & Sesudah
 
-Berikut adalah contoh penyuntingan pada abstrak penelitian teknik:
+Berikut adalah contoh penyuntingan pada abstrak penelitian teknik (studi kasus lengkap tersedia di folder [**examples/**](examples/)):
 
 | Draf Mentah AI / ChatGPT | Hasil Suntingan Humanizer ID |
 |---|---|
