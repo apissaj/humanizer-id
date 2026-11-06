@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 1.2.0
+version: 1.3.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -178,3 +178,45 @@ Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menye
 - [EYD Resmi](https://ejaan.kemdikbud.go.id/) — Acuan standar ejaan dan tanda baca bahasa Indonesia.
 - [KBBI Daring](https://kbbi.kemdikbud.go.id/) — Acuan baku kosakata dan lema.
 - Repositori: [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id)\n
+
+## Perajutan Sitasi Ilmiah (*Citation Weaving*)
+
+Sitasi dalam naskah ilmiah tidak boleh mengikuti pola formulaik berulang AI ("Menurut X (2021)... Senada dengan itu, Y (2022) menyatakan..."). Sunting menuju sintesis gagasan:
+
+1. **Fokuskan kalimat pada temuan**, bukan nama penelitinya. Nama dan tahun dipindahkan ke kurung tutup.
+2. **Gabungkan rujukan seirama** dalam satu kurung: *(Pratama, 2021; Santoso, 2022; Wijaya, 2023)*.
+3. Jangan mengubah isi kutipan, nama penulis, tahun, atau urutan rujukan. Yang diubah hanya posisi sintaksisnya dalam kalimat.
+4. Bila penulis asli memakai gaya naratif ("Nugroho (2022) menemukan...") secara konsisten dan itu konvensi jurnal, pertahankan.
+
+## Kalibrasi Modalitas & Derajat Kepastian (*Epistemic Hedge Calibration*)
+
+- Peta kepastian: **fakta empiris** (*menunjukkan, menghasilkan, membuktikan*), **inferensi** (*mengindikasikan, berkorelasi*), **hipotesis** (*diduga, diproyeksikan, berpotensi*).
+- Satu klausa cukup satu penanda ketidakpastian. Ringkas "mungkin berpotensi dapat" menjadi satu penanda yang paling sesuai tingkat buktinya.
+- Jangan menaikkan derajat kepastian: "mengindikasikan" tidak boleh diganti "membuktikan"; harapan tidak boleh menjadi hasil.
+- Jangan menurunkan kepastian temuan yang sudah empiris. Hasil pengujian tetap "menunjukkan", bukan "diduga menunjukkan".
+
+## Kaidah Tata Bahasa Baku (EYD V & TBBBI)
+
+Rujukan kaidah resmi tersedia di `references/pedoman-kebahasaan-resmi.md`. Aturan pendek yang paling sering melanggar pada naskah AI:
+
+1. **Peluluhan KTSP:** *mempengaruhi* $ightarrow$ *memengaruhi*; *merubah* $ightarrow$ *mengubah*; *mensintesis* $ightarrow$ *menyintesis*. Gugus konsonan tidak luluh: *menstabilkan, mentransmisikan, mempraktikkan*.
+2. **Bentuk terikat serangkai:** *pasca bencana* $ightarrow$ *pascabencana*; *antar modul* $ightarrow$ *antarmodul*; *multi disiplin* $ightarrow$ *multidisiplin*.
+3. **Partikel *pun* terpisah** kecuali pada kata hubung baku (*meskipun, kendatipun, maupun, adapun*): *apa pun* (bukan *apapun*), *data ini pun*.
+4. **Larangan preposisi pembunuh subjek:** *Dalam penelitian ini menunjukkan...* salah; perbaiki menjadi *Penelitian ini menunjukkan...* atau pasif baku *Dalam penelitian ini ditunjukkan...*.
+5. **Kesejajaran predikat:** jangan mencampur nomina pe-an dengan verba me- dalam satu deret (*mengumpulkan data, analisis hasil, menguji* salah; pilih satu pola konsisten).
+6. **Bentuk baku KBBI:** *analisis* (bukan *analisa*), *praktik* (bukan *praktek*), *risiko* (bukan *resiko*), *standardisasi* (bukan *standarisasi*), *efektivitas* (bukan *efektifitas*), *metode* untuk prosedur kerja (bukan *metodologi*).
+
+## Protokol Luaran Diff Beranotasi
+
+Setiap penyuntingan wajib menghasilkan **Tabel Selisih (*Diff Table*)** beranotasi agar perubahan dapat diaudit:
+
+| Kalimat Asli | Kalimat Revisi | Alasan (Kaidah) |
+|---|---|---|
+| Sistem melakukan pengukuran terhadap arus. | Sistem mengukur arus. | Pemangkasan verba ringan (VRB-002). |
+| Data ini menghormati batas memori. | Data ini berada dalam rentang batas memori. | Eliminasi kalke KLK-001. |
+
+Aturan protokol:
+1. Setiap baris revisi harus muncul di tabel. Tidak ada perubahan diam-diam di luar tabel.
+2. Kolom "Alasan" merujuk kategori kaidah (verba ringan, kalke, pleonasme, EYD, modalitas) atau penanda `data/kalke-indonesia.json` bila tersedia.
+3. Kalimat yang tidak diubah tidak perlu dituliskan; cukup jumlah total kalimat asli vs kalimat direvisi.
+4. Pertanyaan substantif (data kurang, klaim lemah) dicatat terpisah di bawah tabel, bukan "diperbaiki" lewat penyuntingan.

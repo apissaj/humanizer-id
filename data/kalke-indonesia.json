@@ -1,8 +1,8 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
-    "title": "Kamus Terbuka Kalke & Penanda Gaya AI Bahasa Indonesia (Indonesian AI-Tells & Calques Dictionary)",
-    "version": "1.0.0",
+    "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
+    "version": "1.3.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -351,6 +351,132 @@
           "penjelasan": "Penutup utopis khas chatbot yang membesar-besarkan klaim tanpa bukti empiris.",
           "contoh_salah": "Sistem ini diharapkan dapat membawa dampak revolusioner bagi industri.",
           "contoh_benar": "Sistem ini diharapkan dapat meningkatkan efisiensi operasional industri logistik."
+        }
+      ]
+    },
+    "kata_baku_dan_morfologi": {
+      "deskripsi": "Kaidah pembentukan kata baku, peluluhan KTSP, dan leksikon ilmiah resmi sesuai EYD Edisi Kelima dan Kamus Besar Bahasa Indonesia (KBBI).",
+      "entri": [
+        {
+          "id": "BAK-001",
+          "pola": "mempengaruhi",
+          "saran_pengganti": [
+            "memengaruhi"
+          ],
+          "penjelasan": "Sesuai kaidah KTSP, fonem awal /p/ pada kata dasar 'pengaruh' yang diikuti vokal wajib luluh menjadi nasal /m/ (me- + pengaruh -> memengaruhi).",
+          "contoh_salah": "Variabel suhu dapat mempengaruhi laju reaksi.",
+          "contoh_benar": "Variabel suhu dapat memengaruhi laju reaksi."
+        },
+        {
+          "id": "BAK-002",
+          "pola": "merubah",
+          "saran_pengganti": [
+            "mengubah"
+          ],
+          "penjelasan": "Kata dasar adalah 'ubah', bukan 'rubah'. Imbuhan me- bertemu vokal /u/ menjadi meng- (mengubah).",
+          "contoh_salah": "Konfigurasi ini merubah alur lalu lintas data.",
+          "contoh_benar": "Konfigurasi ini mengubah alur lalu lintas data."
+        },
+        {
+          "id": "BAK-003",
+          "pola": "mensintesis",
+          "saran_pengganti": [
+            "menyintesis"
+          ],
+          "penjelasan": "Sesuai kaidah KTSP, fonem /s/ pada kata dasar 'sintesis' luluh menjadi /ny/ saat diimbuhkan me- (menyintesis).",
+          "contoh_salah": "Peneliti mensintesis senyawa polimer.",
+          "contoh_benar": "Peneliti menyintesis senyawa polimer."
+        },
+        {
+          "id": "BAK-004",
+          "pola": "mentargetkan",
+          "saran_pengganti": [
+            "menargetkan"
+          ],
+          "penjelasan": "Fonem /t/ pada kata dasar 'target' luluh menjadi /n/ saat diimbuhkan me- (menargetkan).",
+          "contoh_salah": "Pengembang mentargetkan latensi di bawah 50 ms.",
+          "contoh_benar": "Pengembang menargetkan latensi di bawah 50 ms."
+        },
+        {
+          "id": "BAK-005",
+          "pola": "analisa",
+          "saran_pengganti": [
+            "analisis"
+          ],
+          "penjelasan": "Bentuk baku serapan nomina bahasa Belanda/Inggris dengan akhiran -is / -ysis diserap menjadi -isis (analisis).",
+          "contoh_salah": "Analisa data dilakukan menggunakan Python.",
+          "contoh_benar": "Analisis data dilakukan menggunakan Python."
+        },
+        {
+          "id": "BAK-006",
+          "pola": "metodologi",
+          "saran_pengganti": [
+            "metode"
+          ],
+          "penjelasan": "Gunakan 'metode' untuk rangkaian prosedur atau teknik kerja teknis; 'metodologi' adalah ilmu/kajian teoretis tentang metode.",
+          "contoh_salah": "Metodologi pengujian yang digunakan adalah black-box testing.",
+          "contoh_benar": "Metode pengujian yang digunakan adalah pengujian kotak-hitam (black-box testing)."
+        },
+        {
+          "id": "BAK-007",
+          "pola": "praktek",
+          "saran_pengganti": [
+            "praktik"
+          ],
+          "penjelasan": "Bentuk baku KBBI adalah 'praktik' (tetapi 'praktis' untuk adjektiva).",
+          "contoh_salah": "Dalam praktek di industri, sistem ini jarang diterapkan.",
+          "contoh_benar": "Dalam praktik di industri, sistem ini jarang diterapkan."
+        },
+        {
+          "id": "BAK-008",
+          "pola": "resiko",
+          "saran_pengganti": [
+            "risiko"
+          ],
+          "penjelasan": "Bentuk baku lema KBBI adalah 'risiko' (diserap dari Dutch 'risico').",
+          "contoh_salah": "Penyimpangan data meningkatkan resiko kegagalan sistem.",
+          "contoh_benar": "Penyimpangan data meningkatkan risiko kegagalan sistem."
+        },
+        {
+          "id": "BAK-009",
+          "pola": "standarisasi",
+          "saran_pengganti": [
+            "standardisasi"
+          ],
+          "penjelasan": "Penyerapan dari standardization mempertahankan konsonan /d/ sebelum imbuhan -isasi (standardisasi).",
+          "contoh_salah": "Proses standarisasi protokol komunikasi data.",
+          "contoh_benar": "Proses standardisasi protokol komunikasi data."
+        },
+        {
+          "id": "BAK-010",
+          "pola": "efektifitas",
+          "saran_pengganti": [
+            "efektivitas"
+          ],
+          "penjelasan": "Akhiran -iteit atau -ity diserap menjadi -itas dengan konsonan /v/ (efektivitas, aktivitas, produktivitas).",
+          "contoh_salah": "Uji efisiensi dan efektifitas algoritma pencarian.",
+          "contoh_benar": "Uji efisiensi dan efektivitas algoritma pencarian."
+        },
+        {
+          "id": "BAK-011",
+          "pola": "pasca ",
+          "saran_pengganti": [
+            "pasca-",
+            "pasca[kata]"
+          ],
+          "penjelasan": "'Pasca' adalah bentuk terikat yang wajib ditulis serangkai dengan kata dasar yang mengikutinya (mis. pascabencana, pascapelatihan, pascadoktoral).",
+          "contoh_salah": "Evaluasi dilakukan pada tahap pasca pelatihan.",
+          "contoh_benar": "Evaluasi dilakukan pada tahap pascapelatihan."
+        },
+        {
+          "id": "BAK-012",
+          "pola": "antar ",
+          "saran_pengganti": [
+            "antar[kata]"
+          ],
+          "penjelasan": "'Antar' adalah bentuk terikat yang wajib digabungkan dengan kata berikutnya (antarkelompok, antarsimpul, antarmuka).",
+          "contoh_salah": "Komunikasi antar node berjalan secara asynchronous.",
+          "contoh_benar": "Komunikasi antarsimpul (*inter-node*) berjalan secara asinkron (*asynchronous*)."
         }
       ]
     }
