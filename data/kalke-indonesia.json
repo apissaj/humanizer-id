@@ -16,6 +16,23 @@
         "isbn": "978-623-388-439-6",
         "bab_relevan": "Bab VI: Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 188-234)"
       }
+    ],
+    "rujukan_pedoman_akademik": [
+      {
+        "nama": "Pedoman Penulisan Tugas Akhir dan Skripsi DIKE FMIPA UGM",
+        "rujukan": "Template Resmi DIKE UGM (vityasyyy/template-skripsi-dike-ugm)",
+        "fokus": "Format persamaan matematis, judul dwibahasa, pemisahan simpulan dan saran"
+      },
+      {
+        "nama": "Pedoman Teknis Penulisan Tugas Akhir Mahasiswa Universitas Indonesia (UI)",
+        "rujukan": "Mirror Template Skripsi UI (dnswd/latex-skripsi-ui)",
+        "fokus": "Kaidah sitasi bernomor, format tabel dan persamaan"
+      },
+      {
+        "nama": "PUEBI Daring (Pedoman Umum Ejaan Bahasa Indonesia Permendikbud 50/2015)",
+        "rujukan": "Dokumentasi Ivan Lanin (ivanlanin/puebi)",
+        "fokus": "Kaidah gabungan kata, bentuk ulang tanpa angka 2, akronim nama diri"
+      }
     ]
   },
   "kategori": {
@@ -531,6 +548,58 @@
           "penjelasan": "Gabungan kata dasar 'tanggung jawab' yang mendapat konfiks me-...-kan wajib ditulis serangkai (EYD V & PUEBI).",
           "contoh_salah": "Peneliti harus mempertanggung jawabkan metode sampling yang digunakan.",
           "contoh_benar": "Peneliti harus mempertanggungjawabkan metode sampling yang digunakan."
+        },
+        {
+          "id": "AKAD-001",
+          "pola": "rumus di atas",
+          "saran_pengganti": [
+            "Berdasarkan Persamaan (X)...",
+            "Sebagaimana dirumuskan pada Persamaan (X)..."
+          ],
+          "penjelasan": "Dalam tata tulis karya ilmiah baku (UGM & UI), persamaan matematis tidak boleh dirujuk dengan penunjuk spasial informal ('rumus di atas'), melainkan wajib bernomor spesifik dengan format: 'Persamaan (nomor)'.",
+          "contoh_salah": "Dapat dilihat pada rumus di atas bahwa nilai loss konvergen.",
+          "contoh_benar": "Sebagaimana disajikan pada Persamaan (3.2), fungsi kerugian (*loss*) mengalami konvergensi."
+        },
+        {
+          "id": "AKAD-002",
+          "pola": "persamaan di atas",
+          "saran_pengganti": [
+            "Persamaan (X)",
+            "sebagaimana disajikan pada Persamaan (X)"
+          ],
+          "penjelasan": "Gunakan penomoran presisi 'Persamaan (Bab.Nomor)' alih-alih penunjuk spasial.",
+          "contoh_salah": "Berdasarkan persamaan di atas, gradien bernilai nol.",
+          "contoh_benar": "Berdasarkan Persamaan (2.1), gradien bernilai nol."
+        },
+        {
+          "id": "AKAD-003",
+          "pola": "faktor2",
+          "saran_pengganti": [
+            "faktor-faktor"
+          ],
+          "penjelasan": "Bentuk ulang (reduplikasi) dalam karya tulis ilmiah wajib ditulis lengkap menggunakan tanda hubung (-), dilarang menggunakan angka 2 yang merupakan gaya pesan instan nonformal (Kaidah PUEBI & EYD V).",
+          "contoh_salah": "Terdapat beberapa faktor2 yang mempengaruhi latensi.",
+          "contoh_benar": "Terdapat beberapa faktor yang memengaruhi latensi."
+        },
+        {
+          "id": "AKAD-004",
+          "pola": "metode2",
+          "saran_pengganti": [
+            "metode-metode"
+          ],
+          "penjelasan": "Reduplikasi karya ilmiah wajib menggunakan tanda hubung penuh, bukan angka 2.",
+          "contoh_salah": "Peneliti menguji metode2 klasifikasi data.",
+          "contoh_benar": "Peneliti menguji berbagai metode klasifikasi data."
+        },
+        {
+          "id": "AKAD-005",
+          "pola": "langkah2",
+          "saran_pengganti": [
+            "langkah-langkah"
+          ],
+          "penjelasan": "Penulisan bentuk ulang wajib menggunakan tanda hubung penuh.",
+          "contoh_salah": "Berikut langkah2 ekstraksi fitur citra.",
+          "contoh_benar": "Berikut langkah-langkah ekstraksi fitur citra."
         }
       ]
     }

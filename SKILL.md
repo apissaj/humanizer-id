@@ -61,6 +61,8 @@ Tentukan mode kerja sebelum memulai penyuntingan. Bila tidak dinyatakan spesifik
    - Sudut pandang impersonal (tanpa pronomina *saya*/*kami*).
    - Kalimat pasif metodologi dipertahankan; sitasi terajut berbasis gagasan.
    - Kepatuhan penuh EYD V dan leksikon KBBI; nol pujian tanpa pembuktian data statistik.
+   - **Pemisahan Simpulan vs Saran:** Bagian Simpulan wajib menjawab rumusan masalah secara lugas berbasis data hasil pengujian; bagian Saran dikhususkan untuk limitasi teknis dan peluang riset lanjutan—tidak mencampurbaurkan opini pribadi atau harapan umum.
+   - **Judul & Abstrak Dwibahasa:** Judul skripsi/makalah dalam bahasa Indonesia dan bahasa Inggris harus selaras makna tanpa distorsi istilah kunci.
 2. **Mode Esai & Opini Populer (Artikel, Kolom, Blog):**
    - Sudut pandang penulis (*saya* atau *kami*) dipertahankan.
    - Ritme kalimat dinamis dan variatif; analogi konkret diperbolehkan asal tidak klise.
@@ -132,16 +134,20 @@ Hentikan pola kutipan nama berulang di awal kalimat (*“Menurut Pratama (2021).
 - **Hipotesis / Prakiraan:** Gunakan penanda probabilitas tunggal: *diduga, diproyeksikan, berpotensi*.
 - **Larangan Tumpukan Hedging:** Dilarang menumpuk modalitas ganda dalam satu klausa (*“data ini mungkin berpotensi dapat diindikasikan bahwa...”* → *“data ini mengindikasikan bahwa...”*).
 
-### F. Rujukan Tabel, Gambar, & Tipografi Teknis
-- **Hindari Penunjuk Spasial Semu:** Ubah *“tabel di bawah ini”* atau *“grafik di atas”* menjadi penunjuk bernomor ilmiah (*“Tabel 4.2”*, *“Gambar 3.1”*). Jangan mengarang nomor jika belum tersedia.
+### F. Rujukan Tabel, Gambar, Persamaan Matematis, & Tipografi Teknis
+- **Hindari Penunjuk Spasial Semu:**
+  - Tabel & Gambar: Ubah *“tabel di bawah ini”* atau *“grafik di atas”* menjadi penunjuk bernomor ilmiah (*“Tabel 4.2”*, *“Gambar 3.1”*). Jangan merekayasa nomor bila belum tersedia.
+  - Persamaan Matematis: Ganti rujukan informal *“rumus di atas”* atau *“persamaan berikut”* menjadi format baku: *“Berdasarkan Persamaan (3.1)...”* atau *“...sebagaimana dirumuskan pada Persamaan (2.4)”* (Pedoman Skripsi UGM & UI).
 - **Tipografi Teknis:**
-  - `monospace`: Perintah terminal (`npm run dev`), nama berkas (`config.json`), nama fungsi (`calculateStreaks()`).
-  - *Italic* (Cetak Miring): Istilah asing yang belum diserap KBBI (*overfitting*, *zero-shot*).
+  - `monospace`: Perintah terminal (`npm run dev`), nama berkas (`config.json`), nama fungsi (`calculateStreaks()`), blok kode.
+  - *Italic* (Cetak Miring): Istilah asing yang belum diserap resmi ke KBBI (*overfitting*, *zero-shot*, *loss function*).
   - Tegak: Istilah berpadanan baku (*basis data*, *tembolok*, *antarmuka*).
 
 ### G. Kaidah Morfologi Baku (EYD V & TBBBI)
 - **Peluluhan KTSP pada meN-:** *mempengaruhi* → **memengaruhi**; *merubah* → **mengubah**; *mensintesis* → **menyintesis**; *mentargetkan* → **menargetkan**. (Gugus konsonan rangkap tetap: *menstabilkan, mentransmisikan, mempraktikkan*).
 - **Bentuk Terikat Ditulis Serangkai:** *pascabencana, antarsimpul, multidisiplin, subbagian, nonformal*.
+- **Bentuk Ulang Wajib Tanda Hubung (Bukan Angka 2):** Tulis lengkap menggunakan tanda hubung (-), dilarang menggunakan angka 2 yang merupakan gaya pesan instan (*faktor-faktor* bukan *faktor2*; *metode-metode* bukan *metode2*). Bila sudah diawali kata penunjuk jamak (*berbagai, beberapa*), hindari perulangan ganda (*berbagai faktor*, bukan *berbagai faktor-faktor*).
+- **Akronim & Singkatan Resmi:** Akronim nama diri yang terdiri atas lebih dari 3 huruf ditulis dengan huruf kapital di awal saja (*Bappenas*, *Kowani*, *Batan*). Akronim bukan nama diri ditulis dengan huruf kecil seluruhnya (*tilang*, *rudal*, *sonar*). Singkatan gelar atau sapaan diakhiri tanda titik (*S.T.*, *M.T.*, *Prof.*, *Dr.*).
 - **Partikel *pun* Ditulis Terpisah:** *apa pun, data ini pun*, kecuali pada 12 kata hubung baku leksikal (*meskipun, adapun, maupun, biarpun, walaupun*).
 - **Larangan Preposisi Perusak Subjek:** *“Dalam penelitian ini menunjukkan...”* salah; perbaiki menjadi *“Penelitian ini menunjukkan...”* atau pasif baku *“Dalam penelitian ini ditunjukkan...”*.
 - **Bentuk Baku KBBI:** *analisis* (bukan analisa), *praktik* (bukan praktek), *risiko* (bukan resiko), *standardisasi* (bukan standarisasi), *efektivitas* (bukan efektifitas), *metode* untuk rangkaian kerja (bukan metodologi).
