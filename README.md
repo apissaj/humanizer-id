@@ -81,14 +81,13 @@ git clone https://github.com/apissaj/humanizer-id.git .agents/skills/humanizer-i
 
 ---
 
-## Kamus Terbuka Kalke & Verba Ringan (`data/`)
+## Kamus Terbuka & Glosarium Lintas Bidang (`data/`)
 
-Repositori ini menyediakan dataset terbuka berupa leksikon dan pola sintaksis terstruktur di [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json) yang dapat dimanfaatkan untuk riset pemrosesan bahasa alami (NLP), pembuatan pustaka linter, atau fine-tuning model bahasa Indonesia.
+Repositori ini menyediakan dataset terbuka berupa leksikon dan pola sintaksis terstruktur:
+- [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json): 40 entri leksikon kalke terjemahan mesin, verba ringan, pola antisipatif AI, dan kaidah morfologi peluluhan KTSP resmi EYD V.
+- [**`data/glosarium-lintas-bidang.json`**](data/glosarium-lintas-bidang.json): 45+ padanan istilah baku dari berbagai kalangan profesional (Teknologi & Software, Hukum & Regulasi, Jurnalistik & Media Siber, serta Bisnis & Manajemen).
 
-Setiap entri memuat:
-- Pola frasa pemicu dan asal frasa bahasa Inggris (*calque translationese*).
-- Alternatif saran pengganti baku dan luwes.
-- Rujukan kaidah linguistik serta contoh perbandingan sebelum dan sesudah.
+Panduan register dan gaya penulisan mendalam untuk tiap kalangan tersedia di dokumen [**`references/panduan-gaya-lintas-kalangan.md`**](references/panduan-gaya-lintas-kalangan.md).
 
 ---
 

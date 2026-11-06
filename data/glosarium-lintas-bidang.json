@@ -1,0 +1,284 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "title": "Glosarium Istilah Baku & Padanan Lintas Kalangan (Teknologi, Hukum, Jurnalistik, Bisnis)",
+    "version": "1.0.0",
+    "author": "Hafizh Muzani (apissaj)",
+    "license": "MIT",
+    "description": "Kompilasi padanan istilah asing, kaidah register, dan diksi baku bahasa Indonesia dari berbagai kalangan profesi: akademisi, rekayasawan perangkat lunak, praktisi hukum, jurnalis, dan eksekutif bisnis."
+  },
+  "bidang": {
+    "teknologi_dan_rekayasa": {
+      "deskripsi": "Istilah baku bidang informatika, rekayasa perangkat lunak, dan kecerdasan buatan.",
+      "istilah": [
+        {
+          "asing": "API (Application Programming Interface)",
+          "baku": "antarmuka pemrograman aplikasi",
+          "catatan": "Boleh disingkat API dalam teks teknis."
+        },
+        {
+          "asing": "cache",
+          "baku": "tembolok",
+          "catatan": "Penyimpanan sementara berkecepatan tinggi."
+        },
+        {
+          "asing": "database",
+          "baku": "basis data",
+          "catatan": "Bukan data base atau pangkalan data."
+        },
+        {
+          "asing": "framework",
+          "baku": "kerangka kerja",
+          "catatan": "Misalnya kerangka kerja Next.js atau Flutter."
+        },
+        {
+          "asing": "front-end",
+          "baku": "sisi depan / antarmuka pengguna",
+          "catatan": "Gunakan istilah asli jika merujuk judul posisi pekerjaan (Front-End Engineer)."
+        },
+        {
+          "asing": "backend",
+          "baku": "sisi belakang / punggung sistem",
+          "catatan": "Arsitektur server dan pengolahan data."
+        },
+        {
+          "asing": "deployment",
+          "baku": "penerapan / penyebaran sistem",
+          "catatan": "Tahap pelepasan kode ke server produksi."
+        },
+        {
+          "asing": "default",
+          "baku": "bawaan / standar",
+          "catatan": "Nilai atau setelan awal sistem."
+        },
+        {
+          "asing": "stream",
+          "baku": "aliran data / pengaliran",
+          "catatan": "Misalnya pengaliran audio atau respons LLM beruntun."
+        },
+        {
+          "asing": "concurrency",
+          "baku": "konkurensi / keserempakan",
+          "catatan": "Kemampuan pemrosesan beberapa tugas secara bersamaan."
+        },
+        {
+          "asing": "latency",
+          "baku": "latensi / jeda waktu",
+          "catatan": "Durasi respons komputasi."
+        },
+        {
+          "asing": "throughput",
+          "baku": "keluaran daya tampung / laju lalu-lalang",
+          "catatan": "Jumlah data/transaksi per satuan waktu."
+        },
+        {
+          "asing": "load balancing",
+          "baku": "penyeimbangan beban",
+          "catatan": "Distribusi beban komputasi antarsimpul server."
+        },
+        {
+          "asing": "middleware",
+          "baku": "peranti tengah",
+          "catatan": "Lapisan perantara antarkomponen aplikasi."
+        },
+        {
+          "asing": "payload",
+          "baku": "muatan data",
+          "catatan": "Isi paket transmisi jaringan."
+        },
+        {
+          "asing": "repository",
+          "baku": "repositori / lumbung kode",
+          "catatan": "Tempat penyimpanan kode sumber."
+        },
+        {
+          "asing": "open source",
+          "baku": "sumber terbuka",
+          "catatan": "Bukan sumber bebas."
+        },
+        {
+          "asing": "tokenization",
+          "baku": "penokenan",
+          "catatan": "Proses pemecahan teks menjadi token dalam NLP."
+        },
+        {
+          "asing": "prompt engineering",
+          "baku": "rekayasa instruksi / rekayasa prompt",
+          "catatan": "Penyusunan konteks input model bahasa."
+        },
+        {
+          "asing": "fine-tuning",
+          "baku": "penyetelan halus",
+          "catatan": "Penyesuaian parameter model terarah."
+        }
+      ]
+    },
+    "hukum_dan_regulasi": {
+      "deskripsi": "Kaidah dan istilah baku dalam register hukum perdata, pidana, dan administrasi negara.",
+      "istilah": [
+        {
+          "asing": "legal standing",
+          "baku": "kedudukan hukum",
+          "catatan": "Kapasitas hukum pihak untuk mengajukan permohonan/gugatan."
+        },
+        {
+          "asing": "force majeure",
+          "baku": "keadaan kahar",
+          "catatan": "Kondisi luar biasa di luar kendali kontraktual para pihak."
+        },
+        {
+          "asing": "dissenting opinion",
+          "baku": "pendapat berbeda",
+          "catatan": "Pertimbangan hakim yang berbeda dari putusan mayoritas."
+        },
+        {
+          "asing": "pro bono",
+          "baku": "bantuan hukum cuma-cuma",
+          "catatan": "Layanan tanpa pungutan biaya demi kepentingan publik."
+        },
+        {
+          "asing": "due diligence",
+          "baku": "uji tuntas",
+          "catatan": "Investigasi kepatuhan dan risiko bisnis/hukum."
+        },
+        {
+          "asing": "compliance",
+          "baku": "kepatuhan",
+          "catatan": "Kesesuaian operasional terhadap regulasi."
+        },
+        {
+          "asing": "non-disclosure agreement (NDA)",
+          "baku": "perjanjian kerahasiaan informasi",
+          "catatan": "Kontrak perlindungan data privat."
+        },
+        {
+          "asing": "dispute settlement",
+          "baku": "penyelesaian sengketa",
+          "catatan": "Melalui arbitrase atau pengadilan."
+        },
+        {
+          "asing": "concurring opinion",
+          "baku": "pendapat searah",
+          "catatan": "Alasan berbeda namun amar putusan sama."
+        },
+        {
+          "asing": "subpoena",
+          "baku": "surat panggilan pengadilan",
+          "catatan": "Perintah resmi menghadap pengadilan."
+        }
+      ]
+    },
+    "jurnalistik_dan_media": {
+      "deskripsi": "Kaidah ekonomi kata dan eliminasi ungkapan jenuh dalam bahasa jurnalistik modern.",
+      "istilah": [
+        {
+          "asing": "breaking news",
+          "baku": "berita sela / kabar kilat",
+          "catatan": "Laporan peristiwa penting yang baru saja terjadi."
+        },
+        {
+          "asing": "coverage",
+          "baku": "liputan",
+          "catatan": "Peliputan peristiwa oleh reporter."
+        },
+        {
+          "asing": "off the record",
+          "baku": "bukan untuk disiarkan / tertutup",
+          "catatan": "Informasi latar tanpa atribusi langsung."
+        },
+        {
+          "asing": "fact-checking",
+          "baku": "pemeriksaan fakta / verifikasi fakta",
+          "catatan": "Kroscek silang validitas berita."
+        },
+        {
+          "asing": "clickbait",
+          "baku": "umpan klik",
+          "catatan": "Judul sensasional penarik lalu lintas pembaca."
+        }
+      ],
+      "kaidah_ekonomi_kata": [
+        {
+          "jenuh": "dapat disampaikan bahwa",
+          "lugas": "[dihapus / langsung sebutkan informasinya]",
+          "alasan": "Basa-basi verbal yang memperlambat kalimat."
+        },
+        {
+          "jenuh": "sementara itu, di tempat yang berbeda",
+          "lugas": "di sisi lain / secara terpisah",
+          "alasan": "Klise formulaik laporan reporter lapangan."
+        },
+        {
+          "jenuh": "mengembuskan napas terakhir",
+          "lugas": "wafat / meninggal dunia",
+          "alasan": "Eufemisme sastrawi yang berlebihan pada berita lugas."
+        },
+        {
+          "jenuh": "ditemukan dalam kondisi sudah tidak bernyawa",
+          "lugas": "ditemukan tewas / meninggal",
+          "alasan": "Verbositas hukum yang memperpanjang judul berita."
+        },
+        {
+          "jenuh": "melakukan peninjauan secara langsung ke lapangan",
+          "lugas": "meninjau lokasi",
+          "alasan": "Pemborosan kata pleonasme."
+        }
+      ]
+    },
+    "bisnis_dan_manajemen": {
+      "deskripsi": "Padanan lugas untuk jargon korporat (corporate buzzwords) yang sering membingungkan pembaca.",
+      "istilah": [
+        {
+          "asing": "synergy",
+          "baku": "keselarasan kerja / kolaborasi terpadu",
+          "catatan": "Hindari sekadar menulis 'sinergitas' tanpa ukuran output."
+        },
+        {
+          "asing": "leverage",
+          "baku": "memanfaatkan / mendayagunakan",
+          "catatan": "Bukan 'mengungkit' pada konteks manajerial."
+        },
+        {
+          "asing": "stakeholder",
+          "baku": "pemangku kepentingan",
+          "catatan": "Bukan pemegang saham (shareholder)."
+        },
+        {
+          "asing": "pivot",
+          "baku": "pengalihan strategi / perubahan haluan",
+          "catatan": "Perubahan model bisnis secara mendasar."
+        },
+        {
+          "asing": "scalability",
+          "baku": "keterukuran / skalabilitas",
+          "catatan": "Kemampuan sistem tumbuh tanpa hambatan biaya linier."
+        },
+        {
+          "asing": "sustainable",
+          "baku": "berkelanjutan",
+          "catatan": "Tahan lama dan ramah lingkungan/operasional."
+        },
+        {
+          "asing": "deliverables",
+          "baku": "hasil serahan / luaran proyek",
+          "catatan": "Artefak konkret yang harus diserahkan ke klien."
+        },
+        {
+          "asing": "onboarding",
+          "baku": "orientasi pengguna / pengenalan sistem",
+          "catatan": "Proses adaptasi anggota/pengguna baru."
+        },
+        {
+          "asing": "roadmap",
+          "baku": "peta jalan",
+          "catatan": "Rencana tahapan jangka panjang."
+        },
+        {
+          "asing": "milestone",
+          "baku": "tonggak capaian",
+          "catatan": "Titik evaluasi penting dalam linimasa proyek."
+        }
+      ]
+    }
+  }
+}

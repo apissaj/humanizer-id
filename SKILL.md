@@ -195,6 +195,18 @@ Sitasi dalam naskah ilmiah tidak boleh mengikuti pola formulaik berulang AI ("Me
 - Jangan menaikkan derajat kepastian: "mengindikasikan" tidak boleh diganti "membuktikan"; harapan tidak boleh menjadi hasil.
 - Jangan menurunkan kepastian temuan yang sudah empiris. Hasil pengujian tetap "menunjukkan", bukan "diduga menunjukkan".
 
+## Panduan Gaya Lintas Kalangan
+
+Untuk audit naskah lintas profesi, rujuk `references/panduan-gaya-lintas-kalangan.md`. Panduan ini memetakan kaidah spesifik lima domain:
+
+1. **Akademik:** Sitasi terajut, preposisi non-pembunuh subjek, dan larangan pujian tanpa data statistik.
+2. **Teknologi:** Konsistensi padanan leksikon teknis (tembolok, basis data, antarmuka pemrograman aplikasi) dan eliminasi kalke terminologi (*respecting boundaries* -> *selaras dengan batas*).
+3. **Hukum:** Pembedaan modalitas kewajiban (wajib/harus/dapat) dan larangan perapian struktur kalimat perjanjian berlapis.
+4. **Jurnalistik:** Prinsip ekonomi kata, eliminasi ungkapan jenuh ("dapat disampaikan bahwa" -> langsung ke inti).
+5. **Bisnis:** Pembersihan jargon korporat kabur ("sinergi" -> "kolaborasi terpadu", "leverage" -> "mendayagunakan").
+
+Padanan istilah terstruktur per bidang tersedia di `data/glosarium-lintas-bidang.json`.
+
 ## Kaidah Tata Bahasa Baku (EYD V & TBBBI)
 
 Rujukan kaidah resmi tersedia di `references/pedoman-kebahasaan-resmi.md`. Aturan pendek yang paling sering melanggar pada naskah AI:
