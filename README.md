@@ -14,6 +14,8 @@ Kekakuan tulisan AI bahasa Indonesia jarang disebabkan oleh kesalahan tata bahas
 2. **Kalke (*Calque*) terjemahan mesin:** Model berpikir dalam bahasa Inggris lalu menerjemahkan klausa demi klausa (*“respecting boundaries”* diterjemahkan mentah menjadi *“menghormati batas”*).
 3. **Penyangkalan antisipatif:** Pola khas AI seperti *“Meskipun X, bukan berarti Y...”* yang menyangkal hal yang tidak ditanyakan pembaca.
 4. **Fragmentasi kalimat monoton:** Kalimat-kalimat pendek satu klausa yang berderet patah-patah (*staccato*).
+5. **Monotoni pembuka antar-paragraf:** Konjungsi transisi mekanis berulang di awal tiap paragraf (*Selain itu,... Lebih lanjut,... Oleh karena itu,...*).
+6. **Transisi kopong (ilusi keterhubungan):** Kata sambung kausalitas palsu (*"Dengan demikian, hal ini membuktikan..."*) tanpa premis data yang cukup.
 
 ---
 
