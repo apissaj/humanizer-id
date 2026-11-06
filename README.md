@@ -79,6 +79,32 @@ git clone https://github.com/apissaj/humanizer-id.git .agents/skills/humanizer-i
 
 ---
 
+---
+
+## Kamus Terbuka Kalke & Verba Ringan (`data/`)
+
+Repositori ini menyediakan dataset terbuka berupa leksikon dan pola sintaksis terstruktur di [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json) yang dapat dimanfaatkan untuk riset pemrosesan bahasa alami (NLP), pembuatan pustaka linter, atau fine-tuning model bahasa Indonesia.
+
+Setiap entri memuat:
+- Pola frasa pemicu dan asal frasa bahasa Inggris (*calque translationese*).
+- Alternatif saran pengganti baku dan luwes.
+- Rujukan kaidah linguistik serta contoh perbandingan sebelum dan sesudah.
+
+---
+
+## Alat Pemindai Mandiri (*CLI Auditor*)
+
+Tersedia skrip audit cepat tanpa dependensi eksternal (100% pustaka standar Python) untuk memindai dokumen Markdown atau teks secara lokal:
+
+```bash
+# Uji coba dengan teks sampel demo
+python scripts/audit.py --demo
+
+# Pindai naskah skripsi atau artikel Anda
+python scripts/audit.py path/ke/naskah.md
+```
+Skrip akan mencetak nomor baris, pola kalke atau verba ringan yang terdeteksi, saran perbaikan, dan catatan kaidah editorialnya secara seketika.
+
 ## Prinsip Integritas Ilmiah
 
 - **Nol Fabrikasi Data:** Tidak menambahkan angka, parameter uji, atau sitasi baru yang tidak ada pada draf asli penulis demi membuat kalimat terkesan mendalam.
