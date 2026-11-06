@@ -29,8 +29,6 @@ Gunakan instruksi seperti “sunting teks ini dengan gaya akademik lugas”, “
 **Sesudah:**
 > Penelitian ini menunjukkan bahwa sistem dapat menyimpan berkas dan menampilkan daftar berkas.
 
-## Lisensi dan atribusi
+## Lisensi
 
 Perangkat lunak ini dilisensikan di bawah [Lisensi MIT](LICENSE) © 2026 Hafizh Muzani.
-
-Panduan ini memadukan materi penyuntingan bahasa Indonesia dengan adaptasi pola editorial dari [blader/humanizer](https://github.com/blader/humanizer) karya Siqi Chen (Lisensi MIT, © 2025 Siqi Chen). Pemberitahuan lisensi asli disertakan dalam file `LICENSE`.\n
