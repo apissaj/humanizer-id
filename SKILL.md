@@ -145,6 +145,11 @@ Hentikan pola kutipan nama berulang di awal kalimat (*“Menurut Pratama (2021).
 - **Partikel *pun* Ditulis Terpisah:** *apa pun, data ini pun*, kecuali pada 12 kata hubung baku leksikal (*meskipun, adapun, maupun, biarpun, walaupun*).
 - **Larangan Preposisi Perusak Subjek:** *“Dalam penelitian ini menunjukkan...”* salah; perbaiki menjadi *“Penelitian ini menunjukkan...”* atau pasif baku *“Dalam penelitian ini ditunjukkan...”*.
 - **Bentuk Baku KBBI:** *analisis* (bukan analisa), *praktik* (bukan praktek), *risiko* (bukan resiko), *standardisasi* (bukan standarisasi), *efektivitas* (bukan efektifitas), *metode* untuk rangkaian kerja (bukan metodologi).
+- **Konfiks Gabungan Kata Serangkai:** *menggarisbawahi* (bukan *menggaris bawahi*), *mempertanggungjawabkan* (bukan *mempertanggung jawabkan*). Gabungan kata yang mendapat awalan dan akhiran sekaligus wajib ditulis rapat.
+- **Satuan Ukur Setelah Angka:** *50 cm* (bukan *50cm*), *240 MHz*, *5 kg*.
+- **Makna Denotatif Karya Ilmiah:** Kata dipakai sesuai makna kamus (denotatif), bukan konotatif/kiasan (*raja hutan* untuk harimau termasuk gaya populer, bukan karya ilmiah). Rubrik resmi buku teks menurunkan nilai bila terdapat kata ganti orang pertama.
+
+> **Rujukan buku teks resmi:** Kaidah di atas diekstrak dari buku *Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/MA/SMK/MAK Kelas XI* (Edisi Revisi, Kemendikbudristek, 2024; ISBN 978-623-388-439-6), Bab VI hlm. 210–215. Detail contoh salah→benar lengkap tersedia di `references/ekstrak-buku-teks-kemdikbud.md`, dan empat entri baru (`BSE-001`–`BSE-004`) sudah aktif di `data/kalke-indonesia.json` serta terdeteksi oleh `scripts/audit.py`.
 
 ---
 

@@ -6,7 +6,17 @@
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
-    "description": "Koleksi leksikal dan sintaksis terstruktur untuk mendeteksi kalke terjemahan mesin, verba ringan (light verbs), pleonasme, dan retorika formulaik khas teks keluaran LLM dalam bahasa Indonesia."
+    "description": "Koleksi leksikal dan sintaksis terstruktur untuk mendeteksi kalke terjemahan mesin, verba ringan (light verbs), pleonasme, dan retorika formulaik khas teks keluaran LLM dalam bahasa Indonesia.",
+    "rujukan_buku_resmi": [
+      {
+        "judul": "Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/MA/SMK/MAK Kelas XI (Edisi Revisi)",
+        "penulis": "Heny Marwati, K. Waskitaningtyas",
+        "penerbit": "Pusat Kurikulum dan Perbukuan, Kemendikbudristek RI",
+        "tahun": 2024,
+        "isbn": "978-623-388-439-6",
+        "bab_relevan": "Bab VI: Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 188-234)"
+      }
+    ]
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -351,6 +361,30 @@
           "penjelasan": "Penutup utopis khas chatbot yang membesar-besarkan klaim tanpa bukti empiris.",
           "contoh_salah": "Sistem ini diharapkan dapat membawa dampak revolusioner bagi industri.",
           "contoh_benar": "Sistem ini diharapkan dapat meningkatkan efisiensi operasional industri logistik."
+        },
+        {
+          "id": "BSE-001",
+          "pola": "adalah merupakan",
+          "saran_pengganti": [
+            "merupakan",
+            "adalah"
+          ],
+          "penjelasan": "Pemakaian kopula ganda bertumpuk (adalah + merupakan) melanggar prinsip kehematan dan predikat tunggal kalimat efektif karya ilmiah (Rujukan: Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 213).",
+          "contoh_salah": "Paphiopedilum violascens adalah anggrek berkantung cantik, merupakan spesies endemik.",
+          "contoh_benar": "Paphiopedilum violascens merupakan spesies anggrek endemik."
+        },
+        {
+          "id": "BSE-002",
+          "pola": "di mana",
+          "saran_pengganti": [
+            "; pada kondisi ini",
+            ", tempat",
+            "sehingga",
+            ". Pada peristiwa ini"
+          ],
+          "penjelasan": "'Di mana' adalah kata tanya tempat, bukan kata sambung klausa penjelas dalam ragam bahasa karya ilmiah (Rujukan: Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 210).",
+          "contoh_salah": "Perjumpaan dengan sarang cukup menarik, di mana orang utan memanfaatkan pohon yang sama.",
+          "contoh_benar": "Perjumpaan dengan sarang cukup menarik karena orang utan memanfaatkan pohon yang sama."
         }
       ]
     },
@@ -477,6 +511,26 @@
           "penjelasan": "'Antar' adalah bentuk terikat yang wajib digabungkan dengan kata berikutnya (antarkelompok, antarsimpul, antarmuka).",
           "contoh_salah": "Komunikasi antar node berjalan secara asynchronous.",
           "contoh_benar": "Komunikasi antarsimpul (*inter-node*) berjalan secara asinkron (*asynchronous*)."
+        },
+        {
+          "id": "BSE-003",
+          "pola": "menggaris bawahi",
+          "saran_pengganti": [
+            "menggarisbawahi"
+          ],
+          "penjelasan": "Gabungan kata yang mendapat awalan dan akhiran sekaligus (konfiks me-...-i) wajib ditulis serangkai tanpa spasi (EYD V & PUEBI).",
+          "contoh_salah": "Temuan ini menggaris bawahi pentingnya validasi instrumen.",
+          "contoh_benar": "Temuan ini menggarisbawahi pentingnya validasi instrumen."
+        },
+        {
+          "id": "BSE-004",
+          "pola": "mempertanggung jawabkan",
+          "saran_pengganti": [
+            "mempertanggungjawabkan"
+          ],
+          "penjelasan": "Gabungan kata dasar 'tanggung jawab' yang mendapat konfiks me-...-kan wajib ditulis serangkai (EYD V & PUEBI).",
+          "contoh_salah": "Peneliti harus mempertanggung jawabkan metode sampling yang digunakan.",
+          "contoh_benar": "Peneliti harus mempertanggungjawabkan metode sampling yang digunakan."
         }
       ]
     }
