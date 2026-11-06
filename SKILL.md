@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 1.3.0
+version: 1.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -141,6 +141,43 @@ Kenali dan bersihkan pola khas LLM berikut:
 25. **Bentuk kata baku:** Verifikasi ejaan baku merujuk pada pedoman resmi (EYD) dan KBBI.
 
 ---
+
+## Empat Mode Eksekusi Editorial
+
+Sebelum menyunting, tentukan mode kerja dari jenis naskah atau permintaan pengguna. Bila tidak jelas, pilih mode yang paling sempit dan sebutkan mode yang dipakai di awal luaran.
+
+1. **Mode Akademik Ketat** (skripsi, tesis, jurnal, proposal):
+   - Sudut pandang impersonal; tanpa "saya" kecuali pedoman prodi mengizinkan.
+   - Kalimat pasif metodologi dipertahankan; sitasi terajut berbasis gagasan.
+   - Kepatuhan penuh EYD V & KBBI; larangan pujian tanpa data.
+2. **Mode Esai & Opini** (artikel populer, blog, esai):
+   - Sudut pandang penulis boleh dipertahankan; ritme kalimat divariasikan (fusi kalimat tetap berlaku).
+   - Analogi dan metafora segar boleh, asal tidak klise dan tidak mengaburkan gagasan.
+   - Kaidah baku tetap dipakai, tetapi kekakuan struktural akademik tidak dipaksakan.
+3. **Mode Bisnis & Eksekutif** (laporan manajemen, proposal kerja sama, memo):
+   - Orientasi aksi: buang basa-basi pembuka dan penutup khotbah.
+   - Konversi paragraf bertele-tele menjadi butir ringkas yang bisa ditindaklanjuti, dengan izin pengguna.
+   - Padanan istilah mengikuti `data/glosarium-lintas-bidang.json` (domain bisnis/teknologi/hukum).
+4. **Mode Koreksi Minimal (Proofread Only):**
+   - Hanya perbaiki salah ketik, tanda baca, kata nonbaku (KTSP/KBBI), dan kapitalisasi.
+   - Struktur kalimat, pilihan kata yang sudah baku, urutan paragraf, dan gaya penulis tidak disentuh.
+   - Cocok untuk naskah yang sudah final atau penulis yang hanya butuh pemeriksaan ejaan.
+
+## Penunjukan Tabel & Gambar (*Cross-Referencing*)
+
+Penunjuk spasial semu adalah kesalahan format ilmiah karena posisi tabel/gambar bisa bergeser saat tata letak:
+
+- **Salah:** *"Dapat dilihat pada tabel di bawah ini bahwa..."*, *"Berdasarkan grafik di atas..."*.
+- **Baku:** *"Sebagaimana disajikan pada Tabel 4.2..."*, *"Data hasil pengujian (Gambar 3.1) menunjukkan..."*.
+
+Aturan integritas: bila naskah asli belum memberi nomor tabel/gambar, jangan mengarang nomor. Gunakan penanda konfirmasi di luar revisi (misal: *"beri nomor tabel pada tabel hasil pengujian, lalu rujuk sebagai Tabel X"*) dan biarkan penulis menetapkan nomornya.
+
+## Tipografi Teknis (*Monospace* vs *Italic* vs Tegak)
+
+1. **Monospace (format kode):** sintaks program, perintah terminal (`npm run build`), nama berkas (`config.json`), nama fungsi (`calculateStreaks()`), kunci JSON. Jangan diterjemahkan dan jangan dimiringkan.
+2. **Cetak miring (*italic*):** istilah asing yang belum terserap ke KBBI (*overfitting*, *zero-shot*, *edge case*). Konsisten dari awal sampai akhir dokumen.
+3. **Tegak (roman):** istilah yang sudah punya padanan baku yang dipilih (*basis data*, *tembolok*, *antarmuka*). Sekali memilih padanan, jangan berganti-ganti.
+4. Nama produk, merek, dan organisasi memakai kapitalisasi aslinya tanpa miring (*Docker*, *GitHub*, *ChatGPT*).
 
 ## Prosedur Kerja Tiga Tahap
 
