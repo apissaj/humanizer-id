@@ -163,7 +163,8 @@ Tampilkan hasil penyuntingan dalam struktur berikut:
 ## Tooling & Aset Pendukung
 
 Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menyediakan berkas pendukung terstruktur:
-- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (28+ entri) untuk pola kalke terjemahan mesin, verba ringan, dan retorika klise AI beserta padanan alaminya.
+- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (40 entri) untuk pola kalke terjemahan mesin, verba ringan, retorika klise AI, dan kaidah morfologi baku KTSP/KBBI beserta padanan alaminya.
+- **`data/glosarium-lintas-bidang.json`**: Glosarium terstruktur 45+ padanan istilah baku lintas profesi (teknologi, hukum, jurnalistik, bisnis) yang ikut dimuat otomatis oleh `scripts/audit.py`.
 - **`scripts/audit.py`**: Skrip CLI auditor berbasis pustaka standar Python (tanpa dependensi luar) untuk mendeteksi penanda kalke dan verba ringan pada dokumen naskah secara lokal:
   ```bash
   python scripts/audit.py path/ke/dokumen.md
