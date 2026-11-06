@@ -160,6 +160,19 @@ Tampilkan hasil penyuntingan dalam struktur berikut:
 
 ---
 
+## Tooling & Aset Pendukung
+
+Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menyediakan berkas pendukung terstruktur:
+- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (28+ entri) untuk pola kalke terjemahan mesin, verba ringan, dan retorika klise AI beserta padanan alaminya.
+- **`scripts/audit.py`**: Skrip CLI auditor berbasis pustaka standar Python (tanpa dependensi luar) untuk mendeteksi penanda kalke dan verba ringan pada dokumen naskah secara lokal:
+  ```bash
+  python scripts/audit.py path/ke/dokumen.md
+  python scripts/audit.py --demo
+  ```
+- **`PROMPT.md`**: Template sistem prompt siap salin untuk antarmuka web ChatGPT Custom Instructions dan Claude Projects.
+
+---
+
 ## Rujukan Dasar
 
 - [EYD Resmi](https://ejaan.kemdikbud.go.id/) — Acuan standar ejaan dan tanda baca bahasa Indonesia.
