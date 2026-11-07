@@ -324,6 +324,27 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### T. Lima Ciri Kalimat Efektif & Lima Rambu-rambu Paragraf (Rujukan Sasangka & Suladi, Seri Penyuluhan Badan Bahasa 2019)
+
+1. **Kehematan — Ganda Jamak:**
+   - Penanda jamak (*beberapa, berbagai, para, semua*) tidak boleh menemani reduplikasi jamak (*temuan-temuan, faktor-faktor*).
+   - *Salah:* *"beberapa temuan-temuan penting"* → *Baku:* *"beberapa temuan penting"*.
+2. **Kehematan — Redundansi Sinonim:**
+   - *tersebut* dan *di atas* bermakna sama; pilih satu. *sebagaimana tersebut di atas* → *tersebut*.
+3. **Kehematan — Duplikasi Subjek-Predikat:**
+   - Hindari bentuk mirip subjek-predikat (*gaji karyawan... digaji*): ganti predikat (*dibayarkan*) atau ubah subjek.
+4. **Kelugasan — Frasa Mubazir:**
+   - Tanggalkan *mau tidak mau*, *itu sendiri*, *dapat dikatakan bahwa*.
+5. **Kesejajaran — Paralelisme Klausa Majemuk:**
+   - Konjungsi koordinatif (*dan, tetapi, atau*) wajib menghubungkan klausa sejajar (S-P dengan S-P; pasif dengan pasif).
+   - Larangan keras: koordinatif menghubungkan klausa utama dengan klausa subordinatif (*..., tetapi karena..., ...*).
+6. **Kesatuan & Kepaduan Paragraf (Suladi):**
+   - Satu paragraf satu gagasan utama; gagasan menyimpang (digresi) dikeluarkan atau dipecah.
+   - Antar kalimat wajib ada peranti kohesi (konjungsi, referensi, substitusi, elipsis, leksikal).
+   - Dalam karya ilmiah, kalimat topik eksplisit (bukan tersirat).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

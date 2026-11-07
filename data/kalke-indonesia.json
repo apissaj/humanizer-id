@@ -103,6 +103,18 @@
         "penulis": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN",
         "penerbit": "Kemendikbudristek, 2020",
         "bab_relevan": "Kegiatan Pembelajaran 3 (hlm. 17-19): 9 kaidah kebahasaan karya ilmiah (impersonal, denotatif, kata baku, istilah, verba mental)"
+      },
+      {
+        "judul": "Kalimat: Seri Penyuluhan Bahasa Indonesia (Edisi Revisi)",
+        "penulis": "Sry Satriya Tjatur Wisnu Sasangka",
+        "penerbit": "Pusat Pembinaan Bahasa dan Sastra, Badan Pengembangan Bahasa dan Perbukuan, 2019",
+        "bab_relevan": "Bab 3 (hlm. 63-95): 5 Ciri Kalimat Efektif (Kelugasan, Ketepatan, Kejelasan, Kehematan, Kesejajaran)"
+      },
+      {
+        "judul": "Paragraf: Buku Seri Penyuluhan Bahasa Indonesia (Edisi Revisi)",
+        "penulis": "Suladi",
+        "penerbit": "Pusat Pembinaan Bahasa dan Sastra, Badan Pengembangan Bahasa dan Perbukuan, 2019",
+        "bab_relevan": "Bab 1 (hlm. 13-45): 5 Syarat Paragraf yang Baik (Kesatuan, Kepaduan, Ketuntasan, Keruntutan, Konsistensi Sudut Pandang)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -732,6 +744,50 @@
           "penjelasan": "Karya ilmiah banyak menggunakan kata kerja mental dalam bentuk pasif: diduga, dianalisis, dipahami (Modul Kemendikbud Direktorat SMA 2020, KD 3.14/3.15, hlm. 18).",
           "contoh_salah": "Kami berasumsi bahwa faktor X memengaruhi hasil.",
           "contoh_benar": "Diduga faktor X memengaruhi hasil."
+        },
+        {
+          "id": "SPB-001",
+          "pola": "ganda jamak (penanda jamak + kata ulang)",
+          "saran_pengganti": [
+            "beberapa temuan",
+            "temuan-temuan",
+            "berbagai faktor",
+            "faktor-faktor"
+          ],
+          "penjelasan": "Penggunaan penanda jamak (beberapa, berbagai, para, semua) bersamaan dengan kata ulang reduplikasi jamak melanggar asas kehematan kalimat efektif (Sasangka, 2019, hlm. 86).",
+          "contoh_salah": "penelitian ini mengungkapkan beberapa temuan-temuan",
+          "contoh_benar": "penelitian ini mengungkapkan beberapa temuan (atau temuan-temuan)"
+        },
+        {
+          "id": "SPB-002",
+          "pola": "frasa klise penegas 'itu sendiri' / 'mau tidak mau'",
+          "saran_pengganti": [
+            "(dihilangkan)",
+            "langsung ke kata benda"
+          ],
+          "penjelasan": "Frasa 'itu sendiri' dan 'mau tidak mau' merupakan residu lisan dan kalke terjemahan yang merusak kelugasan kalimat efektif (Sasangka, 2019, hlm. 64-65).",
+          "contoh_salah": "mutu kertas itu sendiri perlu ditingkatkan",
+          "contoh_benar": "mutu kertas perlu ditingkatkan"
+        },
+        {
+          "id": "SPB-003",
+          "pola": "ketidaksejajaran konstruksi kalimat majemuk 'dan'",
+          "saran_pengganti": [
+            "sejajarkan bentuk pasif-pasif atau aktif-aktif"
+          ],
+          "penjelasan": "Konjungsi koordinatif 'dan' mensyaratkan fungsi gramatikal sejajar (S-P dan S-P, atau pasif dan pasif), tidak boleh klausa pertama pasif dan klausa kedua aktif berkebalikan (Sasangka, 2019, hlm. 88-89).",
+          "contoh_salah": "Buku itu disusun oleh tim dan penerbit yang mencetaknya.",
+          "contoh_benar": "Buku itu disusun oleh tim dan dicetak oleh penerbit."
+        },
+        {
+          "id": "SPB-004",
+          "pola": "kalimat buntung beranak 'yang' bertingkat tanpa predikat utama",
+          "saran_pengganti": [
+            "lepas kata 'yang' pada predikat utama"
+          ],
+          "penjelasan": "Penggunaan 'yang' bertingkat setelah keterangan keterangan awal menyebabkan seluruh rangkaian hanya menjadi frasa panjang tanpa predikat dan subjek utuh (Sasangka, 2019, hlm. 66).",
+          "contoh_salah": "Berdasarkan penelitian yang dilakukan pada lembaga X yang berdiri pada tahun 2020 oleh Y yang berlokasi di Z.",
+          "contoh_benar": "Berdasarkan penelitian, lembaga X didirikan oleh Y pada tahun 2020 di Z."
         }
       ]
     },

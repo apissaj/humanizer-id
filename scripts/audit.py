@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "bertingkat" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -104,6 +104,20 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                             matched = True
                     elif "meskipun ... tetapi" in pattern_str:
                         if re.search(r'\b(meskipun|walaupun|biarpun)\b.+?\b(tetapi|namun)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "ganda jamak" in pattern_str:
+                        if re.search(r'\b(para|beberapa|berbagai|semua)\s+([a-zA-Z]+)-\2\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str:
+                        if re.search(r'\b(itu sendiri|mau tidak mau)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "konjungsi koordinatif" in pattern_str:
+                        # Kesejajaran: kalimat majemuk aktif pasif campuran via 'dan'
+                        if re.search(r'\boleh\s+\w+\s+dan\s+\w+\s+yang\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "'yang' bertingkat" in pattern_str:
+                        # Kalimat buntung yang bertingkat tanpa predikat utama
+                        if re.search(r'^\s*[A-Z][^.!?]*\byang\b[^.!?]*\byang\b[^.!?]*\byang\b[^.!?]*\.$', clean_line):
                             matched = True
                     
                     if matched:

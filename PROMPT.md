@@ -104,3 +104,11 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 4. Ringkasan jumlah kalimat: "Total: X kalimat diperiksa, Y disunting, Z dipertahankan utuh."
 5. Poin Konfirmasi Penulis (bila ada bagian ambigu atau data kurang).
 ```
+
+## KAIDAH KEHEMATAN & KESEJARAJAN KALIMAT (Sasangka, Seri Penyuluhan Badan Bahasa 2019)
+
+- DILARANG menulis ganda jamak: penanda jamak (*beberapa, berbagai, para*) + kata ulang (*temuan-temuan, faktor-faktor*). Pilih salah satu: "beberapa temuan" ATAU "temuan-temuan".
+- DILARANG redundansi sinonim: "sebagaimana tersebut di atas" (cukup "tersebut" atau "di atas").
+- HINDARI frasa mubazir: "mau tidak mau", "itu sendiri" pada penjelasan pasif ("mutu kertas itu sendiri" -> "mutu kertas").
+- Kalimat majemuk dengan konjungsi "dan/tetapi/atau" wajib paralel: pasif dengan pasif, aktif dengan aktif. Jangan campur klausa utama dengan klausa subordinatif setelah konjungsi koordinatif.
+- Satu paragraf satu gagasan utama dengan kalimat topik eksplisit; antarkalimat diikat peranti kohesi (konjungsi, referensi, substitusi, elipsis, sinonim). Gagasan menyimpang dipecah ke paragraf lain.
