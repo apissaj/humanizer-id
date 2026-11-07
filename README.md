@@ -102,6 +102,11 @@ Humanizer ID mendukung konvensi dan pedoman tugas akhir/skripsi spesifik dari pe
 | `ub` | **Universitas Brawijaya (UB)** | IEEE / APA | Larangan konjungsi di awal kalimat; paragraf minimal 2 kalimat efektif. |
 | `telkom` | **Telkom University** | IEEE | Format naskah artikel IEEE; sitasi repositori GitHub & dataset publik. |
 | `udinus` | **Universitas Dian Nuswantoro (UDINUS)** | IEEE / APA | Pengujian fungsionalitas *black-box* & pengujian pengguna pada rekayasa perangkat lunak; format kode monospace. |
+| `uns` | **Universitas Sebelas Maret (UNS)** | APA / IEEE | Bab romawi, sub-bab desimal/alfanumerik, abstrak dwibahasa 200–250 kata. |
+| `unnes` | **Universitas Negeri Semarang (UNNES)** | APA Style 7th | Desimal bertingkat tanpa titik akhir sub-bab; kutipan panjang (>40 kata) indent 1.2 cm spasi 1. |
+| `upi` | **Universitas Pendidikan Indonesia (UPI)** | APA Style 7th | Pemisahan bab Analisis Data & Pembahasan dari Temuan; judul bab kapital di tengah tebal. |
+| `unhas` | **Universitas Hasanuddin (UNHAS)** | Harvard / Vancouver / IEEE | Penomoran halaman bab di tengah bawah & lanjutan di kanan atas; wajib terjemahan kutipan asing. |
+| `unand` | **Universitas Andalas (UNAND)** | APA / Harvard | Abstrak satu paragraf tunggal tanpa indent; rujukan persamaan bernomor di kanan `(1.1)`. |
 
 > **Cara Pakai:** Cukup sebutkan nama kampus Anda saat memberikan naskah, misalnya: *"Sunting abstrak skripsi ini dengan preset **ugm**"* atau *"Perbaiki Bab III metodologi dengan aturan **ipb**"*.
 
