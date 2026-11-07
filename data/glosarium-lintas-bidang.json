@@ -17,6 +17,18 @@
         "penulis": "Panitia Pengembangan Bahasa Indonesia (disempurnakan Mabbim: Moeliono, Sugono, Rifai dkk.)",
         "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional, 2005 (Keputusan Mendiknas No. 146/U/2004)",
         "bagian_relevan": "Persyaratan istilah baik (hlm. 1-2); pemadanan via penerjemahan-perekaan-penyerapan (hlm. 5-8); larangan penjamakan bentuk jamak asing (hlm. 5)"
+      },
+      {
+        "judul": "Daftar Istilah Linguistik Asing-Indonesia",
+        "penulis": "Pusat Pembinaan dan Pengembangan Bahasa",
+        "penerbit": "Depdikbud (Repositori ID 2472, 59 hlm.)",
+        "bagian_relevan": "Padanan resmi istilah linguistik asing ke bahasa Indonesia"
+      },
+      {
+        "judul": "Glosarium Linguistik",
+        "penulis": "Pusat Bahasa",
+        "penerbit": "Departemen Pendidikan Nasional (Repositori ID 4342, 97 hlm., 2002)",
+        "bagian_relevan": "Kodifikasi definisi resmi istilah kebahasaan dan wacana"
       }
     ]
   },
@@ -425,6 +437,96 @@
           "asing": "milestone",
           "baku": "tonggak capaian",
           "catatan": "Titik evaluasi penting dalam linimasa proyek."
+        }
+      ]
+    },
+    "linguistik_dan_ilmu_bahasa": {
+      "deskripsi": "Padanan resmi istilah linguistik, wacana, dan teknologi pemrosesan bahasa (Pusat Bahasa)",
+      "istilah": [
+        {
+          "asing": "corpus / corpora",
+          "baku": "korpus",
+          "catatan": "Kumpulan teks empiris untuk analisis linguistik (Pusat Bahasa 2002)."
+        },
+        {
+          "asing": "machine translation",
+          "baku": "terjemahan mesin",
+          "catatan": "Penerjemahan otomatis berbasis peranti lunak."
+        },
+        {
+          "asing": "discourse analysis",
+          "baku": "analisis wacana",
+          "catatan": "Kajian satuan bahasa terlengkap di atas tataran kalimat."
+        },
+        {
+          "asing": "natural language processing",
+          "baku": "pemrosesan bahasa alami (PBA)",
+          "catatan": "Sub-bidang AI untuk komputasi bahasa manusia."
+        },
+        {
+          "asing": "anaphora / anaphoric",
+          "baku": "anafora / anaforis",
+          "catatan": "Piranti pengacuan pada unsur yang mendahului."
+        },
+        {
+          "asing": "cataphora / cataphoric",
+          "baku": "katafora / kataforis",
+          "catatan": "Piranti pengacuan pada unsur yang menyusul."
+        },
+        {
+          "asing": "cohesion",
+          "baku": "kohesi",
+          "catatan": "Keserasian hubungan antarunsur lahir wacana (Halliday & Hasan 1976; Pusat Bahasa 2002)."
+        },
+        {
+          "asing": "coherence",
+          "baku": "koherensi",
+          "catatan": "Keterpaduan makna batin yang mendasari wacana."
+        },
+        {
+          "asing": "ellipsis",
+          "baku": "elipsis / pelesapan",
+          "catatan": "Peniadaan unsur bahasa yang dapat dipulihkan dari konteks."
+        },
+        {
+          "asing": "substitution",
+          "baku": "substitusi / penggantian",
+          "catatan": "Penggantian unsur bahasa oleh unsur lain pada tataran gramatikal."
+        },
+        {
+          "asing": "hyponymy",
+          "baku": "hiponimi",
+          "catatan": "Relasi makna bagian keutuhan / khusus terhadap umum."
+        },
+        {
+          "asing": "meronymy",
+          "baku": "meronimi",
+          "catatan": "Relasi bagian terhadap keseluruhan."
+        },
+        {
+          "asing": "collocation",
+          "baku": "kolokasi",
+          "catatan": "Kecenderungan asosiasi berdampingan antar-kata."
+        },
+        {
+          "asing": "topic sentence",
+          "baku": "kalimat topik",
+          "catatan": "Kalimat yang memuat gagasan utama sebuah paragraf."
+        },
+        {
+          "asing": "run-on sentence",
+          "baku": "kalimat merembet",
+          "catatan": "Dua klausa atau lebih digabung tanpa konjungsi/tanda baca yang sah."
+        },
+        {
+          "asing": "sentence fragment",
+          "baku": "kalimat buntung",
+          "catatan": "Rangkaian kata tanpa subjek atau predikat utuh."
+        },
+        {
+          "asing": "dangling modifier",
+          "baku": "pewatas tergantung",
+          "catatan": "Frasa penjelas yang tidak memiliki acuan subjek yang jelas."
         }
       ]
     }
