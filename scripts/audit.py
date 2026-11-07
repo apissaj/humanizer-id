@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "hanya ... saja" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "'yang' bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "Karena itu," in pattern_str or "Selain itu (tanpa koma)" in pattern_str or "namun intrakalimat tanpa koma" in pattern_str or ", sehingga" in pattern_str or ", karena" in pattern_str or "sangat ... sekali" in pattern_str or "hanya ... saja" in pattern_str or "bukan hanya" in pattern_str or "bales / dibales" in pattern_str or "kata ganti persona" in pattern_str or "kata kerja mental aktif" in pattern_str or "konjungsi koordinatif 'dan' tidak sejajar" in pattern_str or "unsur terikat ditulis terpisah" in pattern_str or "Di era digital" in pattern_str or "sitasi tidak lengkap" in pattern_str or "kendati demikian" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str or "tanggungjawab" in pattern_str or "dari pada" in pattern_str or "angka 2 sebagai penanda" in pattern_str or "membahas tentang" in pattern_str or "kalimat tanpa subjek berawalan preposisi" in pattern_str or "atas perhatiannya" in pattern_str or "Kepada Yth." in pattern_str or "titik dua sebelum pelengkap" in pattern_str or "partikel pun ditulis serangkai" in pattern_str or "sedangkan dipakai di awal kalimat" in pattern_str or "elipsis subjek melompati" in pattern_str or "pleonasme pasangan sinonim" in pattern_str or "antara lain lalu ditutup" in pattern_str or "bentuk ulang resiprokal" in pattern_str or "penyalahgunaan dan sebagainya" in pattern_str or "ungkapan idiomatis dihilangkan" in pattern_str or "makna asal/sumber/penjelasan" in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "hanya ... saja" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "'yang' bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "Karena itu," in pattern_str or "Selain itu (tanpa koma)" in pattern_str or "namun intrakalimat tanpa koma" in pattern_str or ", sehingga" in pattern_str or ", karena" in pattern_str or "sangat ... sekali" in pattern_str or "hanya ... saja" in pattern_str or "bukan hanya" in pattern_str or "bales / dibales" in pattern_str or "kata ganti persona" in pattern_str or "kata kerja mental aktif" in pattern_str or "konjungsi koordinatif 'dan' tidak sejajar" in pattern_str or "unsur terikat ditulis terpisah" in pattern_str or "Di era digital" in pattern_str or "sitasi tidak lengkap" in pattern_str or "kendati demikian" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str or "tanggungjawab" in pattern_str or "dari pada" in pattern_str or "angka 2 sebagai penanda" in pattern_str or "membahas tentang" in pattern_str or "kalimat tanpa subjek berawalan preposisi" in pattern_str or "atas perhatiannya" in pattern_str or "Kepada Yth." in pattern_str or "titik dua sebelum pelengkap" in pattern_str or "partikel pun ditulis serangkai" in pattern_str or "sedangkan dipakai di awal kalimat" in pattern_str or "elipsis subjek melompati" in pattern_str or "pleonasme pasangan sinonim" in pattern_str or "antara lain lalu ditutup" in pattern_str or "bentuk ulang resiprokal" in pattern_str or "penyalahgunaan dan sebagainya" in pattern_str or "ungkapan idiomatis dihilangkan" in pattern_str or "makna asal/sumber/penjelasan" in pattern_str or "menggugurkan konsonan akhir" in pattern_str or "istilah klasik/generik dijauhkan" in pattern_str or "awalan non- dipertahankan mentah" in pattern_str or "bentuk jamak Latin/Inggris" in pattern_str or "akhiran keahlian -wan" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -234,6 +234,26 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                     elif "makna asal/sumber/penjelasan" in pattern_str:
                         if re.search(r'\bterbuat\s+daripada\b|\btujuan\s+daripada\b|\bmaksud\s+daripada\b|\bterbuat\s+\w*\s*daripada\b', clean_line, re.IGNORECASE):
                             matched = True
+                    elif "menggugurkan konsonan akhir" in pattern_str:
+                        # TII-001: ejaan fonemik - gugur konsonan akhir tak berfungsi
+                        if re.search(r'\b(dominant|informant|tolerant|relevant|optimist|realist|nationalist|manifest|latent|konsultan?\w*ant)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "istilah klasik/generik dijauhkan" in pattern_str:
+                        # TII-002: istilah dijauhkan
+                        if re.search(r'\bzat\s+lemas\b|\bzat\s+air\b|\bzat\s+asam\b|\billmu\s+pasti\b|\billmu\s+pisah\b|\bsaran\s+diri\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "awalan non- dipertahankan mentah" in pattern_str:
+                        # TII-003: non- tanpa padanan tak-/bukan-/nir-
+                        if re.search(r'\bnon-\s?\w+|\bnon\s\w+', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "bentuk jamak Latin/Inggris" in pattern_str:
+                        # TII-004: jamak Latin yang dihidupkan
+                        if re.search(r'\bfoki\b|\blaboratoria\b|\bcriteria\b|\bphenomena\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "akhiran keahlian -wan" in pattern_str:
+                        # TII-005: -wan pada akar tidak berakhir -a
+                        if re.search(r'\b\w+logiwan\b|\bteknikwan\b|\bsainswan\b|\bhukumwan\b|\bekonomiwan\b|\bmanajemenwan\b', clean_line, re.IGNORECASE):
+                            matched = True
                     elif "sangat ... sekali" in pattern_str:
                         # Pleonasme adverbia: 'sangat [kata] sekali'
                         if re.search(r'\bsangat\s+\w+\s+sekali\b', clean_line, re.IGNORECASE):
@@ -365,7 +385,8 @@ def print_report(findings, filename=""):
     print(f"Ditemukan {len(findings)} pemicu editorial terdeteksi:\n")
     for idx, item in enumerate(findings, start=1):
         cat_label = item["kategori"].replace("_", " ").upper()
-        saran_str = " / ".join(['"' + s + '"' for s in item["saran"]])
+        saran_val = item["saran"] if isinstance(item["saran"], str) else " / ".join(item["saran"]) if not (len(item["saran"]) == 1) else item["saran"][0]
+        saran_str = '"' + saran_val + '"' 
         pola_val = item["pola"]
         print(f"[{idx}] Baris {item['baris']} [{item['id']} - {cat_label}]")
         print(f'    Pola terdeteksi : "{pola_val}"')

@@ -188,3 +188,10 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **dll. vs dsb. vs dst. (hlm. 63):** *dan sebagainya* = rincian sejenis; *dan lain-lain* = rincian beragam jenis; *dan seterusnya* = urutan berjenjang.
 - **Idiomatis berpreposisi utuh (hlm. 78):** *sesuai dengan*, *berkaitan dengan*, *sehubungan dengan*, *bergantung pada*, *terdiri atas* — preposisi kedua dilarang dihilangkan.
 - **Daripada khusus perbandingan (hlm. 70, 74-75):** *terbuat dari kayu* (bukan *daripada*); *tujuan penelitian ini* (bukan *tujuan daripada penelitian ini*).
+## PERISTILAHAN & EJAAN SERAPAN (Adiwimarta dkk., Tata Istilah Indonesia, Pusat Bahasa 1978)
+
+- **Ejaan fonemik serapan (hlm. 51-52):** gugurkan konsonan akhir tak berfonem — *dominant* → *dominan*; *tolerant* → *toleran*; *relevant* → *relevan*; *optimist* → *optimis*; *manifest* → *manifes*.
+- **Istilah yang dijauhkan (hlm. 49):** *zat lemas* → *nitrogen*; *zat air* → *hidrogen*; *zat asam* → *oksigen*; *ilmu pasti* → *matematika*; *ilmu pisah* → *kimia*; *saran diri* → *autosugesti*.
+- **Awalan non- berdasar makna (hlm. 56-57):** 'tidak' → *tak-* (*taklinear*); 'bukan' → kata lepas *bukan* (*bukan logam*); 'tanpa' → *nir-* (*nirgerak, nirlaba*).
+- **Jamak Latin dilarang dihidupkan (hlm. 38):** gunakan bentuk lazim — *fokus* (bukan *foki*); *laboratorium* (bukan *laboratoria*).
+- **Batasan -wan (hlm. 55):** hanya lekat pada akar berhuruf akhir /-a/ (*matematikawan, fisikawan*); akar lain memakai *ahli/juru* (*ahli geologi*, bukan *geologiwan*).

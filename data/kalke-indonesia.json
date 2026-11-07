@@ -1798,6 +1798,81 @@
           "penjelasan": "'Daripada' hanya tepat untuk makna perbandingan (lebih tinggi daripada); untuk makna asal/sumber gunakan 'dari' (terbuat dari kayu) (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 70, 74-75).",
           "contoh_salah": "Kursi itu terbuat daripada kayu jati.",
           "contoh_benar": "Kursi itu terbuat dari kayu jati."
+        },
+        {
+          "id": "TII-001",
+          "pola": "kata serapan berakhir -ant/-ent/-ist/-an[ct] ditulis utuh tanpa menggugurkan konsonan akhir yang tidak berfungsi (dominant, informant, tolerant, relevant, optimist, realist, manifest)",
+          "saran_pengganti": "Gugurkan konsonan akhir yang tidak melambangkan bunyi dalam fonologi Indonesia: dominant → dominan; informant → informan; tolerant → toleran; relevant → relevan; latent → laten; optimist → optimis; realist → realis; nationalist → nasionalis; manifest → manifes (Ejaan fonemik, hlm. 51-52).",
+          "penjelasan": "Tata Istilah Indonesia (Pusat Bahasa 1978) menetapkan ejaan fonemik untuk penyerapan istilah: hanya satuan bunyi yang berfungsi dalam bahasa Indonesia dilambangkan huruf; konsonan akhir yang tidak berfungsi digugurkan (hlm. 51). Padanannya telah baku dalam KBBI dan PUEBI: dominan, toleran, relevan, optimis, realis, manifes. Bentuk berakhiran -ant/-ent/-ist utuh adalah residu ejaan asing yang tidak lagi sesuai sistem ejaan Indonesia.",
+          "contoh_salah": "Responden dominant dalam survei itu bersikap tolerant terhadap kritik yang relevan.",
+          "contoh_benar": "Responden dominan dalam survei itu bersikap toleran terhadap kritik yang relevan.",
+          "rujukan": {
+            "penulis": "Adiwimarta, dkk.",
+            "buku": "Tata Istilah Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "51-52"
+          }
+        },
+        {
+          "id": "TII-002",
+          "pola": "istilah klasik/generik dijauhkan padanannya yang baku: zat lemas, zat air, zat asam, ilmu pasti, ilmu pisah, saran diri",
+          "saran_pengganti": "Ganti istilah lama dengan istilah baku: zat lemas → nitrogen; zat air → hidrogen; zat asam → oksigen; ilmu pasti → matematika; ilmu pisah → kimia; saran diri → autosugesti (hlm. 49, butir 6.3.4).",
+          "penjelasan": "Tata Istilah Indonesia (1978) menggolongkan istilah lama seperti zat lemas, zat air, zat asam, ilmu pasti, ilmu pisah, dan saran diri sebagai 'istilah yang dijauhkan' karena menyalahi asas penamaan dan pengistilahan; pemakaiannya perlu segera ditinggalkan dan diganti istilah baku yang disahkan Komisi Istilah: nitrogen, hidrogen, oksigen, matematika, kimia, autosugesti.",
+          "contoh_salah": "Kandungan zat lemas dan zat air di dalam sampel diukur di laboratorium ilmu pasti.",
+          "contoh_benar": "Kandungan nitrogen dan hidrogen di dalam sampel diukur di laboratorium matematika.",
+          "rujukan": {
+            "penulis": "Adiwimarta, dkk.",
+            "buku": "Tata Istilah Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "49"
+          }
+        },
+        {
+          "id": "TII-003",
+          "pola": "awalan non- dipertahankan mentah tanpa padanan tak-/bukan-/nir- sesuai maknanya (non-linear, non-metal, non-pergerakan)",
+          "saran_pengganti": "Sesuaikan makna non-: bermakna 'tidak' → tak- terangkai (non-linear → taklinear); bermakna 'bukan' → kata lepas bukan (non-metal → bukan logam); bermakna 'tanpa/bebas dari' → nir- terangkai (motionless → nirgerak; non-pergerakan → nirgerak) (hlm. 56-57).",
+          "penjelasan": "Tata Istilah Indonesia (1978, butir 7.7.1.2 angka 9) menetapkan awalan non- asing diterjemahkan menurut maknanya: 'tidak' menjadi tak- (taklinear), 'bukan' menjadi kata lepas bukan (bukan logam), dan 'tanpa/bebas dari' menjadi nir- (nirgerak). Mempertahankan non- mentah dalam teks Indonesia baku dianggap penyerapan setengah jalan; padanan KBBI mutakhir (nonaktif, nirlaba) mengikuti asas yang sama.",
+          "contoh_salah": "Perusahaan itu mencatat kerugian pada segmen non-pergerakan dan produk non-metal.",
+          "contoh_benar": "Perusahaan itu mencatat kerugian pada segmen nirgerak dan produk bukan logam.",
+          "rujukan": {
+            "penulis": "Adiwimarta, dkk.",
+            "buku": "Tata Istilah Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "56-57"
+          }
+        },
+        {
+          "id": "TII-004",
+          "pola": "bentuk jamak Latin/Inggris dihidupkan kembali sebagai istilah tunggal (foki, laboratoria, criteria, phenomena)",
+          "saran_pengganti": "Pakai bentuk yang telah lazim sebagai istilah Indonesia: fokus (bukan foki), laboratorium (bukan laboratoria), medium/media sesuai kebiasaan; bentuk jamak asal tidak dihidupkan kembali (hlm. 38).",
+          "penjelasan": "Tata Istilah Indonesia (1978, hlm. 38) menegaskan pemakaian jamak atau tunggal serapan bergantung pada kebiasaan: bentuk yang sudah lazim itulah yang dipakai tanpa menyadari bentuk asalnya. Laboratorium (bukan laboratoria) dan fokus (bukan foki) adalah bentuk baku; menghidupkan kembali bentuk jamak Latin bertentangan dengan asas kebiasaan pemakaian.",
+          "contoh_salah": "Seluruh foki dan laboratoria kampus mengikuti standar akreditasi yang sama.",
+          "contoh_benar": "Seluruh fokus dan laboratorium kampus mengikuti standar akreditasi yang sama.",
+          "rujukan": {
+            "penulis": "Adiwimarta, dkk.",
+            "buku": "Tata Istilah Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "38"
+          }
+        },
+        {
+          "id": "TII-005",
+          "pola": "akhiran keahlian -wan dilekatkan pada kata yang tidak berakhir vokal /-a/ (geologiwan, kosmologiwan, teknikwan)",
+          "saran_pengganti": "Batasi -wan untuk kata berakhiran /-a/: matematikawan, fisikawan, sastrawan, ilmuwan; selain itu pakai ahli-/juru-: ahli kosmologi, ahli geologi, juru rancang (hlm. 55, butir 7.7.1.2 angka 1).",
+          "penjelasan": "Tata Istilah Indonesia (1978) merinci akhiran -an/-ian/-ist bermakna 'keahlian' menjadi -wan, ahli, atau juru, dengan batasan tegas: akhiran -wan hanya boleh dilekatkan pada kata berhuruf akhir -a (matematikawan, fisikawan, statistikawan). Untuk akar yang tidak berakhir -a, bentuk yang benar adalah ahli kosmologi, ahli geologi, dan sebagainya.",
+          "contoh_salah": "Setiap geologiwan wajib menguasai pemetaan lapangan dan analisis struktur.",
+          "contoh_benar": "Setiap ahli geologi wajib menguasai pemetaan lapangan dan analisis struktur.",
+          "rujukan": {
+            "penulis": "Adiwimarta, dkk.",
+            "buku": "Tata Istilah Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "55"
+          }
         }
       ]
     }

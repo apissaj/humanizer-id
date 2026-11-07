@@ -490,6 +490,14 @@ ightarrow$ serangkai: *mahakasih*.
 5. **Ungkapan Idiomatis Berpreposisi Utuh:** Preposisi kedua dilarang dihilangkan: *sesuai dengan*, *berkaitan dengan*, *sehubungan dengan*, *bergantung pada*, *terdiri atas* (hlm. 78).
 6. **Daripada Khusus Perbandingan:** *Daripada* hanya untuk makna perbandingan (*lebih tinggi daripada*); makna asal/sumber memakai *dari* (*terbuat dari kayu*) dan frasa kepemilikan semu dihapus (*tujuan penelitian ini*) (hlm. 70, 74–75).
 
+### AC. Peristilahan & Ejaan Serapan (Rujukan Adiwimarta dkk., *Tata Istilah Indonesia*, Pusat Bahasa, 1978)
+
+1. **Ejaan Fonemik Serapan:** Konsonan akhir yang tidak berfungsi digugurkan — *dominant/tolerant/relevant/optimist/manifest* → *dominan/toleran/relevan/optimis/manifes* (hlm. 51–52).
+2. **Istilah Klasik Dijauhkan:** *zat lemas → nitrogen; zat air → hidrogen; zat asam → oksigen; ilmu pasti → matematika; ilmu pisah → kimia; saran diri → autosugesti* (hlm. 49).
+3. **Awalan Non- Menurut Makna:** 'tidak' → *tak-* terangkai (*taklinear*); 'bukan' → kata lepas *bukan* (*bukan logam*); 'tanpa/bebas' → *nir-* (*nirgerak, nirlaba*) (hlm. 56–57).
+4. **Jamak Latin Tidak Dihidupkan:** bentuk lazim Indonesia yang dipakai — *fokus* (bukan *foki*), *laboratorium* (bukan *laboratoria*) (hlm. 38).
+5. **Batasan Akhiran -wan:** hanya untuk akar berakhir /-a/ (*matematikawan, fisikawan*); selain itu *ahli-/juru-* (*ahli geologi, ahli kosmologi*) (hlm. 55).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah

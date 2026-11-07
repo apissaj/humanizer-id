@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Peristilahan (Pusat Bahasa 1978)
+- **Tata Istilah Indonesia** (Adiwimarta, Kridalaksana, Moeliono dkk., Pusat Pembinaan dan Pengembangan Bahasa, 1978, iv+67 hlm.) — buku penyuluhan pelengkap PUPI: ejaan fonemik serapan (gugur konsonan akhir tak berfungsi), istilah yang dijauhkan (*zat lemas → nitrogen*), padanan awalan *non-* menurut makna (*tak-/bukan/nir-*), penolakan jamak Latin yang dihidupkan (*foki, laboratoria*), dan batasan akhiran keahlian *-wan* → [references/tata-istilah-indonesia-1978.md](references/tata-istilah-indonesia-1978.md)
+
 ### Seri Penyuluhan: Bentuk dan Pilihan Kata (Badan Bahasa)
 - **Bentuk dan Pilihan Kata** (Drs. Mustakim, M.Hum., Pusat Pembinaan Pemasyarakatan Bahasa, 2014, 110 hlm., ISBN 978-979-069-204-6) — tiga kriteria pemilihan kata (ketepatan, kecermatan, keserasian); kaidah anti-pleonasme pasangan sinonim, pembedaan *dll./dsb./dst.*, resiprokal ganda *saling + bentuk ulang*, keutuhan ungkapan idiomatis berpreposisi, dan pembatasan *daripada* khusus makna perbandingan → [references/buku-seri-penyuluhan-bentuk-pilihan-kata.md](references/buku-seri-penyuluhan-bentuk-pilihan-kata.md)
 
