@@ -170,3 +170,11 @@ Berdasar Alwi dkk. (2017), buku Kelas XII merinci dua kategori konjungsi:
 
 #### 4. Konjungsi Antarkalimat (Tabel 4.13, hlm. 170):
 Ditulis di awal kalimat baru dan diikuti tanda koma: *Adapun, Akan tetapi, Biarpun begitu, Contohnya, Dalam hal ini, Dengan demikian, Dengan kata lain, Di samping itu, Jadi, Karena itu, Kendatipun demikian, Maka dari itu, Meskipun begitu, Pada dasarnya, Pada hakikatnya, Pendeknya, Sebagai kesimpulan, Sebaiknya, Sebelumnya, Sebenarnya, Sehubungan dengan itu, Selain itu, Selanjutnya, Sementara itu, Sesungguhnya, Sungguhpun demikian, Untuk itu, Walaupun demikian*.
+### E. Ide Pokok & Pola Pengembangan Paragraf (Buku Siswa Kelas XI 2024, Bab I hlm. 8–13)
+
+1. **Kesatuan paragraf:** Setiap paragraf hanya memuat **satu ide pokok** yang tertuang dalam kalimat utama (*kalimat topik*). Dua gagasan dalam satu paragraf melanggar kaidah kesatuan.
+2. **Pola pengembangan paragraf:**
+   - **Deduksi:** kalimat utama di awal, diikuti kalimat-kalimat penjelas (umum → khusus).
+   - **Induksi:** kalimat-kalimat penjelas di awal, kalimat utama di akhir (khusus → umum).
+   - Pola harus konsisten; campuran kedua pola dalam satu paragraf membuat alur gagasan tidak runtut.
+3. **Struktur teks argumentasi:** Ide pokok (kalimat topik) → ide-ide pendukung (kalimat penjelas) → simpulan/tuduhan penutup.

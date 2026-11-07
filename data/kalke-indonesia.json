@@ -14,7 +14,7 @@
         "penerbit": "Pusat Kurikulum dan Perbukuan, Kemendikbudristek RI",
         "tahun": 2024,
         "isbn": "978-623-388-439-6",
-        "bab_relevan": "Bab VI: Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 188-234)"
+        "bab_relevan": "Bab I Teks Argumentasi (hlm. 8-13: ide pokok, pola deduksi-induksi); Bab VI Karya Ilmiah (hlm. 209-265)"
       },
       {
         "judul": "Panduan Guru Bahasa Indonesia Tingkat Lanjut: Cakap Berbahasa dan Bersastra Indonesia untuk SMA/MA Kelas XI (Edisi Revisi)",
@@ -681,6 +681,26 @@
           "penjelasan": "Konjungsi intrakalimat 'karena' TIDAK diawali tanda koma (Tabel 4.12, Buku Kelas XII Kemendikbudristek, hlm. 168). Penulisan benar: klausa1 karena klausa2 (tanpa koma).",
           "contoh_salah": "Model gagal konvergen, karena learning rate terlalu besar.",
           "contoh_benar": "Model gagal konvergen karena learning rate terlalu besar."
+        },
+        {
+          "id": "ARG-001",
+          "pola": "Satu paragraf, dua ide pokok",
+          "saran_pengganti": [
+            "Pecah menjadi dua paragraf, masing-masing satu ide pokok"
+          ],
+          "penjelasan": "Setiap paragraf hanya memuat SATU ide pokok yang tertuang dalam kalimat utama (kalimat topik). Dua gagasan dalam satu paragraf melanggar kaidah kesatuan paragraf (Buku Kelas XI Kemendikbudristek 2024, hlm. 8).",
+          "contoh_salah": "Model ini cepat di CPU. Selain itu, biaya pelatihannya juga rendah sehingga cocok untuk skala kecil.",
+          "contoh_benar": "Paragraf 1: 'Model ini cepat di CPU.' Paragraf 2: 'Biaya pelatihannya rendah sehingga cocok untuk skala kecil.'"
+        },
+        {
+          "id": "ARG-002",
+          "pola": "Pola pengembangan campuran dalam satu paragraf",
+          "saran_pengganti": [
+            "Pilih satu pola: deduksi (umum→khusus) atau induksi (khusus→umum)"
+          ],
+          "penjelasan": "Pola pengembangan paragraf harus konsisten: deduksi (kalimat utama di awal) atau induksi (kalimat utama di akhir). Campuran kedua pola dalam satu paragraf membuat alur tidak runtut (Buku Kelas XI Kemendikbudristek 2024, hlm. 10-12).",
+          "contoh_salah": "NLP adalah bidang penting. Data teks diproses. Kesimpulannya NLP mendukung otomatisasi. Tokenisasi dilakukan dulu.",
+          "contoh_benar": "Pola deduksi: 'NLP adalah bidang penting. Tokenisasi dilakukan dulu. Data teks kemudian diproses. Kesimpulannya NLP mendukung otomatisasi.'"
         }
       ]
     },

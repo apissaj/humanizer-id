@@ -299,6 +299,18 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### R. Kesatuan Ide Pokok & Pola Pengembangan Paragraf (Rujukan Buku Siswa Kelas XI Kemendikbudristek, 2024)
+
+1. **Satu Paragraf Satu Ide Pokok:**
+   - Setiap paragraf wajib memiliki satu kalimat topik (ide pokok) yang dikawal oleh kalimat-kalimat penjelas yang koheren.
+   - Jangan mencampur dua topik berbeda (misal: membahas latensi model sekaligus membahas struktur dataset) dalam satu paragraf tunggal. Pecah menjadi dua paragraf tersendiri.
+2. **Konsistensi Pola Deduksi / Induksi:**
+   - **Deduksi (paling disukai ragam ilmiah):** Mulai dengan kalimat pernyataan umum/tesis di awal paragraf, kemudian diuraikan bukti empiris, metrik, atau elaborasinya di kalimat-kalimat berikutnya.
+   - **Induksi:** Sajikan rentetan data pengujian/fakta terperinci, lalu akhiri dengan penarikan simpulan umum pada kalimat pamungkas paragraf.
+   - Dilarang mencampuradukkan posisi kalimat topik secara acak yang membuat pembaca kebingungan menangkap gagasan sentral.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
