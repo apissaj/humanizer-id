@@ -264,12 +264,33 @@ Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi
 
 ## Tooling & Aset Pendukung
 
-Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menyediakan perkakas terintegrasi:
-- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (40 entri: kalke, verba ringan, pola klise AI, morfologi KTSP).
-- **`data/glosarium-lintas-bidang.json`**: Glosarium 45+ padanan istilah baku lintas 4 bidang profesi (Teknologi, Hukum, Jurnalistik, Bisnis). Padanan istilah teknologi (pemelajaran mesin, komputasi awan, sains data) dirujuk dari **PASTI Kemendikdasmen** (172.931 istilah resmi, 59 ranah).
-- **`scripts/audit.py`**: Skrip pemindai mandiri berbasis Python standar (tanpa dependensi luar) yang memuat kedua dataset di atas secara langsung:
+Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menyediakan berkas perkakas, dataset terstruktur, dan dokumentasi rujukan resmi terintegrasi:
+
+### 1. Dataset Terstruktur (`data/`)
+- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (72 entri aktif) memetakan kalke terjemahan mesin, verba ringan, retorika klise AI, tata bilangan TBBBI, dan kaidah morfologi peluluhan KTSP lengkap dengan sitasi buku/halaman.
+- **`data/glosarium-lintas-bidang.json`**: Glosarium 50+ padanan istilah resmi lintas 4 bidang profesi (Teknologi, Hukum, Jurnalistik, Bisnis) bersumber dari **PASTI Kemendikdasmen RI** (172.931 istilah, 59 ranah).
+- **`data/pedoman-kampus.json`**: Basis data konfigurasi format skripsi & tugas akhir untuk 11 perguruan tinggi terkemuka (UI, ITB, UGM, ITS, IPB, UNDIP, UNPAD, UNAIR, UB, Telkom, UDINUS).
+
+### 2. Perkakas Pemindai Mandiri (`scripts/`)
+- **`scripts/audit.py`**: Skrip CLI auditor berbasis 100% pustaka standar Python (tanpa dependensi luar/zero pip) yang memuat seluruh dataset leksikon, glosarium, dan aturan kampus secara real-time:
   ```bash
-  python scripts/audit.py path/ke/dokumen.md
+  # Uji coba demo multi-bidang
   python scripts/audit.py --demo
+
+  # Pindai naskah skripsi umum
+  python scripts/audit.py path/ke/naskah.md
+
+  # Pindai naskah dengan kepatuhan format kampus tertentu (misal: IPB, UGM, UDINUS)
+  python scripts/audit.py path/ke/naskah.md --kampus ipb
   ```
-- **`references/`**: Dokumentasi rujukan resmi kaidah kebahasaan EYD V, TBBBI, dan PUEBI daring.
+
+### 3. Dokumentasi Rujukan & Ekstrak Buku Asli (`references/`)
+- **`references/ekstrak-buku-teks-kemdikbud.md`**: Intisari kaidah dan kunci jawaban resmi dari Buku Siswa Kelas XI (ISBN 978-634-00-0958-3) dan Kelas XII (2024).
+- **`references/buku-ajar-bahasa-indonesia-perguruan-tinggi.md`**: Enam syarat kalimat efektif akademik dari buku ajar UIN Syarif Hidayatullah Jakarta (Suyatno dkk., hlm. 100–107).
+- **`references/panduan-preset-kampus.md`**: Panduan detail penulisan tugas akhir untuk 11 perguruan tinggi Indonesia.
+- **`references/pedoman-kebahasaan-resmi.md`**: Rangkuman kaidah tata bahasa baku EYD V dan TBBBI Edisi IV.
+- **`references/panduan-gaya-lintas-kalangan.md`**: Karakteristik register 5 domain profesional.
+- **`references/puebi-*.md`**: Empat dokumen resmi PUEBI (kata depan, partikel pun, gabungan kata konfiks, bentuk ulang).
+
+### 4. Template Siap Pakai Pengguna Web
+- **`PROMPT.md`**: Sistem prompt mandiri untuk pengguna antarmuka obrolan web (ChatGPT Custom Instructions, Claude Projects, Gemini Gems).
