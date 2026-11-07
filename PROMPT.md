@@ -144,3 +144,11 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - Nama bangsa/bahasa yang menjadi bentuk dasar kata turunan DITULIS HURUF KECIL: "pengindonesiaan", "keinggris-inggrisan" (bukan "Peng-Indonesia-an").
 - Nama jabatan/pangkat tanpa nama orang atau wilayah spesifik DITULIS HURUF KECIL: "sejumlah menteri", "rapat kabinet" (kapital hanya untuk "Menteri Keuangan Republik Indonesia").
 - Kata kekerabatan sapaan langsung kapital ("Kapan Bapak berangkat?"), tetapi relasi keluarga umum kecil ("berkunjung ke rumah paman dan bibi").
+
+## KALIMAT DEFINISI & IMBUHAN di- (Buku Siswa Kelas X Kurikulum Merdeka 2022)
+
+- Gunakan "adalah" HANYA untuk definisi mutlak (ekuivalensi): "LHO adalah teks yang mengungkap fakta."
+- Gunakan "merupakan" untuk penempatan dalam kategori yang tidak eksklusif: "Belalang anggrek merupakan predator polifagus." (bukan "adalah predator").
+- Kata kerja pasif WAJIB serangkai: "dianalisis", "diobservasi", "diteliti" (bukan "di analisis", "di observasi").
+- Preposisi tempat/waktu WAJIB terpisah: "di laboratorium", "di tahun 2024" (bukan "dilaboratorium", "ditahun 2024").
+- Kutipan tidak langsung gunakan format CMS 17: (Pengarang, tahun: halaman) atau "Pengarang (tahun: halaman) menyatakan bahwa...".

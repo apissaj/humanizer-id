@@ -413,6 +413,20 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### X. Kalimat Definisi (adalah vs merupakan) & Penulisan Imbuhan di- (Rujukan Buku Siswa Kelas X Edisi Revisi Kemendikbudristek 2022)
+
+1. **Pembedaan Kalimat Definisi:**
+   - Gunakan **`adalah`** untuk pengertian MUTLAK (ekuivalensi A = B): *"Laporan hasil observasi adalah teks yang mengungkapkan fakta-fakta lapangan."*
+   - Gunakan **`merupakan`** untuk penempatan objek dalam KATEGORI (tidak mutlak, bisa memiliki satu pengertian atau lebih): *"Belalang anggrek merupakan predator polifagus."*
+2. **Pemisahan vs Penyerangkaian `di`:**
+   - Imbuhan pembentuk kata kerja pasif WAJIB ditulis **serangkai**: *dianalisis, diobservasi, diteliti, dikembangkan*.
+   - Preposisi penunjuk tempat/waktu WAJIB ditulis **terpisah**: *di laboratorium, di lapangan, di masa kini*.
+3. **Kutipan Tidak Langsung CMS 17:**
+   - Format: `(Pengarang, tahun: halaman)` atau `Pengarang (tahun: halaman) menyatakan bahwa...`
+   - Sumber daring wajib menyertakan frasa *diakses pada <tanggal>*.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

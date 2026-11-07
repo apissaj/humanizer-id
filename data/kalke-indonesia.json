@@ -139,6 +139,12 @@
         "penulis": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN",
         "penerbit": "Kemendikbudristek, 2020 (66 hlm.)",
         "bab_relevan": "Unsur Kebahasaan Proposal (hlm. 24-34): 39 aturan huruf kapital, huruf miring nama publikasi, penulisan nama jenis (kunci inggris, mesin diesel, 15 watt), afiksasi bangsa (pengindonesiaan)"
+      },
+      {
+        "judul": "Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/MA/SMK/MAK Kelas X (Edisi Revisi)",
+        "penulis": "Tim Kemendikbudristek (Kurikulum Merdeka)",
+        "penerbit": "Pusat Kurikulum dan Pembelajaran, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek 2022 (320 hlm.)",
+        "bab_relevan": "Bab I (hlm. 18-26): kalimat definisi adalah vs merupakan; imbuhan di- vs kata depan di; kutipan tidak langsung CMS 17; daftar periksa LHO"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -925,6 +931,36 @@
           "penjelasan": "Huruf kapital TIDAK dipakai pada nama jabatan dan pangkat yang tidak merujuk kepada nama orang, instansi, atau tempat tertentu (Modul Kemendikbud Direktorat SMA 2020, KD 3.12, hlm. 28).",
           "contoh_salah": "Sejumlah Menteri menghadiri rapat kabinet.",
           "contoh_benar": "Sejumlah menteri menghadiri rapat kabinet."
+        },
+        {
+          "id": "CX-001",
+          "pola": "penggunaan 'adalah' untuk penempatan kategori (bukan ekuivalensi mutlak)",
+          "saran_pengganti": [
+            "merupakan"
+          ],
+          "penjelasan": "Kata 'adalah' hanya untuk pengertian mutlak (ekuivalensi A=B); penempatan objek dalam kategori yang tidak eksklusif menggunakan 'merupakan' (Buku Siswa Kelas X Kurikulum Merdeka Edisi Revisi 2022, Bab I, hlm. 19).",
+          "contoh_salah": "Belalang anggrek adalah predator polifagus.",
+          "contoh_benar": "Belalang anggrek merupakan predator polifagus."
+        },
+        {
+          "id": "CX-002",
+          "pola": "kalimat pasif dengan 'di' terpisah (imbuhan di- ditulis terpisah)",
+          "saran_pengganti": [
+            "ditulis serangkai: dianalisis, diobservasi, diteliti"
+          ],
+          "penjelasan": "Imbuhan di- membentuk kata kerja pasif dan WAJIB ditulis serangkai dengan kata dasar; kata depan 'di' menunjukkan keterangan tempat/waktu dan ditulis terpisah (Buku Siswa Kelas X Edisi Revisi 2022, Bab I, hlm. 20; EYD V).",
+          "contoh_salah": "Data di analisis menggunakan perangkat lunak statistik.",
+          "contoh_benar": "Data dianalisis menggunakan perangkat lunak statistik."
+        },
+        {
+          "id": "CX-003",
+          "pola": "kutipan tidak langsung tanpa nama belakang dan tahun",
+          "saran_pengganti": [
+            "format CMS 17: (Nama belakang, tahun: halaman)"
+          ],
+          "penjelasan": "Kutipan tidak langsung wajib mencantumkan nama belakang pengarang, tahun penerbitan, dan nomor halaman; untuk sumber daring wajib mencantumkan tanggal akses (Buku Siswa Kelas X Edisi Revisi 2022, Bab I, hlm. 21-22).",
+          "contoh_salah": "Menurut ahli, kunang-kunang hidup di daerah lembap.",
+          "contoh_benar": "Kunang-kunang sering ditemukan di daerah lembap dan hangat (Essig, 1958: 78)."
         }
       ]
     },

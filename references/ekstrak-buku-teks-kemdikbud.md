@@ -234,3 +234,38 @@ Kaidah kunci yang paling sering dilanggar model bahasa:
 ### B. Huruf Miring (hlm. 34+)
 - Nama buku, majalah, surat kabar yang dikutip dalam tulisan (*...berita di surat kabar Pos Kota*).
 - Kata/ungkapan asing yang belum terserap.
+---
+
+## 7. Ekstrak Buku Siswa Kelas X Kurikulum Merdeka Edisi Revisi (Kemendikbudristek 2022)
+
+- **Judul:** *Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/MA/SMK/MAK Kelas X (Edisi Revisi)*
+- **Penerbit:** Pusat Kurikulum dan Pembelajaran, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek, 2022 (320 hlm.)
+- **Bagian Relevan:** Bab I — Mengungkap Fakta Alam secara Objektif (hlm. 18–26)
+
+### A. Kaidah Kalimat Definisi: adalah vs merupakan (hlm. 19)
+1. **Kata `adalah`:** Dipakai untuk menjelaskan pengertian yang MUTLAK (ekuivalensi A = B).
+   - Contoh: *Belalang anggrek (Hymenopus Coronatus) adalah salah satu jenis belalang sentadu.*
+2. **Kata `merupakan`:** Dipakai untuk menjelaskan pengertian yang TIDAK MUTLAK (penempatan objek dalam kategori yang bisa mencakup satu pengertian atau lebih).
+   - Contoh: *Belalang anggrek merupakan predator polifagus.*
+
+### B. Perbedaan Imbuhan di- dan Kata Depan di (Tabel 1.6, hlm. 20)
+| Aspek | Imbuhan di- | Kata Depan di |
+|---|---|---|
+| Fungsi | Membentuk kata kerja pasif | Menunjukkan keterangan tempat/waktu |
+| Penulisan | Serangkai dengan kata dasar | Terpisah dari kata yang diikuti |
+
+- *Salah:* *"Data di analisis menggunakan SPSS."*
+- *Baku:* *"Data dianalisis menggunakan SPSS."*
+
+### C. Kutipan Tidak Langsung & Sumber Rujukan (hlm. 21–22)
+- Dua format CMS edisi 17:
+  - **Format dalam kurung:** *...ditemukan di daerah lembap (Borror & White, 1970: 37).*
+  - **Format naratif:** *Essig (1958: 78) menyatakan bahwa...*
+- **Tanggal akses wajib** untuk sumber daring karena konten internet bersifat dinamis.
+- Format daftar pustaka skripsi: Nama. Tahun. "Judul". Jenis karya pada Prodi, Universitas. URL. Diakses tanggal.
+- Alternatif format internasional: APA, MLA.
+
+### D. Daftar Periksa LHO (Tabel 1.8, hlm. 26)
+- Judul diawali huruf kapital kecuali kata depan; judul tanpa tanda baca akhir.
+- Struktur wajib: definisi umum → deskripsi per bagian → deskripsi manfaat.
+- Objektivitas: hanya informasi hasil pengamatan indrawi (lihat, dengar, cium, sentuh, rasa).
