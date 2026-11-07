@@ -137,3 +137,10 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - DILARANG menerjemahkan bentuk jamak asing dengan reduplikasi Indonesia: "alumni" -> "lulusan" (bukan "para alumni-alumni"), "master of ceremonies" -> "pengatur acara".
 - Pertahankan polaritas penerjemahan: positif -> positif ("bound form" -> "bentuk terikat"), negatif -> negatif ("inorganic" -> "takorganik", "illiterate" -> "niraksara").
 - Istilah Latin/asing ilmiah belum terserap dicetak miring (in vitro, status quo); yang sudah umum dicetak tegak (internet, golf, orbit).
+
+## KAPITALISASI NAMA JENIS & BENTUK TURUNAN (Modul KD 3.12 & EYD V)
+
+- Nama diri geografi atau nama orang yang menjadi nama jenis/satuan ukuran DITULIS HURUF KECIL: "kunci inggris", "pisang ambon", "mesin diesel", "15 watt" (bukan "Kunci Inggris", "Mesin Diesel").
+- Nama bangsa/bahasa yang menjadi bentuk dasar kata turunan DITULIS HURUF KECIL: "pengindonesiaan", "keinggris-inggrisan" (bukan "Peng-Indonesia-an").
+- Nama jabatan/pangkat tanpa nama orang atau wilayah spesifik DITULIS HURUF KECIL: "sejumlah menteri", "rapat kabinet" (kapital hanya untuk "Menteri Keuangan Republik Indonesia").
+- Kata kekerabatan sapaan langsung kapital ("Kapan Bapak berangkat?"), tetapi relasi keluarga umum kecil ("berkunjung ke rumah paman dan bibi").

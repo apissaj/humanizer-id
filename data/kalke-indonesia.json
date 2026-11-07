@@ -133,6 +133,12 @@
         "penulis": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN",
         "penerbit": "Kemendikbudristek, 2020",
         "bab_relevan": "Kegiatan Pembelajaran 2 (hlm. 21-23): koherensi sebab-akibat, konjungsi pertentangan/kelanjutan/penambahan, hiponimi, kepaduan isi"
+      },
+      {
+        "judul": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XI: Teks Proposal (KD 3.12)",
+        "penulis": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN",
+        "penerbit": "Kemendikbudristek, 2020 (66 hlm.)",
+        "bab_relevan": "Unsur Kebahasaan Proposal (hlm. 24-34): 39 aturan huruf kapital, huruf miring nama publikasi, penulisan nama jenis (kunci inggris, mesin diesel, 15 watt), afiksasi bangsa (pengindonesiaan)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -882,6 +888,43 @@
           "penjelasan": "Konjungsi antarkalimat akibat (oleh sebab itu, oleh karena itu, karena itu) mensyaratkan klausa pertama sebagai penyebab dan klausa kedua sebagai akibat; pembalikannya menghasilkan ketaklogisan (Modul Kemendikbud Direktorat SMA 2020, KD 3.11, hlm. 21).",
           "contoh_salah": "Pak Amat mengidap kanker paru-paru. Oleh sebab itu, ia banyak merokok.",
           "contoh_benar": "Pak Amat banyak merokok. Oleh sebab itu, ia mengidap kanker paru-paru."
+        },
+        {
+          "id": "PRP-001",
+          "pola": "kapitalisasi keliru pada nama diri geografi yang menjadi nama jenis",
+          "saran_pengganti": [
+            "kunci inggris",
+            "pisang ambon",
+            "mesin diesel",
+            "15 watt"
+          ],
+          "penjelasan": "Huruf kapital TIDAK dipakai sebagai huruf pertama nama diri geografi atau nama orang yang digunakan sebagai penjelas nama jenis atau satuan ukuran (Modul Kemendikbud Direktorat SMA 2020, KD 3.12, hlm. 30-31; EYD V).",
+          "contoh_salah": "Mekanik memperbaiki mesin Diesel menggunakan Kunci Inggris.",
+          "contoh_benar": "Mekanik memperbaiki mesin diesel menggunakan kunci inggris."
+        },
+        {
+          "id": "PRP-002",
+          "pola": "kapitalisasi salah pada bentuk dasar turunan nama bangsa/bahasa",
+          "saran_pengganti": [
+            "pengindonesiaan",
+            "keinggris-inggrisan"
+          ],
+          "penjelasan": "Huruf kapital TIDAK dipakai pada nama bangsa, suku, dan bahasa yang telah menjadi bentuk dasar kata turunan (Modul Kemendikbud Direktorat SMA 2020, KD 3.12, hlm. 30).",
+          "contoh_salah": "Proses Peng-Indonesia-an istilah asing berlangsung bertahap.",
+          "contoh_benar": "Proses pengindonesiaan istilah asing berlangsung bertahap."
+        },
+        {
+          "id": "PRP-003",
+          "pola": "kapitalisasi salah jabatan/pangkat tanpa nama orang atau wilayah spesifik",
+          "saran_pengganti": [
+            "menteri",
+            "gubernur",
+            "presiden direktur",
+            "profesor"
+          ],
+          "penjelasan": "Huruf kapital TIDAK dipakai pada nama jabatan dan pangkat yang tidak merujuk kepada nama orang, instansi, atau tempat tertentu (Modul Kemendikbud Direktorat SMA 2020, KD 3.12, hlm. 28).",
+          "contoh_salah": "Sejumlah Menteri menghadiri rapat kabinet.",
+          "contoh_benar": "Sejumlah menteri menghadiri rapat kabinet."
         }
       ]
     },

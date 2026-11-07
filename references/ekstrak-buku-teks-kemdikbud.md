@@ -212,3 +212,25 @@ Ditulis di awal kalimat baru dan diikuti tanda koma: *Adapun, Akan tetapi, Biarp
 2. **Karakteristik Artikel Opini Populer vs Karya Ilmiah Murni (hlm. 14):**
    - Artikel ilmiah: impersonal, pasif, istilah teknis disiplin ilmu, struktur kaku.
    - Artikel opini populer: komunikatif, lugas, adverbial frekuentatif (*sering, biasanya, kadang-kadang*), konjungsi penata argumentasi (*pertama, kedua, selain itu*), dan kalimat tanya retoris terarah tanpa multitafsir.
+---
+
+## 6. Ekstrak Modul Pembelajaran SMA Bahasa Indonesia Kelas XI (Direktorat SMA Kemendikbud, 2020)
+
+- **Judul:** *Teks Proposal Karya Ilmiah (KD 3.12)*
+- **Penerbit:** Direktorat SMA, Ditjen PAUD, DIKDAS, dan DIKMEN, Kemendikbud RI, 2020 (66 hlm.)
+- **Bagian Relevan:** Unsur Kebahasaan Proposal — Penulisan Huruf (hlm. 24–34)
+
+### A. Tiga Puluh Sembilan Aturan Huruf Kapital (hlm. 24–34)
+Kaidah kunci yang paling sering dilanggar model bahasa:
+1. **Nama jenis dari nama diri geografi/orang:** huruf kecil semua. (*kunci inggris, pisang ambon, mesin diesel, 15 watt* — bukan *Kunci Inggris, Mesin Diesel*).
+2. **Bentuk dasar turunan nama bangsa/bahasa:** huruf kecil. (*pengindonesiaan, keinggris-inggrisan*).
+3. **Jabatan/pangkat tanpa nama spesifik:** huruf kecil (*sejumlah menteri, rapat kabinet*), tetapi kapital bila merujuk nama spesifik (*Menteri Keuangan Republik Indonesia, Gubernur Jawa Barat*).
+4. **Kekerabatan sapaan vs relasi:** kapital pada sapaan langsung (*"Kapan Bapak berangkat?"*, *Surat Saudara sudah saya terima*), huruf kecil pada relasi keluarga umum (*rumah paman dan bibi*).
+5. **Nama dokumen resmi/lembaga:** kapital semua unsur, kecuali kata tugas (*Republik Indonesia, Badan Kesejahteraan Ibu dan Anak*), termasuk bentuk ulang sempurna (*Perserikatan Bangsa-Bangsa, Dasar-Dasar Ilmu Hukum*).
+6. **Afiksasi nama diri Belanda/Jerman/Portugal:** huruf kecil untuk partikel (*Robin van Persie*).
+7. **Nama orang yang menjadi nama jenis/satuan ukuran:** huruf kecil (*mesin diesel, 15 watt, ampere*), kecuali tetap kapital bila tetap disebut sebagai nama ilmuwan (*joule per Kelvin, Newton*).
+8. **Nama peristiwa sejarah:** kapital bila nama resmi (*Perang Teluk, Konferensi Meja Bundar*); huruf kecil bila umum (*para pahlawan berjuang demi kemerdekaan Indonesia*).
+
+### B. Huruf Miring (hlm. 34+)
+- Nama buku, majalah, surat kabar yang dikutip dalam tulisan (*...berita di surat kabar Pos Kota*).
+- Kata/ungkapan asing yang belum terserap.

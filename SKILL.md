@@ -389,6 +389,30 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### W. Kaidah Huruf Kapital Nama Jenis, Turunan Bangsa, & Jabatan Umum (Rujukan Modul Direktorat SMA Kemendikbud 2020, KD 3.12, hlm. 24–34)
+
+1. **Nama Jenis dari Nama Diri:**
+   - Nama diri geografi/orang yang menjadi nama jenis atau satuan ukuran ditulis huruf kecil semua.
+   - *Salah:* *Kunci Inggris, Pisang Ambon, Mesin Diesel, 15 Watt*
+   - *Baku:* *kunci inggris, pisang ambon, mesin diesel, 15 watt*
+2. **Bentuk Dasar Turunan Nama Bangsa/Bahasa:**
+   - *Salah:* *Peng-Indonesia-an, Keinggris-Inggrisan*
+   - *Baku:* *pengindonesiaan, keinggris-inggrisan* (huruf kecil)
+3. **Jabatan/Pangkat Tanpa Nama Spesifik:**
+   - *Salah:* *"Sejumlah Menteri menghadiri rapat Kabinet."*
+   - *Baku:* *"Sejumlah menteri menghadiri rapat kabinet."*
+   - Kapital hanya bila merujuk spesifik: *Menteri Keuangan Republik Indonesia, Gubernur Jawa Barat*.
+4. **Kekerabatan Sapaan vs Relasi Umum:**
+   - Sapaan langsung/pengacuan → kapital: *"Kapan Bapak berangkat?"*, *Surat Saudara sudah saya terima*.
+   - Relasi keluarga umum → kecil: *rumah paman dan bibi*.
+5. **Nama Resmi Lembaga/Dokumen:**
+   - Kapital semua unsur kecuali kata tugas (*Republik Indonesia, Badan Kesejahteraan Ibu dan Anak*).
+   - Termasuk bentuk ulang sempurna: *Perserikatan Bangsa-Bangsa, Dasar-Dasar Ilmu Hukum*.
+6. **Partikel Nama Asing:**
+   - Huruf kecil untuk partikel Belanda/Jerman/Portugal/Jawa: *Robin van Persie* (van kecil).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
