@@ -191,6 +191,23 @@ Dua belas kata percakapan tidak baku yang resmi diajarkan pembakuannya pada buku
 
 ---
 
+### K. Kalke AI Slop Khas Indonesia (Rujukan: Ivan Lanin *Xenoglosofilia*, 2018 & *Recehan Bahasa*, 2020; studi Kobak dkk., *Science Advances* 2025)
+
+Kata-kata berikut adalah kalke terjemahan klise keluaran LLM yang sudah diakui penutur asli Indonesia sebagai "bau ChatGPT". Bersihkan bila naskahnya formal:
+
+| Kalke Klise | Bentuk Lugas & Alami |
+|---|---|
+| *hiruk pikuk* (kalke "hustle and bustle") | dinamika, aktivitas padat, keramaian |
+| *menyelami* (kalke "delving into", rasio 28× dalam publikasi medis global) | menguraikan, menganalisis, meneliti |
+| *merajut* (kalke "weaving / tapestry") | membangun, mengintegrasikan, menyusun |
+| *lanskap* (kalke "landscape") | kondisi, peta, situasi, bidang |
+
+Konteks buku Lanin (2018, 2020): padanan baku tidak berarti kaku — pilih padanan yang dipakai penutur asli, jangan terjebak mengganti istilah asing dengan padanan yang justru lebih asing (kasus *umpan tekak*, *takarir*).
+
+Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktikan kata AI paling berlebihan antara lain *delves* (28× lebih sering), *underscores* (13,8×), *showcasing* (10,7×). Di teks Indonesia, kata-kata tersebut lazim mengalami kalke menjadi pola di atas.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

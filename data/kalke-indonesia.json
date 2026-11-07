@@ -43,6 +43,20 @@
         "penerbit": "Pusat Bahasa Jakarta",
         "tahun": 1995,
         "bab_relevan": "Subjek-Predikat, Perangkai Berpasangan, Kehematan Kata"
+      },
+      {
+        "judul": "Xenoglosofilia: Kenapa Harus Nginggris?",
+        "penulis": "Ivan Lanin",
+        "penerbit": "Kompas Gramedia",
+        "tahun": 2018,
+        "fokus": "Kritik kalke istilah asing, preferensi padanan Indonesia alami daripada kata serapan mentah"
+      },
+      {
+        "judul": "Recehan Bahasa: Baku Tak Mesti Kaku",
+        "penulis": "Ivan Lanin",
+        "penerbit": "Mizan Qanita",
+        "tahun": 2020,
+        "fokus": "Konsep 5 ragam bahasa (beku, resmi, konsultatif, santai, akrab), keluwesan bahasa baku"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -61,7 +75,11 @@
         "rujukan": "Dokumentasi Ivan Lanin (ivanlanin/puebi)",
         "fokus": "Kaidah gabungan kata, bentuk ulang tanpa angka 2, akronim nama diri"
       }
-    ]
+    ],
+    "rujukan_studi_ai_slop": {
+      "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
+      "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
+    }
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -261,6 +279,56 @@
           "penjelasan": "Kata 'adapun' di awal kalimat adalah partikel pengantar klise kuno yang memperlambat kelugasan kalimat ilmiah (Pusat Bahasa, 1995).",
           "contoh_salah": "Adapun tujuan penelitian ini adalah untuk menganalisis throughput jaringan.",
           "contoh_benar": "Penelitian ini bertujuan menganalisis laju transmisi jaringan."
+        },
+        {
+          "id": "SLOP-001",
+          "pola": "hiruk pikuk",
+          "saran_pengganti": [
+            "dinamika",
+            "aktivitas padat",
+            "keramaian"
+          ],
+          "penjelasan": "Kalke terjemahan harfiah klise AI dari frasa bahasa Inggris 'hustle and bustle'. Penutur asli Indonesia menandai kata ini sebagai ciri khas pembuka generik artikel ChatGPT.",
+          "contoh_salah": "Di tengah hiruk pikuk perkembangan teknologi informasi saat ini...",
+          "contoh_benar": "Seiring pesatnya adopsi teknologi informasi pada sektor publik..."
+        },
+        {
+          "id": "SLOP-002",
+          "pola": "menyelami",
+          "saran_pengganti": [
+            "menguraikan",
+            "menganalisis",
+            "meneliti",
+            "mengkaji"
+          ],
+          "penjelasan": "Kalke terjemahan harfiah dari verba AI paling berlebih 'delve / delving' (rasio kelebihan 28x lipat dalam studi Science Advances 2025). Gunakan verba tindakan ilmiah lugas.",
+          "contoh_salah": "Artikel ini menyelami tantangan keamanan siber perbankan.",
+          "contoh_benar": "Artikel ini menganalisis tantangan keamanan siber pada sektor perbankan."
+        },
+        {
+          "id": "SLOP-003",
+          "pola": "merajut",
+          "saran_pengganti": [
+            "membangun",
+            "mengintegrasikan",
+            "menyusun"
+          ],
+          "penjelasan": "Kiasan puitis kalke terjemahan dari kata klise ChatGPT 'weave / tapestry' yang sering dimasukkan tanpa relevansi pada teks eksposisi ilmiah.",
+          "contoh_salah": "Penelitian ini berupaya merajut kolaborasi lintas disiplin.",
+          "contoh_benar": "Penelitian ini mengintegrasikan pendekatan lintas disiplin."
+        },
+        {
+          "id": "SLOP-004",
+          "pola": "lanskap",
+          "saran_pengganti": [
+            "kondisi",
+            "peta",
+            "situasi",
+            "bidang"
+          ],
+          "penjelasan": "Metafora kalke terjemahan dari 'landscape' (regulatory landscape, competitive landscape) yang diproduksi berulang oleh LLM pada teks formal Indonesia.",
+          "contoh_salah": "Melihat lanskap kecerdasan buatan di Indonesia.",
+          "contoh_benar": "Melihat peta perkembangan kecerdasan buatan di Indonesia."
         }
       ]
     },

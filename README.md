@@ -29,6 +29,13 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 | *Cerdas Cergas Berbahasa dan Bersastra Indonesia* Kelas XI (Edisi Revisi, 2024, ISBN 978-634-00-0958-3) | Ragam bahasa karya ilmiah (denotatif, objektif, impersonal), sistematika karya ilmiah, contoh perbaikan kalimat efektif resmi (hlm. 210–215) | [references/ekstrak-buku-teks-kemdikbud.md](references/ekstrak-buku-teks-kemdikbud.md) |
 | *Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII* (Edisi Revisi, 2024) | Lima ciri kalimat efektif (Sasangka, 2019), kaidah surat resmi (*agar menjadi*, *guna meningkatkan*), 9 kata tidak baku (hlm. 29–34) | [references/ekstrak-buku-teks-kemdikbud.md](references/ekstrak-buku-teks-kemdikbud.md) |
 
+### Buku Bahasa & Linguistik Populer (Ivan Lanin)
+- **Xenoglosofilia: Kenapa Harus Nginggris?** (Ivan Lanin, Kompas Gramedia, 2018) — telaah kritis kalke bahasa asing, pemadanan istilah berbasis kelaziman penutur.
+- **Recehan Bahasa: Baku Tak Mesti Kaku** (Ivan Lanin, Mizan Qanita, 2020) — lima tingkatan ragam bahasa (beku, resmi, konsultatif, santai, akrab) dan prinsip keluwesan teks baku.
+
+### Kajian Frekuensi Kosakata AI (Sains Internasional)
+- **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
+
 ### Pedoman Ejaan & Tata Bahasa Resmi Pemerintah
 - **EYD Edisi V** (Keputusan Kepala Badan Bahasa No. 0424/I/BS.00.01/2022) — peluluhan KTSP, bentuk terikat, partikel *pun* → [references/pedoman-kebahasaan-resmi.md](references/pedoman-kebahasaan-resmi.md)
 - **TBBBI (Tata Bahasa Baku Bahasa Indonesia) Edisi IV** — kesejajaran predikat, kalimat efektif.
