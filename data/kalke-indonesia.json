@@ -187,6 +187,12 @@
         "penulis": "Pusat Bahasa",
         "penerbit": "Depdikbud (Repositori ID 8352, 69 hlm.)",
         "bab_relevan": "Tanda baca: titik dua dilarang sebelum pelengkap objek; tanda pisah em-dash"
+      },
+      {
+        "judul": "Kohesi dan Koherensi Teks Bacaan dalam Buku Bahasa Indonesia Kelas XII Semester 2",
+        "penulis": "Widyantika Afiatna Maharani (Universitas Indonesia)",
+        "penerbit": "Repositori Kemendikbudristek (ID 10507, 19 hlm., 2018)",
+        "bagian_relevan": "hlm. 4-7: elipsis & substitusi tidak dapat merujuk jauh ke belakang; hlm. 16: temuan empiris larangan 'Sedangkan' di awal kalimat"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -1160,6 +1166,29 @@
           "penjelasan": "Partikel 'pun' yang bermakna 'juga' atau mengiringi kata tanya/bilangan WAJIB ditulis terpisah; penulisan serangkai hanya berlaku untuk 12 konjungsi yang sudah padu: adapun, andaipun, ataupun, bagaimanapun, biarpun, kalaupun, kendatipun, maupun, meskipun, sekalipun (meski), sungguhpun, walaupun (PUEBI 2016, hlm. 30-31).",
           "contoh_salah": "Apapun hasilnya, tidak satupun responden yang menolak.",
           "contoh_benar": "Apa pun hasilnya, tidak satu pun responden yang menolak."
+        },
+        {
+          "id": "KOH-001",
+          "pola": "sedangkan dipakai di awal kalimat baru",
+          "saran_pengganti": [
+            "Adapun",
+            "Sebaliknya",
+            "Sementara itu",
+            "(restrukturisasi kalimat)"
+          ],
+          "penjelasan": "Konjungsi intrakalimat 'sedangkan' tidak dapat dituliskan di awal kalimat karena merupakan konjungsi pembangun kalimat majemuk, bukan konjungsi antarkalimat (Tata Bahasa Indonesia; terkonfirmasi empiris oleh Maharani, UI 2018, hlm. 16).",
+          "contoh_salah": "Masyarakat menginginkan budaya sadar bencana. Sedangkan pemerintah masih menganggapnya insidental.",
+          "contoh_benar": "Masyarakat menginginkan budaya sadar bencana. Sebaliknya, pemerintah masih menganggapnya insidental."
+        },
+        {
+          "id": "KOH-002",
+          "pola": "elipsis subjek melompati batas kalimat/paragraf (anteseden tidak berdekatan)",
+          "saran_pengganti": [
+            "ulangi subjek secara eksplisit atau gunakan referensi anaforis"
+          ],
+          "penjelasan": "Berbeda dengan referensi (yang dapat menjangkau jauh ke belakang naskah), elipsis dan substitusi hanya sah dalam klausa berlangsung atau antarklausa langsung; pelesapan melintasi batas paragraf membuat kalimat kehilangan subjek gramatikal (Maharani, UI 2018, hlm. 7).",
+          "contoh_salah": "Penelitian ini menguji tiga model. Model pertama menunjukkan akurasi tinggi. Namun, gagal konvergen pada data kecil. Perlu dilakukan penyederhanaan arsitektur.",
+          "contoh_benar": "Penelitian ini menguji tiga model. Model pertama menunjukkan akurasi tinggi, tetapi model tersebut gagal konvergen pada data kecil. Peneliti perlu melakukan penyederhanaan arsitektur."
         }
       ]
     },
