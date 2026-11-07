@@ -276,6 +276,25 @@
         "Rujukan sepenulis-setahun ganda diberi akhiran a, b, c secara kronologis atau abjad judul.",
         "Editor kumpulan artikel ditulis 'ed.' (satu) atau 'eds.' (lebih dari satu) pada rujukan."
       ]
+    },
+    "jurnal-jipp": {
+      "nama": "Jurnal Inovasi dan Perekayasa Pendidikan / JIPP (Balitbang Kemdiknas)",
+      "pedoman": "Panduan Penulisan Artikel JIPP, Pusat Penelitian dan Inovasi Pendidikan Balitbang (Repositori ID 192)",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 3.5,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Alfabetis-Kronologis (Nama, Tahun. Judul. Kota: Penerbit)",
+      "aturan_khusus": [
+        "Naskah belum pernah diterbitkan di media lain, diketik 1,5 spasi pada kertas kuarto, panjang 15-20 halaman.",
+        "Abstrak dwibahasa Indonesia dan Inggris 100-150 kata (lebih ringkas dari standar internasional).",
+        "Kata kunci tepat 5 pengertian (descriptor).",
+        "Proporsi halaman artikel hasil penelitian: Pendahuluan (10%), Kajian Literatur (15%), Metodologi (10%), Hasil dan Pembahasan (50%), Simpulan dan Saran (15%).",
+        "Proporsi halaman artikel pemikiran/reviu teori: Pendahuluan (10%), Kajian Literatur dan Pembahasan/Pengembangan Teori (70%), Simpulan dan Saran (20%).",
+        "Pustaka acuan diurutkan secara alfabetis dan kronologis."
+      ]
     }
   }
 }

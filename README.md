@@ -108,6 +108,7 @@ Humanizer ID mendukung konvensi dan pedoman tugas akhir/skripsi spesifik dari pe
 | `unhas` | **Universitas Hasanuddin (UNHAS)** | Harvard / Vancouver / IEEE | Penomoran halaman bab di tengah bawah & lanjutan di kanan atas; wajib terjemahan kutipan asing. |
 | `unand` | **Universitas Andalas (UNAND)** | APA / Harvard | Abstrak satu paragraf tunggal tanpa indent; rujukan persamaan bernomor di kanan `(1.1)`. |
 | `jurnal-dikbud` | Jurnal Pendidikan & Kebudayaan Kemendikbud | 2.5 | 2.5 | 3.0 | 2.5 | Nama-tahun (Verdana 9, spasi 1) | Judul maks 14 kata, abstrak 150-200 kata tanpa acuan/singkatan, tanpa gelar, rujukan tahun a/b |
+| `jurnal-jipp` | Jurnal Inovasi & Perekayasa Pendidikan (Balitbang Kemdiknas) | 3.0 | 3.0 | 3.5 | 3.0 | Alfabetis-Kronologis | Abstrak dwibahasa 100-150 kata, 5 kata kunci, proporsi 10-15-10-50-15, 15-20 hlm kuarto |
 
 > **Cara Pakai:** Cukup sebutkan nama kampus Anda saat memberikan naskah, misalnya: *"Sunting abstrak skripsi ini dengan preset **ugm**"* atau *"Perbaiki Bab III metodologi dengan aturan **ipb**"*.
 
