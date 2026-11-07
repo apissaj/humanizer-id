@@ -213,3 +213,8 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **Padanan bukan harfiah (hlm. xiii):** *atlas bahasa* (bukan *atlas linguistik*); *keterampilan bahasa* (bukan *keterampilan linguistik*).
 - **Urutan padanan (hlm. xiii):** *predikat nominal* (bukan *nominatif predikat*); *pinjam terjemah* (bukan *terjemah pinjam*).
 - **Fonem klasik (hlm. xiii):** *bahasa kentum* (bukan *sentum*); *kenematika* (bukan *senematika*); *apokope* (bukan *apokop*).
+## PREPOSISI & FRASE BERPREPOSISI (S. Effendi & Buha Aritonang, Pusat Bahasa 1992)
+
+- **Titik waktu baku (hlm. 49-50):** *pada tahun/hari/saat/era ...* — bukan *di tahun/di hari/di saat/di era*.
+- **Pleonasme preposisi (hlm. 21-22):** *selain daripada* mubazir — gunakan *selain* atau *di samping*.
+- **Preposisi ruang terpisah (hlm. 21-22):** *di dalam, ke dalam, di atas, ke atas, di bawah, di depan, di samping* — dilarang ditulis serangkai; serangkai hanya *kepada* dan *daripada*.

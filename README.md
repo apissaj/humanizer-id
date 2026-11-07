@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Preposisi & Frase Berpreposisi (Pusat Bahasa 1992)
+- **Preposisi dan Frase Berpreposisi** (Drs. S. Effendi dan Drs. Buha Aritonang, Pusat Pembinaan dan Pengembangan Bahasa, 1992, viii+74 hlm., ISBN 979-459-317-6) — kajian sintaktis-semantis preposisi Indonesia: titik waktu baku *pada tahun/hari/era* (bukan *di tahun/hari*), pleonasme *selain daripada*, dan penulisan preposisi ruang/arah wajib terpisah (*di dalam, ke atas, di bawah*) → [references/preposisi-dan-frase-berpreposisi-1992.md](references/preposisi-dan-frase-berpreposisi-1992.md)
+
 ### Istilah Linguistik (Pusat Bahasa 1978)
 - **Daftar Istilah Linguistik Asing-Indonesia** (Harimurti Kridalaksana, Pusat Pembinaan dan Pengembangan Bahasa, 1978, xiv+59 hlm., ditelaah Amran Halim, A.M. Moeliono, J.S. Badudu dkk.) — prinsip pengistilahan resmi: penyederhanaan sinonim asing menjadi satu padanan, penolakan terjemahan harfiah (*atlas bahasa*, *keterampilan bahasa*), urutan unsur padanan (*predikat nominal*, *pinjam terjemah*), alih fonem klasik (*bahasa kentum*, *kenematika*), dan pemilahan makna proses vs hasil (*peminjaman* vs *pinjaman*) → [references/daftar-istilah-linguistik-kridalaksana-1978.md](references/daftar-istilah-linguistik-kridalaksana-1978.md)
 

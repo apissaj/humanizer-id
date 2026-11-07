@@ -519,6 +519,12 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Urutan Padanan:** unsur kepala di depan — *predikat nominal* (bukan *nominatif predikat*); *pinjam terjemah* (bukan *terjemah pinjam*) (hlm. xiii).
 4. **Alih Fonem Klasik:** /k/ Latin dipertahankan — *bahasa kentum* (bukan *sentum*); *kenematika* (bukan *senematika*); *apokope* (bukan *apokop*) (hlm. xiii).
 
+### AG. Preposisi & Frase Berpreposisi (Rujukan S. Effendi & Buha Aritonang, *Preposisi dan Frase Berpreposisi*, Pusat Bahasa, 1992)
+
+1. **Titik Waktu Baku *pada*:** *pada tahun 2020, pada hari Kamis, pada era digital* — bukan *di tahun, di hari, di era* (interferensi ragam lisan) (hlm. 49–50).
+2. **Pleonasme Preposisi Majemuk:** *selain daripada X* mubazir karena *selain* sudah bermakna pengecualian — pakai *selain X / di samping X* (hlm. 21–22).
+3. **Preposisi Ruang Terpisah:** *di dalam, ke dalam, di atas, ke atas, di bawah, di depan, di samping* — dua kata, bukan serangkai; serangkai hanya untuk *kepada* dan *daripada* (hlm. 21–22).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah

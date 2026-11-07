@@ -2053,6 +2053,51 @@
             "tahun": 1978,
             "halaman": "xiii"
           }
+        },
+        {
+          "id": "PFP-001",
+          "pola": "preposisi titik waktu tidak baku: di tahun, di hari, di saat, di awal bulan (di + nomina waktu)",
+          "saran_pengganti": "Gunakan preposisi baku untuk titik waktu: pada tahun 1966, pada hari Kamis, pada saat itu, pada awal bulan Juli (bukan di tahun, di hari, di saat, di awal bulan) (Effendi & Aritonang, hlm. 49-50).",
+          "penjelasan": "Preposisi dan Frase Berpreposisi (S. Effendi & Buha Aritonang, Pusat Bahasa 1992) menetapkan bahwa penanda titik waktu tertentu dalam ragam tulis baku memakai preposisi pada; bentuk di + nomina waktu (di tahun, di hari, di saat) adalah ragam cakapan yang menyusup ke tulisan. Preposisi di hanya tepat pada keterangan tempat atau waktu yang berfungsinya keterangan tempat.",
+          "contoh_salah": "Peraturan itu mulai berlaku di tahun 2020 dan direvisi kembali di hari Kamis.",
+          "contoh_benar": "Peraturan itu mulai berlaku pada tahun 2020 dan direvisi kembali pada hari Kamis.",
+          "rujukan": {
+            "penulis": "S. Effendi dan Buha Aritonang",
+            "buku": "Preposisi dan Frase Berpreposisi",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1992,
+            "halaman": "49-50"
+          }
+        },
+        {
+          "id": "PFP-002",
+          "pola": "pleonasme preposisi majemuk: selain daripada atau selain dari (selain sudah bermakna pengecualian)",
+          "saran_pengganti": "Hapus preposisi kedua yang mubazir: selain + unsur, atau di samping + unsur (bukan selain daripada/selain dari) (Effendi & Aritonang, hlm. 21-22).",
+          "penjelasan": "Preposisi dan Frase Berpreposisi (Effendi & Aritonang, Pusat Bahasa 1992) memerikan kombinasi sah preposisi majemuk (selain dari, selain daripada muncul hanya sebagai data konstruksi). Dalam ragam baku, selain sudah menyatakan pengecualian sehingga penggabungannya dengan daripada atau dari menimbulkan penumpukan preposisi yang mubazir; padanan yang lugas ialah selain atau di samping.",
+          "contoh_salah": "Selain daripada biaya kuliah, mahasiswa juga menanggung biaya praktikum.",
+          "contoh_benar": "Selain biaya kuliah, mahasiswa juga menanggung biaya praktikum.",
+          "rujukan": {
+            "penulis": "S. Effendi dan Buha Aritonang",
+            "buku": "Preposisi dan Frase Berpreposisi",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1992,
+            "halaman": "21-22"
+          }
+        },
+        {
+          "id": "PFP-003",
+          "pola": "preposisi arah/lokasi ditulis serangkai tanpa spasi: didalam, kedalam, diatas, keatas, dibawah, kebawah",
+          "saran_pengganti": "Pisahkan preposisi tunggal dari penjadanya: di dalam, ke dalam, di atas, ke atas, di bawah, ke bawah (dua kata) karena keduanya masih dapat dipisah; bentuk serangkai hanya untuk preposisi majemuk yang benar-benar memad (kepada, daripada) (Effendi & Aritonang, hlm. 21-22).",
+          "penjelasan": "Preposisi dan Frase Berpreposisi (Effendi & Aritonang, 1992) membagi preposisi menjadi tunggal (ke, di, dari) dan majemuk hasil pemaduan (kepada = ke + pada; daripada = dari + pada). Kombinasi di/ke + nomina arah (dalam, atas, bawah) tetap terpisah karena keduanya masih dapat diperkecil; menulisnya serangkai (didalam, keatas) menyalahi struktur preposisi baku dan berpotensi tertukar dengan imbuhan di-/ke-.",
+          "contoh_salah": "Dokumen itu disimpan didalam lemari arsip diatas lantai dua.",
+          "contoh_benar": "Dokumen itu disimpan di dalam lemari arsip di atas lantai dua.",
+          "rujukan": {
+            "penulis": "S. Effendi dan Buha Aritonang",
+            "buku": "Preposisi dan Frase Berpreposisi",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1992,
+            "halaman": "21-22"
+          }
         }
       ]
     }
