@@ -246,6 +246,23 @@ Detail contoh salah → benar resmi dari buku tersedia di `references/buku-ajar-
 
 ---
 
+### N. Padanan Tidak Serasi & Larangan Kontaminasi Kaidah (Rujukan Buku Bahasa Indonesia UIN Alauddin Makassar, 2021)
+
+Kesalahan yang muncul karena dua kaidah bahasa berbeda bersilang dalam satu kalimat. Serangkaian pola yang dilarang keras:
+
+1. **`karena ... sehingga`** (kontaminasi kausal): *“Karena modal terbatas sehingga tidak semua pengusaha memperoleh kredit.”* → *Baku:* *“Karena modal terbatas, tidak semua pengusaha memperoleh kredit.”*
+2. **`disebabkan karena`** (kontaminasi pasif + konjungsi): verba pasif *disebabkan* wajib diikuti preposisi *oleh*, bukan konjungsi *karena*.
+3. **`karena ... maka` / `untuk ... maka` / `kalau ... maka`**: cukup satu konjungsi saja. *“Karena latensi tinggi, maka sistem lambat.”* → *Baku:* *“Karena latensi tinggi, sistem lambat.”*
+4. **`meskipun ... tetapi` / `walaupun ... namun`**: kontaminasi konsesif + pertentangan. *“Meskipun akurasi naik, tetapi biaya membengkak.”* → *Baku:* *“Meskipun akurasi naik, biaya membengkak.”*
+5. **`dan lain sebagainya`**: pencampuradukan *dan lain-lain* (dll.) dan *dan sebagainya* (dsb.). Pilih salah satu sesuai konteks rincian.
+6. **Peluluhan fonem /c/ yang salah**: fonem /c/ tidak luluh bila mendapat awalan *meN-*: *menyuci* → *mencuci*; *menyintai* → *mencintai*.
+7. **Penyengauan ragam lisan dalam tulisan**: *nulis* → *menulis*; *nabrak* → *menabrak*; *nyari* → *mencari*; *ngantuk* → *mengantuk*; *nanam* → *menanam*; *nyubit* → *mencubit*.
+8. **Penanggalan awalan `meng-` di teks ilmiah**: hanya diperbolehkan pada judul berita koran, bukan teks beritanya. *“Amerika Serikat luncurkan pesawat.”* → *Baku:* *“Amerika Serikat **meluncurkan** pesawat.”*
+
+Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); halaman ditandai *h. 55–67* (bukan *hh. 55–67*); `et al.` boleh diganti *dkk.*
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

@@ -71,6 +71,13 @@
         "penerbit": "Universitas Jambi",
         "tahun": 2021,
         "bab_relevan": "Modul 4 Kata Perangkai, Modul 5 Kalimat Efektif (hlm. 125-135), Modul 7 Bahasa dalam Karya Ilmiah (hlm. 147-170)"
+      },
+      {
+        "judul": "Bahasa Indonesia untuk Perguruan Tinggi",
+        "penulis": "Dr. Andi Halimah, M.Pd., dkk.",
+        "penerbit": "Alauddin University Press, UIN Alauddin Makassar",
+        "tahun": 2021,
+        "bab_relevan": "Bab V Diksi (hlm. 105-122), Bab VII Kutipan (hlm. 153-187), Bab IX Penulisan Karya Tulis Ilmiah (hlm. 189-210)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -432,6 +439,70 @@
           "penjelasan": "Penjamakan ganda: kata penanda jamak 'para' dilarang dipadukan dengan kata ulang berbentuk jamak (Modul Kalimat Efektif UNJA, hlm. 131).",
           "contoh_salah": "Para dosen-dosen menghadiri sidang promosi doktor.",
           "contoh_benar": "Para dosen menghadiri sidang promosi doktor."
+        },
+        {
+          "id": "UIN-001",
+          "pola": "disebabkan karena",
+          "saran_pengganti": [
+            "disebabkan oleh",
+            "karena"
+          ],
+          "penjelasan": "Padanan tidak serasi (kontaminasi verba pasif 'disebabkan' dengan konjungsi klausa 'karena'). Verba pasif membutuhkan preposisi pelaku/penyebab 'oleh', bukan konjungsi (Buku Bahasa Indonesia UIN Alauddin, hlm. 109).",
+          "contoh_salah": "Keterlambatan konvergensi disebabkan karena learning rate terlalu kecil.",
+          "contoh_benar": "Keterlambatan konvergensi disebabkan oleh nilai learning rate yang terlalu kecil."
+        },
+        {
+          "id": "UIN-002",
+          "pola": "dan lain sebagainya",
+          "saran_pengganti": [
+            "dan sebagainya",
+            "dan lain-lain"
+          ],
+          "penjelasan": "Pencampuradukan dua frasa penutup rincian. Gunakan 'dan lain-lain' (dll.) untuk rincian benda sejenis, atau 'dan sebagainya' (dsb.) untuk rincian bermacam-macam bentuk/sifat. Dilarang menggabungkannya menjadi 'dan lain sebagainya' (Buku Bahasa Indonesia UIN Alauddin, hlm. 109).",
+          "contoh_salah": "Model ini mendukung tokenisasi teks, audio, dan lain sebagainya.",
+          "contoh_benar": "Model ini mendukung tokenisasi teks, audio, dan sebagainya."
+        },
+        {
+          "id": "UIN-003",
+          "pola": "karena ... maka",
+          "saran_pengganti": [
+            "Karena [klausa], [klausa utama] (tanpa 'maka')",
+            "[Klausa utama] karena [klausa]"
+          ],
+          "penjelasan": "Kontaminasi konjungsi subordinatif 'karena' dengan partikel konsekuensi 'maka' dalam satu kalimat majemuk bertingkat. Cukup gunakan salah satu (Buku Bahasa Indonesia UIN Alauddin, hlm. 109).",
+          "contoh_salah": "Karena latensi API tinggi, maka sistem beralih ke cache lokal.",
+          "contoh_benar": "Karena latensi API tinggi, sistem beralih ke cache lokal."
+        },
+        {
+          "id": "UIN-004",
+          "pola": "meskipun ... tetapi",
+          "saran_pengganti": [
+            "Meskipun [klausa], [klausa utama] (tanpa 'tetapi/namun')",
+            "[Klausa utama], tetapi [klausa]"
+          ],
+          "penjelasan": "Padanan tidak serasi: menggabungkan konjungsi subordinatif konsesif ('meskipun/walaupun') dengan konjungsi antarklausa pertentangan ('tetapi/namun') dalam kalimat yang sama (Buku Bahasa Indonesia UIN Alauddin, hlm. 109).",
+          "contoh_salah": "Meskipun akurasinya meningkat, tetapi biaya komputasinya membengkak.",
+          "contoh_benar": "Meskipun akurasinya meningkat, biaya komputasinya membengkak."
+        },
+        {
+          "id": "UIN-005",
+          "pola": "menyuci",
+          "saran_pengganti": [
+            "mencuci"
+          ],
+          "penjelasan": "Kesalahan peluluhan fonem /c/. Dalam kaidah morfofonemik bahasa Indonesia baku, fonem awal /c/ TIDAK luluh bila mendapat awalan meN- (Buku Bahasa Indonesia UIN Alauddin, hlm. 110).",
+          "contoh_salah": "Sistem ini bertugas menyuci data prapemrosesan teks.",
+          "contoh_benar": "Sistem ini bertugas mencuci (atau membersihkan) data prapemrosesan teks."
+        },
+        {
+          "id": "UIN-006",
+          "pola": "menyintai",
+          "saran_pengganti": [
+            "mencintai"
+          ],
+          "penjelasan": "Fonem /c/ tidak luluh bila mendapat awalan meN-: mencintai, bukan menyintai (Buku Bahasa Indonesia UIN Alauddin, hlm. 110).",
+          "contoh_salah": "Peneliti menyintai bidang pemelajaran mesin.",
+          "contoh_benar": "Peneliti mencintai bidang pemelajaran mesin."
         }
       ]
     },
