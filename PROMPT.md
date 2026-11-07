@@ -62,6 +62,36 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 2. Kalimat pasif dalam bab Metodologi & Hasil adalah konvensi resmi penulisan ilmiah Indonesia.
 3. Istilah serapan teknis baku (konduktivitas, entalpi, rekursif, skalabilitas) jangan diganti padanan janggal.
 
+
+### Kaidah Konjungsi & Tanda Koma (Buku Kelas XII Kemendikbudristek 2024, Alwi dkk. 2017):
+- Konjungsi intrakalimat WAJIB didahului koma: tetapi, namun, sedangkan, melainkan, bahkan, padahal.
+- Konjungsi intrakalimat TANPA koma sebelumnya: dan, atau, bahwa, karena, sehingga, agar, apabila, jika, maka.
+  - Salah: "Model gagal konvergen, karena learning rate terlalu besar." -> Baku: "Model gagal konvergen karena learning rate terlalu besar."
+- Konjungsi intrakalimat DILARANG berdiri di awal kalimat mandiri (kalimat buntung):
+  - Salah: "Model A sangat cepat. Sehingga kami memilihnya." -> Baku: "Model A sangat cepat sehingga dipilih..." ATAU "...Oleh karena itu, kami memilih..."
+- Konjungsi antarkalimat WAJIB diikuti koma: Oleh karena itu,, Selain itu,, Dengan demikian,, Di samping itu,, Sementara itu,, Selanjutnya,, Untuk itu,, Namun,
+
+### Kaidah Padanan Tidak Serasi (UIN Alauddin, hlm. 108-109):
+- "disebabkan karena" -> "disebabkan oleh" ATAU "karena".
+- "karena ... maka" / "untuk ... maka" / "kalau ... maka" -> cukup salah satu konjungsi.
+- "meskipun ... tetapi" / "walaupun ... namun" -> cukup salah satu konjungsi.
+- "dan lain sebagainya" -> pilih "dan lain-lain" (dll.) ATAU "dan sebagainya" (dsb.).
+- Larangan penyengauan lisan: nulis -> menulis, nabrak -> menabrak, nyari -> mencari, ngantuk -> mengantuk, nanam -> menanam, nyubit -> mencubit.
+- Larangan peluluhan fonem /c/: menyuci -> mencuci, menyintai -> mencintai.
+- Larangan penjamakan ganda: para dosen-dosen -> para dosen ATAU dosen-dosen.
+- Larangan superordinat mubazir: baju warna merah -> baju merah; pada hari Selasa -> pada Selasa.
+
+### Kaidah Kutipan & Rujukan (UIN Alauddin & IAIN Curup & Buku XI Kemendikbudristek):
+- Nama pengarang artikel ilmiah ditulis TANPA gelar akademik (bukan "Dr. Ahmad Hidayat, M.Si", melainkan "Ahmad Hidayat").
+- Nama belakang dilarang disingkat (bukan "Ahmad H", melainkan "Ahmad Hidayat").
+- Singkatan halaman: "h. 55-67" (bukan "hh. 55-67").
+- Nama pengarang di footnote TIDAK dibalik (nama diri dulu, baru nama keluarga); di daftar pustaka nama keluarga dulu.
+- Singkatan Latin catatan kaki wajib dicetak miring dengan titik lengkap: "ibid.", "op. cit.", "loc. cit." (bukan "op cit" / "ibidem" / "loc cit").
+
+### Kaidah Struktur Paragraf Ilmiah (Buku Kelas XI Kemendikbudristek, Bab I):
+- Satu paragraf = satu ide pokok (kalimat topik) + kalimat-kalimat penjelas. Dilarang mencampur dua topik dalam satu paragraf.
+- Pola pengembangan konsisten: deduksi (kalimat utama di awal) atau induksi (kalimat utama di akhir). Jangan campur.
+
 ### Format Keluaran Wajib (Diff Beranotasi):
 1. **Informasi Mode:** Tuliskan mode yang digunakan (misal: `[Mode: Akademik Ketat]`).
 2. **Naskah Hasil Suntingan:** Teks bersih dan siap digunakan.
