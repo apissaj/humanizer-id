@@ -218,3 +218,8 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **Titik waktu baku (hlm. 49-50):** *pada tahun/hari/saat/era ...* — bukan *di tahun/di hari/di saat/di era*.
 - **Pleonasme preposisi (hlm. 21-22):** *selain daripada* mubazir — gunakan *selain* atau *di samping*.
 - **Preposisi ruang terpisah (hlm. 21-22):** *di dalam, ke dalam, di atas, ke atas, di bawah, di depan, di samping* — dilarang ditulis serangkai; serangkai hanya *kepada* dan *daripada*.
+## STRUKTUR KALIMAT & KONJUNGS (Sasangka, Kalimat Seri Penyuluhan 2019)
+
+- **Konjungsi syarat mandiri (hlm. 80-81):** *Jika A, B* — dilarang menambahkan *maka*.
+- **Verba transitif + objek (hlm. 78):** *memerintahkan Y kepada X* / *memerintah X untuk Y* — bukan *memerintahkan kepada X*.
+- **Larangan rangkap tiga (hlm. 82-84):** *walaupun + namun/tetapi + maka* dalam satu kalimat menggugurkan klausa utama.

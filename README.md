@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Kalimat & Konjungsi (Badan Bahasa 2019)
+- **Kalimat: Seri Penyuluhan Bahasa Indonesia** (Sry Satriya Tjatur Wisnu Sasangka, Badan Pengembangan dan Pembinaan Bahasa, 2019, x+107 hlm.) — kaidah struktur kalimat efektif: larangan korelatif *jika/kalau ... maka* (menghilangkan klausa utama), larangan menyisipkan preposisi pada objek verba transitif (*memerintahkan kepada X*), larangan menumpuk konjungsi pertentangan rangkap tiga (*walaupun + namun + maka*), serta ketaksaan penempatan adverbia *baru* → [references/kalimat-penyuluhan-sasangka-2019.md](references/kalimat-penyuluhan-sasangka-2019.md)
+
 ### Preposisi & Frase Berpreposisi (Pusat Bahasa 1992)
 - **Preposisi dan Frase Berpreposisi** (Drs. S. Effendi dan Drs. Buha Aritonang, Pusat Pembinaan dan Pengembangan Bahasa, 1992, viii+74 hlm., ISBN 979-459-317-6) — kajian sintaktis-semantis preposisi Indonesia: titik waktu baku *pada tahun/hari/era* (bukan *di tahun/hari*), pleonasme *selain daripada*, dan penulisan preposisi ruang/arah wajib terpisah (*di dalam, ke atas, di bawah*) → [references/preposisi-dan-frase-berpreposisi-1992.md](references/preposisi-dan-frase-berpreposisi-1992.md)
 

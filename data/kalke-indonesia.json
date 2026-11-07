@@ -1473,6 +1473,51 @@
             "tahun": 2017,
             "halaman": "108"
           }
+        },
+        {
+          "id": "SPK-001",
+          "pola": "konjungsi syarat berkorelasi mubazir: jika/kalau/apabila ... maka ... dalam satu kalimat",
+          "saran_pengganti": "Gugurkan kata maka: Jika A, B. (bukan Jika A, maka B) — gabungan konjungsi syarat dengan maka membuat kedua klausa subordinatif sehingga kalimat kehilangan klausa utama (Sasangka, hlm. 80-81).",
+          "penjelasan": "Kalimat (Seri Penyuluhan Bahasa Indonesia, Sry Satriya Tjatur Wisnu Sasangka, Badan Bahasa 2019) menganalisis bahwa pemakaian penghubung jika dan maka (atau kalau dan maka) menyebabkan kedua klausa sama-sama subordinatif sehingga kalimat tidak jelas strukturnya. Konjungsi subordinatif cukup satu: jika/kalau/apabila saja, tanpa korelatif maka.",
+          "contoh_salah": "Jika keadaan itu dibiarkan berlarut-larut, maka masyarakat bisa bertindak anarkistis.",
+          "contoh_benar": "Jika keadaan itu dibiarkan berlarut-larut, masyarakat bisa bertindak anarkistis.",
+          "rujukan": {
+            "penulis": "Sry Satriya Tjatur Wisnu Sasangka",
+            "buku": "Kalimat: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "80-81"
+          }
+        },
+        {
+          "id": "SPK-002",
+          "pola": "objek verba transitif disisipi preposisi: memerintahkan kepada, menugaskan kepada (memerintahkan kepada X)",
+          "saran_pengganti": "Hapus preposisi kepada: 'memerintah X untuk melakukan Y' atau 'memerintahkan Y kepada X' (bukan 'memerintahkan kepada X untuk Y') karena verba transitif berakhiran -kan tidak boleh dipisahkan preposisi dari objek penderitanya (Sasangka, hlm. 78).",
+          "penjelasan": "Kalimat (Sasangka, Badan Bahasa 2019, contoh 99) menegaskan bahwa kalimat Pasal UU memerintahkan kepada keempat badan tersebut untuk melakukan penyesuaian memiliki struktur salah (S-P-K-K). Verba transitif memerintahkan mewajibkan objek langsung; penempatan preposisi kepada sebelum objek membuat kalimat kehilangan objek dan berubah menjadi keterangan yang rancu.",
+          "contoh_salah": "Pasal 52 ayat (2) UU memerintahkan kepada keempat badan tersebut untuk melakukan penyesuaian.",
+          "contoh_benar": "Pasal 52 ayat (2) UU memerintahkan penyesuaian kepada keempat badan tersebut.",
+          "rujukan": {
+            "penulis": "Sry Satriya Tjatur Wisnu Sasangka",
+            "buku": "Kalimat: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "78"
+          }
+        },
+        {
+          "id": "SPK-003",
+          "pola": "penghubung bertentangan rangkap tiga dalam satu kalimat majemuk: walaupun/meskipun ... namun/tetapi ... maka ...",
+          "saran_pengganti": "Pecah atau hapus penghubung berlebihan: gunakan satu konjungsi subordinatif yang tepat dan pertahankan satu klausa utama berpredikat mandiri (Sasangka, hlm. 82-84).",
+          "penjelasan": "Kalimat (Sasangka, 2019, contoh 104) mengurai kekeliruan menumpuk konjungsi: Walaupun menurut rencana pelatihan dilaksanakan bulan ini, namun karena direksi bertugas ke luar negeri, maka diundur. Kalimat semacam ini memuat tiga konjungsi beruntun (walaupun, namun, maka) yang memotong klausa utama sehingga seluruh bagian kalimat berstatus anak kalimat tanpa induk.",
+          "contoh_salah": "Walaupun menurut rencana pelatihan dilaksanakan bulan ini, namun karena direksi bertugas ke luar negeri, maka jadwal diundur.",
+          "contoh_benar": "Menurut rencana, pelatihan dilaksanakan bulan ini, tetapi jadwal diundur karena direksi bertugas ke luar negeri.",
+          "rujukan": {
+            "penulis": "Sry Satriya Tjatur Wisnu Sasangka",
+            "buku": "Kalimat: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "82-84"
+          }
         }
       ]
     },

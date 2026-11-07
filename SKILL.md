@@ -525,6 +525,12 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Pleonasme Preposisi Majemuk:** *selain daripada X* mubazir karena *selain* sudah bermakna pengecualian — pakai *selain X / di samping X* (hlm. 21–22).
 3. **Preposisi Ruang Terpisah:** *di dalam, ke dalam, di atas, ke atas, di bawah, di depan, di samping* — dua kata, bukan serangkai; serangkai hanya untuk *kepada* dan *daripada* (hlm. 21–22).
 
+### AH. Struktur Kalimat & Konjungsi (Rujukan Sasangka, *Kalimat: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
+
+1. **Konjungsi Syarat Mandiri:** *Jika/kalau/apabila A, B* — kata *maka* dilarang menyertai klausa utama karena membuat kalimat kehilangan induk (hlm. 80–81).
+2. **Objek Verba Transitif Tanpa Preposisi:** *memerintahkan penyesuaian kepada X* atau *memerintah X untuk Y* — bukan *memerintahkan kepada X untuk Y* (preposisi merusak struktur S-P-O) (hlm. 78).
+3. **Larangan Konjungsi Rangkap Tiga:** dilarang menumpuk *walaupun/meskipun + namun/tetapi + maka* dalam satu kalimat majemuk (hlm. 82–84).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah
