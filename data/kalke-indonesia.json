@@ -151,6 +151,12 @@
         "penulis": "Tim Kemendikbudristek",
         "penerbit": "Pusat Kurikulum dan Pembelajaran, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek 2021 (240 hlm.)",
         "bab_relevan": "Bab 6 (hlm. 199-202): ragam bahasa baku, denotasi vs konotasi, koreksi kata penghubung residu Melayu (dimana), struktur karya ilmiah"
+      },
+      {
+        "judul": "Seri Penyuluhan 1: Ejaan dalam Bahasa Indonesia",
+        "penulis": "Lukman Hakim, Zainul Arifin, Yayah B. Lumintaintang",
+        "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Depdikbud (ISBN 979-459-154-8, 64 hlm.)",
+        "bab_relevan": "Bab II Penulisan Kata (hlm. 7-18): kata ulang tanpa angka 2, gabungan kata terpisah vs senyawa serangkai, unsur terikat, tanda hubung dengan kapital"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -991,6 +997,71 @@
           "penjelasan": "Konjungsi konsesif-adjektival 'kendati demikian' memerlukan paralelisme klausa; dalam ragam ilmiah baku, penanda konsesif sederhana ('namun', 'meski demikian') lebih disukai agar hubungan antarklausa eksplisit (Buku Siswa Kelas XI Kurikulum Merdeka 2021, Bab 6, hlm. 200).",
           "contoh_salah": "Kendati demikian, terumbu karang di Indonesia saat ini mengalami banyak tekanan.",
           "contoh_benar": "Namun, terumbu karang di Indonesia saat ini mengalami banyak tekanan."
+        },
+        {
+          "id": "EJ-001",
+          "pola": "gabungan kata diserangkai keliru (tanggungjawab, kerjasama, terimakasih, ujicoba, tandatangan)",
+          "saran_pengganti": [
+            "tanggung jawab",
+            "kerja sama",
+            "terima kasih",
+            "uji coba",
+            "tanda tangan",
+            "kantor pos",
+            "duta besar",
+            "cagar alam"
+          ],
+          "penjelasan": "Gabungan kata yang unsur-unsurnya masih bebas maknanya ditulis terpisah (Hakim dkk., Seri Penyuluhan Ejaan 1990, hlm. 15-16; EYD V).",
+          "contoh_salah": "Penelitian ini dilakukan dengan kerjasama dua kantorpos.",
+          "contoh_benar": "Penelitian ini dilakukan dengan kerja sama dua kantor pos."
+        },
+        {
+          "id": "EJ-002",
+          "pola": "kata senyawa ditulis terpisah keliru (dari pada, barang kali, padahal, sekaligus, apabila, bilamana)",
+          "saran_pengganti": [
+            "daripada",
+            "barangkali",
+            "padahal",
+            "sekaligus",
+            "apabila",
+            "bilamana",
+            "matahari",
+            "saputangan",
+            "bumiputra",
+            "segitiga"
+          ],
+          "penjelasan": "Gabungan kata yang sudah senyawa (maknanya tidak dapat dikembalikan kepada unsur-unsurnya) ditulis serangkai (Hakim dkk., Seri Penyuluhan Ejaan 1990, hlm. 16-17; EYD V).",
+          "contoh_salah": "Masyarakat pedesaan lebih memilih dari pada perkotaan dalam survei ini.",
+          "contoh_benar": "Masyarakat pedesaan lebih memilih daripada perkotaan dalam survei ini."
+        },
+        {
+          "id": "EJ-003",
+          "pola": "unsur terikat ditulis terpisah (sub unit, maha guru, peri laku, antar kota)",
+          "saran_pengganti": [
+            "subunit",
+            "subbagian",
+            "mahaguru",
+            "mahatahu",
+            "perilaku",
+            "peribahasa",
+            "antarkota"
+          ],
+          "penjelasan": "Unsur terikat (sub-, maha-, peri-, antar-, tuna-, catur-) yang diikuti kata dasar ditulis serangkai; kecuali diikuti kata berimbuhan (maha pengasih) atau huruf kapital (antar-SMA) (Hakim dkk., Seri Penyuluhan Ejaan 1990, hlm. 18).",
+          "contoh_salah": "Perilaku sub unit tersebut antar kota berbeda.",
+          "contoh_benar": "Perilaku subunit tersebut antarkota berbeda."
+        },
+        {
+          "id": "EJ-004",
+          "pola": "angka 2 sebagai penanda kata ulang (anak2, sekolah2, ber-kejar2-an)",
+          "saran_pengganti": [
+            "anak-anak",
+            "sekolah-sekolah",
+            "berkejar-kejaran",
+            "didorong-dorong"
+          ],
+          "penjelasan": "Dalam tulisan resmi, kata ulang ditulis lengkap dengan tanda hubung, tidak boleh digantikan angka 2 (Hakim dkk., Seri Penyuluhan Ejaan 1990, hlm. 13).",
+          "contoh_salah": "Data anak2 sekolah2 itu dikumpulkan.",
+          "contoh_benar": "Data anak-anak sekolah itu dikumpulkan."
         }
       ]
     },

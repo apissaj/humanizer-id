@@ -288,3 +288,27 @@ Kaidah kunci yang paling sering dilanggar model bahasa:
    - **Denotatif Murni:** Bebas dari makna konotatif yang mengandung penambahan rasa/emosi pembaca (*buah yang manis* = denotatif; *duduk dengan manis* = konotatif).
 3. **Format Rujukan:**
    - Standar penulisan daftar pustaka: susunan nama pengarang pertama dibalik; tahun terbit; judul pustaka (miring); kota terbit: nama penerbit.
+---
+
+## 9. Ekstrak Buku Seri Penyuluhan 1: Ejaan dalam Bahasa Indonesia (Pusat Bahasa Depdikbud)
+
+- **Judul:** *Seri Penyuluhan 1: Ejaan dalam Bahasa Indonesia*
+- **Penyunting:** Lukman Hakim, Zainul Arifin, Yayah B. Lumintaintang
+- **Penerbit:** Pusat Pembinaan dan Pengembangan Bahasa, Depdikbud (ISBN 979-459-154-8, 64 hlm.)
+- **Bagian Relevan:** Bab III Penulisan Kata (hlm. 7–18)
+
+### A. Kaidah Kata Ulang Baku (hlm. 13)
+- Larangan mutlak penggunaan angka 2 dalam ragam resmi (*anak2, sekolah2, ber-kejar2-an*).
+- Kata ulang ditulis lengkap dengan tanda hubung: *anak-anak, sekolah-sekolah, berkejar-kejaran, didorong-dorong*.
+- Reduplikasi kata ulang berubah bunyi: konsonan (*sayur-mayur, lauk-pauk, ramah-tamah*), vokal (*huru-hara, gerak-gerik, bolak-balik*).
+
+### B. Gabungan Kata: Terpisah vs Senyawa Serangkai (hlm. 15–17)
+1. **Wajib Terpisah (unsur masih bebas):**
+   - *tanggung jawab, kerja sama, tanda tangan, terima kasih, uji coba, kantor pos, duta besar, cagar alam, tata surya, bima sakti, serah terima*.
+2. **Wajib Serangkai (senyawa padu):**
+   - *daripada, barangkali, padahal, sekaligus, bilamana, apabila, matahari, saputangan, bumiputra, segitiga, hulubalang*.
+
+### C. Unsur Terikat (hlm. 17–18)
+- Bentuk terikat (*sub-, maha-, peri-, antar-, tuna-, catur-*) ditulis serangkai dengan kata dasar: *subunit, subbagian, mahaguru, mahatahu, perilaku, antarkota*.
+- Pengecualian 1: Diikuti huruf kapital $ightarrow$ wajib diberi tanda hubung (*non-RRC, non-Indonesia, pan-Afrikanisme, antar-SMA*).
+- Pengecualian 2: *maha* dan *peri* diikuti kata berimbuhan $ightarrow$ ditulis terpisah (*maha pengasih, maha pemurah*); diikuti kata dasar $ightarrow$ serangkai (*mahakasih, mahamurah*).

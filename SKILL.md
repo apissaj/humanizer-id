@@ -443,6 +443,25 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### Z. Penulisan Gabungan Kata: Terpisah vs Senyawa & Unsur Terikat (Rujukan Seri Penyuluhan 1: Ejaan dalam Bahasa Indonesia, Pusat Bahasa Depdikbud)
+
+1. **Gabungan Kata yang Masih Bebas — Tulis TERPISAH:**
+   - *Salah:* *tanggungjawab, kerjasama, tandatangan, terimakasih, ujicoba, kantorpos, dutabesar, cagaralam, tatasurya*
+   - *Baku:* *tanggung jawab, kerja sama, tanda tangan, terima kasih, uji coba, kantor pos, duta besar, cagar alam, tata surya*
+2. **Gabungan Kata Senyawa — Tulis SERANGKAI:**
+   - *Salah:* *dari pada, barang kali, pada hal, sekali gus, bila mana, apa bila, mata hari, sapu tangan, bumi putra, segi tiga*
+   - *Baku:* *daripada, barangkali, padahal, sekaligus, bilamana, apabila, matahari, saputangan, bumiputra, segitiga*
+3. **Unsur Terikat + Kata Dasar — SERANGKAI:**
+   - *Salah:* *sub unit, maha guru, peri laku, antar kota*
+   - *Baku:* *subunit, mahaguru, perilaku, antarkota*
+4. **Pengecualian:**
+   - Diikuti huruf kapital $ightarrow$ pakai tanda hubung: *non-RRC, antar-SMA, pan-Afrikanisme*.
+   - *maha/peri* + kata berimbuhan $ightarrow$ terpisah: *maha pengasih*; + kata dasar $ightarrow$ serangkai: *mahakasih*.
+5. **Larangan Angka 2 sebagai Penanda Reduplikasi:**
+   - Tulis lengkap dengan tanda hubung: *anak-anak* (bukan *anak2*), *berkejar-kejaran* (bukan *ber-kejar2-an*).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

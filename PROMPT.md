@@ -160,3 +160,11 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
   - Baku: "Penelitian ini menarik karena hasilnya menunjukkan tren positif." / "Penelitian menunjukkan tren positif."
 - Larangan sama berlaku untuk "diketika", "disewaktu", "dibagaimana".
 - Pernyataan ilmiah wajib objektif (berbasis data) dan reproduktif (dipahami identik oleh semua pembaca tanpa multitafsir).
+
+## GABUNGAN KATA & UNSUR TERIKAT (Seri Penyuluhan Ejaan, Pusat Bahasa)
+
+- Gabungan kata yang unsur-unsurnya masih bebas WAJIB ditulis terpisah: "tanggung jawab", "kerja sama", "terima kasih", "uji coba", "tanda tangan", "kantor pos", "duta besar", "cagar alam" (bukan "kerjasama", "terimakasih", "ujicoba").
+- Gabungan kata senyawa yang maknanya sudah padu WAJIB ditulis serangkai: "daripada", "barangkali", "padahal", "sekaligus", "apabila", "bilamana", "matahari", "saputangan", "bumiputra", "segitiga".
+- Unsur terikat (sub-, maha-, peri-, antar-) + kata dasar ditulis serangkai: "subunit", "mahaguru", "perilaku", "antarkota".
+- Pengecualian: diikuti kapital pakai tanda hubung ("non-Indonesia", "antar-SMA"); maha/peri + kata berimbuhan ditulis terpisah ("maha pengasih").
+- DILARANG memakai angka 2 untuk kata ulang: tulis "anak-anak" (bukan "anak2").
