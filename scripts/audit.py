@@ -47,8 +47,22 @@ def audit_text(text, kalke_dict, glosarium_dict):
         for cat_key, cat_data in kalke_dict.get("kategori", {}).items():
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
-                if "..." in pattern_str or " X, " in pattern_str:
+                # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str:
+                    matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
+                        matched = True
+                    elif "antara" in pattern_str and "dengan" in pattern_str:
+                        if re.search(r'\bantara\b.+?\bdengan\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "baik" in pattern_str and "ataupun" in pattern_str:
+                        if re.search(r'\bbaik\b.+?\bataupun\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "bukan" in pattern_str and "tetapi" in pattern_str:
+                        if re.search(r'\bbukan\b.+?\btetapi\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    
+                    if matched:
                         findings.append({
                             "baris": line_idx,
                             "kategori": cat_key,

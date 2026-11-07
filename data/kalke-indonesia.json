@@ -29,6 +29,20 @@
         "penerbit": "Pusat Kurikulum dan Perbukuan, Kemendikbudristek RI",
         "tahun": 2024,
         "bab_relevan": "Bab I: Mengomunikasikan Informasi Penting tentang Pendidikan dan/atau Pekerjaan (hlm. 29-34) - Kata Baku & Kalimat Efektif; Ciri Kelugasan, Ketepatan, Kejelasan, Kehematan, Kesejajaran (Sasangka, 2019)"
+      },
+      {
+        "judul": "Tata Bahasa Baku Bahasa Indonesia (Edisi Keempat)",
+        "penulis": "Hasan Alwi, Soenjono Dardjowidjojo, Hans Lapoliwa, Anton M. Moeliono",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kementerian Pendidikan dan Kebudayaan",
+        "tahun": 2017,
+        "bab_relevan": "Bab Kalimat Efektif & Konjungsi Korelatif; Pembentukan Verba & Nomina"
+      },
+      {
+        "judul": "Kalimat Efektif Bahasa Indonesia",
+        "penulis": "Pusat Bahasa Departemen Pendidikan Nasional",
+        "penerbit": "Pusat Bahasa Jakarta",
+        "tahun": 1995,
+        "bab_relevan": "Subjek-Predikat, Perangkai Berpasangan, Kehematan Kata"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -186,6 +200,67 @@
           "penjelasan": "Idiom visual percakapan bahasa Inggris yang tidak cocok untuk naskah proposal atau teknis formal.",
           "contoh_salah": "Komite etik memberikan lampu hijau terhadap protokol uji klinis.",
           "contoh_benar": "Komite etik menyetujui protokol uji klinis."
+        },
+        {
+          "id": "TBB-001",
+          "pola": "antara A dengan B",
+          "saran_pengganti": [
+            "antara A dan B"
+          ],
+          "penjelasan": "Pasangan perangkai korelatif baku untuk kata 'antara' adalah 'dan', bukan 'dengan' (Rujukan: TBBBI Edisi IV, Hasan Alwi dkk.).",
+          "contoh_salah": "Perbandingan antara metode A dengan metode B menunjukkan galat 2%.",
+          "contoh_benar": "Perbandingan antara metode A dan metode B menunjukkan galat 2%."
+        },
+        {
+          "id": "TBB-002",
+          "pola": "baik A ataupun B",
+          "saran_pengganti": [
+            "baik A maupun B"
+          ],
+          "penjelasan": "Pasangan korelatif baku untuk 'baik' adalah 'maupun', bukan 'ataupun' atau 'dan' (TBBBI & Kalimat Efektif Pusat Bahasa).",
+          "contoh_salah": "Pengujian dilakukan baik secara online ataupun offline.",
+          "contoh_benar": "Pengujian dilakukan baik secara daring maupun luring."
+        },
+        {
+          "id": "TBB-003",
+          "pola": "bukan A tetapi B",
+          "saran_pengganti": [
+            "bukan A, melainkan B"
+          ],
+          "penjelasan": "Konjungsi 'bukan' berpasangan dengan 'melainkan' untuk pengontrasan nomina/kategori; 'tidak' berpasangan dengan 'tetapi' untuk verba/adjektiva (TBBBI).",
+          "contoh_salah": "Model ini bukan Transformer tetapi RNN modifikasi.",
+          "contoh_benar": "Model ini bukan Transformer, melainkan RNN modifikasi."
+        },
+        {
+          "id": "TBB-004",
+          "pola": "terdiri dari",
+          "saran_pengganti": [
+            "terdiri atas"
+          ],
+          "penjelasan": "Verba 'terdiri' berkolokasi baku dengan preposisi 'atas' untuk menyatakan rincian komponen (Anjuran Resmi Badan Bahasa & TBBBI).",
+          "contoh_salah": "Dataset ini terdiri dari 50.000 citra berlabel.",
+          "contoh_benar": "Dataset ini terdiri atas 50.000 citra berlabel."
+        },
+        {
+          "id": "TBB-005",
+          "pola": "berdasarkan pada",
+          "saran_pengganti": [
+            "berdasarkan"
+          ],
+          "penjelasan": "Verba berafiks -kan 'berdasarkan' sudah bersifat transitif memuat arti hubungan dasar, sehingga penambahan preposisi 'pada' bersifat mubazir/pleonasme (TBBBI).",
+          "contoh_salah": "Berdasarkan pada hasil evaluasi, model konvergen di epoch 15.",
+          "contoh_benar": "Berdasarkan hasil evaluasi, model konvergen pada iterasi ke-15."
+        },
+        {
+          "id": "TBB-006",
+          "pola": "adapun tujuan",
+          "saran_pengganti": [
+            "Tujuan",
+            "Penelitian ini bertujuan"
+          ],
+          "penjelasan": "Kata 'adapun' di awal kalimat adalah partikel pengantar klise kuno yang memperlambat kelugasan kalimat ilmiah (Pusat Bahasa, 1995).",
+          "contoh_salah": "Adapun tujuan penelitian ini adalah untuk menganalisis throughput jaringan.",
+          "contoh_benar": "Penelitian ini bertujuan menganalisis laju transmisi jaringan."
         }
       ]
     },

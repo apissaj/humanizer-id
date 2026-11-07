@@ -175,6 +175,22 @@ Dua belas kata percakapan tidak baku yang resmi diajarkan pembakuannya pada buku
 
 ---
 
+### J. Kaidah Konjungsi Korelatif & Tata Bilangan (Rujukan TBBBI Edisi IV, Hasan Alwi dkk.)
+
+1. **Perangkai Korelatif Baku:**
+   - *antara A dan B* (bukan *antara A dengan B*)
+   - *baik A maupun B* (bukan *baik A ataupun B*, bukan *baik A dan B*)
+   - *bukan A, melainkan B* (pengontrasan kategori/nomina) vs *tidak A, tetapi B* (pengontrasan tindakan/verba)
+   - *terdiri atas* (bukan *terdiri dari*, anjuran resmi Badan Bahasa)
+   - *berdasarkan hasil* (bukan *berdasarkan pada hasil*)
+2. **Larangan Bilangan Angka di Awal Kalimat:**
+   - Angka arab tidak boleh berdiri di awal kalimat: *“25 responden mengisi angket...”* salah; susun ulang menjadi *“Sebanyak 25 responden mengisi angket...”* atau ditulis dengan huruf: *“Dua puluh lima responden...”*.
+   - Bilangan yang dapat dinyatakan dalam satu atau dua kata ditulis dengan huruf (*“tiga kali pengulangan”*, bukan *“3 kali pengulangan”*), kecuali pada perincian teknis, tabel, atau data statistik.
+3. **Pembuka Basa-Basi Kuno:**
+   - Hapus kata *“adapun”* di awal kalimat (*“Adapun tujuan dari penelitian ini...”* → *“Penelitian ini bertujuan...”*).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
