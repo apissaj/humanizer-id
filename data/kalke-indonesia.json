@@ -1428,6 +1428,51 @@
           "penjelasan": "Syarat Kelogisan: kalimat yang benar secara struktur dan tanda baca tetap salah jika maknanya lemah secara logika berbahasa. Contoh: 'Kambing sangat senang bermain hujan' (kambing hewan anti-air) atau 'Karena lama tinggal di asrama putra, anaknya semua laki-laki' (tak relevan) (Suyatno dkk., hlm. 105).",
           "contoh_salah": "Kambing sangat senang bermain hujan saat musim penghujan tiba.",
           "contoh_benar": "Saat musim hujan tiba, anak-anak desa senang bermain air."
+        },
+        {
+          "id": "SYT-001",
+          "pola": "pasangan korelatif tidak ... melainkan ... (melainkan dipasangkan dengan tidak)",
+          "saran_pengganti": "Sesuaikan pasangan korelatifnya: tidak ... tetapi ...; pasangan melainkan adalah bukan (bukan ... melainkan ...) (Suyatno dkk., hlm. 76).",
+          "penjelasan": "Bahasa Indonesia untuk Perguruan Tinggi (Suyatno dkk., IN MEDIA 2017) mencantumkan pasangan kata penghubung baku: antara ... dan ...; tidak ... tetapi ...; bukan ... melainkan .... Memasangkan tidak dengan melainkan adalah korelasi yang tidak serasi; pemadannya wajib tetap.",
+          "contoh_salah": "Nilai galat itu tidak berasal dari noise sensor, melainkan dari bias kalibrasi.",
+          "contoh_benar": "Nilai galat itu tidak berasal dari noise sensor, tetapi dari bias kalibrasi.",
+          "rujukan": {
+            "penulis": "Suyatno, Tri Pujiati, Didah Nurhamidah, Lutfi Syauki Faznur",
+            "buku": "Bahasa Indonesia untuk Perguruan Tinggi (Membangun Karakter Mahasiswa melalui Bahasa)",
+            "penerbit": "Penerbit IN MEDIA",
+            "tahun": 2017,
+            "halaman": "76"
+          }
+        },
+        {
+          "id": "SYT-002",
+          "pola": "perincian tidak sejajar bentuknya: nomina terimbuhan dicampur verba me- atau klausa pasif dalam satu deret (meliputi pembelian buku, membuat katalog, dan buku-buku diberi label)",
+          "saran_pengganti": "Sejajarkan bentuk semua unsur perincian: pembelian buku, pembuatan katalog, dan pelabelan buku (nomina semua) atau membeli buku, membuat katalog, dan melabeli buku (verba me- semua) (Suyatno dkk., hlm. 103).",
+          "penjelasan": "Bab Kalimat Efektif (Suyatno dkk., 2017) menegaskan keparalelan: unsur-unsur yang sama derajat wajib berpola sama. Dalam perincian, jika unsur pertama berbentuk nomina (pembelian), unsur berikutnya juga nomina (pembuatan, pelabelan); mencampurnya dengan verba me- (membuat) atau klausa pasif (diberi label) membuat kalimat tidak efektif.",
+          "contoh_salah": "Kegiatan di perpustakaan meliputi pembelian buku, membuat katalog, dan buku-buku diberi label.",
+          "contoh_benar": "Kegiatan di perpustakaan meliputi pembelian buku, pembuatan katalog, dan pelabelan buku.",
+          "rujukan": {
+            "penulis": "Suyatno, Tri Pujiati, Didah Nurhamidah, Lutfi Syauki Faznur",
+            "buku": "Bahasa Indonesia untuk Perguruan Tinggi (Membangun Karakter Mahasiswa melalui Bahasa)",
+            "penerbit": "Penerbit IN MEDIA",
+            "tahun": 2017,
+            "halaman": "103"
+          }
+        },
+        {
+          "id": "SYT-003",
+          "pola": "salah nalar frasa bebas parkir (diartikan boleh parkir atau gratis parkir)",
+          "saran_pengganti": "Ganti dengan frasa yang logis: parkir gratis atau bebas biaya parkir; makna bebas X ialah 'tanpa ada X' (bebas narkoba = tanpa narkoba), sehingga bebas parkir bermakna larangan parkir (Suyatno dkk., hlm. 108).",
+          "penjelasan": "Bab Kalimat Efektif (Suyatno dkk., 2017) membongkar salah kaprah menahun bebas parkir: pola bebas + nomina dalam bebas buta huruf, bebas becak, bebas narkoba, bebas bea bermakna 'tidak ada/tidak dikenakan X'. Dengan pola itu, bebas parkir justru bermakna daerah tanpa parkir (larangan parkir); papan petunjuk yang dimaksud gratis haruslah parkir gratis atau bebas biaya parkir.",
+          "contoh_salah": "Papan di area mall itu bertuliskan bebas parkir untuk kendaraan pengunjung.",
+          "contoh_benar": "Papan di area mall itu bertuliskan parkir gratis untuk kendaraan pengunjung.",
+          "rujukan": {
+            "penulis": "Suyatno, Tri Pujiati, Didah Nurhamidah, Lutfi Syauki Faznur",
+            "buku": "Bahasa Indonesia untuk Perguruan Tinggi (Membangun Karakter Mahasiswa melalui Bahasa)",
+            "penerbit": "Penerbit IN MEDIA",
+            "tahun": 2017,
+            "halaman": "108"
+          }
         }
       ]
     },

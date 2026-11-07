@@ -202,3 +202,8 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **metanalisis asing (hlm. 42, 55-56):** *sinergi* (bukan *sinergitas*); *standardisasi* (bukan *standarisasi*); *efektivitas* (bukan *efektifitas*); *aktivitas* (bukan *aktifitas*).
 - **gabungan bentuk bebas terpisah (hlm. 23, 36):** *ibu kota*, *kerja sama*, *batu bara*, *anak perusahaan* — dilarang ditulis serangkai tanpa konfiks utuh.
 - **peluluhan peN- (hlm. 23):** *penerjemah*, *perajin*, *penyurvei*, *pengebom* — bukan *penterjemah/pengrajin/pensurvei/pembom*.
+## KORELATIF, KEPARALELAN & NALAR FRASA (Suyatno dkk., Bahasa Indonesia untuk Perguruan Tinggi, IN MEDIA 2017)
+
+- **Korelatif baku (hlm. 76):** *tidak ... tetapi ...* (bukan *tidak ... melainkan ...*); *bukan ... melainkan ...* (bukan *bukan ... tetapi ...*).
+- **Keparalelan perincian (hlm. 103):** seluruh unsur se derajat wajib sepola — nomina semua (*pembelian, pembuatan, pelabelan*) atau verba aktif semua (*membeli, membuat, melabeli*).
+- **Nalar frasa (hlm. 108):** *bebas X* = 'tanpa X'; *bebas parkir* bermakna larangan parkir — frasa yang tepat untuk gratis ialah *parkir gratis / bebas biaya parkir*.

@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Bahasa Indonesia Perguruan Tinggi (UIN Jakarta 2017)
+- **Bahasa Indonesia untuk Perguruan Tinggi: Membangun Karakter Mahasiswa melalui Bahasa** (Dr. Suyatno, M.Pd., Tri Pujiati, Didah Nurhamidah, Lutfi Syauki Faznur, Penerbit IN MEDIA, 2017, xii+150 hlm., ISBN 978-602-0969-90-9) — pasangan kata penghubung korelatif baku (*tidak ... tetapi ...* vs *bukan ... melainkan ...*), keparalelan bentuk imbuhan dalam perincian (*pembelian, pembuatan, pelabelan*), dan salah nalar pola frasa *bebas parkir → parkir gratis* → [references/bahasa-indonesia-pt-suyatno-2017.md](references/bahasa-indonesia-pt-suyatno-2017.md)
+
 ### Peristilahan (Badan Bahasa 2019)
 - **Tata Istilah: Seri Penyuluhan Bahasa Indonesia** (Meity Taqdir Qodratillah, Badan Pengembangan dan Pembinaan Bahasa, 2019, xii+78 hlm.) — pemutakhiran Tata Istilah 1978 untuk era KBBI V: paradigma imbuhan *pemukiman/permukiman* dan *perubahan/pengubahan*, metanalisis palsu *-itas/-isasi* (*sinergitas, standarisasi*), penulisan gabungan bentuk bebas (*ibu kota, kerja sama*), peluluhan *peN-* baku (*penerjemah, perajin*), dan eufoni padanan (*efektif > mangkus*) → [references/tata-istilah-penyuluhan-2019.md](references/tata-istilah-penyuluhan-2019.md)
 

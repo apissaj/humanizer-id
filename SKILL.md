@@ -506,6 +506,12 @@ ightarrow$ serangkai: *mahakasih*.
 4. **Gabungan Bentuk Bebas Terpisah:** *ibu kota, kerja sama, batu bara, anak perusahaan* — bukan *ibukota, kerjasama, batubara, anakperusahaan* (hlm. 23, 36).
 5. **Peluluhan peN- Baku:** *penerjemah* (bukan *penterjemah*), *perajin* (bukan *pengrajin*), *penyurvei* (bukan *pensurvei*), *pengebom* (bukan *pembom*) (hlm. 23).
 
+### AE. Korelatif, Keparalelan & Nalar Frasa (Rujukan Suyatno dkk., *Bahasa Indonesia untuk Perguruan Tinggi*, IN MEDIA, 2017)
+
+1. **Korelatif Tidak Serasi:** pasangan baku tak boleh disilang — *tidak ... tetapi ...*; *bukan ... melainkan ...*; *antara ... dan ...*; *baik ... maupun ...* (hlm. 76).
+2. **Keparalelan Perincian:** unsur se derajat wajib berpola sama — *meliputi pembelian buku, pembuatan katalog, dan pelabelan buku*; campuran nomina + verba me- + klausa pasif tidak efektif (hlm. 103).
+3. **Salah Nalar Bebas Parkir:** pola *bebas X* bermakna 'tanpa X' (*bebas narkoba*); *bebas parkir* justru bermakna larangan parkir — yang tepat *parkir gratis / bebas biaya parkir* (hlm. 108).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah
