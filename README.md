@@ -183,3 +183,47 @@ Skrip akan mencetak nomor baris, pola kalke atau verba ringan yang terdeteksi, s
 ## Lisensi
 
 Perangkat lunak dan panduan ini dilisensikan di bawah [Lisensi MIT](LICENSE) © 2026 Hafizh Muzani.
+
+---
+
+## 📚 Modul Jurnal Ilmiah Bereputasi (`jurnal/`)
+
+Sub-skill khusus untuk menulis dan mengaudit naskah artikel jurnal bereputasi:
+**Scopus Q1-Q4, Web of Science, SINTA 1-2, IEEE, Springer, Elsevier**. Modul ini
+dipisah dari humanizer umum namun tetap memakai mesin audit dan dataset yang sama.
+
+```
+jurnal/
+├── SKILL.md                       # prosedur 4 fase (pemetaan jurnal → drafting → audit → checklist)
+├── checklist.md                   # 28 poin audit kualitas naskah
+├── templates/
+│   ├── abstract-template.md       # template abstrak 5 kalimat (150-250 kata)
+│   ├── judul-template.md          # 3 formula judul, maksimal 14 kata
+│   ├── cover-letter-template.md   # template surat pengantar submission
+│   └── response-to-reviewer-template.md  # respons komentar reviewer
+├── references/
+│   ├── imrad-structure.md         # pedoman struktur IMRaD global
+│   └── scopus-sinta-map.md        # peta strata Scopus/SINTA + red flags predator
+├── scripts/
+│   └── word_count_check.py        # pemeriksa batas kata per bagian
+└── examples/
+    └── sample-manuscript.md       # contoh naskah dummy yang lolos audit
+```
+
+### Cara Pakai Cepat
+```bash
+# 1. Audit kebahasaan naskah dengan preset jurnal
+python scripts/audit.py <naskah.md> --kampus jurnal-dikbud
+
+# 2. Cek batas kata per bagian
+python jurnal/scripts/word_count_check.py <naskah.md>
+
+# 3. Ikuti checklist.md sampai 28/28 ✅
+```
+
+### Prinsip Utama
+1. Abstrak 150-250 kata tanpa sitasi dan akronim yang belum didefinisikan.
+2. Judul maksimal 14 kata, spesifik, memuat kata kunci.
+3. Nama penulis tanpa gelar/pangkat/jabatan (Pedoman Jurnal Dikbud).
+4. Novelty dinyatakan eksplisit di akhir Introduction.
+5. Semua kaidah kebahasaan humanizer-id (127 entri) berlaku juga di sini.
