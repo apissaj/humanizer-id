@@ -127,6 +127,12 @@
         "penulis": "Haslinda & Aziz Thaba",
         "penerbit": "Jurnal Penelitian Kebahasaan dan Kesastraan, Universitas Muhammadiyah Makassar / Repositori Kemendikdasmen (ID 10459)",
         "bab_relevan": "Identifikasi sindrom pemborosan kata pada akronim/singkatan baku (nomor NIK, kartu KIP, nomor PIN, dsb.)"
+      },
+      {
+        "judul": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII: Menganalisis Kebahasaan dan Menulis Artikel Opini (KD 3.11)",
+        "penulis": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN",
+        "penerbit": "Kemendikbudristek, 2020",
+        "bab_relevan": "Kegiatan Pembelajaran 2 (hlm. 21-23): koherensi sebab-akibat, konjungsi pertentangan/kelanjutan/penambahan, hiponimi, kepaduan isi"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -866,6 +872,16 @@
           "penjelasan": "Kata umum mencakup kata khusus, bukan sebaliknya. Pembalikan relasi hiponimi-hipernim pada klausa penyangkalan/pengecualian merusak koherensi semantik wacana (Moeliono dkk., TBBBI, hlm. 371).",
           "contoh_salah": "Jangankan membeli kursi, satu mebel pun kami tidak punya.",
           "contoh_benar": "Jangankan membeli aneka mebel, satu kursi pun kami tidak punya."
+        },
+        {
+          "id": "OPN-001",
+          "pola": "konjungsi akibat menghubungkan akibat-sebab terbalik",
+          "saran_pengganti": [
+            "balikkan urutan klausa: sebab dulu, baru akibat"
+          ],
+          "penjelasan": "Konjungsi antarkalimat akibat (oleh sebab itu, oleh karena itu, karena itu) mensyaratkan klausa pertama sebagai penyebab dan klausa kedua sebagai akibat; pembalikannya menghasilkan ketaklogisan (Modul Kemendikbud Direktorat SMA 2020, KD 3.11, hlm. 21).",
+          "contoh_salah": "Pak Amat mengidap kanker paru-paru. Oleh sebab itu, ia banyak merokok.",
+          "contoh_benar": "Pak Amat banyak merokok. Oleh sebab itu, ia mengidap kanker paru-paru."
         }
       ]
     },

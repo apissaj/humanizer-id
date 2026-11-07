@@ -196,3 +196,19 @@ Ditulis di awal kalimat baru dan diikuti tanda koma: *Adapun, Akan tetapi, Biarp
 7. **Penggunaan Kata Baku:** Kepatuhan mutlak terhadap ejaan dan kaidah KBBI/EYD.
 8. **Penggunaan Istilah Bidang Ilmu:** Ketepatan istilah teknis sesuai disiplin kajian.
 9. **Kata Kerja Mental Pasif:** Pemanfaatan verba mental ilmiah (*diduga, dianalisis, dipahami, teridentifikasi*).
+---
+
+## 5. Ekstrak Modul Pembelajaran SMA Bahasa Indonesia Kelas XII (Direktorat SMA Kemendikbud, 2020)
+
+- **Judul:** *Menganalisis Kebahasaan dan Menulis Artikel Opini (KD 3.11)*
+- **Penerbit:** Direktorat SMA, Ditjen PAUD, DIKDAS, dan DIKMEN, Kemendikbud RI, 2020
+- **Bagian Relevan:** Kegiatan Pembelajaran 2: Kepaduan Isi & Penalaran (hlm. 21–23)
+
+### A. Kaidah Kepaduan Isi & Kelogisan Penalaran (hlm. 21)
+1. **Ketaklogisan Sebab-Akibat Konjungsi Antarkalimat:**
+   - *Salah:* *"Pak Amat mengidap kanker paru-paru. Oleh sebab itu, ia banyak merokok."*
+   - *Analisis:* Penggunaan *oleh sebab itu* menyiratkan kanker adalah penyebab seseorang merokok. Penalaran terbalik ini merusak koherensi wacana.
+   - *Baku:* *"Pak Amat banyak merokok. Oleh sebab itu, ia mengidap kanker paru-paru."*
+2. **Karakteristik Artikel Opini Populer vs Karya Ilmiah Murni (hlm. 14):**
+   - Artikel ilmiah: impersonal, pasif, istilah teknis disiplin ilmu, struktur kaku.
+   - Artikel opini populer: komunikatif, lugas, adverbial frekuentatif (*sering, biasanya, kadang-kadang*), konjungsi penata argumentasi (*pertama, kedua, selain itu*), dan kalimat tanya retoris terarah tanpa multitafsir.
