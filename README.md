@@ -19,6 +19,31 @@ Kekakuan tulisan AI bahasa Indonesia jarang disebabkan oleh kesalahan tata bahas
 
 ---
 
+## Sumber Data Resmi (Buku Teks & Pedoman Terdokumentasi)
+
+Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan ditelusuri dari dokumen resmi terbitan pemerintah dan pedoman akademik perguruan tinggi, lengkap dengan nomor halaman:
+
+### Buku Teks Resmi Kemendikbudristek (Sumber Primer)
+| Buku | Kontribusi Kaidah | Lokasi Ekstrak |
+|---|---|---|
+| *Cerdas Cergas Berbahasa dan Bersastra Indonesia* Kelas XI (Edisi Revisi, 2024, ISBN 978-634-00-0958-3) | Ragam bahasa karya ilmiah (denotatif, objektif, impersonal), sistematika karya ilmiah, contoh perbaikan kalimat efektif resmi (hlm. 210–215) | [references/ekstrak-buku-teks-kemdikbud.md](references/ekstrak-buku-teks-kemdikbud.md) |
+| *Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII* (Edisi Revisi, 2024) | Lima ciri kalimat efektif (Sasangka, 2019), kaidah surat resmi (*agar menjadi*, *guna meningkatkan*), 9 kata tidak baku (hlm. 29–34) | [references/ekstrak-buku-teks-kemdikbud.md](references/ekstrak-buku-teks-kemdikbud.md) |
+
+### Pedoman Ejaan & Tata Bahasa Resmi Pemerintah
+- **EYD Edisi V** (Keputusan Kepala Badan Bahasa No. 0424/I/BS.00.01/2022) — peluluhan KTSP, bentuk terikat, partikel *pun* → [references/pedoman-kebahasaan-resmi.md](references/pedoman-kebahasaan-resmi.md)
+- **TBBBI (Tata Bahasa Baku Bahasa Indonesia) Edisi IV** — kesejajaran predikat, kalimat efektif.
+- **PUEBI Daring (Permendikbud 50/2015)** — gabungan kata konfiks (*menggarisbawahi*), bentuk ulang (*buku-buku*, bukan *buku2*), akronim nama diri → [references/](references/)
+
+### Pedoman Penulisan Skripsi Perguruan Tinggi
+- **Pedoman Tugas Akhir DIKE FMIPA UGM** — rujukan persamaan matematis bernomor: *“Berdasarkan Persamaan (3.1)...”*, pemisahan Simpulan vs Saran.
+- **Pedoman Skripsi Universitas Indonesia (UI)** — kaidah sitasi dan format persamaan.
+
+### Data Lexikon & Korpus (Komunitas Terbuka)
+- Dataset distilasi EYD V (38 kategori aturan resmi), leksikon 238 kata baku↔nonbaku, glosarium istilah teknologi (115 entri) & hukum (25 entri).
+- Statistik leksikon resmi KBBI: 112.538 entri (50.668 dasar + 26.835 turunan + 31.492 gabungan).
+
+> Setiap entri di [`data/kalke-indonesia.json`](data/kalke-indonesia.json) yang bersumber dari buku mencantumkan rujukan halaman (contoh: *Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 213*), sehingga bisa diverifikasi langsung ke dokumen aslinya.
+
 ## Perbandingan Sebelum & Sesudah
 
 Berikut adalah contoh penyuntingan pada abstrak penelitian teknik (studi kasus lengkap tersedia di folder [**examples/**](examples/)):

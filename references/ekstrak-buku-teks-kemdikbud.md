@@ -86,3 +86,42 @@ Skrip `scripts/audit.py` memuat dataset ini otomatis, sehingga keempat pola lang
    - *Salah (Buku hlm. 33):* *"Demikian surat ini kami sampaikan agar menjadikan perhatian dan kerja samanya..."*
    - *Baku:* *"Demikian surat ini kami sampaikan untuk menjadi perhatian Bapak/Ibu..."* (Penyelarasan verba intransitif).
 
+---
+
+## 6. Sistematika Karya Ilmiah Resmi (Buku Siswa Kelas XI, 2024, hlm. 213)
+
+Buku Siswa Kelas XI (ISBN 978-634-00-0958-3) menetapkan sistematika karya ilmiah baku dalam tiga bagian:
+
+### A. Bagian Awal:
+1. Judul
+2. Nama penulis dan afiliasinya
+3. Abstrak
+4. Kata kunci
+
+### B. Bagian Inti:
+1. Pendahuluan
+2. Metode penelitian
+3. Analisis data
+4. Hasil
+5. Pembahasan
+
+### C. Bagian Akhir:
+1. Simpulan dan saran
+2. Daftar pustaka
+3. Lampiran
+
+### Ketentuan Ilmiah (Jones, 1960 dalam Laba & Rinayanthi, 2018: 15):
+- Fakta disajikan berdasarkan hasil pengamatan, eksperimen, atau kajian pustaka.
+- Karya ilmiah tidak terbatas pada sains dan teknologi.
+
+### Ketentuan Artikel Ilmiah (Tanjung, 2015: 7):
+- Artikel ilmiah ditulis dengan tata cara ilmiah dan pedoman ilmiah yang telah disepakati.
+- Dikelompokkan sebagai artikel hasil penelitian dan artikel non-penelitian.
+
+### Contoh Kalimat Pasif Objektif dari Artikel Resmi dalam Buku (hlm. 215):
+*"Penelitian ini bertujuan untuk melihat kondisi terumbu karang di Teluk Ambon yang akan dibandingkan dengan penelitian sebelumnya. Metode yang digunakan adalah Line Intercept Transect (LIT) di delapan stasiun pengamatan."*
+- Analisis: pasif baku (*bertujuan, digunakan*), tanpa kata ganti orang pertama, satuan & istilah asing miring.
+
+### Sumber Karya Ilmiah Asli dalam Buku:
+- Indrabudi, T., & Alik, R. — *"Status Kondisi Terumbu Karang di Teluk Ambon"* (Widyariset – LIPI). Dipakai buku sebagai contoh telaah ragam bahasa ilmiah.
+
