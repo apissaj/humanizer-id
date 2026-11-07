@@ -5,7 +5,12 @@
     "version": "1.0.0",
     "author": "Hafizh Muzani (apissaj)",
     "license": "MIT",
-    "description": "Kompilasi padanan istilah asing, kaidah register, dan diksi baku bahasa Indonesia dari berbagai kalangan profesi: akademisi, rekayasawan perangkat lunak, praktisi hukum, jurnalis, dan eksekutif bisnis."
+    "description": "Kompilasi padanan istilah asing, kaidah register, dan diksi baku bahasa Indonesia dari berbagai kalangan profesi: akademisi, rekayasawan perangkat lunak, praktisi hukum, jurnalis, dan eksekutif bisnis.",
+    "rujukan_pemerintah": {
+      "nama": "PASTI (Portal Pemadanan Istilah) Badan Pengembangan dan Pembinaan Bahasa Kemendikdasmen RI",
+      "url": "https://pasti.kemendikdasmen.go.id/",
+      "cakupan": "172.931 istilah dari 59 ranah ilmu pengetahuan"
+    }
   },
   "bidang": {
     "teknologi_dan_rekayasa": {
@@ -110,6 +115,36 @@
           "asing": "fine-tuning",
           "baku": "penyetelan halus",
           "catatan": "Penyesuaian parameter model terarah."
+        },
+        {
+          "asing": "machine learning",
+          "baku": "pemelajaran mesin",
+          "catatan": "PASTI Kemendikdasmen (Ranah: TI). Gunakan 'pemelajaran' (proses belajar mandiri/mesin), bukan 'pembelajaran' (proses guru mengajar siswa)."
+        },
+        {
+          "asing": "deep learning",
+          "baku": "pemelajaran mendalam",
+          "catatan": "PASTI Kemendikdasmen (Ranah: TI). Subbidang pemelajaran mesin berbasis jaringan saraf tiruan dalam."
+        },
+        {
+          "asing": "cloud computing",
+          "baku": "komputasi awan",
+          "catatan": "PASTI Kemendikdasmen (Ranah: TI). Penyediaan sumber daya komputasi melalui jaringan internet."
+        },
+        {
+          "asing": "data science",
+          "baku": "sains data",
+          "catatan": "PASTI Kemendikdasmen (Ranah: Pendidikan/TI). Disiplin ilmu analisis data terpadu."
+        },
+        {
+          "asing": "artificial intelligence",
+          "baku": "kecerdasan buatan / kecerdasan artifisial",
+          "catatan": "PASTI Kemendikdasmen (Ranah: Matematika/TI). Keduanya diakui secara resmi."
+        },
+        {
+          "asing": "real time",
+          "baku": "waktu nyata / waktu pasti / seketika",
+          "catatan": "PASTI Kemendikdasmen. Pemrosesan data tanpa jeda tunda yang signifikan."
         }
       ]
     },

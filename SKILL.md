@@ -249,7 +249,7 @@ Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi
 
 Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menyediakan perkakas terintegrasi:
 - **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (40 entri: kalke, verba ringan, pola klise AI, morfologi KTSP).
-- **`data/glosarium-lintas-bidang.json`**: Glosarium 45+ padanan istilah baku lintas 4 bidang profesi (Teknologi, Hukum, Jurnalistik, Bisnis).
+- **`data/glosarium-lintas-bidang.json`**: Glosarium 45+ padanan istilah baku lintas 4 bidang profesi (Teknologi, Hukum, Jurnalistik, Bisnis). Padanan istilah teknologi (pemelajaran mesin, komputasi awan, sains data) dirujuk dari **PASTI Kemendikdasmen** (172.931 istilah resmi, 59 ranah).
 - **`scripts/audit.py`**: Skrip pemindai mandiri berbasis Python standar (tanpa dependensi luar) yang memuat kedua dataset di atas secara langsung:
   ```bash
   python scripts/audit.py path/ke/dokumen.md

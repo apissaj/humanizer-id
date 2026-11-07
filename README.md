@@ -40,6 +40,7 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 - **EYD Edisi V** (Keputusan Kepala Badan Bahasa No. 0424/I/BS.00.01/2022) — peluluhan KTSP, bentuk terikat, partikel *pun* → [references/pedoman-kebahasaan-resmi.md](references/pedoman-kebahasaan-resmi.md)
 - **TBBBI (Tata Bahasa Baku Bahasa Indonesia) Edisi IV** — kesejajaran predikat, kalimat efektif.
 - **PUEBI Daring (Permendikbud 50/2015)** — gabungan kata konfiks (*menggarisbawahi*), bentuk ulang (*buku-buku*, bukan *buku2*), akronim nama diri → [references/](references/)
+- **PASTI (Portal Pemadanan Istilah) Badan Bahasa Kemendikdasmen RI** (pasti.kemendikdasmen.go.id) — 172.931 istilah dari 59 ranah ilmu. Digunakan untuk membakukan padanan istilah teknologi (*machine learning* → **pemelajaran mesin**, *deep learning* → **pemelajaran mendalam**, *cloud computing* → **komputasi awan**, *data science* → **sains data**).
 
 ### Pedoman Penulisan Skripsi Perguruan Tinggi
 - **Pedoman Tugas Akhir DIKE FMIPA UGM** — rujukan persamaan matematis bernomor: *“Berdasarkan Persamaan (3.1)...”*, pemisahan Simpulan vs Saran.
