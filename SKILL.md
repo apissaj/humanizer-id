@@ -159,6 +159,22 @@ Hentikan pola kutipan nama berulang di awal kalimat (*“Menurut Pratama (2021).
 
 ---
 
+### H. Lima Ciri Kalimat Efektif (Rujukan Sasangka, 2019 dalam Buku Siswa Kelas XII Kemendikbudristek, 2024, hlm. 30)
+
+1. **Lugas:** Hanya informasi penting yang disajikan; tanpa basa-basi pembuka klise (*"Dengan ini bermaksud memberitahukan bahwa..."*).
+2. **Tepat:** Kalimat tidak multitafsir (*ambigu*); makna tunggal sesuai konteks penulisan.
+3. **Jelas:** Struktur gramatikal baku; subjek dan predikat terbaca jelas (tidak diawali preposisi perusak subjek).
+4. **Hemat:** Tidak boros kata; anti-pleonasme kopula ganda (*adalah merupakan*), pemangkasan verba ringan (*melakukan pemeriksaan* → *memeriksa*).
+5. **Sejajar (Paralelisme):** Struktur paralel pada perincian; bentuk imbuhan seragam dalam satu deret (*mengumpulkan, menganalisis, menguji* — bukan *pengumpulan, menganalisis, uji*).
+
+Aturan khusus surat resmi (Buku Siswa XII, hlm. 33): Konjungsi **guna** wajib diikuti verba aktif (*guna meningkatkan*), bukan nomina (*guna peningkatan*). Konjungsi **agar** tidak diikuti verba berimbuhan me- (*agar menjadikan* salah; gunakan *agar menjadi*).
+
+### I. Kata Tidak Baku dalam Surat Resmi (Teka-Teki Silang Buku Siswa XII, hlm. 33)
+
+Dua belas kata percakapan tidak baku yang resmi diajarkan pembakuannya pada buku: *ampun, mau, bales, gue, makasih, ngirim, bilang, ngak, pengen, soalnya*. Gunakan padanan KBBI pada ragam formal (*maaf/tolong, menginginkan, membalas, saya/menurut saya, terima kasih, mengirim, menyatakan, tidak, ingin, karena*).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

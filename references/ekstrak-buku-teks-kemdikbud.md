@@ -61,3 +61,28 @@ Empat entri baru telah ditambahkan ke `data/kalke-indonesia.json` bersumber dari
 - `BSE-004`: *mempertanggung jawabkan* → *mempertanggungjawabkan* (konfiks, PUEBI)
 
 Skrip `scripts/audit.py` memuat dataset ini otomatis, sehingga keempat pola langsung terdeteksi saat pemindaian.
+
+---
+
+## 5. Kaidah Kalimat Efektif & Surat Resmi (Buku Siswa Kelas XII, 2024)
+
+### Data Buku:
+- **Judul:** *Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII* (Edisi Revisi)
+- **Penerbit:** Pusat Kurikulum dan Perbukuan, Kemendikbudristek RI, 2024
+- **Bab Relevan:** Bab I — *Mengomunikasikan Informasi Penting tentang Pendidikan dan/atau Pekerjaan* (hlm. 29–34)
+
+### Lima Ciri Kalimat Efektif Resmi (Sasangka, 2019 dalam Buku Siswa XII, hlm. 30):
+1. **Lugas:** Hanya informasi penting yang dipakai; mengandung makna yang padat tanpa basa-basi pengantar klise.
+2. **Tepat:** Kalimat sesuai dengan maksud yang ingin disampaikan sehingga tidak menimbulkan multitafsir atau celah ambiguitas.
+3. **Jelas:** Sesuai dengan struktur gramatikal baku dan lengkap unsur-unsurnya (Subjek dan Predikat jelas, tidak diawali preposisi perusak subjek).
+4. **Hemat:** Kalimat ditampilkan cermat dan tidak boros atau berlebihan (anti-pleonasme kopula, pemangkasan verba ringan).
+5. **Sejajar (Paralelisme):** Memiliki bentuk dan struktur yang paralel, sama, atau sederajat (keseragaman imbuhan morfemis pada perincian).
+
+### Perbaikan Kalimat Surat Resmi (Aktivitas 1.11, hlm. 33):
+1. **Pola Konjungsi Guna + Nomina yang Salah:**
+   - *Salah (Buku hlm. 33):* *"Maksud dan tujuan melaksanakan kegiatan itu adalah guna peningkatan kinerja para karyawan."*
+   - *Baku:* *"Tujuan kegiatan ini adalah untuk meningkatkan kinerja karyawan."* (Ganti nomina 'peningkatan' menjadi verba aktif 'meningkatkan').
+2. **Pola Agar + Menjadikan yang Salah:**
+   - *Salah (Buku hlm. 33):* *"Demikian surat ini kami sampaikan agar menjadikan perhatian dan kerja samanya..."*
+   - *Baku:* *"Demikian surat ini kami sampaikan untuk menjadi perhatian Bapak/Ibu..."* (Penyelarasan verba intransitif).
+

@@ -15,6 +15,20 @@
         "tahun": 2024,
         "isbn": "978-623-388-439-6",
         "bab_relevan": "Bab VI: Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 188-234)"
+      },
+      {
+        "judul": "Panduan Guru Bahasa Indonesia Tingkat Lanjut: Cakap Berbahasa dan Bersastra Indonesia untuk SMA/MA Kelas XI (Edisi Revisi)",
+        "penulis": "Maman, Rahmah Purwahida",
+        "penerbit": "Pusat Perbukuan, Kemendikdasmen RI",
+        "tahun": 2026,
+        "bab_relevan": "Bab I: Teks Deskripsi; Bab VI: Karya Ilmiah"
+      },
+      {
+        "judul": "Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII (Buku Siswa, Edisi Revisi)",
+        "penulis": "Tim Kemendikbudristek",
+        "penerbit": "Pusat Kurikulum dan Perbukuan, Kemendikbudristek RI",
+        "tahun": 2024,
+        "bab_relevan": "Bab I: Mengomunikasikan Informasi Penting tentang Pendidikan dan/atau Pekerjaan (hlm. 29-34) - Kata Baku & Kalimat Efektif; Ciri Kelugasan, Ketepatan, Kejelasan, Kehematan, Kesejajaran (Sasangka, 2019)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -600,6 +614,105 @@
           "penjelasan": "Penulisan bentuk ulang wajib menggunakan tanda hubung penuh.",
           "contoh_salah": "Berikut langkah2 ekstraksi fitur citra.",
           "contoh_benar": "Berikut langkah-langkah ekstraksi fitur citra."
+        },
+        {
+          "id": "S12-001",
+          "pola": "ampun",
+          "saran_pengganti": [
+            "maaf",
+            "tolong"
+          ],
+          "penjelasan": "Kata tidak baku pada surat resmi versi teka-teki silang Buku Siswa XII (hlm. 33). Gunakan kata baku sesuai KBBI.",
+          "contoh_salah": "Ampun Pak, mohon maaf atas keterlambatan laporan.",
+          "contoh_benar": "Mohon maaf, Pak, atas keterlambatan laporan."
+        },
+        {
+          "id": "S12-002",
+          "pola": "bales",
+          "saran_pengganti": [
+            "balas"
+          ],
+          "penjelasan": "Bentuk tidak baku dari 'balas' (teka-teki silang Buku Siswa XII, hlm. 33).",
+          "contoh_salah": "Mohon bales email ini segera.",
+          "contoh_benar": "Mohon balas surel ini segera."
+        },
+        {
+          "id": "S12-003",
+          "pola": "ngirim",
+          "saran_pengganti": [
+            "mengirim",
+            "kirim"
+          ],
+          "penjelasan": "Bentuk tidak baku dari 'mengirim' (teka-teki silang Buku Siswa XII, hlm. 33).",
+          "contoh_salah": "Bapak sudah ngirim dokumen?",
+          "contoh_benar": "Sudahkah Bapak mengirim dokumen?"
+        },
+        {
+          "id": "S12-004",
+          "pola": "makasih",
+          "saran_pengganti": [
+            "terima kasih"
+          ],
+          "penjelasan": "Bentuk tidak baku dari 'terima kasih' (teka-teki silang Buku Siswa XII, hlm. 33).",
+          "contoh_salah": "Makasih atas perhatiannya.",
+          "contoh_benar": "Terima kasih atas perhatiannya."
+        },
+        {
+          "id": "S12-005",
+          "pola": "bilang",
+          "saran_pengganti": [
+            "berkata",
+            "menyatakan"
+          ],
+          "penjelasan": "Kata percakapan tidak baku pada surat resmi (teka-teki silang Buku Siswa XII, hlm. 33).",
+          "contoh_salah": "Ia bilang rapat ditunda.",
+          "contoh_benar": "Ia menyatakan rapat ditunda."
+        },
+        {
+          "id": "S12-006",
+          "pola": "pengen",
+          "saran_pengganti": [
+            "ingin",
+            "kepengin"
+          ],
+          "penjelasan": "Bentuk tidak baku dari 'ingin' (teka-teki silang Buku Siswa XII, hlm. 33).",
+          "contoh_salah": "Saya pengen mengikuti pelatihan ini.",
+          "contoh_benar": "Saya ingin mengikuti pelatihan ini."
+        },
+        {
+          "id": "S12-007",
+          "pola": "soalnya",
+          "saran_pengganti": [
+            "karena",
+            "sebab",
+            "lantaran"
+          ],
+          "penjelasan": "Konjungsi kausalitas tidak baku dalam ragam formal (teka-teki silang Buku Siswa XII, hlm. 33).",
+          "contoh_salah": "Laporan terlambat soalnya jaringan mati.",
+          "contoh_benar": "Laporan terlambat karena jaringan mati."
+        },
+        {
+          "id": "S12-008",
+          "pola": "agar menjadikan",
+          "saran_pengganti": [
+            "agar menjadi",
+            "demi menjadikan",
+            "untuk menjadikan"
+          ],
+          "penjelasan": "Konjungsi 'agar' tidak boleh diikuti verba berimbuhan me- (menjadikan) yang mengubah predikat menjadi aktif memerlukan subjek. Kalimat resmi baku: 'agar menjadi' atau restrukturisasi klausa (Buku Siswa XII, hlm. 33, Latihan Aktivitas 1.11).",
+          "contoh_salah": "Demikian surat ini kami sampaikan agar menjadikan perhatian Bapak/Ibu.",
+          "contoh_benar": "Demikian surat ini kami sampaikan untuk menjadi perhatian Bapak/Ibu."
+        },
+        {
+          "id": "S12-009",
+          "pola": "guna peningkatan",
+          "saran_pengganti": [
+            "guna meningkatkan",
+            "untuk meningkatkan"
+          ],
+          "penjelasan": "Konjungsi 'guna' harus diikuti verba aktif berimbuhan me-, bukan nomina 'peningkatan' yang membuat kalimat tidak efektif (Buku Siswa XII, hlm. 33, Aktivitas 1.11).",
+          "contoh_salah": "Kegiatan ini dilaksanakan guna peningkatan kinerja karyawan.",
+          "contoh_benar": "Kegiatan ini dilaksanakan guna meningkatkan kinerja karyawan."
         }
       ]
     }
