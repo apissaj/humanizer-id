@@ -1873,6 +1873,81 @@
             "tahun": 1978,
             "halaman": "55"
           }
+        },
+        {
+          "id": "TIQ-001",
+          "pola": "kerancuan paradigma imbuhan: pemukiman dipakai untuk menyebut kawasan tempat tinggal yang seharusnya permukiman (pemukiman padat, pemukiman kumuh)",
+          "saran_pengganti": "Pisahkan makna menurut paradigma: pemukiman = 'proses, cara, atau perbuatan memukimkan' (paradigma memukimkan); permukiman = 'tempat bermukim; ihwal bermukim' (paradigma bermukim). Kawasan tempat tinggal warga selalu permukiman: permukiman padat, permukiman kumuh (hlm. 46-48).",
+          "penjelasan": "Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa 2019) membedakan tegas bentuk berawalan ber- dan peN- dalam paradigma mukim: bermukim (aktivitas) → pemukim (pelaku) → permukiman (tempat/ihwal). Bentuk pemukiman bermakna 'proses memukimkan' dan bukan padanan residential area; pemakaian pemukiman untuk kawasan tempat tinggal adalah kerancuan paradigma imbuhan.",
+          "contoh_salah": "Program revitalisasi drainase difokuskan pada pemukiman padat di hilir sungai.",
+          "contoh_benar": "Program revitalisasi drainase difokuskan pada permukiman padat di hilir sungai.",
+          "rujukan": {
+            "penulis": "Meity Taqdir Qodratillah",
+            "buku": "Tata Istilah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "46-48"
+          }
+        },
+        {
+          "id": "TIQ-002",
+          "pola": "kerancuan paradigma imbuhan: pengubahan dipakai untuk keadaan yang sudah berubah yang seharusnya perubahan (pengubahan iklim, pengubahan sosial yang bermakna keadaan)",
+          "saran_pengganti": "Bedakan menurut paradigma: perubahan = 'ihwal berubah; keadaan yang berubah' (paradigma berubah); pengubahan = 'proses, cara, atau perbuatan mengubah' (paradigma mengubah). Maksud 'keadaan berubah' memakai perubahan; maksud 'tindakan mengubah' memakai pengubahan (hlm. 48-51).",
+          "penjelasan": "Seri Penyuluhan Tata Istilah (Qodratillah, 2019) menjabarkan paradigma ubah: berubah → peubah → perubahan (ihwal berubah), sedangkan mengubah → pengubah → pengubahan (proses mengubah) → ubahan (hasil mengubah). Menyebut gejala alam atau keadaan dengan pengubahan (mis. pengubahan iklim) mencampur dua paradigma; bentuk yang tepat adalah perubahan.",
+          "contoh_salah": "Skripsi itu mengkaji pengubahan iklim terhadap pola tanam padi.",
+          "contoh_benar": "Skripsi itu mengkaji perubahan iklim terhadap pola tanam padi.",
+          "rujukan": {
+            "penulis": "Meity Taqdir Qodratillah",
+            "buku": "Tata Istilah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "48-51"
+          }
+        },
+        {
+          "id": "TIQ-003",
+          "pola": "metanalisis palsu akhiran asing: -itas atau -isasi dilekatkan pada akar yang tidak pernah berakhiran -ity/-ization (sinergitas, standarisasi, efektifitas, aktifitas)",
+          "saran_pengganti": "Ganti bentuk hasil metanalisis keliru: sinergitas → sinergi/kesinergian; standarisasi → standardisasi; efektifitas → efektivitas; aktifitas → aktivitas (hlm. 42, 55-56).",
+          "penjelasan": "Seri Penyuluhan Tata Istilah (Qodratillah, 2019) memberi contoh metanalisis keliru: sinergitas disangka terdiri atas sinergi + -itas padahal dalam bahasa sumber tidak ada bentuk synergity. Unsur -itas hanya sah pada akar yang berakhiran -ity/-iteit (universitas, realitas); unsur -isasi hanya sah pada akar yang berakhiran -ization (standardisasi dari standardization, bukan standar + -isasi).",
+          "contoh_salah": "Kolaborasi lintas fakultas diharapkan mendorong sinergitas riset dan standarisasi mutu.",
+          "contoh_benar": "Kolaborasi lintas fakultas diharapkan mendorong sinergi riset dan standardisasi mutu.",
+          "rujukan": {
+            "penulis": "Meity Taqdir Qodratillah",
+            "buku": "Tata Istilah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "42, 55-56"
+          }
+        },
+        {
+          "id": "TIQ-004",
+          "pola": "gabungan bentuk bebas ditulis serangkai: ibukota, kerjasama, batubara, anakperusahaan, tokoserbaada",
+          "saran_pengganti": "Tulis terpisah karena kedua unsur berdiri sendiri: ibu kota, kerja sama, batu bara, anak perusahaan, toko serba ada; bentuk serangkai hanya untuk unsur terikat atau yang sudah bersenyawa (hlm. 23, 36).",
+          "penjelasan": "Seri Penyuluhan Tata Istilah (Qodratillah, 2019) mencontohkan pemadanan dengan penulisan terpisah: ibu kota bukan ibukota; kerja sama bukan kerjasama; anak perusahaan bukan anakperusahaan; batu bara bukan batubara. Gabungan bentuk bebas ditulis terpisah; serangkai hanya bila unsur pengikutnya bentuk terikat (antar-, pra-, swa-) atau gabungan sudah bersenyawa.",
+          "contoh_salah": "Kantor ibukota provinsi bekerja sama dengan anakperusahaan BUMN di kawasan batubara.",
+          "contoh_benar": "Kantor ibu kota provinsi bekerja sama dengan anak perusahaan BUMN di kawasan batu bara.",
+          "rujukan": {
+            "penulis": "Meity Taqdir Qodratillah",
+            "buku": "Tata Istilah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "23, 36"
+          }
+        },
+        {
+          "id": "TIQ-005",
+          "pola": "peluluhan peN- keliru pada nomina pelaku: pengrajin, penterjemah, pensurvei, pembom",
+          "saran_pengganti": "Perbaiki bentuk peN- sesuai bunyi dasar: pengrajin → perajin; penterjemah → penerjemah; pensurvei → penyurvei; pembom → pengebom (hlm. 23).",
+          "penjelasan": "Seri Penyuluhan Tata Istilah (Qodratillah, 2019) mencantumkan bentuk yang sesuai kaidah bahasa Indonesia: penerjemah bukan penterjemah; perajin bukan pengrajin; penyurvei bukan pensurvei; pengebom bukan pembom. Nomina peN- pada dasar berawalan r, s, b mengikuti aturan peluluhan resmi: meN- + r → menyeR- pada akar asli memerlukan bentuk peR-; dasar b dengan peN- menjadi peNgebom (menggugurkan b).",
+          "contoh_salah": "Pengrajin batik lokal memakai jasa penterjemah untuk katalog ekspornya.",
+          "contoh_benar": "Perajin batik lokal memakai jasa penerjemah untuk katalog ekspornya.",
+          "rujukan": {
+            "penulis": "Meity Taqdir Qodratillah",
+            "buku": "Tata Istilah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "23"
+          }
         }
       ]
     }

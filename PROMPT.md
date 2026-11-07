@@ -195,3 +195,10 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **Awalan non- berdasar makna (hlm. 56-57):** 'tidak' → *tak-* (*taklinear*); 'bukan' → kata lepas *bukan* (*bukan logam*); 'tanpa' → *nir-* (*nirgerak, nirlaba*).
 - **Jamak Latin dilarang dihidupkan (hlm. 38):** gunakan bentuk lazim — *fokus* (bukan *foki*); *laboratorium* (bukan *laboratoria*).
 - **Batasan -wan (hlm. 55):** hanya lekat pada akar berhuruf akhir /-a/ (*matematikawan, fisikawan*); akar lain memakai *ahli/juru* (*ahli geologi*, bukan *geologiwan*).
+## PARADIGMA IMBUHAN PERISTILAHAN (Qodratillah, Tata Istilah Seri Penyuluhan 2019)
+
+- **pemukiman vs permukiman (hlm. 46-48):** kawasan hunian = *permukiman padat/kumuh*; *pemukiman* = proses memukimkan.
+- **perubahan vs pengubahan (hlm. 48-51):** gejala/keadaan = *perubahan iklim/sosial*; *pengubahan* = tindakan mengubah.
+- **metanalisis asing (hlm. 42, 55-56):** *sinergi* (bukan *sinergitas*); *standardisasi* (bukan *standarisasi*); *efektivitas* (bukan *efektifitas*); *aktivitas* (bukan *aktifitas*).
+- **gabungan bentuk bebas terpisah (hlm. 23, 36):** *ibu kota*, *kerja sama*, *batu bara*, *anak perusahaan* — dilarang ditulis serangkai tanpa konfiks utuh.
+- **peluluhan peN- (hlm. 23):** *penerjemah*, *perajin*, *penyurvei*, *pengebom* — bukan *penterjemah/pengrajin/pensurvei/pembom*.

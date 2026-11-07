@@ -498,6 +498,14 @@ ightarrow$ serangkai: *mahakasih*.
 4. **Jamak Latin Tidak Dihidupkan:** bentuk lazim Indonesia yang dipakai — *fokus* (bukan *foki*), *laboratorium* (bukan *laboratoria*) (hlm. 38).
 5. **Batasan Akhiran -wan:** hanya untuk akar berakhir /-a/ (*matematikawan, fisikawan*); selain itu *ahli-/juru-* (*ahli geologi, ahli kosmologi*) (hlm. 55).
 
+### AD. Paradigma Imbuhan Peristilahan (Rujukan Qodratillah, *Tata Istilah: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
+
+1. **Pemukiman vs Permukiman:** *pemukiman* = proses memukimkan; kawasan tempat tinggal selalu *permukiman* — *permukiman padat/kumuh* (hlm. 46–48).
+2. **Perubahan vs Pengubahan:** *perubahan* = keadaan yang berubah (paradigma *berubah*); *pengubahan* = tindakan mengubah (paradigma *mengubah*) — *perubahan iklim*, bukan *pengubahan iklim* (hlm. 48–51).
+3. **Metanalisis Palsu:** *-itas* hanya pada akar *-ity*; *-isasi* hanya pada akar *-ization* — *sinergi* (bukan *sinergitas*), *standardisasi* (bukan *standarisasi*), *efektivitas* (bukan *efektifitas*), *aktivitas* (bukan *aktifitas*) (hlm. 42, 55–56).
+4. **Gabungan Bentuk Bebas Terpisah:** *ibu kota, kerja sama, batu bara, anak perusahaan* — bukan *ibukota, kerjasama, batubara, anakperusahaan* (hlm. 23, 36).
+5. **Peluluhan peN- Baku:** *penerjemah* (bukan *penterjemah*), *perajin* (bukan *pengrajin*), *penyurvei* (bukan *pensurvei*), *pengebom* (bukan *pembom*) (hlm. 23).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah
