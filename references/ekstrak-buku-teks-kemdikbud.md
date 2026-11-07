@@ -124,4 +124,29 @@ Buku Siswa Kelas XI (ISBN 978-634-00-0958-3) menetapkan sistematika karya ilmiah
 
 ### Sumber Karya Ilmiah Asli dalam Buku:
 - Indrabudi, T., & Alik, R. — *"Status Kondisi Terumbu Karang di Teluk Ambon"* (Widyariset – LIPI). Dipakai buku sebagai contoh telaah ragam bahasa ilmiah.
+---
 
+## 3. Ekstrak Buku Siswa Kelas XI Edisi Revisi (Kemendikbudristek, 2024)
+
+- **Judul:** *Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/MA/SMK/MAK Kelas XI (Edisi Revisi)*
+- **Penulis:** K. Waskitaningtyas & Heny Marwati
+- **Bab Relevan:** Bab VI Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 209–265)
+
+### A. Kaidah Ragam Bahasa Ilmiah (hlm. 257–258)
+1. **Objektif:** Berdasarkan data dan fakta empiris, bebas sudut pandang pribadi/emosi.
+2. **Reproduktif:** Informasi yang disampaikan penulis harus dapat dipahami oleh pembaca dengan makna yang persis sama.
+3. **Denotatif murni:** Bebas dari penambahan makna konotatif/metaforis.
+
+### B. Aturan Penulisan Identitas Penulis (hlm. 253)
+1. **Nama penulis artikel ilmiah ditulis TANPA gelar akademik** (bukan *Dr. Ahmad Hidayat, M.Si*, melainkan *Ahmad Hidayat*).
+2. **Nama belakang TIDAK BOLEH disingkat** (bukan *Ahmad H*, melainkan *Ahmad Hidayat*) karena nama belakang menjadi pengenal rujukan/sitasi.
+
+### C. Sistematika Artikel Ilmiah Baku (hlm. 253–256)
+1. **Bagian Awal:** Judul (lugas, tanpa singkatan tidak baku), Nama Penulis (tanpa gelar), Afiliasi, Abstrak (ringkasan masalah-metode-hasil-simpulan), Kata Kunci (3–5 istilah representatif).
+2. **Bagian Inti:**
+   - **Pendahuluan:** Latar belakang masalah, rumusan masalah (pertanyaan terukur), tujuan penelitian, manfaat penelitian.
+   - **Kerangka Teoretis:** Kajian pustaka penelitian terdahulu dan hipotesis.
+   - **Metodologi Penelitian:** Prosedur, data, teknik pengumpulan, dan analisis.
+   - **Hasil & Pembahasan:** Interpretasi data dan temuan.
+   - **Simpulan & Saran:** Jawaban rumusan masalah dan rekomendasi kebijakan/lanjutan.
+3. **Bagian Akhir:** Daftar Pustaka (Harvard / APA) dan Lampiran (data pendukung).

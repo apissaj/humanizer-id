@@ -85,6 +85,12 @@
         "penerbit": "Penerbit Andhra Grafika, IAIN Curup",
         "tahun": 2021,
         "bab_relevan": "Bab III Tata Tulisan Kutipan & Sistem Rujukan (hlm. 12-30), Bab IV Bahasa Indonesia Ragam Ilmiah (hlm. 31-44), Bab VIII Bahasa Indonesia Baku (hlm. 104-110)"
+      },
+      {
+        "judul": "Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/MA/SMK/MAK Kelas XI (Edisi Revisi)",
+        "penulis": "K. Waskitaningtyas & Heny Marwati",
+        "penerbit": "Kemendikbudristek, 2024",
+        "bab_relevan": "Bab VI Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 209-265): struktur artikel ilmiah, ragam bahasa ilmiah, kalimat majemuk rapatan"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -543,6 +549,36 @@
           "penjelasan": "Bentuk singkatan resmi catatan kaki untuk 'pada tempat yang sama' adalah 'ibid.' (berhuruf miring dengan tanda titik), bukan ditulis panjang 'ibidem' tanpa singkatan (Buku Bahasa Indonesia IAIN Curup, hlm. 27).",
           "contoh_salah": "Lihat pembahasan lengkap pada ibidem halaman 30.",
           "contoh_benar": "Lihat pembahasan lengkap pada ibid., hlm. 30."
+        },
+        {
+          "id": "BSX-001",
+          "pola": "Dr. Ahmad Hidayat, M.Si",
+          "saran_pengganti": [
+            "Ahmad Hidayat (tanpa gelar)"
+          ],
+          "penjelasan": "Nama penulis artikel ilmiah ditulis TANPA gelar akademik (Buku Kemendikbudristek Kelas XI, 2024, hlm. 253).",
+          "contoh_salah": "Dr. Ahmad Hidayat, M.Si",
+          "contoh_benar": "Ahmad Hidayat"
+        },
+        {
+          "id": "BSX-002",
+          "pola": "Ahmad H",
+          "saran_pengganti": [
+            "Ahmad Hidayat (nama belakang lengkap)"
+          ],
+          "penjelasan": "Nama belakang penulis artikel ilmiah TIDAK BOLEH disingkat, karena akan dipakai penulis lain sebagai rujukan (Buku Kemendikbudristek Kelas XI, 2024, hlm. 253).",
+          "contoh_salah": "Ahmad H",
+          "contoh_benar": "Ahmad Hidayat"
+        },
+        {
+          "id": "BSX-003",
+          "pola": "hh. 55-67",
+          "saran_pengganti": [
+            "h. 55-67"
+          ],
+          "penjelasan": "Singkatan halaman baku Indonesia adalah 'h.' baik untuk satu maupun beberapa halaman; 'hh.' adalah penulisan tak baku (Buku Kemendikbudristek Kelas XI 2024 & UIN Alauddin, hlm. 253).",
+          "contoh_salah": "Lihat analisis di hh. 55-67.",
+          "contoh_benar": "Lihat analisis di h. 55-67."
         }
       ]
     },

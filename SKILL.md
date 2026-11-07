@@ -274,6 +274,15 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### P. Identitas Penulis Ilmiah & Singkatan Halaman (Rujukan Buku Siswa Kelas XI Kemendikbudristek, 2024)
+
+1. **Nama penulis artikel ilmiah ditulis TANPA gelar akademik:** *“Dr. Ahmad Hidayat, M.Si.”* → *Baku:* *“Ahmad Hidayat”*.
+2. **Nama belakang dilarang disingkat:** *“Ahmad H”* → *Baku:* *“Ahmad Hidayat”* — nama belakang menjadi kunci rujukan sitasi.
+3. **Singkatan halaman baku:** `h.` untuk satu maupun banyak halaman (*h. 55–67*), bukan `hh.` (konvensi Indonesia tidak mengenal pluralisasi singkatan halaman).
+4. **Ragam bahasa ilmiah tiga syarat:** objektif (berbasis data/fakta), reproduktif (makna pembaca = maksud penulis), denotatif murni (bebas konotasi/metafora).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
