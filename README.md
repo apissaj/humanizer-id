@@ -107,6 +107,7 @@ Humanizer ID mendukung konvensi dan pedoman tugas akhir/skripsi spesifik dari pe
 | `upi` | **Universitas Pendidikan Indonesia (UPI)** | APA Style 7th | Pemisahan bab Analisis Data & Pembahasan dari Temuan; judul bab kapital di tengah tebal. |
 | `unhas` | **Universitas Hasanuddin (UNHAS)** | Harvard / Vancouver / IEEE | Penomoran halaman bab di tengah bawah & lanjutan di kanan atas; wajib terjemahan kutipan asing. |
 | `unand` | **Universitas Andalas (UNAND)** | APA / Harvard | Abstrak satu paragraf tunggal tanpa indent; rujukan persamaan bernomor di kanan `(1.1)`. |
+| `jurnal-dikbud` | Jurnal Pendidikan & Kebudayaan Kemendikbud | 2.5 | 2.5 | 3.0 | 2.5 | Nama-tahun (Verdana 9, spasi 1) | Judul maks 14 kata, abstrak 150-200 kata tanpa acuan/singkatan, tanpa gelar, rujukan tahun a/b |
 
 > **Cara Pakai:** Cukup sebutkan nama kampus Anda saat memberikan naskah, misalnya: *"Sunting abstrak skripsi ini dengan preset **ugm**"* atau *"Perbaiki Bab III metodologi dengan aturan **ipb**"*.
 

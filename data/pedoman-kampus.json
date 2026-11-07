@@ -255,6 +255,27 @@
         "Abstrak ditulis dalam satu paragraf tunggal tanpa indentasi, jarak spasi 1, maksimal 250 kata.",
         "Persamaan matematis diberi nomor dalam kurung di batas margin kanan, misalnya (1.1)."
       ]
+    },
+    "jurnal-dikbud": {
+      "nama": "Jurnal Pendidikan dan Kebudayaan (Kemendikbudristek)",
+      "pedoman": "Pedoman Penulisan Artikel Jurnal Pendidikan dan Kebudayaan Kemendikbudristek (Repositori ID 493)",
+      "margin_cm": {
+        "atas": 2.5,
+        "bawah": 2.5,
+        "kiri": 3.0,
+        "kanan": 2.5
+      },
+      "gaya_sitasi_umum": "Nama-tahun (Chicago author-date / analog APA): Dekker, N. 1992. Judul. Kota: Penerbit.",
+      "aturan_khusus": [
+        "Naskah belum pernah diterbitkan; diketik satu spasi kertas A4 huruf Verdana 9, panjang 15-30 halaman.",
+        "Judul artikel maksimal 14 kata (tidak termasuk sub judul dan kata penghubung), dwibahasa Indonesia-Inggris.",
+        "Abstrak 150-200 kata satu paragraf dwibahasa, memuat tujuan, metode, hasil, kesimpulan; TANPA acuan pustaka, catatan kaki, kutipan, singkatan/akronim, atau informasi matematis.",
+        "Kata kunci 3-5 kata/frasa penting, spesifik, representatif.",
+        "Nama penulis lengkap TANPA gelar, pangkat, atau jabatan; sertakan afiliasi lembaga dan email korespondensi.",
+        "Struktur artikel hasil penelitian: Pendahuluan (10%), Kajian Literatur, Metode, Hasil dan Pembahasan, Simpulan dengan proporsi halaman yang diatur.",
+        "Rujukan sepenulis-setahun ganda diberi akhiran a, b, c secara kronologis atau abjad judul.",
+        "Editor kumpulan artikel ditulis 'ed.' (satu) atau 'eds.' (lebih dari satu) pada rujukan."
+      ]
     }
   }
 }
