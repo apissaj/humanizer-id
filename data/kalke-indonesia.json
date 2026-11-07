@@ -91,6 +91,12 @@
         "penulis": "K. Waskitaningtyas & Heny Marwati",
         "penerbit": "Kemendikbudristek, 2024",
         "bab_relevan": "Bab VI Berperan dalam Konservasi Alam Indonesia Melalui Karya Ilmiah (hlm. 209-265): struktur artikel ilmiah, ragam bahasa ilmiah, kalimat majemuk rapatan"
+      },
+      {
+        "judul": "Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII (Kurikulum Merdeka)",
+        "penulis": "K. Waskitaningtyas, Heny Marwati, dkk.",
+        "penerbit": "Kemendikbudristek, 2024",
+        "bab_relevan": "Bab I Mengomunikasikan Informasi Penting tentang Pendidikan dan/atau Pekerjaan (hlm. 19-33): EYD V pada surat resmi, kata baku, kalimat efektif Sasangka"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -579,6 +585,50 @@
           "penjelasan": "Singkatan halaman baku Indonesia adalah 'h.' baik untuk satu maupun beberapa halaman; 'hh.' adalah penulisan tak baku (Buku Kemendikbudristek Kelas XI 2024 & UIN Alauddin, hlm. 253).",
           "contoh_salah": "Lihat analisis di hh. 55-67.",
           "contoh_benar": "Lihat analisis di h. 55-67."
+        },
+        {
+          "id": "S12X-001",
+          "pola": "bales",
+          "saran_pengganti": [
+            "balas"
+          ],
+          "penjelasan": "Bentuk lisan tidak baku. Bentuk baku sesuai KBBI adalah 'balas' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
+          "contoh_salah": "Kami mohon agar dibales segera.",
+          "contoh_benar": "Kami mohon agar dibalas segera."
+        },
+        {
+          "id": "S12X-002",
+          "pola": "ngirim",
+          "saran_pengganti": [
+            "mengirim"
+          ],
+          "penjelasan": "Bentuk lisan tidak baku dengan penyengauan dan penanggalan awalan. Bentuk baku: 'mengirim' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
+          "contoh_salah": "Mohon ngirim berkas sebelum deadline.",
+          "contoh_benar": "Mohon mengirim berkas sebelum tenggat."
+        },
+        {
+          "id": "S12X-003",
+          "pola": "soalnya",
+          "saran_pengganti": [
+            "karena",
+            "sebab",
+            "oleh sebabnya"
+          ],
+          "penjelasan": "Bentuk percakapan tidak baku. Dalam ragam formal gunakan 'karena' atau 'sebab' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
+          "contoh_salah": "Rapat ditunda, soalnya ruangan belum siap.",
+          "contoh_benar": "Rapat ditunda karena ruangan belum siap."
+        },
+        {
+          "id": "S12X-004",
+          "pola": "bilang",
+          "saran_pengganti": [
+            "berkata",
+            "menyatakan",
+            "memberitahukan"
+          ],
+          "penjelasan": "Bentuk percakapan tidak baku. Dalam ragam formal gunakan 'berkata' atau 'memberitahukan' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
+          "contoh_salah": "Beliau bilang rapat dimulai besok.",
+          "contoh_benar": "Beliau memberitahukan bahwa rapat dimulai besok."
         }
       ]
     },
