@@ -82,6 +82,28 @@ Padanan cepat untuk membersihkan tulisan AI dan birokratis:
 
 ---
 
+## Dukungan Preset Format Skripsi Kampus Indonesia
+
+Humanizer ID mendukung konvensi dan pedoman tugas akhir/skripsi spesifik dari perguruan tinggi terkemuka di Indonesia (tersedia di [**`data/pedoman-kampus.json`**](data/pedoman-kampus.json) & panduan lengkap [**`references/panduan-preset-kampus.md`**](references/panduan-preset-kampus.md)):
+
+| ID Kampus | Perguruan Tinggi | Sistem Sitasi Bawaan | Kaidah Khusus yang Diterapkan |
+|---|---|---|---|
+| `ui` | **Universitas Indonesia (UI)** | APA / IEEE | Abstrak dwibahasa presisi; penomoran tabel/gambar per bab (`Tabel 1.1`). |
+| `itb` | **Institut Teknologi Bandung (ITB)** | IEEE / Harvard | Rujukan persamaan di dalam kurung `(1.1)`; sampul minimalis. |
+| `ugm` | **Universitas Gadjah Mada (UGM)** | IEEE / APA | Format `Persamaan (nomor)`; pemisahan tegas bab Simpulan vs Saran. |
+| `its` | **Institut Teknologi Sepuluh Nopember (ITS)** | IEEE | Tinjauan pustaka *state-of-the-art* 5 tahun terakhir; margin 3-2.5-3-2 cm. |
+| `ipb` | **IPB University** | Name-Year | Sub-bab **tanpa titik di akhir** (`1.1 Latar Belakang`); indentasi paragraf 1 cm; nama ilmiah spesies miring berautoritas (*Oryza sativa* L.). |
+| `undip` | **Universitas Diponegoro (UNDIP)** | IEEE / APA | Hierarki judul bab kapital tebal di tengah; kepatuhan pasif metodologi. |
+| `unpad` | **Universitas Padjadjaran (UNPAD)** | APA / Chicago | Abstrak maksimal 250 kata dalam satu paragraf spasi tunggal. |
+| `unair` | **Universitas Airlangga (UNAIR)** | Vancouver / APA | Pembedaan sitasi bernomor biomedis (Vancouver) vs sosial-humaniora (APA). |
+| `ub` | **Universitas Brawijaya (UB)** | IEEE / APA | Larangan konjungsi di awal kalimat; paragraf minimal 2 kalimat efektif. |
+| `telkom` | **Telkom University** | IEEE | Format naskah artikel IEEE; sitasi repositori GitHub & dataset publik. |
+| `udinus` | **Universitas Dian Nuswantoro (UDINUS)** | IEEE / APA | Pengujian fungsionalitas *black-box* & pengujian pengguna pada rekayasa perangkat lunak; format kode monospace. |
+
+> **Cara Pakai:** Cukup sebutkan nama kampus Anda saat memberikan naskah, misalnya: *"Sunting abstrak skripsi ini dengan preset **ugm**"* atau *"Perbaiki Bab III metodologi dengan aturan **ipb**"*.
+
+---
+
 ## Cara Penggunaan
 
 ### 1. Salin Cepat untuk ChatGPT, Claude Web, & Gemini Gems

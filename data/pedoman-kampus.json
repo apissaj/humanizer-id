@@ -1,0 +1,180 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "title": "Pedoman Penulisan Karya Ilmiah & Format Tugas Akhir Perguruan Tinggi Indonesia",
+    "version": "1.0.0",
+    "deskripsi": "Kompilasi konvensi tata tulis, margin, sistem sitasi, dan aturan penomoran bab/sub-bab dari perguruan tinggi terkemuka di Indonesia."
+  },
+  "kampus": {
+    "ui": {
+      "nama": "Universitas Indonesia (UI)",
+      "pedoman": "Pedoman Teknis Penulisan Tugas Akhir Mahasiswa UI",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA 7th Edition (Sosio-Humaniora) / IEEE (Teknik & Fasilkom)",
+      "aturan_khusus": [
+        "Abstrak ditulis dwibahasa (Bahasa Indonesia maks 200 kata, Bahasa Inggris).",
+        "Format rujukan tabel dan gambar bernomor urut bab (Tabel 1.1, Gambar 2.3).",
+        "Gaya bahasa impersonal tanpa kata ganti orang pertama/kedua."
+      ]
+    },
+    "itb": {
+      "nama": "Institut Teknologi Bandung (ITB)",
+      "pedoman": "Pedoman Penulisan Tugas Akhir Sarjana ITB",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (STEI / FTI) / Harvard / APA",
+      "aturan_khusus": [
+        "Sampul depan minimalis tanpa mencantumkan nama dosen pembimbing di halaman jilid luar.",
+        "Penomoran rumus/persamaan wajib menggunakan tanda kurung: (1.1), (2.4).",
+        "Daftar istilah teknis wajib dicantumkan jika menggunakan padanan khusus."
+      ]
+    },
+    "ugm": {
+      "nama": "Universitas Gadjah Mada (UGM)",
+      "pedoman": "Pedoman Penulisan Skripsi & Tugas Akhir UGM (DIKE FMIPA / FT)",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Ilmu Komputer & Teknik) / APA (MIPA)",
+      "aturan_khusus": [
+        "Rujukan rumus wajib menggunakan format: 'Persamaan (nomor)' alih-alih 'rumus di atas'.",
+        "Bab Simpulan wajib menjawab rumusan masalah secara numerik/faktual; Bab Saran hanya memuat batasan teknis untuk penelitian lanjutan.",
+        "Judul skripsi wajib dwibahasa presisi."
+      ]
+    },
+    "its": {
+      "nama": "Institut Teknologi Sepuluh Nopember (ITS)",
+      "pedoman": "Buku Pedoman Tugas Akhir & Tesis ITS",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 2.5,
+        "kiri": 3.0,
+        "kanan": 2.0
+      },
+      "gaya_sitasi_umum": "IEEE",
+      "aturan_khusus": [
+        "Margin kanan dan bawah lebih ramping (2.5 cm bawah, 2.0 cm kanan).",
+        "Tinjauan pustaka menekankan kebaruan (state of the art) riset 5 tahun terakhir.",
+        "Rujukan tabel ditempatkan di atas tabel, rujukan gambar di bawah gambar."
+      ]
+    },
+    "ipb": {
+      "nama": "IPB University",
+      "pedoman": "Pedoman Penulisan Karya Ilmiah (PPKI) IPB Edisi Ke-4",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Name-Year System (Sistem Nama-Tahun IPB)",
+      "aturan_khusus": [
+        "Penomoran sub-bab TIDAK menggunakan titik di akhir (Contoh: '1.1 Latar Belakang', BUKAN '1.1. Latar Belakang').",
+        "Awal paragraf berjarak indentasi tepat 1.0 cm (atau 7 ketukan).",
+        "Nama ilmiah spesies (flora/fauna) wajib miring lengkap dengan autoritas pada penyebutan pertama (misal: Oryza sativa L.)."
+      ]
+    },
+    "undip": {
+      "nama": "Universitas Diponegoro (UNDIP)",
+      "pedoman": "Pedoman Penulisan Skripsi & Karya Ilmiah UNDIP",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Teknik & FSM) / APA / Harvard",
+      "aturan_khusus": [
+        "Kesejajaran hierarki judul bab menggunakan huruf kapital tebal di tengah.",
+        "Kaidah kalimat pasif ilmiah di bab Metodologi wajib dipatuhi."
+      ]
+    },
+    "unpad": {
+      "nama": "Universitas Padjadjaran (UNPAD)",
+      "pedoman": "Pedoman Penulisan Karya Ilmiah UNPAD",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA 7th Edition / Chicago",
+      "aturan_khusus": [
+        "Abstrak maksimal 250 kata dalam satu paragraf dengan spasi tunggal.",
+        "Penulisan kata serapan wajib mengikuti EYD Edisi V dan KBBI."
+      ]
+    },
+    "unair": {
+      "nama": "Universitas Airlangga (UNAIR)",
+      "pedoman": "Pedoman Penulisan Skripsi & Tesis UNAIR",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Vancouver (Kedokteran/Farmasi) / APA (Sosial)",
+      "aturan_khusus": [
+        "Pemisahan tegas penulisan sitasi biomedis bernomor (Vancouver) vs sitasi nama-tahun."
+      ]
+    },
+    "ub": {
+      "nama": "Universitas Brawijaya (UB)",
+      "pedoman": "Buku Pedoman Penulisan Skripsi Universitas Brawijaya",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Teknik/FILKOM) / APA",
+      "aturan_khusus": [
+        "Larangan pemakaian kata hubung intrakalimat di awal kalimat (sehingga, sedangkan, karena).",
+        "Paragraf minimal terdiri atas dua kalimat efektif."
+      ]
+    },
+    "telkom": {
+      "nama": "Telkom University (Tel-U)",
+      "pedoman": "Buku Panduan Tugas Akhir Telkom University",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE",
+      "aturan_khusus": [
+        "Format artikel ilmiah (paper IEEE) sebagai syarat kelulusan di samping buku TA.",
+        "Rujukan perangkat lunak, repositori GitHub, dan dataset publik wajib dicantumkan dalam daftar pustaka."
+      ]
+    },
+    "udinus": {
+      "nama": "Universitas Dian Nuswantoro (UDINUS)",
+      "pedoman": "Buku Pedoman Skripsi Fakultas Ilmu Komputer (FIK) & Fakultas Teknik UDINUS",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Informatika, SI, TI) / APA",
+      "aturan_khusus": [
+        "Sistematika skripsi rekayasa perangkat lunak wajib memuat pengujian fungsionalitas (black-box) dan pengujian pengguna.",
+        "Penulisan kode program (source code) wajib menggunakan format monospace berbingkai rapi.",
+        "Penyajian flowchart, arsitektur sistem, dan UML wajib berstandar baku dengan penjelasan naratif di bawah gambar."
+      ]
+    }
+  }
+}

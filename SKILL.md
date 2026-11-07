@@ -63,6 +63,7 @@ Tentukan mode kerja sebelum memulai penyuntingan. Bila tidak dinyatakan spesifik
    - Kepatuhan penuh EYD V dan leksikon KBBI; nol pujian tanpa pembuktian data statistik.
    - **Pemisahan Simpulan vs Saran:** Bagian Simpulan wajib menjawab rumusan masalah secara lugas berbasis data hasil pengujian; bagian Saran dikhususkan untuk limitasi teknis dan peluang riset lanjutan—tidak mencampurbaurkan opini pribadi atau harapan umum.
    - **Judul & Abstrak Dwibahasa:** Judul skripsi/makalah dalam bahasa Indonesia dan bahasa Inggris harus selaras makna tanpa distorsi istilah kunci.
+   - **Dukungan Preset Kampus:** Mendukung konvensi khusus 11 perguruan tinggi terkemuka (UI, ITB, UGM, ITS, IPB, UNDIP, UNPAD, UNAIR, UB, Telkom, UDINUS). Bila pengguna menyebut kampusnya, aktifkan kaidah spesifik dari `data/pedoman-kampus.json` dan panduan `references/panduan-preset-kampus.md` (misal: IPB sub-bab tanpa titik akhir, UGM/UI format `Persamaan (nomor)`).
 2. **Mode Esai & Opini Populer (Artikel, Kolom, Blog):**
    - Sudut pandang penulis (*saya* atau *kami*) dipertahankan.
    - Ritme kalimat dinamis dan variatif; analogi konkret diperbolehkan asal tidak klise.
