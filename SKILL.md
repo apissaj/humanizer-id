@@ -368,6 +368,27 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### V. Pedoman Umum Pembentukan Istilah / PUPI (Rujukan Pusat Bahasa 2005 — Keputusan Mendiknas No. 146/U/2004)
+
+1. **Lima Persyaratan Istilah yang Baik:**
+   - Paling tepat mengungkapkan konsep tanpa penyimpangan makna.
+   - Paling singkat di antara sinonim yang tersedia.
+   - Bernilai rasa konotasi baik dan eufonik (sedap didengar).
+   - Seturut kaidah bahasa Indonesia.
+2. **Pemadanan Istilah Asing — Tiga Jalur Resmi:**
+   - **Penerjemahan:** *supermarket* → *pasar swalayan*; *merger* → *gabung usaha*.
+   - **Perekaan:** *factoring* → *anjak piutang*; *catering* → *jasa boga*; *invention* → *rekacipta*.
+   - **Penyerapan dengan penyesuaian ejaan:** *design* → *desain*; *science* → *sains*; *photocopy* → *fotokopi*.
+3. **Penanggalan Pemarkah Jamak Asing:**
+   - Bentuk jamak asing (*alumni, master of ceremonies, charge d'affaires*) diterjemahkan menjadi tunggal Indonesia (*lulusan, pengatur acara, kuasa usaha*).
+4. **Keselarasan Polaritas Penerjemahan:**
+   - Bentuk positif → positif (*bound form* → *bentuk terikat*); negatif → negatif (*inorganic* → *takorganik*; *illiterate* → *niraksara*).
+5. **Penulisan Miring vs Tegak:**
+   - Istilah Latin/asing ilmiah belum terserap → dicetak **miring** (*in vitro, status quo, divide et impera*).
+   - Istilah asing yang telah menjadi kosakata umum → dicetak **tegak** (*internet, golf, orbit*).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

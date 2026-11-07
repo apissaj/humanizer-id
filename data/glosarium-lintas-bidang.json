@@ -10,7 +10,15 @@
       "nama": "PASTI (Portal Pemadanan Istilah) Badan Pengembangan dan Pembinaan Bahasa Kemendikdasmen RI",
       "url": "https://pasti.kemendikdasmen.go.id/",
       "cakupan": "172.931 istilah dari 59 ranah ilmu pengetahuan"
-    }
+    },
+    "rujukan_pedoman": [
+      {
+        "judul": "Pedoman Umum Pembentukan Istilah (PUPI) Edisi Ketiga",
+        "penulis": "Panitia Pengembangan Bahasa Indonesia (disempurnakan Mabbim: Moeliono, Sugono, Rifai dkk.)",
+        "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional, 2005 (Keputusan Mendiknas No. 146/U/2004)",
+        "bagian_relevan": "Persyaratan istilah baik (hlm. 1-2); pemadanan via penerjemahan-perekaan-penyerapan (hlm. 5-8); larangan penjamakan bentuk jamak asing (hlm. 5)"
+      }
+    ]
   },
   "bidang": {
     "teknologi_dan_rekayasa": {
@@ -145,6 +153,111 @@
           "asing": "real time",
           "baku": "waktu nyata / waktu pasti / seketika",
           "catatan": "PASTI Kemendikdasmen. Pemrosesan data tanpa jeda tunda yang signifikan."
+        },
+        {
+          "asing": "factoring",
+          "baku": "anjak piutang",
+          "catatan": "Perekaan PUPI 2005: pengalihan hak menagih utang."
+        },
+        {
+          "asing": "catering",
+          "baku": "jasa boga",
+          "catatan": "Perekaan PUPI 2005."
+        },
+        {
+          "asing": "invention",
+          "baku": "rekacipta",
+          "catatan": "Perekaan PUPI 2005."
+        },
+        {
+          "asing": "supermarket",
+          "baku": "pasar swalayan",
+          "catatan": "Penerjemahan langsung PUPI 2005."
+        },
+        {
+          "asing": "merger",
+          "baku": "gabung usaha",
+          "catatan": "Penerjemahan langsung PUPI 2005."
+        },
+        {
+          "asing": "design",
+          "baku": "desain",
+          "catatan": "Penyerapan dengan penyesuaian ejaan PUPI 2005."
+        },
+        {
+          "asing": "science",
+          "baku": "sains",
+          "catatan": "Penyerapan dengan penyesuaian ejaan PUPI 2005."
+        },
+        {
+          "asing": "photocopy",
+          "baku": "fotokopi",
+          "catatan": "Penyerapan dengan penyesuaian ejaan PUPI 2005."
+        },
+        {
+          "asing": "alumni",
+          "baku": "lulusan",
+          "catatan": "Pemarkah jamak asing ditanggalkan PUPI 2005 (hlm. 5)."
+        },
+        {
+          "asing": "master of ceremonies",
+          "baku": "pengatur acara",
+          "catatan": "Pemarkah jamak asing ditanggalkan PUPI 2005 (hlm. 5)."
+        },
+        {
+          "asing": "charge d'affaires",
+          "baku": "kuasa usaha",
+          "catatan": "Pemarkah jamak asing ditanggalkan PUPI 2005 (hlm. 5)."
+        },
+        {
+          "asing": "bound form",
+          "baku": "bentuk terikat",
+          "catatan": "Penerjemahan positif PUPI 2005 (bukan 'bentuk takbebas')."
+        },
+        {
+          "asing": "inorganic",
+          "baku": "takorganik",
+          "catatan": "Penerjemahan bentuk negatif PUPI 2005."
+        },
+        {
+          "asing": "illiterate",
+          "baku": "niraksara",
+          "catatan": "Penerjemahan bentuk negatif PUPI 2005."
+        },
+        {
+          "asing": "medical practitioner",
+          "baku": "dokter",
+          "catatan": "Penerjemahan tidak satu-ke-satu PUPI 2005."
+        },
+        {
+          "asing": "psychologist",
+          "baku": "ahli psikologi",
+          "catatan": "Penerjemahan PUPI 2005."
+        },
+        {
+          "asing": "bonded zone",
+          "baku": "kawasan berikat",
+          "catatan": "Penerjemahan kesesuaian bentuk-makna PUPI 2005."
+        },
+        {
+          "asing": "skyscraper",
+          "baku": "pencakar langit",
+          "catatan": "Penerjemahan kesesuaian bentuk-makna PUPI 2005."
+        },
+        {
+          "asing": "status quo",
+          "baku": "status quo (cetak miring)",
+          "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        },
+        {
+          "asing": "in vitro",
+          "baku": "in vitro (cetak miring)",
+          "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        },
+        {
+          "asing": "divide et impera",
+          "baku": "divide et impera (cetak miring)",
+          "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
         }
       ]
     },

@@ -124,3 +124,16 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
   - "ATM card" -> "kartu ATM"
 - Pronomina anaforis ("ia/dia/mereka") WAJIB memiliki anteseden tunggal yang jelas; jika ada dua subjek sebelum pronomina, sebutkan nama subjek secara eksplisit agar tidak taksa.
 - Hierarki hiponimi-hipernim (umum mencakup khusus) tidak boleh dibalik pada kalimat sanggahan/pengecualian.
+
+## PEDOMAN UMUM PEMBENTUKAN ISTILAH / PUPI (Pusat Bahasa 2005)
+
+- Gunakan padanan istilah resmi PUPI, bukan terjemahan harfiah model:
+  - "factoring" -> "anjak piutang"
+  - "catering" -> "jasa boga"
+  - "invention" -> "rekacipta"
+  - "supermarket" -> "pasar swalayan"
+  - "merger" -> "gabung usaha"
+  - "design" -> "desain", "science" -> "sains", "photocopy" -> "fotokopi"
+- DILARANG menerjemahkan bentuk jamak asing dengan reduplikasi Indonesia: "alumni" -> "lulusan" (bukan "para alumni-alumni"), "master of ceremonies" -> "pengatur acara".
+- Pertahankan polaritas penerjemahan: positif -> positif ("bound form" -> "bentuk terikat"), negatif -> negatif ("inorganic" -> "takorganik", "illiterate" -> "niraksara").
+- Istilah Latin/asing ilmiah belum terserap dicetak miring (in vitro, status quo); yang sudah umum dicetak tegak (internet, golf, orbit).
