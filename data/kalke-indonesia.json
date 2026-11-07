@@ -157,6 +157,12 @@
         "penulis": "Lukman Hakim, Zainul Arifin, Yayah B. Lumintaintang",
         "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Depdikbud (ISBN 979-459-154-8, 64 hlm.)",
         "bab_relevan": "Bab II Penulisan Kata (hlm. 7-18): kata ulang tanpa angka 2, gabungan kata terpisah vs senyawa serangkai, unsur terikat, tanda hubung dengan kapital"
+      },
+      {
+        "judul": "Bahasa Indonesia untuk Aparatur Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+        "penulis": "Tim Pusat Pembinaan dan Pengembangan Bahasa",
+        "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional (93 hlm., Repositori ID 15986)",
+        "bab_relevan": "Bab II Bagian 2.4.3 & 2.4.4 (hlm. 39-45): larangan preposisi 'tentang/mengenai' setelah verba transitif (membahas tentang); kalimat tanpa subjek akibat preposisi awal (dalam bab ini akan membahas)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -1062,6 +1068,30 @@
           "penjelasan": "Dalam tulisan resmi, kata ulang ditulis lengkap dengan tanda hubung, tidak boleh digantikan angka 2 (Hakim dkk., Seri Penyuluhan Ejaan 1990, hlm. 13).",
           "contoh_salah": "Data anak2 sekolah2 itu dikumpulkan.",
           "contoh_benar": "Data anak-anak sekolah itu dikumpulkan."
+        },
+        {
+          "id": "AP-001",
+          "pola": "verba transitif diikuti preposisi 'tentang/mengenai' (membahas tentang, membicarakan mengenai)",
+          "saran_pengganti": [
+            "membahas [objek]",
+            "membicarakan [objek]",
+            "menguraikan [objek]",
+            "meneliti [objek]"
+          ],
+          "penjelasan": "Verba transitif (membahas, membicarakan, meneliti, mengkaji) langsung memerlukan objek penderita; penambahan preposisi 'tentang' atau 'mengenai' menjadikannya mubazir dan merupakan kalke terjemahan 'discuss about' (Bahasa Indonesia untuk Aparatur Pemerintah, Pusat Bahasa, hlm. 39).",
+          "contoh_salah": "Bab ketiga membahas tentang metode pengumpulan data.",
+          "contoh_benar": "Bab ketiga membahas metode pengumpulan data."
+        },
+        {
+          "id": "AP-002",
+          "pola": "kalimat tanpa subjek berawalan preposisi dengan verba aktif (dalam bab ini akan membahas)",
+          "saran_pengganti": [
+            "Dalam bab ini akan dibahas [subjek]",
+            "Bab ini membahas [objek]"
+          ],
+          "penjelasan": "Frasa preposisional di awal kalimat ('Dalam bab ini...') berfungsi sebagai keterangan; penggunaan verba aktif transitif ('akan membahas') setelahnya menyebabkan kalimat kehilangan subjek gramatikal (Bahasa Indonesia untuk Aparatur Pemerintah, Pusat Bahasa, hlm. 44-45).",
+          "contoh_salah": "Dalam penelitian ini akan membahas efisiensi arsitektur Transformer.",
+          "contoh_benar": "Dalam penelitian ini akan dibahas efisiensi arsitektur Transformer."
         }
       ]
     },

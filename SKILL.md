@@ -455,10 +455,31 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
    - *Salah:* *sub unit, maha guru, peri laku, antar kota*
    - *Baku:* *subunit, mahaguru, perilaku, antarkota*
 4. **Pengecualian:**
-   - Diikuti huruf kapital $ightarrow$ pakai tanda hubung: *non-RRC, antar-SMA, pan-Afrikanisme*.
-   - *maha/peri* + kata berimbuhan $ightarrow$ terpisah: *maha pengasih*; + kata dasar $ightarrow$ serangkai: *mahakasih*.
+   - Diikuti huruf kapital $
+ightarrow$ pakai tanda hubung: *non-RRC, antar-SMA, pan-Afrikanisme*.
+   - *maha/peri* + kata berimbuhan $
+ightarrow$ terpisah: *maha pengasih*; + kata dasar $
+ightarrow$ serangkai: *mahakasih*.
 5. **Larangan Angka 2 sebagai Penanda Reduplikasi:**
    - Tulis lengkap dengan tanda hubung: *anak-anak* (bukan *anak2*), *berkejar-kejaran* (bukan *ber-kejar2-an*).
+
+---
+
+### AA. Larangan Preposisi Mubazir pada Verba Transitif & Kalimat Buntung Preposisional (Rujukan Bahasa Indonesia untuk Aparatur Pemerintah, Pusat Bahasa Depdiknas)
+
+1. **Larangan Preposisi 'tentang/mengenai' setelah Verba Transitif:**
+   - Verba transitif (*membahas, membicarakan, mempelajari, meneliti, menguraikan, mengkaji*) langsung memerlukan objek penderita; dilarang disisipi preposisi.
+   - *Salah:* *"Bab ketiga membahas tentang metode pengumpulan data."*
+   - *Baku:* *"Bab ketiga membahas metode pengumpulan data."*
+   - *Salah:* *"Laporan ini membicarakan mengenai dampak inflasi."*
+   - *Baku:* *"Laporan ini membicarakan dampak inflasi."*
+2. **Kalimat Tanpa Subjek akibat Preposisi Awal dengan Verba Aktif:**
+   - Jika awal kalimat dibuka dengan frasa preposisional (*Dalam bab ini..., Pada penelitian ini...*), predikat WAJIB berupa kata kerja pasif (*dibahas, diteliti*), BUKAN kata kerja aktif (*membahas, meneliti*).
+   - *Salah:* *"Dalam penelitian ini akan membahas efisiensi arsitektur Transformer."* (tidak punya subjek)
+   - *Baku:* *"Dalam penelitian ini akan dibahas efisiensi arsitektur Transformer."* ATAU *"Penelitian ini membahas efisiensi arsitektur Transformer."*
+3. **Kalimat Tanpa Predikat (Subjek + Keterangan):**
+   - *Salah:* *"Pembangunan itu untuk menyejahterakan masyarakat."*
+   - *Baku:* *"Pembangunan itu bertujuan menyejahterakan masyarakat."* ATAU *"Pembangunan itu dilakukan untuk menyejahterakan masyarakat."*
 
 ---
 

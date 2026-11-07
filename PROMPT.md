@@ -168,3 +168,15 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - Unsur terikat (sub-, maha-, peri-, antar-) + kata dasar ditulis serangkai: "subunit", "mahaguru", "perilaku", "antarkota".
 - Pengecualian: diikuti kapital pakai tanda hubung ("non-Indonesia", "antar-SMA"); maha/peri + kata berimbuhan ditulis terpisah ("maha pengasih").
 - DILARANG memakai angka 2 untuk kata ulang: tulis "anak-anak" (bukan "anak2").
+
+## PREPOSISI MUBAZIR & KALIMAT BUNTUNG PREPOSISIONAL (Pusat Bahasa — BI Aparatur Pemerintah)
+
+- DILARANG menyisipkan "tentang" atau "mengenai" setelah verba transitif:
+  - "membahas tentang metode" -> "membahas metode"
+  - "membicarakan mengenai kebijakan" -> "membicarakan kebijakan"
+  - "mempelajari tentang fenomena" -> "mempelajari fenomena"
+- Kalimat dibuka frasa preposisional ("Dalam penelitian ini...") WAJIB menggunakan kata kerja pasif:
+  - Salah: "Dalam penelitian ini akan membahas efisiensi model."
+  - Baku: "Dalam penelitian ini akan dibahas efisiensi model." atau "Penelitian ini membahas efisiensi model."
+- Kalimat wajib memiliki subjek dan predikat lengkap: "Pembangunan itu untuk menyejahterakan rakyat" (salah) -> "Pembangunan itu bertujuan menyejahterakan rakyat" (baku).
+- "di mana" dan "yang mana" hanya sah dalam kalimat tanya; di kalimat pernyataan gunakan "yang".
