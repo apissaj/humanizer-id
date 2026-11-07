@@ -175,6 +175,86 @@
         "Penulisan kode program (source code) wajib menggunakan format monospace berbingkai rapi.",
         "Penyajian flowchart, arsitektur sistem, dan UML wajib berstandar baku dengan penjelasan naratif di bawah gambar."
       ]
+    },
+    "uns": {
+      "nama": "Universitas Sebelas Maret (UNS)",
+      "pedoman": "Pedoman Penulisan Skripsi dan Tugas Akhir UNS",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style / IEEE",
+      "aturan_khusus": [
+        "Penulisan bab menggunakan angka Romawi (BAB I, BAB II), sedangkan sub-bab menggunakan sistem alfanumerik (A., 1., a.) atau desimal berjenjang (1.1, 1.2).",
+        "Jarak spasi teks utama adalah 1.5 spasi atau 2 spasi tergantung fakultas, dengan jenis huruf Times New Roman 12 pt.",
+        "Abstrak ditulis dwibahasa (Indonesia dan Inggris) maksimal 200–250 kata, dilengkapi 3–5 kata kunci."
+      ]
+    },
+    "unnes": {
+      "nama": "Universitas Negeri Semarang (UNNES)",
+      "pedoman": "Pedoman Penulisan Karya Ilmiah UNNES",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style (edisi ke-7)",
+      "aturan_khusus": [
+        "Menggunakan sistem numerik desimal bertingkat (1.1, 1.1.1) tanpa titik di akhir nomor sub-bab.",
+        "Kutipan langsung lebih dari 40 kata (4 baris) diketik dengan jarak 1 spasi, menjorok 1 tab (1,2 cm) dari margin kiri tanpa tanda petik.",
+        "Daftar pustaka menggunakan format hanging indent (1,25 cm) dengan spasi tunggal antarbaris dalam satu entri dan spasi ganda antarentri."
+      ]
+    },
+    "upi": {
+      "nama": "Universitas Pendidikan Indonesia (UPI)",
+      "pedoman": "Pedoman Penulisan Karya Tulis Ilmiah UPI",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style 7th Edition",
+      "aturan_khusus": [
+        "Sistematika skripsi penelitian pendidikan wajib memuat bab Analisis Data dan Pembahasan yang terpisah dari Temuan.",
+        "Font utama Times New Roman 12 pt atau Arial 11 pt dengan jarak 1.5 spasi.",
+        "Judul bab dicetak tebal dengan huruf kapital di tengah (center alignment) tanpa titik akhir."
+      ]
+    },
+    "unhas": {
+      "nama": "Universitas Hasanuddin (UNHAS)",
+      "pedoman": "Buku Pedoman Penulisan Skripsi dan Tesis Universitas Hasanuddin",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Harvard / Vancouver (Kedokteran/Kesehatan) / IEEE (Teknik)",
+      "aturan_khusus": [
+        "Penomoran halaman bab awal (halaman judul bab) diletakkan di tengah bawah, sedangkan halaman lanjutan diletakkan di sudut kanan atas.",
+        "Kutipan bahasa asing dalam teks wajib diterjemahkan ke dalam bahasa Indonesia atau dicetak miring jika berupa istilah aslinya.",
+        "Lampiran wajib diberi nomor urut dan judul rujukan yang jelas di dalam teks utama skripsi."
+      ]
+    },
+    "unand": {
+      "nama": "Universitas Andalas (UNAND)",
+      "pedoman": "Buku Panduan Penulisan Skripsi Universitas Andalas",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style / Harvard",
+      "aturan_khusus": [
+        "Menggunakan margin standar 4-3-4-3 cm dengan kertas A4 80 gram.",
+        "Abstrak ditulis dalam satu paragraf tunggal tanpa indentasi, jarak spasi 1, maksimal 250 kata.",
+        "Persamaan matematis diberi nomor dalam kurung di batas margin kanan, misalnya (1.1)."
+      ]
     }
   }
 }
