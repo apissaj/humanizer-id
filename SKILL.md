@@ -225,6 +225,27 @@ Detail contoh salah → benar resmi dari buku tersedia di `references/buku-ajar-
 
 ---
 
+### M. Kaidah Kehematan, Superordinat, & Konjungsi Intrakalimat (Rujukan Modul Bahasa Indonesia Universitas Jambi, 2021)
+
+1. **Larangan Konjungsi Intrakalimat di Awal Kalimat Mandiri:**
+   - Konjungsi subordinatif intrakalimat (*sehingga, sedangkan, karena, agar, supaya*) **dilarang berdiri di awal kalimat tunggal**:
+     - *Salah:* *“Model A sangat cepat. Sehingga kami memilihnya.”* → *Baku:* *“Model A sangat cepat sehingga dipilih sebagai arsitektur utama.”* atau gunakan konjungsi antarkalimat: *“Oleh karena itu, kami...”*.
+     - *Salah:* *“Server A melayani transaksi. Sedangkan Server B mencatat log.”* → *Baku:* *“Server A melayani transaksi, sedangkan Server B mencatat log.”*.
+2. **Larangan Predikat Didahului Kata "Yang" (Kalimat Buntung Tanpa Predikat):**
+   - *Salah:* *“Bahasa Indonesia yang berasal dari bahasa Melayu.”* → *Baku:* *“Bahasa Indonesia berasal dari bahasa Melayu.”*. Kata *yang* mengubah predikat menjadi perluasan frasa subjek, menyebabkan kalimat kehilangan predikat gramatikal.
+3. **Larangan Superordinat pada Hiponim (Kelebihan Kata Nama Kelas):**
+   - Kata *merah* sudah mencakup konsep warna; kata *Selasa* sudah mencakup hari. Pangkas kata kelas yang mubazir:
+     - *“memakai baju warna merah”* → *“memakai baju merah”*.
+     - *“dilaksanakan pada hari Selasa”* → *“dilaksanakan pada Selasa”*.
+4. **Larangan Kata Populer Salah Kaprah (*Terkini* vs *Mutakhir*):**
+   - Dalam karya ilmiah, hindari kata populer media penyiaran *“teknologi terkini”* atau *“versi terkini”*. Secara semantis tidak ada yang "lebih kini dari kini". Gunakan istilah ilmiah baku: **“teknologi mutakhir”** atau **“versi terbaru”**.
+5. **Larangan Penjamakan Ganda:**
+   - Dilarang memadukan penanda jamak (*para, beberapa, semua*) dengan kata ulang reduplikasi:
+     - *“para dosen-dosen”* → *“para dosen”* / *“dosen-dosen”*.
+     - *“beberapa data-data”* → *“beberapa data”* / *“data-data”*.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

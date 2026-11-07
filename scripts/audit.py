@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -89,6 +89,15 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                             matched = True
                     elif "bukan" in pattern_str and ("tetapi" in pattern_str or "namun" in pattern_str):
                         if re.search(r'\bbukan\b.+?\b(tetapi|namun)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "sedangkan" in pattern_str:
+                        if re.search(r'(?:^|[.!?]\s+)\bsedangkan\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "sehingga" in pattern_str:
+                        if re.search(r'(?:^|[.!?]\s+)\bsehingga\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "para tamu-tamu" in pattern_str:
+                        if re.search(r'\b(para|beberapa|semua)\s+([a-zA-Z]+)-\2\b', clean_line, re.IGNORECASE):
                             matched = True
                     
                     if matched:

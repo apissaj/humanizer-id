@@ -64,6 +64,13 @@
         "penerbit": "FITK UIN Syarif Hidayatullah Jakarta",
         "tahun": 2020,
         "bab_relevan": "Bab 11 Kalimat Efektif (hlm. 100-107): 6 Syarat Keefektifan (Kesatuan, Koherensi, Kesejajaran, Ketepatan, Kehematan, Kelogisan)"
+      },
+      {
+        "judul": "Modul Keterampilan Berbahasa Indonesia untuk Perguruan Tinggi",
+        "penulis": "Tim Dosen Pembina Mata Kuliah Bahasa Indonesia Universitas Jambi",
+        "penerbit": "Universitas Jambi",
+        "tahun": 2021,
+        "bab_relevan": "Modul 4 Kata Perangkai, Modul 5 Kalimat Efektif (hlm. 125-135), Modul 7 Bahasa dalam Karya Ilmiah (hlm. 147-170)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -358,6 +365,73 @@
           "penjelasan": "Perangkai korelatif baku untuk 'bukan' pada penontrasan nomina/frasa adalah 'melainkan', bukan 'namun' atau 'tetapi' (Suyatno dkk., hlm. 104).",
           "contoh_salah": "Bukan kualitas data yang rendah, namun metode pemrosesannya yang keliru.",
           "contoh_benar": "Bukan kualitas data yang rendah, melainkan metode pemrosesannya yang keliru."
+        },
+        {
+          "id": "UNJA-001",
+          "pola": "sejak dari",
+          "saran_pengganti": [
+            "sejak",
+            "dari"
+          ],
+          "penjelasan": "Kata 'sejak' dan 'dari' adalah pasangan sinonim preposisi temporal yang tidak boleh digabungkan karena menimbulkan pleonasme (Modul Bahasa Indonesia UNJA, hlm. 130).",
+          "contoh_salah": "Sejak dari awal penelitian, data sampel dikumpulkan secara berkala.",
+          "contoh_benar": "Sejak awal penelitian, data sampel dikumpulkan secara berkala."
+        },
+        {
+          "id": "UNJA-002",
+          "pola": "hanya saja",
+          "saran_pengganti": [
+            "hanya",
+            "saja",
+            "akan tetapi"
+          ],
+          "penjelasan": "Pemakaian adverbia pembatas ganda 'hanya' dan 'saja' secara bersamaan melanggar prinsip kehematan kalimat efektif (Modul Bahasa Indonesia UNJA, hlm. 130).",
+          "contoh_salah": "Peneliti hanya membatasi pada tiga variabel saja.",
+          "contoh_benar": "Peneliti hanya membatasi pada tiga variabel."
+        },
+        {
+          "id": "UNJA-003",
+          "pola": "teknologi terkini",
+          "saran_pengganti": [
+            "teknologi mutakhir",
+            "teknologi terbaru"
+          ],
+          "penjelasan": "Dalam karya ilmiah ragam baku, frasa 'terkini' adalah kesalahkaprahan populer media penyiaran; secara semantis tidak ada yang 'lebih kini dari kini'. Gunakan 'mutakhir' atau 'terbaru' (Modul Bahasa Indonesia Karya Ilmiah UNJA, hlm. 148).",
+          "contoh_salah": "Pengembangan sistem mengadopsi teknologi terkini berbasis AI.",
+          "contoh_benar": "Pengembangan sistem mengadopsi teknologi mutakhir berbasis AI."
+        },
+        {
+          "id": "UNJA-004",
+          "pola": "sehingga kami",
+          "saran_pengganti": [
+            "; oleh karena itu,",
+            ", sehingga"
+          ],
+          "penjelasan": "Konjungsi intrakalimat subordinatif 'sehingga' dilarang berdiri di awal kalimat mandiri (kalimat buntung). Hubungkan dengan klausa sebelumnya menggunakan koma atau ganti konjungsi antarkalimat 'Oleh karena itu' (Modul Kalimat Efektif UNJA, hlm. 127).",
+          "contoh_salah": "Server mengalami lonjakan beban. Sehingga kami menunda proses batch.",
+          "contoh_benar": "Server mengalami lonjakan beban sehingga proses komputasi ditunda."
+        },
+        {
+          "id": "UNJA-005",
+          "pola": "sedangkan model",
+          "saran_pengganti": [
+            ", sedangkan model",
+            ". Di sisi lain, model"
+          ],
+          "penjelasan": "Konjungsi intrakalimat 'sedangkan' dilarang berada di awal kalimat tunggal. Gabungkan dengan koma ke kalimat sebelumnya (Modul Kalimat Efektif UNJA, hlm. 127).",
+          "contoh_salah": "Model A memiliki latensi rendah. Sedangkan model B memiliki akurasi lebih tinggi.",
+          "contoh_benar": "Model A memiliki latensi rendah, sedangkan model B memiliki akurasi lebih tinggi."
+        },
+        {
+          "id": "UNJA-006",
+          "pola": "para tamu-tamu",
+          "saran_pengganti": [
+            "para tamu",
+            "tamu-tamu"
+          ],
+          "penjelasan": "Penjamakan ganda: kata penanda jamak 'para' dilarang dipadukan dengan kata ulang berbentuk jamak (Modul Kalimat Efektif UNJA, hlm. 131).",
+          "contoh_salah": "Para dosen-dosen menghadiri sidang promosi doktor.",
+          "contoh_benar": "Para dosen menghadiri sidang promosi doktor."
         }
       ]
     },
