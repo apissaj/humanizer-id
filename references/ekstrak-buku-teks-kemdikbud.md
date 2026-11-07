@@ -150,3 +150,23 @@ Buku Siswa Kelas XI (ISBN 978-634-00-0958-3) menetapkan sistematika karya ilmiah
    - **Hasil & Pembahasan:** Interpretasi data dan temuan.
    - **Simpulan & Saran:** Jawaban rumusan masalah dan rekomendasi kebijakan/lanjutan.
 3. **Bagian Akhir:** Daftar Pustaka (Harvard / APA) dan Lampiran (data pendukung).
+### D. Konjungsi Intrakalimat vs Antarkalimat (Buku Kelas XII Kurikulum Merdeka, 2024, Bab IV hlm. 167–172)
+
+Berdasar Alwi dkk. (2017), buku Kelas XII merinci dua kategori konjungsi:
+
+#### 1. Konjungsi Intrakalimat — WAJIB Diawali Tanda Koma (Tabel 4.11, hlm. 168):
+- `..., kecuali`, `..., kemudian`, `..., lalu`, `..., lantas`, `..., padahal`, `..., tetapi`, `..., namun`, `..., sedangkan`, `..., melainkan`, `..., bahkan`.
+- Contoh: *"Adiknya rajin, sedangkan kakaknya malas."* / *"Mobil itu baru, tetapi sudah mogok."*
+
+#### 2. Konjungsi Intrakalimat — TANPA Tanda Koma (Tabel 4.12, hlm. 168):
+- `dan`, `atau`, `bahwa`, `karena`, `sehingga`, `agar`, `apabila`, `jika`, `maka`.
+- Contoh: *"Jalan utama ditutup sehingga terjadi kemacetan."* / *"Ia tidak hadir karena sakit."*
+
+#### 3. Larangan Konjungsi Intrakalimat di Awal Kalimat (hlm. 169):
+- *Salah:* *"Ia kerap berolahraga. Sehingga wajar badannya sehat."*
+- *Baku:* *"Ia kerap berolahraga sehingga wajar badannya sehat."* ATAU *"Ia kerap berolahraga. Oleh karena itu, wajar badannya sehat."*
+- *Salah:* *"Kakak memilih sains. Sedangkan adik memilih sastra."*
+- *Baku:* *"Kakak memilih sains, sedangkan adik memilih sastra."* ATAU *"Kakak memilih sains. Sementara itu, adik memilih sastra."*
+
+#### 4. Konjungsi Antarkalimat (Tabel 4.13, hlm. 170):
+Ditulis di awal kalimat baru dan diikuti tanda koma: *Adapun, Akan tetapi, Biarpun begitu, Contohnya, Dalam hal ini, Dengan demikian, Dengan kata lain, Di samping itu, Jadi, Karena itu, Kendatipun demikian, Maka dari itu, Meskipun begitu, Pada dasarnya, Pada hakikatnya, Pendeknya, Sebagai kesimpulan, Sebaiknya, Sebelumnya, Sebenarnya, Sehubungan dengan itu, Selain itu, Selanjutnya, Sementara itu, Sesungguhnya, Sungguhpun demikian, Untuk itu, Walaupun demikian*.

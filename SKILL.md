@@ -283,6 +283,22 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### Q. Ketentuan Tanda Koma pada Konjungsi Intrakalimat & Antarkalimat (Rujukan Buku Kelas XII Kemendikbudristek 2024 & Alwi dkk. 2017)
+
+1. **Konjungsi Intrakalimat WAJIB Diawali Koma:**
+   - *tetapi, namun, sedangkan, melainkan, bahkan, padahal, kecuali, kemudian, lalu, lantas*.
+   - *Contoh:* *“Model A sangat cepat, tetapi membutuhkan memori besar.”* (koma sebelum *tetapi*).
+   - *Contoh:* *“Model A dievaluasi pada dataset X, sedangkan Model B pada dataset Y.”* (koma sebelum *sedangkan*).
+2. **Konjungsi Intrakalimat TANPA Tanda Koma:**
+   - *dan, atau, bahwa, karena, sehingga, agar, apabila, jika, maka*.
+   - *Salah:* *“Akurasi naik, sehingga efisiensi meningkat.”* → *Baku:* *“Akurasi naik sehingga efisiensi meningkat.”* (tanpa koma sebelum *sehingga*).
+   - *Salah:* *“Sistem berhenti, karena kegagalan daya.”* → *Baku:* *“Sistem berhenti karena kegagalan daya.”* (tanpa koma sebelum *karena*).
+3. **Konjungsi Antarkalimat WAJIB Diikuti Koma:**
+   - *Oleh karena itu,, Selain itu,, Dengan demikian,, Di samping itu,, Sementara itu,, Selanjutnya,, Pada dasarnya,* dll.
+   - Posisi selalu di awal kalimat baru (didahului titik, diikuti koma).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

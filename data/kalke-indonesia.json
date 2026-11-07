@@ -96,7 +96,7 @@
         "judul": "Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII (Kurikulum Merdeka)",
         "penulis": "K. Waskitaningtyas, Heny Marwati, dkk.",
         "penerbit": "Kemendikbudristek, 2024",
-        "bab_relevan": "Bab I Mengomunikasikan Informasi Penting tentang Pendidikan dan/atau Pekerjaan (hlm. 19-33): EYD V pada surat resmi, kata baku, kalimat efektif Sasangka"
+        "bab_relevan": "Bab I Surat Resmi (hlm. 19-33); Bab IV Teks Eksplanasi Kompleks — Konjungsi Intrakalimat & Antarkalimat (hlm. 167-172)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -629,6 +629,58 @@
           "penjelasan": "Bentuk percakapan tidak baku. Dalam ragam formal gunakan 'berkata' atau 'memberitahukan' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
           "contoh_salah": "Beliau bilang rapat dimulai besok.",
           "contoh_benar": "Beliau memberitahukan bahwa rapat dimulai besok."
+        },
+        {
+          "id": "KJK-001",
+          "pola": "Karena itu,",
+          "saran_pengganti": [
+            "Oleh karena itu,"
+          ],
+          "penjelasan": "Konjungsi antarkalimat kausal baku adalah 'Oleh karena itu,' (berawalan 'oleh'); bentuk 'Karena itu,' tergolong penyingkatan informal yang jarang dipakai dalam naskah ilmiah baku. Alternatif baku lain: 'Maka dari itu,' / 'Dengan demikian,' (Alwi dkk. 2017, dikutip dalam Buku Kelas XII Kemendikbudristek, Tabel 4.13, hlm. 170).",
+          "contoh_salah": "Karena itu, penelitian ini menguji hubungan antara variabel X dan Y.",
+          "contoh_benar": "Oleh karena itu, penelitian ini menguji hubungan antara variabel X dan Y."
+        },
+        {
+          "id": "KJK-002",
+          "pola": ". Selain itu",
+          "saran_pengganti": [
+            ". Selain itu,",
+            ", selain itu"
+          ],
+          "penjelasan": "Konjungsi antarkalimat 'Selain itu' wajib diikuti tanda koma setelah frasa konjungsinya dan hanya digunakan di awal kalimat baru, bukan sebagai penghubung antarklausa intrakalimat (Alwi dkk. 2017, dikutip dalam Buku Kelas XII Kemendikbudristek, Tabel 4.13, hlm. 170).",
+          "contoh_salah": "Model ini efisien. Selain itu akurasi nya tinggi.",
+          "contoh_benar": "Model ini efisien. Selain itu, akurasinya tinggi."
+        },
+        {
+          "id": "KJK-003",
+          "pola": ", namun tidak",
+          "saran_pengganti": [
+            ", namun tidak",
+            ". Namun, tidak"
+          ],
+          "penjelasan": "Konjungsi intrakalimat 'namun' memerlukan tanda koma sebelumnya karena termasuk kategori konjungsi yang selalu diawali tanda koma (Tabel 4.11, Buku Kelas XII Kemendikbudristek, hlm. 168).",
+          "contoh_salah": "Model ini cepat namun tidak akurat.",
+          "contoh_benar": "Model ini cepat, namun tidak akurat."
+        },
+        {
+          "id": "KJK-004",
+          "pola": ", sehingga",
+          "saran_pengganti": [
+            ", sehingga"
+          ],
+          "penjelasan": "Konjungsi intrakalimat 'sehingga' TIDAK diawali tanda koma (termasuk kategori konjungsi tanpa koma sebelumnya — Tabel 4.12, Buku Kelas XII Kemendikbudristek, hlm. 168). Penulisan benar: klausa1 sehingga klausa2 (tanpa koma).",
+          "contoh_salah": "Data terlalu besar, sehingga pelatihan lambat.",
+          "contoh_benar": "Data terlalu besar sehingga pelatihan lambat."
+        },
+        {
+          "id": "KJK-005",
+          "pola": ", karena",
+          "saran_pengganti": [
+            "karena"
+          ],
+          "penjelasan": "Konjungsi intrakalimat 'karena' TIDAK diawali tanda koma (Tabel 4.12, Buku Kelas XII Kemendikbudristek, hlm. 168). Penulisan benar: klausa1 karena klausa2 (tanpa koma).",
+          "contoh_salah": "Model gagal konvergen, karena learning rate terlalu besar.",
+          "contoh_benar": "Model gagal konvergen karena learning rate terlalu besar."
         }
       ]
     },
