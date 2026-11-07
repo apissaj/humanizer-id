@@ -28,6 +28,7 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 |---|---|---|
 | *Cerdas Cergas Berbahasa dan Bersastra Indonesia* Kelas XI (Edisi Revisi, 2024, ISBN 978-634-00-0958-3) | Ragam bahasa karya ilmiah (denotatif, objektif, impersonal), sistematika karya ilmiah, contoh perbaikan kalimat efektif resmi (hlm. 210–215) | [references/ekstrak-buku-teks-kemdikbud.md](references/ekstrak-buku-teks-kemdikbud.md) |
 | *Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas XII* (Edisi Revisi, 2024) | Lima ciri kalimat efektif (Sasangka, 2019), kaidah surat resmi (*agar menjadi*, *guna meningkatkan*), 9 kata tidak baku (hlm. 29–34) | [references/ekstrak-buku-teks-kemdikbud.md](references/ekstrak-buku-teks-kemdikbud.md) |
+| *Bahasa Indonesia untuk Perguruan Tinggi* (Suyatno dkk., FITK UIN Jakarta) | Enam syarat keefektifan kalimat akademik (kesatuan ide, kepaduan/koherensi, keparalelan, ketepatan diksi, kehematan, kelogisan nalar) dan eliminasi frasa *namun demikian* (hlm. 100–107) | [references/buku-ajar-bahasa-indonesia-perguruan-tinggi.md](references/buku-ajar-bahasa-indonesia-perguruan-tinggi.md) |
 
 ### Buku Bahasa & Linguistik Populer (Ivan Lanin)
 - **Xenoglosofilia: Kenapa Harus Nginggris?** (Ivan Lanin, Kompas Gramedia, 2018) — telaah kritis kalke bahasa asing, pemadanan istilah berbasis kelaziman penutur.

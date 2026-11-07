@@ -58,8 +58,8 @@ def audit_text(text, kalke_dict, glosarium_dict):
                     elif "baik" in pattern_str and "ataupun" in pattern_str:
                         if re.search(r'\bbaik\b.+?\bataupun\b', clean_line, re.IGNORECASE):
                             matched = True
-                    elif "bukan" in pattern_str and "tetapi" in pattern_str:
-                        if re.search(r'\bbukan\b.+?\btetapi\b', clean_line, re.IGNORECASE):
+                    elif "bukan" in pattern_str and ("tetapi" in pattern_str or "namun" in pattern_str):
+                        if re.search(r'\bbukan\b.+?\b(tetapi|namun)\b', clean_line, re.IGNORECASE):
                             matched = True
                     
                     if matched:

@@ -57,6 +57,13 @@
         "penerbit": "Mizan Qanita",
         "tahun": 2020,
         "fokus": "Konsep 5 ragam bahasa (beku, resmi, konsultatif, santai, akrab), keluwesan bahasa baku"
+      },
+      {
+        "judul": "Bahasa Indonesia untuk Perguruan Tinggi",
+        "penulis": "Suyatno, dkk. (UIN Syarif Hidayatullah Jakarta)",
+        "penerbit": "FITK UIN Syarif Hidayatullah Jakarta",
+        "tahun": 2020,
+        "bab_relevan": "Bab 11 Kalimat Efektif (hlm. 100-107): 6 Syarat Keefektifan (Kesatuan, Koherensi, Kesejajaran, Ketepatan, Kehematan, Kelogisan)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -329,6 +336,28 @@
           "penjelasan": "Metafora kalke terjemahan dari 'landscape' (regulatory landscape, competitive landscape) yang diproduksi berulang oleh LLM pada teks formal Indonesia.",
           "contoh_salah": "Melihat lanskap kecerdasan buatan di Indonesia.",
           "contoh_benar": "Melihat peta perkembangan kecerdasan buatan di Indonesia."
+        },
+        {
+          "id": "PT-001",
+          "pola": "namun demikian",
+          "saran_pengganti": [
+            "walaupun demikian",
+            "namun,",
+            "meskipun demikian"
+          ],
+          "penjelasan": "'Namun demikian' adalah kombinasi konjungsi bentuk dwi-frasa yang tidak lazim dalam bahasa Indonesia baku. 'Namun' sudah cukup sebagai konjungsi adversatif tunggal (Rujukan: Suyatno dkk., Bahasa Indonesia untuk Perguruan Tinggi UIN Jakarta, hlm. 104).",
+          "contoh_salah": "Namun demikian, model ini masih memiliki keterbatasan pada data outlier.",
+          "contoh_benar": "Walaupun demikian, model ini masih memiliki keterbatasan pada data pencilan."
+        },
+        {
+          "id": "PT-002",
+          "pola": "bukan A namun B",
+          "saran_pengganti": [
+            "bukan A, melainkan B"
+          ],
+          "penjelasan": "Perangkai korelatif baku untuk 'bukan' pada penontrasan nomina/frasa adalah 'melainkan', bukan 'namun' atau 'tetapi' (Suyatno dkk., hlm. 104).",
+          "contoh_salah": "Bukan kualitas data yang rendah, namun metode pemrosesannya yang keliru.",
+          "contoh_benar": "Bukan kualitas data yang rendah, melainkan metode pemrosesannya yang keliru."
         }
       ]
     },
@@ -559,6 +588,26 @@
           "penjelasan": "'Di mana' adalah kata tanya tempat, bukan kata sambung klausa penjelas dalam ragam bahasa karya ilmiah (Rujukan: Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 210).",
           "contoh_salah": "Perjumpaan dengan sarang cukup menarik, di mana orang utan memanfaatkan pohon yang sama.",
           "contoh_benar": "Perjumpaan dengan sarang cukup menarik karena orang utan memanfaatkan pohon yang sama."
+        },
+        {
+          "id": "PT-003",
+          "pola": "gagasan ganda dalam satu kalimat",
+          "saran_pengganti": [
+            "pisah menjadi dua kalimat / sederhanakan struktur predikat"
+          ],
+          "penjelasan": "Syarat Kesatuan (satuan gagasan): satu kalimat hanya boleh memuat satu ide pokok. Penggabungan dua gagasan tanpa hubungan logis membuat kalimat tidak efektif (Suyatno dkk., hlm. 101-102).",
+          "contoh_salah": "Pembangunan gedung sekolah baru pihak yayasan dibantu oleh bank yang memberikan kredit.",
+          "contoh_benar": "Pihak yayasan dibantu oleh bank yang memberikan kredit untuk membangun gedung sekolah baru."
+        },
+        {
+          "id": "PT-004",
+          "pola": "kambing bermain hujan",
+          "saran_pengganti": [
+            "cek kelogisan kalimat"
+          ],
+          "penjelasan": "Syarat Kelogisan: kalimat yang benar secara struktur dan tanda baca tetap salah jika maknanya lemah secara logika berbahasa. Contoh: 'Kambing sangat senang bermain hujan' (kambing hewan anti-air) atau 'Karena lama tinggal di asrama putra, anaknya semua laki-laki' (tak relevan) (Suyatno dkk., hlm. 105).",
+          "contoh_salah": "Kambing sangat senang bermain hujan saat musim penghujan tiba.",
+          "contoh_benar": "Saat musim hujan tiba, anak-anak desa senang bermain air."
         }
       ]
     },

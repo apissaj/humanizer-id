@@ -208,6 +208,22 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 
 ---
 
+### L. Enam Syarat Kalimat Efektif Akademik (Rujukan Suyatno dkk., *Bahasa Indonesia untuk Perguruan Tinggi*, UIN Syarif Hidayatullah Jakarta, Bab 11 hlm. 100–107)
+
+1. **Kesatuan:** Satu kalimat satu ide pokok. Dilarang menggabungkan dua gagasan yang tidak berhubungan hierarkis dalam satu kalimat tunggal.
+2. **Kepaduan (Koherensi):** Hubungan antarkata, frasa, klausa, dan tanda baca pada pola S-P-O-Pel-Ket harus padu dan tidak terpatahkan oleh preposisi sembarangan.
+3. **Keparalelan (Kesejajaran):** Bentuk unsur rincian wajib sejenis dan seimbang. Jika unsur pertama nomina pe-an, semua unsur berikut wajib pe-an. Jika unsur pertama verba me-kan, semua wajib me-kan. Dilarang mencampur *pembelian buku, membuat katalog, dan buku-buku diberi label*.
+4. **Ketepatan Diksi & Konjungsi:**
+   - Larangan pasangan ganda *namun demikian*: pilih *walaupun demikian* atau *namun,*.
+   - Pasangan kontrasti nomina: *bukan ... melainkan ...* (bukan *bukan ... namun/tetapi ...*).
+   - Pasangan kontrasti verba/adjektiva: *tidak ... tetapi ...*.
+5. **Kehematan:** Hilangkan kata-kata yang tidak menambah nilai informasi (pleonasme, verba ringan, copula ganda).
+6. **Kelogisan:** Kalimat yang benar struktur dan ejaan tetap cacat bila maknanya lemah secara logika berpikir sistematis (*"Kambing sangat senang bermain hujan"* dan *"Karena lama tinggal di asrama putra, anaknya semua laki-laki"* → tidak logis).
+
+Detail contoh salah → benar resmi dari buku tersedia di `references/buku-ajar-bahasa-indonesia-perguruan-tinggi.md`.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
