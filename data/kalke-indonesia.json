@@ -1689,7 +1689,7 @@
           ],
           "penjelasan": "Bentuk tidak baku dari 'ingin' (teka-teki silang Buku Siswa XII, hlm. 33).",
           "contoh_salah": "Saya pengen mengikuti pelatihan ini.",
-          "contoh_benar": "Saya ingin mengikuti pelatihan ini."
+          "contoh_benar": "Peneliti ingin mengikuti pelatihan ini."
         },
         {
           "id": "S12-007",
@@ -1724,6 +1724,80 @@
           "penjelasan": "Konjungsi 'guna' harus diikuti verba aktif berimbuhan me-, bukan nomina 'peningkatan' yang membuat kalimat tidak efektif (Buku Siswa XII, hlm. 33, Aktivitas 1.11).",
           "contoh_salah": "Kegiatan ini dilaksanakan guna peningkatan kinerja karyawan.",
           "contoh_benar": "Kegiatan ini dilaksanakan guna meningkatkan kinerja karyawan."
+        },
+        {
+          "id": "BPK-001",
+          "pola": "agar supaya / demi untuk / lalu kemudian / kalau seandainya (pleonasme pasangan sinonim)",
+          "saran_pengganti": [
+            "agar ATAU supaya",
+            "demi ATAU untuk",
+            "lalu ATAU kemudian",
+            "kalau ATAU seandainya"
+          ],
+          "penjelasan": "Dua kata bersinonim yang digunakan berpasangan dalam satu konstruksi membuat salah satunya menjadi mubazir; wajib memilih salah satu (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 60-61).",
+          "contoh_salah": "Kita harus bekerja keras agar supaya dapat mencapai cita-cita.",
+          "contoh_benar": "Kita harus bekerja keras agar dapat mencapai cita-cita."
+        },
+        {
+          "id": "BPK-002",
+          "pola": "perincian diawali misalnya/seperti/contohnya/antara lain lalu ditutup dan lain-lain/dan sebagainya/dan seterusnya",
+          "saran_pengganti": [
+            "buang penutup tak terbatas",
+            "atau buang kata pembatas di awal"
+          ],
+          "penjelasan": "Kata pembatas perincian sudah membatasi unsur perincian; menutupnya dengan ungkapan tak terbatas menciptakan kontradiksi mubazir (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 62).",
+          "contoh_salah": "Logam itu memiliki beberapa jenis, misalnya emas, perak, timah, dan sebagainya.",
+          "contoh_benar": "Logam itu memiliki beberapa jenis, misalnya emas, perak, dan timah."
+        },
+        {
+          "id": "BPK-003",
+          "pola": "saling + bentuk ulang resiprokal (saling tolong-menolong / saling tembak-menembak)",
+          "saran_pengganti": [
+            "saling menolong",
+            "tolong-menolong",
+            "saling menembak",
+            "tembak-menembak"
+          ],
+          "penjelasan": "Kata 'saling' dan bentuk ulang verba/konfiks ber-...-an sama-sama menyatakan tindakan berbalasan; menggabungkan keduanya menghasilkan kemubaziran (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 67-69).",
+          "contoh_salah": "Kedua belah pihak saling tolong-menolong mengatasi bencana.",
+          "contoh_benar": "Kedua belah pihak saling menolong mengatasi bencana."
+        },
+        {
+          "id": "BPK-004",
+          "pola": "penyalahgunaan dan sebagainya / dan lain-lain / dan seterusnya",
+          "saran_pengganti": [
+            "dan sebagainya utk rincian sejenis",
+            "dan lain-lain utk rincian beragam jenis",
+            "dan seterusnya utk urutan berjenjang"
+          ],
+          "penjelasan": "'Dan sebagainya' khusus rincian sejenis/setaraf; 'dan lain-lain' khusus rincian beraneka jenis; 'dan seterusnya' khusus urutan logis berjenjang; ketiganya tidak boleh dipakai secara mana suka (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 63).",
+          "contoh_salah": "Materi pelatihan disampaikan bertahap pada sesi pertama, sesi kedua, dan lain-lain.",
+          "contoh_benar": "Materi pelatihan disampaikan bertahap pada sesi pertama, sesi kedua, dan seterusnya."
+        },
+        {
+          "id": "BPK-005",
+          "pola": "preposisi kedua ungkapan idiomatis dihilangkan (sesuai/berkaitan/terdiri tanpa 'dengan'/'atas')",
+          "saran_pengganti": [
+            "sesuai dengan",
+            "berkaitan dengan",
+            "sehubungan dengan",
+            "bergantung pada",
+            "terdiri atas"
+          ],
+          "penjelasan": "Ungkapan idiomatis berpreposisi sudah menjadi satu kesatuan makna; preposisi keduanya dilarang dihilangkan karena keduanya merupakan satu kesatuan (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 78).",
+          "contoh_salah": "Penggunaan kata ini tidak sesuai konteks kalimat akademik.",
+          "contoh_benar": "Penggunaan kata ini tidak sesuai dengan konteks kalimat akademik."
+        },
+        {
+          "id": "BPK-006",
+          "pola": "daripada untuk makna asal/sumber/penjelasan (bukan perbandingan)",
+          "saran_pengganti": [
+            "dari",
+            "(hilangkan: tujuan penelitian ini)"
+          ],
+          "penjelasan": "'Daripada' hanya tepat untuk makna perbandingan (lebih tinggi daripada); untuk makna asal/sumber gunakan 'dari' (terbuat dari kayu) (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 70, 74-75).",
+          "contoh_salah": "Kursi itu terbuat daripada kayu jati.",
+          "contoh_benar": "Kursi itu terbuat dari kayu jati."
         }
       ]
     }

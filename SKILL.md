@@ -481,6 +481,15 @@ ightarrow$ serangkai: *mahakasih*.
    - *Salah:* *"Pembangunan itu untuk menyejahterakan masyarakat."*
    - *Baku:* *"Pembangunan itu bertujuan menyejahterakan masyarakat."* ATAU *"Pembangunan itu dilakukan untuk menyejahterakan masyarakat."*
 
+### AB. Pleonasme & Pilihan Kata (Rujukan Mustakim, *Bentuk dan Pilihan Kata*, Seri Penyuluhan Badan Bahasa, 2014)
+
+1. **Pleonasme Pasangan Sinonim:** Dua kata bersinonim yang dipakai berpasangan membuat salah satunya mubazir — pilih salah satu: *agar supaya* → *agar*; *demi untuk* → *demi*; *lalu kemudian* → *kemudian*; *kalau seandainya* → *seandainya*; *seperti misalnya* → *misalnya* (hlm. 60–61).
+2. **Kontradiksi Pembatas + Penutup Tak Terbatas:** Perincian yang diawali *misalnya/seperti/contohnya/antara lain* dilarang ditutup *dan lain-lain/dan sebagainya/dan seterusnya* — pembatas sudah membatasi unsur; pilih salah satu fungsi (hlm. 62).
+3. **Resiprokal Ganda:** *Saling* + bentuk ulang verba/konfiks *ber-...-an* sama-sama menyatakan tindakan berbalasan; gabungan *saling tolong-menolong*, *saling tembak-menembak*, *saling bersalaman* mubazir — pilih *saling menolong* atau *tolong-menolong* (hlm. 67–69).
+4. **dll. vs dsb. vs dst.:** *Dan sebagainya* untuk rincian sejenis/setaraf; *dan lain-lain* untuk rincian beraneka jenis; *dan seterusnya* untuk urutan berjenjang — jangan dipakai mana suka (hlm. 63).
+5. **Ungkapan Idiomatis Berpreposisi Utuh:** Preposisi kedua dilarang dihilangkan: *sesuai dengan*, *berkaitan dengan*, *sehubungan dengan*, *bergantung pada*, *terdiri atas* (hlm. 78).
+6. **Daripada Khusus Perbandingan:** *Daripada* hanya untuk makna perbandingan (*lebih tinggi daripada*); makna asal/sumber memakai *dari* (*terbuat dari kayu*) dan frasa kepemilikan semu dihapus (*tujuan penelitian ini*) (hlm. 70, 74–75).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah
@@ -525,7 +534,7 @@ Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi
 Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menyediakan berkas perkakas, dataset terstruktur, dan dokumentasi rujukan resmi terintegrasi:
 
 ### 1. Dataset Terstruktur (`data/`)
-- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (72 entri aktif) memetakan kalke terjemahan mesin, verba ringan, retorika klise AI, tata bilangan TBBBI, dan kaidah morfologi peluluhan KTSP lengkap dengan sitasi buku/halaman.
+- **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (terus bertambah; baca berkas untuk jumlah mutakhir aktif) memetakan kalke terjemahan mesin, verba ringan, retorika klise AI, tata bilangan TBBBI, dan kaidah morfologi peluluhan KTSP lengkap dengan sitasi buku/halaman.
 - **`data/glosarium-lintas-bidang.json`**: Glosarium 50+ padanan istilah resmi lintas 4 bidang profesi (Teknologi, Hukum, Jurnalistik, Bisnis) bersumber dari **PASTI Kemendikdasmen RI** (172.931 istilah, 59 ranah).
 - **`data/pedoman-kampus.json`**: Basis data konfigurasi format skripsi & tugas akhir untuk 11 perguruan tinggi terkemuka (UI, ITB, UGM, ITS, IPB, UNDIP, UNPAD, UNAIR, UB, Telkom, UDINUS).
 

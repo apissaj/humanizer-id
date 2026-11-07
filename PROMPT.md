@@ -180,3 +180,11 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
   - Baku: "Dalam penelitian ini akan dibahas efisiensi model." atau "Penelitian ini membahas efisiensi model."
 - Kalimat wajib memiliki subjek dan predikat lengkap: "Pembangunan itu untuk menyejahterakan rakyat" (salah) -> "Pembangunan itu bertujuan menyejahterakan rakyat" (baku).
 - "di mana" dan "yang mana" hanya sah dalam kalimat tanya; di kalimat pernyataan gunakan "yang".
+## PLEONASME & PILIHAN KATA (Mustakim, Bentuk dan Pilihan Kata, Seri Penyuluhan Badan Bahasa 2014)
+
+- **Pleonasme pasangan sinonim (hlm. 60-61):** pilih salah satu — *agar supaya* → *agar*; *demi untuk* → *demi*; *lalu kemudian* → *kemudian*; *kalau seandainya* → *seandainya*; *seperti misalnya* → *misalnya*.
+- **Pembatas + penutup tak terbatas (hlm. 62):** perincian dengan *misalnya/seperti/contohnya/antara lain* dilarang ditutup *dan lain-lain/dan sebagainya/dan seterusnya*; pilih salah satu fungsi.
+- **Resiprokal ganda (hlm. 67-69):** *saling tolong-menolong*, *saling tembak-menembak*, *saling bersalaman* mubazir — gunakan *saling menolong* atau *tolong-menolong*.
+- **dll. vs dsb. vs dst. (hlm. 63):** *dan sebagainya* = rincian sejenis; *dan lain-lain* = rincian beragam jenis; *dan seterusnya* = urutan berjenjang.
+- **Idiomatis berpreposisi utuh (hlm. 78):** *sesuai dengan*, *berkaitan dengan*, *sehubungan dengan*, *bergantung pada*, *terdiri atas* — preposisi kedua dilarang dihilangkan.
+- **Daripada khusus perbandingan (hlm. 70, 74-75):** *terbuat dari kayu* (bukan *daripada*); *tujuan penelitian ini* (bukan *tujuan daripada penelitian ini*).

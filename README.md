@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Seri Penyuluhan: Bentuk dan Pilihan Kata (Badan Bahasa)
+- **Bentuk dan Pilihan Kata** (Drs. Mustakim, M.Hum., Pusat Pembinaan Pemasyarakatan Bahasa, 2014, 110 hlm., ISBN 978-979-069-204-6) — tiga kriteria pemilihan kata (ketepatan, kecermatan, keserasian); kaidah anti-pleonasme pasangan sinonim, pembedaan *dll./dsb./dst.*, resiprokal ganda *saling + bentuk ulang*, keutuhan ungkapan idiomatis berpreposisi, dan pembatasan *daripada* khusus makna perbandingan → [references/buku-seri-penyuluhan-bentuk-pilihan-kata.md](references/buku-seri-penyuluhan-bentuk-pilihan-kata.md)
+
 ### Pedoman Ejaan & Tata Bahasa Resmi Pemerintah
 - **EYD Edisi V** (Keputusan Kepala Badan Bahasa No. 0424/I/BS.00.01/2022) — peluluhan KTSP, bentuk terikat, partikel *pun* → [references/pedoman-kebahasaan-resmi.md](references/pedoman-kebahasaan-resmi.md)
 - **TBBBI (Tata Bahasa Baku Bahasa Indonesia) Edisi IV** — kesejajaran predikat, kalimat efektif.
