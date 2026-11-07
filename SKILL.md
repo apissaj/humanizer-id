@@ -512,6 +512,13 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Keparalelan Perincian:** unsur se derajat wajib berpola sama — *meliputi pembelian buku, pembuatan katalog, dan pelabelan buku*; campuran nomina + verba me- + klausa pasif tidak efektif (hlm. 103).
 3. **Salah Nalar Bebas Parkir:** pola *bebas X* bermakna 'tanpa X' (*bebas narkoba*); *bebas parkir* justru bermakna larangan parkir — yang tepat *parkir gratis / bebas biaya parkir* (hlm. 108).
 
+### AF. Padanan Istilah Linguistik (Rujukan Kridalaksana, *Daftar Istilah Linguistik Asing-Indonesia*, Pusat Bahasa, 1978)
+
+1. **Proses vs Hasil:** *peminjaman/pemisahan* = proses; *pinjaman/pisahan* = hasil — *proses peminjaman*, bukan *proses pinjaman* (hlm. xiv).
+2. **Harfiah Kaku Ditolak:** *linguistic atlas* → *atlas bahasa*; *linguistic skill* → *keterampilan bahasa* (hlm. xiii).
+3. **Urutan Padanan:** unsur kepala di depan — *predikat nominal* (bukan *nominatif predikat*); *pinjam terjemah* (bukan *terjemah pinjam*) (hlm. xiii).
+4. **Alih Fonem Klasik:** /k/ Latin dipertahankan — *bahasa kentum* (bukan *sentum*); *kenematika* (bukan *senematika*); *apokope* (bukan *apokop*) (hlm. xiii).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah

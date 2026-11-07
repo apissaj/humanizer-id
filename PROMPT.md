@@ -207,3 +207,9 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **Korelatif baku (hlm. 76):** *tidak ... tetapi ...* (bukan *tidak ... melainkan ...*); *bukan ... melainkan ...* (bukan *bukan ... tetapi ...*).
 - **Keparalelan perincian (hlm. 103):** seluruh unsur se derajat wajib sepola — nomina semua (*pembelian, pembuatan, pelabelan*) atau verba aktif semua (*membeli, membuat, melabeli*).
 - **Nalar frasa (hlm. 108):** *bebas X* = 'tanpa X'; *bebas parkir* bermakna larangan parkir — frasa yang tepat untuk gratis ialah *parkir gratis / bebas biaya parkir*.
+## PADANAN ISTILAH LINGUISTIK (Kridalaksana, Daftar Istilah Linguistik, Pusat Bahasa 1978)
+
+- **Proses vs hasil (hlm. xiv):** *proses peminjaman* (bukan *proses pinjaman*); *proses pemisahan* (bukan *proses pisahan*).
+- **Padanan bukan harfiah (hlm. xiii):** *atlas bahasa* (bukan *atlas linguistik*); *keterampilan bahasa* (bukan *keterampilan linguistik*).
+- **Urutan padanan (hlm. xiii):** *predikat nominal* (bukan *nominatif predikat*); *pinjam terjemah* (bukan *terjemah pinjam*).
+- **Fonem klasik (hlm. xiii):** *bahasa kentum* (bukan *sentum*); *kenematika* (bukan *senematika*); *apokope* (bukan *apokop*).

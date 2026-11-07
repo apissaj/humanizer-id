@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Istilah Linguistik (Pusat Bahasa 1978)
+- **Daftar Istilah Linguistik Asing-Indonesia** (Harimurti Kridalaksana, Pusat Pembinaan dan Pengembangan Bahasa, 1978, xiv+59 hlm., ditelaah Amran Halim, A.M. Moeliono, J.S. Badudu dkk.) — prinsip pengistilahan resmi: penyederhanaan sinonim asing menjadi satu padanan, penolakan terjemahan harfiah (*atlas bahasa*, *keterampilan bahasa*), urutan unsur padanan (*predikat nominal*, *pinjam terjemah*), alih fonem klasik (*bahasa kentum*, *kenematika*), dan pemilahan makna proses vs hasil (*peminjaman* vs *pinjaman*) → [references/daftar-istilah-linguistik-kridalaksana-1978.md](references/daftar-istilah-linguistik-kridalaksana-1978.md)
+
 ### Bahasa Indonesia Perguruan Tinggi (UIN Jakarta 2017)
 - **Bahasa Indonesia untuk Perguruan Tinggi: Membangun Karakter Mahasiswa melalui Bahasa** (Dr. Suyatno, M.Pd., Tri Pujiati, Didah Nurhamidah, Lutfi Syauki Faznur, Penerbit IN MEDIA, 2017, xii+150 hlm., ISBN 978-602-0969-90-9) — pasangan kata penghubung korelatif baku (*tidak ... tetapi ...* vs *bukan ... melainkan ...*), keparalelan bentuk imbuhan dalam perincian (*pembelian, pembuatan, pelabelan*), dan salah nalar pola frasa *bebas parkir → parkir gratis* → [references/bahasa-indonesia-pt-suyatno-2017.md](references/bahasa-indonesia-pt-suyatno-2017.md)
 

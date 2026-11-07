@@ -1993,6 +1993,66 @@
             "tahun": 2019,
             "halaman": "23"
           }
+        },
+        {
+          "id": "DIL-001",
+          "pola": "kerancuan sufiksasi proses vs hasil: peminjaman dipakai untuk barang yang dipinjam atau pinjaman dipakai untuk proses meminjam (borrowing/split)",
+          "saran_pengganti": "Bedakan makna sufiks: pinjaman = hasil peminjaman (barang yang dipinjam); peminjaman = proses meminjam; pisahan = hasil pemisahan; pemisahan = proses memisah (Kridalaksana, hlm. xiv).",
+          "penjelasan": "Daftar Istilah Linguistik Asing-Indonesia (Kridalaksana, Pusat Bahasa 1978) menegaskan nuansa makna -an (hasil) dan peN-...-an (proses) yang tidak diungkapkan bahasa sumbernya: borrowing diterjemahkan pinjaman (hasil) dan peminjaman (proses); split menjadi pisahan (hasil) dan pemisahan (proses). Menukar keduanya meruntuhkan beda makna proses-hasil yang khas bahasa Indonesia.",
+          "contoh_salah": "Kajian ini menganalisis proses pinjaman kosakata Jawa ke dalam bahasa Indonesia.",
+          "contoh_benar": "Kajian ini menganalisis proses peminjaman kosakata Jawa ke dalam bahasa Indonesia.",
+          "rujukan": {
+            "penulis": "Harimurti Kridalaksana",
+            "buku": "Daftar Istilah Linguistik Asing-Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "xiv"
+          }
+        },
+        {
+          "id": "DIL-002",
+          "pola": "penerjemahan harfiah kaku pada frasa 'linguistic': keterampilan linguistik (linguistic skill) atau atlas linguistik (linguistic atlas)",
+          "saran_pengganti": "Ganti pemadanan baku: linguistic skill → keterampilan bahasa (bukan keterampilan linguistik); linguistic atlas → atlas bahasa (bukan atlas linguistik/atlas linguistis) (Kridalaksana, hlm. xiii).",
+          "penjelasan": "Daftar Istilah Linguistik Asing-Indonesia (Kridalaksana, 1978) menolak pengindonesiaan harfiah yang menggeser konsep: padanan resmi linguistic skill ialah keterampilan bahasa dan linguistic atlas ialah atlas bahasa. Bentuk 'keterampilan linguistik' dan 'atlas linguistik' mengalihkan kata modifier saja tanpa memperhatikan konsep istilahnya.",
+          "contoh_salah": "Kajian itu menyajikan atlas linguistik dan menguji keterampilan linguistik responden.",
+          "contoh_benar": "Kajian itu menyajikan atlas bahasa dan menguji keterampilan bahasa responden.",
+          "rujukan": {
+            "penulis": "Harimurti Kridalaksana",
+            "buku": "Daftar Istilah Linguistik Asing-Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "xiii"
+          }
+        },
+        {
+          "id": "DIL-003",
+          "pola": "struktur frasa padanan terbalik: nominatif predikat (predicate nominative) atau terjemah pinjam (loan translation)",
+          "saran_pengganti": "Pulihkan urutan padanan baku: predicate nominative → predikat nominal (bukan nominatif predikat); predicate adjective → adjektiva predikatif; loan translation → pinjam terjemah (bukan terjemah pinjam) (Kridalaksana, hlm. xiii).",
+          "penjelasan": "Daftar Istilah Linguistik Asing-Indonesia (Kridalaksana, 1978) menetapkan urutan unsur padanan mengikuti struktur bahasa Indonesia: unsur kepala di depan. Padanan resmi predicate nominative ialah predikat nominal dan loan translation ialah pinjam terjemah; bentuk 'nominatif predikat' dan 'terjemah pinjam' membalik kaidah struktur frasa baku.",
+          "contoh_salah": "Fungsi frasa itu dalam kalimat ialah sebagai nominatif predikat hasil terjemah pinjam.",
+          "contoh_benar": "Fungsi frasa itu dalam kalimat ialah sebagai predikat nominal hasil pinjam terjemah.",
+          "rujukan": {
+            "penulis": "Harimurti Kridalaksana",
+            "buku": "Daftar Istilah Linguistik Asing-Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "xiii"
+          }
+        },
+        {
+          "id": "DIL-004",
+          "pola": "penyerapan fonem klasik keliru: bahasa sentum (centum language) atau senematika (cenematics)",
+          "saran_pengganti": "Pertahankan fonem /k/ asal pada serapan klasik: centum language → bahasa kentum (bukan bahasa sentum); cenematics → kenematika (bukan senematika); apocope → apokope (bukan apokop) (Kridalaksana, hlm. xiii).",
+          "penjelasan": "Daftar Istilah Linguistik Asing-Indonesia (Kridalaksana, 1978) memperlihatkan bahwa pengalihan fonem istilah klasik tidak boleh membabi buta: padanan resmi centum ialah kentum dan cenematics ialah kenematika karena fonem /k/ Latin dipertahankan, bukan dialihkan menjadi /s/ mengikuti ejaan Inggris.",
+          "contoh_salah": "Rumpun bahasa sentum mencakup Latin dan Yunani, sebagaimana diuraikan dalam senematika.",
+          "contoh_benar": "Rumpun bahasa kentum mencakup Latin dan Yunani, sebagaimana diuraikan dalam kenematika.",
+          "rujukan": {
+            "penulis": "Harimurti Kridalaksana",
+            "buku": "Daftar Istilah Linguistik Asing-Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1978,
+            "halaman": "xiii"
+          }
         }
       ]
     }
