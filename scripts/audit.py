@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "hiponimi-hipernim" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str or "tanggungjawab" in pattern_str or "dari pada" in pattern_str or "angka 2 sebagai penanda" in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "hanya ... saja" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "'yang' bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "Karena itu," in pattern_str or "Selain itu (tanpa koma)" in pattern_str or "namun intrakalimat tanpa koma" in pattern_str or ", sehingga" in pattern_str or ", karena" in pattern_str or "sangat ... sekali" in pattern_str or "hanya ... saja" in pattern_str or "bukan hanya" in pattern_str or "bales / dibales" in pattern_str or "kata ganti persona" in pattern_str or "kata kerja mental aktif" in pattern_str or "konjungsi koordinatif 'dan' tidak sejajar" in pattern_str or "unsur terikat ditulis terpisah" in pattern_str or "Di era digital" in pattern_str or "sitasi tidak lengkap" in pattern_str or "kendati demikian" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str or "tanggungjawab" in pattern_str or "dari pada" in pattern_str or "angka 2 sebagai penanda" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -92,9 +92,6 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                             matched = True
                     elif "sedangkan" in pattern_str:
                         if re.search(r'(?:^|[.!?]\s+)\bsedangkan\b', clean_line, re.IGNORECASE):
-                            matched = True
-                    elif "sehingga" in pattern_str:
-                        if re.search(r'(?:^|[.!?]\s+)\bsehingga\b', clean_line, re.IGNORECASE):
                             matched = True
                     elif "para tamu-tamu" in pattern_str:
                         if re.search(r'\b(para|beberapa|semua)\s+([a-zA-Z]+)-\2\b', clean_line, re.IGNORECASE):
@@ -134,10 +131,11 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                     elif "pronomina persona taksa" in pattern_str:
                         if re.search(r'\b[A-Z][a-z]+\s+dan\s+\w+\b[^.!?]{2,80}\b(ia|dia)\b', clean_line, re.IGNORECASE):
                             matched = True
-                    elif "hiponimi-hipernim" in pattern_str:
-                        if re.search(r'\bjangankan\b', clean_line, re.IGNORECASE):
+                    elif "hierarki kata umum-khusus" in pattern_str:
+                        # '[telaah]': tandai hanya kalimat pembatasan 'jangankan...pun'
+                        if re.search(r'\bjangankan\b[^.!?]{0,60}\bpun\b', clean_line, re.IGNORECASE):
                             matched = True
-                    elif "akibat-sebab terbalik" in pattern_str or "sebab-akibat terbalik" in pattern_str:
+                    elif "urutan sebab-akibat" in pattern_str or "akibat-sebab terbalik" in pattern_str:
                         # Konjungsi akibat ('oleh sebab itu', 'oleh karena itu', 'karena itu')
                         # di depan klausa yang bukan akibat — deteksi heuristic:
                         # konjungsi akibat muncul di awal kalimat setelah kalimat pendek sebelumnya
@@ -158,6 +156,73 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                     elif "imbuhan di- ditulis terpisah" in pattern_str:
                         # Salah tulis imbuhan pasif di-: 'di analisis', 'di teliti', 'di observasi', 'di kembangkan'
                         if re.search(r'\bdi\s+(analisis|teliti|observasi|kembangkan|temukan|gunakan|lakukan|tulis|baca|uji)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    # --- Matcher presisi KJK (Alwi dkk. 2017) ---
+                    elif "Karena itu," in pattern_str:
+                        # Kausalitas informal tanpa 'Oleh': 'Karena itu,' di awal kalimat
+                        if re.search(r'(?:^|[.!?]\s+)\bKarena itu,\s+', clean_line):
+                            matched = True
+                    elif "Selain itu (tanpa koma)" in pattern_str:
+                        # 'Selain itu' di awal kalimat TIDAK diikuti koma
+                        if re.search(r'(?:^|[.!?]\s+)\bSelain itu(?!,)\s+\S', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "namun intrakalimat tanpa koma" in pattern_str:
+                        # 'namun' di tengah kalimat TANPA tanda koma sebelumnya
+                        if re.search(r'(?<!,)\s+\bnamun\b\s+\S', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif ", sehingga" in pattern_str:
+                        # ', sehingga' keliru — konjungsi subordinatif tidak boleh didahului koma
+                        if re.search(r',\s*sehingga\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif ", karena" in pattern_str:
+                        # ', karena' keliru — klausa subordinatif tidak boleh didahului koma
+                        if re.search(r',\s*karena\b', clean_line, re.IGNORECASE):
+                            matched = True
+
+                    # --- Matcher kehematan & gaya (UNJA, Sasangka, Moeliono) ---
+                    elif "hanya ... saja" in pattern_str:
+                        # Redundansi adverbia pembatas: 'hanya ... saja'
+                        if re.search(r'\bhanya\b[^.!?]{1,40}\bsaja\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "sangat ... sekali" in pattern_str:
+                        # Pleonasme adverbia: 'sangat [kata] sekali'
+                        if re.search(r'\bsangat\s+\w+\s+sekali\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "bukan hanya" in pattern_str:
+                        # Klise AI: 'bukan hanya ..., melainkan juga ...'
+                        if re.search(r'\bbukan hanya\b[^.!?]{1,60}\b(melainkan juga|tetapi juga)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "bales / dibales" in pattern_str:
+                        # Ragam lisan percakapan: bales, dibales, ngirim, bilang
+                        if re.search(r'\b(bales|dibales|ngirim|dingirim)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "kata ganti persona" in pattern_str:
+                        # Persona pertama/kedua dalam karya ilmiah: saya, aku, kamu
+                        if re.search(r'\b(saya|aku|kamu)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "konjungsi koordinatif 'dan' tidak sejajar" in pattern_str:
+                        # Pasif di klausa pertama, aktif di klausa kedua: 'oleh X dan Y yang me-...'
+                        if re.search(r'\boleh\s+\w+\s+dan\s+\w+\s+yang\s+me', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "kata kerja mental aktif" in pattern_str:
+                        # Verba mental aktif persona: kami berasumsi/kita menduga/kami mengira
+                        if re.search(r'\b(kami|kita|saya)\s+(berasumsi|menduga|mengira|memahami|menyadari|merasa)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "sitasi tidak lengkap" in pattern_str:
+                        # 'Menurut ahli,' tanpa nama belakang dan tahun
+                        if re.search(r'\bmenurut\s+ahli\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "kendati demikian (konsesif tidak paralel)" in pattern_str:
+                        # 'Kendati demikian,' di awal kalimat
+                        if re.search(r'(?:^|[.!?]\s+)\bKendati demikian,', clean_line):
+                            matched = True
+                    elif "unsur terikat ditulis terpisah" in pattern_str:
+                        # 'sub unit', 'maha guru', 'peri laku', 'antar kota'
+                        if re.search(r'\b(sub\s+unit|sub\s+bagian|maha\s+guru|peri\s+laku|antar\s+kota)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "Di era digital" in pattern_str:
+                        # Pembuka klise AI fleksibel
+                        if re.search(r'\bDi era digital yang berkembang\b', clean_line, re.IGNORECASE):
                             matched = True
                     elif "dimana/diketika/disewaktu" in pattern_str:
                         # Penggunaan 'dimana' sebagai kata hubung tengah kalimat

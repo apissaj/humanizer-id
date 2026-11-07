@@ -465,11 +465,10 @@
         },
         {
           "id": "UNJA-002",
-          "pola": "hanya saja",
+          "pola": "hanya ... saja",
           "saran_pengganti": [
-            "hanya",
-            "saja",
-            "akan tetapi"
+            "hanya [kata]",
+            "[kata] saja"
           ],
           "penjelasan": "Pemakaian adverbia pembatas ganda 'hanya' dan 'saja' secara bersamaan melanggar prinsip kehematan kalimat efektif (Modul Bahasa Indonesia UNJA, hlm. 130).",
           "contoh_salah": "Peneliti hanya membatasi pada tiga variabel saja.",
@@ -550,7 +549,7 @@
           ],
           "penjelasan": "Kontaminasi konjungsi subordinatif 'karena' dengan partikel konsekuensi 'maka' dalam satu kalimat majemuk bertingkat. Cukup gunakan salah satu (Buku Bahasa Indonesia UIN Alauddin, hlm. 109).",
           "contoh_salah": "Karena latensi API tinggi, maka sistem beralih ke cache lokal.",
-          "contoh_benar": "Karena latensi API tinggi, sistem beralih ke cache lokal."
+          "contoh_benar": "Karena latensi antarmuka tinggi, sistem beralih ke tembolok lokal."
         },
         {
           "id": "UIN-004",
@@ -648,9 +647,11 @@
         },
         {
           "id": "S12X-001",
-          "pola": "bales",
+          "pola": "bales / dibales",
           "saran_pengganti": [
-            "balas"
+            "balas",
+            "dibalas",
+            "membalas"
           ],
           "penjelasan": "Bentuk lisan tidak baku. Bentuk baku sesuai KBBI adalah 'balas' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
           "contoh_salah": "Kami mohon agar dibales segera.",
@@ -702,23 +703,22 @@
         },
         {
           "id": "KJK-002",
-          "pola": ". Selain itu",
+          "pola": "Selain itu (tanpa koma)",
           "saran_pengganti": [
-            ". Selain itu,",
-            ", selain itu"
+            "Selain itu,"
           ],
-          "penjelasan": "Konjungsi antarkalimat 'Selain itu' wajib diikuti tanda koma setelah frasa konjungsinya dan hanya digunakan di awal kalimat baru, bukan sebagai penghubung antarklausa intrakalimat (Alwi dkk. 2017, dikutip dalam Buku Kelas XII Kemendikbudristek, Tabel 4.13, hlm. 170).",
+          "penjelasan": "Konjungsi antarkalimat 'Selain itu' WAJIB diikuti tanda koma. Bentuk salah: 'Selain itu akurasi...'; bentuk benar: 'Selain itu, akurasi...' (Alwi dkk., 2017; Buku Kelas XII Kemendikbudristek, hlm. 168).",
           "contoh_salah": "Model ini efisien. Selain itu akurasi nya tinggi.",
           "contoh_benar": "Model ini efisien. Selain itu, akurasinya tinggi."
         },
         {
           "id": "KJK-003",
-          "pola": ", namun tidak",
+          "pola": "namun intrakalimat tanpa koma",
           "saran_pengganti": [
-            ", namun tidak",
-            ". Namun, tidak"
+            ", namun",
+            ". Namun,"
           ],
-          "penjelasan": "Konjungsi intrakalimat 'namun' memerlukan tanda koma sebelumnya karena termasuk kategori konjungsi yang selalu diawali tanda koma (Tabel 4.11, Buku Kelas XII Kemendikbudristek, hlm. 168).",
+          "penjelasan": "Konjungsi pertentangan intrakalimat 'namun' WAJIB didahului tanda koma jika menghubungkan klausa setara (Tabel 4.11, Buku Kelas XII Kemendikbudristek, hlm. 168).",
           "contoh_salah": "Model ini cepat namun tidak akurat.",
           "contoh_benar": "Model ini cepat, namun tidak akurat."
         },
@@ -726,7 +726,7 @@
           "id": "KJK-004",
           "pola": ", sehingga",
           "saran_pengganti": [
-            ", sehingga"
+            "sehingga (tanpa tanda koma sebelumnya)"
           ],
           "penjelasan": "Konjungsi intrakalimat 'sehingga' TIDAK diawali tanda koma (termasuk kategori konjungsi tanpa koma sebelumnya — Tabel 4.12, Buku Kelas XII Kemendikbudristek, hlm. 168). Penulisan benar: klausa1 sehingga klausa2 (tanpa koma).",
           "contoh_salah": "Data terlalu besar, sehingga pelatihan lambat.",
@@ -736,7 +736,7 @@
           "id": "KJK-005",
           "pola": ", karena",
           "saran_pengganti": [
-            "karena"
+            "karena (tanpa tanda koma sebelumnya)"
           ],
           "penjelasan": "Konjungsi intrakalimat 'karena' TIDAK diawali tanda koma (Tabel 4.12, Buku Kelas XII Kemendikbudristek, hlm. 168). Penulisan benar: klausa1 karena klausa2 (tanpa koma).",
           "contoh_salah": "Model gagal konvergen, karena learning rate terlalu besar.",
@@ -744,7 +744,7 @@
         },
         {
           "id": "ARG-001",
-          "pola": "Satu paragraf, dua ide pokok",
+          "pola": "[telaah] satu paragraf dua ide pokok",
           "saran_pengganti": [
             "Pecah menjadi dua paragraf, masing-masing satu ide pokok"
           ],
@@ -754,7 +754,7 @@
         },
         {
           "id": "ARG-002",
-          "pola": "Pola pengembangan campuran dalam satu paragraf",
+          "pola": "[telaah] pola pengembangan campuran deduksi-induksi",
           "saran_pengganti": [
             "Pilih satu pola: deduksi (umum→khusus) atau induksi (khusus→umum)"
           ],
@@ -764,7 +764,7 @@
         },
         {
           "id": "MKI-001",
-          "pola": "saya/kamu/aku dalam karya ilmiah",
+          "pola": "kata ganti persona (saya/kamu/aku)",
           "saran_pengganti": [
             "penulis",
             "peneliti",
@@ -813,7 +813,7 @@
         },
         {
           "id": "SPB-003",
-          "pola": "ketidaksejajaran konstruksi kalimat majemuk 'dan'",
+          "pola": "konjungsi koordinatif 'dan' tidak sejajar (pasif-aktif)",
           "saran_pengganti": [
             "sejajarkan bentuk pasif-pasif atau aktif-aktif"
           ],
@@ -889,7 +889,7 @@
         },
         {
           "id": "TBBX-002",
-          "pola": "cacat urutan hiponimi-hipernim dalam pembatasan",
+          "pola": "[telaah] hierarki kata umum-khusus pada kalimat pembatasan",
           "saran_pengganti": [
             "urutkan dari umum ke khusus atau sebaliknya secara konsisten"
           ],
@@ -899,7 +899,7 @@
         },
         {
           "id": "OPN-001",
-          "pola": "konjungsi akibat menghubungkan akibat-sebab terbalik",
+          "pola": "[telaah] urutan sebab-akibat pada konjungsi antarkalimat",
           "saran_pengganti": [
             "balikkan urutan klausa: sebab dulu, baru akibat"
           ],
@@ -946,7 +946,7 @@
         },
         {
           "id": "CX-001",
-          "pola": "penggunaan 'adalah' untuk penempatan kategori (bukan ekuivalensi mutlak)",
+          "pola": "[telaah] kopula kategori: adalah vs merupakan",
           "saran_pengganti": [
             "merupakan"
           ],
@@ -966,7 +966,7 @@
         },
         {
           "id": "CX-003",
-          "pola": "kutipan tidak langsung tanpa nama belakang dan tahun",
+          "pola": "sitasi tidak lengkap (menurut ahli tanpa nama & tahun)",
           "saran_pengganti": [
             "format CMS 17: (Nama belakang, tahun: halaman)"
           ],
@@ -988,7 +988,7 @@
         },
         {
           "id": "CX11-002",
-          "pola": "konjungsi konsesif 'kendati demikian' berpasangan dengan struktur pasif yang tak seimbang",
+          "pola": "kendati demikian (konsesif tidak paralel)",
           "saran_pengganti": [
             "namun demikian",
             "meskipun demikian",
@@ -1190,7 +1190,7 @@
         },
         {
           "id": "RET-002",
-          "pola": "Di era digital yang berkembang dengan sangat pesat saat ini",
+          "pola": "Di era digital yang berkembang pesat saat ini",
           "saran_pengganti": [
             "Dalam konteks komputasi modern,",
             "Seiring tingginya adopsi sistem digital,"
@@ -1207,7 +1207,7 @@
             "adalah",
             "ialah"
           ],
-          "penjelasan": "Pleonasme kopula ganda yang sering muncul dalam draf otomatis.",
+          "penjelasan": "Pleonasme kopula ganda (adalah + merupakan) yang melanggar prinsip kehematan dan predikat tunggal kalimat efektif karya ilmiah (Rujukan: Buku Bahasa Indonesia Siswa Kelas XI Kemendikbudristek 2024, Bab VI hlm. 200; Panduan Gaya Manusiawi).",
           "contoh_salah": "Metode Scrum adalah merupakan kerangka kerja tangkas.",
           "contoh_benar": "Metode Scrum merupakan kerangka kerja tangkas."
         },
@@ -1215,9 +1215,9 @@
           "id": "RET-004",
           "pola": "sangat ... sekali",
           "saran_pengganti": [
-            "sangat ...",
-            "... sekali",
-            "amat ..."
+            "sangat [kata sifat]",
+            "[kata sifat] sekali",
+            "amat [kata sifat]"
           ],
           "penjelasan": "Pleonasme adverbia derajat superlatif yang tidak baku.",
           "contoh_salah": "Hasil pengujian tersebut sangat memuaskan sekali.",
@@ -1251,8 +1251,8 @@
           "id": "RET-007",
           "pola": "bukan hanya ..., melainkan juga ...",
           "saran_pengganti": [
-            "mencakup ... dan ...",
-            "serta"
+            "... dan ...",
+            "tidak hanya ..., tetapi juga ..."
           ],
           "penjelasan": "Gaya kontras dramatis (not only ... but also) yang sering disuntikkan AI pada rincian fitur sederhana.",
           "contoh_salah": "Aplikasi ini bukan hanya mencatat transaksi, melainkan juga menghitung pajak.",
@@ -1270,17 +1270,6 @@
           "contoh_benar": "Sistem ini diharapkan dapat meningkatkan efisiensi operasional industri logistik."
         },
         {
-          "id": "BSE-001",
-          "pola": "adalah merupakan",
-          "saran_pengganti": [
-            "merupakan",
-            "adalah"
-          ],
-          "penjelasan": "Pemakaian kopula ganda bertumpuk (adalah + merupakan) melanggar prinsip kehematan dan predikat tunggal kalimat efektif karya ilmiah (Rujukan: Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 213).",
-          "contoh_salah": "Paphiopedilum violascens adalah anggrek berkantung cantik, merupakan spesies endemik.",
-          "contoh_benar": "Paphiopedilum violascens merupakan spesies anggrek endemik."
-        },
-        {
           "id": "BSE-002",
           "pola": "di mana",
           "saran_pengganti": [
@@ -1295,7 +1284,7 @@
         },
         {
           "id": "PT-003",
-          "pola": "gagasan ganda dalam satu kalimat",
+          "pola": "[telaah] gagasan ganda dalam satu kalimat",
           "saran_pengganti": [
             "pisah menjadi dua kalimat / sederhanakan struktur predikat"
           ],
@@ -1305,7 +1294,7 @@
         },
         {
           "id": "PT-004",
-          "pola": "kambing bermain hujan",
+          "pola": "[telaah] kelogisan semantik kalimat",
           "saran_pengganti": [
             "cek kelogisan kalimat"
           ],
@@ -1591,9 +1580,8 @@
           "id": "S12-008",
           "pola": "agar menjadikan",
           "saran_pengganti": [
-            "agar menjadi",
-            "demi menjadikan",
-            "untuk menjadikan"
+            "untuk menjadi",
+            "agar menjadi"
           ],
           "penjelasan": "Konjungsi 'agar' tidak boleh diikuti verba berimbuhan me- (menjadikan) yang mengubah predikat menjadi aktif memerlukan subjek. Kalimat resmi baku: 'agar menjadi' atau restrukturisasi klausa (Buku Siswa XII, hlm. 33, Latihan Aktivitas 1.11).",
           "contoh_salah": "Demikian surat ini kami sampaikan agar menjadikan perhatian Bapak/Ibu.",
