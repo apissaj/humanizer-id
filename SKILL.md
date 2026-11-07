@@ -263,6 +263,17 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### O. Singkatan Latin Catatan Kaki & Sifat Ragam Ilmiah (Rujukan Buku Bahasa Indonesia IAIN Curup, 2021)
+
+1. **Singkatan Latin wajib lengkap dengan titik dan dicetak miring:**
+   - *Salah:* *“op cit 45”*, *“loc cit”*, *“ibidem halaman 23”*.
+   - *Baku:* *“op. cit., hlm. 45”*; *“loc. cit., hlm. 12”*; *“ibid., hlm. 23”*.
+   - *Ibid.* = karya sama dengan catatan sebelumnya; *Op. cit.* = karya yang pernah dikutip (tidak berurutan); *Loc. cit.* = halaman sama yang sudah dikutip.
+2. **Tujuh sifat ragam ilmiah:** cendekia, lugas-jelas, anti-kalimat fragmentaris, bertolak dari gagasan (bukan penulis → didominasi kalimat pasif), formal-objektif, ringkas-padat, konsisten (istilah & tanda baca seragam sepanjang naskah).
+3. **Nama pengarang:** di footnote urutan normal (nama diri → nama keluarga); di daftar pustaka dibalik (nama keluarga dulu). Nomor halaman wajib di footnote, opsional di daftar pustaka.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

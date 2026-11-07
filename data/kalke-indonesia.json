@@ -78,6 +78,13 @@
         "penerbit": "Alauddin University Press, UIN Alauddin Makassar",
         "tahun": 2021,
         "bab_relevan": "Bab V Diksi (hlm. 105-122), Bab VII Kutipan (hlm. 153-187), Bab IX Penulisan Karya Tulis Ilmiah (hlm. 189-210)"
+      },
+      {
+        "judul": "Bahasa Indonesia Untuk Perguruan Tinggi",
+        "penulis": "Dr. H. Ifnaldi, M.Pd.",
+        "penerbit": "Penerbit Andhra Grafika, IAIN Curup",
+        "tahun": 2021,
+        "bab_relevan": "Bab III Tata Tulisan Kutipan & Sistem Rujukan (hlm. 12-30), Bab IV Bahasa Indonesia Ragam Ilmiah (hlm. 31-44), Bab VIII Bahasa Indonesia Baku (hlm. 104-110)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -503,6 +510,39 @@
           "penjelasan": "Fonem /c/ tidak luluh bila mendapat awalan meN-: mencintai, bukan menyintai (Buku Bahasa Indonesia UIN Alauddin, hlm. 110).",
           "contoh_salah": "Peneliti menyintai bidang pemelajaran mesin.",
           "contoh_benar": "Peneliti mencintai bidang pemelajaran mesin."
+        },
+        {
+          "id": "CRP-001",
+          "pola": "loc cit",
+          "saran_pengganti": [
+            "loc. cit.",
+            "Loc. cit."
+          ],
+          "penjelasan": "Penulisan singkatan Latin catatan kaki 'loc. cit.' (loco citato) wajib memakai dua tanda titik setelah 'loc' dan setelah 'cit' serta dicetak miring (Buku Bahasa Indonesia IAIN Curup, hlm. 27-28).",
+          "contoh_salah": "Lihat Ramlan, loc cit 122.",
+          "contoh_benar": "Lihat Ramlan, loc. cit., hlm. 122."
+        },
+        {
+          "id": "CRP-002",
+          "pola": "op cit",
+          "saran_pengganti": [
+            "op. cit.",
+            "Op. cit."
+          ],
+          "penjelasan": "Penulisan singkatan Latin catatan kaki 'op. cit.' (opere citato) wajib memakai dua tanda titik setelah 'op' dan setelah 'cit' serta dicetak miring (Buku Bahasa Indonesia IAIN Curup, hlm. 27-28).",
+          "contoh_salah": "Gleason, op cit 54.",
+          "contoh_benar": "Gleason, op. cit., hlm. 54."
+        },
+        {
+          "id": "CRP-003",
+          "pola": "ibidem",
+          "saran_pengganti": [
+            "ibid.",
+            "Ibid."
+          ],
+          "penjelasan": "Bentuk singkatan resmi catatan kaki untuk 'pada tempat yang sama' adalah 'ibid.' (berhuruf miring dengan tanda titik), bukan ditulis panjang 'ibidem' tanpa singkatan (Buku Bahasa Indonesia IAIN Curup, hlm. 27).",
+          "contoh_salah": "Lihat pembahasan lengkap pada ibidem halaman 30.",
+          "contoh_benar": "Lihat pembahasan lengkap pada ibid., hlm. 30."
         }
       ]
     },
