@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "bertingkat" in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "hiponimi-hipernim" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -118,6 +118,24 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                     elif "'yang' bertingkat" in pattern_str:
                         # Kalimat buntung yang bertingkat tanpa predikat utama
                         if re.search(r'^\s*[A-Z][^.!?]*\byang\b[^.!?]*\byang\b[^.!?]*\byang\b[^.!?]*\.$', clean_line):
+                            matched = True
+                    elif "nomor NIK" in pattern_str:
+                        if re.search(r'\b(nomor\s+NIK|nomor\s+PIN)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "kartu KIP" in pattern_str:
+                        if re.search(r'\b(kartu\s+KIP|kartu\s+KTP|ATM\s+card)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "virus HIV" in pattern_str:
+                        if re.search(r'\bvirus\s+HIV\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "partai PPP" in pattern_str:
+                        if re.search(r'\bpartai\s+(PPP|PDIP|PAN)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "pronomina persona taksa" in pattern_str:
+                        if re.search(r'\b[A-Z][a-z]+\s+dan\s+\w+\b[^.!?]{2,80}\b(ia|dia)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "hiponimi-hipernim" in pattern_str:
+                        if re.search(r'\bjangankan\b', clean_line, re.IGNORECASE):
                             matched = True
                     
                     if matched:

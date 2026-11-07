@@ -112,3 +112,15 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - HINDARI frasa mubazir: "mau tidak mau", "itu sendiri" pada penjelasan pasif ("mutu kertas itu sendiri" -> "mutu kertas").
 - Kalimat majemuk dengan konjungsi "dan/tetapi/atau" wajib paralel: pasif dengan pasif, aktif dengan aktif. Jangan campur klausa utama dengan klausa subordinatif setelah konjungsi koordinatif.
 - Satu paragraf satu gagasan utama dengan kalimat topik eksplisit; antarkalimat diikat peranti kohesi (konjungsi, referensi, substitusi, elipsis, sinonim). Gagasan menyimpang dipecah ke paragraf lain.
+
+## SINDROM AKRONIM REDUNDAN / RAS (Haslinda & Thaba 2018) & TBBBI (Moeliono dkk.)
+
+- DILARANG mengulang kepanjangan akronim/singkatan:
+  - "nomor NIK" -> "NIK"
+  - "kartu KIP / kartu KTP" -> "KIP / KTP"
+  - "nomor PIN" -> "PIN"
+  - "virus HIV" -> "HIV"
+  - "partai PPP / partai PDIP / partai PAN" -> "PPP / PDI Perjuangan / PAN"
+  - "ATM card" -> "kartu ATM"
+- Pronomina anaforis ("ia/dia/mereka") WAJIB memiliki anteseden tunggal yang jelas; jika ada dua subjek sebelum pronomina, sebutkan nama subjek secara eksplisit agar tidak taksa.
+- Hierarki hiponimi-hipernim (umum mencakup khusus) tidak boleh dibalik pada kalimat sanggahan/pengecualian.

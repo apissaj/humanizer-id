@@ -115,6 +115,18 @@
         "penulis": "Suladi",
         "penerbit": "Pusat Pembinaan Bahasa dan Sastra, Badan Pengembangan Bahasa dan Perbukuan, 2019",
         "bab_relevan": "Bab 1 (hlm. 13-45): 5 Syarat Paragraf yang Baik (Kesatuan, Kepaduan, Ketuntasan, Keruntutan, Konsistensi Sudut Pandang)"
+      },
+      {
+        "judul": "Tata Bahasa Baku Bahasa Indonesia (Edisi Pertama/Kedua)",
+        "penulis": "Anton M. Moeliono, Soenjono Dardjowidjojo, Hasan Alwi, dkk.",
+        "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan, 1988/1998 (498 hlm.)",
+        "bab_relevan": "Bab X (hlm. 306-333) Hubungan Antarklausa & Pelesapan Subjek; Bab XI (hlm. 334-360) Kohesi, Koherensi, & Anaforis Wacana"
+      },
+      {
+        "judul": "Redundant Acronym Syndrome (RAS) Syndrome dalam Pemakaian Bahasa Indonesia",
+        "penulis": "Haslinda & Aziz Thaba",
+        "penerbit": "Jurnal Penelitian Kebahasaan dan Kesastraan, Universitas Muhammadiyah Makassar / Repositori Kemendikdasmen (ID 10459)",
+        "bab_relevan": "Identifikasi sindrom pemborosan kata pada akronim/singkatan baku (nomor NIK, kartu KIP, nomor PIN, dsb.)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -788,6 +800,72 @@
           "penjelasan": "Penggunaan 'yang' bertingkat setelah keterangan keterangan awal menyebabkan seluruh rangkaian hanya menjadi frasa panjang tanpa predikat dan subjek utuh (Sasangka, 2019, hlm. 66).",
           "contoh_salah": "Berdasarkan penelitian yang dilakukan pada lembaga X yang berdiri pada tahun 2020 oleh Y yang berlokasi di Z.",
           "contoh_benar": "Berdasarkan penelitian, lembaga X didirikan oleh Y pada tahun 2020 di Z."
+        },
+        {
+          "id": "RAS-001",
+          "pola": "nomor NIK / nomor PIN",
+          "saran_pengganti": [
+            "NIK",
+            "PIN"
+          ],
+          "penjelasan": "Sindrom akronim redundan (RAS syndrome): kata 'nomor' sudah termuat di dalam NIK (Nomor Induk Kependudukan) dan PIN (Personal Identification Number) sehingga penyebutan ulang merupakan pleonasme mubazir (Haslinda & Thaba, 2018).",
+          "contoh_salah": "Silakan masukkan nomor NIK dan nomor PIN Anda.",
+          "contoh_benar": "Silakan masukkan NIK dan PIN Anda."
+        },
+        {
+          "id": "RAS-002",
+          "pola": "kartu KIP / kartu KTP / kartu ATM",
+          "saran_pengganti": [
+            "KIP",
+            "KTP",
+            "kartu debit / kartu ATM"
+          ],
+          "penjelasan": "Kata 'kartu' sudah ada di dalam KIP (Kartu Indonesia Pintar) dan KTP (Kartu Tanda Penduduk). Bentuk 'kartu KIP' berarti 'kartu kartu Indonesia pintar' (Haslinda & Thaba, 2018).",
+          "contoh_salah": "Penerima bantuan wajib membawa kartu KIP dan kartu KTP.",
+          "contoh_benar": "Penerima bantuan wajib membawa KIP dan KTP."
+        },
+        {
+          "id": "RAS-003",
+          "pola": "virus HIV",
+          "saran_pengganti": [
+            "HIV",
+            "virus imunodefisiensi manusia"
+          ],
+          "penjelasan": "Huruf V dalam HIV adalah 'Virus' (Human Immunodeficiency Virus). Penyebutan 'virus HIV' merupakan sindrom RAS ganda (Haslinda & Thaba, 2018).",
+          "contoh_salah": "Pasien terdiagnosis terinfeksi virus HIV stadium lanjut.",
+          "contoh_benar": "Pasien terdiagnosis terinfeksi HIV stadium lanjut."
+        },
+        {
+          "id": "RAS-004",
+          "pola": "partai PPP / partai PDIP / partai PAN",
+          "saran_pengganti": [
+            "PPP",
+            "PDI Perjuangan",
+            "PAN"
+          ],
+          "penjelasan": "Penyebutan kata 'partai' di muka akronim partai yang sudah berhuruf 'P' (Partai) merupakan bentuk lewah sindrom RAS (Haslinda & Thaba, 2018).",
+          "contoh_salah": "Kader partai PPP dan partai PAN menghadiri sidang.",
+          "contoh_benar": "Kader PPP dan PAN menghadiri sidang."
+        },
+        {
+          "id": "TBBX-001",
+          "pola": "pronomina persona taksa tanpa anteseden tunggal",
+          "saran_pengganti": [
+            "sebutkan nama spesifik atau subjek eksplisit"
+          ],
+          "penjelasan": "Pronomina 'ia/dia/mereka' wajib memiliki anteseden anaforis tunggal yang jelas; jika terdapat dua subjek sebelum pronomina, gunakan penyebutan ulang nama subjek agar tidak taksa (Moeliono dkk., TBBBI, hlm. 366).",
+          "contoh_salah": "Ratna dan kawannya pergi karena ia harus mendaftar.",
+          "contoh_benar": "Ratna dan kawannya pergi karena Ratna harus mendaftar."
+        },
+        {
+          "id": "TBBX-002",
+          "pola": "cacat urutan hiponimi-hipernim dalam pembatasan",
+          "saran_pengganti": [
+            "urutkan dari umum ke khusus atau sebaliknya secara konsisten"
+          ],
+          "penjelasan": "Kata umum mencakup kata khusus, bukan sebaliknya. Pembalikan relasi hiponimi-hipernim pada klausa penyangkalan/pengecualian merusak koherensi semantik wacana (Moeliono dkk., TBBBI, hlm. 371).",
+          "contoh_salah": "Jangankan membeli kursi, satu mebel pun kami tidak punya.",
+          "contoh_benar": "Jangankan membeli aneka mebel, satu kursi pun kami tidak punya."
         }
       ]
     },

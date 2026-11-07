@@ -345,6 +345,29 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### U. Sindrom Akronim Redundan (RAS) & Keserasian Kohesi Wacana (Rujukan TBBBI Moeliono dkk. 1988/1998 & Haslinda-Thaba 2018)
+
+1. **Larangan Sindrom RAS — Akronim Redundan:**
+   - Unsur kepanjangan dalam akronim TIDAK boleh disebut ulang:
+     - *nomor NIK* → *NIK* (N = Nomor)
+     - *kartu KIP / kartu KTP* → *KIP / KTP* (K = Kartu)
+     - *nomor PIN* → *PIN* (N = Number)
+     - *virus HIV* → *HIV* (V = Virus)
+     - *partai PPP / PDIP / PAN* → *PPP / PDI Perjuangan / PAN* (P = Partai)
+     - *ATM card* → *kartu ATM* (M = Machine; 'card' redundan)
+2. **Pronomina Anaforis Tunggal:**
+   - Pronomina (*ia, dia, mereka, -nya*) wajib punya anteseden tunggal.
+   - *Salah:* *"Ratna dan kawannya pergi karena ia harus mendaftar."* (taksa: siapa yang mendaftar?)
+   - *Baku:* *"Ratna dan kawannya pergi karena Ratna harus mendaftar."*
+3. **Urutan Hiponimi–Hipernim:**
+   - Kata umum mencakup kata khusus, tidak boleh dibalik.
+   - *Salah:* *"Jangankan membeli kursi, satu mebel pun kami tidak punya."*
+   - *Baku:* *"Jangankan membeli aneka mebel, satu kursi pun kami tidak punya."*
+4. **Pelesapan Subjek yang Sah:**
+   - Subjek identik antarklausa dalam kalimat majemuk sebaiknya dilesapkan (elipsis); pengulangan subjek di setiap klausa melanggar asas ekonomi wacana (TBBBI, hlm. 330–333).
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
