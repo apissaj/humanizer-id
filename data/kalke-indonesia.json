@@ -145,6 +145,12 @@
         "penulis": "Tim Kemendikbudristek (Kurikulum Merdeka)",
         "penerbit": "Pusat Kurikulum dan Pembelajaran, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek 2022 (320 hlm.)",
         "bab_relevan": "Bab I (hlm. 18-26): kalimat definisi adalah vs merupakan; imbuhan di- vs kata depan di; kutipan tidak langsung CMS 17; daftar periksa LHO"
+      },
+      {
+        "judul": "Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/SMK Kelas XI (Kurikulum Merdeka)",
+        "penulis": "Tim Kemendikbudristek",
+        "penerbit": "Pusat Kurikulum dan Pembelajaran, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek 2021 (240 hlm.)",
+        "bab_relevan": "Bab 6 (hlm. 199-202): ragam bahasa baku, denotasi vs konotasi, koreksi kata penghubung residu Melayu (dimana), struktur karya ilmiah"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -961,6 +967,30 @@
           "penjelasan": "Kutipan tidak langsung wajib mencantumkan nama belakang pengarang, tahun penerbitan, dan nomor halaman; untuk sumber daring wajib mencantumkan tanggal akses (Buku Siswa Kelas X Edisi Revisi 2022, Bab I, hlm. 21-22).",
           "contoh_salah": "Menurut ahli, kunang-kunang hidup di daerah lembap.",
           "contoh_benar": "Kunang-kunang sering ditemukan di daerah lembap dan hangat (Essig, 1958: 78)."
+        },
+        {
+          "id": "CX11-001",
+          "pola": "kata penghubung 'dimana/diketika/disewaktu' sebagai penghubung kalimat majemuk",
+          "saran_pengganti": [
+            "tempat",
+            "yang",
+            "(struktur ulang tanpa 'dimana')"
+          ],
+          "penjelasan": "Kata penghubung 'dimana' adalah residu Melayu tidak baku dalam ragam ilmiah; dalam ragam baku 'dimana' hanya sah sebagai kata tanya. Kalimat penjelas wajib distruktur ulang dengan 'yang' atau 'tempat' (Buku Siswa Kelas XI Kurikulum Merdeka 2021, Bab 6, hlm. 200).",
+          "contoh_salah": "Perjumpaan dengan sarang orang utan cukup menarik dimana orang utan terlihat memanfaatkan jenis pohon yang sama.",
+          "contoh_benar": "Perjumpaan dengan sarang orang utan cukup menarik karena orang utan terlihat memanfaatkan jenis pohon yang sama."
+        },
+        {
+          "id": "CX11-002",
+          "pola": "konjungsi konsesif 'kendati demikian' berpasangan dengan struktur pasif yang tak seimbang",
+          "saran_pengganti": [
+            "namun demikian",
+            "meskipun demikian",
+            "(cukup 'namun')"
+          ],
+          "penjelasan": "Konjungsi konsesif-adjektival 'kendati demikian' memerlukan paralelisme klausa; dalam ragam ilmiah baku, penanda konsesif sederhana ('namun', 'meski demikian') lebih disukai agar hubungan antarklausa eksplisit (Buku Siswa Kelas XI Kurikulum Merdeka 2021, Bab 6, hlm. 200).",
+          "contoh_salah": "Kendati demikian, terumbu karang di Indonesia saat ini mengalami banyak tekanan.",
+          "contoh_benar": "Namun, terumbu karang di Indonesia saat ini mengalami banyak tekanan."
         }
       ]
     },

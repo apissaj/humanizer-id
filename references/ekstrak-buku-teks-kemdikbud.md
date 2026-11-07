@@ -269,3 +269,22 @@ Kaidah kunci yang paling sering dilanggar model bahasa:
 - Judul diawali huruf kapital kecuali kata depan; judul tanpa tanda baca akhir.
 - Struktur wajib: definisi umum → deskripsi per bagian → deskripsi manfaat.
 - Objektivitas: hanya informasi hasil pengamatan indrawi (lihat, dengar, cium, sentuh, rasa).
+---
+
+## 8. Ekstrak Buku Siswa Kelas XI Kurikulum Merdeka (Kemendikbudristek 2021)
+
+- **Judul:** *Cerdas Cergas Berbahasa dan Bersastra Indonesia untuk SMA/SMK Kelas XI*
+- **Penerbit:** Pusat Kurikulum dan Pembelajaran, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek, 2021 (240 hlm.)
+- **Bagian Relevan:** Bab 6 — Berperan dalam Konservasi Alam Indonesia lewat Karya Ilmiah (hlm. 199–203)
+
+### A. Ragam Bahasa Ilmiah & Evaluasi Objektivitas (hlm. 199–201)
+1. **Pemberantasan Residu Kata Penghubung `dimana` (hlm. 200):**
+   - Buku menyorot kalimat salah: *"Perjumpaan dengan sarang orang utan cukup menarik dimana orang utan terlihat..."*
+   - Kata `dimana` bukan kata hubung subordinatif dalam ragam ilmiah baku; `dimana` hanya kata tanya tempat.
+   - Perbaikan: ganti dengan konjungsi semantik yang tepat (*karena, tempat, sehingga*) atau restrukturisasi klausa.
+2. **Karakteristik Karya Ilmiah Menurut Chaer (2011) & Laba-Rinayanthi (2018):**
+   - **Objektif:** Pernyataan didukung data empiris/lapangan terukur, bukan perasaan penulis.
+   - **Reproduktif:** Informasi yang disampaikan penulis dipahami sama persis oleh pembaca tanpa interpretasi ganda.
+   - **Denotatif Murni:** Bebas dari makna konotatif yang mengandung penambahan rasa/emosi pembaca (*buah yang manis* = denotatif; *duduk dengan manis* = konotatif).
+3. **Format Rujukan:**
+   - Standar penulisan daftar pustaka: susunan nama pengarang pertama dibalik; tahun terbit; judul pustaka (miring); kota terbit: nama penerbit.

@@ -427,6 +427,22 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### Y. Pemberantasan Residu Kata Penghubung Melayu 'dimana' & Ragam Objektif-Reproduktif (Rujukan Buku Siswa Kelas XI Kurikulum Merdeka Kemendikbudristek 2021)
+
+1. **Larangan `dimana` sebagai Kata Penghubung:**
+   - Dalam ragam ilmiah baku, `dimana` HANYA kata tanya tempat, bukan penghubung antarklausa.
+   - *Salah:* *"Perjumpaan itu menarik dimana orang utan terlihat memanfaatkan jenis pohon yang sama."*
+   - *Baku:* *"Perjumpaan itu menarik karena orang utan terlihat memanfaatkan jenis pohon yang sama."* / *"...menarik; orang utan terlihat memanfaatkan jenis pohon yang sama."*
+   - Berlaku juga untuk `diketika`, `disewaktu`, `dibagaimana`.
+2. **Sifat Objektif Karya Ilmiah:**
+   - Pernyataan wajib didukung data empiris terukur, bukan opini atau perasaan penulis.
+3. **Sifat Reproduktif Karya Ilmiah:**
+   - Satu informasi harus dipahami identik oleh semua pembaca tanpa ruang interpretasi ganda.
+4. **Denotasi vs Konotasi:**
+   - Ragam ilmiah murni denotatif. Kata dengan tambahan rasa/emosi (konotatif: *duduk dengan manis*, *kuda hitam pertandingan*) dilarang.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

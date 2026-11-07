@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "hiponimi-hipernim" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "sehingga" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "hiponimi-hipernim" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -158,6 +158,10 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                     elif "imbuhan di- ditulis terpisah" in pattern_str:
                         # Salah tulis imbuhan pasif di-: 'di analisis', 'di teliti', 'di observasi', 'di kembangkan'
                         if re.search(r'\bdi\s+(analisis|teliti|observasi|kembangkan|temukan|gunakan|lakukan|tulis|baca|uji)\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "dimana/diketika/disewaktu" in pattern_str:
+                        # Penggunaan 'dimana' sebagai kata hubung tengah kalimat
+                        if re.search(r'\b\w+\s+(dimana|di mana|diketika|disewaktu)\s+\w+\b', clean_line, re.IGNORECASE) and not clean_line.strip().endswith("?"):
                             matched = True
                     
                     if matched:

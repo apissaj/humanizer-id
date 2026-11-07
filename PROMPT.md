@@ -152,3 +152,11 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - Kata kerja pasif WAJIB serangkai: "dianalisis", "diobservasi", "diteliti" (bukan "di analisis", "di observasi").
 - Preposisi tempat/waktu WAJIB terpisah: "di laboratorium", "di tahun 2024" (bukan "dilaboratorium", "ditahun 2024").
 - Kutipan tidak langsung gunakan format CMS 17: (Pengarang, tahun: halaman) atau "Pengarang (tahun: halaman) menyatakan bahwa...".
+
+## RESIDU KATA PENGHUBUNG MELAYU (Buku Siswa Kelas XI Kurikulum Merdeka 2021)
+
+- DILARANG memakai "dimana" sebagai kata penghubung antarklausa dalam ragam ilmiah. "dimana" hanya kata tanya.
+  - Salah: "Penelitian ini menarik dimana hasilnya menunjukkan tren positif."
+  - Baku: "Penelitian ini menarik karena hasilnya menunjukkan tren positif." / "Penelitian menunjukkan tren positif."
+- Larangan sama berlaku untuk "diketika", "disewaktu", "dibagaimana".
+- Pernyataan ilmiah wajib objektif (berbasis data) dan reproduktif (dipahami identik oleh semua pembaca tanpa multitafsir).
