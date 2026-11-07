@@ -311,6 +311,19 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 ---
 
+### S. Kata Ganti Impersonal & Verba Mental Ilmiah (Rujukan Modul Direktorat SMA Kemendikbud 2020, KD 3.14/3.15)
+
+1. **Larangan Persona Non-Impersonal:**
+   - Kata ganti persona pertama (*saya, kami*) dan kedua (*kamu, engkau*) dilarang keras dalam teks ilmiah.
+   - Ganti dengan bentuk impersonal: *penulis, peneliti,* atau lebih disukai kalimat pasif ilmiah (*"Data dianalisis menggunakan..."*).
+2. **Verba Mental Pasif Ilmiah:**
+   - Gunakan pola: *diduga, dianalisis, dipahami, teridentifikasi, disimpulkan, diinterpretasikan*.
+   - *Salah:* *"Kami berasumsi faktor X berpengaruh."* → *Baku:* *"Diduga faktor X berpengaruh."*
+3. **Konsistensi Denotatif:**
+   - Satu istilah satu makna sepanjang naskah (keajegan istilah). Jangan berganti-ganti padanan untuk istilah teknis yang sama.
+
+---
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

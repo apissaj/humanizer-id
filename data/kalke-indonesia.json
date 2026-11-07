@@ -97,6 +97,12 @@
         "penulis": "K. Waskitaningtyas, Heny Marwati, dkk.",
         "penerbit": "Kemendikbudristek, 2024",
         "bab_relevan": "Bab I Surat Resmi (hlm. 19-33); Bab IV Teks Eksplanasi Kompleks — Konjungsi Intrakalimat & Antarkalimat (hlm. 167-172)"
+      },
+      {
+        "judul": "Modul Pembelajaran Bahasa Indonesia Kelas XI: Merancang Karya Ilmiah Sesuai Unsur dan Isi Karya Ilmiah (KD 3.14 & 3.15)",
+        "penulis": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN",
+        "penerbit": "Kemendikbudristek, 2020",
+        "bab_relevan": "Kegiatan Pembelajaran 3 (hlm. 17-19): 9 kaidah kebahasaan karya ilmiah (impersonal, denotatif, kata baku, istilah, verba mental)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -701,6 +707,31 @@
           "penjelasan": "Pola pengembangan paragraf harus konsisten: deduksi (kalimat utama di awal) atau induksi (kalimat utama di akhir). Campuran kedua pola dalam satu paragraf membuat alur tidak runtut (Buku Kelas XI Kemendikbudristek 2024, hlm. 10-12).",
           "contoh_salah": "NLP adalah bidang penting. Data teks diproses. Kesimpulannya NLP mendukung otomatisasi. Tokenisasi dilakukan dulu.",
           "contoh_benar": "Pola deduksi: 'NLP adalah bidang penting. Tokenisasi dilakukan dulu. Data teks kemudian diproses. Kesimpulannya NLP mendukung otomatisasi.'"
+        },
+        {
+          "id": "MKI-001",
+          "pola": "saya/kamu/aku dalam karya ilmiah",
+          "saran_pengganti": [
+            "penulis",
+            "peneliti",
+            "(impersonal/passive)"
+          ],
+          "penjelasan": "Objektivitas karya ilmiah ditandai pilihan kata impersonal; kata ganti orang pertama/kedua (saya, aku, kamu) dilarang. Gunakan 'penulis', 'peneliti', atau kalimat pasif (Modul Kemendikbud Direktorat SMA 2020, KD 3.14/3.15, hlm. 17).",
+          "contoh_salah": "Saya menguji model dengan dataset baru.",
+          "contoh_benar": "Model diuji menggunakan dataset baru."
+        },
+        {
+          "id": "MKI-002",
+          "pola": "kata kerja mental aktif pengganti pasif ilmiah",
+          "saran_pengganti": [
+            "diduga",
+            "dianalisis",
+            "dipahami",
+            "teridentifikasi"
+          ],
+          "penjelasan": "Karya ilmiah banyak menggunakan kata kerja mental dalam bentuk pasif: diduga, dianalisis, dipahami (Modul Kemendikbud Direktorat SMA 2020, KD 3.14/3.15, hlm. 18).",
+          "contoh_salah": "Kami berasumsi bahwa faktor X memengaruhi hasil.",
+          "contoh_benar": "Diduga faktor X memengaruhi hasil."
         }
       ]
     },

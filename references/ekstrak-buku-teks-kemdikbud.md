@@ -178,3 +178,21 @@ Ditulis di awal kalimat baru dan diikuti tanda koma: *Adapun, Akan tetapi, Biarp
    - **Induksi:** kalimat-kalimat penjelas di awal, kalimat utama di akhir (khusus → umum).
    - Pola harus konsisten; campuran kedua pola dalam satu paragraf membuat alur gagasan tidak runtut.
 3. **Struktur teks argumentasi:** Ide pokok (kalimat topik) → ide-ide pendukung (kalimat penjelas) → simpulan/tuduhan penutup.
+---
+
+## 4. Ekstrak Modul Pembelajaran SMA Bahasa Indonesia Kelas XI (Direktorat SMA Kemendikbud, 2020)
+
+- **Judul:** *Merancang Karya Ilmiah Sesuai dengan Unsur-Unsur dan Isi Karya Ilmiah (KD 3.14 & 3.15)*
+- **Penerbit:** Direktorat SMA, Ditjen PAUD, DIKDAS, dan DIKMEN, Kemendikbud RI, 2020
+- **Bagian Relevan:** Kegiatan Pembelajaran 3: Kebahasaan Karya Ilmiah (hlm. 17–19)
+
+### A. Sembilan Ciri Kebahasaan Karya Ilmiah Baku (hlm. 17–18):
+1. **Pilihan Kata Impersonal:** Dilarang menggunakan kata ganti persona pertama atau kedua (*aku, saya, kamu, dia*). Jika subjek perlu disebut, gunakan bentuk impersonal umum (*penulis, peneliti*) atau utamakan kalimat pasif.
+2. **Kelugasan:** Pembahasan langsung pada inti masalah tanpa basa-basi verbal atau ornamen retoris.
+3. **Pemberantasan Makna Ganda:** Menghindari kata dan konstruksi kalimat ambigu yang multitafsir.
+4. **Keajegan & Kepastian Makna:** Penggunaan istilah yang konsisten dari awal hingga akhir naskah.
+5. **Denotatif Murni:** Makna kata tidak mengalami pergeseran emosional atau penambahan asosiatif.
+6. **Eksplisitas:** Hubungan antarunsur kalimat diungkapkan secara jelas dan tegas.
+7. **Penggunaan Kata Baku:** Kepatuhan mutlak terhadap ejaan dan kaidah KBBI/EYD.
+8. **Penggunaan Istilah Bidang Ilmu:** Ketepatan istilah teknis sesuai disiplin kajian.
+9. **Kata Kerja Mental Pasif:** Pemanfaatan verba mental ilmiah (*diduga, dianalisis, dipahami, teridentifikasi*).
