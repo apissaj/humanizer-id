@@ -163,6 +163,30 @@
         "penulis": "Tim Pusat Pembinaan dan Pengembangan Bahasa",
         "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional (93 hlm., Repositori ID 15986)",
         "bab_relevan": "Bab II Bagian 2.4.3 & 2.4.4 (hlm. 39-45): larangan preposisi 'tentang/mengenai' setelah verba transitif (membahas tentang); kalimat tanpa subjek akibat preposisi awal (dalam bab ini akan membahas)"
+      },
+      {
+        "judul": "Surat-Menyurat dalam Bahasa Indonesia",
+        "penulis": "Tim Pusat Pembinaan dan Pengembangan Bahasa",
+        "penerbit": "Pusat Bahasa, Departemen Pendidikan dan Kebudayaan (Repositori ID 3675, 55 hlm.)",
+        "bab_relevan": "Paragraf penutup surat (hlm. 25-26): larangan persona -nya pada ucapan terima kasih; frasa pembuka gramatikal"
+      },
+      {
+        "judul": "Pedoman Surat-Menyurat (1985)",
+        "penulis": "Tim Pusat Pembinaan dan Pengembangan Bahasa",
+        "penerbit": "Pusat Bahasa, Depdikbud (Repositori ID 1670, 132 hlm.)",
+        "bab_relevan": "Penulisan alamat tujuan (tanpa kata 'Kepada', tanpa singkatan 'Bpk' bila ada jabatan, jalan tidak disingkat)"
+      },
+      {
+        "judul": "Pedoman Umum Ejaan Bahasa Indonesia (PUEBI)",
+        "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Kemendikbud (Permendikbud No. 50 Tahun 2015, Repositori ID 270, 92 hlm.)",
+        "bab_relevan": "Partikel pun terpisah vs 12 kata serangkai (hlm. 30-32); angka bilangan awal kalimat dengan huruf (hlm. 33-36)"
+      },
+      {
+        "judul": "Pedoman Umum Ejaan Bahasa Indonesia yang Disempurnakan (EYD)",
+        "penulis": "Pusat Bahasa",
+        "penerbit": "Depdikbud (Repositori ID 8352, 69 hlm.)",
+        "bab_relevan": "Tanda baca: titik dua dilarang sebelum pelengkap objek; tanda pisah em-dash"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -1092,6 +1116,50 @@
           "penjelasan": "Frasa preposisional di awal kalimat ('Dalam bab ini...') berfungsi sebagai keterangan; penggunaan verba aktif transitif ('akan membahas') setelahnya menyebabkan kalimat kehilangan subjek gramatikal (Bahasa Indonesia untuk Aparatur Pemerintah, Pusat Bahasa, hlm. 44-45).",
           "contoh_salah": "Dalam penelitian ini akan membahas efisiensi arsitektur Transformer.",
           "contoh_benar": "Dalam penelitian ini akan dibahas efisiensi arsitektur Transformer."
+        },
+        {
+          "id": "SRT-001",
+          "pola": "atas perhatiannya kami ucapkan terima kasih",
+          "saran_pengganti": [
+            "Atas perhatian Saudara, kami mengucapkan terima kasih.",
+            "Atas perhatian Bapak/Ibu, kami ucapkan terima kasih."
+          ],
+          "penjelasan": "Pronomina persona '-nya' mengacu pada orang ketiga, padahal surat ditujukan kepada pembaca/penerima (orang kedua); gunakan 'Saudara' atau 'Bapak/Ibu' (Surat-Menyurat dalam Bahasa Indonesia, Pusat Bahasa, hlm. 25-26).",
+          "contoh_salah": "Atas perhatiannya kami ucapkan banyak terima kasih.",
+          "contoh_benar": "Atas perhatian Saudara, kami mengucapkan terima kasih."
+        },
+        {
+          "id": "SRT-002",
+          "pola": "Kepada Yth. Bapak [Jabatan]",
+          "saran_pengganti": [
+            "Yth. Direktur [Instansi]",
+            "Yth. Bapak [Nama Pribadi]"
+          ],
+          "penjelasan": "Penulisan alamat surat tidak diawali kata 'Kepada' (karena redundan dengan Yth.), dan kata 'Bapak' ditiadakan jika langsung diikuti nama jabatan (Pedoman Surat-Menyurat, Pusat Bahasa 1985).",
+          "contoh_salah": "Kepada Yth. Bapak Direktur Utama PT Telkom Indonesia",
+          "contoh_benar": "Yth. Direktur Utama PT Telkom Indonesia"
+        },
+        {
+          "id": "TB-001",
+          "pola": "titik dua sebelum pelengkap objek langsung",
+          "saran_pengganti": [
+            "hilangkan tanda titik dua"
+          ],
+          "penjelasan": "Tanda titik dua TIDAK dipakai jika rangkaian rincian merupakan pelengkap yang langsung mengakhiri pernyataan predikatif (EYD Pusat Bahasa; PUEBI hlm. 40).",
+          "contoh_salah": "Laboratorium memerlukan: mikroskop, tabung reaksi, dan sentrifuga.",
+          "contoh_benar": "Laboratorium memerlukan mikroskop, tabung reaksi, dan sentrifuga."
+        },
+        {
+          "id": "PUN-001",
+          "pola": "partikel pun ditulis serangkai keliru (apapun, siapapun, satupun)",
+          "saran_pengganti": [
+            "apa pun",
+            "siapa pun",
+            "satu pun"
+          ],
+          "penjelasan": "Partikel 'pun' yang bermakna 'juga' atau mengiringi kata tanya/bilangan WAJIB ditulis terpisah; penulisan serangkai hanya berlaku untuk 12 konjungsi yang sudah padu: adapun, andaipun, ataupun, bagaimanapun, biarpun, kalaupun, kendatipun, maupun, meskipun, sekalipun (meski), sungguhpun, walaupun (PUEBI 2016, hlm. 30-31).",
+          "contoh_salah": "Apapun hasilnya, tidak satupun responden yang menolak.",
+          "contoh_benar": "Apa pun hasilnya, tidak satu pun responden yang menolak."
         }
       ]
     },
@@ -1570,7 +1638,7 @@
           ],
           "penjelasan": "Bentuk tidak baku dari 'terima kasih' (teka-teki silang Buku Siswa XII, hlm. 33).",
           "contoh_salah": "Makasih atas perhatiannya.",
-          "contoh_benar": "Terima kasih atas perhatiannya."
+          "contoh_benar": "Terima kasih atas perhatian Saudara."
         },
         {
           "id": "S12-005",

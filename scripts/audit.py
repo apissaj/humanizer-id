@@ -77,7 +77,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
             for entry in cat_data.get("entri", []):
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "hanya ... saja" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "'yang' bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "Karena itu," in pattern_str or "Selain itu (tanpa koma)" in pattern_str or "namun intrakalimat tanpa koma" in pattern_str or ", sehingga" in pattern_str or ", karena" in pattern_str or "sangat ... sekali" in pattern_str or "hanya ... saja" in pattern_str or "bukan hanya" in pattern_str or "bales / dibales" in pattern_str or "kata ganti persona" in pattern_str or "kata kerja mental aktif" in pattern_str or "konjungsi koordinatif 'dan' tidak sejajar" in pattern_str or "unsur terikat ditulis terpisah" in pattern_str or "Di era digital" in pattern_str or "sitasi tidak lengkap" in pattern_str or "kendati demikian" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str or "tanggungjawab" in pattern_str or "dari pada" in pattern_str or "angka 2 sebagai penanda" in pattern_str or "membahas tentang" in pattern_str or "kalimat tanpa subjek berawalan preposisi" in pattern_str:
+                if "..." in pattern_str or " X, " in pattern_str or " A " in pattern_str or "sedangkan" in pattern_str or "para tamu-tamu" in pattern_str or "karena ... maka" in pattern_str or "meskipun ... tetapi" in pattern_str or "ganda jamak" in pattern_str or "hanya ... saja" in pattern_str or "itu sendiri" in pattern_str or "mau tidak mau" in pattern_str or "konjungsi koordinatif" in pattern_str or "'yang' bertingkat" in pattern_str or "nomor NIK" in pattern_str or "kartu KIP" in pattern_str or "virus HIV" in pattern_str or "partai PPP" in pattern_str or "pronomina persona taksa" in pattern_str or "Karena itu," in pattern_str or "Selain itu (tanpa koma)" in pattern_str or "namun intrakalimat tanpa koma" in pattern_str or ", sehingga" in pattern_str or ", karena" in pattern_str or "sangat ... sekali" in pattern_str or "hanya ... saja" in pattern_str or "bukan hanya" in pattern_str or "bales / dibales" in pattern_str or "kata ganti persona" in pattern_str or "kata kerja mental aktif" in pattern_str or "konjungsi koordinatif 'dan' tidak sejajar" in pattern_str or "unsur terikat ditulis terpisah" in pattern_str or "Di era digital" in pattern_str or "sitasi tidak lengkap" in pattern_str or "kendati demikian" in pattern_str or "akibat-sebab terbalik" in pattern_str or "nama diri geografi yang menjadi nama jenis" in pattern_str or "bentuk dasar turunan nama bangsa" in pattern_str or "jabatan/pangkat tanpa nama orang" in pattern_str or "imbuhan di- ditulis terpisah" in pattern_str or "dimana/diketika/disewaktu" in pattern_str or "tanggungjawab" in pattern_str or "dari pada" in pattern_str or "angka 2 sebagai penanda" in pattern_str or "membahas tentang" in pattern_str or "kalimat tanpa subjek berawalan preposisi" in pattern_str or "atas perhatiannya" in pattern_str or "Kepada Yth." in pattern_str or "titik dua sebelum pelengkap" in pattern_str or "partikel pun ditulis serangkai" in pattern_str:
                     matched = False
                     if "bukan berarti" in pattern_str and "bukan berarti" in clean_line.lower():
                         matched = True
@@ -158,6 +158,22 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
                         if re.search(r'\bdi\s+(analisis|teliti|observasi|kembangkan|temukan|gunakan|lakukan|tulis|baca|uji)\b', clean_line, re.IGNORECASE):
                             matched = True
                     # --- Matcher presisi KJK (Alwi dkk. 2017) ---
+                    elif "atas perhatiannya" in pattern_str:
+                        # Frasa penutup surat salah sasaran persona
+                        if re.search(r'\bAtas perhatiannya\b|\bkerja samanya\b', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "Kepada Yth." in pattern_str:
+                        # Alamat surat berawalan 'Kepada Yth.'
+                        if re.search(r'\bKepada\s+Yth\.\s+Bapak\s+[A-Z]', clean_line):
+                            matched = True
+                    elif "titik dua sebelum pelengkap" in pattern_str:
+                        # Verba transitif/predikat diikuti langsung tanda titik dua
+                        if re.search(r'\b(memerlukan|membutuhkan|membeli|menyediakan|membawa|menggunakan|meliputi):\s+\w+', clean_line, re.IGNORECASE):
+                            matched = True
+                    elif "partikel pun ditulis serangkai" in pattern_str:
+                        # Serangkai keliru: apapun, siapapun, satupun, berapapun (di luar 12 konjungsi padu)
+                        if re.search(r'\b(apapun|siapapun|satupun|berapapun|dimanapun|kapanpun|bagaimanapun(?:\s)?[^,])\b', clean_line, re.IGNORECASE):
+                            matched = True
                     elif "membahas tentang" in pattern_str:
                         # Verba transitif + preposisi mubazir: membahas tentang, membicarakan mengenai, mempelajari tentang
                         if re.search(r'\b(membahas|membicarakan|mempelajari|meneliti|mengkaji|menguraikan)\s+(tentang|mengenai)\b', clean_line, re.IGNORECASE):
