@@ -694,6 +694,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Rujuk Balik (DIL-007):* Padanan resmi *back-reference* ialah *rujuk balik* atau *anafora*; bentuk harfiah *referensi belakang* tidak baku.
 4. **Struktur Batin (DIL-008):* Padanan resmi *deep structure* ialah *struktur batin* (dan *surface structure* ialah *struktur lahir*); telaah kontekstual pada naskah linguistik [telaah].
 
+### BB. Bahasa Surat-Menyurat Resmi (Rujukan "Surat-Menyurat dalam Bahasa Indonesia", Pusat Bahasa Depdikbud, Bagian D hlm. 28-38)
+
+1. **Eliminasi 'Yang Mana' (SUR-001):* Bentuk *yang mana* dalam kalimat surat tidak diperlukan; hilangkan *yang mana* atau ganti dengan *yang*.
+2. **Kalk 'Di Mana' Non-Penanya (SUR-002):* *Di mana* bukan kata sambung klausa; ganti *tempat* atau hilangkan.
+3. **Penghilangan Kata 'Bunyi' Surat (SUR-003):* Surat tidak dapat berbunyi; *sesuai dengan bunyi surat...* diganti langsung *sesuai dengan surat...*.
+4. **Distingsi 'Sangsi' vs 'Sanksi' (SUR-004):* *Sangsi* bermakna 'ragu-ragu'; *sanksi* bermakna 'tindakan penegakan hukum/hukuman' (*sanksi administratif*, bukan *sangsi*).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

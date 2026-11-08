@@ -1546,6 +1546,30 @@
           "penjelasan": "Merujuk Kridalaksana (hlm. 20), padanan resmi back-reference ialah rujuk balik atau anafora; bentuk referensi belakang merupakan penyerapan harfiah yang tidak baku.",
           "contoh_salah": "Pronomina itu menunjukkan referensi belakang ke subjek kalimat sebelumnya.",
           "contoh_benar": "Pronomina itu menunjukkan rujuk balik ke subjek kalimat sebelumnya."
+        },
+        {
+          "id": "SUR-001",
+          "pola": "..., yang mana ... (penghubung klausa mubazir)",
+          "saran_pengganti": [
+            "[hapus 'yang mana']",
+            "ganti dengan 'yang'",
+            "restrukturisasi kalimat"
+          ],
+          "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 37), 'yang mana' merupakan penghubung kelas kata taksa yang mubazir; tanpa 'yang mana' kalimat sudah baik dan tidak kehilangan makna.",
+          "contoh_salah": "Rapat koordinasi akan diadakan pada Senin depan, yang mana undangan sudah disebarkan kemarin.",
+          "contoh_benar": "Rapat koordinasi akan diadakan pada Senin depan; undangan sudah disebarkan kemarin."
+        },
+        {
+          "id": "SUR-002",
+          "pola": "..., di mana ... (di tengah kalimat, bukan kata tanya lokasi)",
+          "saran_pengganti": [
+            "yang",
+            "tempat",
+            "[hapus 'di mana']"
+          ],
+          "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 37), 'di mana' sebagai penghubung klausa bersifat mana suka dan tidak baku; gunakan 'yang', 'tempat', atau hilangkan.",
+          "contoh_salah": "Sistem operasi menyediakan memori terpusat, di mana setiap thread dapat dieksekusi.",
+          "contoh_benar": "Sistem operasi menyediakan memori terpusat tempat setiap thread dapat dieksekusi."
         }
       ]
     },
@@ -2361,6 +2385,16 @@
           "penjelasan": "Merujuk Bahasa Indonesia untuk Pejabat Pemerintah (hlm. 75), pronomina ketiga '-nya' tidak tepat dalam komunikasi resmi orang kedua; ganti dengan acuan langsung 'Saudara/Bapak/Ibu'.",
           "contoh_salah": "Atas perhatiannya, diucapkan terima kasih.",
           "contoh_benar": "Atas perhatian Saudara, kami ucapkan terima kasih."
+        },
+        {
+          "id": "SUR-003",
+          "pola": "bunyi surat / bunyi edaran / bunyi nota / bunyi telegram",
+          "saran_pengganti": [
+            "[hapus 'bunyi' — langsung surat/edaran/nota]"
+          ],
+          "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 36), kata 'bunyi' kurang tepat untuk merujuk isi surat karena surat tidak dapat berbunyi; hilangkan kata 'bunyi'.",
+          "contoh_salah": "Sesuai dengan bunyi surat Bapak tanggal 1 Januari, kami sampaikan konfirmasi berikut.",
+          "contoh_benar": "Sesuai dengan surat Bapak tanggal 1 Januari, kami sampaikan konfirmasi berikut."
         }
       ]
     },
@@ -3383,6 +3417,18 @@
           "penjelasan": "Merujuk Kridalaksana (hlm. 26), padanan resmi deep structure ialah struktur batin dan surface structure ialah struktur lahir; telaah kontekstual diperlukan pada naskah linguistik.",
           "contoh_salah": "Analisis struktur dalam kalimat generatif menunjukkan hierarki konstituen yang kompleks.",
           "contoh_benar": "Analisis struktur batin kalimat generatif menunjukkan hierarki konstituen yang kompleks."
+        },
+        {
+          "id": "SUR-004",
+          "pola": "sangsi hukum / sangsi pidana / sangsi administratif",
+          "saran_pengganti": [
+            "sanksi hukum",
+            "sanksi pidana",
+            "sanksi administratif"
+          ],
+          "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 36), kata 'sangsi' bermakna 'ragu-ragu' sedangkan 'sanksi' bermakna 'pengesahan, peneguhan, tindakan, tanggungan'. Istilah formal yang baku untuk penegakan hukum adalah 'sanksi'.",
+          "contoh_salah": "Pelanggaran disiplin tersebut dikenai sangsi administratif berupa teguran tertulis.",
+          "contoh_benar": "Pelanggaran disiplin tersebut dikenai sanksi administratif berupa teguran tertulis."
         }
       ]
     }

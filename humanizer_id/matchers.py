@@ -332,6 +332,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Surat-Menyurat Resmi (SUR-001..004) ---
+CUSTOM_RULES.extend([
+    # SUR-001: penghubung klausa 'yang mana' (hlm. 37)
+    (lambda p: 'yang mana' in p,
+     [re.compile(r'(?i)(?:,|\s)\s*yang\s+mana\b')]),
+    # SUR-002: penghubung klausa ', di mana' (hlm. 37)
+    (lambda p: 'di mana ...' in p,
+     [re.compile(r'(?i)\b,\s*di\s+mana\b')]),
+    # SUR-003: kata 'bunyi' untuk surat (hlm. 36)
+    (lambda p: "bunyi surat / bunyi edaran" in p,
+     [re.compile(r'(?i)\bbunyi\s+(?:surat|edaran|nota|telegram|sk|undangan)\b')]),
+    # SUR-004: homonim 'sangsi' vs 'sanksi' (hlm. 36)
+    (lambda p: "sangsi hukum / sangsi pidana" in p,
+     [re.compile(r'(?i)\bsangsi\s+(?:hukum|pidana|administratif|perdata|disiplin)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
