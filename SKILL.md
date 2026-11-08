@@ -551,6 +551,11 @@ ightarrow$ serangkai: *mahakasih*.
 14. **Kebijakan vs Kebijaksanaan (BPK-024):** *Kebijakan* untuk strategi institusional (*kebijakan pemerintah, kebijakan moneter*); *kebijaksanaan* untuk kearifan personal (*berkat kebijaksanaan orang tua*) (hlm. 76).
 15. **Daripada Non-Komparatif Perluasan (BPK-025):** *Biaya daripada, pangkal daripada, bagian daripada, hakikat daripada* ditolak; hapus *daripada* — hanya sah untuk perbandingan derajat (hlm. 79–80).
 16. **Analogi Profesi pe- vs Pemain Amatir (BPK-026):** *Pesepak bola, pegolf, petenis* khusus profesi; penyuka/amatir memakai *pemain sepak bola, pemain golf* [telaah] (hlm. 20–21).
+17. **Sufiks Serapan -itas (BPK-027):** Serapan *-ity* baku *-itas*: *produktivitas, kreativitas, efektivitas* — bukan *produktifitas, kreatifitas, efektifitas* (hlm. 68).
+18. **Nama Bulan Masehi (BPK-028):** *Februari* (bukan *Pebruari*) dan *November* (bukan *Nopember*) (hlm. 68).
+19. **Nama Hari (BPK-029):** *Jumat* tanpa apostrof dan *Rabu* — bukan *Jum'at, Rabo, Rebo* (hlm. 68).
+20. **Penyerapan teknik (BPK-030):** *teknik* — bukan *tehnik* atau *technik* (hlm. 68).
+21. **Grafem ph- Diserap f (BPK-031):** *foto, fotokopi* — bukan *photo, photo copi, foto copy* (hlm. 68).
 
 ### AJ. Kepaduan & Keruntutan Paragraf (Rujukan Suladi, *Paragraf: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
 

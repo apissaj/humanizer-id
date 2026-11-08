@@ -3760,6 +3760,63 @@
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 20-21), bentukan pe- (pegolf, pesepak bola, petenis) khusus menyatakan profesi; untuk penyuka/amatir gunakan pemain.",
           "contoh_salah": "Adik saya seorang pesepak bola yang bermain di tim sekolah.",
           "contoh_benar": "Adik saya seorang pemain sepak bola yang bermain di tim sekolah."
+        },
+        {
+          "id": "BPK-027",
+          "pola": "produktifitas / kreatifitas / efektifitas / sensitifitas / kompetitifitas",
+          "saran_pengganti": [
+            "produktivitas",
+            "kreativitas",
+            "efektivitas",
+            "sensitivitas",
+            "kompetitivitas"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), serapan akhiran -ity baku menjadi -itas: produktivitas, kreativitas, efektivitas; bentuk produktifitas dan sejenisnya tidak baku.",
+          "contoh_salah": "Peningkatan produktifitas dan kreatifitas mahasiswa menjadi prioritas.",
+          "contoh_benar": "Peningkatan produktivitas dan kreativitas mahasiswa menjadi prioritas."
+        },
+        {
+          "id": "BPK-028",
+          "pola": "Pebruari / Nopember",
+          "saran_pengganti": [
+            "Februari",
+            "November"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), nama bulan baku ditulis Februari dan November; bentuk Pebruari dan Nopember tidak baku.",
+          "contoh_salah": "Batas akhir pendaftaran dibuka dari Pebruari hingga Nopember.",
+          "contoh_benar": "Batas akhir pendaftaran dibuka dari Februari hingga November."
+        },
+        {
+          "id": "BPK-029",
+          "pola": "Jum'at / Rabo / Rebo",
+          "saran_pengganti": [
+            "Jumat",
+            "Rabu"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), nama hari baku ditulis Jumat (tanpa apostrof) dan Rabu; bentuk Jum'at, Rabo, Rebo tidak baku.",
+          "contoh_salah": "Rapat koordinasi dijadwalkan pada hari Jum'at dan Rabo.",
+          "contoh_benar": "Rapat koordinasi dijadwalkan pada hari Jumat dan Rabu."
+        },
+        {
+          "id": "BPK-030",
+          "pola": "tehnik / technik",
+          "saran_pengganti": [
+            "teknik"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), bentuk baku teknik; tehnik dan technik tidak baku.",
+          "contoh_salah": "Fakultas tehnik menerapkan metode komputasi modern.",
+          "contoh_benar": "Fakultas teknik menerapkan metode komputasi modern."
+        },
+        {
+          "id": "BPK-031",
+          "pola": "photo / photo copi / foto copy",
+          "saran_pengganti": [
+            "foto",
+            "fotokopi"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), grafem asing ph diserap f: foto, fotokopi; bentuk photo dan foto copy tidak baku.",
+          "contoh_salah": "Lampirkan photo resmi dan foto copy kartu identitas.",
+          "contoh_benar": "Lampirkan foto resmi dan fotokopi kartu identitas."
         }
       ]
     }

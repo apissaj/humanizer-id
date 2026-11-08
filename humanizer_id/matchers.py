@@ -450,6 +450,26 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Tabel Baku-Tidak Baku Lanjutan (BPK-027..031) ---
+CUSTOM_RULES.extend([
+    # BPK-027: sufiks serapan -itas bukan -ifitas (hlm. 68)
+    (lambda p: 'produktifitas / kreatifitas / efektifitas' in p,
+     [re.compile(r'(?i)\b(?:produktifitas|kreatifitas|efektifitas|sensitifitas|kompetitifitas)\b')]),
+    # BPK-028: nama bulan Masehi baku Februari/November (hlm. 68)
+    (lambda p: 'Pebruari / Nopember' in p,
+     [re.compile(r'(?i)\b(?:pebruari|nopember)\b')]),
+    # BPK-029: nama hari baku Jumat/Rabu (hlm. 68)
+    (lambda p: "Jum'at / Rabo / Rebo" in p,
+     [re.compile(r'\b(?:Jum[\'\u2019]at|jum[\'\u2019]at|Rabo|rabo|Rebo|rebo)\b')]),
+    # BPK-030: penyerapan teknik (hlm. 68)
+    (lambda p: 'tehnik / technik' in p,
+     [re.compile(r'(?i)\b(?:tehnik|technik)\b')]),
+    # BPK-031: penyerapan grafem ph- menjadi f (hlm. 68)
+    (lambda p: 'photo / photo copi / foto copy' in p,
+     [re.compile(r'(?i)\b(?:photo(?:\s+copi)?|foto\s+copy)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
