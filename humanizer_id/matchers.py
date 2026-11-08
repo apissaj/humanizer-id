@@ -484,6 +484,24 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Ejaan Serapan Sriyanto 2015 (SPE-005..008) ---
+CUSTOM_RULES.extend([
+    # SPE-005: apostrof Arab & huruf q pada serapan (hlm. 14)
+    (lambda p: "da'wah / do'a / taqwa / qalbu" in p,
+     [re.compile(r"(?i)\b(?:da['\u2019]wah|do['\u2019]a|taqwa|qalbu)\b")]),
+    # SPE-006: digraf non-baku serapan Arab-Sanskerta (hlm. 17)
+    (lambda p: 'bhakti / dharma / wudhu / bathin / shalat' in p,
+     [re.compile(r'(?i)\b(?:wudhu|bathin|shalat|sholat|ashar|shubuh|ustadz|ustadzah|hadits|adzan|dhuha)\b'),
+      re.compile(r'\b(?:[Bb]hakti|[Dd]harma)\b(?!\s+[A-Z])')]),
+    # SPE-007: singkatan PT tanpa titik (hlm. 50)
+    (lambda p: 'PT. [Nama Perusahaan]' in p,
+     [re.compile(r'\bPT\.\s+[A-Z][a-zA-Z0-9]+')]),
+    # SPE-008: tanggal nama bulan berhimpit tanda hubung (hlm. 91)
+    (lambda p: '12-September-2024 / 01-Januari-2023' in p,
+     [re.compile(r'\b\d{1,2}-(?:Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)-\d{4}\b', re.IGNORECASE)]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

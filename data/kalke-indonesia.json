@@ -3863,6 +3863,60 @@
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), grafem asing ph diserap f: foto, fotokopi; bentuk photo dan foto copy tidak baku.",
           "contoh_salah": "Lampirkan photo resmi dan foto copy kartu identitas.",
           "contoh_benar": "Lampirkan foto resmi dan fotokopi kartu identitas."
+        },
+        {
+          "id": "SPE-005",
+          "pola": "da'wah / do'a / taqwa / qalbu",
+          "saran_pengganti": [
+            "dakwah",
+            "doa",
+            "takwa",
+            "kalbu"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Ejaan (Sriyanto, Badan Bahasa, 2015, hlm. 14), tidak ada kata baku bahasa Indonesia yang ditulis dengan tanda apostrof di tengah kata; huruf q diganti k; bentuk baku: dakwah, doa, takwa, kalbu.",
+          "contoh_salah": "Sebelum kegiatan da'wah, panitia memanjatkan do'a bersama demi kebersihan qalbu.",
+          "contoh_benar": "Sebelum kegiatan dakwah, panitia memanjatkan doa bersama demi kebersihan kalbu."
+        },
+        {
+          "id": "SPE-006",
+          "pola": "bhakti / dharma / wudhu / bathin / shalat / sholat / ashar / shubuh / ustadz / ustadzah / hadits / adzan / dhuha",
+          "saran_pengganti": [
+            "bakti",
+            "darma",
+            "wudu",
+            "batin",
+            "salat",
+            "asar",
+            "subuh",
+            "ustaz",
+            "ustazah",
+            "hadis",
+            "azan",
+            "duha"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Ejaan (Sriyanto, Badan Bahasa, 2015, hlm. 17), bahasa Indonesia hanya mengenal digraf kh, ng, ny, sy; bentuk selain itu tidak baku (kecuali nama diri).",
+          "contoh_salah": "Jamaah mengambil air wudhu sebelum shalat ashar dan mendengarkan ceramah ustadz.",
+          "contoh_benar": "Jamaah mengambil air wudu sebelum salat asar dan mendengarkan ceramah ustaz."
+        },
+        {
+          "id": "SPE-007",
+          "pola": "PT. [Nama Perusahaan]",
+          "saran_pengganti": [
+            "PT [Nama Perusahaan] (tanpa tanda titik)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Ejaan (Sriyanto, Badan Bahasa, 2015, hlm. 50), singkatan nama badan atau lembaga tidak diikuti tanda titik: tulis PT tanpa titik, bukan PT.",
+          "contoh_salah": "Laporan keuangan PT. Telekomunikasi Indonesia diaudit oleh akuntan publik.",
+          "contoh_benar": "Laporan keuangan PT Telekomunikasi Indonesia diaudit oleh akuntan publik."
+        },
+        {
+          "id": "SPE-008",
+          "pola": "12-September-2024 / 01-Januari-2023",
+          "saran_pengganti": [
+            "12 September 2024 / 1 Januari 2023 (tanpa tanda hubung)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Ejaan (Sriyanto, Badan Bahasa, 2015, hlm. 91), jika nama bulan ditulis lengkap dengan huruf, tanda hubung tidak lagi digunakan; gunakan spasi biasa.",
+          "contoh_salah": "Surat keputusan tertanggal 12-September-2024 telah diterima pimpinan.",
+          "contoh_benar": "Surat keputusan tertanggal 12 September 2024 telah diterima pimpinan."
         }
       ]
     }

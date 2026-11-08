@@ -746,6 +746,13 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Kekerabatan Kapital Pronominal (EYD-024):* Kata kekerabatan (*Kakak, Ibu, Bapak*) berhuruf kapital jika berfungsi sebagai pronomina sapaan atau kemilikan (*buku Kakak, surat Ibu*) untuk membedakannya dari nomina umum [telaah].
 3. **Reduplikasi Lengkap Naskah Resmi (EYD-025):* Pemakaian angka 2 untuk reduplikasi (*orang2, anak2*) dilarang dalam naskah resmi; tulis lengkap dengan tanda hubung (*orang-orang, anak-anak*).
 
+### BF. Ejaan Serapan, Singkatan PT, dan Tanda Hubung Tanggal (Rujukan "Seri Penyuluhan: Ejaan", Sriyanto, Badan Bahasa, 2015, hlm. 14, 17, 50, 91)
+
+1. **Apostrof & Huruf Q Serapan Arab (SPE-005):** Tidak ada kata baku dengan apostrof di tengah; huruf q diganti k: *da'wah, do'a, taqwa, qalbu* ditolak → *dakwah, doa, takwa, kalbu* (hlm. 14).
+2. **Digraf Non-Baku Serapan (SPE-006):** Digraf baku hanya *kh, ng, ny, sy*; bentuk selain itu tidak baku: *wudhu* → *wudu*, *bathin* → *batin*, *shalat/sholat* → *salat*, *ashar* → *asar*, *shubuh* → *subuh*, *ustadz/ustadzah* → *ustaz/ustazah*, *hadits* → *hadis*, *adzan* → *azan*, *dhuha* → *duha*; *bhakti* → *bakti* dan *dharma* → *darma* kecuali bagian nama diri resmi (hlm. 17).
+3. **Singkatan PT Tanpa Titik (SPE-007):** Singkatan nama badan/lembaga tidak diikuti titik: tulis *PT*, bukan *PT.* (hlm. 50).
+4. **Tanggal dengan Nama Bulan (SPE-008):** Bila nama bulan dieja huruf, tanda hubung dilarang: *12-September-2024* ditolak → *12 September 2024* (hlm. 91).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
