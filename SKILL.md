@@ -637,6 +637,13 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Posisi Objek Koordinatif (TBB-010):** Objek bersama dua verba transitif koordinatif wajib diletakkan setelah verba terakhir (*menguji atau menganalisis sampel itu*), bukan setelah verba pertama (*menguji sampel itu atau menganalisis*).
 3. **Enklitik Posesif Sematan (TBB-011):** Partikel baku pada klausa sematan pemarkah *yang* adalah *-nya* sekalipun pemiliknya jamak (*para guru yang gajinya*), bukan pronomina bebas (*yang gaji mereka*) [telaah].
 
+### AT. Pronomina Persona & Perbandingan Adjektiva Baku (Rujukan Tata Bahasa Baku Bahasa Indonesia Edisi Keempat, Bab V hlm. 199-201 & Bab VI hlm. 236-241)
+
+1. **Pronomina 'Mereka' Insanik (TBB-012):* *Mereka* hanya mengacu insan; benda/konsep jamak tak bernyawa (*model, data, dokumen*) dirujuk dengan pengulangan nomina atau *semuanya* — menerjemahkan *they* mentah menjadi *mereka* adalah kalke.
+2. **Batas 'Ia' Pascapreposisi (TBB-013):* *Ia* tidak berterima setelah preposisi (*kepada ia*); gunakan *dia* (*kepada dia*) atau enklitik *-nya* (*kepadanya*).
+3. **Formula Ekuatif (TBB-014):* Perbandingan setara baku: *se- + adjektiva* (*secantik*) atau *sama [adj]-nya dengan* (*sama cantiknya dengan*); bentuk *sama ... seperti* adalah kontaminasi rancu.
+4. **Superlatif Tunggal (TBB-015):* Derajat paling tinggi dinyatakan *ter-* atau *paling*, tidak boleh rangkap (*paling terbaik* -> *terbaik*).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

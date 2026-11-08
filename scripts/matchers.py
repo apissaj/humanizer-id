@@ -199,6 +199,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Pronomina & Adjektiva (TBB-012..015) ---
+CUSTOM_RULES.extend([
+    # TBB-012: pronomina 'mereka' untuk benda/konsep tak bernyawa (TBBBI hlm. 201)
+    (lambda p: "pronomina 'mereka' mengacu pada benda" in p,
+     [re.compile(r'(?i)\b(?:algoritma|model|dokumen|buku|data|berkas|file|server|fitur|metode|perangkat|komputer|sampel|variabel|kebijakan|produk|sistem|instrumen|temuan|ide|gagasan|langkah|saran|rekomendasi)[a-z]*\b[^.!?]{2,50}\.\s+Mereka\s+(?:ada|merupakan|memproses|berfungsi|menyimpan|bekerja|memiliki|mengandung|terdiri|memuat|dipakai|digunakan|harus|akan|dapat|dapat\s+di|bisa)'), re.compile(r'(?i)\bmereka\s+(?:memproses|menghitung|mengolah|menyimpan)\b')]),
+    # TBB-013: 'ia' pascapreposisi (TBBBI hlm. 200)
+    (lambda p: "ia' pascapreposisi" in p or 'kepada ia' in p,
+     [re.compile(r'(?i)\b(?:kepada|untuk|bersama|tentang|dengan|terhadap|bagi|oleh|dari)\s+ia\b')]),
+    # TBB-014: kontaminasi ekuatif 'sama ... seperti' (TBBBI hlm. 237)
+    (lambda p: 'sama pentingnya seperti' in p,
+     [re.compile(r'(?i)\bsama\s+\w+nya\s+seperti\b')]),
+    # TBB-015: pleonasme superlatif 'paling ter-' (TBBBI hlm. 239-240)
+    (lambda p: 'paling terbaik' in p,
+     [re.compile(r'(?i)\bpaling\s+ter(?:baik|penting|besar|tinggi|rendah|kaya|mahal|murah|panjang|cepat|lambat|aman|dalam)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

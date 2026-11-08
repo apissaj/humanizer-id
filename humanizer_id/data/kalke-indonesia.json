@@ -1453,6 +1453,26 @@
           "penjelasan": "TBBBI (hlm. 354) menegaskan partikel yang baku pada klausa sematan pemarkah 'yang' adalah '-nya' tanpa memandang tunggal atau jamaknya pemilik.",
           "contoh_salah": "Para guru yang gaji mereka belum cair berhak menerima tunjangan daerah.",
           "contoh_benar": "Para guru yang gajinya belum cair berhak menerima tunjangan daerah."
+        },
+        {
+          "id": "TBB-012",
+          "pola": "pronomina 'mereka' mengacu pada benda/konsep tak bernyawa: algoritma/buku/data ... Mereka ada/merupakan/memproses",
+          "saran_pengganti": [
+            "Ulangi nomina spesifik, gunakan 'semuanya', atau satukan kalimat tanpa pronomina insan"
+          ],
+          "penjelasan": "Merujuk TBBBI (hlm. 201), pronomina 'mereka' hanya dipakai untuk insan. Benda atau konsep jamak dinyatakan dengan mengulang nomina atau mengubah sintaksis kalimat. Menerjemahkan 'they' untuk benda non-insan menjadi 'mereka' adalah kalke tidak baku.",
+          "contoh_salah": "Model-model komputasi ini sangat cepat. Mereka memproses data transaksi secara waktu nyata.",
+          "contoh_benar": "Model-model komputasi ini sangat cepat dan memproses data transaksi secara waktu nyata."
+        },
+        {
+          "id": "TBB-014",
+          "pola": "sama pentingnya seperti / sama mahalnya seperti / sama efektifnya seperti",
+          "saran_pengganti": [
+            "sama pentingnya dengan / sama mahalnya dengan (atau gunakan 'sepenting')"
+          ],
+          "penjelasan": "TBBBI (hlm. 237) menetapkan formula ekuatif baku adalah 'sama [adjektiva]-nya dengan', bukan 'sama ... seperti'.",
+          "contoh_salah": "Pengujian keamanan siber sama pentingnya seperti pengujian fungsional aplikasi.",
+          "contoh_benar": "Pengujian keamanan siber sama pentingnya dengan pengujian fungsional aplikasi."
         }
       ]
     },
@@ -3037,6 +3057,26 @@
           "penjelasan": "Merujuk Gorys Keraf (Diksi dan Gaya Bahasa), bentuk 'mengenyampingkan' merupakan kontaminasi dari 'mengesampingkan' dan 'menyampingkan'; bentuk baku adalah 'mengesampingkan'. Bentuk 'mempersering' rancu; bentuk baku 'memperkerap'.",
           "contoh_salah": "Peneliti tidak boleh mengenyampingkan anomali data lapangan begitu saja.",
           "contoh_benar": "Peneliti tidak boleh mengesampingkan anomali data lapangan begitu saja."
+        },
+        {
+          "id": "TBB-013",
+          "pola": "kepada ia / untuk ia / bersama ia / tentang ia / dengan ia",
+          "saran_pengganti": [
+            "kepadanya / untuknya / bersamanya / tentangnya (atau gunakan 'dia')"
+          ],
+          "penjelasan": "TBBBI (hlm. 200) menegaskan bentuk pronomina ketiga 'ia' tidak berterima berada di belakang preposisi; gunakan 'dia' atau enklitik '-nya'.",
+          "contoh_salah": "Bantuan kemanusiaan tersebut diserahkan langsung kepada ia di posko pengungsian.",
+          "contoh_benar": "Bantuan kemanusiaan tersebut diserahkan langsung kepadanya di posko pengungsian."
+        },
+        {
+          "id": "TBB-015",
+          "pola": "paling terbaik / paling terpenting / paling terbesar / paling tertinggi / paling terendah",
+          "saran_pengganti": [
+            "terbaik / terpenting / terbesar (atau 'paling baik' / 'paling penting')"
+          ],
+          "penjelasan": "TBBBI (hlm. 239-240) menegaskan tingkat superlatif dinyatakan oleh 'ter-' ATAU 'paling'; penggabungan 'paling ter-' merupakan pleonasme mubazir ganda.",
+          "contoh_salah": "Efisiensi energi merupakan faktor paling terpenting dalam perancangan pusat data.",
+          "contoh_benar": "Efisiensi energi merupakan faktor terpenting dalam perancangan pusat data."
         }
       ]
     }
