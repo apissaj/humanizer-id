@@ -552,6 +552,16 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Penyapa Jabatan Tanpa Honorifik Ganda:** *Yang kami hormati Kepala Biro, Bapak X* — kata penyapa *Bapak/Ibu* hanya menyertai nama orang, bukan jabatan (*Bapak Kepala Biro* salah) (hlm. 11, 88).
 3. **Sapaan Jamak Non-Ganda:** *Ibu-ibu / Bapak dan Ibu sekalian / hadirin* — *para, sekalian,* dan bentuk ulang tidak boleh digabung (hlm. 86–87; selaras `SPB-001`).
 
+### AL. Bahasa Dinas & Surat Resmi (Rujukan Mullyana dkk., *Bahasa Indonesia untuk Pejabat Pemerintah*, Badan Bahasa 2019; *Pedoman Surat-Menyurat dalam Bahasa Indonesia*, Pusat Bahasa 1991)
+
+1. **Ekonomi Verba:** *melakukan kunjungan → berkunjung; mengajukan saran → menyarankan; mengeluarkan pemberitahuan → memberitahukan* (Mullyana 2019, hlm. 37).
+2. **Pasif Diri Tanpa Sisipan:** *sudah kami laporkan*, bukan *kami sudah laporkan* — pronomina diri dan verba pangkal tidak boleh dipisah adverbia (Mullyana 2019, hlm. 48).
+3. **Nomina Deverbal Bernalar:** *Pelaksanaan tugas itu dimulai* — nomina tindakan (*pelaksanaan/perencanaan*) tidak sah menjadi penderita verba pasifnya sendiri (Mullyana 2019, hlm. 49).
+4. **Verba Transitif Langsung ke Objek:** *membahas usulan* — *tentang/mengenai/daripada* setelah verba transitif mubazir (Mullyana 2019, hlm. 39).
+5. **Nalar Frasa Surat:** *mengatasi ketinggalan* (bukan *mengejar ketinggalan*); *isi surat* (bukan *bunyi surat*) (Pusat Bahasa 1991, hlm. 35–36).
+6. **Ordinal Satu Sistem:** *ke-45* atau *XLV* — awalan *ke-* dilarang menempel angka Romawi (Pusat Bahasa 1991, hlm. 34).
+7. **Berkenaan vs Berkenan:** 'sehubungan dengan' = *berkenaan dengan*; *berkenan* khusus makna 'bersedia dengan hormat' (Pusat Bahasa 1991, hlm. 39).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah

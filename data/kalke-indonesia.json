@@ -1608,6 +1608,126 @@
             "tahun": 2019,
             "halaman": "33-35"
           }
+        },
+        {
+          "id": "PJB-001",
+          "pola": "konstruksi verba nominal mubazir: disebabkan oleh fakta, mengajukan saran, melakukan kunjungan, mengeluarkan pemberitahuan",
+          "saran_pengganti": "Gunakan verba padanannya: disebabkan oleh fakta → karena; mengajukan saran → menyarankan; melakukan kunjungan → berkunjung; mengeluarkan pemberitahuan → memberitahukan; meninggalkan kesan yang dalam → mengesankan (Mullyana dkk. 2019, hlm. 37).",
+          "penjelasan": "Bahasa Indonesia untuk Pejabat Pemerintah (Mullyana dkk., Badan Bahasa 2019) mengajarkan ekonomi bahasa: jika ada konstruksi verba nominal yang lebih ringkas padanannya, gunakan verba itu; konstruksi menyebabkan + nomina kerja memperpanjang kalimat tanpa menambah makna. Konstruksi panjang semacam ini juga sering menjadi sumber kalke terjemahan mesin.",
+          "contoh_salah": "Panitia melakukan kunjungan ke lokasi bencana dan mengeluarkan pemberitahuan resmi.",
+          "contoh_benar": "Panitia berkunjung ke lokasi bencana dan memberitahukan hal itu secara resmi.",
+          "rujukan": {
+            "penulis": "Dadang Mullyana, dkk.",
+            "buku": "Bahasa Indonesia untuk Pejabat Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "37"
+          }
+        },
+        {
+          "id": "PJB-002",
+          "pola": "sisipan adverbia memisahkan kata ganti pasif dan kata kerjanya (Masalah itu kami sudah laporkan; rapat itu kami akan adakan)",
+          "saran_pengganti": "Satukan pronomina pasif dengan verba atau ubah aktif: Masalah itu sudah kami laporkan kepada pimpinan atau Masalah itu kami laporkan kepada pimpinan (Mullyana dkk. 2019, hlm. 48).",
+          "penjelasan": "Bahasa Indonesia untuk Pejabat Pemerintah (Mullyana dkk., 2019, contoh 20) menegaskan bahwa dalam kalimat pasif unsur kata ganti kami/ku/mu dan verba tidak boleh dipisah oleh sisipan adverbia (sudah, akan, belum, sedang): *kami sudah laporkan* bentuknya salah; yang baku *sudah kami laporkan* atau kalimat aktif.",
+          "contoh_salah": "Masalah itu kami sudah laporkan kepada pimpinan.",
+          "contoh_benar": "Masalah itu sudah kami laporkan kepada pimpinan.",
+          "rujukan": {
+            "penulis": "Dadang Mullyana, dkk.",
+            "buku": "Bahasa Indonesia untuk Pejabat Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "48"
+          }
+        },
+        {
+          "id": "PJB-003",
+          "pola": "nomina deverbal salah predikat pasif: Pelaksanaan tugas itu akan dilaksanakan (nomina kerja dikenai verba kembalinya)",
+          "saran_pengganti": "Cermati pernalaran: yang dilaksanakan ialah tugas, bukan pelaksanaan — ubah menjadi Pelaksanaan tugas itu akan dimulai bulan depan atau Tugas itu akan dilaksanakan bulan depan (Mullyana dkk. 2019, hlm. 49).",
+          "penjelasan": "Bahasa Indonesia untuk Pejabat Pemerintah (Mullyana dkk., 2019, contoh 21) mencontohkan kalimat tidak tersusun baik: Pelaksanaan tugas itu akan dilaksanakan bulan depan. Nomina deverbal (pelaksanaan, perencanaan, penyusunan) tidak dapat menjadi penderita verba transitif asalnya; objek yang benar ialah nomina dasarnya (tugas, rencana, naskah).",
+          "contoh_salah": "Pelaksanaan tugas itu akan dilaksanakan bulan depan.",
+          "contoh_benar": "Pelaksanaan tugas itu akan dimulai bulan depan.",
+          "rujukan": {
+            "penulis": "Dadang Mullyana, dkk.",
+            "buku": "Bahasa Indonesia untuk Pejabat Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "49"
+          }
+        },
+        {
+          "id": "PJB-004",
+          "pola": "predikat transitif diikuti frasa preposisional perihal: membahas tentang, membicarakan mengenai, membahas daripada",
+          "saran_pengganti": "Tanggalkan preposisi setelah verba transitif: membahas kegiatan (bukan membahas tentang kegiatan); membicarakan hal itu (bukan membicarakan mengenai hal itu) (Mullyana dkk. 2019, hlm. 39).",
+          "penjelasan": "Bahasa Indonesia untuk Pejabat Pemerintah (Mullyana dkk., 2019) menggolongkan kata tentang/mengenai/daripada di belakang predikat transitif (membahas, membicarakan, membangun) sebagai kata mubazir; verba transitif wajib langsung diikuti objek nominal, bukan frasa preposisional. Entri ini melengkapi AP-001 dengan sumber resmi Badan Bahasa 2019.",
+          "contoh_salah": "Rapat pleno membahas tentang usulan anggaran dan membicarakan mengenai jadwal pelatihan.",
+          "contoh_benar": "Rapat pleno membahas usulan anggaran dan membicarakan jadwal pelatihan.",
+          "rujukan": {
+            "penulis": "Dadang Mullyana, dkk.",
+            "buku": "Bahasa Indonesia untuk Pejabat Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "39"
+          }
+        },
+        {
+          "id": "SRT-003",
+          "pola": "salah nalar semantik verba mengejar pada objek yang selalu di belakang: mengejar ketinggalan / mengejar keterbelakangan",
+          "saran_pengganti": "Ganti verba mengatasi: mengatasi ketinggalan, mengatasi keterbelakangan; atau beralih ke objek yang bisa dikejar: mengejar kemajuan, mengejar target (Pedoman Surat-Menyurat dalam Bahasa Indonesia, hlm. 35).",
+          "penjelasan": "Pedoman Surat-Menyurat dalam Bahasa Indonesia (Pusat Bahasa, hlm. 35) memerikan kesalahan pilihan kata dalam surat dinas: kata mengejar kurang tepat dihadapkan pada ketinggalan/keterbelakangan karena pola mengejar menuntut objek yang berada di depan (kucing mengejar tikus), sedangkan ketinggalan dan keterbelakangan selalu berada di belakang; verba yang tepat ialah mengatasi.",
+          "contoh_salah": "Lembaga kami berkomitmen mengejar keterbelakangan teknologi produksi.",
+          "contoh_benar": "Lembaga kami berkomitmen mengatasi keterbelakangan teknologi produksi.",
+          "rujukan": {
+            "penulis": "Tim Penyusun Pusat Pembinaan dan Pengembangan Bahasa",
+            "buku": "Pedoman Surat-Menyurat dalam Bahasa Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1991,
+            "halaman": "35"
+          }
+        },
+        {
+          "id": "SRT-004",
+          "pola": "klise salah kolokasi teks resmi: bunyi surat / surat yang berbunyi (surat dianggap dapat berbunyi)",
+          "saran_pengganti": "Ganti dengan kolokasi tepat: isi surat, sesuai dengan surat Bapak yang terdahulu, dalam surat yang dimaksud (Pedoman Surat-Menyurat dalam Bahasa Indonesia, hlm. 36).",
+          "penjelasan": "Pedoman Surat-Menyurat dalam Bahasa Indonesia (hlm. 36) memerikan kalimat Sesuai dengan bunyi surat Bapak yang terdahulu sebagai salah kolokasi: kata bunyi merujuk pada suara, sedangkan surat tidak dapat berbunyi; padanan yang tepat dalam surat resmi ialah isi surat atau cukup sesuai dengan surat Bapak yang terdahulu.",
+          "contoh_salah": "Sesuai dengan bunyi surat Bapak yang terdahulu, kami sampaikan laporan kegiatan.",
+          "contoh_benar": "Sesuai dengan surat Bapak yang terdahulu, kami sampaikan laporan kegiatan.",
+          "rujukan": {
+            "penulis": "Tim Penyusun Pusat Pembinaan dan Pengembangan Bahasa",
+            "buku": "Pedoman Surat-Menyurat dalam Bahasa Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1991,
+            "halaman": "36"
+          }
+        },
+        {
+          "id": "SRT-005",
+          "pola": "awalan ordinal ke- ditempelkan pada angka Romawi: ke-XLV, ke-XXI, ke-II",
+          "saran_pengganti": "Pilih satu sistem bilangan: gunakan angka Arab dengan awalan ke- (ke-45, ke-21, ke-2) atau angka Romawi tanpa ke- (XLV, XXI, II); dilarang menggabungkan ke- dengan Romawi (Pedoman Surat-Menyurat dalam Bahasa Indonesia, hlm. 34).",
+          "penjelasan": "Pedoman Surat-Menyurat dalam Bahasa Indonesia (hlm. 34) menegaskan bahwa penulisan bilangan tingkat dapat memakai angka Romawi atau angka Arab berawalan ke-, tetapi tidak boleh keduanya sekaligus: penulisan ke-XLV pada penyebutan HUT ke-XLV tercatat sebagai contoh salah; yang benar ke-45 atau XLV.",
+          "contoh_salah": "Dalam penyelenggaraan HUT ke-XLV, kami akan mengadakan lomba karya ilmiah.",
+          "contoh_benar": "Dalam penyelenggaraan HUT ke-45, kami akan mengadakan lomba karya ilmiah.",
+          "rujukan": {
+            "penulis": "Tim Penyusun Pusat Pembinaan dan Pengembangan Bahasa",
+            "buku": "Pedoman Surat-Menyurat dalam Bahasa Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1991,
+            "halaman": "34"
+          }
+        },
+        {
+          "id": "SRT-006",
+          "pola": "kerancuan paronim berkenan dengan alih-alih berkenaan dengan (berkenan = bersedia dengan hormat)",
+          "saran_pengganti": "Gunakan berkenaan dengan untuk makna 'sehubungan dengan'; kata berkenan hanya tepat untuk makna 'bersedia dengan hormat' (surat permohonan) (Pedoman Surat-Menyurat dalam Bahasa Indonesia, hlm. 39).",
+          "penjelasan": "Pedoman Surat-Menyurat dalam Bahasa Indonesia (hlm. 39) memerikan kesalahan pemakaian berkenan dalam kalimat Berkenaan dengan adanya telepon dari Bapak ... karena berkenan bermakna 'atas izin atau persetujuan' (minta berkenan), sedangkan makna 'sehubungan dengan' diungkapkan oleh berkenaan dengan; kata sambung maka setelahnya juga sering membuat struktur rancu.",
+          "contoh_salah": "Berkenan dengan adanya telepon dari Bapak tanggal 19 April, maka dengan ini kami calonkan dua pegawai.",
+          "contoh_benar": "Berkenaan dengan adanya telepon dari Bapak tanggal 19 April, dengan ini kami calonkan dua pegawai.",
+          "rujukan": {
+            "penulis": "Tim Penyusun Pusat Pembinaan dan Pengembangan Bahasa",
+            "buku": "Pedoman Surat-Menyurat dalam Bahasa Indonesia",
+            "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan",
+            "tahun": 1991,
+            "halaman": "39"
+          }
         }
       ]
     },

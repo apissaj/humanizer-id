@@ -40,6 +40,10 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Bahasa Pejabat Pemerintah & Surat Dinas (Badan Bahasa 2019 & Pusat Bahasa 1991)
+- **Bahasa Indonesia untuk Pejabat Pemerintah** (Dadang Mullyana dkk., Badan Pengembangan dan Pembinaan Bahasa, 2019, 93 hlm.) — ekonomi bahasa verba nominal (*melakukan kunjungan → berkunjung*), pasif persona tersisip adverbia (*kami sudah laporkan* salah), nomina deverbal penderita verba pasif (*pelaksanaan ... dilaksanakan* salah), dan penghilangan preposisi perihal setelah verba transitif (*membahas tentang/mengenai*) → [references/bahasa-pejabat-pemerintah-2019.md](references/bahasa-pejabat-pemerintah-2019.md)
+- **Pedoman Surat-Menyurat dalam Bahasa Indonesia** (Pusat Pembinaan dan Pengembangan Bahasa, 1991) — kaidah nalar frasa surat: *mengatasi ketinggalan* (bukan *mengejar*), kolokasi *isi surat* (bukan *bunyi surat*), konsistensi bilangan tingkat Romawi (*ke-45* atau *XLV*, bukan *ke-XLV*), dan paronim *berkenaan dengan* vs *berkenan* → [references/buku-surat-menyurat-pusat-bahasa.md](references/buku-surat-menyurat-pusat-bahasa.md)
+
 ### Bahasa Pewara (Badan Bahasa 2019)
 - **Bahasa Indonesia untuk Pewara: Seri Penyuluhan Bahasa Indonesia** (Dwi Widayati Kurniawan, Maman Suryaman, dkk., Badan Pengembangan dan Pembinaan Bahasa, 2019, 119 hlm.) — kaidah naskah acara dan penyapaan formal: frasa pewara tidak bernalar (*Waktu dan tempat kami persilakan*), penyapa jabatan tanpa honorifik ganda (*Bapak Kepala Biro* salah; benar *Kepala Biro, Bapak X*), sapaan jamak non-ganda, dan verba baku pewara (*menaati, menyukseskan, mengoordinasikan, mengubah*) → [references/bahasa-indonesia-pewara-2019.md](references/bahasa-indonesia-pewara-2019.md)
 

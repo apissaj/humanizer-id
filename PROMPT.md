@@ -240,3 +240,12 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 
 - **frasa bernalar (hlm. 10, 90):** *waktu dan tempat kami persilakan* salah nalar — yang dipersilakan orangnya, bukan waktu/tempatnya.
 - **sapaan jabatan (hlm. 11, 88):** *Kepala Biro, Bapak X* — sapaan *Bapak/Ibu* dilarang langsung mendahului jabatan tanpa nama orang.
+## BAHASA DINAS & SURAT RESMI (Mullyana dkk. 2019; Pusat Bahasa 1991)
+
+- **Ekonomi verba (hlm. 37):** *berkunjung* (bukan *melakukan kunjungan*); *menyarankan* (bukan *mengajukan saran*).
+- **Pasif diri tanpa sisipan (hlm. 48):** *sudah kami laporkan* — bukan *kami sudah laporkan*.
+- **Nomina deverbal (hlm. 49):** *Pelaksanaan tugas itu dimulai* — bukan *Pelaksanaan ... dilaksanakan*.
+- **Verba transitif langsung objek (hlm. 39):** *membahas usulan* — bukan *membahas tentang usulan*.
+- **Nalar frasa surat (hlm. 35-36):** *mengatasi ketinggalan* (bukan *mengejar*); *isi surat* (bukan *bunyi surat*).
+- **Ordinal satu sistem (hlm. 34):** *ke-45* atau *XLV* — *ke-XLV* salah.
+- **Berkenaan vs berkenan (hlm. 39):** 'sehubungan dengan' = *berkenaan dengan*.

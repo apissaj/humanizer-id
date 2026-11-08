@@ -47,3 +47,9 @@
 
 ## Relevansi untuk Humanizer Indonesia
 Kaidah ini meluruskan pembuka dan penutup surat resmi yang sering diracik model AI dengan persona *-nya* yang salah dan kalimat buntung tanpa subjek.
+## Kaidah Tambahan (Batch 18, 1991): Pilihan Kata & Nalar Surat
+
+1. **Mengejar vs Mengatasi (hlm. 35):** Verba *mengejar* menuntut objek di depan; *ketinggalan/keterbelakangan* selalu di belakang. Bentuk yang bernalar: **mengatasi ketinggalan / mengejar kemajuan** (`SRT-003`).
+2. **Bunyi Surat vs Isi Surat (hlm. 36):** Surat adalah tulisan dan tidak berbunyi; hindari *bunyi surat*, gunakan **isi surat** atau **sesuai dengan surat ...** (`SRT-004`).
+3. **Angka Romawi Tanpa Awalan ke- (hlm. 34):** Angka Romawi sudah menyatakan tingkatan; penulisan *ke-XLV* salah, yang baku **ke-45** atau **XLV** (`SRT-005`).
+4. **Berkenan vs Berkenaan (hlm. 39):** *Berkenan* = 'sudi/bersedia dengan hormat'; untuk makna 'sehubungan dengan' wajib memakai **berkenaan dengan** (`SRT-006`).
