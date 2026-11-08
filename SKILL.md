@@ -538,6 +538,12 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Mantan vs Bekas:** *mantan* untuk pemangku jabatan manusia (*mantan rektor, mantan presiden*); *bekas* untuk benda/kondisi nonmanusia (*bekas kantor pos, bekas luka*) karena berkonotasi peyoratif jika dipakai untuk orang (hlm. 77).
 4. **Pemerinci Tuntas vs Parsial:** *yaitu/yakni* untuk menyebutkan seluruh anggota yang sudah dibilang pasti di awal (*Ada dua faktor, yaitu A dan B*); *antara lain/misalnya* khusus untuk sebagian dari jumlah yang banyak (hlm. 81–82).
 
+### AJ. Kepaduan & Keruntutan Paragraf (Rujukan Suladi, *Paragraf: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
+
+1. **Arah Referensi & Koreferensi:** pronomina persona dan demonstratif (*itu, ini, ia, dia, -nya*) wajib memiliki anteseden anaforis yang jelas; hindari konstruksi kataforis rancu yang memunculkan pronomina sebelum maujud acuannya (hlm. 33–34).
+2. **Keruntutan Ordinal:** penanda perincian berurutan wajib runtut dan konsisten (*Pertama, Kedua, Ketiga, Keempat*) — pengulangan (*Ketiga, Ketiga*) atau lompatan nomor merusak pernalaran paragraf (hlm. 55–56).
+3. **Ketuntasan Klasifikasi:** jika kalimat topik memuat bilangan pasti (*tiga faktor*), kalimat penjelas wajib mengembangkan ketiga faktor secara lengkap tanpa meninggalkan sisa (hlm. 55).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah

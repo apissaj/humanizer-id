@@ -1518,6 +1518,36 @@
             "tahun": 2019,
             "halaman": "82-84"
           }
+        },
+        {
+          "id": "PRL-001",
+          "pola": "referensi kataforis dengan pronomina persona atau pronomina demonstrativa (gaya kebalik: pronomina muncul sebelum anteseden yang diacunya)",
+          "saran_pengganti": "Susun referensi anaforis biasa: sebutkan anteseden dulu, lalu acu dengan pronomina; jika perlu menonjolkan hal yang diacukan, pertahankan anteseden eksplisit (Suladi, hlm. 33-34).",
+          "penjelasan": "Paragraf (Suladi, Seri Penyuluhan Badan Bahasa 2019, hlm. 33-34) menjelaskan bahwa referensi endoforis terbagi dua arah: anaforis (mengacu kembali ke hal yang sudah disebut di kiri, lazim pronomina persona enklitik -nya atau kata ganti orang III) dan kataforis (mengacu ke depan). Konstituen yang diacukan harus berkoreferensi dengan pronomina pengacunya; kerancuan arah acuan membuat pembaca kehilangan anteseden.",
+          "contoh_salah": "Setelah menyelidikinya berminggu-minggu, tim riset akhirnya mengumumkan temuan itu dan memperbaiki sistem.",
+          "contoh_benar": "Tim riset menyelidiki sistem itu berminggu-minggu sebelum akhirnya mengumumkan temuan dan memperbaikinya.",
+          "rujukan": {
+            "penulis": "Suladi",
+            "buku": "Paragraf: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "33-34"
+          }
+        },
+        {
+          "id": "PRL-002",
+          "pola": "penomoran ordinal perincian tidak berurutan (Pertama, Kedua, Ketiga, Ketiga)",
+          "saran_pengganti": "Susun ordinal berurutan konsisten: Pertama, Kedua, Ketiga, Keempat; periksa ulang penanda penjumlah sebelum menerbitkan (Suladi, hlm. 55-56).",
+          "penjelasan": "Paragraf (Suladi, 2019, hlm. 55-56) menampilkan contoh paragraf perincian (43) yang penanda ordinalnya tidak runtut (Pertama, Kedua, Ketiga, Ketiga). Keruntutan perincian merupakan syarat paragraf yang baik; penanda penjumlah yang melompat atau berulang mengacaukan pola pernalaran pembaca.",
+          "contoh_salah": "Terdapat tiga faktor yang memengaruhi mutu layanan. Pertama, kesiapan tenaga. Kedua, ketersediaan sarana. Ketiga, penguatan sistem. Ketiga, dukungan kebijakan.",
+          "contoh_benar": "Terdapat empat faktor yang memengaruhi mutu layanan. Pertama, kesiapan tenaga. Kedua, ketersediaan sarana. Ketiga, penguatan sistem. Keempat, dukungan kebijakan.",
+          "rujukan": {
+            "penulis": "Suladi",
+            "buku": "Paragraf: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "55-56"
+          }
         }
       ]
     },

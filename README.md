@@ -40,6 +40,9 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Paragraf & Kepaduan (Badan Bahasa 2019)
+- **Paragraf: Seri Penyuluhan Bahasa Indonesia** (Drs. Suladi, M.Pd., Badan Pengembangan dan Pembinaan Bahasa, 2019, x+129 hlm.) — syarat paragraf yang baik (kesatuan, kepaduan, kelengkapan, keruntutan, konsistensi sudut pandang): referensi anaforis/kataforis yang berkoreferensi (pronomina persona/demonstratif wajib anteseden jelas), penomoran ordinal perincian yang runtut (*Pertama, Kedua, Ketiga* tanpa pengulangan), dan ketuntasan klasifikasi (bilangan pasti di kalimat topik = jumlah penjelas yang sama) → [references/paragraf-penyuluhan-suladi-2019.md](references/paragraf-penyuluhan-suladi-2019.md)
+
 ### Kalimat & Konjungsi (Badan Bahasa 2019)
 - **Kalimat: Seri Penyuluhan Bahasa Indonesia** (Sry Satriya Tjatur Wisnu Sasangka, Badan Pengembangan dan Pembinaan Bahasa, 2019, x+107 hlm.) — kaidah struktur kalimat efektif: larangan korelatif *jika/kalau ... maka* (menghilangkan klausa utama), larangan menyisipkan preposisi pada objek verba transitif (*memerintahkan kepada X*), larangan menumpuk konjungsi pertentangan rangkap tiga (*walaupun + namun + maka*), serta ketaksaan penempatan adverbia *baru* → [references/kalimat-penyuluhan-sasangka-2019.md](references/kalimat-penyuluhan-sasangka-2019.md)
 

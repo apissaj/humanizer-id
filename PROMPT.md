@@ -229,3 +229,8 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **kopula definisi (hlm. 81):** *adalah* (mendefinisikan) atau *ialah* (menjelaskan) — bukan *yaitu/yakni* di posisi predikat definisi.
 - **mantan vs bekas (hlm. 77):** *mantan rektor/presiden/menteri* untuk manusia; *bekas* hanya untuk benda atau kondisi nonmanusia.
 - **pemerinci tuntas vs parsial (hlm. 81-82):** bilangan pasti di awal → *yaitu/yakni*; perincian sebagian → *antara lain/misalnya*.
+## KEPADUAN & KERUNTUTAN PARAGRAF (Suladi, Paragraf Seri Penyuluhan 2019)
+
+- **Referensi & koreferensi (hlm. 33-34):** pronomina persona/demonstratif wajib berkoreferensi dengan anteseden anaforis yang jelas; hindari kataforis rancu tanpa maujud eksplisit.
+- **Ordinal runtut (hlm. 55-56):** penanda perincian wajib konsisten (*Pertama, Kedua, Ketiga, Keempat*); pengulangan/lompatan nomor merusak pernalaran.
+- **Ketuntasan klasifikasi (hlm. 55):** gagasan utama berbilang pasti wajib diembangkan dengan penjelas sebanyak bilangan itu, tanpa sisa.
