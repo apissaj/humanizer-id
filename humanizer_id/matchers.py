@@ -250,6 +250,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Morfologi Verba (TBB-021..024) ---
+CUSTOM_RULES.extend([
+    # TBB-021: konsonan /k/ tunggal keliru pada verba berakhiran -kan (TBBBI hlm. 116)
+    (lambda p: 'letakan / tunjukan' in p,
+     [re.compile(r'(?i)\b(?:wajib|harus|perlu|hendaknya|silakan|tolong|mohon)?\s*(letakan|tunjukan|masukan\s+data|masukan\s+sampel|masukan\s+ke)\b')]),
+    # TBB-022: sufiks -i ganda pada dasar berakhiran /i/ (TBBBI hlm. 116)
+    (lambda p: 'mengisii / menelitii' in p,
+     [re.compile(r'(?i)\b[a-z]{3,}ii\b')]),
+    # TBB-023: reduplikasi verba berafiks menggandakan sufiks (TBBBI hlm. 113)
+    (lambda p: 'menyulitkan-nyulitkan' in p,
+     [re.compile(r'\b(?:me|di)\w+(?:kan|i)-(?:me|di)?\w+(?:kan|i)\b', re.IGNORECASE)]),
+    # TBB-024: klitika pasif ku- dan kau- dipisah spasi (TBBBI hlm. 117 & 412)
+    (lambda p: 'ku miliki / kau ambil' in p,
+     [re.compile(r'(?i)\b(?:ku|kau)\s+(?:ambil|miliki|baca|tulis|ketahui|pelajari|buat|susun|kirim|temukan|dapati|kumpulkan|teliti|uji)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

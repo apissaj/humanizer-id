@@ -659,6 +659,13 @@ ightarrow$ serangkai: *mahakasih*.
 4. **Bilangan '-an' Bertanda Hubung (EYD-021):* Puluhan/ratusan ditulis *tahun '50-an* atau *tahun lima puluhan*; bentuk serangkai *50an* tidak baku.
 5. **Pecahan Konsisten (EYD-022):* Pecahan ditulis *1/2* atau dieja (*setengah*); format hibrida tak lazim ditolak [telaah].
 
+### AW. Morfofonemik Verba & Klitika Pasif (Rujukan TBBBI Edisi Keempat, Bab IV hlm. 110-118 & Lampiran 1 hlm. 412)
+
+1. **Konsonan /k/ Ganda (TBB-021):* Dasar berakhiran /k/ bersufiks *-kan* wajib *k* ganda (*letakkan, tunjukkan, masukkan*); bentuk satu *k* tercadang untuk nomina (*masukan*).
+2. **Sufiks -i Menolak Dasar Berakhir /i/ (TBB-022):* Bentukan kata berakhiran huruf *ii* ganda (*mengisii, memperbaikii*) tidak berterima; gugurkan sufiks (*mengisi, memperbaiki*).
+3. **Reduplikasi Verba Bersufiks (TBB-023):* Sufiks tidak ikut direduplikasi; yang diulang adalah bentuk dasar berafiks (*menyulit-nyulitkan, mengulang-ulangi*).
+4. **Klitika Pasif Serangkai (TBB-024):* *Ku-* dan *kau-* ditulis serangkai dengan verba (*kukumpulkan, kaupelajari*), bukan terpisah spasi (*ku kumpulkan*).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

@@ -3167,6 +3167,46 @@
           "penjelasan": "EYD (hlm. 417) menetapkan penulisan pecahan dengan lambang bilangan atau ejaan penuh; format campuran yang tidak lazim ditolak.",
           "contoh_salah": "Sebanyak 1½nya responden menyetujui perubahan kebijakan anggaran.",
           "contoh_benar": "Sebanyak setengah dari responden menyetujui perubahan kebijakan anggaran."
+        },
+        {
+          "id": "TBB-021",
+          "pola": "letakan / tunjukan / masukan data (verba harus letakkan / tunjukkan / masukkan)",
+          "saran_pengganti": [
+            "letakkan / tunjukkan / masukkan (gunakan k ganda)"
+          ],
+          "penjelasan": "Merujuk TBBBI (hlm. 116), dasar kata berakhiran fonem /k/ yang diberi sufiks -kan wajib mempertahankan huruf k ganda; penulisan satu k merancukan verba dengan nomina turunan bersufiks -an.",
+          "contoh_salah": "Peneliti wajib letakan sampel uji pada wadah steril bertutup.",
+          "contoh_benar": "Peneliti wajib meletakkan sampel uji pada wadah steril bertutup."
+        },
+        {
+          "id": "TBB-022",
+          "pola": "mengisii / menelitii / memperbaikii / menghargaii (huruf ii ganda di akhir kata)",
+          "saran_pengganti": [
+            "mengisi / meneliti / memperbaiki / menghargai (satu huruf i saja)"
+          ],
+          "penjelasan": "TBBBI (hlm. 116) menegaskan dasar berakhiran fonem /i/ menolak sufiks -i; bentukan kata berakhiran 'ii' ganda tidak berterima dalam morfologi baku.",
+          "contoh_salah": "Teknisi berupaya memperbaikii sambungan jaringan yang terputus.",
+          "contoh_benar": "Teknisi berupaya memperbaiki sambungan jaringan yang terputus."
+        },
+        {
+          "id": "TBB-023",
+          "pola": "menyulitkan-nyulitkan / mengulangi-ulangi / menyulitkan-sulitkan",
+          "saran_pengganti": [
+            "menyulit-nyulitkan / mengulang-ulangi (sufiks tidak ikut direduplikasi)"
+          ],
+          "penjelasan": "Merujuk kaidah morfofonemik reduplikasi TBBBI (hlm. 113), sufiks pada verba turunan tidak ikut direduplikasi; hanya bentuk dasar yang diulang.",
+          "contoh_salah": "Prosedur birokrasi ini menyulitkan-nyulitkan para peneliti muda.",
+          "contoh_benar": "Prosedur birokrasi ini menyulit-nyulitkan para peneliti muda."
+        },
+        {
+          "id": "TBB-024",
+          "pola": "ku miliki / kau ambil / ku ketahui / kau pelajari (klitika pasif dipisah spasi)",
+          "saran_pengganti": [
+            "kumiliki / kauambil / kuketahui / kaupelajari (tulis serangkai)"
+          ],
+          "penjelasan": "TBBBI (hlm. 117 & 412) menetapkan bahwa klitika pronomina persona pasif ku- dan kau- ditulis serangkai langsung di depan kata dasar verba transitif.",
+          "contoh_salah": "Seluruh data yang ku kumpulkan telah diuji reliabilitasnya.",
+          "contoh_benar": "Seluruh data yang kukumpulkan telah diuji reliabilitasnya."
         }
       ]
     }
