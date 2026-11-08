@@ -2572,6 +2572,22 @@
           "penjelasan": "Permita (Widyaparwa 2020) meneliti fenomena manipulasi bunyi, eufemisme, dan campur kode slang dalam tuturan pergaulan santai. Penggunaan diksi informal semacam 'kurang mantap', 'cukup oke', atau 'nge-blend' ke dalam karya tulis ilmiah mencemari objektivitas dan melanggar laras bahasa denotatif ragam ilmiah.",
           "contoh_salah": "Hasil sintesis polimer ini terasa agak kurang mantap dan sedikit melenceng dari rencana.",
           "contoh_benar": "Hasil sintesis polimer ini kurang memadai dan menyimpang dari target parameter rancangan."
+        },
+        {
+          "id": "BSK-001",
+          "pola": "keajegan peristilahan kurikulum tercampur antara generasi lama dan baru: KD pada Fase D, KKM pada Kurikulum Merdeka, SK/KI di modul ajar",
+          "saran_pengganti": "Gunakan peristilahan baku BSKAP 2022 secara konsisten: Kompetensi Dasar (KD)/Kompetensi Inti (KI) → Tujuan Pembelajaran (TP); KKM angka tunggal → Kriteria Ketercapaian Tujuan Pembelajaran (KKTP); SK/KI → Capaian Pembelajaran (CP); Silabus → Alur Tujuan Pembelajaran (ATP) (BSKAP Kemendikbudristek 2022, hlm. 11-22).",
+          "penjelasan": "Panduan Pembelajaran dan Asesmen (BSKAP, Kemendikbudristek 2022) membakukan peristilahan Kurikulum Merdeka dan menggantikan terminologi Kurikulum 2013. Mencampuradukkan istilah lama dan baru dalam satu naskah kurikulum atau modul ajar melanggar asas keajegan istilah dan mengaburkan kedudukan dokumen secara regulatif.",
+          "contoh_salah": "Dalam menyusun modul ajar Kurikulum Merdeka ini, guru perlu menurunkan Kompetensi Dasar menjadi indikator pencapaian dengan mengacu pada KKM 75.",
+          "contoh_benar": "Dalam menyusun modul ajar Kurikulum Merdeka ini, guru perlu menurunkan Tujuan Pembelajaran berdasarkan Capaian Pembelajaran fase dengan mengacu pada Kriteria Ketercapaian Tujuan Pembelajaran."
+        },
+        {
+          "id": "BSK-002",
+          "pola": "pemakaian singkatan resmi kurikulum tanpa bentuk panjangnya pada kemunculan pertama: CP, TP, ATP, KKTP, P5 langsung dipakai mentah",
+          "saran_pengganti": "Pada kemunculan pertama di naskah, tulis bentuk panjang diikuti singkatan: Capaian Pembelajaran (CP), Tujuan Pembelajaran (TP), Alur Tujuan Pembelajaran (ATP), Kriteria Ketercapaian Tujuan Pembelajaran (KKTP), Projek Penguatan Profil Pelajar Pancasila (P5) (BSKAP Kemendikbudristek 2022).",
+          "penjelasan": "Konvensi akademik dan pedoman resmi BSKAP 2022 mensyaratkan bahwa singkatan resmi kurikulum wajib diperkenalkan dengan bentuk lengkapnya pada kemunculan pertama. Pemakaian singkatan mentah tanpa perkenalan menuntun pembaca awam ke kebingungan referensial.",
+          "contoh_salah": "ATP disusun dengan metode scaffolding agar KKTP dapat diukur per fase dan P5 terintegrasi.",
+          "contoh_benar": "Alur Tujuan Pembelajaran (ATP) disusun dengan metode scaffolding agar Kriteria Ketercapaian Tujuan Pembelajaran (KKTP) dapat diukur per fase dan Projek Penguatan Profil Pelajar Pancasila (P5) terintegrasi."
         }
       ]
     }

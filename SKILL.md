@@ -585,6 +585,13 @@ ightarrow$ serangkai: *mahakasih*.
 8. **Leksikon Denotatif Formal (WDY-005):** Slang eufemistis tuturan (*kurang mantap, cukup oke, nge-blend*) dilarang di register ilmiah; ganti *kurang memadai, efektif, terintegrasi* (Permita, hlm. 41-48).
 9. **Struktur K-P-O (WDY-006):** Kalimat diawali keterangan temporal/spasial lalu langsung verba tanpa subjek (*Pada saat melakukan pengambilan sampel darah di puskesmas menemukan...*) cacat struktur; sisipkan koma lalu subjek eksplisit (*...di puskesmas, petugas medis menemukan...*) (Kirana, hlm. 21).
 
+### AO. Peristilahan Asesmen & Kurikulum Nasional (Rujukan Panduan Pembelajaran dan Asesmen Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Menengah, BSKAP Kemendikbudristek RI, 2022)
+
+1. **Keajegan Istilah Kurikulum (BSK-001):** Dilarang mencampur istilah kurikulum lintas generasi dalam satu dokumen; istilah Kurikulum 2013 digantikan secara konsisten pada Kurikulum Merdeka: *Kompetensi Inti/Dasar (KI/KD) → Capaian Pembelajaran (CP) / Tujuan Pembelajaran (TP)*, *Silabus → Alur Tujuan Pembelajaran (ATP)*, *RPP → Modul Ajar (MA)*, *KKM angka tunggal → Kriteria Ketercapaian Tujuan Pembelajaran (KKTP)* (hlm. 11-22).
+2. **Pengenalan Singkatan Resmi (BSK-002):** Singkatan resmi (*CP, TP, ATP, KKTP, P5*) wajib diperkenalkan dengan bentuk panjangnya pada kemunculan pertama sebelum digunakan sebagai akronim mandiri.
+3. **Deskripsi Ketercapaian Kompetensi:** Nilai rapor dan dokumen evaluasi akademik wajib menyertakan narasi deskripsi capaian kompetensi riil (capaian tertinggi dan area bimbingan), bukan sekadar angka agregat tunggal tanpa eviden (hlm. 48-52).
+4. **Fungsi Asesmen Formatif:** Asesmen formatif berfungsi sebagai instrumen perbaikan pembelajaran (*assessment for/as learning*) dan tidak boleh dihitung langsung ke dalam akumulasi angka nilai akhir rapor (hlm. 26-28).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
