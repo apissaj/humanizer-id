@@ -547,6 +547,10 @@ ightarrow$ serangkai: *mahakasih*.
 10. **peN- pada Dasar /l/, /r/ (BPK-020):** Awalan peN- melebur jadi pe-: *pelepasan* (bukan *penglepasan*), *perusakan* (bukan *pengrusakan*), *perajin* (bukan *pengrajin*) (hlm. 14).
 11. **Konfiks Ganda Serangkai (BPK-021):** Gabungan kata + awalan & akhiran sekaligus ditulis serangkai: *menyebarluaskan, menyalahgunakan, mengikutsertakan, melipatgandakan* — bukan *menyebar luaskan, menyalah gunakan* (hlm. 33–34).
 12. **Prefiks Tunggal Terpisah (BPK-022):** Gabungan kata + awalan saja ditulis terpisah: *mengadu domba, bertanda tangan, bertepuk tangan* — bukan *mengadudomba, bertandatangan* (hlm. 34).
+13. **Pertalian Bentuk Peng-an/Per-an (BPK-023):** *Pengembangan* (transitif, berpelaku: *mengembangkan*) vs *perkembangan* (mandiri: *berkembang*); kalimat beragen (*... oleh peneliti*) wajib bentuk *peng-* (hlm. 22).
+14. **Kebijakan vs Kebijaksanaan (BPK-024):** *Kebijakan* untuk strategi institusional (*kebijakan pemerintah, kebijakan moneter*); *kebijaksanaan* untuk kearifan personal (*berkat kebijaksanaan orang tua*) (hlm. 76).
+15. **Daripada Non-Komparatif Perluasan (BPK-025):** *Biaya daripada, pangkal daripada, bagian daripada, hakikat daripada* ditolak; hapus *daripada* — hanya sah untuk perbandingan derajat (hlm. 79–80).
+16. **Analogi Profesi pe- vs Pemain Amatir (BPK-026):** *Pesepak bola, pegolf, petenis* khusus profesi; penyuka/amatir memakai *pemain sepak bola, pemain golf* [telaah] (hlm. 20–21).
 
 ### AJ. Kepaduan & Keruntutan Paragraf (Rujukan Suladi, *Paragraf: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
 

@@ -3712,6 +3712,54 @@
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 34), gabungan kata yang hanya mendapat awalan ditulis terpisah pada unsur gabungan: mengadu domba, bukan mengadudomba.",
           "contoh_salah": "Isu tersebut dimanfaatkan pihak luar untuk mengadudomba mahasiswa.",
           "contoh_benar": "Isu tersebut dimanfaatkan pihak luar untuk mengadu domba mahasiswa."
+        },
+        {
+          "id": "BPK-023",
+          "pola": "perkembangan ... oleh peneliti/pemerintah/tim/lembaga (nomina intransitif diberi agen)",
+          "saran_pengganti": [
+            "pengembangan ... oleh ... (ganti ke nomina transitif berpelaku)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 22), pengembangan (peng-an) bertalian dengan mengembangkan (transitif, berpelaku), sedangkan perkembangan (per-an) bertalian dengan berkembang (intransitif, mandiri); kalimat pasif beragen wajib memakai bentuk peng-.",
+          "contoh_salah": "Perkembangan teknologi baru oleh peneliti memerlukan waktu tiga bulan.",
+          "contoh_benar": "Pengembangan teknologi baru oleh peneliti memerlukan waktu tiga bulan."
+        },
+        {
+          "id": "BPK-024",
+          "pola": "kebijaksanaan pemerintah / kebijaksanaan moneter / kebijaksanaan fiskal",
+          "saran_pengganti": [
+            "kebijakan pemerintah",
+            "kebijakan moneter",
+            "kebijakan fiskal"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 76), kebijakan untuk strategi/politik institusional, kebijaksanaan untuk kearifan personal; frasa kebijaksanaan pemerintah tidak tepat.",
+          "contoh_salah": "Kebijaksanaan pemerintah dalam regulasi impor memicu reaksi pasar.",
+          "contoh_benar": "Kebijakan pemerintah dalam regulasi impor memicu reaksi pasar."
+        },
+        {
+          "id": "BPK-025",
+          "pola": "biaya daripada / pangkal daripada / bagian daripada / hakikat daripada",
+          "saran_pengganti": [
+            "biaya",
+            "pangkal",
+            "bagian",
+            "hakikat (hapus daripada)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 79-80), daripada hanya sah untuk perbandingan derajat; bentuk biaya daripada, pangkal daripada, bagian daripada, dan hakikat daripada ditolak.",
+          "contoh_salah": "Seluruh biaya daripada pembangunan fasilitas ditanggung masyarakat.",
+          "contoh_benar": "Seluruh biaya pembangunan fasilitas ditanggung masyarakat."
+        },
+        {
+          "id": "BPK-026",
+          "pola": "[telaah] pesepak bola / pegolf / petenis / pecatur untuk konteks kegemaran/amatir",
+          "saran_pengganti": [
+            "pemain sepak bola",
+            "pemain golf",
+            "pemain tenis",
+            "pemain catur (untuk konteks nonprofesi)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 20-21), bentukan pe- (pegolf, pesepak bola, petenis) khusus menyatakan profesi; untuk penyuka/amatir gunakan pemain.",
+          "contoh_salah": "Adik saya seorang pesepak bola yang bermain di tim sekolah.",
+          "contoh_benar": "Adik saya seorang pemain sepak bola yang bermain di tim sekolah."
         }
       ]
     }

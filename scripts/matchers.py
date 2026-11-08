@@ -436,6 +436,20 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Analogi, Pertalian Bentuk, dan Distingsi Leksikal (BPK-023..025) ---
+CUSTOM_RULES.extend([
+    # BPK-023: nomina intransitif per-an diberi agen 'oleh' -> pakai peng-an (hlm. 22)
+    (lambda p: 'perkembangan ... oleh peneliti/pemerintah' in p,
+     [re.compile(r'(?i)\bperkembangan\s+[^.!?,\n]{1,40}\s+oleh\s+(?:pemerintah|peneliti|tim|lembaga|penulis)\b')]),
+    # BPK-024: kebijaksanaan untuk ranah institusional/politik -> kebijakan (hlm. 76)
+    (lambda p: 'kebijaksanaan pemerintah / kebijaksanaan moneter' in p,
+     [re.compile(r'(?i)\bkebijaksanaan\s+(?:pemerintah|kampus|rektorat|direksi|moneter|fiskal|publik|nasional)\b')]),
+    # BPK-025: perluasan daripada non-komparatif biaya/pangkal/bagian/hakikat (hlm. 79-80)
+    (lambda p: 'biaya daripada / pangkal daripada' in p,
+     [re.compile(r'(?i)\b(?:biaya|pangkal|bagian|hakikat|hakekat|inti)\s+daripada\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
