@@ -1592,6 +1592,52 @@
           "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid IV), kata 'di mana' hanya sah sebagai kata tanya tempat, bukan penghubung klausa relatif lokatif tiruan kalke asing (where/waarin). Gunakan kata 'tempat'.",
           "contoh_salah": "Laboratorium di mana sampel diuji berada di lantai tiga gedung rektorat.",
           "contoh_benar": "Laboratorium tempat sampel diuji berada di lantai tiga gedung rektorat."
+        },
+        {
+          "id": "SPK-006",
+          "pola": "pemberian ... diberikan / pengangkatan ... diangkat / gaji ... digaji / pendaftaran ... didaftarkan / penetapan ... ditetapkan",
+          "saran_pengganti": [
+            "pemberian ... berbentuk",
+            "penghargaan dapat diberikan",
+            "gaji ... dibayarkan"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Kalimat (Sasangka, Badan Bahasa, 2015, hlm. 74-75), subjek berimbuhan peN-an yang predikatnya seakar (diberikan, diangkat, digaji) menimbulkan pemborosan; ubah predikatnya (berbentuk, dibayarkan) atau ubah subjeknya (penghargaan, karyawan).",
+          "contoh_salah": "Pemberian penghargaan dapat diberikan dalam bentuk tanda jasa dan piagam.",
+          "contoh_benar": "Pemberian penghargaan dapat berbentuk tanda jasa dan piagam."
+        },
+        {
+          "id": "SPK-007",
+          "pola": "beberapa temuan-temuan / para tamu-tamu / sejumlah data-data / seluruh siswa-siswa",
+          "saran_pengganti": [
+            "beberapa temuan",
+            "para tamu",
+            "sejumlah data",
+            "seluruh siswa"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Kalimat (Sasangka, Badan Bahasa, 2015, hlm. 75), kata yang didahului penanda jamak tidak perlu diulang; pilih penanda jamak atau reduplikasi, bukan keduanya.",
+          "contoh_salah": "Laporan itu memaparkan beberapa temuan-temuan penting dari lapangan.",
+          "contoh_benar": "Laporan itu memaparkan beberapa temuan penting dari lapangan."
+        },
+        {
+          "id": "SPK-008",
+          "pola": "sebagaimana tersebut di atas / seperti tersebut di atas",
+          "saran_pengganti": [
+            "tersebut",
+            "di atas"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Kalimat (Sasangka, Badan Bahasa, 2015, hlm. 74), frasa sebagaimana tersebut di atas adalah sinonim rangkap pemboros kata; pilih tersebut atau di atas.",
+          "contoh_salah": "Berdasarkan penjelasan sebagaimana tersebut di atas, kami menyimpulkan tiga hal.",
+          "contoh_benar": "Berdasarkan penjelasan tersebut, kami menyimpulkan tiga hal."
+        },
+        {
+          "id": "SPK-009",
+          "pola": "[telaah] pembuka partisipial tanpa konjungsi: Berbicara kepada media, dia mengatakan ...",
+          "saran_pengganti": [
+            "Ketika berbicara kepada media, dia mengatakan ... (hadirkan konjungsi bila perlu penanda klausa)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Kalimat (Sasangka, Badan Bahasa, 2015, hlm. 82-83), penanggalkan konjungsi ketika/saat pada klausa subordinatif pembuka menghapus penanda struktur; pertahankan konjungsi bila risiko rancu.",
+          "contoh_salah": "Berbicara kepada media kemarin, jurnalis itu mengatakan hasil wawancaranya.",
+          "contoh_benar": "Ketika berbicara kepada media kemarin, jurnalis itu mengatakan hasil wawancaranya."
         }
       ]
     },

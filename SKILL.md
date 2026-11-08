@@ -532,6 +532,10 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Larangan Konjungsi Rangkap Tiga:** dilarang menumpuk *walaupun/meskipun + namun/tetapi + maka* dalam satu kalimat majemuk (hlm. 82–84).
 4. **Pengutip Preposisional Merusak Subjek:** *Menurut pakar X menyatakan bahwa...* atau *Dengan perubahan zaman menuntut...* salah (K-P-O) — preposisi di depan mengubah subjek jadi keterangan; hapus preposisi atau pindah struktur (hlm. 28–29).
 5. **Kalimat Tanpa Predikat Berakhir Preposisional:** subjek panjang yang ditutup *dengan berdasarkan pada...* belum menjadi kalimat utuh; wajib munculkan verba predikat utama (hlm. 33–35).
+6. **Predikat Seakar Subjek peN-an (SPK-006):** Subjek berimbuhan peN-an tidak boleh berpredikat seakar (*Pemberian penghargaan dapat diberikan...* ditolak → *Pemberian penghargaan dapat berbentuk...* / *Penghargaan dapat diberikan...*; *Gaji...digaji* → *dibayarkan*) (hlm. 74–75).
+7. **Penanda Jamak Reduplikasi Ganda (SPK-007):** Bentuk jamak tidak boleh digandakan: *beberapa temuan-temuan, para tamu-tamu* ditolak → pilih penanda jamak (*beberapa temuan*) atau reduplikasi (*temuan-temuan*) (hlm. 75).
+8. **Sinonim Rangkap Penunjuk (SPK-008):** Frasa *sebagaimana tersebut di atas* adalah pemborosan sinonim rangkap → gunakan *tersebut* atau *di atas* (hlm. 74).
+9. **Pembuka Partisipial Tanpa Konjungsi (SPK-009):** Pembuka klausa partisipial tanpa konjungsi (*Berbicara kepada media, dia mengatakan...*) menghilangkan penanda klausa subordinatif [telaah] (hlm. 82–83).
 
 ### AI. Diksi Preskriptif Lanjutan (Rujukan Mustakim, *Bentuk dan Pilihan Kata*, Badan Bahasa, 2019)
 

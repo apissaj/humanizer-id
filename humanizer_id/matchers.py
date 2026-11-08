@@ -470,6 +470,20 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Kehematan & Kesejajaran Sasangka 2015 (SPK-006..008) ---
+CUSTOM_RULES.extend([
+    # SPK-006: predikat seakar subjek peN-an (hlm. 74-75)
+    (lambda p: 'pemberian ... diberikan / pengangkatan ... diangkat' in p,
+     [re.compile(r'(?i)\b(?:pemberian\s+[^.!?]{1,50}?\bdiberikan|pengangkatan\s+[^.!?]{1,50}?\bdiangkat|pelantikan\s+[^.!?]{1,50}?\bdilantik|penunjukan\s+[^.!?]{1,50}?\bditunjuk|penjelasan\s+[^.!?]{1,50}?\bdijelaskan|pengumuman\s+[^.!?]{1,50}?\bdiumumkan|pendaftaran\s+[^.!?]{1,50}?\bdidaftarkan|penetapan\s+[^.!?]{1,50}?\bditetapkan|pengumpulan\s+[^.!?]{1,50}?\bdikumpulkan|pembagian\s+[^.!?]{1,50}?\bdibagikan|\bgaji\s+[^.!?]{1,50}?\bdigaji)\b')]),
+    # SPK-007: penanda jamak + reduplikasi ganda (hlm. 75)
+    (lambda p: 'beberapa temuan-temuan / para tamu-tamu' in p,
+     [re.compile(r'(?i)\b(?:beberapa|para|sejumlah|seluruh)\s+([a-z]+)-\1\b')]),
+    # SPK-008: sinonim rangkap penunjuk (hlm. 74)
+    (lambda p: 'sebagaimana tersebut di atas / seperti tersebut di atas' in p,
+     [re.compile(r'(?i)\b(?:sebagaimana|seperti)\s+tersebut\s+di\s+atas\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
