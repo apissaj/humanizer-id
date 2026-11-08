@@ -3,6 +3,7 @@
 Panduan penyuntingan bahasa Indonesia akademik dan profesional untuk agen kecerdasan buatan dan platform LLM. Menghilangkan rasa kaku, membersihkan kalke terjemahan mesin, membenahi fragmentasi kalimat, dan menjaga integritas fakta ilmiah tanpa manipulasi detektor.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/apissaj/humanizer-id/actions/workflows/ci.yml/badge.svg)](https://github.com/apissaj/humanizer-id/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/apissaj/humanizer-id)](https://github.com/apissaj/humanizer-id/releases)
 
 ---
