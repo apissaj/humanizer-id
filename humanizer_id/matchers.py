@@ -284,6 +284,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Naskah Dinas Resmi (DIN-001..004) ---
+CUSTOM_RULES.extend([
+    # DIN-001: pembuka verba mentah tanpa subjek pada naskah dinas (hlm. 72)
+    (lambda p: 'Membalas surat Saudara / Merujuk surat' in p,
+     [re.compile(r'(?:^|[.!?]\s+)(?:Membalas|Merujuk|Menunjuk|Menjawab|Menindaklanjuti)\s+(?:surat|permohonan|nota|undangan|laporan)\b')]),
+    # DIN-002: sisipan adverbia pada klitika pasif (hlm. 48)
+    (lambda p: 'Masalah itu kami sudah laporkan' in p,
+     [re.compile(r'(?i)\b(?:kami|kita|mereka)\s+(?:sudah|belum|akan|telah|sedang)\s+(?:laporkan|terima|kirim|sampaikan|selesaikan|tangani|bahas)\b')]),
+    # DIN-003: pronomina '-nya' pada komunikasi orang kedua (hlm. 75)
+    (lambda p: 'Atas perhatiannya / Harap maklum adanya' in p,
+     [re.compile(r'(?i)(?:^|[.!?]\s+)(?:Atas\s+perhatiannya|Harap\s+maklum\s+adanya|Demikian\s+atas\s+bantuan\s+Saudara)\b')]),
+    # DIN-004: ganda konjungsi konsesif 'meskipun ... tetapi' (hlm. 50)
+    (lambda p: 'Meskipun ..., tetapi' in p,
+     [re.compile(r'(?i)\b(?:meskipun|walaupun|biarpun)\b[^,.!?]{3,120},\s*tetapi\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

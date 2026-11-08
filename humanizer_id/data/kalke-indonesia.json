@@ -1513,6 +1513,28 @@
           "penjelasan": "Mansyur dkk. (hlm. 26 & 43) menganalisis bahwa preposisi 'tanpa' sudah bermakna ketiadaan/peniadaan; penambahan kata ingkar 'tidak' atau 'bukan' sesudahnya menghasilkan ingkar ganda kontradiktif yang mengaburkan arti kalimat.",
           "contoh_salah": "Algoritma ini bekerja cepat tanpa tidak mengurangi akurasi model.",
           "contoh_benar": "Algoritma ini bekerja cepat tanpa mengurangi akurasi model."
+        },
+        {
+          "id": "DIN-002",
+          "pola": "Masalah itu kami sudah laporkan / Dokumen itu kita belum terima (sisipan adverbia pada klitika pasif)",
+          "saran_pengganti": [
+            "Masalah itu sudah kami laporkan (adverbia sebelum objek)",
+            "Kami belum menerima dokumen itu (kalimat aktif)"
+          ],
+          "penjelasan": "Merujuk Bahasa Indonesia untuk Pejabat Pemerintah (hlm. 48), adverbia waktu dilarang disisipkan di antara objek dan klitika pasif; sisipkan sebelum objek atau ubah ke kalimat aktif.",
+          "contoh_salah": "Masalah itu kami sudah laporkan kepada pimpinan minggu lalu.",
+          "contoh_benar": "Masalah itu sudah kami laporkan kepada pimpinan minggu lalu."
+        },
+        {
+          "id": "DIN-004",
+          "pola": "Meskipun ..., tetapi ... / Walaupun ..., tetapi ... / Biarpun ..., tetapi ...",
+          "saran_pengganti": [
+            "Meskipun X, Y",
+            "X, tetapi Y (pilih salah satu konjungsi saja)"
+          ],
+          "penjelasan": "Merujuk Bahasa Indonesia untuk Pejabat Pemerintah (hlm. 50), penggabungan konjungsi konsesif dan pertentangan dalam satu kalimat menghasilkan ganda mubazir.",
+          "contoh_salah": "Meskipun banyak lapangan kerja baru yang dibuka, tetapi masalah pengangguran belum teratasi.",
+          "contoh_benar": "Meskipun banyak lapangan kerja baru yang dibuka, masalah pengangguran belum teratasi."
         }
       ]
     },
@@ -2306,6 +2328,28 @@
           "penjelasan": "Gaya bahasa bernas Tempo memangkas rantai klausa subordinat yang dapat diwakili oleh adjektiva atau aposisi ringkas.",
           "contoh_salah": "Gedung yang mana didirikan pada tahun 1920 tersebut kini difungsikan sebagai museum.",
           "contoh_benar": "Gedung peninggalan tahun 1920 tersebut kini difungsikan sebagai museum."
+        },
+        {
+          "id": "DIN-001",
+          "pola": "Membalas surat Saudara / Merujuk surat / Menunjuk surat / Menindaklanjuti surat (verba mentah pembuka naskah dinas)",
+          "saran_pengganti": [
+            "Sehubungan dengan surat ... / Berdasarkan surat ... / Berkenaan dengan surat ..."
+          ],
+          "penjelasan": "Merujuk Bahasa Indonesia untuk Pejabat Pemerintah (hlm. 72), surat dinas dilarang membuka paragraf dengan verba mentah tanpa subjek; gunakan preposisi formal atau kalimat lengkap berpola S-P-O.",
+          "contoh_salah": "Membalas surat Saudara Nomor 123 tanggal 1 Januari, kami sampaikan persetujuan atas usulan tersebut.",
+          "contoh_benar": "Sehubungan dengan surat Saudara Nomor 123 tanggal 1 Januari, kami menyampaikan persetujuan atas usulan tersebut."
+        },
+        {
+          "id": "DIN-003",
+          "pola": "Atas perhatiannya / Harap maklum adanya / Demikian atas bantuan Saudara (pronomina '-nya' pada komunikasi orang kedua)",
+          "saran_pengganti": [
+            "Atas perhatian Saudara",
+            "Kami harap Saudara maklum",
+            "Atas bantuan Saudara"
+          ],
+          "penjelasan": "Merujuk Bahasa Indonesia untuk Pejabat Pemerintah (hlm. 75), pronomina ketiga '-nya' tidak tepat dalam komunikasi resmi orang kedua; ganti dengan acuan langsung 'Saudara/Bapak/Ibu'.",
+          "contoh_salah": "Atas perhatiannya, diucapkan terima kasih.",
+          "contoh_benar": "Atas perhatian Saudara, kami ucapkan terima kasih."
         }
       ]
     },

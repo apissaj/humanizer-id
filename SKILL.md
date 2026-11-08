@@ -673,6 +673,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Kalk 'Di Dalam Mana' (PFP-007):* Penghubung klausa relatif asing (*in which, wherein*) tidak diterjemahkan harfiah menjadi *di dalam mana*; gunakan *tempat, dengan, yang memuat*, atau strukturisasi ulang.
 4. **Ingkar Ganda (PFP-008):* Preposisi *tanpa* telah bermakna peniadaan; *tanpa tidak mengurangi* merupakan kontradiksi ganda — gugurkan kata ingkar kedua.
 
+### AY. Konvensi Naskah Dinas Resmi (Rujukan "Bahasa Indonesia untuk Pejabat Pemerintah", Seri Penyuluhan Badan Bahasa, Bab II hlm. 48-50 & Bab III hlm. 71-76)
+
+1. **Pembuka Verba Mentah (DIN-001):* Naskah dinas dilarang dibuka dengan verba mentah tanpa subjek (*Membalas/Merujuk/Menunjuk/Menindaklanjuti surat...*); gunakan *Sehubungan dengan/Berdasarkan/Berkenaan dengan surat...* atau kalimat lengkap S-P-O.
+2. **Sisipan Adverbia pada Klitika (DIN-002):* Pasif berklitika menolak sisipan adverbia (*Masalah itu kami sudah laporkan*); posisi tepat sebelum objek (*sudah kami laporkan*) atau ubah ke aktif.
+3. **Pronomina Orang Kedua (DIN-003):* Penutup surat menggunakan acuan langsung *Saudara/Bapak/Ibu*; *Atas perhatiannya* / *Harap maklum adanya* menyalahi konvensi komunikasi resmi.
+4. **Konsesif Tunggal (DIN-004):* *Meskipun ... tetapi* adalah ganda konjungsi mubazir; pilih *Meskipun X, Y* atau *X, tetapi Y*.
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
