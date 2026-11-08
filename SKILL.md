@@ -544,6 +544,12 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Keruntutan Ordinal:** penanda perincian berurutan wajib runtut dan konsisten (*Pertama, Kedua, Ketiga, Keempat*) — pengulangan (*Ketiga, Ketiga*) atau lompatan nomor merusak pernalaran paragraf (hlm. 55–56).
 3. **Ketuntasan Klasifikasi:** jika kalimat topik memuat bilangan pasti (*tiga faktor*), kalimat penjelas wajib mengembangkan ketiga faktor secara lengkap tanpa meninggalkan sisa (hlm. 55).
 
+### AK. Bahasa Pewara & Salam Resmi (Rujukan Kurniawan dkk., *Bahasa Indonesia untuk Pewara*, Badan Bahasa, 2019)
+
+1. **Frasa Pewara Bernalar:** *Waktu dan tempat kami persilakan* salah nalar — yang dipersilakan orang, bukan waktu-tempat; perbaikan: *Panitia akan menyampaikan waktu dan tempat* (hlm. 10, 90).
+2. **Penyapa Jabatan Tanpa Honorifik Ganda:** *Yang kami hormati Kepala Biro, Bapak X* — kata penyapa *Bapak/Ibu* hanya menyertai nama orang, bukan jabatan (*Bapak Kepala Biro* salah) (hlm. 11, 88).
+3. **Sapaan Jamak Non-Ganda:** *Ibu-ibu / Bapak dan Ibu sekalian / hadirin* — *para, sekalian,* dan bentuk ulang tidak boleh digabung (hlm. 86–87; selaras `SPB-001`).
+
 ---
 
 ## 5. Prosedur Kerja Tiga Langkah

@@ -234,3 +234,7 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **Referensi & koreferensi (hlm. 33-34):** pronomina persona/demonstratif wajib berkoreferensi dengan anteseden anaforis yang jelas; hindari kataforis rancu tanpa maujud eksplisit.
 - **Ordinal runtut (hlm. 55-56):** penanda perincian wajib konsisten (*Pertama, Kedua, Ketiga, Keempat*); pengulangan/lompatan nomor merusak pernalaran.
 - **Ketuntasan klasifikasi (hlm. 55):** gagasan utama berbilang pasti wajib diembangkan dengan penjelas sebanyak bilangan itu, tanpa sisa.
+## BAHASA PEWARA & SALAM RESMI (Kurniawan dkk., Pewara Seri Penyuluhan 2019)
+
+- **frasa bernalar (hlm. 10, 90):** *waktu dan tempat kami persilakan* salah nalar — yang dipersilakan orangnya, bukan waktu/tempatnya.
+- **sapaan jabatan (hlm. 11, 88):** *Kepala Biro, Bapak X* — sapaan *Bapak/Ibu* dilarang langsung mendahului jabatan tanpa nama orang.

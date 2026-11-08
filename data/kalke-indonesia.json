@@ -1548,6 +1548,36 @@
             "tahun": 2019,
             "halaman": "55-56"
           }
+        },
+        {
+          "id": "PWR-001",
+          "pola": "frasa pewara tidak bernalar: waktu dan tempat kami persilakan atau mengambil tempat duduk masing-masing",
+          "saran_pengganti": "Susun ulang agar logis: 'Waktu dan tempat akan disampaikan oleh panitia' atau 'Kepada Bapak/Ibu X kami persilakan menyampaikan ...' (bukan 'Waktu dan tempat kami persilakan'); 'harap mengambil tempat duduk yang telah disediakan' (bukan 'tempat duduknya masing-masing') (Kurniawan dkk., hlm. 10, 90).",
+          "penjelasan": "Bahasa Indonesia untuk Pewara (Kurniawan dkk., Badan Bahasa 2019) menyebut frasa Waktu dan tempat kami persilakan tidak bernalar karena yang dipersilakan seharusnya orang yang bertindak, bukan waktu dan tempat; demikian pula mengambil tempat duduknya masing-masing keliru karena yang diambil ialah kursi yang disediakan, bukan 'masing-masing' tempatnya. Frasa-salih pewara semacam ini lazim tetapi salah nalar.",
+          "contoh_salah": "Waktu dan tempat kami persilakan kepada panitia penyelenggara.",
+          "contoh_benar": "Panitia penyelenggara akan menyampaikan waktu dan tempat kegiatan ini.",
+          "rujukan": {
+            "penulis": "Dwi Widayati Kurniawan, Maman Suryaman, dkk.",
+            "buku": "Bahasa Indonesia untuk Pewara: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "10, 90"
+          }
+        },
+        {
+          "id": "PWR-002",
+          "pola": "penyapa jabatan dengan honorifik ganda: Bapak Kepala Biro, Ibu Direktur, atau Yang kami hormati Bapak Kepala",
+          "saran_pengganti": "Pisahkan honorifik dan jabatan: 'Yang kami hormati Kepala Biro Keuangan, Bapak X' — kata penyapa Bapak/Ibu hanya bila diikuti nama orang, bukan jabatan (Kurniawan dkk., hlm. 11, 88).",
+          "penjelasan": "Bahasa Indonesia untuk Pewara (Kurniawan dkk., 2019, hlm. 11 dan 88) memerikan kesalahan penyapaan pewara: menyebut jabatan dengan honorifik (Bapak Kepala Biro, Ibu Direktur Jenderal) salah karena kata penyapa Bapak/Ibu hanya layak menyertai nama orang. Pola yang benar ialah menyebut jabatan dulu, lalu nama pemegangnya (Kepala Biro Keuangan, Bapak Muhamad Irsal).",
+          "contoh_salah": "Yang kami hormati Bapak Kepala Bagian Keuangan, kami persilakan menyampaikan laporan.",
+          "contoh_benar": "Yang kami hormati Kepala Bagian Keuangan, Bapak Aris, kami persilakan menyampaikan laporan.",
+          "rujukan": {
+            "penulis": "Dwi Widayati Kurniawan, Maman Suryaman, dkk.",
+            "buku": "Bahasa Indonesia untuk Pewara: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "11, 88"
+          }
         }
       ]
     },
