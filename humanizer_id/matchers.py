@@ -188,6 +188,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Bab X: Pelesapan & Koordinasi Verba Transitif ---
+CUSTOM_RULES.extend([
+    # TBB-009: pelesapan subjek asimetris pada anak kalimat pasif awal (TBBBI hlm. 355)
+    (lambda p: 'pelesapan subjek asimetris' in p,
+     [re.compile(r'(?:^|[.!?]\s+)Setelah\s+di\w+(?:kan|i)?\s+[^,.!?]{2,40},\s+(?:mereka|peneliti|pemerintah|tim|kita)\s+\w+', re.IGNORECASE)]),
+    # TBB-010: posisi objek terbalik pada koordinasi verba transitif (TBBBI hlm. 356)
+    (lambda p: 'posisi objek mendahului verba kedua' in p,
+     [re.compile(r'\b(menguji|menganalisis|mencari|mencuri|menangkap|memburu|mengumpulkan|mengolah)\s+[^,.;!?]{2,30}(?:tersebut|itu)\s+(?:atau|dan)\s+(?:meng|me)\w+\s*[.?]', re.IGNORECASE)]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

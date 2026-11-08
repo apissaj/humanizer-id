@@ -631,6 +631,12 @@ ightarrow$ serangkai: *mahakasih*.
 7. **Basa-Basi Penunda Fakta (TMP-001):** Pembuka birokratis *Sehubungan dengan hal tersebut di atas maka*, *Dengan ini diberitahukan bahwa*, *Dalam rangka untuk dapat* dihapus; langsung ke pokok kalimat atau *Oleh karena itu* (Bahasa! Tempo, 2008).
 8. **Pereduksian Klausa Berpanjang-Panjang (TMP-002):** Anak kalimat relatif mubazir (*gedung yang mana didirikan tahun 1920*) dipangkas jadi pewatas nomina (*gedung peninggalan tahun 1920*) [telaah] (Tempo).
 
+### AS. Sintaksis Hubungan Antarklausa & Pelesapan Konstituen (Rujukan Tata Bahasa Baku Bahasa Indonesia, Edisi Keempat, Bab X, hlm. 354–356)
+
+1. **Pelesapan Subjek Asimetris (TBB-009):** Pelesapan subjek pada anak kalimat pembuka (*Setelah dibahas seharian, ...*) hanya sah bila subjeknya identik dengan induk kalimat; bila berbeda, hadirkan subjek eksplisit pada anak kalimat (*Setelah rancangan itu dibahas seharian, ...*) atau ubah induknya menjadi pasif.
+2. **Posisi Objek Koordinatif (TBB-010):** Objek bersama dua verba transitif koordinatif wajib diletakkan setelah verba terakhir (*menguji atau menganalisis sampel itu*), bukan setelah verba pertama (*menguji sampel itu atau menganalisis*).
+3. **Enklitik Posesif Sematan (TBB-011):** Partikel baku pada klausa sematan pemarkah *yang* adalah *-nya* sekalipun pemiliknya jamak (*para guru yang gajinya*), bukan pronomina bebas (*yang gaji mereka*) [telaah].
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

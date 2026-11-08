@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "title": "Pedoman Penulisan Karya Ilmiah & Format Tugas Akhir Perguruan Tinggi Indonesia",
+    "version": "1.0.0",
+    "deskripsi": "Kompilasi konvensi tata tulis, margin, sistem sitasi, dan aturan penomoran bab/sub-bab dari perguruan tinggi terkemuka di Indonesia."
+  },
+  "kampus": {
+    "ui": {
+      "nama": "Universitas Indonesia (UI)",
+      "pedoman": "Pedoman Teknis Penulisan Tugas Akhir Mahasiswa UI",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA 7th Edition (Sosio-Humaniora) / IEEE (Teknik & Fasilkom)",
+      "aturan_khusus": [
+        "Abstrak ditulis dwibahasa (Bahasa Indonesia maks 200 kata, Bahasa Inggris).",
+        "Format rujukan tabel dan gambar bernomor urut bab (Tabel 1.1, Gambar 2.3).",
+        "Gaya bahasa impersonal tanpa kata ganti orang pertama/kedua."
+      ]
+    },
+    "itb": {
+      "nama": "Institut Teknologi Bandung (ITB)",
+      "pedoman": "Pedoman Penulisan Tugas Akhir Sarjana ITB",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (STEI / FTI) / Harvard / APA",
+      "aturan_khusus": [
+        "Sampul depan minimalis tanpa mencantumkan nama dosen pembimbing di halaman jilid luar.",
+        "Penomoran rumus/persamaan wajib menggunakan tanda kurung: (1.1), (2.4).",
+        "Daftar istilah teknis wajib dicantumkan jika menggunakan padanan khusus."
+      ]
+    },
+    "ugm": {
+      "nama": "Universitas Gadjah Mada (UGM)",
+      "pedoman": "Pedoman Penulisan Skripsi & Tugas Akhir UGM (DIKE FMIPA / FT)",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Ilmu Komputer & Teknik) / APA (MIPA)",
+      "aturan_khusus": [
+        "Rujukan rumus wajib menggunakan format: 'Persamaan (nomor)' alih-alih 'rumus di atas'.",
+        "Bab Simpulan wajib menjawab rumusan masalah secara numerik/faktual; Bab Saran hanya memuat batasan teknis untuk penelitian lanjutan.",
+        "Judul skripsi wajib dwibahasa presisi."
+      ]
+    },
+    "its": {
+      "nama": "Institut Teknologi Sepuluh Nopember (ITS)",
+      "pedoman": "Buku Pedoman Tugas Akhir & Tesis ITS",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 2.5,
+        "kiri": 3.0,
+        "kanan": 2.0
+      },
+      "gaya_sitasi_umum": "IEEE",
+      "aturan_khusus": [
+        "Margin kanan dan bawah lebih ramping (2.5 cm bawah, 2.0 cm kanan).",
+        "Tinjauan pustaka menekankan kebaruan (state of the art) riset 5 tahun terakhir.",
+        "Rujukan tabel ditempatkan di atas tabel, rujukan gambar di bawah gambar."
+      ]
+    },
+    "ipb": {
+      "nama": "IPB University",
+      "pedoman": "Pedoman Penulisan Karya Ilmiah (PPKI) IPB Edisi Ke-4",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Name-Year System (Sistem Nama-Tahun IPB)",
+      "aturan_khusus": [
+        "Penomoran sub-bab TIDAK menggunakan titik di akhir (Contoh: '1.1 Latar Belakang', BUKAN '1.1. Latar Belakang').",
+        "Awal paragraf berjarak indentasi tepat 1.0 cm (atau 7 ketukan).",
+        "Nama ilmiah spesies (flora/fauna) wajib miring lengkap dengan autoritas pada penyebutan pertama (misal: Oryza sativa L.)."
+      ]
+    },
+    "undip": {
+      "nama": "Universitas Diponegoro (UNDIP)",
+      "pedoman": "Pedoman Penulisan Skripsi & Karya Ilmiah UNDIP",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Teknik & FSM) / APA / Harvard",
+      "aturan_khusus": [
+        "Kesejajaran hierarki judul bab menggunakan huruf kapital tebal di tengah.",
+        "Kaidah kalimat pasif ilmiah di bab Metodologi wajib dipatuhi."
+      ]
+    },
+    "unpad": {
+      "nama": "Universitas Padjadjaran (UNPAD)",
+      "pedoman": "Pedoman Penulisan Karya Ilmiah UNPAD",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA 7th Edition / Chicago",
+      "aturan_khusus": [
+        "Abstrak maksimal 250 kata dalam satu paragraf dengan spasi tunggal.",
+        "Penulisan kata serapan wajib mengikuti EYD Edisi V dan KBBI."
+      ]
+    },
+    "unair": {
+      "nama": "Universitas Airlangga (UNAIR)",
+      "pedoman": "Pedoman Penulisan Skripsi & Tesis UNAIR",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Vancouver (Kedokteran/Farmasi) / APA (Sosial)",
+      "aturan_khusus": [
+        "Pemisahan tegas penulisan sitasi biomedis bernomor (Vancouver) vs sitasi nama-tahun."
+      ]
+    },
+    "ub": {
+      "nama": "Universitas Brawijaya (UB)",
+      "pedoman": "Buku Pedoman Penulisan Skripsi Universitas Brawijaya",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Teknik/FILKOM) / APA",
+      "aturan_khusus": [
+        "Larangan pemakaian kata hubung intrakalimat di awal kalimat (sehingga, sedangkan, karena).",
+        "Paragraf minimal terdiri atas dua kalimat efektif."
+      ]
+    },
+    "telkom": {
+      "nama": "Telkom University (Tel-U)",
+      "pedoman": "Buku Panduan Tugas Akhir Telkom University",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE",
+      "aturan_khusus": [
+        "Format artikel ilmiah (paper IEEE) sebagai syarat kelulusan di samping buku TA.",
+        "Rujukan perangkat lunak, repositori GitHub, dan dataset publik wajib dicantumkan dalam daftar pustaka."
+      ]
+    },
+    "udinus": {
+      "nama": "Universitas Dian Nuswantoro (UDINUS)",
+      "pedoman": "Buku Pedoman Skripsi Fakultas Ilmu Komputer (FIK) & Fakultas Teknik UDINUS",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "IEEE (Informatika, SI, TI) / APA",
+      "aturan_khusus": [
+        "Sistematika skripsi rekayasa perangkat lunak wajib memuat pengujian fungsionalitas (black-box) dan pengujian pengguna.",
+        "Penulisan kode program (source code) wajib menggunakan format monospace berbingkai rapi.",
+        "Penyajian flowchart, arsitektur sistem, dan UML wajib berstandar baku dengan penjelasan naratif di bawah gambar."
+      ]
+    },
+    "uns": {
+      "nama": "Universitas Sebelas Maret (UNS)",
+      "pedoman": "Pedoman Penulisan Skripsi dan Tugas Akhir UNS",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style / IEEE",
+      "aturan_khusus": [
+        "Penulisan bab menggunakan angka Romawi (BAB I, BAB II), sedangkan sub-bab menggunakan sistem alfanumerik (A., 1., a.) atau desimal berjenjang (1.1, 1.2).",
+        "Jarak spasi teks utama adalah 1.5 spasi atau 2 spasi tergantung fakultas, dengan jenis huruf Times New Roman 12 pt.",
+        "Abstrak ditulis dwibahasa (Indonesia dan Inggris) maksimal 200–250 kata, dilengkapi 3–5 kata kunci."
+      ]
+    },
+    "unnes": {
+      "nama": "Universitas Negeri Semarang (UNNES)",
+      "pedoman": "Pedoman Penulisan Karya Ilmiah UNNES",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style (edisi ke-7)",
+      "aturan_khusus": [
+        "Menggunakan sistem numerik desimal bertingkat (1.1, 1.1.1) tanpa titik di akhir nomor sub-bab.",
+        "Kutipan langsung lebih dari 40 kata (4 baris) diketik dengan jarak 1 spasi, menjorok 1 tab (1,2 cm) dari margin kiri tanpa tanda petik.",
+        "Daftar pustaka menggunakan format hanging indent (1,25 cm) dengan spasi tunggal antarbaris dalam satu entri dan spasi ganda antarentri."
+      ]
+    },
+    "upi": {
+      "nama": "Universitas Pendidikan Indonesia (UPI)",
+      "pedoman": "Pedoman Penulisan Karya Tulis Ilmiah UPI",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style 7th Edition",
+      "aturan_khusus": [
+        "Sistematika skripsi penelitian pendidikan wajib memuat bab Analisis Data dan Pembahasan yang terpisah dari Temuan.",
+        "Font utama Times New Roman 12 pt atau Arial 11 pt dengan jarak 1.5 spasi.",
+        "Judul bab dicetak tebal dengan huruf kapital di tengah (center alignment) tanpa titik akhir."
+      ]
+    },
+    "unhas": {
+      "nama": "Universitas Hasanuddin (UNHAS)",
+      "pedoman": "Buku Pedoman Penulisan Skripsi dan Tesis Universitas Hasanuddin",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Harvard / Vancouver (Kedokteran/Kesehatan) / IEEE (Teknik)",
+      "aturan_khusus": [
+        "Penomoran halaman bab awal (halaman judul bab) diletakkan di tengah bawah, sedangkan halaman lanjutan diletakkan di sudut kanan atas.",
+        "Kutipan bahasa asing dalam teks wajib diterjemahkan ke dalam bahasa Indonesia atau dicetak miring jika berupa istilah aslinya.",
+        "Lampiran wajib diberi nomor urut dan judul rujukan yang jelas di dalam teks utama skripsi."
+      ]
+    },
+    "unand": {
+      "nama": "Universitas Andalas (UNAND)",
+      "pedoman": "Buku Panduan Penulisan Skripsi Universitas Andalas",
+      "margin_cm": {
+        "atas": 4.0,
+        "bawah": 3.0,
+        "kiri": 4.0,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "APA Style / Harvard",
+      "aturan_khusus": [
+        "Menggunakan margin standar 4-3-4-3 cm dengan kertas A4 80 gram.",
+        "Abstrak ditulis dalam satu paragraf tunggal tanpa indentasi, jarak spasi 1, maksimal 250 kata.",
+        "Persamaan matematis diberi nomor dalam kurung di batas margin kanan, misalnya (1.1)."
+      ]
+    },
+    "jurnal-dikbud": {
+      "nama": "Jurnal Pendidikan dan Kebudayaan (Kemendikbudristek)",
+      "pedoman": "Pedoman Penulisan Artikel Jurnal Pendidikan dan Kebudayaan Kemendikbudristek (Repositori ID 493)",
+      "margin_cm": {
+        "atas": 2.5,
+        "bawah": 2.5,
+        "kiri": 3.0,
+        "kanan": 2.5
+      },
+      "gaya_sitasi_umum": "Nama-tahun (Chicago author-date / analog APA): Dekker, N. 1992. Judul. Kota: Penerbit.",
+      "aturan_khusus": [
+        "Naskah belum pernah diterbitkan; diketik satu spasi kertas A4 huruf Verdana 9, panjang 15-30 halaman.",
+        "Judul artikel maksimal 14 kata (tidak termasuk sub judul dan kata penghubung), dwibahasa Indonesia-Inggris.",
+        "Abstrak 150-200 kata satu paragraf dwibahasa, memuat tujuan, metode, hasil, kesimpulan; TANPA acuan pustaka, catatan kaki, kutipan, singkatan/akronim, atau informasi matematis.",
+        "Kata kunci 3-5 kata/frasa penting, spesifik, representatif.",
+        "Nama penulis lengkap TANPA gelar, pangkat, atau jabatan; sertakan afiliasi lembaga dan email korespondensi.",
+        "Struktur artikel hasil penelitian: Pendahuluan (10%), Kajian Literatur, Metode, Hasil dan Pembahasan, Simpulan dengan proporsi halaman yang diatur.",
+        "Rujukan sepenulis-setahun ganda diberi akhiran a, b, c secara kronologis atau abjad judul.",
+        "Editor kumpulan artikel ditulis 'ed.' (satu) atau 'eds.' (lebih dari satu) pada rujukan."
+      ]
+    },
+    "jurnal-jipp": {
+      "nama": "Jurnal Inovasi dan Perekayasa Pendidikan / JIPP (Balitbang Kemdiknas)",
+      "pedoman": "Panduan Penulisan Artikel JIPP, Pusat Penelitian dan Inovasi Pendidikan Balitbang (Repositori ID 192)",
+      "margin_cm": {
+        "atas": 3.0,
+        "bawah": 3.0,
+        "kiri": 3.5,
+        "kanan": 3.0
+      },
+      "gaya_sitasi_umum": "Alfabetis-Kronologis (Nama, Tahun. Judul. Kota: Penerbit)",
+      "aturan_khusus": [
+        "Naskah belum pernah diterbitkan di media lain, diketik 1,5 spasi pada kertas kuarto, panjang 15-20 halaman.",
+        "Abstrak dwibahasa Indonesia dan Inggris 100-150 kata (lebih ringkas dari standar internasional).",
+        "Kata kunci tepat 5 pengertian (descriptor).",
+        "Proporsi halaman artikel hasil penelitian: Pendahuluan (10%), Kajian Literatur (15%), Metodologi (10%), Hasil dan Pembahasan (50%), Simpulan dan Saran (15%).",
+        "Proporsi halaman artikel pemikiran/reviu teori: Pendahuluan (10%), Kajian Literatur dan Pembahasan/Pengembangan Teori (70%), Simpulan dan Saran (20%).",
+        "Pustaka acuan diurutkan secara alfabetis dan kronologis."
+      ]
+    }
+  }
+}
