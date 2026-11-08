@@ -1483,6 +1483,36 @@
           "penjelasan": "TBBBI (hlm. 328) menetapkan wujud baku keterangan kesalingan adalah 'satu sama lain'; penambahan 'saling' pada konstruksi yang telah memuat 'satu sama lain' merupakan pleonasme ganda.",
           "contoh_salah": "Modul-modul pembelajaran tersebut saling berinteraksi satu sama lain dalam sistem.",
           "contoh_benar": "Modul-modul pembelajaran tersebut berinteraksi satu sama lain dalam sistem."
+        },
+        {
+          "id": "PFP-006",
+          "pola": "antara ... sampai / antara ... hingga / antara ... atau",
+          "saran_pengganti": [
+            "antara X dan Y (gunakan konjungsi 'dan')"
+          ],
+          "penjelasan": "Merujuk kaidah frasa preposisional berpasangan (hlm. 43), preposisi 'antara' yang menandai dua kutub hanya berpasangan dengan konjungsi koordinatif 'dan'; perangkaian dengan 'sampai/hingga/atau' tidak baku.",
+          "contoh_salah": "Suhu reaksi dipertahankan antara 100 sampai 120 derajat Celsius.",
+          "contoh_benar": "Suhu reaksi dipertahankan antara 100 dan 120 derajat Celsius."
+        },
+        {
+          "id": "PFP-007",
+          "pola": "di dalam mana / ke dalam mana (kalk penghubung klausa in which / waarin)",
+          "saran_pengganti": [
+            "tempat / dengan / yang memuat / di tempat tersebut (ganti dengan kata sambung atau penjelas lugas)"
+          ],
+          "penjelasan": "Konstruksi 'di dalam mana' dan 'ke dalam mana' merupakan kalke terjemahan harfiah dari konstruksi relatif bahasa Barat (in which, wherein) yang merusak struktur klausa bahasa Indonesia baku.",
+          "contoh_salah": "Sistem operasi menyediakan ruang memori di dalam mana setiap thread dapat dieksekusi.",
+          "contoh_benar": "Sistem operasi menyediakan ruang memori tempat setiap thread dapat dieksekusi."
+        },
+        {
+          "id": "PFP-008",
+          "pola": "tanpa tidak / tanpa bukan (ingkar ganda kontradiktif)",
+          "saran_pengganti": [
+            "tanpa / dengan (gugurkan kata ingkar kedua)"
+          ],
+          "penjelasan": "Mansyur dkk. (hlm. 26 & 43) menganalisis bahwa preposisi 'tanpa' sudah bermakna ketiadaan/peniadaan; penambahan kata ingkar 'tidak' atau 'bukan' sesudahnya menghasilkan ingkar ganda kontradiktif yang mengaburkan arti kalimat.",
+          "contoh_salah": "Algoritma ini bekerja cepat tanpa tidak mengurangi akurasi model.",
+          "contoh_benar": "Algoritma ini bekerja cepat tanpa mengurangi akurasi model."
         }
       ]
     },
@@ -3207,6 +3237,16 @@
           "penjelasan": "TBBBI (hlm. 117 & 412) menetapkan bahwa klitika pronomina persona pasif ku- dan kau- ditulis serangkai langsung di depan kata dasar verba transitif.",
           "contoh_salah": "Seluruh data yang ku kumpulkan telah diuji reliabilitasnya.",
           "contoh_benar": "Seluruh data yang kukumpulkan telah diuji reliabilitasnya."
+        },
+        {
+          "id": "PFP-005",
+          "pola": "sejak pada / semenjak pada",
+          "saran_pengganti": [
+            "sejak / semenjak (gugurkan kata 'pada')"
+          ],
+          "penjelasan": "Merujuk Mansyur dkk. (Preposisi dan Frase Berpreposisi, hlm. 26 & 52), preposisi sejak telah menandai titik awal temporal secara mandiri; penambahan kata depan 'pada' merupakan pleonasme kontaminasi preposisi ganda.",
+          "contoh_salah": "Kebijakan subsidi pupuk telah diterapkan sejak pada tahun 2015.",
+          "contoh_benar": "Kebijakan subsidi pupuk telah diterapkan sejak tahun 2015."
         }
       ]
     }

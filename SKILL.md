@@ -666,6 +666,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Reduplikasi Verba Bersufiks (TBB-023):* Sufiks tidak ikut direduplikasi; yang diulang adalah bentuk dasar berafiks (*menyulit-nyulitkan, mengulang-ulangi*).
 4. **Klitika Pasif Serangkai (TBB-024):* *Ku-* dan *kau-* ditulis serangkai dengan verba (*kukumpulkan, kaupelajari*), bukan terpisah spasi (*ku kumpulkan*).
 
+### AX. Delimitasi Preposisi dan Frasa Berpreposisi (Rujukan Effendi & Aritonang, "Preposisi dan Frase Berpreposisi", Pusat Bahasa Depdikbud 1992)
+
+1. **Sejak Pada (PFP-005):* Preposisi *sejak* telah menandai titik awal waktu secara mandiri; *sejak pada tahun 2015* adalah penumpukan preposisi ganda — gugurkan *pada*.
+2. **Pasangan Antara (PFP-006):* Korelatif baku untuk *antara* adalah *dan* (*antara 100 dan 120 derajat*); *antara ... sampai/hingga/atau* tidak baku.
+3. **Kalk 'Di Dalam Mana' (PFP-007):* Penghubung klausa relatif asing (*in which, wherein*) tidak diterjemahkan harfiah menjadi *di dalam mana*; gunakan *tempat, dengan, yang memuat*, atau strukturisasi ulang.
+4. **Ingkar Ganda (PFP-008):* Preposisi *tanpa* telah bermakna peniadaan; *tanpa tidak mengurangi* merupakan kontradiksi ganda — gugurkan kata ingkar kedua.
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

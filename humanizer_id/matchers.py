@@ -267,6 +267,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Preposisi & Frasa Berpreposisi (PFP-005..008) ---
+CUSTOM_RULES.extend([
+    # PFP-005: penumpukan preposisi temporal sejak pada (Effendi & Aritonang hlm. 26 & 52)
+    (lambda p: 'sejak pada / semenjak pada' in p,
+     [re.compile(r'\b(sejak|semenjak)\s+pada\b', re.IGNORECASE)]),
+    # PFP-006: pasangan korelatif antara dengan selain 'dan' (Effendi & Aritonang hlm. 43)
+    (lambda p: 'antara ... sampai / antara ... hingga' in p,
+     [re.compile(r'\bantara\b[^,.!?]{2,60}?\b(?:sampai|hingga|ataupun|atau)\b', re.IGNORECASE)]),
+    # PFP-007: kalk klausa relatif 'di dalam mana' (in which / wherein)
+    (lambda p: 'di dalam mana / ke dalam mana' in p,
+     [re.compile(r'\b(?:di|ke)\s+dalam\s+mana\b', re.IGNORECASE)]),
+    # PFP-008: ingkar ganda tanpa tidak / tanpa bukan
+    (lambda p: 'tanpa tidak / tanpa bukan' in p,
+     [re.compile(r'\btanpa\s+(?:tidak|bukan)\b', re.IGNORECASE)]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
