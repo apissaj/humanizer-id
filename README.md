@@ -157,6 +157,37 @@ Humanizer ID mendukung konvensi dan pedoman tugas akhir/skripsi spesifik dari pe
 
 ---
 
+## Instalasi Paket Python (PyPI)
+
+Mesin audit `humanizer-id` tersedia sebagai paket Python mandiri:
+
+```bash
+pip install humanizer-id
+```
+
+Setelah terpasang, gunakan lewat CLI:
+
+```bash
+# Audit naskah langsung
+humanizer-id naskah.md
+
+# Jalankan teks demo bawaan
+humanizer-id --demo
+```
+
+Atau sebagai modul Python:
+
+```python
+from humanizer_id.audit import load_default_data, audit_text
+
+kalke, glos = load_default_data()
+findings = audit_text("Naskah yang ingin diperiksa...", kalke, glos)
+for f in findings:
+    print(f["id"], "-", f["pola"])
+```
+
+---
+
 ## Cara Penggunaan
 
 ### 1. Salin Cepat untuk ChatGPT, Claude Web, & Gemini Gems

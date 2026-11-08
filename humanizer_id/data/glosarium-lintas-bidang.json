@@ -1,0 +1,534 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "metadata": {
+    "title": "Glosarium Istilah Baku & Padanan Lintas Kalangan (Teknologi, Hukum, Jurnalistik, Bisnis)",
+    "version": "1.0.0",
+    "author": "Hafizh Muzani (apissaj)",
+    "license": "MIT",
+    "description": "Kompilasi padanan istilah asing, kaidah register, dan diksi baku bahasa Indonesia dari berbagai kalangan profesi: akademisi, rekayasawan perangkat lunak, praktisi hukum, jurnalis, dan eksekutif bisnis.",
+    "rujukan_pemerintah": {
+      "nama": "PASTI (Portal Pemadanan Istilah) Badan Pengembangan dan Pembinaan Bahasa Kemendikdasmen RI",
+      "url": "https://pasti.kemendikdasmen.go.id/",
+      "cakupan": "172.931 istilah dari 59 ranah ilmu pengetahuan"
+    },
+    "rujukan_pedoman": [
+      {
+        "judul": "Pedoman Umum Pembentukan Istilah (PUPI) Edisi Ketiga",
+        "penulis": "Panitia Pengembangan Bahasa Indonesia (disempurnakan Mabbim: Moeliono, Sugono, Rifai dkk.)",
+        "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional, 2005 (Keputusan Mendiknas No. 146/U/2004)",
+        "bagian_relevan": "Persyaratan istilah baik (hlm. 1-2); pemadanan via penerjemahan-perekaan-penyerapan (hlm. 5-8); larangan penjamakan bentuk jamak asing (hlm. 5)"
+      },
+      {
+        "judul": "Daftar Istilah Linguistik Asing-Indonesia",
+        "penulis": "Pusat Pembinaan dan Pengembangan Bahasa",
+        "penerbit": "Depdikbud (Repositori ID 2472, 59 hlm.)",
+        "bagian_relevan": "Padanan resmi istilah linguistik asing ke bahasa Indonesia"
+      },
+      {
+        "judul": "Glosarium Linguistik",
+        "penulis": "Pusat Bahasa",
+        "penerbit": "Departemen Pendidikan Nasional (Repositori ID 4342, 97 hlm., 2002)",
+        "bagian_relevan": "Kodifikasi definisi resmi istilah kebahasaan dan wacana"
+      }
+    ]
+  },
+  "bidang": {
+    "teknologi_dan_rekayasa": {
+      "deskripsi": "Istilah baku bidang informatika, rekayasa perangkat lunak, dan kecerdasan buatan.",
+      "istilah": [
+        {
+          "asing": "API (Application Programming Interface)",
+          "baku": "antarmuka pemrograman aplikasi",
+          "catatan": "Boleh disingkat API dalam teks teknis."
+        },
+        {
+          "asing": "cache",
+          "baku": "tembolok",
+          "catatan": "Penyimpanan sementara berkecepatan tinggi."
+        },
+        {
+          "asing": "database",
+          "baku": "basis data",
+          "catatan": "Bukan data base atau pangkalan data."
+        },
+        {
+          "asing": "framework",
+          "baku": "kerangka kerja",
+          "catatan": "Misalnya kerangka kerja Next.js atau Flutter."
+        },
+        {
+          "asing": "front-end",
+          "baku": "sisi depan / antarmuka pengguna",
+          "catatan": "Gunakan istilah asli jika merujuk judul posisi pekerjaan (Front-End Engineer)."
+        },
+        {
+          "asing": "backend",
+          "baku": "sisi belakang / punggung sistem",
+          "catatan": "Arsitektur server dan pengolahan data."
+        },
+        {
+          "asing": "deployment",
+          "baku": "penerapan / penyebaran sistem",
+          "catatan": "Tahap pelepasan kode ke server produksi."
+        },
+        {
+          "asing": "default",
+          "baku": "bawaan / standar",
+          "catatan": "Nilai atau setelan awal sistem."
+        },
+        {
+          "asing": "stream",
+          "baku": "aliran data / pengaliran",
+          "catatan": "Misalnya pengaliran audio atau respons LLM beruntun."
+        },
+        {
+          "asing": "concurrency",
+          "baku": "konkurensi / keserempakan",
+          "catatan": "Kemampuan pemrosesan beberapa tugas secara bersamaan."
+        },
+        {
+          "asing": "latency",
+          "baku": "latensi / jeda waktu",
+          "catatan": "Durasi respons komputasi."
+        },
+        {
+          "asing": "throughput",
+          "baku": "keluaran daya tampung / laju lalu-lalang",
+          "catatan": "Jumlah data/transaksi per satuan waktu."
+        },
+        {
+          "asing": "load balancing",
+          "baku": "penyeimbangan beban",
+          "catatan": "Distribusi beban komputasi antarsimpul server."
+        },
+        {
+          "asing": "middleware",
+          "baku": "peranti tengah",
+          "catatan": "Lapisan perantara antarkomponen aplikasi."
+        },
+        {
+          "asing": "payload",
+          "baku": "muatan data",
+          "catatan": "Isi paket transmisi jaringan."
+        },
+        {
+          "asing": "repository",
+          "baku": "repositori / lumbung kode",
+          "catatan": "Tempat penyimpanan kode sumber."
+        },
+        {
+          "asing": "open source",
+          "baku": "sumber terbuka",
+          "catatan": "Bukan sumber bebas."
+        },
+        {
+          "asing": "tokenization",
+          "baku": "penokenan",
+          "catatan": "Proses pemecahan teks menjadi token dalam NLP."
+        },
+        {
+          "asing": "prompt engineering",
+          "baku": "rekayasa instruksi / rekayasa prompt",
+          "catatan": "Penyusunan konteks input model bahasa."
+        },
+        {
+          "asing": "fine-tuning",
+          "baku": "penyetelan halus",
+          "catatan": "Penyesuaian parameter model terarah."
+        },
+        {
+          "asing": "machine learning",
+          "baku": "pemelajaran mesin",
+          "catatan": "PASTI Kemendikdasmen (Ranah: TI). Gunakan 'pemelajaran' (proses belajar mandiri/mesin), bukan 'pembelajaran' (proses guru mengajar siswa)."
+        },
+        {
+          "asing": "deep learning",
+          "baku": "pemelajaran mendalam",
+          "catatan": "PASTI Kemendikdasmen (Ranah: TI). Subbidang pemelajaran mesin berbasis jaringan saraf tiruan dalam."
+        },
+        {
+          "asing": "cloud computing",
+          "baku": "komputasi awan",
+          "catatan": "PASTI Kemendikdasmen (Ranah: TI). Penyediaan sumber daya komputasi melalui jaringan internet."
+        },
+        {
+          "asing": "data science",
+          "baku": "sains data",
+          "catatan": "PASTI Kemendikdasmen (Ranah: Pendidikan/TI). Disiplin ilmu analisis data terpadu."
+        },
+        {
+          "asing": "artificial intelligence",
+          "baku": "kecerdasan buatan / kecerdasan artifisial",
+          "catatan": "PASTI Kemendikdasmen (Ranah: Matematika/TI). Keduanya diakui secara resmi."
+        },
+        {
+          "asing": "real time",
+          "baku": "waktu nyata / waktu pasti / seketika",
+          "catatan": "PASTI Kemendikdasmen. Pemrosesan data tanpa jeda tunda yang signifikan."
+        },
+        {
+          "asing": "factoring",
+          "baku": "anjak piutang",
+          "catatan": "Perekaan PUPI 2005: pengalihan hak menagih utang."
+        },
+        {
+          "asing": "catering",
+          "baku": "jasa boga",
+          "catatan": "Perekaan PUPI 2005."
+        },
+        {
+          "asing": "invention",
+          "baku": "rekacipta",
+          "catatan": "Perekaan PUPI 2005."
+        },
+        {
+          "asing": "supermarket",
+          "baku": "pasar swalayan",
+          "catatan": "Penerjemahan langsung PUPI 2005."
+        },
+        {
+          "asing": "merger",
+          "baku": "gabung usaha",
+          "catatan": "Penerjemahan langsung PUPI 2005."
+        },
+        {
+          "asing": "design",
+          "baku": "desain",
+          "catatan": "Penyerapan dengan penyesuaian ejaan PUPI 2005."
+        },
+        {
+          "asing": "science",
+          "baku": "sains",
+          "catatan": "Penyerapan dengan penyesuaian ejaan PUPI 2005."
+        },
+        {
+          "asing": "photocopy",
+          "baku": "fotokopi",
+          "catatan": "Penyerapan dengan penyesuaian ejaan PUPI 2005."
+        },
+        {
+          "asing": "alumni",
+          "baku": "lulusan",
+          "catatan": "Pemarkah jamak asing ditanggalkan PUPI 2005 (hlm. 5)."
+        },
+        {
+          "asing": "master of ceremonies",
+          "baku": "pengatur acara",
+          "catatan": "Pemarkah jamak asing ditanggalkan PUPI 2005 (hlm. 5)."
+        },
+        {
+          "asing": "charge d'affaires",
+          "baku": "kuasa usaha",
+          "catatan": "Pemarkah jamak asing ditanggalkan PUPI 2005 (hlm. 5)."
+        },
+        {
+          "asing": "bound form",
+          "baku": "bentuk terikat",
+          "catatan": "Penerjemahan positif PUPI 2005 (bukan 'bentuk takbebas')."
+        },
+        {
+          "asing": "inorganic",
+          "baku": "takorganik",
+          "catatan": "Penerjemahan bentuk negatif PUPI 2005."
+        },
+        {
+          "asing": "illiterate",
+          "baku": "niraksara",
+          "catatan": "Penerjemahan bentuk negatif PUPI 2005."
+        },
+        {
+          "asing": "medical practitioner",
+          "baku": "dokter",
+          "catatan": "Penerjemahan tidak satu-ke-satu PUPI 2005."
+        },
+        {
+          "asing": "psychologist",
+          "baku": "ahli psikologi",
+          "catatan": "Penerjemahan PUPI 2005."
+        },
+        {
+          "asing": "bonded zone",
+          "baku": "kawasan berikat",
+          "catatan": "Penerjemahan kesesuaian bentuk-makna PUPI 2005."
+        },
+        {
+          "asing": "skyscraper",
+          "baku": "pencakar langit",
+          "catatan": "Penerjemahan kesesuaian bentuk-makna PUPI 2005."
+        },
+        {
+          "asing": "status quo",
+          "baku": "status quo (cetak miring)",
+          "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        },
+        {
+          "asing": "in vitro",
+          "baku": "in vitro (cetak miring)",
+          "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        },
+        {
+          "asing": "divide et impera",
+          "baku": "divide et impera (cetak miring)",
+          "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        }
+      ]
+    },
+    "hukum_dan_regulasi": {
+      "deskripsi": "Kaidah dan istilah baku dalam register hukum perdata, pidana, dan administrasi negara.",
+      "istilah": [
+        {
+          "asing": "legal standing",
+          "baku": "kedudukan hukum",
+          "catatan": "Kapasitas hukum pihak untuk mengajukan permohonan/gugatan."
+        },
+        {
+          "asing": "force majeure",
+          "baku": "keadaan kahar",
+          "catatan": "Kondisi luar biasa di luar kendali kontraktual para pihak."
+        },
+        {
+          "asing": "dissenting opinion",
+          "baku": "pendapat berbeda",
+          "catatan": "Pertimbangan hakim yang berbeda dari putusan mayoritas."
+        },
+        {
+          "asing": "pro bono",
+          "baku": "bantuan hukum cuma-cuma",
+          "catatan": "Layanan tanpa pungutan biaya demi kepentingan publik."
+        },
+        {
+          "asing": "due diligence",
+          "baku": "uji tuntas",
+          "catatan": "Investigasi kepatuhan dan risiko bisnis/hukum."
+        },
+        {
+          "asing": "compliance",
+          "baku": "kepatuhan",
+          "catatan": "Kesesuaian operasional terhadap regulasi."
+        },
+        {
+          "asing": "non-disclosure agreement (NDA)",
+          "baku": "perjanjian kerahasiaan informasi",
+          "catatan": "Kontrak perlindungan data privat."
+        },
+        {
+          "asing": "dispute settlement",
+          "baku": "penyelesaian sengketa",
+          "catatan": "Melalui arbitrase atau pengadilan."
+        },
+        {
+          "asing": "concurring opinion",
+          "baku": "pendapat searah",
+          "catatan": "Alasan berbeda namun amar putusan sama."
+        },
+        {
+          "asing": "subpoena",
+          "baku": "surat panggilan pengadilan",
+          "catatan": "Perintah resmi menghadap pengadilan."
+        }
+      ]
+    },
+    "jurnalistik_dan_media": {
+      "deskripsi": "Kaidah ekonomi kata dan eliminasi ungkapan jenuh dalam bahasa jurnalistik modern.",
+      "istilah": [
+        {
+          "asing": "breaking news",
+          "baku": "berita sela / kabar kilat",
+          "catatan": "Laporan peristiwa penting yang baru saja terjadi."
+        },
+        {
+          "asing": "coverage",
+          "baku": "liputan",
+          "catatan": "Peliputan peristiwa oleh reporter."
+        },
+        {
+          "asing": "off the record",
+          "baku": "bukan untuk disiarkan / tertutup",
+          "catatan": "Informasi latar tanpa atribusi langsung."
+        },
+        {
+          "asing": "fact-checking",
+          "baku": "pemeriksaan fakta / verifikasi fakta",
+          "catatan": "Kroscek silang validitas berita."
+        },
+        {
+          "asing": "clickbait",
+          "baku": "umpan klik",
+          "catatan": "Judul sensasional penarik lalu lintas pembaca."
+        }
+      ],
+      "kaidah_ekonomi_kata": [
+        {
+          "jenuh": "dapat disampaikan bahwa",
+          "lugas": "[dihapus / langsung sebutkan informasinya]",
+          "alasan": "Basa-basi verbal yang memperlambat kalimat."
+        },
+        {
+          "jenuh": "sementara itu, di tempat yang berbeda",
+          "lugas": "di sisi lain / secara terpisah",
+          "alasan": "Klise formulaik laporan reporter lapangan."
+        },
+        {
+          "jenuh": "mengembuskan napas terakhir",
+          "lugas": "wafat / meninggal dunia",
+          "alasan": "Eufemisme sastrawi yang berlebihan pada berita lugas."
+        },
+        {
+          "jenuh": "ditemukan dalam kondisi sudah tidak bernyawa",
+          "lugas": "ditemukan tewas / meninggal",
+          "alasan": "Verbositas hukum yang memperpanjang judul berita."
+        },
+        {
+          "jenuh": "melakukan peninjauan secara langsung ke lapangan",
+          "lugas": "meninjau lokasi",
+          "alasan": "Pemborosan kata pleonasme."
+        }
+      ]
+    },
+    "bisnis_dan_manajemen": {
+      "deskripsi": "Padanan lugas untuk jargon korporat (corporate buzzwords) yang sering membingungkan pembaca.",
+      "istilah": [
+        {
+          "asing": "synergy",
+          "baku": "keselarasan kerja / kolaborasi terpadu",
+          "catatan": "Hindari sekadar menulis 'sinergitas' tanpa ukuran output."
+        },
+        {
+          "asing": "leverage",
+          "baku": "memanfaatkan / mendayagunakan",
+          "catatan": "Bukan 'mengungkit' pada konteks manajerial."
+        },
+        {
+          "asing": "stakeholder",
+          "baku": "pemangku kepentingan",
+          "catatan": "Bukan pemegang saham (shareholder)."
+        },
+        {
+          "asing": "pivot",
+          "baku": "pengalihan strategi / perubahan haluan",
+          "catatan": "Perubahan model bisnis secara mendasar."
+        },
+        {
+          "asing": "scalability",
+          "baku": "keterukuran / skalabilitas",
+          "catatan": "Kemampuan sistem tumbuh tanpa hambatan biaya linier."
+        },
+        {
+          "asing": "sustainable",
+          "baku": "berkelanjutan",
+          "catatan": "Tahan lama dan ramah lingkungan/operasional."
+        },
+        {
+          "asing": "deliverables",
+          "baku": "hasil serahan / luaran proyek",
+          "catatan": "Artefak konkret yang harus diserahkan ke klien."
+        },
+        {
+          "asing": "onboarding",
+          "baku": "orientasi pengguna / pengenalan sistem",
+          "catatan": "Proses adaptasi anggota/pengguna baru."
+        },
+        {
+          "asing": "roadmap",
+          "baku": "peta jalan",
+          "catatan": "Rencana tahapan jangka panjang."
+        },
+        {
+          "asing": "milestone",
+          "baku": "tonggak capaian",
+          "catatan": "Titik evaluasi penting dalam linimasa proyek."
+        }
+      ]
+    },
+    "linguistik_dan_ilmu_bahasa": {
+      "deskripsi": "Padanan resmi istilah linguistik, wacana, dan teknologi pemrosesan bahasa (Pusat Bahasa)",
+      "istilah": [
+        {
+          "asing": "corpus / corpora",
+          "baku": "korpus",
+          "catatan": "Kumpulan teks empiris untuk analisis linguistik (Pusat Bahasa 2002)."
+        },
+        {
+          "asing": "machine translation",
+          "baku": "terjemahan mesin",
+          "catatan": "Penerjemahan otomatis berbasis peranti lunak."
+        },
+        {
+          "asing": "discourse analysis",
+          "baku": "analisis wacana",
+          "catatan": "Kajian satuan bahasa terlengkap di atas tataran kalimat."
+        },
+        {
+          "asing": "natural language processing",
+          "baku": "pemrosesan bahasa alami (PBA)",
+          "catatan": "Sub-bidang AI untuk komputasi bahasa manusia."
+        },
+        {
+          "asing": "anaphora / anaphoric",
+          "baku": "anafora / anaforis",
+          "catatan": "Piranti pengacuan pada unsur yang mendahului."
+        },
+        {
+          "asing": "cataphora / cataphoric",
+          "baku": "katafora / kataforis",
+          "catatan": "Piranti pengacuan pada unsur yang menyusul."
+        },
+        {
+          "asing": "cohesion",
+          "baku": "kohesi",
+          "catatan": "Keserasian hubungan antarunsur lahir wacana (Halliday & Hasan 1976; Pusat Bahasa 2002)."
+        },
+        {
+          "asing": "coherence",
+          "baku": "koherensi",
+          "catatan": "Keterpaduan makna batin yang mendasari wacana."
+        },
+        {
+          "asing": "ellipsis",
+          "baku": "elipsis / pelesapan",
+          "catatan": "Peniadaan unsur bahasa yang dapat dipulihkan dari konteks."
+        },
+        {
+          "asing": "substitution",
+          "baku": "substitusi / penggantian",
+          "catatan": "Penggantian unsur bahasa oleh unsur lain pada tataran gramatikal."
+        },
+        {
+          "asing": "hyponymy",
+          "baku": "hiponimi",
+          "catatan": "Relasi makna bagian keutuhan / khusus terhadap umum."
+        },
+        {
+          "asing": "meronymy",
+          "baku": "meronimi",
+          "catatan": "Relasi bagian terhadap keseluruhan."
+        },
+        {
+          "asing": "collocation",
+          "baku": "kolokasi",
+          "catatan": "Kecenderungan asosiasi berdampingan antar-kata."
+        },
+        {
+          "asing": "topic sentence",
+          "baku": "kalimat topik",
+          "catatan": "Kalimat yang memuat gagasan utama sebuah paragraf."
+        },
+        {
+          "asing": "run-on sentence",
+          "baku": "kalimat merembet",
+          "catatan": "Dua klausa atau lebih digabung tanpa konjungsi/tanda baca yang sah."
+        },
+        {
+          "asing": "sentence fragment",
+          "baku": "kalimat buntung",
+          "catatan": "Rangkaian kata tanpa subjek atau predikat utuh."
+        },
+        {
+          "asing": "dangling modifier",
+          "baku": "pewatas tergantung",
+          "catatan": "Frasa penjelas yang tidak memiliki acuan subjek yang jelas."
+        }
+      ]
+    }
+  }
+}

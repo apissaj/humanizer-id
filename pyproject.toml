@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanizer-id"
+version = "1.0.0"
+description = "Indonesian academic writing editorial engine: 230 prescriptive rules to remove AI-sounding cliches, machine-translation calques, and nonstandard forms"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "Hafizh Muzani" },
+]
+keywords = ["bahasa-indonesia", "editorial", "style-checker", "academic-writing", "nlp", "lint"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: Indonesian",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Text Processing :: Linguistic",
+]
+
+[project.scripts]
+humanizer-id = "humanizer_id.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["humanizer_id*"]
+
+[tool.setuptools.package-data]
+humanizer_id = ["data/*.json"]

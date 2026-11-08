@@ -9,3 +9,7 @@ __pycache__/
 Thumbs.db
 .vscode/
 .idea/
+dist/
+build/
+humanizer_id.egg-info/
+.venv/
