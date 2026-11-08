@@ -3966,6 +3966,49 @@
           "penjelasan": "Merujuk Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa, 2016, hlm. 14, 17), serapan Belanda berakhiran -eel menjadi -el (materiel, morel, prinsipiel); bentuk materiil, moriil, prinsipiil tidak baku.",
           "contoh_salah": "Proyek tersebut mengalami kerugian materiil dan beban moriil yang berat.",
           "contoh_benar": "Proyek tersebut mengalami kerugian materiel dan beban morel yang berat."
+        },
+        {
+          "id": "PUE-001",
+          "pola": "peng-Indonesia-an / pengIndonesiaan / ke-Barat-baratan / ke-Inggris-inggrisan",
+          "saran_pengganti": [
+            "pengindonesiaan",
+            "kebarat-baratan",
+            "keinggris-inggrisan (huruf kecil murni, tanpa strip di awalan dan akhiran)"
+          ],
+          "penjelasan": "Merujuk PUEBI (SK Kepala Badan Bahasa 321/2021, hlm. 7), nama bangsa/suku/bahasa yang dipakai sebagai bentuk dasar kata turunan tidak ditulis kapital: pengindonesiaan, keinggris-inggrisan, kejawa-jawaan.",
+          "contoh_salah": "Badan Bahasa gencar melakukan peng-Indonesia-an istilah teknologi asing.",
+          "contoh_benar": "Badan Bahasa gencar melakukan pengindonesiaan istilah teknologi asing."
+        },
+        {
+          "id": "PUE-002",
+          "pola": "aksesoris",
+          "saran_pengganti": [
+            "aksesori"
+          ],
+          "penjelasan": "Merujuk PUEBI (SK Kepala Badan Bahasa 321/2021, hlm. 47), cc di depan e/i diserap ks; akhiran jamak Belanda -is tidak ikut diserap: bentuk baku aksesori, bukan aksesoris.",
+          "contoh_salah": "Toko daring itu menjual berbagai aksesoris komputer dan gawai.",
+          "contoh_benar": "Toko daring itu menjual berbagai aksesori komputer dan gawai."
+        },
+        {
+          "id": "PUE-003",
+          "pola": "kharisma / kharismatik",
+          "saran_pengganti": [
+            "karisma",
+            "karismatik"
+          ],
+          "penjelasan": "Merujuk PUEBI (SK Kepala Badan Bahasa 321/2021, hlm. 47), ch yang dilafalkan /k/ diserap k tunggal: karisma, karismatik, kolera, karakter; bentuk dengan kh tidak baku.",
+          "contoh_salah": "Pemimpin itu memiliki kharisma yang kuat di mata karyawan.",
+          "contoh_benar": "Pemimpin itu memiliki karisma yang kuat di mata karyawan."
+        },
+        {
+          "id": "PUE-004",
+          "pola": "eschelon / esselon",
+          "saran_pengganti": [
+            "eselon"
+          ],
+          "penjelasan": "Merujuk PUEBI (SK Kepala Badan Bahasa 321/2021, hlm. 47), ch yang dilafalkan /s/ diserap s: eselon, mesin; bentuk eschelon dan esselon tidak baku.",
+          "contoh_salah": "Pejabat eschelon II menghadiri rapat koordinasi di kementerian.",
+          "contoh_benar": "Pejabat eselon II menghadiri rapat koordinasi di kementerian."
         }
       ]
     }

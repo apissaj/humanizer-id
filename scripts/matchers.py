@@ -519,6 +519,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah PUEBI 2021 SK 321 (PUE-001..004) ---
+CUSTOM_RULES.extend([
+    # PUE-001: kapitalisasi kata turunan nama bangsa/bahasa (hlm. 7)
+    (lambda p: 'peng-Indonesia-an / pengIndonesiaan / ke-Barat-baratan' in p,
+     [re.compile(r'\b(?:peng-(?:Indonesia|Arab|Inggris|Jepang)-an|peng(?:Indonesia|Arab|Inggris|Jepang)an|ke-(?:Inggris|Barat|Arab|Jawa|Timur)-(?:inggrisan|baratan|araban|jawaan|timuran)|ke-(?:Inggris|Barat|Arab|Jawa|Timur)an)\b')]),
+    # PUE-002: aksesoris -> aksesori (hlm. 47)
+    (lambda p: 'aksesoris' in p,
+     [re.compile(r'(?i)\baksesoris\b')]),
+    # PUE-003: kharisma -> karisma (hlm. 47)
+    (lambda p: 'kharisma / kharismatik' in p,
+     [re.compile(r'(?i)\b(?:kharisma|kharismatik)\b')]),
+    # PUE-004: eschelon -> eselon (hlm. 47)
+    (lambda p: 'eschelon / esselon' in p,
+     [re.compile(r'(?i)\b(?:eschelon|esselon)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

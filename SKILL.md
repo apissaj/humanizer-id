@@ -757,6 +757,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Singkatan PT Tanpa Titik (SPE-007):** Singkatan nama badan/lembaga tidak diikuti titik: tulis *PT*, bukan *PT.* (hlm. 50).
 4. **Tanggal dengan Nama Bulan (SPE-008):** Bila nama bulan dieja huruf, tanda hubung dilarang: *12-September-2024* ditolak → *12 September 2024* (hlm. 91).
 
+### BG. Kapitalisasi Turunan Nama Bangsa & Penyerapan Konsonan Ganda (Rujukan PUEBI 2021, SK Kepala Badan Bahasa No. 0321/I/BS.00.00/2021, hlm. 7 & 47)
+
+1. **Kapitalisasi Turunan Nama Bangsa (PUE-001):** Nama bangsa/suku/bahasa sebagai bentuk dasar kata turunan ditulis huruf kecil tanpa strip: *pengindonesiaan, keinggris-inggrisan, kejawa-jawaan* — bukan *peng-Indonesia-an* atau *ke-Barat-baratan* (hlm. 7).
+2. **Serapan cc di Depan e/i (PUE-002):** *cc* diserap *ks*; akhiran jamak Belanda tidak diserap: *aksesori*, bukan *aksesoris* (hlm. 47).
+3. **Serapan ch Lafal /k/ (PUE-003):** *ch* diserap k tunggal: *karisma, karismatik, kolera, karakter* — bukan *kharisma, kharismatik* (hlm. 47).
+4. **Serapan ch Lafal /s/ (PUE-004):** *ch* diserap s: *eselon, mesin* — bukan *eschelon* atau *esselon* (hlm. 47).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
