@@ -58,6 +58,8 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Peristilahan (Pusat Bahasa 1978)
 - **Tata Istilah Indonesia** (Adiwimarta, Kridalaksana, Moeliono dkk., Pusat Pembinaan dan Pengembangan Bahasa, 1978, iv+67 hlm.) — buku penyuluhan pelengkap PUPI: ejaan fonemik serapan (gugur konsonan akhir tak berfungsi), istilah yang dijauhkan (*zat lemas → nitrogen*), padanan awalan *non-* menurut makna (*tak-/bukan/nir-*), penolakan jamak Latin yang dihidupkan (*foki, laboratoria*), dan batasan akhiran keahlian *-wan* → [references/tata-istilah-indonesia-1978.md](references/tata-istilah-indonesia-1978.md)
 
+- **Edisi 2019 (pemutakhiran):** kaidah diksi tambahan dari edisi pemutakhiran *Bentuk dan Pilihan Kata* (Mustakim, Badan Pengembangan Bahasa dan Perbukuan, 2019, x+95 hlm.): pembedaan *pukul* vs *jam* (titik waktu vs durasi), kopula definisi *adalah/ialah* alih-alih *yaitu/yakni*, *mantan* vs *bekas* untuk manusia vs benda, dan pemerinci tuntas (*yaitu/yakni*) vs parsial (*antara lain/misalnya*) sesuai bilangan → [references/bentuk-pilihan-kata-mustakim-2019.md](references/bentuk-pilihan-kata-mustakim-2019.md)
+
 ### Seri Penyuluhan: Bentuk dan Pilihan Kata (Badan Bahasa)
 - **Bentuk dan Pilihan Kata** (Drs. Mustakim, M.Hum., Pusat Pembinaan Pemasyarakatan Bahasa, 2014, 110 hlm., ISBN 978-979-069-204-6) — tiga kriteria pemilihan kata (ketepatan, kecermatan, keserasian); kaidah anti-pleonasme pasangan sinonim, pembedaan *dll./dsb./dst.*, resiprokal ganda *saling + bentuk ulang*, keutuhan ungkapan idiomatis berpreposisi, dan pembatasan *daripada* khusus makna perbandingan → [references/buku-seri-penyuluhan-bentuk-pilihan-kata.md](references/buku-seri-penyuluhan-bentuk-pilihan-kata.md)
 

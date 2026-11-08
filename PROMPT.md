@@ -223,3 +223,9 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - **Konjungsi syarat mandiri (hlm. 80-81):** *Jika A, B* — dilarang menambahkan *maka*.
 - **Verba transitif + objek (hlm. 78):** *memerintahkan Y kepada X* / *memerintah X untuk Y* — bukan *memerintahkan kepada X*.
 - **Larangan rangkap tiga (hlm. 82-84):** *walaupun + namun/tetapi + maka* dalam satu kalimat menggugurkan klausa utama.
+## DIKSI PRESKRIPTIF LANJUTAN (Mustakim, Bentuk dan Pilihan Kata, Badan Bahasa 2019)
+
+- **pukul untuk titik waktu (hlm. 78):** *pada pukul 09.00 / pukul 14.30* — *jam* khusus durasi (*dua jam*) atau alat (*jam tangan*).
+- **kopula definisi (hlm. 81):** *adalah* (mendefinisikan) atau *ialah* (menjelaskan) — bukan *yaitu/yakni* di posisi predikat definisi.
+- **mantan vs bekas (hlm. 77):** *mantan rektor/presiden/menteri* untuk manusia; *bekas* hanya untuk benda atau kondisi nonmanusia.
+- **pemerinci tuntas vs parsial (hlm. 81-82):** bilangan pasti di awal → *yaitu/yakni*; perincian sebagian → *antara lain/misalnya*.

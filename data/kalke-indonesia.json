@@ -2143,6 +2143,66 @@
             "tahun": 1992,
             "halaman": "21-22"
           }
+        },
+        {
+          "id": "BPK-007",
+          "pola": "pemakaian jam alih-alih pukul untuk penunjuk waktu atau saat peristiwa (pada jam 09.00, jam 14.30)",
+          "saran_pengganti": "Gunakan kata pukul untuk penunjuk waktu: pada pukul 09.00, pukul 14.30; kata jam khusus untuk durasi jangka waktu (selama dua jam) atau arloji (Mustakim 2019, hlm. 78).",
+          "penjelasan": "Bentuk dan Pilihan Kata (Mustakim, Seri Penyuluhan Badan Bahasa 2019) membedakan tegas kata jam dan pukul: jam menyatakan 'durasi atau jangka waktu' (dua jam perjalanan) dan 'alat penunjuk waktu' (arloji/jam dinding), sedangkan kata pukul menyatakan 'titik waktu atau saat peristiwa'. Menyebut waktu dimulainya acara dengan 'pada jam 09.00' adalah kekeliruan pemilihan kata; yang baku adalah 'pada pukul 09.00'.",
+          "contoh_salah": "Seminar nasional itu dijadwalkan dimulai pada jam 08.30 WIB di aula rektorat.",
+          "contoh_benar": "Seminar nasional itu dijadwalkan dimulai pada pukul 08.30 WIB di aula rektorat.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "78"
+          }
+        },
+        {
+          "id": "BPK-008",
+          "pola": "pemakaian konjungsi pemerinci yaitu atau yakni sebagai verba kopula predikat definisi (subjek yaitu/yakni predikat)",
+          "saran_pengganti": "Ganti dengan verba kopula definisi yang sah: adalah atau ialah (bukan yaitu/yakni) karena yaitu dan yakni berstatus konjungsi pemerinci, bukan verba pengisi predikat (Mustakim 2019, hlm. 81).",
+          "penjelasan": "Bentuk dan Pilihan Kata (Mustakim, 2019, hlm. 81) menegaskan bahwa kata yang memiliki fungsi predikatif definisi adalah adalah (mendefinisikan) atau ialah (menjelaskan), bukan yaitu. Kata yaitu dan yakni bertindak sebagai konjungsi pemerinci sesudah kalimat dasar lengkap; menempatkan yaitu/yakni langsung setelah subjek definisi melanggar struktur kalimat berpredikat utuh.",
+          "contoh_salah": "Algoritma genetika yaitu metode optimasi heuristik yang meniru seleksi alam.",
+          "contoh_benar": "Algoritma genetika adalah metode optimasi heuristik yang meniru seleksi alam.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "81"
+          }
+        },
+        {
+          "id": "BPK-009",
+          "pola": "pemakaian kata bekas untuk mengacu pada manusia atau pemangku jabatan (bekas rektor, bekas presiden, bekas gubernur)",
+          "saran_pengganti": "Gunakan kata mantan untuk pemangku jabatan manusia: mantan rektor, mantan presiden, mantan menteri; kata bekas mengandung konotasi negatif peyoratif dan hanya layak untuk benda atau kondisi nonmanusia (bekas kantor, bekas luka) (Mustakim 2019, hlm. 77).",
+          "penjelasan": "Bentuk dan Pilihan Kata (Mustakim, Badan Bahasa 2019) menganalisis bahwa kata bekas cenderung mengandung konotasi negatif jika digunakan untuk orang. Untuk menghilangkan konotasi peyoratif tersebut dalam situasi resmi dan tradisi keilmiahan, kata mantan dipilih sebagai padanan ex- yang sopan bagi pemangku jabatan; kata bekas dibatasi pada benda atau peninggalan nonmanusia.",
+          "contoh_salah": "Kuliah umum itu menghadirkan bekas rektor Universitas Indonesia sebagai narasumber.",
+          "contoh_benar": "Kuliah umum itu menghadirkan mantan rektor Universitas Indonesia sebagai narasumber.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "77"
+          }
+        },
+        {
+          "id": "BPK-010",
+          "pola": "perincian tuntas berbilangan pasti diawali antara lain atau misalnya alih-alih yaitu atau yakni (ada dua hal, misalnya A dan B)",
+          "saran_pengganti": "Gunakan yaitu atau yakni jika seluruh anggota disebutkan tuntas sesuai bilangannya: 'Ada dua hal, yaitu A dan B' (bukan 'Ada dua hal, misalnya/antara lain A dan B'); antara lain dan misalnya khusus bila menyebutkan sebagian (Mustakim 2019, hlm. 81-82).",
+          "penjelasan": "Bentuk dan Pilihan Kata (Mustakim, 2019, butir 3.1.4.h) membedakan fungsi penanda perincian: yaitu dan yakni digunakan untuk menyebutkan seluruh anggota yang sudah ditentukan jumlahnya secara eksak di awal kalimat (mis. 'Ada dua hal...'), sedangkan misalnya dan antara lain digunakan untuk menyebutkan sebagian dari jumlah yang lebih banyak.",
+          "contoh_salah": "Ada dua faktor utama yang memengaruhi hasil panen, misalnya curah hujan dan serangan hama.",
+          "contoh_benar": "Ada dua faktor utama yang memengaruhi hasil panen, yaitu curah hujan dan serangan hama.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "81-82"
+          }
         }
       ]
     }
