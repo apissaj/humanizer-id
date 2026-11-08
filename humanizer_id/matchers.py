@@ -385,6 +385,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Lanjutan J.S. Badudu (BDD-004..007) ---
+CUSTOM_RULES.extend([
+    # BDD-004: fonem /c/ tidak luluh saat diberi prefiks meN- (menyolok -> mencolok)
+    (lambda p: 'menyolok / menyuci / menyubit' in p,
+     [re.compile(r'(?i)\bme(?:nyolok|nyuci|nyubit|nyulik)\b')]),
+    # BDD-005: tolok ukur bukan tolak ukur (kata dasar tolok = standar/tara)
+    (lambda p: 'tolak ukur / tolak-ukur' in p,
+     [re.compile(r'(?i)\btolak[-\s]ukur\b')]),
+    # BDD-006: peluluhan fonem /s/ kata serapan berprefiks meN- (menyukseskan bukan mensukseskan)
+    (lambda p: 'mensukseskan / mensuplai / mensurvei' in p,
+     [re.compile(r'(?i)\bme(?:nsukseskan|nsuplai|nsurvei)\b')]),
+    # BDD-007: kalk relatif lokatif 'di mana' tempat nyata diganti 'tempat'
+    (lambda p: 'gedung di mana / laboratorium di mana' in p,
+     [re.compile(r'(?i)\b(?:gedung|ruangan|laboratorium|kota|desa|wilayah|daerah)\s+di\s+mana\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

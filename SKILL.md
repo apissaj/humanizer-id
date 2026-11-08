@@ -628,8 +628,12 @@ ightarrow$ serangkai: *mahakasih*.
 4. **Pleonasme Sebab-Akibat (BDD-001):** *Disebabkan karena / disebabkan oleh karena* ditolak; pilih *disebabkan oleh [nomina]* atau *terjadi karena [klausa]* (Badudu, Jilid I).
 5. **Daripada Non-Komparatif (BDD-002):** *Tujuan daripada, hasil daripada, dampak daripada* adalah kalk Belanda (*van*); *daripada* hanya sah untuk perbandingan derajat (*lebih tinggi daripada*) — gugurkan pada frasa nomina lain (Badudu).
 6. **Kalimat Buntung Tanpa Induk (BDD-003):** Kalimat yang seluruhnya anak kalimat berketerangan (*Walaupun...*) tanpa klausa induk ditolak; lengkapi induk kalimat [telaah] (Badudu).
-7. **Basa-Basi Penunda Fakta (TMP-001):** Pembuka birokratis *Sehubungan dengan hal tersebut di atas maka*, *Dengan ini diberitahukan bahwa*, *Dalam rangka untuk dapat* dihapus; langsung ke pokok kalimat atau *Oleh karena itu* (Bahasa! Tempo, 2008).
-8. **Pereduksian Klausa Berpanjang-Panjang (TMP-002):** Anak kalimat relatif mubazir (*gedung yang mana didirikan tahun 1920*) dipangkas jadi pewatas nomina (*gedung peninggalan tahun 1920*) [telaah] (Tempo).
+7. **Morfofonemik /c/ Tak Luluh (BDD-004):** Fonem /c/ kata dasar tidak pernah luluh saat diimbuhi prefiks meN-: *menyolok* ditolak → *mencolok*; demikian pula *menyuci* → *mencuci*, *menyubit* → *mencubit*, *menyulik* → *menculik* (Badudu, Jilid I).
+8. **Tolok Ukur Bukan Tolak Ukur (BDD-005):** Kata dasarnya *tolok* (standar, tara, imbangan), bukan *tolak* (dorong); bentuk *tolak ukur / tolak-ukur* salah kaprah leksikal (Badudu, Jilid II).
+9. **Peluluhan /s/ Serapan meN- (BDD-006):** Fonem awal /s/ luluh menjadi ny- meski kata serapan asing: *mensukseskan* ditolak → *menyukseskan*; *mensuplai* → *menyuplai*; *mensurvei* → *menyurvei* (Badudu, Jilid I & III).
+10. **Kalk Relatif Lokatif Di Mana (BDD-007):** *Di mana* hanya sah sebagai kata tanya; penghubung klausa relatif tempat nyata memakai *tempat*: *laboratorium di mana sampel diuji* ditolak → *laboratorium tempat sampel diuji* (Badudu, Jilid IV).
+11. **Basa-Basi Penunda Fakta (TMP-001):** Pembuka birokratis *Sehubungan dengan hal tersebut di atas maka*, *Dengan ini diberitahukan bahwa*, *Dalam rangka untuk dapat* dihapus; langsung ke pokok kalimat atau *Oleh karena itu* (Bahasa! Tempo, 2008).
+12. **Pereduksian Klausa Berpanjang-Panjang (TMP-002):** Anak kalimat relatif mubazir (*gedung yang mana didirikan tahun 1920*) dipangkas jadi pewatas nomina (*gedung peninggalan tahun 1920*) [telaah] (Tempo).
 
 ### AS. Sintaksis Hubungan Antarklausa & Pelesapan Konstituen (Rujukan Tata Bahasa Baku Bahasa Indonesia, Edisi Keempat, Bab X, hlm. 354–356)
 

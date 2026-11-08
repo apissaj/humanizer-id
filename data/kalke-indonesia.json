@@ -1582,6 +1582,16 @@
           "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 39), jika anak kalimat kausal/final mengiringi induk kalimat di posisi belakang, tanda koma tidak boleh digunakan untuk memisahkannya.",
           "contoh_salah": "Peneliti membatalkan prosedur tersebut, karena suhu reaktor melebihi ambang batas aman.",
           "contoh_benar": "Peneliti membatalkan prosedur tersebut karena suhu reaktor melebihi ambang batas aman."
+        },
+        {
+          "id": "BDD-007",
+          "pola": "gedung di mana / laboratorium di mana / ruangan di mana / kota di mana / desa di mana",
+          "saran_pengganti": [
+            "tempat (ganti frasa 'di mana' dengan kata 'tempat')"
+          ],
+          "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid IV), kata 'di mana' hanya sah sebagai kata tanya tempat, bukan penghubung klausa relatif lokatif tiruan kalke asing (where/waarin). Gunakan kata 'tempat'.",
+          "contoh_salah": "Laboratorium di mana sampel diuji berada di lantai tiga gedung rektorat.",
+          "contoh_benar": "Laboratorium tempat sampel diuji berada di lantai tiga gedung rektorat."
         }
       ]
     },
@@ -3569,6 +3579,41 @@
           "penjelasan": "Merujuk Seri Penyuluhan 9 EYD (hlm. 35), pemakaian angka 2 untuk menyatakan bentuk pengulangan hanya dibatasi pada tulisan cepat atau pencatatan; pada tulisan resmi dianjurkan menuliskan kata ulang secara lengkap.",
           "contoh_salah": "Sebanyak orang2 hadir pada acara seminar nasional tersebut.",
           "contoh_benar": "Sebanyak orang-orang hadir pada acara seminar nasional tersebut."
+        },
+        {
+          "id": "BDD-004",
+          "pola": "menyolok / menyuci / menyubit / menyulik",
+          "saran_pengganti": [
+            "mencolok",
+            "mencuci",
+            "mencubit",
+            "menculik"
+          ],
+          "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid I), fonem /c/ pada kata dasar tidak pernah mengalami peluluhan saat diimbuhi prefiks meN-. Bentuk 'menyolok' tidak baku; bentuk yang benar adalah 'mencolok'.",
+          "contoh_salah": "Perbedaan kinerja kedua algoritma klasifikasi tersebut sangat menyolok.",
+          "contoh_benar": "Perbedaan kinerja kedua algoritma klasifikasi tersebut sangat mencolok."
+        },
+        {
+          "id": "BDD-005",
+          "pola": "tolak ukur / tolak-ukur",
+          "saran_pengganti": [
+            "tolok ukur"
+          ],
+          "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid II), kata dasar yang tepat adalah 'tolok' (bermakna standar, tara, imbangan), bukan 'tolak' (dorong). Bentuk baku yang terdaftar dalam KBBI adalah 'tolok ukur'.",
+          "contoh_salah": "Kerapatan temuan per seratus kata menjadi tolak ukur efektivitas pengujian.",
+          "contoh_benar": "Kerapatan temuan per seratus kata menjadi tolok ukur efektivitas pengujian."
+        },
+        {
+          "id": "BDD-006",
+          "pola": "mensukseskan / mensuplai / mensurvei",
+          "saran_pengganti": [
+            "menyukseskan",
+            "menyuplai",
+            "menyurvei"
+          ],
+          "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid I & III), fonem awal /s/ pada kata dasar berprefiks meN- wajib luluh menjadi ny- (menyukseskan, bukan mensukseskan).",
+          "contoh_salah": "Seluruh civitas akademika berkomitmen mensukseskan akreditasi internasional.",
+          "contoh_benar": "Seluruh civitas akademika berkomitmen menyukseskan akreditasi internasional."
         }
       ]
     }
