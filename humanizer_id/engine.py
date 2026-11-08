@@ -15,16 +15,38 @@ import json
 import re
 from .matchers import match_custom_rules
 
-def load_data(kampus_id=None):
-    # Prioritas: data internal paket (humanizer_id/data), fallback: root repo (data/)
-    pkg_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(pkg_dir, "data")
-    if not os.path.exists(os.path.join(data_dir, "kalke-indonesia.json")):
-        data_dir = os.path.join(os.path.dirname(pkg_dir), "data")
+# Pengecualian kaidah per preset domain (audit terfokus)
+# 'umum' = tanpa pengecualian (backward-compatible, seluruh kaidah aktif)
+PRESET_EXCLUSIONS = {
+    "umum": set(),
+    "akademik": {
+        # Konvensi naskah dinas tidak relevan untuk naskah akademik/jurnal
+        "DIN-001", "DIN-003", "SUR-003",
+    },
+    "dinas": {
+        # Kaidah monograf/kurikulum tidak relevan untuk surat dinas
+        "BRN-002", "BRN-003", "BRN-004", "BSK-001", "BSK-002", "DIL-008",
+    },
+    "jurnalistik": {
+        # Kaidah monograf & naskah dinas tidak relevan untuk artikel berita/opini
+        "BRN-002", "BRN-003", "DIN-001", "DIN-003", "BSK-001", "BSK-002",
+        "MBI-002", "MBI-003",
+    },
+}
 
-    kalke_path = os.path.join(data_dir, "kalke-indonesia.json")
-    glosarium_path = os.path.join(data_dir, "glosarium-lintas-bidang.json")
-    kampus_path = os.path.join(data_dir, "pedoman-kampus.json")
+PRESET_LABELS = {
+    "umum": "Audit Umum (seluruh kaidah)",
+    "akademik": "Preset Akademik (skripsi/tesis/jurnal)",
+    "dinas": "Preset Dinas (surat/nota/pengumuman instansi)",
+    "jurnalistik": "Preset Jurnalistik (berita/opini/rilis pers)",
+}
+
+
+def load_data(kampus_id=None):
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    kalke_path = os.path.join(base_dir, "data", "kalke-indonesia.json")
+    glosarium_path = os.path.join(base_dir, "data", "glosarium-lintas-bidang.json")
+    kampus_path = os.path.join(base_dir, "data", "pedoman-kampus.json")
     
     kalke_dict = {}
     glosarium_dict = {}
@@ -50,7 +72,7 @@ def load_data(kampus_id=None):
 
     return kalke_dict, glosarium_dict, kampus_dict
 
-def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
+def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"):
     findings = []
     lines = text.splitlines()
 
@@ -78,9 +100,16 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None):
         if clean_line.startswith("#"):
             continue
 
+        # Filter kaidah berdasarkan preset domain
+        excluded_ids = PRESET_EXCLUSIONS.get(str(preset).lower(), set())
+
         # 1. Scan Kalke, Verba Ringan, Pola AI, Kata Baku
         for cat_key, cat_data in kalke_dict.get("kategori", {}).items():
             for entry in cat_data.get("entri", []):
+                # Lewati kaidah yang dikecualikan oleh preset domain aktif
+                if entry.get("id") in excluded_ids:
+                    continue
+
                 pattern_str = entry["pola"]
                 # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
                 # Entri [telaah] dievaluasi semantik oleh agent, dikecualikan dari scan regex otomatis
@@ -173,11 +202,26 @@ def main():
         print(__doc__)
         print("Pilihan tambahan:")
         print("    --kampus <id>    Gunakan aturan format spesifik kampus (ui, itb, ugm, its, ipb, undip, unpad, unair, ub, telkom, udinus)")
+        print("    --preset <nama>  Preset domain audit: umum (default), akademik, dinas, jurnalistik")
         sys.exit(0)
+
+    args = sys.argv[1:]
+
+    # Parse --preset flag
+    preset = "umum"
+    if "--preset" in args:
+        idx = args.index("--preset")
+        if idx + 1 < len(args):
+            preset = args[idx + 1].lower()
+            args.pop(idx + 1)
+            args.pop(idx)
+            if preset not in PRESET_EXCLUSIONS:
+                print(f"[!] Preset '{preset}' tidak dikenal. Opsi: {', '.join(PRESET_EXCLUSIONS.keys())}", file=sys.stderr)
+                sys.exit(1)
+            print(f"[*] Preset domain aktif: {PRESET_LABELS[preset]}")
 
     # Parse --kampus flag
     kampus_id = None
-    args = sys.argv[1:]
     if "--kampus" in args:
         idx = args.index("--kampus")
         if idx + 1 < len(args):
@@ -212,7 +256,7 @@ Meskipun akurat, bukan berarti arsitektur ini tanpa kompromi performa.
     with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
         content = f.read()
 
-    findings = audit_text(content, kalke_dict, glosarium_dict, kampus_dict)
+    findings = audit_text(content, kalke_dict, glosarium_dict, kampus_dict, preset)
     print_report(findings, filepath)
 
 if __name__ == "__main__":

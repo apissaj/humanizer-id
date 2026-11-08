@@ -171,6 +171,10 @@ Setelah terpasang, gunakan lewat CLI:
 # Audit naskah langsung
 humanizer-id naskah.md
 
+# Audit dengan preset domain spesifik
+humanizer-id naskah.md --preset akademik
+humanizer-id surat.md --preset dinas
+
 # Jalankan teks demo bawaan
 humanizer-id --demo
 ```
@@ -243,6 +247,11 @@ python scripts/audit.py --demo
 
 # Pindai naskah skripsi atau artikel Anda
 python scripts/audit.py path/ke/naskah.md
+
+# Gunakan preset domain terfokus (akademik, dinas, jurnalistik, umum)
+python scripts/audit.py naskah.md --preset akademik
+python scripts/audit.py surat.md --preset dinas
+python scripts/audit.py opini.md --preset jurnalistik
 ```
 Skrip akan mencetak nomor baris, pola kalke atau verba ringan yang terdeteksi, saran perbaikan, dan catatan kaidah editorialnya secara seketika.
 
