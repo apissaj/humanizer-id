@@ -156,6 +156,18 @@ CUSTOM_RULES.extend([
 ])
 
 
+
+# --- Kaidah Penerbit BRIN (BRN-001, BRN-002) ---
+CUSTOM_RULES.extend([
+    # BRN-001: klise kerendahan hati palsu prakata (Penerbit BRIN 2024, Preface)
+    (lambda p: 'klise permohonan maaf prakata' in p,
+     [re.compile(r'\b(penulis\s+(?:menyadari|sadar)\s+bahwa(?:\s+buku|\s+karya|\s+naskah|\s+penelitian)?\s+(?:ini|ini\s+masih)|masih\s+jauh\s+dari\s+sempurna|memiliki\s+banyak\s+kekurangan|tak\s+luput\s+dari\s+(?:berbagai\s+)?kekurangan)\b', re.IGNORECASE)]),
+    # BRN-002: judul subbab generik laporan riset pada monograf (Penerbit BRIN 2024, Text Matter)
+    (lambda p: 'judul subbab generik laporan riset' in p,
+     [re.compile(r'(?:^|\b[Bb]ab\s+|[Ss]ubbab\s+|[Bb]agian\s+|#+\s*)(?:[IVX]+\.?\s+)?(?:Tinjauan\s+Pustaka|Metodologi\s+Penelitian|Rumusan\s+Masalah|Hasil\s+dan\s+Pembahasan|Manfaat\s+Penelitian|Landasan\s+Teori|Kajian\s+Pustaka|Metode\s+Penelitian)\b', re.IGNORECASE)]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

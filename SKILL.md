@@ -613,6 +613,13 @@ ightarrow$ serangkai: *mahakasih*.
 5. **Pulau Anaforis (GLS-001):** Pronomina (*-nya, ini*) tidak boleh menggantikan nomina turunan utuh (*aromanya* untuk *aroma kopi* berbatas pulau anaforis); ulangi nomina lengkap atau bentuk padanannya (Lapoliwa & Nureni, hlm. 14) [*telaah*].
 6. **Leksikon Sensasional Naskah Resmi (KBI-003):** Ungkapan berkonotasi vulgar atau sensasional untuk memicu viralitas dilarang dalam publikasi dinas; gunakan gaya lugas berbasis data (Putusan Kongres VII, hlm. 6, Bagian Khusus B.8) [*telaah*].
 
+### AQ. Pedoman Penerbitan Buku Ilmiah Nasional (Rujukan Author Guidelines Penerbit BRIN, BRIN Publishing, 2024)
+
+1. **Klise Kerendahan Hati Palsu (BRN-001):** Kalimat pembuka/prakata *penulis menyadari bahwa buku ini masih jauh dari sempurna*, *masih memiliki banyak kekurangan*, *tak luput dari kekurangan* dilarang; gantikan dengan pernyataan batasan ruang lingkup (*work limitations*) objektif — mis. *Buku ini berfokus pada X dan tidak mencakup Y karena...* (Penerbit BRIN, Bagian Preface).
+2. **Judul Subbab Generik (BRN-002):** Pada monograf ilmiah, subbab bertitel *Tinjauan Pustaka*, *Metodologi Penelitian*, *Rumusan Masalah*, *Hasil dan Pembahasan*, *Manfaat Penelitian*, atau *Landasan Teori* dilarang; gunakan frasa topik substantif yang mencerminkan isi kajian secara langsung (Penerbit BRIN, Bagian Text Matter).
+3. **Hierarki Penomoran Monograf (BRN-003):** Penjenjangan baku: *Bab I* (Romawi) → *A.* (Kapital) → *1.* (Arab) → *a.* (Kecil); penomoran desimal tak berbatas bergaya laporan teknis (*2.1.3.4.1*) ditolak [telaah] (Penerbit BRIN, Bagian Chapters).
+4. **Catatan Kaki Konten (BRN-004):** Catatan kaki/endnote dilarang dipakai semata-mata untuk sitasi; wajib memuat penjelasan substantif, atau sitasi dialihkan ke sistem pengarang-tahun (APA) dalam badan teks [telaah] (Penerbit BRIN, Bagian Chapters & Citations).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

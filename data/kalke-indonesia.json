@@ -253,6 +253,13 @@
         "penerbit": "PPPPTK PKn dan IPS, Direktorat Jenderal Guru dan Tenaga Kependidikan Kemendikbud RI",
         "tahun": 2020,
         "bab_relevan": "Teknik Konversi Laporan Riset ke Buku Monograf Ilmiah: Format Penomoran Subbab Desimal, Perumusan Judul Bebas Latar Administratif, dan Sintesis Kutipan Komparatif"
+      },
+      {
+        "judul": "Pedoman Penerbitan Buku Ilmiah Penerbit BRIN (Author Guidelines)",
+        "penulis": "Penerbit BRIN (Badan Riset dan Inovasi Nasional RI)",
+        "penerbit": "BRIN Publishing, Pemerintah Republik Indonesia",
+        "tahun": 2024,
+        "bab_relevan": "Preface (Larangan Klise Kerendahan Hati), Text Matter (Larangan Subbab Generik, Hierarki Penomoran, Footnotes), Tables and Figures (Deiksis Hierarkis), Citations (Konsistensi APA/CMS)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -2077,6 +2084,46 @@
           "penjelasan": "Putusan Kongres Bahasa Indonesia VII (1998, hlm. 6, Bagian B.8) menetapkan bahwa bahasa periklanan dan media publik wajib berpedoman pada norma sosial dengan melarang diksi berkonotasi vulgar.",
           "contoh_salah": "Artikel resmi dinas memuat ungkapan sensual murahan guna memicu viralitas media.",
           "contoh_benar": "Artikel resmi dinas menyajikan informasi secara lugas, beradab, dan berbasis data objektif."
+        },
+        {
+          "id": "BRN-001",
+          "pola": "klise permohonan maaf prakata: masih jauh dari sempurna / memiliki banyak kekurangan / tak luput dari kekurangan",
+          "saran_pengganti": [
+            "[dihapus; nyatakan batasan ruang lingkup atau fokus kajian naskah secara lugas dan objektif]"
+          ],
+          "penjelasan": "Merujuk Pedoman Penerbitan Buku Ilmiah Penerbit BRIN (2024, Bagian Preface), ungkapan klise seperti 'penulis menyadari bahwa buku ini masih jauh dari sempurna' dilarang. Kerendahan hati palsu melemahkan otoritas keilmuan naskah; gantikan dengan deskripsi pembatasan topik (work limitations) yang terukur.",
+          "contoh_salah": "Penulis menyadari bahwa buku ini masih jauh dari sempurna sehingga mengharapkan kritik yang membangun.",
+          "contoh_benar": "Buku ini berfokus pada analisis transmisi kebijakan moneter di sektor perbankan tanpa mencakup pasar modal."
+        },
+        {
+          "id": "BRN-002",
+          "pola": "judul subbab generik laporan riset: Subbab Tinjauan Pustaka / Bab Metodologi Penelitian / Subbab Hasil dan Pembahasan",
+          "saran_pengganti": [
+            "[gunakan frasa topik substantif yang mencerminkan materi kajian, bukan nama bab laporan teknis]"
+          ],
+          "penjelasan": "Pedoman Penerbitan BRIN (2024, Bagian Text Matter) melarang subbab bertitel generik seperti 'Tinjauan Pustaka', 'Metodologi Penelitian', atau 'Hasil dan Pembahasan' dalam monograf ilmiah. Pembaca buku membutuhkan judul topik langsung yang bernas.",
+          "contoh_salah": "Bab Metodologi Penelitian memaparkan alur pengujian sampel air secara terperinci.",
+          "contoh_benar": "Prosedur Pengujian Laboratorium memaparkan alur pengujian sampel air secara terperinci."
+        },
+        {
+          "id": "BRN-003",
+          "pola": "[telaah] penomoran subbab monograf tidak mematuhi hierarki baku Romawi-Kapital-Arab-Kecil",
+          "saran_pengganti": [
+            "Sesuaikan penjenjangan bab: Bab I (Romawi) -> A. Subbab (Kapital) -> 1. Sub-subbab (Arab) -> a. Sub-sub-subbab (Kecil)"
+          ],
+          "penjelasan": "Merujuk standar Penerbit BRIN (2024), naskah buku monograf wajib menggunakan penomoran alfabetis-numerik berjenjang baku, bukan penomoran desimal bergaya laporan teknis skripsi.",
+          "contoh_salah": "Bagian 2.1.3.4.1 membahas faktor demografi secara mendalam.",
+          "contoh_benar": "Bagian Bab II.A.1.a membahas faktor demografi secara mendalam."
+        },
+        {
+          "id": "BRN-004",
+          "pola": "[telaah] pemakaian catatan kaki semata-mata untuk sitasi tanpa uraian diskursif",
+          "saran_pengganti": [
+            "Gunakan in-text citation APA dalam kurung, atau sertakan elaborasi substantif jika memakai sistem catatan kaki CMS"
+          ],
+          "penjelasan": "Pedoman BRIN (2024) menegaskan bahwa catatan kaki hanya berfungsi untuk penjelasan materi tambahan (content notes), dilarang digunakan semata-mata untuk menaruh sitasi pustaka.",
+          "contoh_salah": "Ia menambahkan catatan kaki hanya berisi 'Santoso, 2020, hlm. 12' tanpa keterangan lain.",
+          "contoh_benar": "Ia merujuk literatur terkait dalam badan teks (Santoso, 2020) dan menyediakan daftar pustaka di akhir buku."
         }
       ]
     },
