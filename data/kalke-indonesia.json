@@ -232,6 +232,27 @@
         "penerbit": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI",
         "tahun": 2022,
         "bab_relevan": "Peristilahan Resmi Kurikulum Merdeka & Standar Penilaian Formatif/Sumatif (Capaian Pembelajaran, TP, ATP, KKTP)"
+      },
+      {
+        "judul": "Putusan Kongres Bahasa Indonesia VII",
+        "penulis": "Tim Perumus Kongres VII (Hasan Alwi dkk.)",
+        "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Departemen Pendidikan dan Kebudayaan RI",
+        "tahun": 1998,
+        "bab_relevan": "Putusan Bagian Khusus A & B: Pemertahanan Bahasa Negara di Ruang Publik, Penertiban Eufemisme Birokratis, dan Ragam Baku Tertulis"
+      },
+      {
+        "judul": "Glosarium Linguistik",
+        "penulis": "Hans Lapoliwa & Isti Nureni (Penyunting)",
+        "penerbit": "Pusat Bahasa Departemen Pendidikan Nasional bekerjasama dengan Yayasan Obor Indonesia",
+        "tahun": 2002,
+        "bab_relevan": "Terminologi Linguistik Teoretis: Batas Morfem Turunan, Katakresis Leksikal Paronim, dan Asas Kehematan Ontologis (Tautologi)"
+      },
+      {
+        "judul": "Menyusun Buku Ilmiah Populer dari Laporan Penelitian",
+        "penulis": "Istiqomah, S.Pd., M.Pd.",
+        "penerbit": "PPPPTK PKn dan IPS, Direktorat Jenderal Guru dan Tenaga Kependidikan Kemendikbud RI",
+        "tahun": 2020,
+        "bab_relevan": "Teknik Konversi Laporan Riset ke Buku Monograf Ilmiah: Format Penomoran Subbab Desimal, Perumusan Judul Bebas Latar Administratif, dan Sintesis Kutipan Komparatif"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -1244,6 +1265,104 @@
           "penjelasan": "Kirana (Widyaparwa 2020) menyoroti penggunaan penanda kepemilikan orang ketiga yang bersifat indefinit (-ne dalam tuturan Jawa, -nya dalam bahasa Indonesia lisan) yang merujuk secara kabur ke entitas tak dikenal ('katanya'). Dalam karya ilmiah tertulis, rujukan anaforis wajib memiliki anteseden yang definit dan transparan demi menghindari ketaksaan informasi.",
           "contoh_salah": "Katanya senyawa polifenol mampu menghambat reaksi oksidasi lipid secara signifikan.",
           "contoh_benar": "Menurut Hidayat dkk. (2019), senyawa polifenol mampu menghambat reaksi oksidasi lipid secara signifikan."
+        },
+        {
+          "id": "RAS-005",
+          "pola": "PSM Makassar / Persija Jakarta / Arema Malang / klub PSM Makassar",
+          "saran_pengganti": [
+            "PSM",
+            "Persija",
+            "Arema",
+            "Persatuan Sepak Bola Makassar"
+          ],
+          "penjelasan": "Sindrom akronim redundan toponimi: nama wilayah sudah terkandung dalam akronim (M = Makassar, Ja = Jakarta, Ma = Malang) sehingga penambahan nama kota menghasilkan pengulangan semantis ganda (Haslinda & Thaba, 2018, hlm. 4-5).",
+          "contoh_salah": "Pertandingan mempertemukan Persija Jakarta melawan PSM Makassar.",
+          "contoh_benar": "Pertandingan mempertemukan Persija melawan PSM."
+        },
+        {
+          "id": "RAS-006",
+          "pola": "sistem SI / sistem satuan SI",
+          "saran_pengganti": [
+            "SI",
+            "Sistem Internasional",
+            "Sistem Satuan Internasional"
+          ],
+          "penjelasan": "Huruf S dalam akronim SI adalah 'Système' (Sistem Internasional). Frasa 'sistem SI' merupakan pleonasme lewah 'sistem sistem internasional' (Haslinda & Thaba, 2018, hlm. 3, 5).",
+          "contoh_salah": "Pengukuran massa benda uji wajib berpedoman pada sistem SI.",
+          "contoh_benar": "Pengukuran massa benda uji wajib berpedoman pada SI."
+        },
+        {
+          "id": "RAS-007",
+          "pola": "nomor ISBN / nomor ISSN / nomor NPWP",
+          "saran_pengganti": [
+            "ISBN",
+            "ISSN",
+            "NPWP",
+            "nomor pokok wajib pajak"
+          ],
+          "penjelasan": "Huruf N pada ISBN/ISSN adalah 'Number' dan pada NPWP adalah 'Nomor'. Penyebutan 'nomor ISBN/NPWP' menimbulkan tautologi numerik (Haslinda & Thaba, 2018, hlm. 4-5).",
+          "contoh_salah": "Naskah monograf telah memiliki nomor ISBN resmi.",
+          "contoh_benar": "Naskah monograf telah memiliki ISBN resmi."
+        },
+        {
+          "id": "RAS-008",
+          "pola": "dosen DPA / dosen-dosen DPA / dosen pembimbing DPA",
+          "saran_pengganti": [
+            "DPA",
+            "dosen pembimbing akademik",
+            "penasihat akademik"
+          ],
+          "penjelasan": "Huruf D dalam singkatan DPA sudah berarti 'Dosen' (Dosen Pembimbing Akademik). Penggunaan 'dosen DPA' merupakan pleonasme jabatan fungsional (Haslinda & Thaba, 2018, hlm. 3-6).",
+          "contoh_salah": "Mahasiswa berkonsultasi dengan dosen DPA sebelum registrasi mata kuliah.",
+          "contoh_benar": "Mahasiswa berkonsultasi dengan DPA sebelum registrasi mata kuliah."
+        },
+        {
+          "id": "RAS-009",
+          "pola": "kode QR code / format PDF format / monitor LCD display / mesin ATM machine",
+          "saran_pengganti": [
+            "kode QR",
+            "format PDF",
+            "layar LCD",
+            "ATM"
+          ],
+          "penjelasan": "Sindrom akronim redundan dwibahasa: kata asing pelengkap (code, format, display, machine) mengulang kembali kata pembentuk akhir akronim bahasa Inggris (Haslinda & Thaba, 2018, hlm. 3, 5).",
+          "contoh_salah": "Silakan memindai kode QR code yang tertera pada selebaran.",
+          "contoh_benar": "Silakan memindai kode QR yang tertera pada selebaran."
+        },
+        {
+          "id": "KOH-003",
+          "pola": "konjungsi konsekuensi intrakalimat maka di posisi awal kalimat baru",
+          "saran_pengganti": [
+            "Oleh karena itu,",
+            "Oleh sebab itu,",
+            "Dengan demikian,"
+          ],
+          "penjelasan": "Konjungsi intrakalimat 'maka' hanya berfungsi mengantar klausa utama setelah klausa syarat (jika/apabila); pemakaiannya sebagai perangkai awal kalimat mandiri melanggar kaidah subordinatif sintaksis (Maharani, UI 2018, hlm. 17).",
+          "contoh_salah": "Krisis likuiditas mulai mengancam perbankan. Maka, otoritas moneter segera menaikkan suku bunga acuan.",
+          "contoh_benar": "Krisis likuiditas mulai mengancam perbankan. Oleh karena itu, otoritas moneter segera menaikkan suku bunga acuan."
+        },
+        {
+          "id": "KOH-004",
+          "pola": "[telaah] repetisi leksikal monoton subjek/objek lebih dari 3 kali berturut-turut dalam satu alinea tanpa substitusi",
+          "saran_pengganti": [
+            "gunakan pronomina persona atau demonstratif",
+            "manfaatkan sinonimi leksikal konteks",
+            "gabungkan beberapa klausa menjadi kalimat majemuk padu"
+          ],
+          "penjelasan": "Pengulangan leksem nomina yang sama secara beruntun tanpa variasi kohesi pronominal atau sinonimi mencerminkan gaya bahasa kaku khas keluaran draf mentah AI (Maharani, UI 2018, hlm. 13, 18).",
+          "contoh_salah": "Vaksin telah diuji. Vaksin terbukti aman. Vaksin akan didistribusikan ke seluruh provinsi.",
+          "contoh_benar": "Vaksin telah selesai diuji dan terbukti aman; produk imunisasi ini segera didistribusikan ke seluruh provinsi."
+        },
+        {
+          "id": "KOH-006",
+          "pola": "[telaah] inkonsistensi posisi pelesapan nomina inti pada deret perincian koordinatif berpewatas ordinal",
+          "saran_pengganti": [
+            "letakkan nomina inti di posisi pertama perincian lalu lesapkan pada ordinal berikutnya",
+            "sebutkan: [Nomina] [Ordinal 1], [Ordinal 2], dan [Ordinal 3]"
+          ],
+          "penjelasan": "Kaidah elipsis nominal yang runtut mewajibkan penempatan nomina kepala pada awal perincian koordinatif sebelum dilesapkan pada penanda ordinal berikutnya (Maharani, UI 2018, hlm. 12-13).",
+          "contoh_salah": "Siswa boleh memilih yang ganjil, paket genap, atau lembar remidi.",
+          "contoh_benar": "Siswa boleh memilih paket ganjil, genap, atau remidi."
         }
       ]
     },
@@ -1810,7 +1929,7 @@
         },
         {
           "id": "OPN-003",
-          "pola": "[telaah] penyamaran aspek prospektif atau proyeksi masa depan sebagai fakta empiris terbukti",
+          "pola": "penyamaran aspek prospektif atau proyeksi masa depan sebagai fakta empiris terbukti",
           "saran_pengganti": "Pisahkan klausa verifikasi empiris masa lalu (telah terbukti, berhasil mereduksi) dari klausa ekspektasi/proyeksi masa depan (diproyeksikan, berpotensi) (Modul Direktorat SMA Kemendikbud 2020, KD 3.10 Artikel Opini, hlm. 12-14).",
           "penjelasan": "Artikel opini dan teks ilmiah membedakan secara tegas antara kalimat fakta (peristiwa yang telah terverifikasi kebenarannya secara empiris) dan kalimat opini prospektif (gagasan atau harapan yang belum terjadi). Menyatukan klaim 'eksperimen membuktikan' dengan modalitas masa depan 'akan mengeliminasi seluruh kegagalan' menimbulkan kerancuan epistemik.",
           "contoh_salah": "Eksperimen ini membuktikan bahwa algoritma baru akan mengeliminasi seluruh kegagalan koneksi jaringan internet di wilayah 3T.",
@@ -1818,7 +1937,7 @@
         },
         {
           "id": "OPN-004",
-          "pola": "[telaah] pernyataan opini normatif tanpa landasan klausa evidensial atau data pembenar",
+          "pola": "pernyataan opini normatif tanpa landasan klausa evidensial atau data pembenar",
           "saran_pengganti": "Sertakan klausa evidensial penjelas berbasis regulasi, parameter teknis, atau bukti data empiris sebelum mengajukan rekomendasi normatif (Modul Direktorat SMA Kemendikbud 2020, KD 3.10 Artikel Opini, hlm. 16-18).",
           "penjelasan": "Modul Pembelajaran SMA Bahasa Indonesia (Artikel Opini, Direktorat SMA Kemendikbud 2020) menggariskan bahwa opini ilmiah yang berbobot wajib memenuhi tiga kualifikasi: relevan dengan topik, memiliki penalaran logis, dan menyertakan bukti evidensial yang jelas. Kalimat anjuran normatif (seharusnya, semestinya) tanpa landasan data menjadi opini subjektif mentah.",
           "contoh_salah": "Sistem kesehatan primer seharusnya langsung merombak seluruh prosedur pengadaan vaksin secara sepihak.",
@@ -1834,7 +1953,7 @@
         },
         {
           "id": "WDY-002",
-          "pola": "[telaah] inversi attention flow dan pengedepanan inanimat yang mendistorsi hierarki subjek gramatikal",
+          "pola": "inversi attention flow dan pengedepanan inanimat yang mendistorsi hierarki subjek gramatikal",
           "saran_pengganti": "Selaraskan hierarki topik: jika tindakan merupakan putusan metodologis, jadikan agen manusia sebagai subjek; jika luaran difokuskan, gunakan konstruksi pasif baku tanpa pengulangan pronomina janggal (Widyaparwa Vol. 48 No. 1, 2020, hlm. 20-21).",
           "penjelasan": "Merujuk Givon (1976) dan DeLancey (1981), Kirana (Widyaparwa 2020) mencatat kecenderungan tuturan lisan membalik hierarki topik alami (attention flow inversion) dengan memajukan objek inanimat ke posisi awal lalu diikuti subjek agen dan pronomina pengulang (-nya). Pola ini menghasilkan kalimat canggung dan taksa dalam ragam ilmiah formal.",
           "contoh_salah": "Laporan pertanggungjawaban ini bendahara telah menyelesaikannya tepat waktu.",
@@ -1842,7 +1961,7 @@
         },
         {
           "id": "WDY-004",
-          "pola": "[telaah] penurunan derajat transitivitas akibat pelesapan argumen objek penderita",
+          "pola": "penurunan derajat transitivitas akibat pelesapan argumen objek penderita",
           "saran_pengganti": "Hadirkan argumen objek penderita langsung (affected object) setelah verba transitif untuk menjaga derajat transitivitas proposisi ilmiah (Widyaparwa Vol. 48 No. 1, 2020, hlm. 24-26).",
           "penjelasan": "Berdasarkan parameter transitivitas Hopper & Thompson (1980), Kirana (Widyaparwa 2020) menemukan tuturan lisan sering mengalami kejatuhan nilai transitivitas karena kehilangan komponen penjelas objek penderita. Dalam naskah ilmiah, verba transitif yang dibiarkan menggantung tanpa objek mengaburkan substansi empiris yang sedang diuji.",
           "contoh_salah": "Setelah mengekstraksi selama 24 jam, langkah berikutnya adalah memurnikan.",
@@ -1855,6 +1974,65 @@
           "penjelasan": "Kirana (Widyaparwa 2020) mencatat penutur lisan lebih mengutamakan latar waktu/tempat kejadian daripada struktur gramatikal subjek. Pada teks ilmiah, kalimat yang diawali preposisi temporal/spasial lalu langsung disambung verba aktif menghasilkan kalimat tanpa subjek (Keterangan-Predikat-Objek) yang cacat struktur.",
           "contoh_salah": "Pada saat melakukan pengambilan sampel darah di puskesmas menemukan 15 kasus anemia akut.",
           "contoh_benar": "Pada saat melakukan pengambilan sampel darah di puskesmas, petugas medis menemukan 15 kasus anemia akut."
+        },
+        {
+          "id": "MBI-001",
+          "pola": "[telaah] penumpukan formulaik penanda kutipan: menurut ... sedangkan menurut ... menambahkan bahwa",
+          "saran_pengganti": [
+            "sintesiskan pandangan pakar secara terpadu",
+            "kelompokkan rujukan sejalan dalam satu tanda kurung sitasi",
+            "elaborasi dengan argumentasi penulis sendiri"
+          ],
+          "penjelasan": "Gaya kompilasi kutipan mentah yang hanya menempelkan kutipan berurutan tanpa sintesis komparatif melanggar standar monograf ilmiah profesional (Istiqomah, PPPPTK 2020, hlm. 8-9).",
+          "contoh_salah": "Menurut Santoso (2018), X penting. Sedangkan menurut Wahyuni (2019), Y menentukan. Hamzah (2021) menambahkan bahwa Z krusial.",
+          "contoh_benar": "Sejumlah pakar sepakat bahwa penguasaan literasi multimodal memperkuat kecakapan analisis siswa (Santoso, 2018; Wahyuni, 2019; Hamzah, 2021)."
+        },
+        {
+          "id": "MBI-002",
+          "pola": "penomoran hierarki angka desimal lebih dari tiga digit: 2.1.1.1 / 3.2.1.2.1 pada subbab buku monograf",
+          "saran_pengganti": [
+            "ubah menjadi judul subbab tematik naratif",
+            "gunakan heading tipografis tanpa penomoran kaku"
+          ],
+          "penjelasan": "Penomoran angka desimal bertingkat kaku merupakan ciri laporan administratif/skripsi yang wajib dihilangkan saat dikonversi menjadi buku ilmiah ber-ISBN (Istiqomah, PPPPTK 2020, hlm. 11).",
+          "contoh_salah": "2.1.1.1 Definisi Kompetensi; 2.1.1.2 Komponen Kompetensi; 2.1.1.3 Faktor Pembentuk Kompetensi...",
+          "contoh_benar": "Hakikat Kompetensi SDM; Dimensi dan Komponen Kompetensi; Faktor-Faktor Determinan Kompetensi..."
+        },
+        {
+          "id": "MBI-003",
+          "pola": "pencantuman seting lokasi administratif spesifik pada judul buku ilmiah: di SMA Negeri X / di Kantor Dinas Y",
+          "saran_pengganti": [
+            "lepaskan pembatas lokasi/tahun sempit dari judul buku",
+            "fokuskan judul pada konsep keilmuan atau metodologi universal"
+          ],
+          "penjelasan": "Judul buku ilmiah monograf harus mencerminkan proposisi keilmuan umum dan lugas tanpa memuat lokasi penelitian sempit yang khas laporan KTI kampus (Istiqomah, PPPPTK 2020, hlm. 10, 13).",
+          "contoh_salah": "Peningkatan Keterampilan Menulis Siswa di SMA Negeri 1 Batu Tahun Ajaran 2011/2012.",
+          "contoh_benar": "Strategi Pembelajaran Menulis Paragraf Deskripsi."
+        },
+        {
+          "id": "KBI-001",
+          "pola": "eufemisme birokratis penutup fakta negatif: penyesuaian tarif / mengamankan tersangka / dirumahkan",
+          "saran_pengganti": [
+            "kenaikan tarif / kenaikan harga",
+            "menangkap / menahan",
+            "pemutusan hubungan kerja (PHK)"
+          ],
+          "penjelasan": "Putusan Kongres Bahasa Indonesia VII (1998, hlm. 6, Bagian B.2) melarang penggunaan eufemisme berlebihan yang bertujuan menutup-nutupi kenyataan negatif dalam wacana publik dan tulisan formal.",
+          "contoh_salah": "Pemerintah mengumumkan penyesuaian harga BBM bersubsidi mulai tengah malam nanti.",
+          "contoh_benar": "Pemerintah mengumumkan kenaikan harga BBM bersubsidi mulai tengah malam nanti."
+        },
+        {
+          "id": "KBI-002",
+          "pola": "booking room / grand opening / meeting room / launching produk",
+          "saran_pengganti": [
+            "pemesanan ruangan",
+            "pembukaan resmi",
+            "ruang rapat",
+            "peluncuran produk"
+          ],
+          "penjelasan": "Putusan Kongres Bahasa Indonesia VII (1998, hlm. 3, Bagian A.a.2) mengamanatkan pengindonesiaan kata dan istilah asing di ruang publik dan dokumen resmi kenegaraan.",
+          "contoh_salah": "Acara grand opening kantor cabang diselenggarakan di meeting room lantai dua.",
+          "contoh_benar": "Acara pembukaan resmi kantor cabang diselenggarakan di ruang rapat lantai dua."
         }
       ]
     },
@@ -2588,6 +2766,30 @@
           "penjelasan": "Konvensi akademik dan pedoman resmi BSKAP 2022 mensyaratkan bahwa singkatan resmi kurikulum wajib diperkenalkan dengan bentuk lengkapnya pada kemunculan pertama. Pemakaian singkatan mentah tanpa perkenalan menuntun pembaca awam ke kebingungan referensial.",
           "contoh_salah": "ATP disusun dengan metode scaffolding agar KKTP dapat diukur per fase dan P5 terintegrasi.",
           "contoh_benar": "Alur Tujuan Pembelajaran (ATP) disusun dengan metode scaffolding agar Kriteria Ketercapaian Tujuan Pembelajaran (KKTP) dapat diukur per fase dan Projek Penguatan Profil Pelajar Pancasila (P5) terintegrasi."
+        },
+        {
+          "id": "GLS-002",
+          "pola": "mengacuhkan (diartikan mengabaikan) / absensi (diartikan kehadiran) / tidak bergeming (diartikan diam)",
+          "saran_pengganti": [
+            "mengabaikan / tidak memedulikan",
+            "presensi / daftar kehadiran",
+            "bergeming (tanpa kata 'tidak')"
+          ],
+          "penjelasan": "Malapropisme atau katakresis leksikal (Lapoliwa & Nureni, Glosarium Linguistik 2002, hlm. 51): kekeliruan memakai leksem paronim yang berlawanan arti dengan definisi kamus baku.",
+          "contoh_salah": "Manajemen mengacuhkan peringatan dini tim audit internal.",
+          "contoh_benar": "Manajemen mengabaikan peringatan dini tim audit internal."
+        },
+        {
+          "id": "GLS-004",
+          "pola": "sangat mutlak / kondisi prasyarat awal / saling tolong-menolong satu sama lain",
+          "saran_pengganti": [
+            "mutlak",
+            "prasyarat",
+            "saling menolong / tolong-menolong"
+          ],
+          "penjelasan": "Kelewahan tautologis (Lapoliwa & Nureni, Glosarium Linguistik 2002, hlm. 50, 71): penumpukan leksem derajat mutlak yang melanggar prinsip kehematan hakiki (law of parsimony).",
+          "contoh_salah": "Keberhasilan uji coba klinis merupakan kondisi prasyarat awal sebelum vaksin diedarkan.",
+          "contoh_benar": "Keberhasilan uji coba klinis merupakan prasyarat sebelum vaksin diedarkan."
         }
       ]
     }

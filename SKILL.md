@@ -592,6 +592,18 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Deskripsi Ketercapaian Kompetensi:** Nilai rapor dan dokumen evaluasi akademik wajib menyertakan narasi deskripsi capaian kompetensi riil (capaian tertinggi dan area bimbingan), bukan sekadar angka agregat tunggal tanpa eviden (hlm. 48-52).
 4. **Fungsi Asesmen Formatif:** Asesmen formatif berfungsi sebagai instrumen perbaikan pembelajaran (*assessment for/as learning*) dan tidak boleh dihitung langsung ke dalam akumulasi angka nilai akhir rapor (hlm. 26-28).
 
+### AP. Sindrom Akronim Redundantan, Kohesi Teks, Konversi Monograf, dan Peristilahan Ruang Publik (Rujukan Haslinda & Thaba 2018; Maharani/UI; Istiqomah 2020; Putusan Kongres Bahasa Indonesia VII 1998; Glosarium Linguistik 2002)
+
+1. **Akronim-Toponimi Redundan (RAS-005):** Nama wilayah sudah terkandung dalam akronim (*M*akassar pada PSM, *Ja*karta pada Persija); tulis *Persija melawan PSM*, bukan *Persija Jakarta melawan PSM Makassar* (Haslinda & Thaba, hlm. 4-5).
+2. **Akronim-Spesifikator Redundan (RAS-006..009):** Kata penjelas sudah termuat dalam akronim: *sistem SI*, *nomor ISBN/ISSN/NPWP*, *dosen DPA*, *kode QR code*, *monitor LCD display*, *mesin ATM machine* — gugurkan spesifikator duplikat (Haslinda & Thaba, hlm. 3-6).
+3. **Konjungsi "Maka" Awal Kalimat (KOH-003):** *Maka* adalah konjungsi konsekuensi intrakalimat; dilarang membuka kalimat mandiri tanpa klausa syarat (*Jika X, maka Y*), ganti *Oleh karena itu* (Maharani, hlm. 17).
+4. **Penomoran Subbab Monograf (MBI-002):** Penomoran desimal bertingkat dilarang melebihi tiga tingkat (*2.1.1.1*); gunakan judul bermakna atau tiga tingkat penuh (Istiqomah, hlm. 11).
+5. **Judul Bebas Latar Administratif (MBI-003):** Judul buku ilmiah dilarang memuat seting administratif (*di SMA Negeri 1 Batu Tahun Ajaran 2011/2012*); lokasi dan tahun penelitian cukup pada bagian metodologi (Istiqomah, hlm. 10, 13).
+6. **Eufemisme Birokratis (KBI-001):** Penutupan fakta negatif dengan pembalut halus (*penyesuaian tarif* = kenaikan harga; *mengamankan* = menangkap/menahan; *dirumahkan* = PHK) ditolak dalam ragam resmi; nyatakan kenyataannya lugas (Putusan Kongres VII, hlm. 6, Bagian Khusus B.2).
+7. **Istilah Asing Mentah Ruang Publik (KBI-002):** *booking room, grand opening, meeting room, launching* di dokumen resmi digantikan padanannya: *ruang pemesanan, pembukaan resmi, ruang rapat, peluncuran* (Putusan Kongres VII, hlm. 3, Bagian Khusus A.a.2).
+8. **Katakresis Paronim (GLS-002):** *Mengacuhkan* bukan *mengabaikan* (*mengacuhkan* = tidak menggubris dengan sengaja vs *mengabaikan* = tidak memedulikan); *absensi* bukan *kehadiran* melainkan daftar ketidakhadiran; *tidak bergeming* bukan berarti diam total (Lapoliwa & Nureni, hlm. 51).
+9. **Tautologi Kehematan (GLS-004):** Gugurkan kelewahan tautologis: *sangat mutlak*, *kondisi prasyarat awal*, *saling tolong-menolong satu sama lain* → *mutlak*, *prasyarat*, *saling tolong-menolong* (Lapoliwa & Nureni, hlm. 50, 71).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
