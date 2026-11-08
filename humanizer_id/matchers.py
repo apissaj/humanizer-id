@@ -360,6 +360,20 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Seri Penyuluhan 1: Ejaan (SPE-001..003) ---
+CUSTOM_RULES.extend([
+    # SPE-001: tanda koma terlarang sebelum anak kalimat kausal/final di belakang (hlm. 39)
+    (lambda p: ', karena / , agar / , supaya' in p,
+     [re.compile(r',\s*(?:karena|agar|supaya)\b', re.IGNORECASE)]),
+    # SPE-002: gabungan kata berawalan saja ditulis serangkai (hlm. 19)
+    (lambda p: 'berterimakasih / bertandatangan' in p,
+     [re.compile(r'(?i)\b(?:berterimakasih|bertandatangan|bersepakbola|membabibuta|menyebarluas)\b')]),
+    # SPE-003: konjungsi antarkalimat di awal kalimat tanpa tanda koma (hlm. 36-37)
+    (lambda p: 'Namun ... / Bahkan ... / Kemudian ...' in p,
+     [re.compile(r'(?i)(?:^|[.!?]\s+)(?:Namun|Bahkan|Kemudian|Lagi\s+pula|Sebenarnya)\s+[a-z]')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

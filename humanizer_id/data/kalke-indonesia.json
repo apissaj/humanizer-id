@@ -1570,6 +1570,18 @@
           "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 37), 'di mana' sebagai penghubung klausa bersifat mana suka dan tidak baku; gunakan 'yang', 'tempat', atau hilangkan.",
           "contoh_salah": "Sistem operasi menyediakan memori terpusat, di mana setiap thread dapat dieksekusi.",
           "contoh_benar": "Sistem operasi menyediakan memori terpusat tempat setiap thread dapat dieksekusi."
+        },
+        {
+          "id": "SPE-001",
+          "pola": ", karena / , agar / , supaya (koma terlarang sebelum anak kalimat kausal/final di belakang induk)",
+          "saran_pengganti": [
+            "karena",
+            "agar",
+            "supaya (hapus tanda koma di depan konjungsi)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 39), jika anak kalimat kausal/final mengiringi induk kalimat di posisi belakang, tanda koma tidak boleh digunakan untuk memisahkannya.",
+          "contoh_salah": "Peneliti membatalkan prosedur tersebut, karena suhu reaktor melebihi ambang batas aman.",
+          "contoh_benar": "Peneliti membatalkan prosedur tersebut karena suhu reaktor melebihi ambang batas aman."
         }
       ]
     },
@@ -2407,6 +2419,17 @@
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 97-99), kami hanya sah jika mewakili kelompok atau lembaga; untuk penulis tunggal karya ilmiah gunakan saya, penulis, atau bentuk pasif.",
           "contoh_salah": "Dalam penelitian ini kami bermaksud mendeskripsikan hubungan antara pendidikan dan produktivitas kerja.",
           "contoh_benar": "Dalam penelitian ini penulis bermaksud mendeskripsikan hubungan antara pendidikan dan produktivitas kerja."
+        },
+        {
+          "id": "SPE-004",
+          "pola": "[telaah] pemakaian tanda titik koma sebagai pemisah klausa setara tanpa konjungsi",
+          "saran_pengganti": [
+            "Gunakan tanda titik koma (;)",
+            "Hubungkan dengan konjungsi koordinatif setara"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 39), tanda titik koma dapat menggantikan kata penghubung koordinatif untuk memisahkan klausa-klausa setara yang erat kaitannya.",
+          "contoh_salah": "Ayah membaca koran di teras depan dan ibu memasak di dapur dan adik belajar di kamar.",
+          "contoh_benar": "Ayah membaca koran di teras depan; ibu memasak di dapur; adik belajar di kamar."
         }
       ]
     },
@@ -3482,6 +3505,33 @@
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 96), kita (jamak inklusif) tidak boleh menggantikan saya (tunggal) dalam ragam resmi karena menimbulkan kerancuan kejamakan.",
           "contoh_salah": "Kemarin waktu kita pulang sekolah, dia sudah ada di sini.",
           "contoh_benar": "Kemarin sewaktu saya pulang sekolah, dia sudah berada di sini."
+        },
+        {
+          "id": "SPE-002",
+          "pola": "berterimakasih / bertandatangan / bersepakbola / membabibuta / menyebarluas",
+          "saran_pengganti": [
+            "berterima kasih",
+            "bertanda tangan",
+            "bersepak bola",
+            "membabi buta",
+            "menyebar luas (tulis terpisah)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 19), jika gabungan kata hanya mendapat awalan, kata-katanya tetap ditulis terpisah tanpa tanda hubung.",
+          "contoh_salah": "Pihak panitia berterimakasih atas partisipasi seluruh peserta seminar.",
+          "contoh_benar": "Pihak panitia berterima kasih atas partisipasi seluruh peserta seminar."
+        },
+        {
+          "id": "SPE-003",
+          "pola": "Namun ... / Bahkan ... / Kemudian ... / Lagi pula ... (di awal kalimat tanpa tanda koma)",
+          "saran_pengganti": [
+            "Namun, ...",
+            "Bahkan, ...",
+            "Kemudian, ...",
+            "Lagi pula, ... (bubuhkan tanda koma)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 36-37), kata penghubung antarkalimat di awal kalimat wajib diikuti tanda koma.",
+          "contoh_salah": "Namun hal tersebut belum dapat dibuktikan secara empiris di laboratorium.",
+          "contoh_benar": "Namun, hal tersebut belum dapat dibuktikan secara empiris di laboratorium."
         }
       ]
     }

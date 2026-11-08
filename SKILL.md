@@ -708,6 +708,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Kejamakan Inklusif (BPK-013):* *Kita* (jamak inklusif) tidak boleh menggantikan *saya* (tunggal) dalam ragam resmi [telaah].
 4. **Pronomina Penulis Ilmiah (BPK-014):* Untuk penulis tunggal, gunakan *saya/penulis*/bentuk pasif; *kami* hanya sah untuk penulis yang mewakili kelompok atau lembaga [telaah].
 
+### BD. Tanda Baca & Gabungan Kata Ejaan Baku (Rujukan "Seri Penyuluhan 1: Ejaan dalam Bahasa Indonesia", Pusat Bahasa Depdikbud, Bab III hlm. 10-12 & Bab IV hlm. 30-39)
+
+1. **Koma Terlarang Sebelum Kausal/Final (SPE-001):* Jika anak kalimat mengiringi di belakang induk, tanda koma terlarang (*ia membatalkan rencana karena...*, bukan *, karena...*). Koma hanya wajib jika anak kalimat mendahului induk.
+2. **Gabungan Berawalan Saja (SPE-002):* Gabungan kata yang hanya berawalan tetap ditulis terpisah tanpa tanda hubung (*berterima kasih, bertanda tangan, bersepak bola, membabi buta*); bukan serangkai (*berterimakasih*).
+3. **Koma Pasca-Konjungsi Antarkalimat (SPE-003):* Ungkapan penghubung di awal kalimat (*Namun, Bahkan, Kemudian, Lagi pula, Sebenarnya*) wajib diikuti koma.
+4. **Titik Koma Klausa Setara (SPE-004):* Tanda titik koma memisahkan klausa setara tanpa konjungsi koordinatif [telaah].
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
