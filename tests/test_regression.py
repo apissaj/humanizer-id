@@ -69,6 +69,19 @@ class TestHumanizerRegression(unittest.TestCase):
                 fp.append((e["id"], e["pola"]))
         self.assertEqual(fp, [], f"False Positive terdeteksi pada contoh_benar: {fp}")
 
+    def test_negative_corpus_zero_findings(self):
+        """Korpus negatif (prosa baku lintas domain) wajib 0 temuan."""
+        corpus_path = os.path.join(ROOT, "tests", "corpus_negative.json")
+        with open(corpus_path, encoding="utf-8") as f:
+            corpus = json.load(f)
+
+        offending = []
+        for sentence in corpus["kalimat"]:
+            findings = audit_text(sentence, self.kalke, self.glos)
+            if findings:
+                offending.append((sentence[:50], [m["id"] for m in findings]))
+        self.assertEqual(offending, [], f"FP korpus negatif: {offending}")
+
     def test_manual_review_entries_excluded_from_regex(self):
         """Entri [telaah] tidak boleh menembak contoh_benar dirinya via regex otomatis."""
         accidental = []
