@@ -141,6 +141,21 @@ CUSTOM_RULES = [
 ]
 
 
+
+# --- Kaidah Tambahan (P3: GLS-003, KBI-004, MBI-004) ---
+CUSTOM_RULES.extend([
+    # GLS-003: kolokasi verba-nomina metaforis janggal (Glosarium Linguistik 2002)
+    (lambda p: 'kolokasi leksikal baku' in p or 'melahirkan solusi' in p,
+     [re.compile(r'\b(melahirkan\s+solusi|menghidangkan\s+musik|mencanangkan\s+pemecahan)\b', re.IGNORECASE)]),
+    # KBI-004: leksikon percakapan santai di naskah resmi (Kongres Bahasa VII 1998)
+    (lambda p: 'ragam percakapan lisan atau dialek daerah' in p,
+     [re.compile(r'\b(bikin\s+bingung|banget\b)|(\s+kok\s*(?=[.!?]))|(\s+sih\s*(?=[.!?]))', re.IGNORECASE)]),
+    # MBI-004: identitas responden berdigit tanpa anonimisasi (Istiqomah 2020)
+    (lambda p: 'data mentah identitas subjek' in p,
+     [re.compile(r'\b(?:NIK|NIP|No\.?\s*KTP)\s*[:=]?\s*\d{4,}\b', re.IGNORECASE)]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

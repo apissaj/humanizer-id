@@ -604,6 +604,15 @@ ightarrow$ serangkai: *mahakasih*.
 8. **Katakresis Paronim (GLS-002):** *Mengacuhkan* bukan *mengabaikan* (*mengacuhkan* = tidak menggubris dengan sengaja vs *mengabaikan* = tidak memedulikan); *absensi* bukan *kehadiran* melainkan daftar ketidakhadiran; *tidak bergeming* bukan berarti diam total (Lapoliwa & Nureni, hlm. 51).
 9. **Tautologi Kehematan (GLS-004):** Gugurkan kelewahan tautologis: *sangat mutlak*, *kondisi prasyarat awal*, *saling tolong-menolong satu sama lain* → *mutlak*, *prasyarat*, *saling tolong-menolong* (Lapoliwa & Nureni, hlm. 50, 71).
 
+### AP-Amandemen. Kolokasi Metaforis, Ragam Santai Naskah Resmi, dan Anonimisasi Subjek Penelitian
+
+1. **Kolokasi Verba-Nomina Metaforis (GLS-003):** Pasangan verba-nomina wajib patuh kolokasi leksikal baku; *melahirkan* hanya untuk makhluk hidup (*melahirkan solusi* → *menghasilkan solusi*), *menghidangkan* untuk sajian konsumsi (*menghidangkan musik* → *menyajikan musik*), *mencanangkan* untuk program resmi (*mencanangkan pemecahan* → *merumuskan pemecahan*) (Lapoliwa & Nureni, hlm. 17).
+2. **Leksikon Percakapan di Naskah Resmi (KBI-004):** Partikel dan verba ragam santai (*banget, bikin bingung, kok, sih*) dilarang pada buku teks dan naskah dinas; ganti *sangat/membingungkan*, hapus partikel (Putusan Kongres VII, hlm. 5-6, Bagian Khusus A.f.2 & B.4) [aspek kontekstual dinilai manual: *telaah* untuk pemakaian figuratif].
+3. **Anonimisasi Subjek Penelitian (MBI-004):** Data identitas responden (*NIK, NIP, nomor KTP*) wajib disamarkan dengan inisial atau kode responden (*narasumber AD*); digit identitas pribadi mentah dalam naskah melanggar etika penelitian (Istiqomah, hlm. 5) [penilaian konteks naskah: *telaah* untuk kasus non-digit].
+4. **Rancu Taksonomi Meronimi-Hiponimi (KOH-005):** Relasi "bagian dari" (*piston, busi* terhadap *mesin*) tidak boleh disebut "jenis" (*tiga jenis mesin*); gunakan *komponen/bagian* untuk meronimi dan *jenis* hanya untuk hiponimi (Maharani, hlm. 8-9, 14) [*telaah*].
+5. **Pulau Anaforis (GLS-001):** Pronomina (*-nya, ini*) tidak boleh menggantikan nomina turunan utuh (*aromanya* untuk *aroma kopi* berbatas pulau anaforis); ulangi nomina lengkap atau bentuk padanannya (Lapoliwa & Nureni, hlm. 14) [*telaah*].
+6. **Leksikon Sensasional Naskah Resmi (KBI-003):** Ungkapan berkonotasi vulgar atau sensasional untuk memicu viralitas dilarang dalam publikasi dinas; gunakan gaya lugas berbasis data (Putusan Kongres VII, hlm. 6, Bagian Khusus B.8) [*telaah*].
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

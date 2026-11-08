@@ -1363,6 +1363,17 @@
           "penjelasan": "Kaidah elipsis nominal yang runtut mewajibkan penempatan nomina kepala pada awal perincian koordinatif sebelum dilesapkan pada penanda ordinal berikutnya (Maharani, UI 2018, hlm. 12-13).",
           "contoh_salah": "Siswa boleh memilih yang ganjil, paket genap, atau lembar remidi.",
           "contoh_benar": "Siswa boleh memilih paket ganjil, genap, atau remidi."
+        },
+        {
+          "id": "KOH-005",
+          "pola": "[telaah] kerancuan taksonomis relasi bagian (meronimi) dengan relasi jenis (hiponimi) pada klausa klasifikasi",
+          "saran_pengganti": [
+            "gunakan pemarkah bagian dari untuk relasi konstituen fisik",
+            "gunakan pemarkah jenis/varian dari untuk relasi taksonomis inklusif"
+          ],
+          "penjelasan": "Pencampuradukan relasi bagian-keseluruhan (meronimi) dengan relasi jenis-subkelas (hiponimi) merusak ketepatan logika definisi ilmiah (Maharani, UI 2018, hlm. 8-9, 14).",
+          "contoh_salah": "Laporan ini meneliti tiga jenis utama mesin mobil, yaitu piston, busi, dan karburator.",
+          "contoh_benar": "Laporan ini meneliti tiga komponen utama mesin mobil, yaitu piston, busi, dan karburator."
         }
       ]
     },
@@ -2033,6 +2044,39 @@
           "penjelasan": "Putusan Kongres Bahasa Indonesia VII (1998, hlm. 3, Bagian A.a.2) mengamanatkan pengindonesiaan kata dan istilah asing di ruang publik dan dokumen resmi kenegaraan.",
           "contoh_salah": "Acara grand opening kantor cabang diselenggarakan di meeting room lantai dua.",
           "contoh_benar": "Acara pembukaan resmi kantor cabang diselenggarakan di ruang rapat lantai dua."
+        },
+        {
+          "id": "KBI-004",
+          "pola": "interferensi ragam percakapan lisan atau dialek daerah dalam buku teks dan naskah dinas resmi",
+          "saran_pengganti": [
+            "gunakan tata bahasa baku baku bersistem",
+            "hilangkan partikel kolokial (banget, bikin, kok, sih)"
+          ],
+          "penjelasan": "Putusan Kongres Bahasa Indonesia VII (1998, hlm. 5-6, Bagian A.f.2 & B.4) mewajibkan penulisan buku ajar dan dokumen dinas pemerintah mematuhi kaidah bahasa Indonesia baku.",
+          "contoh_salah": "Penerapan aturan baru dinilai bikin bingung para aparatur sipil daerah.",
+          "contoh_benar": "Penerapan aturan baru dinilai membingungkan para aparatur sipil daerah."
+        },
+        {
+          "id": "MBI-004",
+          "pola": "pemaparan data mentah identitas subjek atau responden tanpa proses penyamaran privasi",
+          "saran_pengganti": [
+            "samarkan nama responden dengan inisial atau kode",
+            "sajikan data dalam bentuk agregat statistik"
+          ],
+          "penjelasan": "Data pribadi subjek penelitian dan rahasia instansi wajib disamarkan demi menjaga etika integritas dan privasi responden dalam publikasi buku ilmiah (Istiqomah, PPPPTK 2020, hlm. 5).",
+          "contoh_salah": "Berdasarkan wawancara dengan Ahmad Dani (NIK 3201...) selaku bendahara sekolah...",
+          "contoh_benar": "Berdasarkan wawancara dengan narasumber AD selaku staf keuangan sekolah..."
+        },
+        {
+          "id": "KBI-003",
+          "pola": "[telaah] leksikon sensasional atau berkonotasi vulgar dalam publikasi formal dan media periklanan",
+          "saran_pengganti": [
+            "gunakan pilihan kata yang santun dan selaras dengan norma sosial budaya",
+            "hindari sensasionalisme tabu yang merusak martabat bahasa formal"
+          ],
+          "penjelasan": "Putusan Kongres Bahasa Indonesia VII (1998, hlm. 6, Bagian B.8) menetapkan bahwa bahasa periklanan dan media publik wajib berpedoman pada norma sosial dengan melarang diksi berkonotasi vulgar.",
+          "contoh_salah": "Artikel resmi dinas memuat ungkapan sensual murahan guna memicu viralitas media.",
+          "contoh_benar": "Artikel resmi dinas menyajikan informasi secara lugas, beradab, dan berbasis data objektif."
         }
       ]
     },
@@ -2790,6 +2834,29 @@
           "penjelasan": "Kelewahan tautologis (Lapoliwa & Nureni, Glosarium Linguistik 2002, hlm. 50, 71): penumpukan leksem derajat mutlak yang melanggar prinsip kehematan hakiki (law of parsimony).",
           "contoh_salah": "Keberhasilan uji coba klinis merupakan kondisi prasyarat awal sebelum vaksin diedarkan.",
           "contoh_benar": "Keberhasilan uji coba klinis merupakan prasyarat sebelum vaksin diedarkan."
+        },
+        {
+          "id": "GLS-003",
+          "pola": "menghidangkan musik / melahirkan solusi / mencanangkan pemecahan",
+          "saran_pengganti": [
+            "memperdengarkan musik",
+            "merumuskan solusi / menawarkan solusi",
+            "mengajukan pemecahan masalah"
+          ],
+          "penjelasan": "Pelanggaran pembatasan kolokasi (Lapoliwa & Nureni, Glosarium Linguistik 2002, hlm. 17): pasangan verba dan nomina tidak idiomatik dalam kaidah sintaksis bahasa Indonesia baku.",
+          "contoh_salah": "Penelitian ini melahirkan solusi inovatif untuk mengatasi polusi udara perkotaan.",
+          "contoh_benar": "Penelitian ini menghasilkan solusi inovatif untuk mengatasi polusi udara perkotaan."
+        },
+        {
+          "id": "GLS-001",
+          "pola": "[telaah] pelanggaran pulau anaforis: pronomina persona atau demonstratif mengacu pada morfem terikat di dalam nomina turunan",
+          "saran_pengganti": [
+            "sebutkan anteseden nomina secara eksplisit di luar kata jadian",
+            "rekonstruksi kata jadian menjadi konstruksi verba dan objek mandiri"
+          ],
+          "penjelasan": "Prinsip pulau anaforis (Lapoliwa & Nureni, Glosarium Linguistik 2002, hlm. 14) melarang pronomina mengacu pada konstituen yang terkurung dalam morfem turunan tertutup (anaphoric island constraint).",
+          "contoh_salah": "Para penikmat kopi menyukai aromanya, tetapi tanaman tersebut rentan terhadap hama jamur.",
+          "contoh_benar": "Para penikmat menyukai aroma kopi, tetapi tanaman kopi rentan terhadap hama jamur."
         }
       ]
     }
