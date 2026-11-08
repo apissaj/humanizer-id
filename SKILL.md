@@ -505,6 +505,10 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Metanalisis Palsu:** *-itas* hanya pada akar *-ity*; *-isasi* hanya pada akar *-ization* — *sinergi* (bukan *sinergitas*), *standardisasi* (bukan *standarisasi*), *efektivitas* (bukan *efektifitas*), *aktivitas* (bukan *aktifitas*) (hlm. 42, 55–56).
 4. **Gabungan Bentuk Bebas Terpisah:** *ibu kota, kerja sama, batu bara, anak perusahaan* — bukan *ibukota, kerjasama, batubara, anakperusahaan* (hlm. 23, 36).
 5. **Peluluhan peN- Baku:** *penerjemah* (bukan *penterjemah*), *perajin* (bukan *pengrajin*), *penyurvei* (bukan *pensurvei*), *pengebom* (bukan *pembom*) (hlm. 23).
+6. **Serapan Belanda -eel Menjadi -el (TIQ-006):** Akhiran *-eel* diserap baku *-el* murni: *materiel, morel, prinsipiel, potensiel* — bukan *materiil, moriil, prinsipiil* (hlm. 14, 17).
+7. **Kalk Terjemahan Istilah Finansial (TIQ-007):** Penerjemahan istilah tidak boleh harfiah: *bear market* diterjemahkan *pasar lesu/pasar turun* (bukan *pasar beruang*); *bull market* diterjemahkan *pasar bergairah/pasar naik* (bukan *pasar banteng*) (hlm. 20).
+8. **Padanan Toko Serbaada (TIQ-008):** *Department store* dipadankan *toko serbaada* atau *toserba*, bukan *depstor* (hlm. 20).
+9. **Kalk Parsial Swalayan (TIQ-009):** *Swalayan* bermakna 'melayani diri sendiri'; sebutan tempat memerlukan kata yang diterangkan (*ke pasar swalayan*, bukan *ke swalayan*) (hlm. 20).
 
 ### AE. Korelatif, Keparalelan & Nalar Frasa (Rujukan Suyatno dkk., *Bahasa Indonesia untuk Perguruan Tinggi*, IN MEDIA, 2017)
 

@@ -502,6 +502,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Pemadanan & Penyerapan Qodratillah 2016 (TIQ-006..009) ---
+CUSTOM_RULES.extend([
+    # TIQ-006: serapan Belanda -eel menjadi -el (hlm. 14, 17)
+    (lambda p: 'materiil / moriil / prinsipiil' in p,
+     [re.compile(r'(?i)\b(?:materiil|moriil|prinsipiil|esensiil|potensiil|finansiil|substansiil)\b')]),
+    # TIQ-007: kalk harfiah istilah ekonomi (hlm. 20)
+    (lambda p: 'pasar beruang / pasar banteng' in p,
+     [re.compile(r'(?i)\bpasar\s+(?:beruang|banteng)\b')]),
+    # TIQ-008: padanan toko serbaada/toserba (hlm. 20)
+    (lambda p: 'depstor / departement store' in p,
+     [re.compile(r'(?i)\b(?:depstor|departement\s+store)\b')]),
+    # TIQ-009: kalk parsial swalayan tanpa nomina inti (hlm. 20)
+    (lambda p: "ke swalayan / di swalayan / dari swalayan" in p,
+     [re.compile(r'(?i)\b(?:ke|di|dari)\s+swalayan\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

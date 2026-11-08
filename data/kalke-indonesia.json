@@ -1638,6 +1638,39 @@
           "penjelasan": "Merujuk Seri Penyuluhan Kalimat (Sasangka, Badan Bahasa, 2015, hlm. 82-83), penanggalkan konjungsi ketika/saat pada klausa subordinatif pembuka menghapus penanda struktur; pertahankan konjungsi bila risiko rancu.",
           "contoh_salah": "Berbicara kepada media kemarin, jurnalis itu mengatakan hasil wawancaranya.",
           "contoh_benar": "Ketika berbicara kepada media kemarin, jurnalis itu mengatakan hasil wawancaranya."
+        },
+        {
+          "id": "TIQ-007",
+          "pola": "pasar beruang / pasar banteng",
+          "saran_pengganti": [
+            "pasar lesu / pasar turun (bear market)",
+            "pasar bergairah / pasar naik (bull market)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa, 2016, hlm. 20), penerjemahan istilah asing tidak boleh harfiah: bear market diterjemahkan pasar lesu/pasar turun, bukan pasar beruang.",
+          "contoh_salah": "Indeks saham anjlok tajam saat pasar beruang melanda bursa efek.",
+          "contoh_benar": "Indeks saham anjlok tajam saat pasar lesu melanda bursa efek."
+        },
+        {
+          "id": "TIQ-008",
+          "pola": "depstor / departement store",
+          "saran_pengganti": [
+            "toko serbaada",
+            "toserba"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa, 2016, hlm. 20), department store diterjemahkan menjadi toko serbaada atau toserba, bukan bentuk serapan cacat depstor.",
+          "contoh_salah": "Warga membeli pakaian perlengkapan sekolah di depstor kota.",
+          "contoh_benar": "Warga membeli pakaian perlengkapan sekolah di toserba kota."
+        },
+        {
+          "id": "TIQ-009",
+          "pola": "ke swalayan / di swalayan / dari swalayan (tanpa kata 'pasar' atau 'toko')",
+          "saran_pengganti": [
+            "ke pasar swalayan",
+            "di toko swalayan"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa, 2016, hlm. 20), swalayan bermakna 'melayani diri sendiri' (pewatas cara); penyebutan tempat memerlukan kata yang diterangkan: pasar swalayan atau toko swalayan.",
+          "contoh_salah": "Ibu pergi ke swalayan untuk membeli kebutuhan pokok keluarga.",
+          "contoh_benar": "Ibu pergi ke pasar swalayan untuk membeli kebutuhan pokok keluarga."
         }
       ]
     },
@@ -3917,6 +3950,22 @@
           "penjelasan": "Merujuk Seri Penyuluhan Ejaan (Sriyanto, Badan Bahasa, 2015, hlm. 91), jika nama bulan ditulis lengkap dengan huruf, tanda hubung tidak lagi digunakan; gunakan spasi biasa.",
           "contoh_salah": "Surat keputusan tertanggal 12-September-2024 telah diterima pimpinan.",
           "contoh_benar": "Surat keputusan tertanggal 12 September 2024 telah diterima pimpinan."
+        },
+        {
+          "id": "TIQ-006",
+          "pola": "materiil / moriil / prinsipiil / esensiil / potensiil / finansiil / substansiil",
+          "saran_pengganti": [
+            "materiel",
+            "morel",
+            "prinsipiel",
+            "esensiel",
+            "potensiel",
+            "finansial",
+            "substansial"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa, 2016, hlm. 14, 17), serapan Belanda berakhiran -eel menjadi -el (materiel, morel, prinsipiel); bentuk materiil, moriil, prinsipiil tidak baku.",
+          "contoh_salah": "Proyek tersebut mengalami kerugian materiil dan beban moriil yang berat.",
+          "contoh_benar": "Proyek tersebut mengalami kerugian materiel dan beban morel yang berat."
         }
       ]
     }
