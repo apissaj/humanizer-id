@@ -1473,6 +1473,16 @@
           "penjelasan": "TBBBI (hlm. 237) menetapkan formula ekuatif baku adalah 'sama [adjektiva]-nya dengan', bukan 'sama ... seperti'.",
           "contoh_salah": "Pengujian keamanan siber sama pentingnya seperti pengujian fungsional aplikasi.",
           "contoh_benar": "Pengujian keamanan siber sama pentingnya dengan pengujian fungsional aplikasi."
+        },
+        {
+          "id": "TBB-020",
+          "pola": "saling tolong-menolong satu sama lain / saling berinteraksi satu sama lain",
+          "saran_pengganti": [
+            "tolong-menolong satu sama lain / berinteraksi satu sama lain (hapus 'saling')"
+          ],
+          "penjelasan": "TBBBI (hlm. 328) menetapkan wujud baku keterangan kesalingan adalah 'satu sama lain'; penambahan 'saling' pada konstruksi yang telah memuat 'satu sama lain' merupakan pleonasme ganda.",
+          "contoh_salah": "Modul-modul pembelajaran tersebut saling berinteraksi satu sama lain dalam sistem.",
+          "contoh_benar": "Modul-modul pembelajaran tersebut berinteraksi satu sama lain dalam sistem."
         }
       ]
     },
@@ -3117,6 +3127,46 @@
           "penjelasan": "Pedoman Umum Pembentukan Istilah (PUPI Bagian 5.8, TBBBI hlm. 438-439) mewajibkan bilangan desimal selalu diawali angka; notasi yang langsung diawali titik/koma desimal dilarang.",
           "contoh_salah": "Nilai p-value pengujian tercatat sebesar .05 pada taraf kepercayaan 95%.",
           "contoh_benar": "Nilai p-value pengujian tercatat sebesar 0.05 pada taraf kepercayaan 95%."
+        },
+        {
+          "id": "TBB-019",
+          "pola": "penggandaan kata 'yang' pada kalimat emfatik: Dialah yang yang / itulah yang yang",
+          "saran_pengganti": [
+            "Dialah yang ... (satu kata 'yang' saja)"
+          ],
+          "penjelasan": "Merujuk TBBBI (hlm. 316), kalimat emfatik hanya menambahkan satu partikel '-lah' pada subjek dan satu konjungsi 'yang'; penggandaan 'yang yang' menghasilkan struktur buntung.",
+          "contoh_salah": "Dialah yang yang memulai pertengkaran tersebut kemarin.",
+          "contoh_benar": "Dialah yang memulai pertengkaran tersebut kemarin."
+        },
+        {
+          "id": "EYD-020",
+          "pola": "angka Arab pada awal kalimat: 15 orang tewas / 250 responden menyatakan",
+          "saran_pengganti": [
+            "Eja dengan huruf (Lima belas orang tewas / Dua ratus lima puluh responden)"
+          ],
+          "penjelasan": "EYD (Lampiran 1 TBBBI, hlm. 418) menetapkan lambang bilangan pada awal kalimat ditulis dengan huruf; susun ulang kalimat bila bilangan panjang.",
+          "contoh_salah": "250 responden menyatakan ketidakpuasan terhadap layanan aplikasi tersebut.",
+          "contoh_benar": "Dua ratus lima puluh responden menyatakan ketidakpuasan terhadap layanan aplikasi tersebut."
+        },
+        {
+          "id": "EYD-021",
+          "pola": "50an / 90an / 2000-an tanpa tanda hubung yang sah",
+          "saran_pengganti": [
+            "tahun '50-an (dengan tanda hubung) / tahun lima puluhan (eja penuh)"
+          ],
+          "penjelasan": "EYD (hlm. 418) menetapkan bilangan berakhiran '-an' ditulis dengan angka + tanda hubung + '-an' atau dieja penuh; bentuk serangkai tanpa tanda hubung tidak baku.",
+          "contoh_salah": "Teknologi internet berkembang pesat sejak era 90an.",
+          "contoh_benar": "Teknologi internet berkembang pesat sejak era 90-an."
+        },
+        {
+          "id": "EYD-022",
+          "pola": "[telaah] format pecahan hibrida angka-huruf yang tidak baku: 1½nya / 32/1",
+          "saran_pengganti": [
+            "Gunakan 1/2, 3/4, atau eja penuh (setengah, tiga perempat) secara konsisten"
+          ],
+          "penjelasan": "EYD (hlm. 417) menetapkan penulisan pecahan dengan lambang bilangan atau ejaan penuh; format campuran yang tidak lazim ditolak.",
+          "contoh_salah": "Sebanyak 1½nya responden menyetujui perubahan kebijakan anggaran.",
+          "contoh_benar": "Sebanyak setengah dari responden menyetujui perubahan kebijakan anggaran."
         }
       ]
     }

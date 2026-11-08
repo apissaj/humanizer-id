@@ -233,6 +233,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Keserasian & EYD Lambang Bilangan (TBB-019..020, EYD-020..022) ---
+CUSTOM_RULES.extend([
+    # TBB-019: penggandaan 'yang' pada kalimat emfatik (TBBBI hlm. 316)
+    (lambda p: "penggandaan kata 'yang'" in p,
+     [re.compile(r'(?i)\b(\w+lah)\s+yang\s+yang\b')]),
+    # TBB-020: pleonasme kesalingan ganda (TBBBI hlm. 328)
+    (lambda p: 'saling tolong-menolong satu sama lain' in p,
+     [re.compile(r'(?i)\bsaling\s+(?:[a-z]+(?:-[a-z]+)?\s+)?satu\s+sama\s+lain\b')]),
+    # EYD-020: angka Arab pembuka kalimat (EYD hlm. 418)
+    (lambda p: 'angka Arab pada awal kalimat' in p,
+     [re.compile(r'(?m)(?:^|[.!?]\s+)\d+\s+[a-z]')]),
+    # EYD-021: bilangan -an tanpa tanda hubung (EYD hlm. 418)
+    (lambda p: '50an / 90an / 2000-an' in p,
+     [re.compile(r'(?i)\b\d{2,4}an\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

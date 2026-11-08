@@ -651,6 +651,14 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Verba ke--an Tanpa Preposisi (TBB-018):* Verba semitransitif adversatif (*kejatuhan, kehabisan, kemasuan, kebanjiran*) langsung mengikat pelengkap nomina tanpa *oleh/akan/dengan*.
 4. **Desimal Berawal Nol (PUPI-001):* Bilangan desimal wajib diawali angka (*0,05* atau *0.05*); notasi *....05* atau *,05* dilarang.
 
+### AV. Kalimat Emfatik, Kesalingan, dan Lambang Bilangan (Rujukan TBBBI Edisi Keempat: Bab IX hlm. 316 & 328, dan Lampiran 1 EYD hlm. 416-418)
+
+1. **Emfatik Satu 'Yang' (TBB-019):* Penegasan subjek cukup dengan '-lah' + satu kata 'yang' (*Dialah yang memulai...*); penggandaan *yang yang* menghasilkan struktur buntung.
+2. **Kesalingan Tanpa 'Saling' Ganda (TBB-020):* Frasa *satu sama lain* sudah memuat resiprositas; *saling + [verba] + satu sama lain* adalah pleonasme ganda — gugurkan *saling*.
+3. **Angka Pembuka Kalimat (EYD-020):* Lambang bilangan pada awal kalimat wajib dieja huruf (*Lima belas orang tewas*); susun ulang kalimat bila bilangan panjang.
+4. **Bilangan '-an' Bertanda Hubung (EYD-021):* Puluhan/ratusan ditulis *tahun '50-an* atau *tahun lima puluhan*; bentuk serangkai *50an* tidak baku.
+5. **Pecahan Konsisten (EYD-022):* Pecahan ditulis *1/2* atau dieja (*setengah*); format hibrida tak lazim ditolak [telaah].
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
