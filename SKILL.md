@@ -680,6 +680,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Pronomina Orang Kedua (DIN-003):* Penutup surat menggunakan acuan langsung *Saudara/Bapak/Ibu*; *Atas perhatiannya* / *Harap maklum adanya* menyalahi konvensi komunikasi resmi.
 4. **Konsesif Tunggal (DIN-004):* *Meskipun ... tetapi* adalah ganda konjungsi mubazir; pilih *Meskipun X, Y* atau *X, tetapi Y*.
 
+### AZ. Penyerapan Imbuhan Asing (Rujukan "Tata Istilah Indonesia", Pusat Pembinaan dan Pengembangan Bahasa, Subbab 7.7.1.2 hlm. 55-57)
+
+1. **Distributif -wise (TII-006):* Akhiran *-wise* diserap dengan pola reduplikasi bersisipan *demi* (*pointwise -> titik demi titik; piecewise -> cebis demi cebis; stepwise -> langkah demi langkah*).
+2. **Sifat -ous (TII-007):* Akhiran *-ous* bermakna 'bersifat' diserap menjadi prefiks *ber-* (*harmonious -> berharmoni; analogous -> beranalog*).
+3. **Penderita -and/-end (TII-008):* Istilah matematika berakhiran *-and/-end* diserap dengan konstruksi pasif penjelas (*addend -> bilangan yang ditambah; multiplicand -> bilangan yang dikalikan*).
+4. **Pelaku/Alat -er/-or (TII-009):* Akhiran agen/instrumen *-er/-or* diserap menjadi prefiks *pe-* atau gabungan kata *alat* (*absorber -> penyerap/alat serap; analyzer -> penganalisis/alat analisis; mixer -> pencampur*).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

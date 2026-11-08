@@ -3291,6 +3291,53 @@
           "penjelasan": "Merujuk Mansyur dkk. (Preposisi dan Frase Berpreposisi, hlm. 26 & 52), preposisi sejak telah menandai titik awal temporal secara mandiri; penambahan kata depan 'pada' merupakan pleonasme kontaminasi preposisi ganda.",
           "contoh_salah": "Kebijakan subsidi pupuk telah diterapkan sejak pada tahun 2015.",
           "contoh_benar": "Kebijakan subsidi pupuk telah diterapkan sejak tahun 2015."
+        },
+        {
+          "id": "TII-006",
+          "pola": "pointwise / piecewise / timewise (tanpa struktur 'demi')",
+          "saran_pengganti": [
+            "titik demi titik",
+            "cebis demi cebis",
+            "waktu demi waktu"
+          ],
+          "penjelasan": "Merujuk Tata Istilah Indonesia (hlm. 56), akhiran asing -wise yang menyatakan distribusi per satuan diserap menjadi bentuk ulang berpola 'X demi X', bukan transkripsi mentah '-wise'.",
+          "contoh_salah": "Analisis dilakukan pointwise pada setiap sel grid simulasi.",
+          "contoh_benar": "Analisis dilakukan titik demi titik pada setiap sel grid simulasi."
+        },
+        {
+          "id": "TII-007",
+          "pola": "harmonious / analogous (tanpa prefiks ber-)",
+          "saran_pengganti": [
+            "berharmoni",
+            "beranalog"
+          ],
+          "penjelasan": "Merujuk Tata Istilah Indonesia (hlm. 56), akhiran asing -ous yang menyatakan 'bersifat' diserap menjadi prefiks ber-.",
+          "contoh_salah": "Spektrum radiasi tersebut harmonious dengan model teoretik.",
+          "contoh_benar": "Spektrum radiasi tersebut berharmoni dengan model teoretik."
+        },
+        {
+          "id": "TII-008",
+          "pola": "addend / multiplicand (tanpa sisipan -in-)",
+          "saran_pengganti": [
+            "bilangan yang ditambah",
+            "bilangan yang dikalikan"
+          ],
+          "penjelasan": "Merujuk Tata Istilah Indonesia (hlm. 56), akhiran asing -and/-end yang menyatakan 'yang dikenai' diserap menjadi sisipan -in- atau konstruksi pasif penjelas.",
+          "contoh_salah": "Jumlahkan seluruh addend sebelum mengalikan dengan multiplicand utama.",
+          "contoh_benar": "Jumlahkan seluruh bilangan yang ditambah sebelum mengalikan dengan bilangan yang dikalikan utama."
+        },
+        {
+          "id": "TII-009",
+          "pola": "absorber / mixer / analyzer / divider (tanpa prefiks pe-)",
+          "saran_pengganti": [
+            "penyerap (alat serap)",
+            "pencampur (alat campur)",
+            "penganalisis (alat analisis)",
+            "pembagi (alat bagi)"
+          ],
+          "penjelasan": "Merujuk Tata Istilah Indonesia (hlm. 56), akhiran asing -er/-or pelaku atau alat diserap menjadi prefiks pe- (atau juru-/ahli-/alat-).",
+          "contoh_salah": "Sistem ini menggunakan absorber panas untuk menstabilkan suhu ruang.",
+          "contoh_benar": "Sistem ini menggunakan penyerap panas untuk menstabilkan suhu ruang."
         }
       ]
     }

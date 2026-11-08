@@ -301,6 +301,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Penyerapan Imbuhan Asing TII (TII-006..009) ---
+CUSTOM_RULES.extend([
+    # TII-006: -wise tanpa struktur 'demi' (TII hlm. 56)
+    (lambda p: 'pointwise / piecewise / timewise' in p,
+     [re.compile(r'(?i)\b(?:pointwise|piecewise|timewise|pagewise|stepwise|linewise|rowwise|columnwise|keywordwise)\b')]),
+    # TII-007: -ous tanpa prefiks ber- (TII hlm. 56)
+    (lambda p: 'harmonious / analogous' in p,
+     [re.compile(r'(?i)\b(?:harmonious|analogous|continuous|homogenous|anomalous)\b')]),
+    # TII-008: -and/-end tanpa sisipan -in- (TII hlm. 56)
+    (lambda p: 'addend / multiplicand' in p,
+     [re.compile(r'(?i)\b(?:addend|addends|dividend|dividends|multiplicand|multiplicands|minuend)\b')]),
+    # TII-009: -er/-or tanpa prefiks pe- (TII hlm. 56)
+    (lambda p: 'absorber / mixer / analyzer' in p,
+     [re.compile(r'(?i)\b(?:absorber|mixer|analyzer|analyser|divider|insulator|conductor\s+listrik)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
