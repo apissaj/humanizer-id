@@ -193,6 +193,45 @@
         "penulis": "Widyantika Afiatna Maharani (Universitas Indonesia)",
         "penerbit": "Repositori Kemendikbudristek (ID 10507, 19 hlm., 2018)",
         "bagian_relevan": "hlm. 4-7: elipsis & substitusi tidak dapat merujuk jauh ke belakang; hlm. 16: temuan empiris larangan 'Sedangkan' di awal kalimat"
+      },
+      {
+        "judul": "Modul Pembelajaran SMA Bahasa Indonesia: Menginterpretasi Informasi dan Mengubah Informasi dalam Bentuk Tabel dan Grafik (KD 3.1 & 4.1)",
+        "penulis": "Indri Anatya Permatasari, M.Pd.",
+        "penerbit": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN, Kemendikbud RI",
+        "tahun": 2020,
+        "isbn": "-",
+        "bab_relevan": "Kegiatan Pembelajaran 1 & 2 (hlm. 8-18: ciri visual tabel/grafik/bagan, deiksis spasial bernomor, konjungsi pertentangan komparasi data)"
+      },
+      {
+        "judul": "Modul Pembelajaran SMA Bahasa Indonesia: Mengidentifikasi Teks Laporan Hasil Observasi (KD 3.1 & 4.1)",
+        "penulis": "Indri Anatya Permatasari, M.Pd.",
+        "penerbit": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN, Kemendikbud RI",
+        "tahun": 2020,
+        "isbn": "-",
+        "bab_relevan": "Kegiatan Pembelajaran 1 & 2 (hlm. 16-29: struktur LHO, pleonasme kopula definisi, kolokasi taksonomi, kontaminasi perincian)"
+      },
+      {
+        "judul": "Modul Pembelajaran SMA Bahasa Indonesia: Mengevaluasi Informasi Fakta dan Opini dalam Artikel (KD 3.10 & 4.10)",
+        "penulis": "Indri Anatya Permatasari, M.Pd.",
+        "penerbit": "Direktorat SMA, Direktorat Jenderal PAUD, DIKDAS dan DIKMEN, Kemendikbud RI",
+        "tahun": 2020,
+        "isbn": "-",
+        "bab_relevan": "Kegiatan Pembelajaran 1 & 2 (hlm. 6-18: pembedaan fakta vs opini, modalitas probabilitas lisan, evidensialitas argumen ilmiah)"
+      },
+      {
+        "judul": "Widyaparwa: Jurnal Ilmiah Kebahasaan dan Kesastraan, Volume 48, Nomor 1, Juni 2020",
+        "penulis": "Angkita Wasito Kirana; Moulidvi Rizki Permita; dkk.",
+        "penerbit": "Balai Bahasa Daerah Istimewa Yogyakarta, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud RI",
+        "tahun": 2020,
+        "issn": "0215-9511 / 2549-7685",
+        "bab_relevan": "hlm. 14-27 (Pola Kalimat Tuturan: pelesapan agen, attention flow inversion, indefiniteness) dan hlm. 41-48 (Eufemisme & Campur Kode)"
+      },
+      {
+        "judul": "Panduan Pembelajaran dan Asesmen Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Menengah",
+        "penulis": "Badan Standar, Kurikulum, dan Asesmen Pendidikan (BSKAP)",
+        "penerbit": "Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi RI",
+        "tahun": 2022,
+        "bab_relevan": "Peristilahan Resmi Kurikulum Merdeka & Standar Penilaian Formatif/Sumatif (Capaian Pembelajaran, TP, ATP, KKTP)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -1189,6 +1228,22 @@
           "penjelasan": "Berbeda dengan referensi (yang dapat menjangkau jauh ke belakang naskah), elipsis dan substitusi hanya sah dalam klausa berlangsung atau antarklausa langsung; pelesapan melintasi batas paragraf membuat kalimat kehilangan subjek gramatikal (Maharani, UI 2018, hlm. 7).",
           "contoh_salah": "Penelitian ini menguji tiga model. Model pertama menunjukkan akurasi tinggi. Namun, gagal konvergen pada data kecil. Perlu dilakukan penyederhanaan arsitektur.",
           "contoh_benar": "Penelitian ini menguji tiga model. Model pertama menunjukkan akurasi tinggi, tetapi model tersebut gagal konvergen pada data kecil. Peneliti perlu melakukan penyederhanaan arsitektur."
+        },
+        {
+          "id": "OPN-002",
+          "pola": "pemakaian modalitas spekulatif ragam lisan percakapan: bisa jadi, sepertinya, kayaknya dalam teks ilmiah formal",
+          "saran_pengganti": "Gunakan derajat modalitas probabilitas ilmiah tunggal: diduga ... ATAU berpotensi ... ATAU diindikasikan ... (Modul Direktorat SMA Kemendikbud 2020, KD 3.10 Artikel Opini, hlm. 12; SKILL.md Bagian 4.E).",
+          "penjelasan": "Ungkapan spekulatif 'bisa jadi', 'sepertinya', atau 'kayaknya' merupakan penanda modalitas lisan nonformal. Dalam karya ilmiah atau artikel opini formal, kalibrasi kepastian epistemik (epistemic hedging) diwajibkan menggunakan verba penanda hipotesis baku seperti 'diduga', 'berpotensi', atau 'diproyeksikan'.",
+          "contoh_salah": "Kenaikan suhu mesin fluida bisa jadi dipicu oleh penurunan viskositas pelumas sintetik.",
+          "contoh_benar": "Kenaikan suhu mesin fluida diduga dipicu oleh penurunan viskositas pelumas sintetik."
+        },
+        {
+          "id": "WDY-003",
+          "pola": "ketaksaan rujukan enklitik indefinit -nya mengambang tanpa anteseden eksplisit: katanya, pada penerapannya di lapangan hasilnya",
+          "saran_pengganti": "Ganti enklitik -nya dengan nomina atau sitasi spesifik: katanya → Menurut [Penulis/Tahun]; hasilnya → hasil pengujian / hasil pengukuran (Widyaparwa Vol. 48 No. 1, 2020, hlm. 22-23; Kirana).",
+          "penjelasan": "Kirana (Widyaparwa 2020) menyoroti penggunaan penanda kepemilikan orang ketiga yang bersifat indefinit (-ne dalam tuturan Jawa, -nya dalam bahasa Indonesia lisan) yang merujuk secara kabur ke entitas tak dikenal ('katanya'). Dalam karya ilmiah tertulis, rujukan anaforis wajib memiliki anteseden yang definit dan transparan demi menghindari ketaksaan informasi.",
+          "contoh_salah": "Katanya senyawa polifenol mampu menghambat reaksi oksidasi lipid secara signifikan.",
+          "contoh_benar": "Menurut Hidayat dkk. (2019), senyawa polifenol mampu menghambat reaksi oksidasi lipid secara signifikan."
         }
       ]
     },
@@ -1728,6 +1783,78 @@
             "tahun": 1991,
             "halaman": "39"
           }
+        },
+        {
+          "id": "TBG-001",
+          "pola": "rujukan deiksis spasial semu pada objek visual tabel atau grafik: grafik di atas, tabel di bawah ini, bagan berikut",
+          "saran_pengganti": "Gunakan rujukan bernomor ilmiah eksplisit: grafik di atas → Grafik 2 / Gambar 4.1; tabel di bawah ini → Tabel 3; bagan berikut → Bagan 1.2 (Modul Direktorat SMA Kemendikbud 2020, KD 3.1, hlm. 12-14).",
+          "penjelasan": "Modul Pembelajaran SMA Bahasa Indonesia (Teks Tanggapan/Visual, Direktorat SMA Kemendikbud 2020) menegaskan bahwa uraian teks visual ilmiah menuntut penunjuk objektif bernomor. Deiksis spasial relatif seperti 'di atas', 'di bawah ini', atau 'berikut' rentan membingungkan pembaca saat tata letak halaman bergeser dalam proses cetak/responsif digital.",
+          "contoh_salah": "Peningkatan penumpang domestik dapat dilihat pada grafik di atas yang meningkat tajam pada bulan Agustus.",
+          "contoh_benar": "Peningkatan penumpang domestik dapat dilihat pada Grafik Jumlah Penumpang Penerbangan 2016 yang meningkat tajam pada bulan Agustus."
+        },
+        {
+          "id": "LHO-001",
+          "pola": "pleonasme penumpukan kopula definisi dengan pemarkah partitif dan verba klasifikasi: merupakan salah satu termasuk, adalah merupakan salah satu",
+          "saran_pengganti": "Pilih satu konstruksi: merupakan satwa ... ATAU termasuk satwa ... ATAU salah satu satwa ... (Modul Direktorat SMA Kemendikbud 2020, KD 3.1/4.1 LHO, hlm. 27).",
+          "penjelasan": "Teks Laporan Hasil Observasi (LHO) menuntut definisi umum yang lugas. Menggabungkan kopula (merupakan/adalah) dengan pemarkah partitif (salah satu) dan verba inklusi (termasuk) dalam satu deret predikat adalah bentuk pleonasme akut yang memboroskan kata.",
+          "contoh_salah": "Orang utan sumatra merupakan salah satu termasuk primata langka yang dilindungi oleh undang-undang.",
+          "contoh_benar": "Orang utan sumatra merupakan satwa primata langka yang dilindungi oleh undang-undang."
+        },
+        {
+          "id": "LHO-003",
+          "pola": "kontaminasi frasa penutup deret perincian tak terbatas: dan lain sebagainya",
+          "saran_pengganti": "Pilih salah satu sesuai karakteristik himpunan: dan lain-lain (jika unsur beraneka jenis) ATAU dan sebagainya (jika unsur sejenis). Hindari mencampuradukkan keduanya menjadi 'dan lain sebagainya' (Modul Direktorat SMA Kemendikbud 2020, KD 3.1/4.1 LHO, hlm. 28).",
+          "penjelasan": "Frasa 'dan lain sebagainya' merupakan bentuk kontaminasi kerancuan dari dua ungkapan penutup perincian yang berbeda fungsi: 'dan lain-lain' (dll.) untuk rincian heterogen dan 'dan sebagainya' (dsb.) untuk rincian homogen (Alwi dkk., TBBBI; Mustakim 2014; Modul LHO SMA 2020).",
+          "contoh_salah": "Material kemasan anorganik meliputi wadah styrofoam, botol kaca, kaleng aluminium, dan lain sebagainya.",
+          "contoh_benar": "Material kemasan anorganik meliputi wadah styrofoam, botol kaca, dan kaleng aluminium."
+        },
+        {
+          "id": "OPN-003",
+          "pola": "[telaah] penyamaran aspek prospektif atau proyeksi masa depan sebagai fakta empiris terbukti",
+          "saran_pengganti": "Pisahkan klausa verifikasi empiris masa lalu (telah terbukti, berhasil mereduksi) dari klausa ekspektasi/proyeksi masa depan (diproyeksikan, berpotensi) (Modul Direktorat SMA Kemendikbud 2020, KD 3.10 Artikel Opini, hlm. 12-14).",
+          "penjelasan": "Artikel opini dan teks ilmiah membedakan secara tegas antara kalimat fakta (peristiwa yang telah terverifikasi kebenarannya secara empiris) dan kalimat opini prospektif (gagasan atau harapan yang belum terjadi). Menyatukan klaim 'eksperimen membuktikan' dengan modalitas masa depan 'akan mengeliminasi seluruh kegagalan' menimbulkan kerancuan epistemik.",
+          "contoh_salah": "Eksperimen ini membuktikan bahwa algoritma baru akan mengeliminasi seluruh kegagalan koneksi jaringan internet di wilayah 3T.",
+          "contoh_benar": "Eksperimen ini membuktikan bahwa algoritma baru mereduksi tingkat kegagalan paket data hingga 4,2% pada simulasi uji beban; penerapannya pada infrastruktur nyata diproyeksikan dalam penelitian lanjutan."
+        },
+        {
+          "id": "OPN-004",
+          "pola": "[telaah] pernyataan opini normatif tanpa landasan klausa evidensial atau data pembenar",
+          "saran_pengganti": "Sertakan klausa evidensial penjelas berbasis regulasi, parameter teknis, atau bukti data empiris sebelum mengajukan rekomendasi normatif (Modul Direktorat SMA Kemendikbud 2020, KD 3.10 Artikel Opini, hlm. 16-18).",
+          "penjelasan": "Modul Pembelajaran SMA Bahasa Indonesia (Artikel Opini, Direktorat SMA Kemendikbud 2020) menggariskan bahwa opini ilmiah yang berbobot wajib memenuhi tiga kualifikasi: relevan dengan topik, memiliki penalaran logis, dan menyertakan bukti evidensial yang jelas. Kalimat anjuran normatif (seharusnya, semestinya) tanpa landasan data menjadi opini subjektif mentah.",
+          "contoh_salah": "Sistem kesehatan primer seharusnya langsung merombak seluruh prosedur pengadaan vaksin secara sepihak.",
+          "contoh_benar": "Sistem kesehatan primer perlu menyesuaikan kapasitas fasilitas rantai dingin sebelum pengadaan vaksin mengingat Bio Farma mensyaratkan toleransi suhu penyimpanan ketat pada rentang 2-8 derajat Celsius."
+        },
+        {
+          "id": "WDY-001",
+          "pola": "pelesapan agen tak berdasar anteseden pada klausa verbal berawalan verba aktif transitif",
+          "saran_pengganti": "Hadirkan subjek eksplisit (peneliti, penulis, sistem) atau ubah menjadi konstruksi pasif ilmiah baku berawalan di- (dihitung, dianalisis) (Widyaparwa Vol. 48 No. 1, 2020, hlm. 20-21).",
+          "penjelasan": "Studi tuturan bahasa oleh Kirana (Widyaparwa, 2020) menemukan 50% kalimat tuturan lisan mengalami pelesapan agen (agent deletion). Dalam ragam lisan konteks situasional membantu pemahaman, namun dalam ragam tulis ilmiah, kalimat yang diawali langsung dengan verba aktif transitif tanpa subjek menciptakan kalimat buntung (fragment sentence) yang melanggar struktur gramatikal S-P-O-K.",
+          "contoh_salah": "Menghitung indeks bias larutan dengan mengamati sudut deviasi pada refraktometer.",
+          "contoh_benar": "Peneliti menghitung indeks bias larutan dengan mengamati sudut deviasi pada refraktometer."
+        },
+        {
+          "id": "WDY-002",
+          "pola": "[telaah] inversi attention flow dan pengedepanan inanimat yang mendistorsi hierarki subjek gramatikal",
+          "saran_pengganti": "Selaraskan hierarki topik: jika tindakan merupakan putusan metodologis, jadikan agen manusia sebagai subjek; jika luaran difokuskan, gunakan konstruksi pasif baku tanpa pengulangan pronomina janggal (Widyaparwa Vol. 48 No. 1, 2020, hlm. 20-21).",
+          "penjelasan": "Merujuk Givon (1976) dan DeLancey (1981), Kirana (Widyaparwa 2020) mencatat kecenderungan tuturan lisan membalik hierarki topik alami (attention flow inversion) dengan memajukan objek inanimat ke posisi awal lalu diikuti subjek agen dan pronomina pengulang (-nya). Pola ini menghasilkan kalimat canggung dan taksa dalam ragam ilmiah formal.",
+          "contoh_salah": "Laporan pertanggungjawaban ini bendahara telah menyelesaikannya tepat waktu.",
+          "contoh_benar": "Bendahara menyelesaikan laporan pertanggungjawaban ini tepat waktu."
+        },
+        {
+          "id": "WDY-004",
+          "pola": "[telaah] penurunan derajat transitivitas akibat pelesapan argumen objek penderita",
+          "saran_pengganti": "Hadirkan argumen objek penderita langsung (affected object) setelah verba transitif untuk menjaga derajat transitivitas proposisi ilmiah (Widyaparwa Vol. 48 No. 1, 2020, hlm. 24-26).",
+          "penjelasan": "Berdasarkan parameter transitivitas Hopper & Thompson (1980), Kirana (Widyaparwa 2020) menemukan tuturan lisan sering mengalami kejatuhan nilai transitivitas karena kehilangan komponen penjelas objek penderita. Dalam naskah ilmiah, verba transitif yang dibiarkan menggantung tanpa objek mengaburkan substansi empiris yang sedang diuji.",
+          "contoh_salah": "Setelah mengekstraksi selama 24 jam, langkah berikutnya adalah memurnikan.",
+          "contoh_benar": "Setelah mengekstraksi senyawa aktif selama 24 jam, langkah berikutnya adalah memurnikan filtrat hasil maserasi."
+        },
+        {
+          "id": "WDY-006",
+          "pola": "penumpukan keterangan spasial-temporal inisial tanpa subjek gramatikal mandiri (K-P-O)",
+          "saran_pengganti": "Sisipkan tanda koma setelah frasa keterangan waktu/tempat awal, lalu hadirkan subjek gramatikal eksplisit sebelum kata kerja predikat (Widyaparwa Vol. 48 No. 1, 2020, hlm. 21).",
+          "penjelasan": "Kirana (Widyaparwa 2020) mencatat penutur lisan lebih mengutamakan latar waktu/tempat kejadian daripada struktur gramatikal subjek. Pada teks ilmiah, kalimat yang diawali preposisi temporal/spasial lalu langsung disambung verba aktif menghasilkan kalimat tanpa subjek (Keterangan-Predikat-Objek) yang cacat struktur.",
+          "contoh_salah": "Pada saat melakukan pengambilan sampel darah di puskesmas menemukan 15 kasus anemia akut.",
+          "contoh_benar": "Pada saat melakukan pengambilan sampel darah di puskesmas, petugas medis menemukan 15 kasus anemia akut."
         }
       ]
     },
@@ -2413,6 +2540,38 @@
             "tahun": 2019,
             "halaman": "81-82"
           }
+        },
+        {
+          "id": "TBG-002",
+          "pola": "pemakaian istilah bagan untuk merepresentasikan data numerik kuantitatif atau tren statistik deret waktu",
+          "saran_pengganti": "Gunakan istilah grafik batang, grafik garis, atau diagram alir sesuai fungsinya: representasi numerik deret waktu adalah grafik; representasi hubungan alur/struktur hierarkis adalah bagan/diagram (Modul Direktorat SMA Kemendikbud 2020, KD 3.1, hlm. 9-11).",
+          "penjelasan": "Modul Pembelajaran SMA (Teks Tanggapan Berbasis Visual, Direktorat SMA Kemendikbud 2020) membedakan secara tegas istilah media visual: grafik untuk data numerik kuantitatif/fluktuasi variabel, bagan untuk hubungan hierarki atau komponen struktural, dan diagram untuk prosedur atau skema kerja. Menyebut grafik batang sebagai 'bagan batang' merupakan kerancuan terminologi.",
+          "contoh_salah": "Bagan batang di bawah menggambarkan perbandingan pangsa pasar teknologi informasi antarkorporasi.",
+          "contoh_benar": "Grafik batang pada Gambar 3 menggambarkan perbandingan pangsa pasar teknologi informasi antarkorporasi."
+        },
+        {
+          "id": "TBG-003",
+          "pola": "pemakaian konjungsi intrakalimat sedangkan di posisi awal kalimat mandiri dalam uraian komparasi data",
+          "saran_pengganti": "Ganti dengan konjungsi antarkalimat pertentangan: Sementara itu, / Di sisi lain, ATAU gabungkan klausa dengan tanda koma sebelum sedangkan (Modul Direktorat SMA Kemendikbud 2020, KD 3.1, hlm. 16-17; Alwi dkk. 2017).",
+          "penjelasan": "Konjungsi 'sedangkan' adalah konjungsi subordinatif intrakalimat yang berfungsi mengontraskan dua klausa di dalam satu kalimat majemuk. Menempatkan 'Sedangkan' di awal kalimat setelah tanda titik melanggar aturan sintaksis dan menghasilkan kalimat fragmentaris.",
+          "contoh_salah": "Volume impor kedelai meningkat sebesar 14% pada semester kedua. Sedangkan produksi lokal mengalami penurunan tajam.",
+          "contoh_benar": "Volume impor kedelai meningkat sebesar 14% pada semester kedua. Sementara itu, produksi lokal mengalami penurunan tajam."
+        },
+        {
+          "id": "LHO-002",
+          "pola": "inkonsistensi kolokasi verba taksonomi klasifikasi: terbagi dari, terbagi dalam alih-alih terbagi atas",
+          "saran_pengganti": "Gunakan kolokasi baku: terbagi atas ... ATAU dibagi menjadi ... (Modul Direktorat SMA Kemendikbud 2020, KD 3.1/4.1 LHO, hlm. 24-25; Mustakim 2014, hlm. 78).",
+          "penjelasan": "Dalam teks deskripsi taksonomi ilmiah (Laporan Hasil Observasi), verba penggolongan 'terbagi' berkolokasi dengan preposisi 'atas' (terbagi atas X, Y, dan Z), bukan 'terbagi dalam' atau 'terbagi dari'. Kesalahan kolokasi ini timbul dari interferensi kalke bahasa asing ('divided into' / 'divided from').",
+          "contoh_salah": "Populasi responden dalam studi observasi ini terbagi dalam empat kelompok usia produktif.",
+          "contoh_benar": "Populasi responden dalam studi observasi ini terbagi atas empat kelompok usia produktif."
+        },
+        {
+          "id": "WDY-005",
+          "pola": "interferensi eufemisme bunyi slang tuturan dan campur kode santai dalam register formal: kurang mantap, cukup oke, nge-blend",
+          "saran_pengganti": "Gunakan leksikon baku denotatif formal: kurang mantap → kurang memadai; cukup oke → memuaskan / efektif; nge-blend → terintegrasi / selaras (Widyaparwa Vol. 48 No. 1, 2020, hlm. 41-48; Permita).",
+          "penjelasan": "Permita (Widyaparwa 2020) meneliti fenomena manipulasi bunyi, eufemisme, dan campur kode slang dalam tuturan pergaulan santai. Penggunaan diksi informal semacam 'kurang mantap', 'cukup oke', atau 'nge-blend' ke dalam karya tulis ilmiah mencemari objektivitas dan melanggar laras bahasa denotatif ragam ilmiah.",
+          "contoh_salah": "Hasil sintesis polimer ini terasa agak kurang mantap dan sedikit melenceng dari rencana.",
+          "contoh_benar": "Hasil sintesis polimer ini kurang memadai dan menyimpang dari target parameter rancangan."
         }
       ]
     }

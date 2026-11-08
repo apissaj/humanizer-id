@@ -40,6 +40,15 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 ### Kajian Frekuensi Kosakata AI (Sains Internasional)
 - **Kobak et al., *Science Advances* (2025, DOI: 10.1126/sciadv.adt3813)** — analisis korpus 15,1 juta abstrak PubMed membuktikan lonjakan kalke verba AI paling masif: *delve* (rasio kelebihan 28×), *underscore* (13,8×), *showcase* (10,7×). Di Indonesia, kata-kata ini mengalami alih-bahasa mentah menjadi penanda klise (*menyelami*, *menggarisbawahi berlebihan*, *hiruk pikuk*).
 
+### Penyajian Data Visual, Teks Observasi, & Artikel Opini (Direktorat SMA Kemendikbud 2020)
+- **Modul Pembelajaran SMA Bahasa Indonesia KD 3.1 & 4.1 (Teks Tanggapan Berbasis Visual/Tabel & Grafik):** Rujukan visual bernomor ilmiah (`TBG-001`), pembedaan grafik/bagan/diagram (`TBG-002`), konjungsi intrakalimat pertentangan komparasi data (`TBG-003`).
+- **Modul Pembelajaran SMA Bahasa Indonesia KD 3.1 & 4.1 (Teks Laporan Hasil Observasi):** Definisi umum bebas pleonasme kopula-partitif (`LHO-001`), kolokasi taksonomi baku terbagi atas (`LHO-002`), eliminasi kontaminasi perincian dan lain sebagainya (`LHO-003`).
+- **Modul Pembelajaran SMA Bahasa Indonesia KD 3.10 & 4.10 (Artikel Opini):** Modalitas probabilitas ilmiah vs spekulatif lisan (`OPN-002`), pemisahan klaim empiris vs prospektif (`OPN-003`), evidensialitas argumen rekomendasi normatif (`OPN-004`).
+
+### Jurnal Ilmiah Kebahasaan Widyaparwa & Peristilahan Asesmen BSKAP 2022
+- **Widyaparwa: Jurnal Ilmiah Kebahasaan dan Kesastraan Vol. 48 No. 1 (Balai Bahasa DIY, Juni 2020):** Pencegahan kebocoran pola tuturan lisan ke naskah ilmiah: pelesapan agen/kalimat buntung (`WDY-001`), inversi alur perhatian/distorsi subjek (`WDY-002`), ketaksaan enklitik indefinit -nya (`WDY-003`), penurunan transitivitas akibat pelesapan objek terdampak (`WDY-004`), eufemisme/slang santai (`WDY-005`), kalimat K-P-O tanpa subjek mandiri (`WDY-006`).
+- **Panduan Pembelajaran dan Asesmen BSKAP Kemendikbudristek (2022):** 24 peristilahan resmi Kurikulum Merdeka (Capaian Pembelajaran, TP, ATP, KKTP, asesmen formatif/sumatif).
+
 ### Bahasa Pejabat Pemerintah & Surat Dinas (Badan Bahasa 2019 & Pusat Bahasa 1991)
 - **Bahasa Indonesia untuk Pejabat Pemerintah** (Dadang Mullyana dkk., Badan Pengembangan dan Pembinaan Bahasa, 2019, 93 hlm.) — ekonomi bahasa verba nominal (*melakukan kunjungan → berkunjung*), pasif persona tersisip adverbia (*kami sudah laporkan* salah), nomina deverbal penderita verba pasif (*pelaksanaan ... dilaksanakan* salah), dan penghilangan preposisi perihal setelah verba transitif (*membahas tentang/mengenai*) → [references/bahasa-pejabat-pemerintah-2019.md](references/bahasa-pejabat-pemerintah-2019.md)
 - **Pedoman Surat-Menyurat dalam Bahasa Indonesia** (Pusat Pembinaan dan Pengembangan Bahasa, 1991) — kaidah nalar frasa surat: *mengatasi ketinggalan* (bukan *mengejar*), kolokasi *isi surat* (bukan *bunyi surat*), konsistensi bilangan tingkat Romawi (*ke-45* atau *XLV*, bukan *ke-XLV*), dan paronim *berkenaan dengan* vs *berkenan* → [references/buku-surat-menyurat-pusat-bahasa.md](references/buku-surat-menyurat-pusat-bahasa.md)

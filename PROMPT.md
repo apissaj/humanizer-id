@@ -48,6 +48,8 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 5. **Kalibrasi Modalitas Epistemik:** Bedakan tegas verba fakta empiris (menunjukkan, membuktikan), inferensi (mengindikasikan), dan hipotesis (diduga, berpotensi). Dilarang menumpuk modalitas ganda dalam satu klausa.
 6. **Rujukan Tabel/Gambar & Tipografi:**
    - Ganti penunjuk spasial semu ("tabel di bawah ini") menjadi rujukan bernomor ("Tabel 4.2"). Jangan rekayasa nomor jika belum ada.
+   - Pilih istilah media visual yang tepat: "grafik" untuk data numerik/fluktuasi, "bagan" untuk hierarki/struktur, "diagram" untuk prosedur. Jangan menyebut grafik batang sebagai "bagan batang".
+   - Konjungsi "sedangkan" dilarang membuka kalimat mandiri; gunakan "Sementara itu," atau gabungkan klausa dengan koma.
    - Format `monospace` untuk perintah/file/kode. Cetak miring untuk istilah asing belum terserap KBBI. Tegak untuk padanan baku.
 
 ### Kaidah Morfologi Baku (EYD V & KBBI):
@@ -56,6 +58,16 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen:
 - Partikel pun terpisah: apa pun, data ini pun (kecuali 12 kata hubung baku: meskipun, adapun, maupun, dll.).
 - Bentuk baku KBBI: analisis, praktik, risiko, standardisasi, efektivitas, metode (untuk prosedur kerja).
 - Hilangkan preposisi perusak subjek: "Dalam penelitian ini menunjukkan..." -> "Penelitian ini menunjukkan...".
+
+### Kaidah Definisi, Taksonomi, & Opini Epistemik:
+- Definisi lugas: jangan menumpuk kopula + partitif + inklusi ("merupakan salah satu termasuk"); pilih satu konstruksi ("merupakan satwa langka" / "termasuk primata langka").
+- Kolokasi taksonomi baku: "terbagi atas X, Y, Z" / "dibagi menjadi X, Y, Z" — bukan "terbagi dari/dalam".
+- Penutup deret: "dan lain-lain" (heterogen) atau "dan sebagainya" (homogen) — bukan kontaminasi "dan lain sebagainya".
+- Modalitas spekulatif lisan ("bisa jadi", "sepertinya", "kayaknya") ganti dengan penanda hipotesis ilmiah: "diduga", "berpotensi", "diindikasikan".
+- Pisahkan klaim empiris terverifikasi dari proyeksi masa depan; anjuran normatif ("seharusnya") wajib disertai klausa evidensial berbasis data/regulasi.
+- Kalimat ilmiah wajib ber-subjek: jangan diawali verba aktif transitif tanpa agen ("Menghitung indeks bias...") atau keterangan temporal-tempat yang langsung disambung verba ("Pada saat melakukan pengambilan sampel... menemukan...").
+- Rujukan anaforis harus definit: "Katanya..." / "hasilnya menunjukkan..." tanpa anteseden eksplisit diganti "Menurut [Sumber (Tahun)]..." / "hasil pengujian menunjukkan...".
+- Leksikon denotatif formal: slang eufemistis ("kurang mantap", "cukup oke", "nge-blend") diganti "kurang memadai", "efektif", "terintegrasi".
 
 ### Hal yang Tidak Boleh Diubah (Safeguard):
 1. Butir instrumen penelitian tervalidasi (skala Likert/angket) dan dokumen klausul hukum/kontrak dilarang diubah susunan redaksinya.

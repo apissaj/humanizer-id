@@ -564,6 +564,27 @@ ightarrow$ serangkai: *mahakasih*.
 
 ---
 
+### AM. Kaidah Penyajian Data Visual & Struktur Observasi (Rujukan Modul Pembelajaran SMA: Teks Tanggapan Tabel-Grafik & Laporan Hasil Observasi, Indri Anatya Permatasari, M.Pd., Direktorat SMA Kemendikbud 2020)
+
+1. **Rujukan Visual Bernomor (TBG-001):** Deiksis spasial relatif (*grafik di atas, tabel di bawah ini, bagan berikut*) dilarang pada naskah ilmiah; wajib rujukan bernomor eksplisit (*Grafik 2, Tabel 4.1*) karena tata letak halaman dapat bergeser saat cetak/responsif (KD 3.1, hlm. 12-14).
+2. **Terminologi Media Visual (TBG-002):** *grafik* untuk data numerik kuantitatif/fluktuasi deret waktu; *bagan* untuk hierarki/komponen struktural; *diagram* untuk prosedur/skema. Menyebut grafik batang sebagai "bagan batang" adalah kerancuan terminologi (KD 3.1, hlm. 9-11).
+3. **Konjungsi Pertentangan Komparasi Data (TBG-003):** *Sedangkan* adalah konjungsi intrakalimat — dilarang membuka kalimat mandiri; ganti *Sementara itu, / Di sisi lain,* atau gabung klausa dengan koma (KD 3.1, hlm. 16-17; Alwi dkk. 2017).
+4. **Definisi Umum LHO (LHO-001):** Dilarang menumpuk kopula + partitif + verba inklusi (*merupakan salah satu termasuk*); pilih satu konstruksi definisi lugas (KD 3.1/4.1, hlm. 27).
+5. **Kolokasi Taksonomi (LHO-002):** *terbagi atas ...* (bukan *terbagi dari/dalam*); *dibagi menjadi ...* (KD 3.1/4.1, hlm. 24-25).
+6. **Penutup Perincian (LHO-003):** Kontaminasi *dan lain sebagainya* dilarang — pilih *dan lain-lain* (rincian heterogen) atau *dan sebagainya* (rincian homogen) (KD 3.1/4.1, hlm. 28).
+
+### AN. Ragam Opini Epistemik & Pencegahan Interferensi Tuturan Lisan (Rujukan Modul Pembelajaran SMA Artikel Opini KD 3.10, Direktorat SMA Kemendikbud 2020; Widyaparwa Vol. 48 No. 1, Balai Bahasa DIY 2020)
+
+1. **Modalitas Spekulatif Lisan (OPN-002):** *bisa jadi, sepertinya, kayaknya* dilarang di teks formal; ganti *diduga, berpotensi, diindikasikan* (KD 3.10, hlm. 12).
+2. **Fakta vs Proyeksi (OPN-003):** Pisahkan klausa verifikasi empiris (*terbukti mereduksi 4,2%*) dari proyeksi masa depan (*diproyeksikan dalam penelitian lanjutan*) — klaim "eksperimen membuktikan X akan mengeliminasi seluruh Y" rancu epistemik [telaah] (KD 3.10, hlm. 12-14).
+3. **Opini Berevidensial (OPN-004):** Anjuran normatif (*seharusnya*) wajib disertai klausa evidensial berbasis regulasi/parameter/buji data; opini tanpa bukti adalah opini subjektif mentah [telaah] (KD 3.10, hlm. 16-18).
+4. **Pelesapan Agen (WDY-001):** Kalimat ilmiah dilarang diawali langsung verba aktif transitif tanpa subjek (*Menghitung indeks bias...*); hadirkan subjek (*Peneliti menghitung...*) atau pasif (*dihitung...*) — 50% tuturan lisan mengalami agent deletion, ragam tulis tidak mentolerir (Kirana, hlm. 20-21, 25-26).
+5. **Hierarki Topik (WDY-002):** Dilarang memajukan objek inanimat sebagai subjek semu lalu mengulang agen dengan pronomina (*Laporan ini bendahara telah menyelesaikannya*); selaraskan agen-subjek atau gunakan pasif baku [telaah] (Kirana, hlm. 20-21; Givon 1976; DeLancey 1981).
+6. **Enklitik Indefinit (WDY-003):** *Katanya...* / *hasilnya menunjukkan...* tanpa anteseden eksplisit ditolak; ganti *Menurut Hidayat dkk. (2019)...* / *hasil pengujian menunjukkan...* (Kirana, hlm. 22-23).
+7. **Transitivitas Tuntas (WDY-004):** Verba transitif tidak boleh menggantung tanpa objek penderita (*langkah berikutnya adalah memurnikan.*); lengkapi argumen objek (*memurnikan filtrat hasil maserasi*) [telaah] (Kirana, hlm. 24-26; Hopper & Thompson 1980).
+8. **Leksikon Denotatif Formal (WDY-005):** Slang eufemistis tuturan (*kurang mantap, cukup oke, nge-blend*) dilarang di register ilmiah; ganti *kurang memadai, efektif, terintegrasi* (Permita, hlm. 41-48).
+9. **Struktur K-P-O (WDY-006):** Kalimat diawali keterangan temporal/spasial lalu langsung verba tanpa subjek (*Pada saat melakukan pengambilan sampel darah di puskesmas menemukan...*) cacat struktur; sisipkan koma lalu subjek eksplisit (*...di puskesmas, petugas medis menemukan...*) (Kirana, hlm. 21).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
