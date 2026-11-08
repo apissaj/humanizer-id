@@ -349,6 +349,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Bentuk dan Pilihan Kata BPK (BPK-011..012) ---
+CUSTOM_RULES.extend([
+    # BPK-011: awalan ke- adversatif salah kaprah (hlm. 28-29)
+    (lambda p: 'ketabrak / ketimpa / ketubruk' in p,
+     [re.compile(r'(?i)\b(?:ketabrak|ketimpa|ketubruk|kesandung|ketinggal|ketangkap)\b')]),
+    # BPK-012: peluluhan fonem gagal pada konfiks meN-...-kan (hlm. 21-23)
+    (lambda p: 'mengetrapkan / mentrapkan' in p,
+     [re.compile(r'(?i)\b(?:mengetrapkan|mentrapkan|menterapkan|pengetrapan|pentrapan|penterapan|menterjemahkan|mentaati|mengkaitkan|mengrusak|pengrajin|penglepasan|pengrusakan)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

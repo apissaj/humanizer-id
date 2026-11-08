@@ -2395,6 +2395,18 @@
           "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 36), kata 'bunyi' kurang tepat untuk merujuk isi surat karena surat tidak dapat berbunyi; hilangkan kata 'bunyi'.",
           "contoh_salah": "Sesuai dengan bunyi surat Bapak tanggal 1 Januari, kami sampaikan konfirmasi berikut.",
           "contoh_benar": "Sesuai dengan surat Bapak tanggal 1 Januari, kami sampaikan konfirmasi berikut."
+        },
+        {
+          "id": "BPK-014",
+          "pola": "[telaah] pemakaian kami pada penulis tunggal karya ilmiah",
+          "saran_pengganti": [
+            "saya",
+            "penulis",
+            "bentuk pasif"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 97-99), kami hanya sah jika mewakili kelompok atau lembaga; untuk penulis tunggal karya ilmiah gunakan saya, penulis, atau bentuk pasif.",
+          "contoh_salah": "Dalam penelitian ini kami bermaksud mendeskripsikan hubungan antara pendidikan dan produktivitas kerja.",
+          "contoh_benar": "Dalam penelitian ini penulis bermaksud mendeskripsikan hubungan antara pendidikan dan produktivitas kerja."
         }
       ]
     },
@@ -3429,6 +3441,47 @@
           "penjelasan": "Merujuk Surat-Menyurat dalam Bahasa Indonesia (hlm. 36), kata 'sangsi' bermakna 'ragu-ragu' sedangkan 'sanksi' bermakna 'pengesahan, peneguhan, tindakan, tanggungan'. Istilah formal yang baku untuk penegakan hukum adalah 'sanksi'.",
           "contoh_salah": "Pelanggaran disiplin tersebut dikenai sangsi administratif berupa teguran tertulis.",
           "contoh_benar": "Pelanggaran disiplin tersebut dikenai sanksi administratif berupa teguran tertulis."
+        },
+        {
+          "id": "BPK-011",
+          "pola": "ketabrak / ketimpa / ketubruk / kesandung / ketinggal / ketangkap",
+          "saran_pengganti": [
+            "tertabrak",
+            "tertimpa",
+            "tertubruk",
+            "tersandung",
+            "tertinggal",
+            "tertangkap"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 28-29), awalan ke- untuk verba adversatif merupakan bentukan tidak baku yang bersumber dari struktur bahasa daerah; bentukan baku menggunakan prefiks ter-.",
+          "contoh_salah": "Ketika menyeberang rel, ia nyaris ketabrak kereta api.",
+          "contoh_benar": "Ketika menyeberang rel, ia nyaris tertabrak kereta api."
+        },
+        {
+          "id": "BPK-012",
+          "pola": "mengetrapkan / mentrapkan / menterapkan / pengetrapan / pentrapan / penterapan / menterjemahkan / mentaati / mengkaitkan",
+          "saran_pengganti": [
+            "menerapkan",
+            "penerapan",
+            "menerjemahkan",
+            "menaati",
+            "mengaitkan"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 21-23), fonem /t/, /k/, /p/, /s/ pada awal kata dasar wajib luluh saat dirangkaikan dengan konfiks meng-...-kan dan peng-...-an.",
+          "contoh_salah": "Peneliti harus menterjemahkan hasil kuesioner ke dalam bahasa Indonesia baku.",
+          "contoh_benar": "Peneliti harus menerjemahkan hasil kuesioner ke dalam bahasa Indonesia baku."
+        },
+        {
+          "id": "BPK-013",
+          "pola": "[telaah] pemakaian kita untuk merujuk penulis tunggal dalam ragam resmi",
+          "saran_pengganti": [
+            "saya",
+            "penulis",
+            "bentuk pasif"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 96), kita (jamak inklusif) tidak boleh menggantikan saya (tunggal) dalam ragam resmi karena menimbulkan kerancuan kejamakan.",
+          "contoh_salah": "Kemarin waktu kita pulang sekolah, dia sudah ada di sini.",
+          "contoh_benar": "Kemarin sewaktu saya pulang sekolah, dia sudah berada di sini."
         }
       ]
     }

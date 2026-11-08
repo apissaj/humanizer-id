@@ -701,6 +701,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Penghilangan Kata 'Bunyi' Surat (SUR-003):* Surat tidak dapat berbunyi; *sesuai dengan bunyi surat...* diganti langsung *sesuai dengan surat...*.
 4. **Distingsi 'Sangsi' vs 'Sanksi' (SUR-004):* *Sangsi* bermakna 'ragu-ragu'; *sanksi* bermakna 'tindakan penegakan hukum/hukuman' (*sanksi administratif*, bukan *sangsi*).
 
+### BC. Pilihan Kata dan Konsep Kejamakan (Rujukan "Seri Penyuluhan: Bentuk dan Pilihan Kata", Badan Pengembangan dan Pembinaan Bahasa, Bab II hlm. 21-29 & Bab III hlm. 85-99)
+
+1. **Awalan ke- Adversatif Salah Kaprah (BPK-011):* Bentukan baku verba adversatif memakai prefiks ter- (*tertabrak, tertimpa, tertubruk, tersandung, tertinggal, tertangkap*); bentukan berawalan ke- (*ketabrak, ketimpa*) merupakan interferensi bahasa daerah.
+2. **Peluluhan Fonem Konfiks (BPK-012):* Fonem /t/, /k/, /p/, /s/ pada awal dasar wajib luluh pada konfiks *meng-...-kan* dan *peng-...-an* (*terap -> menerapkan/penerapan*); bentuk *menterapkan/penterapan* tidak baku.
+3. **Kejamakan Inklusif (BPK-013):* *Kita* (jamak inklusif) tidak boleh menggantikan *saya* (tunggal) dalam ragam resmi [telaah].
+4. **Pronomina Penulis Ilmiah (BPK-014):* Untuk penulis tunggal, gunakan *saya/penulis*/bentuk pasif; *kami* hanya sah untuk penulis yang mewakili kelompok atau lembaga [telaah].
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
