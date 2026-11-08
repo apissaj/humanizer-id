@@ -72,7 +72,7 @@ CUSTOM_RULES = [
     (lambda p: "penerjemahan harfiah kaku pada frasa 'linguistic'" in p, [re.compile('\\bketerampilan\\s+linguistik\\b|\\batlas\\s+linguisti[ks]\\b', re.IGNORECASE)]),
     (lambda p: 'struktur frasa padanan terbalik' in p, [re.compile('\\bnominatif\\s+predikat\\b|\\bterjemah\\s+pinjam\\b', re.IGNORECASE)]),
     (lambda p: 'penyerapan fonem klasik keliru' in p, [re.compile('\\bbahasa\\s+sentum\\b|\\bsenematika\\b|\\bapokop\\b', re.IGNORECASE)]),
-    (lambda p: 'preposisi titik waktu tidak baku' in p, [re.compile('\\bdi\\s+(tahun|hari|saat|awal|akhir|tengah|minggu|bulan|jam|waktu|masa|periode|era|dekade)\\b', re.IGNORECASE)]),
+    (lambda p: 'preposisi titik waktu tidak baku' in p, [re.compile('\\bdi\\s+(?:tahun|periode|era|dekade)\\s+\\d{4}\\b|\\bdi\\s+(?:awal|tengah|akhir)\\s+(?:tahun|bulan|pekan|minggu)\\s+\\d{4}\\b|\\bdi\\s+(?:saat|kala)\\b|\\bdi\\s+(?:Senin|Selasa|Rabu|Kamis|Jumat|Sabtu|Minggu|Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\\b|\\bdi\\s+hari\\s+(?:Senin|Selasa|Rabu|Kamis|Jumat|Sabtu|Minggu)\\b', re.IGNORECASE)]),
     (lambda p: 'pleonasme preposisi majemuk' in p, [re.compile('\\bselain\\s+daripada\\b|\\bselain\\s+dari\\s+(itu|pada|laporan|biaya|data|hal|aspek|faktor)\\b', re.IGNORECASE)]),
     (lambda p: 'preposisi arah/lokasi ditulis serangkai tanpa spasi' in p, [re.compile('\\b(didalam|kedalam|diatas|keatas|dibawah|kebawah|didepan|kedepan|dibelakang|kebelakang|disamping|kesamping)\\b', re.IGNORECASE)]),
     (lambda p: 'konjungsi syarat berkorelasi mubazir' in p, [re.compile('\\b(jika|kalau|apabila)\\b[^.!?]*\\b,?\\s*maka\\b', re.IGNORECASE)]),
@@ -229,7 +229,7 @@ CUSTOM_RULES.extend([
      [re.compile(r'(?i)\b(?:kejatuhan|kehabisan|kemasukan|kedatangan|kebanjiran|kehujanan|kecopetan|kelaparan|kepanasan)\s+(?:oleh|akan|dengan)\b')]),
     # PUPI-001: notasi desimal tanpa nol di depan (PUPI 5.8, TBBBI hlm. 438)
     (lambda p: 'notasi desimal tanpa angka nol' in p,
-     [re.compile(r'(?<![\d.,])[,\.]\d{1,4}(?!\d)')]),
+     [re.compile(r'(?<![a-zA-Z\d.,])[,\.]\d{1,4}(?!\d)')]),
 ])
 
 

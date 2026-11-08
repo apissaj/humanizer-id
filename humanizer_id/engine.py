@@ -138,7 +138,12 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
             for item in domain_data.get("istilah", []):
                 term_raw = item["asing"].split("(")[0].strip()
                 if len(term_raw) >= 3:
-                    regex = re.compile(r'\b' + re.escape(term_raw) + r'\b', re.IGNORECASE)
+                    # Akronim kapital (API, SDK, URL) dicocokkan case-sensitive agar tidak bentrok
+                    # dengan kata bahasa Indonesia serupa (api = kereta api, sdk tidak ada, dst.)
+                    if term_raw.isupper() and len(term_raw) <= 5:
+                        regex = re.compile(r'\b' + re.escape(term_raw) + r'\b')
+                    else:
+                        regex = re.compile(r'\b' + re.escape(term_raw) + r'\b', re.IGNORECASE)
                     if regex.search(clean_line):
                         findings.append({
                             "baris": line_idx,

@@ -1763,7 +1763,7 @@
           ],
           "penjelasan": "Frasa pengantar penutup yang monoton bila diulang di setiap akhir paragraf atau subbab.",
           "contoh_salah": "Dari grafik di atas dapat disimpulkan bahwa latensi menurun.",
-          "contoh_benar": "Grafik di atas menunjukkan penurunan latensi secara linier."
+          "contoh_benar": "Grafik 2 menunjukkan penurunan latensi secara linier."
         },
         {
           "id": "RET-006",
@@ -3513,8 +3513,8 @@
             "bentuk pasif"
           ],
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (hlm. 96), kita (jamak inklusif) tidak boleh menggantikan saya (tunggal) dalam ragam resmi karena menimbulkan kerancuan kejamakan.",
-          "contoh_salah": "Kemarin waktu kita pulang sekolah, dia sudah ada di sini.",
-          "contoh_benar": "Kemarin sewaktu saya pulang sekolah, dia sudah berada di sini."
+          "contoh_salah": "Kemarin sewaktu Budi pulang sekolah, dia sudah berada di sini.",
+          "contoh_benar": "Kemarin sewaktu Budi pulang sekolah, dia sudah berada di sini."
         },
         {
           "id": "SPE-002",
@@ -3758,8 +3758,8 @@
             "pemain catur (untuk konteks nonprofesi)"
           ],
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 20-21), bentukan pe- (pegolf, pesepak bola, petenis) khusus menyatakan profesi; untuk penyuka/amatir gunakan pemain.",
-          "contoh_salah": "Adik saya seorang pesepak bola yang bermain di tim sekolah.",
-          "contoh_benar": "Adik saya seorang pemain sepak bola yang bermain di tim sekolah."
+          "contoh_salah": "Adik Ali seorang pesepak bola yang bermain di tim sekolah.",
+          "contoh_benar": "Adik Ali seorang pemain sepak bola yang bermain di tim sekolah."
         },
         {
           "id": "BPK-027",
