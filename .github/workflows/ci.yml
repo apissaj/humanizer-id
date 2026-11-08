@@ -25,6 +25,10 @@ jobs:
         run: |
           python tests/test_regression.py
 
+      - name: Run End-to-End Benchmark
+        run: |
+          python tests/test_benchmark.py
+
       - name: Verify CLI Demo
         run: |
           python scripts/audit.py --demo
