@@ -543,6 +543,10 @@ ightarrow$ serangkai: *mahakasih*.
 6. **Kalk Belanda Prosen & Kuisioner (BPK-016):** Bentuk baku *persen, persentase, kuesioner*; bentuk *prosen, prosentase, presentase, kuisioner, questioner* tidak baku (hlm. 68).
 7. **Serapan Yunani Vokal Tertutup (BPK-017):** Akhiran -is/-os diserap baku *sistem, metode, hipotesis, diagnosis*; bentuk *sistim, metoda, methode, hipotesa, diagnosa* tidak baku (hlm. 68).
 8. **Konsonan /j/ Baku Objek-Subjek (BPK-018):** Penyerapan konsonan /j/ ditulis baku *objek* dan *subjek*, bukan *obyek* dan *subyek* (hlm. 68).
+9. **Kata Dasar Ubah (BPK-019):** Dasar baku *ubah* — *robah* tidak ada di kamus, *rubah* = binatang: *dirubah, dirobah, merobah, perobahan* ditolak → *diubah, mengubah, perubahan* (hlm. 5–6).
+10. **peN- pada Dasar /l/, /r/ (BPK-020):** Awalan peN- melebur jadi pe-: *pelepasan* (bukan *penglepasan*), *perusakan* (bukan *pengrusakan*), *perajin* (bukan *pengrajin*) (hlm. 14).
+11. **Konfiks Ganda Serangkai (BPK-021):** Gabungan kata + awalan & akhiran sekaligus ditulis serangkai: *menyebarluaskan, menyalahgunakan, mengikutsertakan, melipatgandakan* — bukan *menyebar luaskan, menyalah gunakan* (hlm. 33–34).
+12. **Prefiks Tunggal Terpisah (BPK-022):** Gabungan kata + awalan saja ditulis terpisah: *mengadu domba, bertanda tangan, bertepuk tangan* — bukan *mengadudomba, bertandatangan* (hlm. 34).
 
 ### AJ. Kepaduan & Keruntutan Paragraf (Rujukan Suladi, *Paragraf: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
 

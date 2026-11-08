@@ -419,6 +419,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Morfologi Kata Bentukan Seri Penyuluhan BPK (BPK-019..022) ---
+CUSTOM_RULES.extend([
+    # BPK-019: kata dasar ubah, bukan robah (hlm. 5-6)
+    (lambda p: 'dirubah / dirobah / merobah / perobahan' in p,
+     [re.compile(r'(?i)\b(?:di(?:rubah|robah)|merobah|perobahan)\b')]),
+    # BPK-020: peN- -> pe- pada dasar berawal /l/ dan /r/ (hlm. 14)
+    (lambda p: 'penglepasan / pengrusakan / pengrusak' in p,
+     [re.compile(r'(?i)\b(?:penglepasan|pengrusakan|pengrusak)\b')]),
+    # BPK-021: konfiks ganda pada gabungan kata ditulis serangkai (hlm. 33-34)
+    (lambda p: 'menyebar luaskan / menyalah gunakan' in p,
+     [re.compile(r'(?i)\b(?:me(?:nyebar\s+luaskan|nyalah\s+gunakan|ngikut\s+sertakan|lipat\s+gandakan)|di(?:sebar\s+luaskan|salah\s+gunakan|ikut\s+sertakan|lipat\s+gandakan)|pe(?:nyebar\s+luasan|nyalah\s+gunaan|ngikut\s+sertaan|lipat\s+gandaan))\b')]),
+    # BPK-022: prefiks tunggal pada gabungan kata ditulis terpisah (hlm. 34)
+    (lambda p: 'mengadudomba / bertandatangan / bertepuktangan' in p,
+     [re.compile(r'(?i)\b(?:mengadudomba|bertandatangan|bertepuktangan)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
