@@ -318,6 +318,20 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Istilah Wacana Kridalaksana (DIL-005..008) ---
+CUSTOM_RULES.extend([
+    # DIL-005: bentuk rancu koherensitas dan kohesifitas (hlm. 23)
+    (lambda p: 'koherensitas / kohesifitas' in p,
+     [re.compile(r'(?i)\b(?:koherensitas|kohesifitas)\b')]),
+    # DIL-006: transkripsi mentah presuposisi wacana (hlm. 47)
+    (lambda p: 'presuposisi teks / presuposisi wacana' in p,
+     [re.compile(r'(?i)\bpresuposisi\s+(?:teks|wacana|semantik|kalimat|pragmatik)\b')]),
+    # DIL-007: padanan harfiah referensi belakang (back-reference, hlm. 20)
+    (lambda p: 'referensi belakang' in p,
+     [re.compile(r'(?i)\breferensi\s+belakang\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

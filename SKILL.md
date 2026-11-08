@@ -687,6 +687,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Penderita -and/-end (TII-008):* Istilah matematika berakhiran *-and/-end* diserap dengan konstruksi pasif penjelas (*addend -> bilangan yang ditambah; multiplicand -> bilangan yang dikalikan*).
 4. **Pelaku/Alat -er/-or (TII-009):* Akhiran agen/instrumen *-er/-or* diserap menjadi prefiks *pe-* atau gabungan kata *alat* (*absorber -> penyerap/alat serap; analyzer -> penganalisis/alat analisis; mixer -> pencampur*).
 
+### BA. Padanan Peristilahan Wacana Resmi (Rujukan "Daftar Istilah Linguistik Asing-Indonesia", Harimurti Kridalaksana, Pusat Bahasa 1978, hlm. xiii-xiv & lema kohesi/koherensi/presupposition/back-reference/deep structure)
+
+1. **Koherensi dan Kohesi (DIL-005):* Padanan resmi *coherence* ialah *pertalian* (koherensi) dan *cohesion* ialah *keutuhan* (kohesi); bentuk *koherensitas* dan *kohesifitas* adalah penyerapan akhiran mentah yang tidak baku.
+2. **Praanggapan (DIL-006):* Istilah *presupposition* resmi dipadankan *praanggapan*; transkripsi mentah *presuposisi* tidak dianjurkan dalam kajian wacana formal.
+3. **Rujuk Balik (DIL-007):* Padanan resmi *back-reference* ialah *rujuk balik* atau *anafora*; bentuk harfiah *referensi belakang* tidak baku.
+4. **Struktur Batin (DIL-008):* Padanan resmi *deep structure* ialah *struktur batin* (dan *surface structure* ialah *struktur lahir*); telaah kontekstual pada naskah linguistik [telaah].
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

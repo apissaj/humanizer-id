@@ -1535,6 +1535,17 @@
           "penjelasan": "Merujuk Bahasa Indonesia untuk Pejabat Pemerintah (hlm. 50), penggabungan konjungsi konsesif dan pertentangan dalam satu kalimat menghasilkan ganda mubazir.",
           "contoh_salah": "Meskipun banyak lapangan kerja baru yang dibuka, tetapi masalah pengangguran belum teratasi.",
           "contoh_benar": "Meskipun banyak lapangan kerja baru yang dibuka, masalah pengangguran belum teratasi."
+        },
+        {
+          "id": "DIL-007",
+          "pola": "referensi belakang (padanan harfiah back-reference)",
+          "saran_pengganti": [
+            "rujuk balik",
+            "anafora"
+          ],
+          "penjelasan": "Merujuk Kridalaksana (hlm. 20), padanan resmi back-reference ialah rujuk balik atau anafora; bentuk referensi belakang merupakan penyerapan harfiah yang tidak baku.",
+          "contoh_salah": "Pronomina itu menunjukkan referensi belakang ke subjek kalimat sebelumnya.",
+          "contoh_benar": "Pronomina itu menunjukkan rujuk balik ke subjek kalimat sebelumnya."
         }
       ]
     },
@@ -3338,6 +3349,40 @@
           "penjelasan": "Merujuk Tata Istilah Indonesia (hlm. 56), akhiran asing -er/-or pelaku atau alat diserap menjadi prefiks pe- (atau juru-/ahli-/alat-).",
           "contoh_salah": "Sistem ini menggunakan absorber panas untuk menstabilkan suhu ruang.",
           "contoh_benar": "Sistem ini menggunakan penyerap panas untuk menstabilkan suhu ruang."
+        },
+        {
+          "id": "DIL-005",
+          "pola": "koherensitas / kohesifitas (penyerapan -ity/-ive mentah)",
+          "saran_pengganti": [
+            "koherensi / kohesi",
+            "pertalian / keutuhan (padanan Kridalaksana)"
+          ],
+          "penjelasan": "Merujuk Kridalaksana (Daftar Istilah Linguistik, hlm. 23), padanan resmi coherence ialah pertalian/koherensi dan cohesion ialah keutuhan/kohesi; bentuk koherensitas dan kohesifitas merupakan penyerapan akhiran mentah yang tidak baku.",
+          "contoh_salah": "Koherensitas argumen dalam paragraf itu lemah karena kohesifitas antarkalimat kurang terjaga.",
+          "contoh_benar": "Koherensi argumen dalam paragraf itu lemah karena kohesi antarkalimat kurang terjaga."
+        },
+        {
+          "id": "DIL-006",
+          "pola": "presuposisi teks / presuposisi wacana / presuposisi semantik",
+          "saran_pengganti": [
+            "praanggapan teks",
+            "praanggapan wacana",
+            "praanggapan semantik"
+          ],
+          "penjelasan": "Merujuk Kridalaksana (hlm. 47), padanan resmi presupposition ialah praanggapan; transkripsi mentah presuposisi tidak dianjurkan dalam kajian wacana formal.",
+          "contoh_salah": "Analisis presuposisi teks wacana itu memperlihatkan asumsi tersembunyi penulis.",
+          "contoh_benar": "Analisis praanggapan wacana itu memperlihatkan asumsi tersembunyi penulis."
+        },
+        {
+          "id": "DIL-008",
+          "pola": "[telaah] padanan deep structure sebagai struktur dalam (bukan struktur batin)",
+          "saran_pengganti": [
+            "struktur batin (deep structure)",
+            "struktur lahir (surface structure)"
+          ],
+          "penjelasan": "Merujuk Kridalaksana (hlm. 26), padanan resmi deep structure ialah struktur batin dan surface structure ialah struktur lahir; telaah kontekstual diperlukan pada naskah linguistik.",
+          "contoh_salah": "Analisis struktur dalam kalimat generatif menunjukkan hierarki konstituen yang kompleks.",
+          "contoh_benar": "Analisis struktur batin kalimat generatif menunjukkan hierarki konstituen yang kompleks."
         }
       ]
     }
