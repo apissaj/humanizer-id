@@ -3532,6 +3532,43 @@
           "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 36-37), kata penghubung antarkalimat di awal kalimat wajib diikuti tanda koma.",
           "contoh_salah": "Namun hal tersebut belum dapat dibuktikan secara empiris di laboratorium.",
           "contoh_benar": "Namun, hal tersebut belum dapat dibuktikan secara empiris di laboratorium."
+        },
+        {
+          "id": "EYD-023",
+          "pola": "maha siswa / maha kuasa / maha esa / maha guru (bentuk terpisah)",
+          "saran_pengganti": [
+            "mahasiswa",
+            "mahakuasa",
+            "mahaesa",
+            "mahaguru (tulis serangkai)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 9 EYD (hlm. 36), unsur terikat 'maha' ditulis serangkai dengan kata dasar yang mengikutinya; bentuk terpisah 'maha siswa' tidak baku. (Kecuali jika yang mengikuti bukan kata dasar: 'maha mengetahui'.)",
+          "contoh_salah": "Setiap maha siswa wajib menyelesaikan tugas akhir sebelum maha wisuda.",
+          "contoh_benar": "Setiap mahasiswa wajib menyelesaikan tugas akhir sebelum mahawisuda."
+        },
+        {
+          "id": "EYD-024",
+          "pola": "[telaah] kata kekerabatan berfungsi pronomina kemilikan: buku kakak / surat ibu / tugas bapak",
+          "saran_pengganti": [
+            "Kakak",
+            "Ibu",
+            "Bapak (kapital jika berfungsi sebagai panggilan atau pengganti nama orang)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 9 EYD (hlm. 34), kata kekerabatan ditulis kapital jika berfungsi sebagai pronomina kemilikan atau pengganti nama orang (buku Kakak = buku milik Kakak), untuk membedakannya dari common noun.",
+          "contoh_salah": "Ini buku kakak, itu majalah ibu.",
+          "contoh_benar": "Ini buku Kakak, itu majalah Ibu."
+        },
+        {
+          "id": "EYD-025",
+          "pola": "orang2 / anak2 / buku2 (angka 2 sebagai reduplikasi)",
+          "saran_pengganti": [
+            "orang-orang",
+            "anak-anak",
+            "buku-buku (eja lengkap dengan tanda hubung)"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan 9 EYD (hlm. 35), pemakaian angka 2 untuk menyatakan bentuk pengulangan hanya dibatasi pada tulisan cepat atau pencatatan; pada tulisan resmi dianjurkan menuliskan kata ulang secara lengkap.",
+          "contoh_salah": "Sebanyak orang2 hadir pada acara seminar nasional tersebut.",
+          "contoh_benar": "Sebanyak orang-orang hadir pada acara seminar nasional tersebut."
         }
       ]
     }

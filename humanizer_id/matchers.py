@@ -374,6 +374,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Tambahan Seri Penyuluhan 9 EYD (EYD-023, EYD-025) ---
+CUSTOM_RULES.extend([
+    # EYD-023: unsur terikat 'maha' ditulis terpisah dari kata dasar (hlm. 36)
+    (lambda p: 'maha siswa / maha kuasa / maha esa' in p,
+     [re.compile(r'(?i)\bmaha\s+(?:siswa|kuasa|esa|guru|pemimpin|karya|wisuda|dewa|raja)\b')]),
+    # EYD-025: angka 2 sebagai penanda reduplikasi pada naskah resmi (hlm. 35)
+    (lambda p: 'orang2 / anak2 / buku2' in p,
+     [re.compile(r'\b[a-zA-Z]{3,}2\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

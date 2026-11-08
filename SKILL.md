@@ -715,6 +715,12 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Koma Pasca-Konjungsi Antarkalimat (SPE-003):* Ungkapan penghubung di awal kalimat (*Namun, Bahkan, Kemudian, Lagi pula, Sebenarnya*) wajib diikuti koma.
 4. **Titik Koma Klausa Setara (SPE-004):* Tanda titik koma memisahkan klausa setara tanpa konjungsi koordinatif [telaah].
 
+### BE. Bentuk Terikat Maha, Kekerabatan Kapital, dan Reduplikasi Resmi (Rujukan "Seri Penyuluhan 9: Ejaan Bahasa Indonesia yang Disempurnakan", Pusat Bahasa Depdikbud, hlm. 34-36)
+
+1. **Unsur Terikat Maha Serangkai (EYD-023):* *Maha* ditulis serangkai jika diikuti kata dasar (*mahasiswa, mahakuasa, mahaesa, mahaguru*); ditulis terpisah hanya bila diikuti kata turunan (*maha mengetahui*). Bentuk terpisah *maha siswa* tidak baku.
+2. **Kekerabatan Kapital Pronominal (EYD-024):* Kata kekerabatan (*Kakak, Ibu, Bapak*) berhuruf kapital jika berfungsi sebagai pronomina sapaan atau kemilikan (*buku Kakak, surat Ibu*) untuk membedakannya dari nomina umum [telaah].
+3. **Reduplikasi Lengkap Naskah Resmi (EYD-025):* Pemakaian angka 2 untuk reduplikasi (*orang2, anak2*) dilarang dalam naskah resmi; tulis lengkap dengan tanda hubung (*orang-orang, anak-anak*).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
