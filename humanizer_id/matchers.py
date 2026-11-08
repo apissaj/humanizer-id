@@ -216,6 +216,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Kata Tugas, Verba ke--an, dan PUPI Desimal (TBB-016..018, PUPI-001) ---
+CUSTOM_RULES.extend([
+    # TBB-016: penumpukan preposisi ganda (TBBBI Bab VIII hlm. 230)
+    (lambda p: 'guna untuk / bagi untuk' in p,
+     [re.compile(r'(?i)\b(?:guna\s+untuk|bagi\s+untuk|tentang\s+daripada|di\s+dalam\s+rangka\s+untuk)\b')]),
+    # TBB-017: kuantifikasi partitif 'daripada' (TBBBI hlm. 230-231)
+    (lambda p: 'sebagian daripada / separuh daripada' in p,
+     [re.compile(r'(?i)\b(?:sebagian|seperempat|setengah|separuh|sebilangan|\d+)\s+daripada\s+(?:mereka|para|seluruh|responden|penduduk|pengguna|siswa|mahasiswa|karyawan|peserta|sampel|data|\d+)\b')]),
+    # TBB-018: verba semitransitif ke--an disisipi preposisi (TBBBI hlm. 140)
+    (lambda p: 'kejatuhan oleh / kehabisan akan' in p,
+     [re.compile(r'(?i)\b(?:kejatuhan|kehabisan|kemasukan|kedatangan|kebanjiran|kehujanan|kecopetan|kelaparan|kepanasan)\s+(?:oleh|akan|dengan)\b')]),
+    # PUPI-001: notasi desimal tanpa nol di depan (PUPI 5.8, TBBBI hlm. 438)
+    (lambda p: 'notasi desimal tanpa angka nol' in p,
+     [re.compile(r'(?<![\d.,])[,\.]\d{1,4}(?!\d)')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

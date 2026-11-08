@@ -3077,6 +3077,46 @@
           "penjelasan": "TBBBI (hlm. 239-240) menegaskan tingkat superlatif dinyatakan oleh 'ter-' ATAU 'paling'; penggabungan 'paling ter-' merupakan pleonasme mubazir ganda.",
           "contoh_salah": "Efisiensi energi merupakan faktor paling terpenting dalam perancangan pusat data.",
           "contoh_benar": "Efisiensi energi merupakan faktor terpenting dalam perancangan pusat data."
+        },
+        {
+          "id": "TBB-016",
+          "pola": "guna untuk / bagi untuk / tentang daripada / di dalam rangka untuk",
+          "saran_pengganti": [
+            "untuk / guna / bagi / dalam rangka (pilih salah satu)"
+          ],
+          "penjelasan": "Merujuk TBBBI (Bab VIII, hlm. 230), penumpukan dua preposisi yang menandai fungsi sintaksis serupa merupakan pleonasme kontaminasi; gunakan satu preposisi yang tepat.",
+          "contoh_salah": "Bantuan operasional ini dialokasikan guna untuk mempercepat penyelesaian proyek.",
+          "contoh_benar": "Bantuan operasional ini dialokasikan guna mempercepat penyelesaian proyek."
+        },
+        {
+          "id": "TBB-017",
+          "pola": "sebagian daripada / separuh daripada / tiga daripada lima",
+          "saran_pengganti": [
+            "sebagian dari / separuh dari / tiga dari lima"
+          ],
+          "penjelasan": "TBBBI (hlm. 230-231) menetapkan bahwa hubungan partitif atau porsi kuantitatif dinyatakan dengan preposisi 'dari', bukan 'daripada'.",
+          "contoh_salah": "Sebagian daripada responden menyatakan ketidakpuasan terhadap layanan aplikasi.",
+          "contoh_benar": "Sebagian dari responden menyatakan ketidakpuasan terhadap layanan aplikasi."
+        },
+        {
+          "id": "TBB-018",
+          "pola": "kejatuhan oleh / kehabisan akan / kemasukan oleh / kebanjiran oleh",
+          "saran_pengganti": [
+            "kejatuhan / kehabisan / kemasukan / kebanjiran (gugurkan preposisi)"
+          ],
+          "penjelasan": "Merujuk TBBBI (hlm. 140), verba berkonfiks ke--an bermakna adversatif langsung menerima pelengkap nomina tanpa memerlukan preposisi perantara.",
+          "contoh_salah": "Laboratorium riset tersebut kehabisan akan pasokan reagen kimia impor.",
+          "contoh_benar": "Laboratorium riset tersebut kehabisan pasokan reagen kimia impor."
+        },
+        {
+          "id": "PUPI-001",
+          "pola": "notasi desimal tanpa angka nol di depan: .05 / ,05 / .52",
+          "saran_pengganti": [
+            "0.05 / 0,05 / 0.52 (awali dengan angka nol)"
+          ],
+          "penjelasan": "Pedoman Umum Pembentukan Istilah (PUPI Bagian 5.8, TBBBI hlm. 438-439) mewajibkan bilangan desimal selalu diawali angka; notasi yang langsung diawali titik/koma desimal dilarang.",
+          "contoh_salah": "Nilai p-value pengujian tercatat sebesar .05 pada taraf kepercayaan 95%.",
+          "contoh_benar": "Nilai p-value pengujian tercatat sebesar 0.05 pada taraf kepercayaan 95%."
         }
       ]
     }

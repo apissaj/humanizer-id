@@ -644,6 +644,13 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Formula Ekuatif (TBB-014):* Perbandingan setara baku: *se- + adjektiva* (*secantik*) atau *sama [adj]-nya dengan* (*sama cantiknya dengan*); bentuk *sama ... seperti* adalah kontaminasi rancu.
 4. **Superlatif Tunggal (TBB-015):* Derajat paling tinggi dinyatakan *ter-* atau *paling*, tidak boleh rangkap (*paling terbaik* -> *terbaik*).
 
+### AU. Preposisi, Verba Semitransitif, dan Notasi Istilah (Rujukan TBBBI Edisi Keempat: Bab IV hlm. 140, Bab VIII hlm. 230-232, dan Lampiran II PUPI Bagian 5.8 hlm. 438-439)
+
+1. **Preposisi Tunggal (TBB-016):* Penumpukan preposisi berfungsi sama (*guna untuk, bagi untuk, di dalam rangka untuk*) adalah pleonasme; pilih satu preposisi yang tepat menurut relasinya (*guna/untuk/bagi/dalam rangka*).
+2. **Partitif 'Dari' (TBB-017):* Hubungan porsi atau kuantitas (*sebagian, separuh, 3 dari 5*) memakai *dari*, bukan *daripada*.
+3. **Verba ke--an Tanpa Preposisi (TBB-018):* Verba semitransitif adversatif (*kejatuhan, kehabisan, kemasuan, kebanjiran*) langsung mengikat pelengkap nomina tanpa *oleh/akan/dengan*.
+4. **Desimal Berawal Nol (PUPI-001):* Bilangan desimal wajib diawali angka (*0,05* atau *0.05*); notasi *....05* atau *,05* dilarang.
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
