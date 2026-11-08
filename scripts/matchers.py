@@ -168,6 +168,26 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Buku Babon: Gorys Keraf, J.S. Badudu, Bahasa Tempo ---
+CUSTOM_RULES.extend([
+    # KRF-001: kontaminasi bentuk leksikal (Keraf, Diksi dan Gaya Bahasa)
+    (lambda p: 'mengenyampingkan / mempersering' in p,
+     [re.compile(r'\b(mengenyampingkan|mempersering)\b', re.IGNORECASE)]),
+    # KRF-002: penumpukan nomina abstrak berkabut (Keraf)
+    (lambda p: 'penumpukan nomina abstrak' in p,
+     [re.compile(r'\b(melakukan\s+upaya\s+(?:peningkatan|pengembangan|pemaksimalan)|upaya\s+peningkatan\s+(?:dan\s+pengembangan|mutu|kualitas)\s+(?:di\s+dalam|dalam|terhadap)?)\b', re.IGNORECASE)]),
+    # BDD-001: pleonasme sebab-akibat disebabkan karena (Badudu)
+    (lambda p: 'disebabkan karena' in p,
+     [re.compile(r'\b(disebabkan\s+(?:oleh\s+)?karena)\b', re.IGNORECASE)]),
+    # BDD-002: daripada non-komparatif (Badudu)
+    (lambda p: 'daripada' in p and ('tujuan' in p or 'dampak' in p or 'hasil' in p or 'fungsi' in p),
+     [re.compile(r'\b((?:tujuan|dampak|hasil|fungsi|manfaat|peranan|pengaruh)\s+daripada)\b', re.IGNORECASE)]),
+    # TMP-001: basa-basi dinas penunda fakta (Tempo)
+    (lambda p: 'basa-basi dinas penunda fakta' in p,
+     [re.compile(r'\b(Sehubungan\s+dengan\s+hal\s+(?:tersebut(?:\s+di\s+atas)?\s*,?\s*maka|itu)|Dalam\s+rangka\s+untuk\s+dapat|Dengan\s+ini\s+diberitahukan\s+bahwa)\b', re.IGNORECASE)]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

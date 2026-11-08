@@ -620,6 +620,17 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Hierarki Penomoran Monograf (BRN-003):** Penjenjangan baku: *Bab I* (Romawi) → *A.* (Kapital) → *1.* (Arab) → *a.* (Kecil); penomoran desimal tak berbatas bergaya laporan teknis (*2.1.3.4.1*) ditolak [telaah] (Penerbit BRIN, Bagian Chapters).
 4. **Catatan Kaki Konten (BRN-004):** Catatan kaki/endnote dilarang dipakai semata-mata untuk sitasi; wajib memuat penjelasan substantif, atau sitasi dialihkan ke sistem pengarang-tahun (APA) dalam badan teks [telaah] (Penerbit BRIN, Bagian Chapters & Citations).
 
+### AR. Stilistika Klasik dan Pemurnian Salah Kaprah (Rujukan Gorys Keraf "Diksi dan Gaya Bahasa" 1981; J.S. Badudu "Inilah Bahasa Indonesia yang Benar" 1983; "Bahasa!" Majalah Tempo 2008)
+
+1. **Kontaminasi Bentuk Leksikal (KRF-001):** Bentuk rancu hasil peleburan dua bentuk sah ditolak: *mengenyampingkan* (kontaminasi *mengesampingkan* + *menyampingkan*) → *mengesampingkan*; *mempersering* → *memperkerap/meningkatkan frekuensi* (Keraf, Bab Morfologi dan Pilihan Kata).
+2. **Penumpukan Nomina Abstrak (KRF-002):** Rantai nominalisasi kabur (*melakukan upaya peningkatan mutu*) diganti verba tindakan langsung (*meningkatkan mutu*); kalimat ilmiah menuntut pelaku dan tindakan yang terlihat (Keraf).
+3. **Monotoni Ritme Sintaksis (KRF-003):** Deretan kalimat berpola S-P identik tanpa variasi panjang/struktur menghasilkan tempo baca jenuh; padukan kalimat berkala, inversi keterangan, dan fusi majemuk [telaah] (Keraf, Bab Gaya Bahasa).
+4. **Pleonasme Sebab-Akibat (BDD-001):** *Disebabkan karena / disebabkan oleh karena* ditolak; pilih *disebabkan oleh [nomina]* atau *terjadi karena [klausa]* (Badudu, Jilid I).
+5. **Daripada Non-Komparatif (BDD-002):** *Tujuan daripada, hasil daripada, dampak daripada* adalah kalk Belanda (*van*); *daripada* hanya sah untuk perbandingan derajat (*lebih tinggi daripada*) — gugurkan pada frasa nomina lain (Badudu).
+6. **Kalimat Buntung Tanpa Induk (BDD-003):** Kalimat yang seluruhnya anak kalimat berketerangan (*Walaupun...*) tanpa klausa induk ditolak; lengkapi induk kalimat [telaah] (Badudu).
+7. **Basa-Basi Penunda Fakta (TMP-001):** Pembuka birokratis *Sehubungan dengan hal tersebut di atas maka*, *Dengan ini diberitahukan bahwa*, *Dalam rangka untuk dapat* dihapus; langsung ke pokok kalimat atau *Oleh karena itu* (Bahasa! Tempo, 2008).
+8. **Pereduksian Klausa Berpanjang-Panjang (TMP-002):** Anak kalimat relatif mubazir (*gedung yang mana didirikan tahun 1920*) dipangkas jadi pewatas nomina (*gedung peninggalan tahun 1920*) [telaah] (Tempo).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

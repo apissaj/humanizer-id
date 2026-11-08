@@ -260,6 +260,27 @@
         "penerbit": "BRIN Publishing, Pemerintah Republik Indonesia",
         "tahun": 2024,
         "bab_relevan": "Preface (Larangan Klise Kerendahan Hati), Text Matter (Larangan Subbab Generik, Hierarki Penomoran, Footnotes), Tables and Figures (Deiksis Hierarkis), Citations (Konsistensi APA/CMS)"
+      },
+      {
+        "judul": "Diksi dan Gaya Bahasa",
+        "penulis": "Prof. Dr. Gorys Keraf",
+        "penerbit": "PT Gramedia Pustaka Utama",
+        "tahun": 1981,
+        "bab_relevan": "Bab Diksi (Ketepatan Pilihan Kata, Eliminasi Kontaminasi Bentuk Leksikal) & Bab Gaya Bahasa (Anti-Penumpukan Nomina Abstrak, Variasi Ritme Sintaksis)"
+      },
+      {
+        "judul": "Inilah Bahasa Indonesia yang Benar (Jilid I-IV)",
+        "penulis": "Prof. Dr. J.S. Badudu",
+        "penerbit": "PT Gramedia Pustaka Utama",
+        "tahun": 1983,
+        "bab_relevan": "Bab Sintaksis & Pembinaan Kalimat (Koreksi Salah Kaprah 'Disebabkan Karena', Pembatasan 'Daripada' Non-Komparatif, dan Kalimat Buntung Tanpa Induk)"
+      },
+      {
+        "judul": "Bahasa! Kumpulan Tulisan tentang Bahasa Indonesia di Majalah Tempo",
+        "penulis": "Pusat Data dan Analisa Tempo (Amarzan Loebis, Bambang Bujono, dkk., Penyunting)",
+        "penerbit": "Pusat Data dan Analisa Tempo",
+        "tahun": 2008,
+        "bab_relevan": "Ekonomi Kata Jurnalistik: Pemangkasan Basa-Basi Dinas Penunda Fakta, Anti-Verba Kering, dan Pereduksian Klausa Relatif Berlebih"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -1381,6 +1402,27 @@
           "penjelasan": "Pencampuradukan relasi bagian-keseluruhan (meronimi) dengan relasi jenis-subkelas (hiponimi) merusak ketepatan logika definisi ilmiah (Maharani, UI 2018, hlm. 8-9, 14).",
           "contoh_salah": "Laporan ini meneliti tiga jenis utama mesin mobil, yaitu piston, busi, dan karburator.",
           "contoh_benar": "Laporan ini meneliti tiga komponen utama mesin mobil, yaitu piston, busi, dan karburator."
+        },
+        {
+          "id": "BDD-001",
+          "pola": "disebabkan karena / disebabkan oleh karena",
+          "saran_pengganti": [
+            "disebabkan oleh [nomina]",
+            "terjadi karena [klausa]"
+          ],
+          "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid I), konstruksi 'disebabkan karena' merupakan kerancuan sintaksis antara verba pasif 'disebabkan oleh' (menuntut frasa nomina) dan konjungsi anak kalimat 'karena' (menuntut klausa berpredikat).",
+          "contoh_salah": "Kegagalan transmisi daya disebabkan karena sambungan kabel mengalami korosi.",
+          "contoh_benar": "Kegagalan transmisi daya terjadi karena sambungan kabel mengalami korosi."
+        },
+        {
+          "id": "BDD-002",
+          "pola": "tujuan daripada / dampak daripada / hasil daripada / fungsi daripada",
+          "saran_pengganti": [
+            "tujuan / dampak / hasil / fungsi (gugurkan kata 'daripada')"
+          ],
+          "penjelasan": "J.S. Badudu menegaskan bahwa kata depan 'daripada' hanya sah digunakan untuk menyatakan perbandingan derajat (komparatif). Pemakaian 'daripada' pada frasa nomina posesif atau penjelas (tujuan daripada, hasil daripada) adalah salah kaprah interferensi bahasa Belanda (van).",
+          "contoh_salah": "Tujuan daripada penelitian ini adalah mengukur kadar flavonoid total.",
+          "contoh_benar": "Tujuan penelitian ini adalah mengukur kadar flavonoid total."
         }
       ]
     },
@@ -2124,6 +2166,56 @@
           "penjelasan": "Pedoman BRIN (2024) menegaskan bahwa catatan kaki hanya berfungsi untuk penjelasan materi tambahan (content notes), dilarang digunakan semata-mata untuk menaruh sitasi pustaka.",
           "contoh_salah": "Ia menambahkan catatan kaki hanya berisi 'Santoso, 2020, hlm. 12' tanpa keterangan lain.",
           "contoh_benar": "Ia merujuk literatur terkait dalam badan teks (Santoso, 2020) dan menyediakan daftar pustaka di akhir buku."
+        },
+        {
+          "id": "KRF-002",
+          "pola": "penumpukan nomina abstrak: upaya peningkatan pengembangan / melakukan upaya peningkatan",
+          "saran_pengganti": [
+            "[gunakan verba tindakan langsung: meningkatkan / mengembangkan]"
+          ],
+          "penjelasan": "Keraf mengkritik penumpukan kata benda abstrak (upaya, peningkatan, pengembangan, proses) yang menghasilkan kalimat berkabut dan melemahkan daya ungkap; ganti dengan verba tindakan spesifik.",
+          "contoh_salah": "Pemerintah melakukan upaya peningkatan mutu pendidikan vokasi di daerah tertinggal.",
+          "contoh_benar": "Pemerintah meningkatkan mutu pendidikan vokasi di daerah tertinggal."
+        },
+        {
+          "id": "KRF-003",
+          "pola": "[telaah] monotoni ritme: deretan lebih dari 4 kalimat berturut-turut berpola S-P kaku tanpa variasi",
+          "saran_pengganti": [
+            "Variasikan struktur kalimat dengan klausa berkala, inversi keterangan awal, atau fusi kalimat majemuk"
+          ],
+          "penjelasan": "Merujuk prinsip variasi gaya bahasa Keraf, paragraf yang sehat memadukan kalimat pendek dan panjang serta menukar posisi klausa keterangan untuk menjaga tempo baca.",
+          "contoh_salah": "Model ini mengolah data. Model ini menghitung skor. Model ini menentukan kelas. Model ini mencetak hasil.",
+          "contoh_benar": "Setelah mengolah data dan menghitung skor, model menentukan kelas lalu mencetak hasil klasifikasi."
+        },
+        {
+          "id": "BDD-003",
+          "pola": "[telaah] kalimat majemuk bertingkat buntung tanpa induk kalimat gramatikal",
+          "saran_pengganti": [
+            "Lengkapi klausa utama atau hapus konjungsi subordinatif pembuka"
+          ],
+          "penjelasan": "Badudu mengkritik kalimat ilmiah yang seluruhnya terdiri dari anak kalimat berketerangan (diawali meskipun, karena, sehingga) tanpa pernah menghadirkan subjek dan predikat induk yang sah.",
+          "contoh_salah": "Walaupun pemerintah telah menerbitkan regulasi baru mengenai pembatasan emisi karbon industri.",
+          "contoh_benar": "Walaupun pemerintah telah menerbitkan regulasi baru mengenai pembatasan emisi karbon industri, sejumlah pabrik masih melanggar ambang batas."
+        },
+        {
+          "id": "TMP-001",
+          "pola": "basa-basi dinas penunda fakta: Sehubungan dengan hal tersebut maka / Dalam rangka untuk dapat / Dengan ini diberitahukan bahwa",
+          "saran_pengganti": [
+            "[dihapus; langsung nyatakan pokok kalimat atau gunakan konjungsi lugas 'Oleh karena itu']"
+          ],
+          "penjelasan": "Merujuk prinsip ekonomi kata Majalah Tempo (Bahasa!, 2008), frasa pembuka birokratis seperti 'Sehubungan dengan hal tersebut di atas maka' merupakan penunda fakta yang membuang ruang dan memperlambat pemahaman pembaca; langsung kemukakan gagasan utama.",
+          "contoh_salah": "Sehubungan dengan hal tersebut di atas maka pihak rumah sakit segera menambah ruang isolasi.",
+          "contoh_benar": "Oleh karena itu, pihak rumah sakit segera menambah ruang isolasi."
+        },
+        {
+          "id": "TMP-002",
+          "pola": "[telaah] pereduksian anak kalimat relatif berpanjang-panjang (wordiness trimming)",
+          "saran_pengganti": [
+            "Ringkas anak kalimat menjadi pewatas nomina lugas atau frase preposisional terfokus"
+          ],
+          "penjelasan": "Gaya bahasa bernas Tempo memangkas rantai klausa subordinat yang dapat diwakili oleh adjektiva atau aposisi ringkas.",
+          "contoh_salah": "Gedung yang mana didirikan pada tahun 1920 tersebut kini difungsikan sebagai museum.",
+          "contoh_benar": "Gedung peninggalan tahun 1920 tersebut kini difungsikan sebagai museum."
         }
       ]
     },
@@ -2904,6 +2996,17 @@
           "penjelasan": "Prinsip pulau anaforis (Lapoliwa & Nureni, Glosarium Linguistik 2002, hlm. 14) melarang pronomina mengacu pada konstituen yang terkurung dalam morfem turunan tertutup (anaphoric island constraint).",
           "contoh_salah": "Para penikmat kopi menyukai aromanya, tetapi tanaman tersebut rentan terhadap hama jamur.",
           "contoh_benar": "Para penikmat menyukai aroma kopi, tetapi tanaman kopi rentan terhadap hama jamur."
+        },
+        {
+          "id": "KRF-001",
+          "pola": "mengenyampingkan / mempersering",
+          "saran_pengganti": [
+            "mengesampingkan",
+            "memperkerap (meningkatkan frekuensi)"
+          ],
+          "penjelasan": "Merujuk Gorys Keraf (Diksi dan Gaya Bahasa), bentuk 'mengenyampingkan' merupakan kontaminasi dari 'mengesampingkan' dan 'menyampingkan'; bentuk baku adalah 'mengesampingkan'. Bentuk 'mempersering' rancu; bentuk baku 'memperkerap'.",
+          "contoh_salah": "Peneliti tidak boleh mengenyampingkan anomali data lapangan begitu saja.",
+          "contoh_benar": "Peneliti tidak boleh mengesampingkan anomali data lapangan begitu saja."
         }
       ]
     }
