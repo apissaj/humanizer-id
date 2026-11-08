@@ -26,6 +26,18 @@ Penumpukan tiga konjungsi dalam satu kalimat majemuk (*walaupun/meskipun/sungguh
 - Kalimat beranak *yang* bertingkat tanpa predikat utama (hlm. 66) — sudah tercakup `SPB-004`.
 - Ketaksaan penempatan adverbia *baru* (hlm. 74–75): *pelatihan karyawan baru dapat dilaksanakan* ambigu antara 'karyawan baru' dan 'baru dilaksanakan'.
 
+### E. Pengutip Preposisional Merusak Subjek (hlm. 28–29)
+Kalimat berstruktur **K-P-O** tidak ada dalam tipe kalimat dasar bahasa Indonesia. Frasa preposisional pengutip di awal kalimat (*menurut, dengan, dalam*) mengubah nomina berikutnya menjadi keterangan sehingga verba aktif transitif kehilangan subjek:
+- *\*Menurut pakar lain di bidang pemasaran menyatakan bahwa ...*
+- *\*Dengan perubahan zaman menuntut para pendidik ...*
+- *\*Dalam debat calon presiden itu memutuskan bahwa ...*
+Perbaikan: hapus preposisi (nomina menjadi subjek: *Pakar lain menyatakan bahwa ...*) atau pindahkan struktur ke K-S-P-Pel (*Menurut pakar lain, pemasaran adalah proses ...*).
+
+### F. Kalimat Tanpa Predikat Berakhir Frasa Preposisional (hlm. 33–35)
+Tuturan perundang-undangan dan laporan kerap berhenti pada keterangan: *\*Gaji guru yang diangkat oleh satuan pendidikan yang diselenggarakan oleh masyarakat dengan berdasarkan pada perjanjian kerja ...* — struktur S-K tanpa predikat sehingga belum menjadi kalimat (tidak mengungkapkan informasi utuh). Perbaikan: wajib memunculkan predikat (*... dibayar sesuai perjanjian kerja* / *... adalah setara dengan ...*). Catatan: frasa *dengan berdasarkan pada* itu sendiri juga tidak baku menurut TBBBI (lihat `TBB-005`), sehingga perbaikan terbaik menggantinya dengan *sesuai*.
+
+---
+
 ## 3. Pemetaan ke Dataset `data/kalke-indonesia.json`
 
 | ID | Kaidah | Kategori | Kode Regex Utama |
@@ -33,3 +45,5 @@ Penumpukan tiga konjungsi dalam satu kalimat majemuk (*walaupun/meskipun/sungguh
 | `SPK-001` | *jika/kalau/apabila ... maka ...* | `retorika_klise_ai` | `\b(jika\|kalau\|apabila)\b[^.!?]*\b,?\s*maka\b` |
 | `SPK-002` | *memerintahkan/menugaskan/menganjurkan/mempersilakan kepada X* | `retorika_klise_ai` | `\b(memerintahkan\|menugaskan\|menganjurkan\|mempersilakan)\s+kepada\b` |
 | `SPK-003` | Rangkap tiga *walaupun ... namun/tetapi ... maka ...* | `retorika_klise_ai` | `\b(walaupun\|meskipun\|sungguhpun\|sekalipun)\b[^.!?]*\b(namun\|tetapi)\b[^.!?]*\b,?\s*maka\b` |
+| `SPK-004` | Pengutip preposisional + verba transitif tanpa subjek (*Menurut X menyatakan bahwa ...*) | `retorika_klise_ai` | `\b(Menurut\|Dengan\|Dalam)\s+[^.!?]{2,60}?\b(menyatakan\|menuntut\|...)\s+(bahwa\|para\|...)\b` |
+| `SPK-005` | Kalimat tanpa predikat berakhir *dengan berdasarkan pada ...* | `retorika_klise_ai` | `^[A-Z][^.!?]*\byang\b[^.!?]*\byang\b[^.!?]*\bdengan\s+berdasarkan\s+pada\b[^.!?]*\.` |

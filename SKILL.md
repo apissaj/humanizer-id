@@ -530,6 +530,8 @@ ightarrow$ serangkai: *mahakasih*.
 1. **Konjungsi Syarat Mandiri:** *Jika/kalau/apabila A, B* — kata *maka* dilarang menyertai klausa utama karena membuat kalimat kehilangan induk (hlm. 80–81).
 2. **Objek Verba Transitif Tanpa Preposisi:** *memerintahkan penyesuaian kepada X* atau *memerintah X untuk Y* — bukan *memerintahkan kepada X untuk Y* (preposisi merusak struktur S-P-O) (hlm. 78).
 3. **Larangan Konjungsi Rangkap Tiga:** dilarang menumpuk *walaupun/meskipun + namun/tetapi + maka* dalam satu kalimat majemuk (hlm. 82–84).
+4. **Pengutip Preposisional Merusak Subjek:** *Menurut pakar X menyatakan bahwa...* atau *Dengan perubahan zaman menuntut...* salah (K-P-O) — preposisi di depan mengubah subjek jadi keterangan; hapus preposisi atau pindah struktur (hlm. 28–29).
+5. **Kalimat Tanpa Predikat Berakhir Preposisional:** subjek panjang yang ditutup *dengan berdasarkan pada...* belum menjadi kalimat utuh; wajib munculkan verba predikat utama (hlm. 33–35).
 
 ### AI. Diksi Preskriptif Lanjutan (Rujukan Mustakim, *Bentuk dan Pilihan Kata*, Badan Bahasa, 2019)
 

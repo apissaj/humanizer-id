@@ -1578,6 +1578,36 @@
             "tahun": 2019,
             "halaman": "11, 88"
           }
+        },
+        {
+          "id": "SPK-004",
+          "pola": "kalimat dengan pengutip preposisional diikuti verba aktif transitif tanpa subjek (menurut X menyatakan bahwa; dengan Y menuntut Z; dalam W memutuskan bahwa)",
+          "saran_pengganti": "Pilih salah satu: buang preposisi agar nomina menjadi subjek (Pakar lain menyatakan bahwa...), atau pertahankan preposisi lalu tambahkan koma dan kelengkapan klausa induk (Menurut pakar lain di bidang pemasaran, pemasaran adalah ...) (Sasangka, hlm. 28-29).",
+          "penjelasan": "Kalimat (Sasangka, Badan Bahasa 2019, contoh 41-43) menganalisis bahwa kalimat berstruktur K-P-O tidak ada dalam tipe kalimat dasar bahasa Indonesia: frasa preposisional menurut/dengan/dalam di depan mengubah nomina berikutnya menjadi keterangan, sehingga verba aktif transitif (menyatakan, menuntut, memutuskan) kehilangan subjek. Perbaikan: hapus preposisi agar nomina menjadi subjek, atau pindah/konversi struktur ke K-S-P-Pel.",
+          "contoh_salah": "Menurut pakar pemasaran menyatakan bahwa pemasaran adalah proses memasarkan barang.",
+          "contoh_benar": "Pakar pemasaran menyatakan bahwa pemasaran adalah proses memasarkan barang.",
+          "rujukan": {
+            "penulis": "Sry Satriya Tjatur Wisnu Sasangka",
+            "buku": "Kalimat: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "28-29"
+          }
+        },
+        {
+          "id": "SPK-005",
+          "pola": "kalimat tanpa predikat: subjek beranak 'yang' panjang langsung ditutup frasa preposisional 'dengan berdasarkan pada' tanpa verba predikat utama",
+          "saran_pengganti": "Tambahkan verba predikat utuh sebelum keterangan akhir: 'Gaji guru ... dibayar sesuai perjanjian kerja' (bukan berhenti pada frasa preposisional 'dengan berdasarkan pada ...') (Sasangka, hlm. 33-35).",
+          "penjelasan": "Kalimat (Sasangka, 2019, contoh 54-55) memerikan tuturan perundang-undangan dan laporan yang berstruktur S-K tanpa predikat: subjek beranak 'yang' beruntun langsung ditutup frasa preposisional dengan berdasarkan pada ... sehingga rangkaian belum menjadi kalimat karena tidak mengungkapkan informasi utuh. Predikat (dibayar, ditetapkan, adalah) wajib dimunculkan.",
+          "contoh_salah": "Gaji guru yang diangkat oleh satuan pendidikan yang diselenggarakan masyarakat dengan berdasarkan pada perjanjian kerja.",
+          "contoh_benar": "Gaji guru yang diangkat oleh satuan pendidikan yang diselenggarakan masyarakat dibayar sesuai perjanjian kerja.",
+          "rujukan": {
+            "penulis": "Sry Satriya Tjatur Wisnu Sasangka",
+            "buku": "Kalimat: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "33-35"
+          }
         }
       ]
     },
