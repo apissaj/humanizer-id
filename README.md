@@ -221,11 +221,6 @@ Skrip akan mencetak nomor baris, pola kalke atau verba ringan yang terdeteksi, s
 - **Zona Terlarang Disunting:** Dilarang mengubah instrumen penelitian tervalidasi (kuesioner/skala Likert), dokumen kontrak, dan paten hukum.
 - **Bukan Alat Bypass Deteksi:** Panduan ini berfokus pada keterbacaan manusia. Kelancaran tata bahasa bukan jaminan skor pada alat deteksi AI statistik.
 
----
-
-## Lisensi
-
-Perangkat lunak dan panduan ini dilisensikan di bawah [Lisensi MIT](LICENSE) © 2026 Hafizh Muzani.
 
 ---
 
@@ -270,3 +265,9 @@ python jurnal/scripts/word_count_check.py <naskah.md>
 3. Nama penulis tanpa gelar/pangkat/jabatan (Pedoman Jurnal Dikbud).
 4. Novelty dinyatakan eksplisit di akhir Introduction.
 5. Semua kaidah kebahasaan humanizer-id (218 entri) berlaku juga di sini.
+
+---
+
+## Lisensi
+
+Perangkat lunak dan panduan ini dilisensikan di bawah [Lisensi MIT](LICENSE) © 2026 Hafizh Muzani.
