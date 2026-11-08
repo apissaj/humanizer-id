@@ -539,6 +539,10 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Kopula Definisi:** predikat definisi memakai verba *adalah* (mendefinisikan) atau *ialah* (menjelaskan) — bukan *yaitu/yakni* (*Algoritma genetika adalah metode...*, bukan *Algoritma genetika yaitu...*) (hlm. 81).
 3. **Mantan vs Bekas:** *mantan* untuk pemangku jabatan manusia (*mantan rektor, mantan presiden*); *bekas* untuk benda/kondisi nonmanusia (*bekas kantor pos, bekas luka*) karena berkonotasi peyoratif jika dipakai untuk orang (hlm. 77).
 4. **Pemerinci Tuntas vs Parsial:** *yaitu/yakni* untuk menyebutkan seluruh anggota yang sudah dibilang pasti di awal (*Ada dua faktor, yaitu A dan B*); *antara lain/misalnya* khusus untuk sebagian dari jumlah yang banyak (hlm. 81–82).
+5. **Gugus Konsonan Kw- & Jadual (BPK-015):** Gugus asing kw- diserap ku-: *kualitas, kuantitas, kuitansi* (bukan *kwalitas, kwantitas, kwitansi*); *jadwal* bukan *jadual* (hlm. 68).
+6. **Kalk Belanda Prosen & Kuisioner (BPK-016):** Bentuk baku *persen, persentase, kuesioner*; bentuk *prosen, prosentase, presentase, kuisioner, questioner* tidak baku (hlm. 68).
+7. **Serapan Yunani Vokal Tertutup (BPK-017):** Akhiran -is/-os diserap baku *sistem, metode, hipotesis, diagnosis*; bentuk *sistim, metoda, methode, hipotesa, diagnosa* tidak baku (hlm. 68).
+8. **Konsonan /j/ Baku Objek-Subjek (BPK-018):** Penyerapan konsonan /j/ ditulis baku *objek* dan *subjek*, bukan *obyek* dan *subyek* (hlm. 68).
 
 ### AJ. Kepaduan & Keruntutan Paragraf (Rujukan Suladi, *Paragraf: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
 

@@ -3614,6 +3614,55 @@
           "penjelasan": "Merujuk J.S. Badudu (Inilah Bahasa Indonesia yang Benar, Jilid I & III), fonem awal /s/ pada kata dasar berprefiks meN- wajib luluh menjadi ny- (menyukseskan, bukan mensukseskan).",
           "contoh_salah": "Seluruh civitas akademika berkomitmen mensukseskan akreditasi internasional.",
           "contoh_benar": "Seluruh civitas akademika berkomitmen menyukseskan akreditasi internasional."
+        },
+        {
+          "id": "BPK-015",
+          "pola": "kwalitas / kwantitas / kwitansi / jadual",
+          "saran_pengganti": [
+            "kualitas",
+            "kuantitas",
+            "kuitansi",
+            "jadwal"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), gugus konsonan kw- diserap menjadi ku-: kualitas, kuantitas, kuitansi; dan jadual diganti jadwal.",
+          "contoh_salah": "Kwalitas layanan dievaluasi sesuai jadual penyerahan kwitansi.",
+          "contoh_benar": "Kualitas layanan dievaluasi sesuai jadwal penyerahan kuitansi."
+        },
+        {
+          "id": "BPK-016",
+          "pola": "prosen / prosentase / presentase / kuisioner / questioner",
+          "saran_pengganti": [
+            "persen",
+            "persentase",
+            "kuesioner"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), bentuk baku adalah persen, persentase, dan kuesioner; bentuk prosen, prosentase, presentase, kuisioner, dan questioner tidak baku.",
+          "contoh_salah": "Prosentase responden yang mengisi kuisioner mencapai 80 prosen.",
+          "contoh_benar": "Persentase responden yang mengisi kuesioner mencapai 80 persen."
+        },
+        {
+          "id": "BPK-017",
+          "pola": "sistim / metoda / methode / hipotesa / diagnosa",
+          "saran_pengganti": [
+            "sistem",
+            "metode",
+            "hipotesis",
+            "diagnosis"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), serapan Yunani berakhiran -is/-os ditulis baku sistem, metode, hipotesis, diagnosis; bentuk sistim, metoda, hipotesa, diagnosa tidak baku.",
+          "contoh_salah": "Sistim penilaian baru menggunakan metoda analisis diagnosa pembelajaran.",
+          "contoh_benar": "Sistem penilaian baru menggunakan metode analisis diagnosis pembelajaran."
+        },
+        {
+          "id": "BPK-018",
+          "pola": "obyek / subyek",
+          "saran_pengganti": [
+            "objek",
+            "subjek"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk dan Pilihan Kata (Badan Bahasa, 2019, hlm. 68), penyerapan konsonan /j/ baku ditulis j: objek dan subjek, bukan obyek dan subyek.",
+          "contoh_salah": "Obyek kajian meliputi persepsi subyek penelitian.",
+          "contoh_benar": "Objek kajian meliputi persepsi subjek penelitian."
         }
       ]
     }

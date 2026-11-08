@@ -402,6 +402,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Tabel Baku-Tidak Baku Seri Penyuluhan Bentuk & Pilihan Kata (BPK-015..018) ---
+CUSTOM_RULES.extend([
+    # BPK-015: gugus konsonan kw- diserap ku-, dan jadual -> jadwal (hlm. 68)
+    (lambda p: 'kwalitas / kwantitas / kwitansi / jadual' in p,
+     [re.compile(r'(?i)\b(?:kwalitas|kwantitas|kwitansi|jadual)\b')]),
+    # BPK-016: kalk Belanda prosen/persentase/kuisioner (hlm. 68)
+    (lambda p: 'prosen / prosentase / presentase / kuisioner / questioner' in p,
+     [re.compile(r'(?i)\b(?:prosentase|presentase|prosen|kuisioner|questioner)\b')]),
+    # BPK-017: serapan Yunani -is/-os baku sistem/metode/hipotesis/diagnosis (hlm. 68)
+    (lambda p: 'sistim / metoda / methode / hipotesa / diagnosa' in p,
+     [re.compile(r'(?i)\b(?:sistim|metoda|methode|hipotesa|diagnosa)\b')]),
+    # BPK-018: konsonan /j/ baku objek/subjek (hlm. 68)
+    (lambda p: 'obyek / subyek' in p,
+     [re.compile(r'(?i)\b(?:obyek|subyek)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
