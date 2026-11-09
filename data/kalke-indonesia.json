@@ -4009,6 +4009,43 @@
           "penjelasan": "Merujuk PUEBI (SK Kepala Badan Bahasa 321/2021, hlm. 47), ch yang dilafalkan /s/ diserap s: eselon, mesin; bentuk eschelon dan esselon tidak baku.",
           "contoh_salah": "Pejabat eschelon II menghadiri rapat koordinasi di kementerian.",
           "contoh_benar": "Pejabat eselon II menghadiri rapat koordinasi di kementerian."
+        },
+        {
+          "id": "TBB-027",
+          "pola": "membom / mencek / mempel / mentik",
+          "saran_pengganti": [
+            "mengebom",
+            "mengecek",
+            "mengepel",
+            "mengetik"
+          ],
+          "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 144), prefiks meng- pada pangkal verba dasar tunggal bersuku satu berawal /b/, /p/ berubah menjadi mem- + e- pelengkap; bentuk baku mengebom, mengecek, mengepel, mengetik.",
+          "contoh_salah": "Petugas wajib mencek kelengkapan dokumen sebelum membom target pengujian.",
+          "contoh_benar": "Petugas wajib mengecek kelengkapan dokumen sebelum mengebom target pengujian."
+        },
+        {
+          "id": "TBB-028",
+          "pola": "memroduksi / memroses / memrogram / menransfer / mengredit / menglaim",
+          "saran_pengganti": [
+            "memproduksi",
+            "memproses",
+            "memprogram",
+            "mengkredit",
+            "mengklaim"
+          ],
+          "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 144), prefiks meng- pada pangkal berawal gugus konsonan /pr/, /pl/, /kl/, /tr/, /kr/ tidak berasimilasi dan tidak tunduk peluluhan; bentuk baku mengikuti kamus: memproduksi, memproses, memprogram, mentransfer, mengkredit, mengklaim.",
+          "contoh_salah": "Pabrik itu memroduksi seribu unit kendaraan dan mengredit pinjaman vendor.",
+          "contoh_benar": "Pabrik itu memproduksi seribu unit kendaraan dan mengkredit pinjaman vendor."
+        },
+        {
+          "id": "TBB-029",
+          "pola": "\"Tetapi\" di awal kalimat (setelah titik/tanda tanya/tanda seru atau di awal paragraf)",
+          "saran_pengganti": [
+            "\"Akan tetapi,\" atau \"Namun,\" (konjungsi antarkalimat)"
+          ],
+          "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 417), konjungsi koordinatif tetapi dalam bahasa baku tidak dipakai memulai kalimat; gunakan akan tetapi atau namun.",
+          "contoh_salah": "Hasil awal sudah baik. Tetapi masih ada kendala teknis yang harus diselesaikan.",
+          "contoh_benar": "Hasil awal sudah baik. Akan tetapi, masih ada kendala teknis yang harus diselesaikan."
         }
       ]
     }

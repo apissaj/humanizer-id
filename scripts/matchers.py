@@ -536,6 +536,20 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Ed-4 Morfofonemik & Konjungsi Tetapi (TBB-027..029) ---
+CUSTOM_RULES.extend([
+    # TBB-027: verba dasar tunggal b/p salah asimilasi (hlm. 144)
+    (lambda p: 'membom / mencek / mempel / mentik' in p,
+     [re.compile(r'(?i)\b(?:membom|mencek(?!\w)|mempel|mentik)\b')]),
+    # TBB-028: pangkal gugus konsonan tidak luluh (hlm. 144)
+    (lambda p: 'memroduksi / memroses / memrogram' in p,
+     [re.compile(r'(?i)\b(?:memroduksi|memroses|memrogram|menransfer|mengredit|menglaim)\b')]),
+    # TBB-029: konjungsi tetapi di awal kalimat (hlm. 417)
+    (lambda p: '"Tetapi" di awal kalimat' in p,
+     [re.compile(r'(?:^|[.!?]\s+)(Tetapi\b(?:\s*,\s*|\s+))')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

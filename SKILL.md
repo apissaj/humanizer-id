@@ -694,6 +694,9 @@ ightarrow$ serangkai: *mahakasih*.
 2. **Sufiks -i Menolak Dasar Berakhir /i/ (TBB-022):* Bentukan kata berakhiran huruf *ii* ganda (*mengisii, memperbaikii*) tidak berterima; gugurkan sufiks (*mengisi, memperbaiki*).
 3. **Reduplikasi Verba Bersufiks (TBB-023):* Sufiks tidak ikut direduplikasi; yang diulang adalah bentuk dasar berafiks (*menyulit-nyulitkan, mengulang-ulangi*).
 4. **Klitika Pasif Serangkai (TBB-024):* *Ku-* dan *kau-* ditulis serangkai dengan verba (*kukumpulkan, kaupelajari*), bukan terpisah spasi (*ku kumpulkan*).
+5. **Verba Dasar Tunggal b/p (TBB-027):** Prefiks meng- pada dasar tunggal bersuku satu memerlukan e-: *membom, mencek, mempel, mentik* ditolak → *mengebom, mengecek, mengepel, mengetik* (hlm. 144).
+6. **Gugus Konsonan Non-Peluluhan (TBB-028):** Gugus /pr/, /pl/, /kl/, /tr/, /kr/ tidak luluh: *memroduksi, memroses, memrogram, mengredit, menglaim* ditolak → *memproduksi, memproses, memprogram, mengkredit, mengklaim* (hlm. 144).
+7. **Tetapi di Awal Kalimat (TBB-029):** Konjungsi koordinatif *tetapi* dilarang memulai kalimat; gunakan *Akan tetapi,* atau *Namun,* (hlm. 417).
 
 ### AX. Delimitasi Preposisi dan Frasa Berpreposisi (Rujukan Effendi & Aritonang, "Preposisi dan Frase Berpreposisi", Pusat Bahasa Depdikbud 1992)
 
