@@ -550,6 +550,14 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Ragam Cakapan Kamus BSE (RGM-001) ---
+CUSTOM_RULES.extend([
+    # RGM-001: kata ragam cakapan dalam tulisan formal (Kamus BSE 2008)
+    (lambda p: 'nggak / gimana / cuman / banget / capek' in p,
+     [re.compile(r'(?i)\b(?:nggak|nggaknya|gimana|cuman|banget|capek)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

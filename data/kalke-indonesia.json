@@ -4046,6 +4046,20 @@
           "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 417), konjungsi koordinatif tetapi dalam bahasa baku tidak dipakai memulai kalimat; gunakan akan tetapi atau namun.",
           "contoh_salah": "Hasil awal sudah baik. Tetapi masih ada kendala teknis yang harus diselesaikan.",
           "contoh_benar": "Hasil awal sudah baik. Akan tetapi, masih ada kendala teknis yang harus diselesaikan."
+        },
+        {
+          "id": "RGM-001",
+          "pola": "nggak / gimana / cuman / banget / capek",
+          "saran_pengganti": [
+            "tidak",
+            "bagaimana",
+            "hanya",
+            "sangat atau amat",
+            "lelah"
+          ],
+          "penjelasan": "Merujuk Kamus Bahasa Indonesia BSE 2008 (Pusat Bahasa), kata berlabel cak (cakapan) tidak berterima dalam ragam tulis formal; gunakan padanan ragam baku.",
+          "contoh_salah": "Proyek ini nggak akan selesai kalau dana cuman segini, banget mepet anggaran.",
+          "contoh_benar": "Proyek ini tidak akan selesai kalau dana hanya segini, sangat mepet anggaran."
         }
       ]
     }

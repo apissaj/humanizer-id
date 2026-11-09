@@ -767,6 +767,10 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Serapan ch Lafal /k/ (PUE-003):** *ch* diserap k tunggal: *karisma, karismatik, kolera, karakter* — bukan *kharisma, kharismatik* (hlm. 47).
 4. **Serapan ch Lafal /s/ (PUE-004):** *ch* diserap s: *eselon, mesin* — bukan *eschelon* atau *esselon* (hlm. 47).
 
+### BH. Ragam Cakapan dalam Tulisan Formal (Rujukan Kamus Bahasa Indonesia BSE 2008, Pusat Bahasa)
+
+1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
