@@ -558,6 +558,14 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Seri Penyuluhan Paragraf (PRG-001) ---
+CUSTOM_RULES.extend([
+    # PRG-001: konjungsi penumpu simpulan wajib diikuti koma (Suladi 2015, hlm. 55)
+    (lambda p: 'Akhirnya / Akibatnya / Oleh karena itu' in p,
+     [re.compile(r'(?:^|[.!?]\s+)(?:Berdasarkan uraian di atas\b(?!\s*,)|(?:Akhirnya|Akibatnya|Oleh karena itu|Maka dari itu|Dengan demikian)\b(?!\s*,))')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

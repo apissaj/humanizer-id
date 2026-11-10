@@ -771,6 +771,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BI. Koherensi & Kesatuan Paragraf (Seri Penyuluhan Paragraf, Suladi 2015)
+
+1. **Koma Konjungsi Penumpu Simpulan (PRG-001):** Konjungsi penumpu simpulan yang berfungsi sebagai konjungsi antarkalimat wajib diikuti koma: *Akhirnya,* / *Akibatnya,* / *Oleh karena itu,* / *Maka dari itu,* / *Dengan demikian,* / *Berdasarkan uraian di atas,* (Suladi, 2015, hlm. 55).
+2. **Kesatuan Paragraf & Kalimat Sumbang (PRG-002) `[telaah]`:** Tiap paragraf hanya boleh memuat satu gagasan utama; pisahkan topik baru ke paragraf terpisah dan hapus kalimat yang menyimpang dari kalimat topik (hlm. 13-14).
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**

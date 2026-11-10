@@ -2519,6 +2519,16 @@
           "penjelasan": "Merujuk Seri Penyuluhan 1 Ejaan (hlm. 39), tanda titik koma dapat menggantikan kata penghubung koordinatif untuk memisahkan klausa-klausa setara yang erat kaitannya.",
           "contoh_salah": "Ayah membaca koran di teras depan dan ibu memasak di dapur dan adik belajar di kamar.",
           "contoh_benar": "Ayah membaca koran di teras depan; ibu memasak di dapur; adik belajar di kamar."
+        },
+        {
+          "id": "PRG-002",
+          "pola": "[telaah] satu paragraf memuat lebih dari satu gagasan utama atau menyisipkan kalimat sumbang",
+          "saran_pengganti": [
+            "Pisahkan gagasan utama kedua ke dalam paragraf tersendiri, atau keluarkan kalimat sumbang."
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Paragraf (Suladi, 2015, hlm. 13-14), paragraf yang baik memenuhi syarat kesatuan; hanya mengandung satu gagasan utama yang dikembangkan secara hierarkis.",
+          "contoh_salah": "Angklung adalah alat musik tradisional bambu dari Sunda. Selain itu pemerintah juga sedang gencar membangun jalan tol trans-Jawa.",
+          "contoh_benar": "Angklung adalah alat musik tradisional bambu dari Sunda. Alat musik ini dimainkan dengan cara digoyangkan hingga menghasilkan nada pentatonik."
         }
       ]
     },
@@ -4060,6 +4070,16 @@
           "penjelasan": "Merujuk Kamus Bahasa Indonesia BSE 2008 (Pusat Bahasa), kata berlabel cak (cakapan) tidak berterima dalam ragam tulis formal; gunakan padanan ragam baku.",
           "contoh_salah": "Proyek ini nggak akan selesai kalau dana cuman segini, banget mepet anggaran.",
           "contoh_benar": "Proyek ini tidak akan selesai kalau dana hanya segini, sangat mepet anggaran."
+        },
+        {
+          "id": "PRG-001",
+          "pola": "Akhirnya / Akibatnya / Oleh karena itu / Maka dari itu / Dengan demikian / Berdasarkan uraian di atas (di awal kalimat tanpa koma)",
+          "saran_pengganti": [
+            "Tambahkan koma: Akhirnya, / Akibatnya, / Oleh karena itu, / Maka dari itu, / Dengan demikian, / Berdasarkan uraian di atas,"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Paragraf (Suladi, 2015, hlm. 55), konjungsi penumpu kalimat simpulan berkedudukan sebagai konjungsi antarkalimat (ekstraklausal) sehingga wajib diikuti tanda koma.",
+          "contoh_salah": "Akibatnya banyak warga kehilangan mata pencaharian pokok mereka.",
+          "contoh_benar": "Akibatnya, banyak warga kehilangan mata pencaharian pokok mereka."
         }
       ]
     }
