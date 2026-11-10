@@ -697,6 +697,8 @@ ightarrow$ serangkai: *mahakasih*.
 5. **Verba Dasar Tunggal b/p (TBB-027):** Prefiks meng- pada dasar tunggal bersuku satu memerlukan e-: *membom, mencek, mempel, mentik* ditolak → *mengebom, mengecek, mengepel, mengetik* (hlm. 144).
 6. **Gugus Konsonan Non-Peluluhan (TBB-028):** Gugus /pr/, /pl/, /kl/, /tr/, /kr/ tidak luluh: *memroduksi, memroses, memrogram, mengredit, menglaim* ditolak → *memproduksi, memproses, memprogram, mengkredit, mengklaim* (hlm. 144).
 7. **Tetapi di Awal Kalimat (TBB-029):** Konjungsi koordinatif *tetapi* dilarang memulai kalimat; gunakan *Akan tetapi,* atau *Namun,* (hlm. 417).
+8. **Penumpukan Pewatas Elatif (TBB-030):** *amat*, *sangat*, dan *sekali* adalah tingkat elatif setara; gabungan *amat sangat* atau *sangat amat* dilarang dalam ragam baku tulis (hlm. 229).
+9. **Verba Transitif + Preposisi Pleonastis (TBB-031):** Verba transitif (*membicarakan, membahas, mengetahui, menyebutkan, mengulas*) langsung mengikat objek tanpa *tentang/mengenai/akan* (hlm. 129).
 
 ### AX. Delimitasi Preposisi dan Frasa Berpreposisi (Rujukan Effendi & Aritonang, "Preposisi dan Frase Berpreposisi", Pusat Bahasa Depdikbud 1992)
 

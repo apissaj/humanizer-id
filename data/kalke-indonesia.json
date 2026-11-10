@@ -1671,6 +1671,16 @@
           "penjelasan": "Merujuk Seri Penyuluhan Tata Istilah (Qodratillah, Badan Bahasa, 2016, hlm. 20), swalayan bermakna 'melayani diri sendiri' (pewatas cara); penyebutan tempat memerlukan kata yang diterangkan: pasar swalayan atau toko swalayan.",
           "contoh_salah": "Ibu pergi ke swalayan untuk membeli kebutuhan pokok keluarga.",
           "contoh_benar": "Ibu pergi ke pasar swalayan untuk membeli kebutuhan pokok keluarga."
+        },
+        {
+          "id": "TBB-031",
+          "pola": "membicarakan/mengetahui/membahas/menyebutkan/mengulas + tentang/akan/mengenai",
+          "saran_pengganti": [
+            "Hapus preposisi (membicarakan masalah) ATAU gunakan verba taktransitif (berbicara tentang masalah)"
+          ],
+          "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 129), verba transitif mengikat objek langsung tanpa preposisi perantara tentang/mengenai/akan.",
+          "contoh_salah": "Rapat dewan belum membicarakan tentang anggaran renovasi fasilitas.",
+          "contoh_benar": "Rapat dewan belum membicarakan anggaran renovasi fasilitas."
         }
       ]
     },
@@ -2529,6 +2539,16 @@
           "penjelasan": "Merujuk Seri Penyuluhan Paragraf (Suladi, 2015, hlm. 13-14), paragraf yang baik memenuhi syarat kesatuan; hanya mengandung satu gagasan utama yang dikembangkan secara hierarkis.",
           "contoh_salah": "Angklung adalah alat musik tradisional bambu dari Sunda. Selain itu pemerintah juga sedang gencar membangun jalan tol trans-Jawa.",
           "contoh_benar": "Angklung adalah alat musik tradisional bambu dari Sunda. Alat musik ini dimainkan dengan cara digoyangkan hingga menghasilkan nada pentatonik."
+        },
+        {
+          "id": "TBB-030",
+          "pola": "amat sangat / sangat amat / amat sangat sekali",
+          "saran_pengganti": [
+            "Gunakan pewatas tunggal: sangat [kata] ATAU amat [kata] ATAU [kata] sekali"
+          ],
+          "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 229), amat, sangat, dan sekali memiliki fungsi elatif identik; penumpukan amat sangat adalah pleonasme takformal.",
+          "contoh_salah": "Gaya kerjanya amat sangat cekatan dalam menyelesaikan naskah.",
+          "contoh_benar": "Gaya kerjanya sangat cekatan dalam menyelesaikan naskah."
         }
       ]
     },

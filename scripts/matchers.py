@@ -566,6 +566,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah TBBBI Ed-4 Elatif & Verba Transitif Preposisional (TBB-030..031) ---
+CUSTOM_RULES.extend([
+    # TBB-030: penumpukan pewatas elatif (TBBBI hlm. 229)
+    (lambda p: 'amat sangat / sangat amat' in p,
+     [re.compile(r'(?i)\b(?:amat sangat|sangat amat|sungguh mahabesar|amat sangat sekali)\b')]),
+    # TBB-031: verba transitif + preposisi tentang/mengenai/akan (TBBBI hlm. 129)
+    (lambda p: 'membicarakan/mengetahui/membahas' in p,
+     [re.compile(r'(?i)\b(?:membicarakan|mengetahui|membahas|menyebutkan|mengulas)\s+(?:tentang|akan|mengenai)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
