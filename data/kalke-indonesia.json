@@ -1785,6 +1785,53 @@
           "penjelasan": "Merujuk kajian kalimat skripsi (Jurnal JPLED Unimal, 2024, hlm. 809), frasa 'sebagian banyak' adalah kontaminasi rancu antara 'sebagian besar' dan 'banyak'.",
           "contoh_salah": "Sebagian banyak masyarakat menggantungkan hidupnya pada laut.",
           "contoh_benar": "Sebagian besar masyarakat menggantungkan hidupnya pada laut."
+        },
+        {
+          "id": "JRN-011",
+          "pola": "jumlah rata-rata",
+          "saran_pengganti": [
+            "rata-rata",
+            "rerata",
+            "jumlah"
+          ],
+          "penjelasan": "Merujuk analisis diksi skripsi (Jurnal Ar-Rumman UNIMED, 2024, hlm. 548-549), frasa 'jumlah rata-rata' merupakan pleonasme kuantitatif leksikal karena 'rata-rata' secara inheren menyatakan ukuran nilai tengah agregat; cukup gunakan 'rata-rata' atau 'jumlah' sesuai maksud konteks.",
+          "contoh_salah": "Pada akhir siklus pembelajaran, diperoleh jumlah rata-rata persentase sebesar 88,8%.",
+          "contoh_benar": "Pada akhir siklus pembelajaran, diperoleh rata-rata persentase sebesar 88,8%."
+        },
+        {
+          "id": "JRN-012",
+          "pola": "hingga ... maupun",
+          "saran_pengganti": [
+            "baik ... maupun ...",
+            "hingga ... dan ..."
+          ],
+          "penjelasan": "Merujuk kajian kesalahan kalimat skripsi (Jurnal Lazuardi, 2024, hlm. 58), frasa 'hingga ... maupun' adalah kontaminasi pasangan korelatif rancu antara penanda rentang (hingga/sampai) dan konjungsi korelatif aditif (maupun); gunakan pasangan korelatif baku 'baik ... maupun ...'.",
+          "contoh_salah": "Sektor UMKM dapat membangun pangsa pasar hingga tingkat nasional maupun internasional.",
+          "contoh_benar": "Sektor UMKM dapat membangun pangsa pasar baik tingkat nasional maupun internasional."
+        },
+        {
+          "id": "JRN-013",
+          "pola": "bertujuan untuk",
+          "saran_pengganti": [
+            "bertujuan [verba langsung]",
+            "untuk [verba]",
+            "dirancang untuk"
+          ],
+          "penjelasan": "Merujuk kajian kesalahan sintaksis skripsi (Jurnal ILEAL, 2018, hlm. 6), kata 'bertujuan' sudah bermakna 'mempunyai tujuan' sehingga penambahan preposisi 'untuk' adalah pleonasme lewah; langsung pasangkan verba setelah 'bertujuan' (misal: 'bertujuan menganalisis') atau gunakan 'untuk' tanpa 'bertujuan'.",
+          "contoh_salah": "Model pembelajaran inkuiri ini bertujuan untuk mengorganisasikan pengetahuan siswa.",
+          "contoh_benar": "Model pembelajaran inkuiri ini bertujuan mengorganisasikan pengetahuan siswa."
+        },
+        {
+          "id": "JRN-014",
+          "pola": "konjungsi sehingga di awal kalimat baru",
+          "saran_pengganti": [
+            "Oleh karena itu,",
+            "Akibatnya,",
+            "gabungkan ke klausa sebelumnya dengan tanda koma"
+          ],
+          "penjelasan": "Merujuk kajian keefektifan kalimat skripsi (Jurnal Kande, 2021, hlm. 155), 'sehingga' adalah konjungsi subordinatif intrakalimat penanda akibat dan tidak boleh mengawali kalimat mandiri baru setelah titik; perbaikannya adalah menggabungkannya ke kalimat sebelumnya dengan koma atau menggantinya dengan konjungsi antarkalimat.",
+          "contoh_salah": "Kami datang terlambat. Sehingga kami tidak dapat mengikuti perkuliahan.",
+          "contoh_benar": "Kami datang terlambat sehingga seluruh rombongan tidak dapat mengikuti perkuliahan."
         }
       ]
     },

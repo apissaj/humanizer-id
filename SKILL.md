@@ -773,6 +773,13 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BT. Diksi, Pasangan Korelatif & Redundansi Sintaksis Skripsi (Jurnal Ar-Rumman, Lazuardi, ILEAL, Kande)
+
+1. **Pleonasme Kuantitatif Leksikal 'jumlah rata-rata' (JRN-011):** Kata *rata-rata* (*mean*) secara inheren menyatakan nilai tengah agregat; penambahan kata *jumlah* (*sum*) sebelum *rata-rata* menimbulkan pleonasme kontaminatif. Cukup gunakan *rata-rata*, *rerata*, atau *jumlah* sesuai konteks (Ar-Rumman 2024, hlm. 548).
+2. **Kontaminasi Korelatif 'hingga ... maupun' (JRN-012):** Preposisi batas rentang (*hingga/sampai*) tidak boleh dipadukan secara keliru dengan konjungsi koordinatif aditif *maupun*; gunakan pasangan korelatif baku *baik ... maupun ...* (Jurnal Lazuardi 2024, hlm. 58).
+3. **Pleonasme Frasa Verba Bertujuan 'bertujuan untuk' (JRN-013):** Verba *bertujuan* sudah mengandung arti 'mempunyai tujuan' sehingga penambahan preposisi *untuk* lewah; pasangkan langsung verba tindakan (*bertujuan menganalisis*) atau gunakan *untuk* tanpa verba *bertujuan* (ILEAL 2018, hlm. 6).
+4. **Pemenggalan Klausa Subordinatif 'Sehingga' Awal Kalimat (JRN-014):** Konjungsi subordinatif *sehingga* adalah penanda klausa akibat intrakalimat dan dilarang mengawali kalimat mandiri baru; gabungkan dengan tanda koma (*..., sehingga ...*) atau gunakan konjungsi antarkalimat (*Oleh karena itu,* / *Akibatnya,*) (Jurnal Kande 2021, hlm. 155).
+
 ### BS. Konjungsi Koordinatif Awal Kalimat & Kontaminasi Kuantor (Jurnal JPLED Unimal 2024)
 
 1. **Konjungsi Koordinatif 'Dan' di Awal Kalimat Baru (JRN-009):** Konjungsi *dan* adalah penghubung intrakalimat (antarklausa) sehingga tidak boleh mengawali kalimat mandiri baru; gabungkan dengan tanda koma ke kalimat sebelumnya atau gunakan konjungsi antarkalimat seperti *Selain itu,* (hlm. 807).

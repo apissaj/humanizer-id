@@ -690,6 +690,23 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Diksi, Korelatif & Sintaksis Skripsi (JRN-011..014) ---
+CUSTOM_RULES.extend([
+    # JRN-011: jumlah rata-rata (Ar-Rumman 2024, hlm. 548)
+    (lambda p: p == 'jumlah rata-rata',
+     [re.compile(r'(?i)\bjumlah\s+rata-rata\b')]),
+    # JRN-012: hingga ... maupun -> baik ... maupun (Jurnal Lazuardi 2024, hlm. 58)
+    (lambda p: p == 'hingga ... maupun',
+     [re.compile(r'(?i)\b(?:hingga|sampai)\b(?:\s+[\w\-]+){1,6}\s+\bmaupun\b')]),
+    # JRN-013: pleonasme frasa verba bertujuan 'bertujuan untuk' (ILEAL 2018 hlm. 6)
+    (lambda p: p == 'bertujuan untuk',
+     [re.compile(r'(?i)\bbertujuan\s+untuk\b')]),
+    # JRN-014: pemenggalan klausa subordinatif konsekutif 'Sehingga' di awal kalimat (Kande 2021 hlm. 155)
+    (lambda p: p == 'konjungsi sehingga di awal kalimat baru',
+     [re.compile(r'(?:^|[.!?]\s+)\bSehingga\b\s+')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
