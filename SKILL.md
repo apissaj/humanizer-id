@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BO. Redundansi Sintaksis & Pleonasme Skripsi Mahasiswa (JSI UNNES & DE Journal)
+
+1. **Redundansi Konjungsi Antarkalimat 'Selain itu juga' (JRN-001):** Frasa *Selain itu juga* menggabungkan konjungsi antarkalimat dan partikel aditif secara mubazir; gunakan *Selain itu,* secara lugas (DE Journal 2023, hlm. 546).
+2. **Pleonasme Penanda Jamak Ganda Berverba (JRN-002):** Bentuk *banyak mengandung/memiliki/melibatkan* yang diikuti kata ulang (*banyak mengandung unsur-unsur*) adalah pleonasme penanda jamak bertingkat; gunakan *mengandung banyak unsur* atau *mengandung unsur-unsur* (JSI UNNES 2021, hlm. 7).
+
 ### BN. Ragam Baku Bahasa Surat Dinas & Komunikasi Resmi (Pusat Bahasa 1985)
 
 1. **Interogatif Informal 'kenapa' (SRT-007):** Di dalam teks formal, laporan resmi, dan karya ilmiah, kata tanya kausatif baku adalah *mengapa*, bukan *kenapa* yang merupakan ragam percakapan santai (hlm. 55).

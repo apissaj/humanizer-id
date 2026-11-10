@@ -1711,6 +1711,27 @@
           "penjelasan": "Merujuk buku ajar BI PT (Halimah, 2014, hlm. 125), di mana tidak berfungsi sebagai relatif lokatif penjelas (kalke place where); cukup gunakan 'tempat' langsung.",
           "contoh_salah": "Ruangan ini adalah tempat di mana panitia menyusun laporan kegiatan.",
           "contoh_benar": "Ruangan ini adalah tempat panitia menyusun laporan kegiatan."
+        },
+        {
+          "id": "JRN-001",
+          "pola": "Selain itu juga",
+          "saran_pengganti": [
+            "Selain itu,",
+            "Di samping itu,"
+          ],
+          "penjelasan": "Merujuk analisis sintaksis skripsi (DE Journal, 2023, hlm. 546), frasa 'Selain itu juga' memuat penumpukan aditif berlebihan; cukup 'Selain itu,'.",
+          "contoh_salah": "Selain itu juga, penelitian ini menemukan anomali pada sistem.",
+          "contoh_benar": "Selain itu, penelitian ini menemukan anomali pada sistem."
+        },
+        {
+          "id": "JRN-002",
+          "pola": "banyak + verba + kata ulang jamak",
+          "saran_pengganti": [
+            "Gunakan: banyak [kata] atau [verba] [kata-ulang]"
+          ],
+          "penjelasan": "Merujuk kajian sintaksis skripsi (JSI UNNES, 2021, hlm. 7), pemakaian 'banyak' bersamaan dengan bentuk ulang jamak adalah pleonasme.",
+          "contoh_salah": "Novel ini banyak mengandung unsur-unsur feminisme.",
+          "contoh_benar": "Novel ini mengandung banyak unsur feminisme."
         }
       ]
     },

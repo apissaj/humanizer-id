@@ -635,6 +635,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Analisis Kesalahan Sintaksis Skripsi JSI UNNES & DE Journal (JRN-001..002) ---
+CUSTOM_RULES.extend([
+    # JRN-001: Selain itu juga (DE Journal 2023, hlm. 546)
+    (lambda p: p == 'Selain itu juga',
+     [re.compile(r'(?i)\bSelain\s+itu\s+juga\b')]),
+    # JRN-002: banyak + verba + kata ulang jamak (JSI UNNES 2021, hlm. 7)
+    (lambda p: 'banyak + verba + kata ulang jamak' in p,
+     [re.compile(r'(?i)\bbanyak\s+(?:mengandung|memiliki|melibatkan|menghasilkan)\s+([a-zA-Z]+)-\1\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
