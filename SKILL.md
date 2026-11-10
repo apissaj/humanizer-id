@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BJ. Ragam Baku Bahasa Ilmiah Perguruan Tinggi (Kuntarto UNJA & Suyatno UIN Jakarta)
+
+1. **Posesif Kalke Asing 'dari' (UIN-007):** Pola kepemilikan bahasa Indonesia langsung (*kesimpulan penelitian, tujuan program, anak Pak Lurah*), bukan lewat *dari* (*kesimpulan dari penelitian*) yang merupakan kalke struktur asing *van/of* (UNJA hlm. 98).
+2. **Verba Benefaktif Akhiran -kan + 'untuk' (UIN-008):** Sufiks *-kan* sudah mengandung arti 'melakukan untuk orang lain'; dilarang menambahkan kata *untuk* di depan penyerta: *membelikan adik baju* (bukan *membelikan untuk adik baju*) (UNJA hlm. 108).
+
 ### BI. Koherensi & Kesatuan Paragraf (Seri Penyuluhan Paragraf, Suladi 2015)
 
 1. **Koma Konjungsi Penumpu Simpulan (PRG-001):** Konjungsi penumpu simpulan yang berfungsi sebagai konjungsi antarkalimat wajib diikuti koma: *Akhirnya,* / *Akibatnya,* / *Oleh karena itu,* / *Maka dari itu,* / *Dengan demikian,* / *Berdasarkan uraian di atas,* (Suladi, 2015, hlm. 55).

@@ -1681,6 +1681,26 @@
           "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 129), verba transitif mengikat objek langsung tanpa preposisi perantara tentang/mengenai/akan.",
           "contoh_salah": "Rapat dewan belum membicarakan tentang anggaran renovasi fasilitas.",
           "contoh_benar": "Rapat dewan belum membicarakan anggaran renovasi fasilitas."
+        },
+        {
+          "id": "UIN-007",
+          "pola": "kesimpulan/tujuan/hasil/dampak/manfaat/anak/ketua + dari + nomina",
+          "saran_pengganti": [
+            "Hubungkan langsung tanpa 'dari' (kesimpulan penelitian, tujuan program, hasil diskusi)"
+          ],
+          "penjelasan": "Merujuk modul BI PT UNJA (Kuntarto, hlm. 98), hubungan posesif bahasa Indonesia langsung tanpa kata dari (kalke asing van/of).",
+          "contoh_salah": "Kesimpulan dari penelitian ini membuktikan pengaruh positif variabel bebas.",
+          "contoh_benar": "Kesimpulan penelitian ini membuktikan pengaruh positif variabel bebas."
+        },
+        {
+          "id": "UIN-008",
+          "pola": "membelikan/mengambilkan/membawakan/membuatkan/menyediakan + untuk + penyerta",
+          "saran_pengganti": [
+            "Hapus 'untuk' (membelikan adik baju) ATAU pakai verba dasar (membeli baju untuk adik)"
+          ],
+          "penjelasan": "Merujuk modul BI PT UNJA (Kuntarto, hlm. 108), akhiran -kan sudah bermakna benefaktif; penyisipan 'untuk' adalah redundansi.",
+          "contoh_salah": "Ibu membelikan untuk adik seragam sekolah yang baru.",
+          "contoh_benar": "Ibu membelikan adik seragam sekolah yang baru."
         }
       ]
     },

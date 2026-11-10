@@ -577,6 +577,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Buku Ajar Perguruan Tinggi UNJA/UIN (UIN-007..008) ---
+CUSTOM_RULES.extend([
+    # UIN-007: kepemilikan kalke 'dari' (UNJA hlm. 98)
+    (lambda p: 'kesimpulan/tujuan/hasil/dampak/manfaat/anak/ketua + dari' in p,
+     [re.compile(r'(?i)\b(?:kesimpulan|tujuan|hasil|dampak|manfaat|fungsi|peran|pengaruh|anak|ketua|anggota|adik|kakak)\s+dari\s+(?:penelitian|studi|kajian|diskusi|kegiatan|program|rapat|seminar|[A-Z][a-z]+)\b')]),
+    # UIN-008: verba benefaktif -kan + untuk (UNJA hlm. 108)
+    (lambda p: 'membelikan/mengambilkan/membawakan/membuatkan' in p,
+     [re.compile(r'(?i)\b(?:membelikan|mengambilkan|membawakan|membuatkan|mengirimkan|menuliskan|menyediakan|memasakkan|menjahitkan|menyumbangkan)\s+untuk\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
