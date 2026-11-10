@@ -1753,6 +1753,16 @@
           "penjelasan": "Merujuk penelitian diksi skripsi (Jurnal Genre UAD, 2021, hlm. 99), frasa 'pertama dan utama' memuat dua kata sinonim yang mubazir; pilih salah satu.",
           "contoh_salah": "Faktor pertama dan utama dalam penelitian ini adalah motivasi belajar.",
           "contoh_benar": "Faktor utama dalam penelitian ini adalah motivasi belajar."
+        },
+        {
+          "id": "JRN-006",
+          "pola": "bilangan + orang + nomina insani",
+          "saran_pengganti": [
+            "Gunakan: [angka] [siswa/mahasiswa/responden] (hilangkan kata penggolong 'orang')"
+          ],
+          "penjelasan": "Merujuk kajian kalimat abstrak skripsi (Jurnal Retorika Uniflor, 2022, hlm. 56), penyisipan penggolong 'orang' setelah angka definit pada nomina insani adalah pleonasme.",
+          "contoh_salah": "Sampel penelitian terdiri atas 112 orang siswa.",
+          "contoh_benar": "Sampel penelitian terdiri atas 112 siswa."
         }
       ]
     },
@@ -4252,6 +4262,17 @@
           "penjelasan": "Merujuk Pedoman Surat Resmi (Pusat Bahasa, 1985, hlm. 52), 'haturkan' merupakan serapan daerah informal; gunakan 'ucapkan' atau 'sampaikan'.",
           "contoh_salah": "Kami haturkan terima kasih atas kerja sama yang telah terjalin.",
           "contoh_benar": "Kami ucapkan terima kasih atas kerja sama yang telah terjalin."
+        },
+        {
+          "id": "JRN-005",
+          "pola": "dikarenakan",
+          "saran_pengganti": [
+            "disebabkan oleh",
+            "karena"
+          ],
+          "penjelasan": "Merujuk kajian skripsi (Jurnal BB Unmuh Jember, 2020, hlm. 58), 'karena' adalah konjungsi sehingga tidak membentuk verba pasif 'dikarenakan'; gunakan 'disebabkan'.",
+          "contoh_salah": "Hal tersebut dikarenakan adanya tujuan penelitian.",
+          "contoh_benar": "Hal tersebut disebabkan adanya tujuan penelitian."
         }
       ]
     }

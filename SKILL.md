@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BQ. Bentuk Pasif Morfologis Takbaku & Pleonasme Penggolong Skripsi (Jurnal BB & Retorika)
+
+1. **Bentuk Pasif Takbaku Konjungtif 'dikarenakan' (JRN-005):** Kata dasar *karena* adalah konjungsi subordinatif kausatif sehingga tidak membentuk verba pasif *dikarenakan*; gunakan bentuk verba sejati *disebabkan (oleh)* atau konjungsi lugas *karena* (Jurnal BB Unmuh Jember 2020, hlm. 58).
+2. **Pleonasme Penggolong Insani Pascanumeral (JRN-006):** Pada penulisan kuantitatif metodologi penelitian, nomina bernyawa (*siswa, mahasiswa, responden, guru*) tidak memerlukan kata penggolong *orang* setelah bilangan kardinal (*112 orang siswa* -> *112 siswa*) untuk menjaga kelugasan naskah (Jurnal Retorika Uniflor 2022, hlm. 56).
+
 ### BP. Korelatif Taktepat & Pleonasme Klise Skripsi Mahasiswa (Jurnal Genre UAD 2021)
 
 1. **Pasangan Korelatif Takbaku 'baik ... ataupun' (JRN-003):** Konjungsi korelatif *baik* wajib berpasangan dengan *maupun* (*baik dosen maupun mahasiswa*), menolak pemakaian pasangan keliru *ataupun* atau *dan* (hlm. 100).

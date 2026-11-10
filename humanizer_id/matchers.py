@@ -657,6 +657,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Kalimat Skripsi Unmuh Jember & Retorika Uniflor (JRN-005..006) ---
+CUSTOM_RULES.extend([
+    # JRN-005: dikarenakan -> disebabkan (Jurnal BB Unmuh Jember 2020, hlm. 58)
+    (lambda p: p == 'dikarenakan',
+     [re.compile(r'(?i)\bdikarenakan\b')]),
+    # JRN-006: angka + orang + nomina insani (Jurnal Retorika Uniflor 2022, hlm. 56)
+    (lambda p: 'bilangan + orang + nomina insani' in p,
+     [re.compile(r'(?i)\b\d+\s+orang\s+(?:siswa|siswi|mahasiswa|mahasiswi|dosen|peserta|responden|guru)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
