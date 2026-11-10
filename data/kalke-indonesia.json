@@ -1732,6 +1732,27 @@
           "penjelasan": "Merujuk kajian sintaksis skripsi (JSI UNNES, 2021, hlm. 7), pemakaian 'banyak' bersamaan dengan bentuk ulang jamak adalah pleonasme.",
           "contoh_salah": "Novel ini banyak mengandung unsur-unsur feminisme.",
           "contoh_benar": "Novel ini mengandung banyak unsur feminisme."
+        },
+        {
+          "id": "JRN-003",
+          "pola": "baik ... ataupun",
+          "saran_pengganti": [
+            "baik ... maupun ..."
+          ],
+          "penjelasan": "Merujuk penelitian diksi skripsi (Jurnal Genre UAD, 2021, hlm. 100), pasangan korelatif baku untuk kata 'baik' adalah 'maupun', bukan 'ataupun'.",
+          "contoh_salah": "Kebijakan ini berlaku baik untuk dosen ataupun mahasiswa.",
+          "contoh_benar": "Kebijakan ini berlaku baik untuk dosen maupun mahasiswa."
+        },
+        {
+          "id": "JRN-004",
+          "pola": "pertama dan utama",
+          "saran_pengganti": [
+            "utama",
+            "terpenting"
+          ],
+          "penjelasan": "Merujuk penelitian diksi skripsi (Jurnal Genre UAD, 2021, hlm. 99), frasa 'pertama dan utama' memuat dua kata sinonim yang mubazir; pilih salah satu.",
+          "contoh_salah": "Faktor pertama dan utama dalam penelitian ini adalah motivasi belajar.",
+          "contoh_benar": "Faktor utama dalam penelitian ini adalah motivasi belajar."
         }
       ]
     },

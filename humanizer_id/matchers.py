@@ -646,6 +646,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Analisis Diksi Skripsi Jurnal Genre UAD (JRN-003..004) ---
+CUSTOM_RULES.extend([
+    # JRN-003: baik ... ataupun -> baik ... maupun (Jurnal Genre UAD 2021, hlm. 100)
+    (lambda p: p == 'baik ... ataupun',
+     [re.compile(r'(?i)\bbaik\b(?:\s+[\w\-]+){1,6}\s+\bataupun\b')]),
+    # JRN-004: pertama dan utama (Jurnal Genre UAD 2021, hlm. 99)
+    (lambda p: p == 'pertama dan utama',
+     [re.compile(r'(?i)\bpertama\s+dan\s+utama\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

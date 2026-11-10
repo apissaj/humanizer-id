@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BP. Korelatif Taktepat & Pleonasme Klise Skripsi Mahasiswa (Jurnal Genre UAD 2021)
+
+1. **Pasangan Korelatif Takbaku 'baik ... ataupun' (JRN-003):** Konjungsi korelatif *baik* wajib berpasangan dengan *maupun* (*baik dosen maupun mahasiswa*), menolak pemakaian pasangan keliru *ataupun* atau *dan* (hlm. 100).
+2. **Pleonasme Kualitatif Klise 'pertama dan utama' (JRN-004):** Kata *pertama* dan *utama* memiliki nilai semantik setara dalam menyatakan prioritas tertinggi; gunakan salah satu (*faktor utama*) secara lugas dan hemat (hlm. 99).
+
 ### BO. Redundansi Sintaksis & Pleonasme Skripsi Mahasiswa (JSI UNNES & DE Journal)
 
 1. **Redundansi Konjungsi Antarkalimat 'Selain itu juga' (JRN-001):** Frasa *Selain itu juga* menggabungkan konjungsi antarkalimat dan partikel aditif secara mubazir; gunakan *Selain itu,* secara lugas (DE Journal 2023, hlm. 546).
