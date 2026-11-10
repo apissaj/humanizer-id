@@ -94,7 +94,7 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 - **Pedoman Skripsi Universitas Indonesia (UI)** — kaidah sitasi dan format persamaan.
 
 ### Data Lexikon & Korpus (Komunitas Terbuka)
-- Dataset distilasi EYD V (38 kategori aturan resmi), leksikon 238 kata baku↔nonbaku, glosarium istilah teknologi (115 entri) & hukum (25 entri).
+- Dataset distilasi EYD V (38 kategori aturan resmi), leksikon 141 kata baku↔nonbaku, glosarium istilah teknologi (47 entri) & hukum (10 entri).
 - Statistik leksikon resmi KBBI: 112.538 entri (50.668 dasar + 26.835 turunan + 31.492 gabungan).
 
 > Setiap entri di [`data/kalke-indonesia.json`](data/kalke-indonesia.json) yang bersumber dari buku mencantumkan rujukan halaman (contoh: *Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 213*), sehingga bisa diverifikasi langsung ke dokumen aslinya.

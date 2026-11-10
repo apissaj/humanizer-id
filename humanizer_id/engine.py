@@ -43,11 +43,19 @@ PRESET_LABELS = {
 }
 
 
+def _resolve_data_dir():
+    """Direktori dataset: paket (terpasang via pip) didahulukan, lalu root repo."""
+    pkg_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+    if os.path.isdir(pkg_dir):
+        return pkg_dir
+    return os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+
+
 def load_data(kampus_id=None):
-    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    kalke_path = os.path.join(base_dir, "data", "kalke-indonesia.json")
-    glosarium_path = os.path.join(base_dir, "data", "glosarium-lintas-bidang.json")
-    kampus_path = os.path.join(base_dir, "data", "pedoman-kampus.json")
+    base_dir = _resolve_data_dir()
+    kalke_path = os.path.join(base_dir, "kalke-indonesia.json")
+    glosarium_path = os.path.join(base_dir, "glosarium-lintas-bidang.json")
+    kampus_path = os.path.join(base_dir, "pedoman-kampus.json")
     
     kalke_dict = {}
     glosarium_dict = {}
@@ -57,7 +65,10 @@ def load_data(kampus_id=None):
         with open(kalke_path, "r", encoding="utf-8") as f:
             kalke_dict = json.load(f)
     else:
-        print(f"[!] Peringatan: {kalke_path} tidak ditemukan.", file=sys.stderr)
+        raise FileNotFoundError(
+            f"Dataset kaidah tidak ditemukan di {kalke_path}. "
+            "Audit dibatalkan agar tidak menghasilkan laporan 'bersih' palsu."
+        )
 
     if os.path.exists(glosarium_path):
         with open(glosarium_path, "r", encoding="utf-8") as f:
@@ -239,7 +250,11 @@ def main():
             args.pop(idx + 1)
             args.pop(idx)
 
-    kalke_dict, glosarium_dict, kampus_dict = load_data(kampus_id)
+    try:
+        kalke_dict, glosarium_dict, kampus_dict = load_data(kampus_id)
+    except FileNotFoundError as exc:
+        print(f"[!] {exc}", file=sys.stderr)
+        sys.exit(2)
 
     if args and args[0] == "--demo":
         sample_text = """
