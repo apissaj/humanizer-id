@@ -610,6 +610,20 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Seri Penyuluhan Bentuk dan Pilihan Kata 2019 (BPK-032..034) ---
+CUSTOM_RULES.extend([
+    # BPK-032: k tunggal pada sufiks -kan yang seharusnya kk (hlm. 41)
+    (lambda p: 'menunjukan / ditunjukan' in p,
+     [re.compile(r'(?i)\b(?:menunjukan|ditunjukan|mengontrakan|dikontrakan)\b')]),
+    # BPK-033: kk ganda pada konfiks peng-...-an & ke-...-an yang seharusnya k tunggal (hlm. 42)
+    (lambda p: 'penunjukkan / pendidikkan' in p,
+     [re.compile(r'(?i)\b(?:penunjukkan|pendidikkan|kenaikkan|kebaikkan)\b')]),
+    # BPK-034: pertanggungan jawab -> pertanggungjawaban (hlm. 43)
+    (lambda p: 'pertanggungan jawab' in p,
+     [re.compile(r'(?i)\bpertanggungan\s+jawab\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

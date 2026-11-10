@@ -4160,6 +4160,36 @@
           "penjelasan": "Merujuk EYD (hlm. 61) & PUEBI (hlm. 36), prefiks ke- bertemu angka ordinal wajib memakai tanda hubung.",
           "contoh_salah": "Perlombaan ini merupakan gelombang ke2 dari rangkaian seleksi.",
           "contoh_benar": "Perlombaan ini merupakan gelombang ke-2 dari rangkaian seleksi."
+        },
+        {
+          "id": "BPK-032",
+          "pola": "menunjukan / ditunjukan / mengontrakan / dikontrakan",
+          "saran_pengganti": [
+            "Gunakan huruf ganda 'kk': menunjukkan, ditunjukkan, mengontrakkan, dikontrakkan"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk & Pilihan Kata (Badan Bahasa, 2019, hlm. 41), dasar berakhiran fonem /k/ yang diberi akhiran -kan menghasilkan huruf ganda kk.",
+          "contoh_salah": "Hasil uji laboratorium menunjukan tren kenaikan kadar gula.",
+          "contoh_benar": "Hasil uji laboratorium menunjukkan tren kenaikan kadar gula."
+        },
+        {
+          "id": "BPK-033",
+          "pola": "penunjukkan / pendidikkan / kenaikkan / kebaikkan",
+          "saran_pengganti": [
+            "Gunakan huruf tunggal 'k': penunjukan, pendidikan, kenaikan, kebaikan"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk & Pilihan Kata (Badan Bahasa, 2019, hlm. 42), konfiks peng-...-an dan ke-...-an berakhiran -an sehingga huruf k tetap tunggal.",
+          "contoh_salah": "Surat penunjukkan ketua panitia seminar telah diterbitkan.",
+          "contoh_benar": "Surat penunjukan ketua panitia seminar telah diterbitkan."
+        },
+        {
+          "id": "BPK-034",
+          "pola": "pertanggungan jawab",
+          "saran_pengganti": [
+            "pertanggungjawaban"
+          ],
+          "penjelasan": "Merujuk Seri Penyuluhan Bentuk & Pilihan Kata (Badan Bahasa, 2019, hlm. 43), gabungan kata tanggung jawab dengan konfiks per-...-an ditulis serangkai: pertanggungjawaban.",
+          "contoh_salah": "Laporan pertanggungan jawab organisasi harus diserahkan sebelum batas waktu.",
+          "contoh_benar": "Laporan pertanggungjawaban organisasi harus diserahkan sebelum batas waktu."
         }
       ]
     }

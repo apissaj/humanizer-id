@@ -773,6 +773,12 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BM. Ortografi Morfologis & Gabungan Kata (Seri Penyuluhan Bentuk dan Pilihan Kata 2019)
+
+1. **Geminasi Huruf K Akhiran -kan (BPK-032):** Kata dasar berakhiran fonem /k/ yang diberi akhiran *-kan* wajib ditulis dengan dua huruf /k/ (*menunjukkan, ditunjukkan, mengontrakkan, dikontrakkan*), bukan satu huruf (*menunjukan*) (hlm. 41).
+2. **Hiperkoreksi Huruf K Ganda pada Konfiks -an (BPK-033):** Konfiks *peng-...-an* dan *ke-...-an* berakhiran *-an* (bukan *-kan*); kata dasar berakhiran /k/ tetap ditulis dengan satu huruf /k/ (*penunjukan, pendidikan, kenaikan, kebaikan*), bukan /kk/ (*penunjukkan*) (hlm. 42).
+3. **Perserangkaian Terikat Utuh Konfiks Gabungan Kata (BPK-034):** Gabungan kata dasar *tanggung jawab* yang diapit konfiks *per-...-an* wajib diserangkaikan penuh menjadi *pertanggungjawaban*, bukan *pertanggungan jawab* atau *pertanggung jawaban* (hlm. 43).
+
 ### BL. Kehematan Kata & Diksi Karya Ilmiah Perguruan Tinggi (UIN Alauddin, Halimah 2014)
 
 1. **Relatif Lokatif Kalke 'tempat di mana' (UIN-009):** Frasa tanya *di mana* dilarang berfungsi sebagai penghubung relatif penjelas tempat (kalke dari bahasa Inggris *place where* atau Belanda *waar*); gunakan kata *tempat* langsung (*tempat mahasiswa berdiskusi*, bukan *tempat di mana mahasiswa berdiskusi*) (hlm. 125).
