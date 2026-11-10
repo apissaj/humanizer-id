@@ -106,18 +106,6 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
 - Satu paragraf = satu ide pokok (kalimat topik) + kalimat-kalimat penjelas. Dilarang mencampur dua topik dalam satu paragraf.
 - Pola pengembangan konsisten: deduksi (kalimat utama di awal) atau induksi (kalimat utama di akhir). Jangan campur.
 
-### Format Keluaran Wajib (Diff Beranotasi):
-1. **Informasi Mode:** Tuliskan mode yang digunakan (misal: `[Mode: Akademik Ketat]`).
-2. **Naskah Hasil Suntingan:** Teks bersih dan siap digunakan.
-3. **Tabel Selisih Beranotasi (Diff Table):**
-
-   | Kalimat Asli | Kalimat Revisi | Alasan (Kaidah) |
-   |---|---|---|
-   | Sistem melakukan implementasi terhadap cache database. | Sistem mengimplementasikan tembolok basis data. | Pemangkasan verba ringan & istilah baku. |
-
-4. Ringkasan jumlah kalimat: "Total: X kalimat diperiksa, Y disunting, Z dipertahankan utuh."
-5. Poin Konfirmasi Penulis (bila ada bagian ambigu atau data kurang).
-```
 
 ## KAIDAH KEHEMATAN & KESEJARAJAN KALIMAT (Sasangka, Seri Penyuluhan Badan Bahasa 2019)
 
@@ -263,3 +251,16 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
 - **Nalar frasa surat (hlm. 35-36):** *mengatasi ketinggalan* (bukan *mengejar*); *isi surat* (bukan *bunyi surat*).
 - **Ordinal satu sistem (hlm. 34):** *ke-45* atau *XLV* — *ke-XLV* salah.
 - **Berkenaan vs berkenan (hlm. 39):** 'sehubungan dengan' = *berkenaan dengan*.
+
+### Format Keluaran Wajib (Diff Beranotasi):
+1. **Informasi Mode:** Tuliskan mode yang digunakan (misal: `[Mode: Akademik Ketat]`).
+2. **Naskah Hasil Suntingan:** Teks bersih dan siap digunakan.
+3. **Tabel Selisih Beranotasi (Diff Table):**
+
+   | Kalimat Asli | Kalimat Revisi | Alasan (Kaidah) |
+   |---|---|---|
+   | Sistem melakukan implementasi terhadap cache database. | Sistem mengimplementasikan tembolok basis data. | Pemangkasan verba ringan & istilah baku. |
+
+4. Ringkasan jumlah kalimat: "Total: X kalimat diperiksa, Y disunting, Z dipertahankan utuh."
+5. Poin Konfirmasi Penulis (bila ada bagian ambigu atau data kurang).
+```
