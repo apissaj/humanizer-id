@@ -196,7 +196,8 @@ for f in findings:
 
 ### 1. Salin Cepat untuk ChatGPT, Claude Web, & Gemini Gems
 Jika Anda menggunakan antarmuka web (tanpa coding agent):
-- Buka panduan siap pakai di [**PROMPT.md**](PROMPT.md).
+- **Untuk Kebutuhan Umum & Multi-Mode:** Buka [**PROMPT.md**](PROMPT.md) lalu salin ke kolom instruksi.
+- **Khusus Skripsi & Jurnal Ilmiah (SINTA / Scopus):** Gunakan [**PROMPT-AKADEMIK.md**](PROMPT-AKADEMIK.md) untuk memastikan tone tidak netral/populer melainkan padat leksikal, berstruktur hipotaktis, dan impersonal murni.
 - Salin teks instruksi ke kolom **Custom Instructions** (ChatGPT) atau **Project System Prompt** (Claude Projects).
 
 ### 2. Pemasangan pada AI Coding Agents
