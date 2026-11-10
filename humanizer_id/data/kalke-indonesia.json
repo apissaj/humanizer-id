@@ -2021,6 +2021,29 @@
           "penjelasan": "Bentuk pasif 'di-cover' wajib diganti dengan kata baku 'dicakup' atau 'dilindungi'.",
           "contoh_salah": "Seluruh skenario pengujian telah di-cover oleh matriks integrasi CI.",
           "contoh_benar": "Seluruh skenario pengujian telah dicakup oleh matriks integrasi CI."
+        },
+        {
+          "id": "MLN-003",
+          "pola": "sejauh yang berkaitan dengan",
+          "saran_pengganti": [
+            "terkait",
+            "sepanjang berkaitan dengan"
+          ],
+          "penjelasan": "Menurut Prof. Dr. Anton M. Moeliono, frasa 'sejauh yang berkaitan dengan' adalah kalke Belanda (voor zover het betreft) atau Inggris (as far as it concerns). Dalam bahasa Indonesia efektif, gunakan 'terkait' atau 'mengenai'.",
+          "contoh_salah": "Sejauh yang berkaitan dengan parameter pembelajaran, nilainya diatur adaptif.",
+          "contoh_benar": "Terkait parameter pembelajaran, nilainya diatur secara adaptif."
+        },
+        {
+          "id": "FLC-001",
+          "pola": "dalam mana",
+          "saran_pengganti": [
+            "saat",
+            "tempat",
+            "ketika"
+          ],
+          "penjelasan": "Menurut Dr. Felicia Utorodewo dkk., frasa 'dalam mana' merupakan terjemahan harfiah kalke bahasa Belanda (waarin) atau Inggris (in which). Ganti dengan kata penghubung temporal atau spasial yang tepat seperti 'saat', 'ketika', atau 'tempat'.",
+          "contoh_salah": "Terdapat fase kritis dalam mana sistem enkripsi menyinkronkan kunci publik.",
+          "contoh_benar": "Terdapat fase kritis saat sistem enkripsi menyinkronkan kunci publik."
         }
       ]
     },
@@ -2967,6 +2990,81 @@
           "penjelasan": "Menurut M. Ramlan, bentuk 'seperti misalnya' merupakan pemborosan leksikal ganda penanda contoh. Pilih kata 'seperti' atau 'misalnya'.",
           "contoh_salah": "Bahasa pemrograman bertipe statis, seperti misalnya Rust dan Go, menjamin integritas memori.",
           "contoh_benar": "Bahasa pemrograman bertipe statis, seperti Rust dan Go, menjamin integritas memori."
+        },
+        {
+          "id": "TRM-001",
+          "pola": "LAN network",
+          "saran_pengganti": [
+            "jaringan LAN",
+            "LAN"
+          ],
+          "penjelasan": "Menurut Bambang Trim (200+ Solusi Editing Naskah, hlm. 115), singkatan LAN sudah memuat kata 'Network' (Local Area Network). Menambahkan kata 'network' di belakangnya adalah pleonasme singkatan asing. Gunakan 'LAN' atau 'jaringan LAN'.",
+          "contoh_salah": "Arsitektur peladen terhubung melalui infrastruktur LAN network berkecepatan tinggi.",
+          "contoh_benar": "Arsitektur peladen terhubung melalui infrastruktur LAN berkecepatan tinggi."
+        },
+        {
+          "id": "TRM-002",
+          "pola": "SIM card",
+          "saran_pengganti": [
+            "kartu SIM"
+          ],
+          "penjelasan": "Menurut Bambang Trim, singkatan SIM sudah merupakan kependekan dari Subscriber Identity Module. Bentuk bahasa Indonesia yang baku adalah 'kartu SIM', bukan kalke campur kode 'SIM card'.",
+          "contoh_salah": "Perangkat IoT memverifikasi modul komunikasi lewat SIM card terpasang.",
+          "contoh_benar": "Perangkat IoT memverifikasi modul komunikasi lewat kartu SIM terpasang."
+        },
+        {
+          "id": "TRM-003",
+          "pola": "PIN number",
+          "saran_pengganti": [
+            "PIN"
+          ],
+          "penjelasan": "Menurut Bambang Trim, singkatan PIN sudah mengandung kata 'Number' (Personal Identification Number). Penulisan 'PIN number' adalah pleonasme. Gunakan 'nomor PIN' atau 'PIN'.",
+          "contoh_salah": "Aplikasi meminta pengguna memasukkan PIN number enam digit rahasia.",
+          "contoh_benar": "Aplikasi meminta pengguna memasukkan PIN enam digit rahasia."
+        },
+        {
+          "id": "TRM-004",
+          "pola": "ATM machine",
+          "saran_pengganti": [
+            "mesin ATM",
+            "ATM"
+          ],
+          "penjelasan": "Menurut Bambang Trim, singkatan ATM telah berarti Automated Teller Machine. Penulisan 'ATM machine' merupakan pleonasme leksikal asing. Gunakan 'mesin ATM' atau 'ATM'.",
+          "contoh_salah": "Sistem perbankan memperbarui perangkat lunak pada seluruh terminal ATM machine.",
+          "contoh_benar": "Sistem perbankan memperbarui perangkat lunak pada seluruh terminal mesin ATM."
+        },
+        {
+          "id": "PAR-001",
+          "pola": "berhubung karena",
+          "saran_pengganti": [
+            "karena",
+            "berhubung"
+          ],
+          "penjelasan": "Menurut Dr. Jos Daniel Parera (Sintaksis, hlm. 134), frasa 'berhubung karena' adalah kontaminasi dua konjungsi subordinatif kausal yang bersinonim. Gunakan salah satu: 'karena' atau 'berhubung'.",
+          "contoh_salah": "Berhubung karena kuota komputasi telah habis, pengujian ditunda esok hari.",
+          "contoh_benar": "Karena kuota komputasi telah habis, pengujian ditunda esok hari."
+        },
+        {
+          "id": "PAR-002",
+          "pola": "oleh karena disebabkan",
+          "saran_pengganti": [
+            "karena",
+            "disebabkan oleh"
+          ],
+          "penjelasan": "Menurut Jos Daniel Parera, perpaduan 'oleh karena disebabkan' merupakan pleonasme kausalitas rangkap tiga. Gunakan bentuk hemat 'karena' atau 'disebabkan oleh'.",
+          "contoh_salah": "Penurunan performa model terjadi oleh karena disebabkan minimnya data latih valid.",
+          "contoh_benar": "Penurunan performa model terjadi karena minimnya data latih valid."
+        },
+        {
+          "id": "PAR-003",
+          "pola": "sebab dikarenakan",
+          "saran_pengganti": [
+            "karena",
+            "disebabkan oleh"
+          ],
+          "penjelasan": "Menurut Jos Daniel Parera, penggunaan berurutan 'sebab dikarenakan' adalah bentuk kerancuan kausal. Pilih kata 'sebab' atau 'karena'.",
+          "contoh_salah": "Galat koneksi muncul sebab dikarenakan waktu tunggu soket telah terlampaui.",
+          "contoh_benar": "Galat koneksi muncul karena waktu tunggu soket telah terlampaui."
         }
       ]
     },
@@ -4866,6 +4964,130 @@
           "penjelasan": "Dalam teks akademik resmi, gunakan bentuk baku 'sungguhpun demikian' alih-alih ragam percakapan 'sungguhpun begitu'.",
           "contoh_salah": "Arsitektur monolitik lebih sederhana. Sungguhpun begitu, skalabilitas layanannya terbatas.",
           "contoh_benar": "Arsitektur monolitik lebih sederhana. Sungguhpun demikian, skalabilitas layanannya terbatas."
+        },
+        {
+          "id": "PTD-001",
+          "pola": "syah",
+          "saran_pengganti": [
+            "sah"
+          ],
+          "penjelasan": "Menurut Prof. Dr. Mansoer Pateda (Analisis Kesalahan Berbahasa, hlm. 67-68), kata 'syah' merupakan bentuk hiperkorek akibat menganggap fonem 'sy' lebih intelek atau asli. Bentuk baku dalam KBBI dan EYD V adalah 'sah'.",
+          "contoh_salah": "Surat keputusan pengangkatan tersebut telah dinyatakan syah oleh rektor.",
+          "contoh_benar": "Surat keputusan pengangkatan tersebut telah dinyatakan sah oleh rektor."
+        },
+        {
+          "id": "PTD-002",
+          "pola": "insyaf",
+          "saran_pengganti": [
+            "insaf"
+          ],
+          "penjelasan": "Menurut Mansoer Pateda, penulisan dengan 'sy' pada kata 'insyaf' adalah kekeliruan hiperkorek. Bentuk baku yang diresmikan KBBI adalah 'insaf'.",
+          "contoh_salah": "Pengguna akhirnya insyaf akan pentingnya menjaga kerahasiaan kata sandi.",
+          "contoh_benar": "Pengguna akhirnya insaf akan pentingnya menjaga kerahasiaan kata sandi."
+        },
+        {
+          "id": "PTD-003",
+          "pola": "syaraf",
+          "saran_pengganti": [
+            "saraf"
+          ],
+          "penjelasan": "Menurut Mansoer Pateda dan KBBI, istilah biologis dan medis baku untuk urat penghubung impuls adalah 'saraf', bukan bentuk hiperkorek 'syaraf'.",
+          "contoh_salah": "Arsitektur jaringan syaraf tiruan dioptimalkan menggunakan algoritma Adam.",
+          "contoh_benar": "Arsitektur jaringan saraf tiruan dioptimalkan menggunakan algoritma Adam."
+        },
+        {
+          "id": "PTD-004",
+          "pola": "khutbah",
+          "saran_pengganti": [
+            "khotbah"
+          ],
+          "penjelasan": "Menurut Mansoer Pateda dan pedoman penyerapan vokal bahasa Arab ke bahasa Indonesia, vokal 'u' pada posisi terbuka diserap menjadi 'o'. Bentuk baku adalah 'khotbah', bukan 'khutbah'.",
+          "contoh_salah": "Teks naskah khutbah tersebut dianalisis menggunakan metode analisis wacana kritis.",
+          "contoh_benar": "Teks naskah khotbah tersebut dianalisis menggunakan metode analisis wacana kritis."
+        },
+        {
+          "id": "PTD-005",
+          "pola": "faham",
+          "saran_pengganti": [
+            "paham"
+          ],
+          "penjelasan": "Menurut Mansoer Pateda, penulisan 'faham' dengan huruf 'f' adalah hiperkorek leksikal. Bentuk baku bahasa Indonesia yang sah adalah 'paham'.",
+          "contoh_salah": "Sebagian besar responden belum faham mengenai mekanisme autentikasi dua faktor.",
+          "contoh_benar": "Sebagian besar responden belum paham mengenai mekanisme autentikasi dua faktor."
+        },
+        {
+          "id": "PTD-006",
+          "pola": "fihak",
+          "saran_pengganti": [
+            "pihak"
+          ],
+          "penjelasan": "Menurut Mansoer Pateda, bentuk baku kata benda ini adalah 'pihak', bukan ragam hiperkorek 'fihak'.",
+          "contoh_salah": "Kedua belah fihak menandatangani nota kesepahaman kerja sama penelitian.",
+          "contoh_benar": "Kedua belah pihak menandatangani nota kesepahaman kerja sama penelitian."
+        },
+        {
+          "id": "MLN-001",
+          "pola": "terdiri daripada",
+          "saran_pengganti": [
+            "terdiri atas"
+          ],
+          "penjelasan": "Menurut Prof. Dr. Anton M. Moeliono (Kembara Bahasa, hlm. 112-114), kolokasi 'terdiri daripada' adalah kalke kolonial bahasa Belanda (bestaan uit). Dalam bahasa Indonesia baku, verba 'terdiri' berkolokasi dengan preposisi 'atas' (atau 'terdiri dari').",
+          "contoh_salah": "Korpus uji dalam eksperimen ini terdiri daripada lima puluh dokumen riset.",
+          "contoh_benar": "Korpus uji dalam eksperimen ini terdiri atas lima puluh dokumen riset."
+        },
+        {
+          "id": "MLN-002",
+          "pola": "guna untuk",
+          "saran_pengganti": [
+            "untuk",
+            "guna"
+          ],
+          "penjelasan": "Menurut Anton M. Moeliono, penggabungan kata preposisi tujuan 'guna untuk' adalah pemborosan leksikal berulang. Pilih salah satu: 'guna' atau 'untuk'.",
+          "contoh_salah": "Metode kuantisasi bobot diterapkan guna untuk mempercepat inferensi jaringan.",
+          "contoh_benar": "Metode kuantisasi bobot diterapkan untuk mempercepat inferensi jaringan."
+        },
+        {
+          "id": "VRH-001",
+          "pola": "menghadiahi kepada",
+          "saran_pengganti": [
+            "menghadiahkan kepada",
+            "menghadiahi"
+          ],
+          "penjelasan": "Menurut Prof. Dr. J.W.M. Verhaar (Asas-Asas Linguistik Umum, hlm. 210), verba berakhiran sufiks -i mengambil objek lokatif/penerima secara langsung tanpa preposisi 'kepada'. Gunakan 'menghadiahkan [benda] kepada [penerima]' atau 'menghadiahi [penerima] [benda]'.",
+          "contoh_salah": "Panitia memutuskan menghadiahi kepada pemenang sebuah medali penghargaan.",
+          "contoh_benar": "Panitia memutuskan menghadiahkan sebuah medali penghargaan kepada pemenang."
+        },
+        {
+          "id": "VRH-002",
+          "pola": "menganugerahi kepada",
+          "saran_pengganti": [
+            "menganugerahkan kepada",
+            "menganugerahi"
+          ],
+          "penjelasan": "Menurut J.W.M. Verhaar, verba benefaktif 'menganugerahi' langsung diikuti penerima (anugerah). Jangan sisipkan preposisi 'kepada'. Gunakan 'menganugerahkan [gelar] kepada [tokoh]' atau 'menganugerahi [tokoh] [gelar]'.",
+          "contoh_salah": "Dewan guru besar menganugerahi kepada peneliti muda piagam prestasi sains.",
+          "contoh_benar": "Dewan guru besar menganugerahkan piagam prestasi sains kepada peneliti muda."
+        },
+        {
+          "id": "VRH-003",
+          "pola": "melimpahi kepada",
+          "saran_pengganti": [
+            "melimpahkan kepada",
+            "melimpahi"
+          ],
+          "penjelasan": "Menurut Verhaar, bentuk sufiks -kan yang berpasangan dengan preposisi arah adalah 'melimpahkan kepada', sedangkan 'melimpahi' langsung diikuti objek penerima tanpa preposisi.",
+          "contoh_salah": "Ketua tim melimpahi kepada wakilnya seluruh kewenangan pengelolaan data.",
+          "contoh_benar": "Ketua tim melimpahkan seluruh kewenangan pengelolaan data kepada wakilnya."
+        },
+        {
+          "id": "FLC-002",
+          "pola": "sehubungan hal tersebut",
+          "saran_pengganti": [
+            "sehubungan dengan hal tersebut"
+          ],
+          "penjelasan": "Menurut Dr. Felicia Utorodewo dkk. (Bahasa Indonesia Pengantar Penulisan Ilmiah, hlm. 83), kata tugas 'sehubungan' wajib berpasangan dengan preposisi 'dengan'. Bentuk tanpa 'dengan' adalah cacat idiomatis.",
+          "contoh_salah": "Sehubungan hal tersebut, jadwal presentasi laporan akhir dimajukan.",
+          "contoh_benar": "Sehubungan dengan hal tersebut, jadwal presentasi laporan akhir dimajukan."
         }
       ]
     }

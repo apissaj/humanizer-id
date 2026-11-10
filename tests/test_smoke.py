@@ -67,6 +67,31 @@ class TestComprehensiveSmoke(unittest.TestCase):
             )
 
 
+    def test_six_authoritative_linguistic_masters_rules(self):
+        """Memastikan kaidah Pateda, Trim, Moeliono, Verhaar, Parera, Utorodewo tertangkap presisi."""
+        samples = [
+            ("Surat keputusan pengangkatan tersebut telah dinyatakan syah oleh pimpinan.", "PTD-001"),
+            ("Pengguna akhirnya insyaf akan pentingnya keamanan kata sandi.", "PTD-002"),
+            ("Arsitektur jaringan syaraf tiruan dioptimalkan dengan cermat.", "PTD-003"),
+            ("Kedua belah fihak menandatangani nota kesepahaman penelitian.", "PTD-006"),
+            ("Arsitektur terhubung lewat infrastruktur LAN network berkecepatan tinggi.", "TRM-001"),
+            ("Pengguna memasukkan PIN number enam digit untuk verifikasi transaksi.", "TRM-003"),
+            ("Korpus uji riset terdiri daripada lima puluh dokumen teks ilmiah.", "MLN-001"),
+            ("Metode kuantisasi diterapkan guna untuk mempercepat inferensi model.", "MLN-002"),
+            ("Panitia menghadiahi kepada pemenang sebuah medali penghargaan sains.", "VRH-001"),
+            ("Berhubung karena kuota komputasi telah habis, pengujian ditunda.", "PAR-001"),
+            ("Penurunan performa terjadi oleh karena disebabkan minimnya data latih.", "PAR-002"),
+            ("Fase kritis dalam mana sistem enkripsi menyinkronkan kunci publik.", "FLC-001"),
+            ("Sehubungan hal tersebut, jadwal presentasi laporan akhir dimajukan.", "FLC-002"),
+        ]
+        for sentence, expected_id in samples:
+            findings = audit_text(sentence, self.kalke, self.glos)
+            ids = [f["id"] for f in findings]
+            self.assertTrue(
+                any(expected_id in id_str for id_str in ids),
+                f"Kaidah {expected_id} gagal mendeteksi: '{sentence}', terdeteksi: {ids}"
+            )
+
     def test_ramlan_and_tarigan_rules(self):
         """Memastikan kaidah M. Ramlan (pleonasme enumerasi) dan Tarigan (konjungsi ragam cakap) terdeteksi presisi."""
         samples = [
