@@ -1,3 +1,4 @@
+import functools
 """Tabel registrasi matcher data-driven untuk audit.py (Refactor Tahap 1 / P1).
 
 Setiap aturan: (predicate_fn, [compiled_regex, ...]):
@@ -707,6 +708,14 @@ CUSTOM_RULES.extend([
 ])
 
 
+@functools.lru_cache(maxsize=1024)
+def _find_custom_rule(pattern_str):
+    for predicate, compiled_list in CUSTOM_RULES:
+        if predicate(pattern_str):
+            return compiled_list
+    return None
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
@@ -714,10 +723,10 @@ def match_custom_rules(pattern_str, clean_line):
     - is_handled: True jika pola punya penanganan kustom di tabel
     - matched: True jika baris memicu kaidah (satu regex cukup)
     """
-    for predicate, compiled_list in CUSTOM_RULES:
-        if predicate(pattern_str):
-            for rgx in compiled_list:
-                if rgx.search(clean_line):
-                    return (True, True)
-            return (True, False)
+    compiled_list = _find_custom_rule(pattern_str)
+    if compiled_list is not None:
+        for rgx in compiled_list:
+            if rgx.search(clean_line):
+                return (True, True)
+        return (True, False)
     return (False, False)

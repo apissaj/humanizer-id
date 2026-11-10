@@ -13,6 +13,7 @@ import sys
 import os
 import json
 import re
+import functools
 from matchers import match_custom_rules
 
 # Pengecualian kaidah per preset domain (audit terfokus)
@@ -72,6 +73,12 @@ def load_data(kampus_id=None):
 
     return kalke_dict, glosarium_dict, kampus_dict
 
+@functools.lru_cache(maxsize=4096)
+def _compile_word_pattern(pattern_str, case_sensitive=False):
+    flags = 0 if case_sensitive else re.IGNORECASE
+    return re.compile(r'\b' + re.escape(pattern_str.strip()) + r'\b', flags)
+
+
 def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"):
     findings = []
     lines = text.splitlines()
@@ -120,7 +127,7 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
                 is_handled, matched = match_custom_rules(pattern_str, clean_line)
                 if not is_handled:
                     # Fallback literal: cocokkan pola sebagai frasa literal utuh
-                    matched = bool(re.compile(r'\b' + re.escape(pattern_str.strip()) + r'\b', re.IGNORECASE).search(clean_line))
+                    matched = bool(_compile_word_pattern(pattern_str).search(clean_line))
                 if matched:
                     findings.append({
                         "baris": line_idx,
@@ -140,10 +147,8 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
                 if len(term_raw) >= 3:
                     # Akronim kapital (API, SDK, URL) dicocokkan case-sensitive agar tidak bentrok
                     # dengan kata bahasa Indonesia serupa (api = kereta api, sdk tidak ada, dst.)
-                    if term_raw.isupper() and len(term_raw) <= 5:
-                        regex = re.compile(r'\b' + re.escape(term_raw) + r'\b')
-                    else:
-                        regex = re.compile(r'\b' + re.escape(term_raw) + r'\b', re.IGNORECASE)
+                    is_upper = term_raw.isupper() and len(term_raw) <= 5
+                    regex = _compile_word_pattern(term_raw, case_sensitive=is_upper)
                     if regex.search(clean_line):
                         findings.append({
                             "baris": line_idx,
