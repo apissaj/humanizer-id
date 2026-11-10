@@ -668,6 +668,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Ejaan Abstrak Skripsi Jurnal Jurribah / EBI V (JRN-007..008) ---
+CUSTOM_RULES.extend([
+    # JRN-007: simbol ampersand (&) dalam teks prosa (hlm. 479)
+    (lambda p: 'simbol ampersand' in p,
+     [re.compile(r'(?<=\w)\s+&\s+(?=\w)')]),
+    # JRN-008: spasi sebelum tanda titik dua (hlm. 479)
+    (lambda p: 'spasi sebelum tanda titik dua' in p,
+     [re.compile(r'\b[a-zA-Z0-9]+\s+:(?:\s+|$)')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

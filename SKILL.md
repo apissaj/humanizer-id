@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BR. Tipografi Tanda Baca & Simbol Logografis Skripsi (Jurnal Jurribah 2026 / EBI Ed. V)
+
+1. **Simbol Ampersand '&' dalam Narasi Prosa (JRN-007):** Pemakaian simbol logografis *&* sebagai pengganti konjungsi *dan* dalam narasi ilmiah (*ATP & WTP*, *tour & travel*) melanggar kaidah penulisan akademik; tulis penuh sebagai kata *dan* (hlm. 479).
+2. **Spasi Sebelum Tanda Titik Dua (JRN-008):** Tanda titik dua (:) tidak boleh didahului spasi (*Variabel : data* keliru); tanda baca harus melekat langsung pada kata yang mendahuluinya (*Variabel:* data) sesuai konvensi ortografi EBI (hlm. 479).
+
 ### BQ. Bentuk Pasif Morfologis Takbaku & Pleonasme Penggolong Skripsi (Jurnal BB & Retorika)
 
 1. **Bentuk Pasif Takbaku Konjungtif 'dikarenakan' (JRN-005):** Kata dasar *karena* adalah konjungsi subordinatif kausatif sehingga tidak membentuk verba pasif *dikarenakan*; gunakan bentuk verba sejati *disebabkan (oleh)* atau konjungsi lugas *karena* (Jurnal BB Unmuh Jember 2020, hlm. 58).

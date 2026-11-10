@@ -4273,6 +4273,26 @@
           "penjelasan": "Merujuk kajian skripsi (Jurnal BB Unmuh Jember, 2020, hlm. 58), 'karena' adalah konjungsi sehingga tidak membentuk verba pasif 'dikarenakan'; gunakan 'disebabkan'.",
           "contoh_salah": "Hal tersebut dikarenakan adanya tujuan penelitian.",
           "contoh_benar": "Hal tersebut disebabkan adanya tujuan penelitian."
+        },
+        {
+          "id": "JRN-007",
+          "pola": "simbol ampersand (&) dalam narasi prosa",
+          "saran_pengganti": [
+            "dan"
+          ],
+          "penjelasan": "Merujuk kajian ejaan skripsi (Jurnal Jurribah, 2026, hlm. 479), simbol '&' tidak baku dalam prosa ilmiah; gunakan konjungsi 'dan'.",
+          "contoh_salah": "Analisis biaya meliputi ATP & WTP pada rute perkotaan.",
+          "contoh_benar": "Analisis biaya meliputi ATP dan WTP pada rute perkotaan."
+        },
+        {
+          "id": "JRN-008",
+          "pola": "spasi sebelum tanda titik dua ( : )",
+          "saran_pengganti": [
+            "Tulis rapat tanpa spasi sebelum titik dua: [kata]:"
+          ],
+          "penjelasan": "Merujuk EBI Edisi V dan analisis ejaan skripsi (Jurnal Jurribah, 2026, hlm. 479), tanda titik dua tidak boleh didahului spasi.",
+          "contoh_salah": "Dosen Pembimbing : Ahmad Fatoni",
+          "contoh_benar": "Dosen Pembimbing: Ahmad Fatoni"
         }
       ]
     }
