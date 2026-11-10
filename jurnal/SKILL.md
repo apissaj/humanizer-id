@@ -32,7 +32,7 @@ mengganggu kaidah umum, tetapi tetap memakai mesin audit, dataset kalke, dan pro
 5. Abstrak TANPA sitasi, TANPA singkatan/akronim yang belum didefinisikan, TANPA referensi silang — Pedoman Jurnal Pendidikan dan Kebudayaan Kemendikbud.
 6. Judul artikel maksimal 14 kata, spesifik, memuat kata kunci — Pedoman Jurnal Dikbud.
 7. Nama penulis tanpa gelar, pangkat, atau jabatan — Pedoman Jurnal Dikbud.
-8. Semua kaidah kebahasaan humanizer-id (127 entri) berlaku di sini juga.
+8. Semua kaidah kebahasaan humanizer-id (351 entri) berlaku di sini juga.
 
 ## Struktur IMRaD Standar Scopus
 1. Title & Abstract (150-250 kata, satu paragraf, tujuan-metode-hasil-simpulan)
@@ -63,12 +63,12 @@ mengganggu kaidah umum, tetapi tetap memakai mesin audit, dataset kalke, dan pro
 3. Cek manual entri [telaah] (kesatuan paragraf, gagasan ganda, kelogisan).
 
 ### Fase 4 - Audit Jurnal Spesifik
-1. Jalankan checklist jurnal-bereputasi/checklist.md (30 poin).
+1. Jalankan checklist checklist.md (30 poin).
 2. Verifikasi batas kata, jumlah referensi, gaya sitasi, kelengkapan bagian.
 3. Pastikan zero AI-slop: tidak ada "delve", "leverage", "in the realm of", "plays a crucial role".
 
 ## Checklist Kualitas Naskah (28 Poin)
-Lihat jurnal-bereputasi/checklist.md untuk rincian lengkap. Poin utama:
+Lihat checklist.md untuk rincian lengkap. Poin utama:
 1. Judul <= 14 kata, tanpa singkatan, tanpa rumus.
 2. Abstrak 150-250 kata, satu paragraf, tanpa sitasi/akronim.
 3. Kata kunci 4-6 istilah, urut abjad, sesuai thesaurus bidang.
