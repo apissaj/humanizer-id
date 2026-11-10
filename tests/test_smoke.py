@@ -67,6 +67,23 @@ class TestComprehensiveSmoke(unittest.TestCase):
             )
 
 
+    def test_new_stylistic_and_syntactic_rules(self):
+        """Memastikan aturan baru (Mustakim, Wisnu Sasangka, J.S. Badudu) tertangkap presisi."""
+        samples = [
+            ("Masing-masing peserta wajib mengisi kuesioner evaluasi.", "MST-001"),
+            ("Dengan metode ini dapat meningkatkan akurasi klasifikasi.", "SAS-001"),
+            ("Dalam hubungan ini, peneliti melakukan evaluasi menyeluruh.", "BDD-008"),
+            ("Berkenaan dengan hal tersebut, sistem dihentikan sementara.", "TMP-003"),
+            ("Model mengalami degradasi, di mana hal ini disebabkan oleh data kotor.", "BDD-009"),
+        ]
+        for sentence, expected_id in samples:
+            findings = audit_text(sentence, self.kalke, self.glos)
+            ids = [f["id"] for f in findings]
+            self.assertTrue(
+                any(expected_id in id_str for id_str in ids),
+                f"Kaidah {expected_id} gagal mendeteksi: '{sentence}', terdeteksi: {ids}"
+            )
+
     def test_reduplication_scientific_terms_zero_fp(self):
         """Istilah teknis/sains berakhiran 2 tidak boleh memicu EJ-004 atau EYD-025."""
         scientific_sentences = [

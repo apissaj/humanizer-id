@@ -63,6 +63,8 @@ class Reduplication2Matcher:
 REDUPLICATION_2_MATCHER = Reduplication2Matcher()
 
 CUSTOM_RULES = [
+    (lambda p: 'masing-masing' in p and ('kata benda' in p or 'nomina' in p), [re.compile(r'\bmasing-masing\s+(?:peserta|individu|mahasiswa|siswa|responden|anggota|komponen|bagian|sampel|variabel|orang|pihak|daerah|kelompok|faktor|unsur|unit)\b', re.IGNORECASE)]),
+    (lambda p: 'dengan' in p.lower() and 'dapat' in p.lower() and ('cacat subjek' in p.lower() or 'preposisi' in p.lower()), [re.compile(r'(?:^|[.!?]\s+)\bDengan\s+(?:adanya\s+)?[a-zA-Z0-9\s\-]{3,35}\s+dapat\s+(?:meningkatkan|mempercepat|menghasilkan|mengurangi|membantu|memberikan|memudahkan|mengatasi|menjelaskan|mempengaruhi|memengaruhi|mencapai|menunjukkan)\b', re.IGNORECASE)]),
     (lambda p: 'bukan berarti' in p, [re.compile('\\bbukan\\s+berarti\\b', re.IGNORECASE)]),
     (lambda p: 'antara' in p and 'dengan' in p, [re.compile('\\bantara\\b.+?\\bdengan\\b', re.IGNORECASE)]),
     (lambda p: 'baik' in p and 'ataupun' in p, [re.compile('\\bbaik\\b.+?\\bataupun\\b', re.IGNORECASE)]),

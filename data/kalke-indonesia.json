@@ -1897,6 +1897,28 @@
           "penjelasan": "Menurut TBBBI Edisi IV, verba transitif \"mempelajari\" langsung menerima objek tanpa sisipan preposisi \"tentang\".",
           "contoh_salah": "Mahasiswa mempelajari tentang struktur data lanjutan pada semester tiga.",
           "contoh_benar": "Mahasiswa mempelajari struktur data lanjutan pada semester tiga."
+        },
+        {
+          "id": "SAS-001",
+          "pola": "Dengan ... dapat [verba] (cacat subjek akibat preposisi awal)",
+          "saran_pengganti": [
+            "Gugurkan preposisi 'Dengan' (Metode ini dapat...) ATAU pasifkan verba ('dapat ditingkatkan')"
+          ],
+          "penjelasan": "Menurut Wisnu Sasangka (Seri Penyuluhan: Kalimat, Badan Bahasa 2014, hlm. 16-17), kalimat bahasa Indonesia wajib memiliki Subjek yang jelas. Penggunaan preposisi 'Dengan' di awal klausa mengubah nomina menjadi Keterangan, sehingga klausa kehilangan Subjek jika langsung diikuti predikat 'dapat [verba]'.",
+          "contoh_salah": "Dengan metode ini dapat meningkatkan akurasi klasifikasi.",
+          "contoh_benar": "Metode ini dapat meningkatkan akurasi klasifikasi."
+        },
+        {
+          "id": "BDD-009",
+          "pola": "di mana hal ini",
+          "saran_pengganti": [
+            "hal ini",
+            "kondisi ini",
+            "sehingga"
+          ],
+          "penjelasan": "Menurut Prof. Dr. J.S. Badudu, frasa 'di mana hal ini' merupakan kalke terjemahan harfiah bahasa asing ('where this...'). Dalam tata bahasa Indonesia baku, 'di mana' hanya berfungsi sebagai kata tanya atau keterangan tempat definitif.",
+          "contoh_salah": "Model mengalami penurunan performa, di mana hal ini disebabkan oleh data kotor.",
+          "contoh_benar": "Model mengalami penurunan performa; hal ini disebabkan oleh data kotor."
         }
       ]
     },
@@ -2775,6 +2797,30 @@
           "penjelasan": "Merujuk buku ajar BI PT (Halimah, 2014, hlm. 125), zaman, dahulu, dan kala adalah penanda temporal masa lalu; penumpukan ketiganya adalah pleonasme boros.",
           "contoh_salah": "Kisah rakyat itu berasal dari cerita pada zaman dahulu kala.",
           "contoh_benar": "Kisah rakyat itu berasal dari cerita pada zaman dahulu."
+        },
+        {
+          "id": "BDD-008",
+          "pola": "dalam hubungan ini",
+          "saran_pengganti": [
+            "terkait hal ini",
+            "dalam hal ini",
+            "sehubungan dengan hal ini"
+          ],
+          "penjelasan": "Menurut Prof. Dr. J.S. Badudu, frasa 'dalam hubungan ini' adalah kalke kolonial dari bahasa Belanda ('in dit verband') yang sering digunakan secara klise dalam gaya bahasa birokrasi kuno. Dalam bahasa Indonesia baku yang lugas, gunakan 'terkait hal ini' atau 'dalam hal ini'.",
+          "contoh_salah": "Dalam hubungan ini, peneliti melakukan evaluasi menyeluruh.",
+          "contoh_benar": "Terkait hal ini, peneliti melakukan evaluasi menyeluruh."
+        },
+        {
+          "id": "TMP-003",
+          "pola": "berkenaan dengan hal tersebut",
+          "saran_pengganti": [
+            "terkait hal tersebut",
+            "oleh karena itu",
+            "sehubungan dengan hal itu"
+          ],
+          "penjelasan": "Frasa transisi 'berkenaan dengan hal tersebut' adalah basa-basi dinas yang bertele-tele dan boros kata. Dalam teks ilmiah dan penulisan lugas, gunakan konjungsi antarkalimat yang padat seperti 'terkait hal tersebut' atau 'oleh karena itu'.",
+          "contoh_salah": "Berkenaan dengan hal tersebut, sistem dihentikan sementara.",
+          "contoh_benar": "Terkait hal tersebut, sistem dihentikan sementara."
         }
       ]
     },
@@ -4507,6 +4553,17 @@
           "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'multi-' ditulis serangkai dengan kata dasar yang mengikutinya.",
           "contoh_salah": "Gedung olahraga multi fungsi ini dapat digunakan untuk berbagai kegiatan.",
           "contoh_benar": "Gedung olahraga multifungsi ini dapat digunakan untuk berbagai kegiatan."
+        },
+        {
+          "id": "MST-001",
+          "pola": "masing-masing [kata benda] (nomina)",
+          "saran_pengganti": [
+            "setiap [kata benda]",
+            "tiap-tiap [kata benda]"
+          ],
+          "penjelasan": "Menurut Mustakim (Pusat Bahasa 2014, hlm. 53-54), kata 'masing-masing' berfungsi sebagai pronomina dan tidak boleh langsung mendampingi kata benda (nomina). Gunakan 'setiap' atau 'tiap-tiap' di depan kata benda, atau letakkan 'masing-masing' di belakang verba/akhir kalimat.",
+          "contoh_salah": "Masing-masing peserta wajib mengisi kuesioner evaluasi.",
+          "contoh_benar": "Setiap peserta wajib mengisi kuesioner evaluasi."
         }
       ]
     }
