@@ -1919,6 +1919,108 @@
           "penjelasan": "Menurut Prof. Dr. J.S. Badudu, frasa 'di mana hal ini' merupakan kalke terjemahan harfiah bahasa asing ('where this...'). Dalam tata bahasa Indonesia baku, 'di mana' hanya berfungsi sebagai kata tanya atau keterangan tempat definitif.",
           "contoh_salah": "Model mengalami penurunan performa, di mana hal ini disebabkan oleh data kotor.",
           "contoh_benar": "Model mengalami penurunan performa; hal ini disebabkan oleh data kotor."
+        },
+        {
+          "id": "LAN-001",
+          "pola": "meng-update",
+          "saran_pengganti": [
+            "memperbarui"
+          ],
+          "penjelasan": "Menurut Ivan Lanin (Xenoglosofilia, hlm. 82-89) dan Pedoman Pembentukan Istilah, penggabungan imbuhan bahasa Indonesia dengan kata dasar bahasa Inggris menggunakan tanda hubung wajib dihindari bila padanan bakunya telah mapan dalam KBBI. Gunakan 'memperbarui'.",
+          "contoh_salah": "Pengembang perlu meng-update konfigurasi repositori sebelum deploy.",
+          "contoh_benar": "Pengembang perlu memperbarui konfigurasi repositori sebelum deploy."
+        },
+        {
+          "id": "LAN-002",
+          "pola": "di-update",
+          "saran_pengganti": [
+            "diperbarui"
+          ],
+          "penjelasan": "Bentuk pasif hibrida asing 'di-update' wajib diganti dengan padanan baku bahasa Indonesia 'diperbarui'.",
+          "contoh_salah": "Berkas basis data telah berhasil di-update oleh sistem cron.",
+          "contoh_benar": "Berkas basis data telah berhasil diperbarui oleh sistem cron."
+        },
+        {
+          "id": "LAN-003",
+          "pola": "meng-handle",
+          "saran_pengganti": [
+            "menangani"
+          ],
+          "penjelasan": "Menurut Ivan Lanin dan PUPI, frasa hibrida 'meng-handle' wajib diganti dengan bentuk baku 'menangani'.",
+          "contoh_salah": "Modul ini bertugas meng-handle lonjakan trafik pengguna secara real-time.",
+          "contoh_benar": "Modul ini bertugas menangani lonjakan trafik pengguna secara real-time."
+        },
+        {
+          "id": "LAN-004",
+          "pola": "di-handle",
+          "saran_pengganti": [
+            "ditangani"
+          ],
+          "penjelasan": "Bentuk pasif 'di-handle' wajib diganti dengan kata baku bahasa Indonesia 'ditangani'.",
+          "contoh_salah": "Galat eksepsi jaringan telah di-handle secara graceful oleh gateway.",
+          "contoh_benar": "Galat eksepsi jaringan telah ditangani secara graceful oleh gateway."
+        },
+        {
+          "id": "LAN-005",
+          "pola": "meng-generate",
+          "saran_pengganti": [
+            "menghasilkan"
+          ],
+          "penjelasan": "Menurut Ivan Lanin dan PUPI, imbuhan campur kode 'meng-generate' wajib diganti dengan padanan resmi 'menghasilkan' atau 'membangkitkan'.",
+          "contoh_salah": "Skrip Python ini berfungsi meng-generate laporan pengujian secara berkala.",
+          "contoh_benar": "Skrip Python ini berfungsi menghasilkan laporan pengujian secara berkala."
+        },
+        {
+          "id": "LAN-006",
+          "pola": "di-generate",
+          "saran_pengganti": [
+            "dihasilkan"
+          ],
+          "penjelasan": "Bentuk pasif campur kode 'di-generate' wajib diganti dengan kata baku 'dihasilkan' atau 'dibangkitkan'.",
+          "contoh_salah": "Laporan pengujian otomatis di-generate setiap tengah malam oleh pipeline.",
+          "contoh_benar": "Laporan pengujian otomatis dihasilkan setiap tengah malam oleh pipeline."
+        },
+        {
+          "id": "LAN-007",
+          "pola": "men-deploy",
+          "saran_pengganti": [
+            "menerapkan",
+            "menggelar"
+          ],
+          "penjelasan": "Menurut PUPI, kata kerja 'men-deploy' dalam konteks rekayasa perangkat lunak dipadankan dengan 'menerapkan' atau 'menggelar'.",
+          "contoh_salah": "Tim perekayasa berencana men-deploy model bahasa ke kluster produksi.",
+          "contoh_benar": "Tim perekayasa berencana menerapkan model bahasa ke kluster produksi."
+        },
+        {
+          "id": "LAN-008",
+          "pola": "di-deploy",
+          "saran_pengganti": [
+            "diterapkan",
+            "digelar"
+          ],
+          "penjelasan": "Bentuk pasif 'di-deploy' wajib diganti dengan kata kerja baku 'diterapkan' atau 'digelar'.",
+          "contoh_salah": "Aplikasi mikro telah berhasil di-deploy ke peladen komputasi awan.",
+          "contoh_benar": "Aplikasi mikro telah berhasil diterapkan ke peladen komputasi awan."
+        },
+        {
+          "id": "LAN-009",
+          "pola": "meng-cover",
+          "saran_pengganti": [
+            "mencakup"
+          ],
+          "penjelasan": "Menurut Ivan Lanin, bentuk campur kode 'meng-cover' wajib diganti dengan verba baku 'mencakup'.",
+          "contoh_salah": "Batasan masalah penelitian ini meng-cover tiga domain sentimen berbeda.",
+          "contoh_benar": "Batasan masalah penelitian ini mencakup tiga domain sentimen berbeda."
+        },
+        {
+          "id": "LAN-010",
+          "pola": "di-cover",
+          "saran_pengganti": [
+            "dicakup"
+          ],
+          "penjelasan": "Bentuk pasif 'di-cover' wajib diganti dengan kata baku 'dicakup' atau 'dilindungi'.",
+          "contoh_salah": "Seluruh skenario pengujian telah di-cover oleh matriks integrasi CI.",
+          "contoh_benar": "Seluruh skenario pengujian telah dicakup oleh matriks integrasi CI."
         }
       ]
     },
@@ -4564,6 +4666,122 @@
           "penjelasan": "Menurut Mustakim (Pusat Bahasa 2014, hlm. 53-54), kata 'masing-masing' berfungsi sebagai pronomina dan tidak boleh langsung mendampingi kata benda (nomina). Gunakan 'setiap' atau 'tiap-tiap' di depan kata benda, atau letakkan 'masing-masing' di belakang verba/akhir kalimat.",
           "contoh_salah": "Masing-masing peserta wajib mengisi kuesioner evaluasi.",
           "contoh_benar": "Setiap peserta wajib mengisi kuesioner evaluasi."
+        },
+        {
+          "id": "KRD-001",
+          "pola": "memperbesarkan",
+          "saran_pengganti": [
+            "memperbesar",
+            "membesarkan"
+          ],
+          "penjelasan": "Menurut Prof. Dr. Harimurti Kridalaksana (Pembentukan Kata dalam Bahasa Indonesia, hlm. 48-52), prefiks memper- pada adjektiva sudah bermakna 'menjadikan lebih...', sedangkan sufiks -kan menyatakan kausatif. Kombinasi memper-...-kan pada kata sifat menimbulkan pleonasme morfologis ganda. Gunakan 'memperbesar' atau 'membesarkan'.",
+          "contoh_salah": "Langkah ini diambil guna memperbesarkan resolusi citra satelit.",
+          "contoh_benar": "Langkah ini diambil guna memperbesar resolusi citra satelit."
+        },
+        {
+          "id": "KRD-002",
+          "pola": "memperlebarkan",
+          "saran_pengganti": [
+            "memperlebar",
+            "melebarkan"
+          ],
+          "penjelasan": "Menurut Kridalaksana, pembentukan memper-...-kan pada kata sifat 'lebar' bersifat rancu. Gunakan 'memperlebar' (menjadikan lebih lebar) atau 'melebarkan' (menjadikan lebar).",
+          "contoh_salah": "Pemerintah berencana memperlebarkan jalan arteri di kawasan pesisir.",
+          "contoh_benar": "Pemerintah berencana memperlebar jalan arteri di kawasan pesisir."
+        },
+        {
+          "id": "KRD-003",
+          "pola": "mempertinggikan",
+          "saran_pengganti": [
+            "mempertinggi",
+            "meninggikan"
+          ],
+          "penjelasan": "Menurut Kridalaksana, verba turunan dari kata sifat 'tinggi' adalah 'mempertinggi' atau 'meninggikan', bukan bentuk kontaminasi 'mempertinggikan'.",
+          "contoh_salah": "Upaya ini dilakukan demi mempertinggikan akurasi deteksi model klasifikasi.",
+          "contoh_benar": "Upaya ini dilakukan demi mempertinggi akurasi deteksi model klasifikasi."
+        },
+        {
+          "id": "KRD-004",
+          "pola": "memperluaskan",
+          "saran_pengganti": [
+            "memperluas",
+            "meluaskan"
+          ],
+          "penjelasan": "Menurut Kridalaksana, bentuk 'memperluaskan' merupakan redundansi afiksasi kata sifat 'luas'. Pilih 'memperluas' atau 'meluaskan'.",
+          "contoh_salah": "Pengembang memutuskan untuk memperluaskan cakupan layanan ke daerah timur.",
+          "contoh_benar": "Pengembang memutuskan untuk memperluas cakupan layanan ke daerah timur."
+        },
+        {
+          "id": "KRD-005",
+          "pola": "memperjelaskan",
+          "saran_pengganti": [
+            "memperjelas",
+            "menjelaskan"
+          ],
+          "penjelasan": "Menurut Kridalaksana, kata sifat 'jelas' membentuk verba 'memperjelas' (menjadikan lebih jelas) atau 'menjelaskan' (menerangkan), bukan 'memperjelaskan'.",
+          "contoh_salah": "Bagan alir ini berguna untuk memperjelaskan alur komunikasi mikrolayanan.",
+          "contoh_benar": "Bagan alir ini berguna untuk memperjelas alur komunikasi mikrolayanan."
+        },
+        {
+          "id": "KRD-006",
+          "pola": "memperpanjangkan",
+          "saran_pengganti": [
+            "memperpanjang",
+            "memanjangkan"
+          ],
+          "penjelasan": "Menurut Kridalaksana, verba bentukan dari kata sifat 'panjang' adalah 'memperpanjang' atau 'memanjangkan', bukan 'memperpanjangkan'.",
+          "contoh_salah": "Instansi memutuskan untuk memperpanjangkan masa uji coba sistem otomatis.",
+          "contoh_benar": "Instansi memutuskan untuk memperpanjang masa uji coba sistem otomatis."
+        },
+        {
+          "id": "DSG-001",
+          "pola": "di tahun",
+          "saran_pengganti": [
+            "pada tahun"
+          ],
+          "penjelasan": "Menurut Dr. Dendy Sugono (Buku Praktis Bahasa Indonesia Jilid 1, hlm. 35-37), preposisi 'di' hanya berfungsi untuk penunjuk tempat spasial. Penggunaan 'di' di depan penunjuk waktu merupakan kalke terjemahan harfiah bahasa Inggris (in 2024). Gunakan preposisi temporal 'pada'.",
+          "contoh_salah": "Penelitian perbandingan algoritma ini diselesaikan di tahun 2024.",
+          "contoh_benar": "Penelitian perbandingan algoritma ini diselesaikan pada tahun 2024."
+        },
+        {
+          "id": "DSG-002",
+          "pola": "di bulan",
+          "saran_pengganti": [
+            "pada bulan"
+          ],
+          "penjelasan": "Menurut Dendy Sugono, penunjuk waktu nama bulan wajib didahului preposisi 'pada', bukan preposisi tempat 'di'.",
+          "contoh_salah": "Pengumpulan korpus teks dialek daerah dilakukan di bulan Agustus.",
+          "contoh_benar": "Pengumpulan korpus teks dialek daerah dilakukan pada bulan Agustus."
+        },
+        {
+          "id": "DSG-003",
+          "pola": "di era",
+          "saran_pengganti": [
+            "pada era"
+          ],
+          "penjelasan": "Menurut Dendy Sugono, penunjuk kurun waktu/zaman ('era') menggunakan preposisi temporal 'pada', bukan 'di'.",
+          "contoh_salah": "Transformasi digital melaju sangat pesat di era kecerdasan artifisial.",
+          "contoh_benar": "Transformasi digital melaju sangat pesat pada era kecerdasan artifisial."
+        },
+        {
+          "id": "DSG-004",
+          "pola": "di saat",
+          "saran_pengganti": [
+            "pada saat"
+          ],
+          "penjelasan": "Menurut Dendy Sugono, frasa penunjuk waktu kejadian adalah 'pada saat' atau 'ketika', bukan 'di saat'.",
+          "contoh_salah": "Kelemahan sistem enkripsi terdeteksi di saat beban komputasi melonjak.",
+          "contoh_benar": "Kelemahan sistem enkripsi terdeteksi pada saat beban komputasi melonjak."
+        },
+        {
+          "id": "DSG-005",
+          "pola": "di masa",
+          "saran_pengganti": [
+            "pada masa"
+          ],
+          "penjelasan": "Menurut Dendy Sugono, penunjuk waktu kurun periode yang benar adalah 'pada masa', bukan 'di masa'.",
+          "contoh_salah": "Pembaruan arsitektur basis data dilakukan di masa transisi layanan.",
+          "contoh_benar": "Pembaruan arsitektur basis data dilakukan pada masa transisi layanan."
         }
       ]
     }

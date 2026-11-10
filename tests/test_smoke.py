@@ -67,6 +67,26 @@ class TestComprehensiveSmoke(unittest.TestCase):
             )
 
 
+    def test_kridalaksana_lanin_sugono_rules(self):
+        """Memastikan kaidah Kridalaksana (afiksasi ganda), Lanin (kalke campur kode), dan Sugono (temporal) terdeteksi akurat."""
+        samples = [
+            ("Langkah ini bertujuan memperbesarkan ukuran sampel data.", "KRD-001"),
+            ("Pemerintah berencana memperlebarkan jalan arteri di pesisir.", "KRD-002"),
+            ("Pengembang wajib meng-update berkas konfigurasi sebelum rilis.", "LAN-001"),
+            ("Sistem dirancang untuk meng-handle lonjakan lalu lintas data.", "LAN-003"),
+            ("Model klasifikasi ini berhasil di-deploy ke peladen produksi.", "LAN-008"),
+            ("Penelitian komparasi algoritma selesai di tahun 2024.", "DSG-001"),
+            ("Pengambilan sampel survei lapangan dilakukan di bulan Mei.", "DSG-002"),
+            ("Model AI bertransformasi sangat pesat di era modern saat ini.", "DSG-003"),
+        ]
+        for sentence, expected_id in samples:
+            findings = audit_text(sentence, self.kalke, self.glos)
+            ids = [f["id"] for f in findings]
+            self.assertTrue(
+                any(expected_id in id_str for id_str in ids),
+                f"Kaidah {expected_id} gagal mendeteksi: '{sentence}', terdeteksi: {ids}"
+            )
+
     def test_new_stylistic_and_syntactic_rules(self):
         """Memastikan aturan baru (Mustakim, Wisnu Sasangka, J.S. Badudu) tertangkap presisi."""
         samples = [
