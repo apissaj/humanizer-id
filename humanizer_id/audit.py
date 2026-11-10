@@ -4,7 +4,7 @@ import json
 import os
 
 from .matchers import match_custom_rules  # noqa: F401
-from .engine import audit_text, _resolve_data_dir  # noqa: F401
+from .engine import audit_text, _resolve_data_dir, fix_text  # noqa: F401
 
 
 def load_default_data():

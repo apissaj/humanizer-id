@@ -127,15 +127,23 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
 - Pronomina anaforis ("ia/dia/mereka") WAJIB memiliki anteseden tunggal yang jelas; jika ada dua subjek sebelum pronomina, sebutkan nama subjek secara eksplisit agar tidak taksa.
 - Hierarki hiponimi-hipernim (umum mencakup khusus) tidak boleh dibalik pada kalimat sanggahan/pengecualian.
 
-## PEDOMAN UMUM PEMBENTUKAN ISTILAH / PUPI (Pusat Bahasa 2005)
+## PEDOMAN UMUM PEMBENTUKAN ISTILAH / PUPI & PERISTILAHAN AI TERKINI
 
-- Gunakan padanan istilah resmi PUPI, bukan terjemahan harfiah model:
+- Gunakan padanan istilah resmi PUPI dan Badan Bahasa, bukan terjemahan harfiah model:
   - "factoring" -> "anjak piutang"
   - "catering" -> "jasa boga"
   - "invention" -> "rekacipta"
   - "supermarket" -> "pasar swalayan"
   - "merger" -> "gabung usaha"
   - "design" -> "desain", "science" -> "sains", "photocopy" -> "fotokopi"
+  - "prompt" -> "perintah acuan / prompt"
+  - "prompt engineering" -> "rekayasa perintah acuan"
+  - "fine-tuning" -> "penalaan halus"
+  - "hallucination" -> "halusinasi model / fabrikasi informasi"
+  - "grounding" -> "penambatan konteks / penjangkaran data"
+  - "embedding" -> "penanaman vektor / representasi vektor"
+  - "inference" -> "inferensi / penyimpulan model"
+  - "zero-shot / few-shot" -> "tanpa contoh / bercontoh sedikit"
 - DILARANG menerjemahkan bentuk jamak asing dengan reduplikasi Indonesia: "alumni" -> "lulusan" (bukan "para alumni-alumni"), "master of ceremonies" -> "pengatur acara".
 - Pertahankan polaritas penerjemahan: positif -> positif ("bound form" -> "bentuk terikat"), negatif -> negatif ("inorganic" -> "takorganik", "illiterate" -> "niraksara").
 - Istilah Latin/asing ilmiah belum terserap dicetak miring (in vitro, status quo); yang sudah umum dicetak tegak (internet, golf, orbit).
@@ -163,20 +171,24 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
 - Larangan sama berlaku untuk "diketika", "disewaktu", "dibagaimana".
 - Pernyataan ilmiah wajib objektif (berbasis data) dan reproduktif (dipahami identik oleh semua pembaca tanpa multitafsir).
 
-## GABUNGAN KATA & UNSUR TERIKAT (Seri Penyuluhan Ejaan, Pusat Bahasa)
+## GABUNGAN KATA & BENTUK TERIKAT (EYD V 2022 & Seri Penyuluhan Ejaan)
 
 - Gabungan kata yang unsur-unsurnya masih bebas WAJIB ditulis terpisah: "tanggung jawab", "kerja sama", "terima kasih", "uji coba", "tanda tangan", "kantor pos", "duta besar", "cagar alam" (bukan "kerjasama", "terimakasih", "ujicoba").
 - Gabungan kata senyawa yang maknanya sudah padu WAJIB ditulis serangkai: "daripada", "barangkali", "padahal", "sekaligus", "apabila", "bilamana", "matahari", "saputangan", "bumiputra", "segitiga".
-- Unsur terikat (sub-, maha-, peri-, antar-) + kata dasar ditulis serangkai: "subunit", "mahaguru", "perilaku", "antarkota".
+- Bentuk terikat (pasca-, non-, sub-, multi-, antar-, pra-, maha-) + kata dasar WAJIB ditulis serangkai tanpa spasi: "pascapanen", "pascasarjana", "nonformal", "nonteknis", "subbagian", "subsektor", "multifungsi", "antaruniversitas", "antarkota", "subunit".
 - Pengecualian: diikuti kapital pakai tanda hubung ("non-Indonesia", "antar-SMA"); maha/peri + kata berimbuhan ditulis terpisah ("maha pengasih").
 - DILARANG memakai angka 2 untuk kata ulang: tulis "anak-anak" (bukan "anak2").
 
-## PREPOSISI MUBAZIR & KALIMAT BUNTUNG PREPOSISIONAL (Pusat Bahasa — BI Aparatur Pemerintah)
+## PREPOSISI MUBAZIR & KALIMAT BUNTUNG PREPOSISIONAL (TBBBI IV & Pusat Bahasa)
 
-- DILARANG menyisipkan "tentang" atau "mengenai" setelah verba transitif:
+- DILARANG menyisipkan preposisi "tentang", "mengenai", atau "terhadap" setelah verba transitif aktif:
   - "membahas tentang metode" -> "membahas metode"
+  - "mengkaji tentang teori" -> "mengkaji teori"
+  - "menganalisis tentang efisiensi" -> "menganalisis efisiensi"
+  - "menjelaskan mengenai hasil" -> "menjelaskan hasil"
   - "membicarakan mengenai kebijakan" -> "membicarakan kebijakan"
-  - "mempelajari tentang fenomena" -> "mempelajari fenomena"
+  - "menceritakan tentang peristiwa" -> "menceritakan peristiwa"
+  - "mempelajari tentang algoritma" -> "mempelajari algoritma"
 - Kalimat dibuka frasa preposisional ("Dalam penelitian ini...") WAJIB menggunakan kata kerja pasif:
   - Salah: "Dalam penelitian ini akan membahas efisiensi model."
   - Baku: "Dalam penelitian ini akan dibahas efisiensi model." atau "Penelitian ini membahas efisiensi model."

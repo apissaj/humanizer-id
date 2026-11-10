@@ -4429,62 +4429,82 @@
           "contoh_benar": "Dosen Pembimbing: Ahmad Fatoni"
         },
         {
-          "id": "EYD-028",
+          "id": "EYD-034",
+          "pola": "pasca panen",
+          "saran_pengganti": [
+            "pascapanen"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'pasca-' ditulis serangkai dengan kata dasar yang mengikutinya (mis. pascapanen, pascasarjana, pascabencana).",
+          "contoh_salah": "Penanganan pasca panen komoditas padi memerlukan pengeringan optimal.",
+          "contoh_benar": "Penanganan pascapanen komoditas padi memerlukan pengeringan optimal."
+        },
+        {
+          "id": "EYD-035",
+          "pola": "pasca sarjana",
+          "saran_pengganti": [
+            "pascasarjana"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'pasca-' ditulis serangkai dengan kata yang mengikutinya.",
+          "contoh_salah": "Program pasca sarjana universitas tersebut membuka pendaftaran baru.",
+          "contoh_benar": "Program pascasarjana universitas tersebut membuka pendaftaran baru."
+        },
+        {
+          "id": "EYD-036",
           "pola": "non formal",
           "saran_pengganti": [
             "nonformal"
           ],
-          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"non-\" ditulis serangkai dengan kata dasar yang mengikutinya.",
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'non-' ditulis serangkai dengan kata dasar yang mengikutinya.",
           "contoh_salah": "Pendidikan non formal memberikan keterampilan praktis kepada pemuda desa.",
           "contoh_benar": "Pendidikan nonformal memberikan keterampilan praktis kepada pemuda desa."
         },
         {
-          "id": "EYD-029",
+          "id": "EYD-037",
           "pola": "non teknis",
           "saran_pengganti": [
             "nonteknis"
           ],
-          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"non-\" ditulis serangkai tanpa spasi.",
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'non-' ditulis serangkai tanpa spasi.",
           "contoh_salah": "Kendala non teknis menyebabkan keterlambatan penyelesaian proyek.",
           "contoh_benar": "Kendala nonteknis menyebabkan keterlambatan penyelesaian proyek."
         },
         {
-          "id": "EYD-030",
+          "id": "EYD-038",
           "pola": "antar universitas",
           "saran_pengganti": [
             "antaruniversitas"
           ],
-          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"antar-\" ditulis serangkai dengan kata dasar yang mengikutinya.",
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'antar-' ditulis serangkai dengan kata dasar yang mengikutinya.",
           "contoh_salah": "Kompetisi basket antar universitas diselenggarakan di Semarang.",
           "contoh_benar": "Kompetisi basket antaruniversitas diselenggarakan di Semarang."
         },
         {
-          "id": "EYD-031",
+          "id": "EYD-039",
           "pola": "sub bagian",
           "saran_pengganti": [
             "subbagian"
           ],
-          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"sub-\" ditulis serangkai dengan kata yang mengikutinya.",
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'sub-' ditulis serangkai dengan kata yang mengikutinya.",
           "contoh_salah": "Laporan tersebut diserahkan kepada sub bagian tata usaha.",
           "contoh_benar": "Laporan tersebut diserahkan kepada subbagian tata usaha."
         },
         {
-          "id": "EYD-032",
+          "id": "EYD-040",
           "pola": "sub sektor",
           "saran_pengganti": [
             "subsektor"
           ],
-          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"sub-\" ditulis serangkai tanpa spasi.",
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'sub-' ditulis serangkai tanpa spasi.",
           "contoh_salah": "Pemerintah mendorong pertumbuhan sub sektor ekonomi kreatif.",
           "contoh_benar": "Pemerintah mendorong pertumbuhan subsektor ekonomi kreatif."
         },
         {
-          "id": "EYD-033",
+          "id": "EYD-041",
           "pola": "multi fungsi",
           "saran_pengganti": [
             "multifungsi"
           ],
-          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"multi-\" ditulis serangkai dengan kata dasar yang mengikutinya.",
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat 'multi-' ditulis serangkai dengan kata dasar yang mengikutinya.",
           "contoh_salah": "Gedung olahraga multi fungsi ini dapat digunakan untuk berbagai kegiatan.",
           "contoh_benar": "Gedung olahraga multifungsi ini dapat digunakan untuk berbagai kegiatan."
         }

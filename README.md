@@ -171,6 +171,12 @@ Setelah terpasang, gunakan lewat CLI:
 # Audit naskah langsung
 humanizer-id naskah.md
 
+# Perbaikan otomatis (autofix) leksikal deterministik ke layar
+humanizer-id naskah.md --fix
+
+# Perbaikan otomatis langsung ke berkas asli (in-place)
+humanizer-id naskah.md --fix --write
+
 # Audit dengan preset domain spesifik
 humanizer-id naskah.md --preset akademik
 humanizer-id surat.md --preset dinas

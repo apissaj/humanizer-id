@@ -239,6 +239,81 @@ def deduplicate_report_findings(findings):
     return consolidated
 
 
+
+def fix_text(content, kalke_dict, glosarium_dict=None, kampus_dict=None, preset="umum"):
+    """Lakukan perbaikan otomatis (autofix) untuk kesalahan leksikal deterministik.
+
+    Hanya mengganti bentuk kata/frasa yang memiliki pemetaan 1-ke-1 pasti
+    (misal: bentuk terikat EYD V, kata baku tunggal, dan verba transitif).
+    Menghindari perubahan otomatis pada struktur kalimat majemuk yang ambigu.
+
+    Return:
+        (fixed_content, total_fixes, fix_log)
+    """
+    lines = content.splitlines(keepends=True)
+    fixed_lines = []
+    total_fixes = 0
+    fix_log = []
+
+    # Bangun peta penggantian deterministik dari kalke_dict
+    deterministic_map = {}
+    for cat_key, cat_val in kalke_dict.get("kategori", {}).items():
+        for entry in cat_val.get("entri", []):
+            pola = entry.get("pola", "").strip()
+            # Abaikan telaah manual dan pola deskriptif panjang
+            if pola.startswith("[telaah]") or len(pola) > 40:
+                continue
+            saran_list = entry.get("saran_pengganti", [])
+            if not saran_list or len(saran_list) == 0:
+                continue
+            # Ambil saran pertama jika bersih tanpa alternatif / penjelasan kondisional
+            saran_pertama = saran_list[0].strip()
+            if "/" in saran_pertama or "..." in saran_pertama or "[" in saran_pertama or "(" in saran_pertama:
+                continue
+            # Tolak jika saran hanya berupa prefiks terikat yang berakhiran tanda hubung (mis. pasca-)
+            if saran_pertama.endswith("-") or saran_pertama.startswith("-"):
+                continue
+            # Pastikan pola adalah leksikal wajar (kata/frasa pendek)
+            if not re.search(r"^[a-zA-Z0-9\s\-]+$", pola):
+                continue
+            deterministic_map[pola.lower()] = (saran_pertama, entry["id"])
+
+    # Urutkan pola dari yang terpanjang ke terpendek untuk mencegah partial replacement
+    sorted_patterns = sorted(deterministic_map.keys(), key=len, reverse=True)
+
+    for line_idx, line in enumerate(lines, 1):
+        modified_line = line
+        for p in sorted_patterns:
+            repl, rule_id = deterministic_map[p]
+            # Cocokkan case-insensitive dengan word boundary
+            esc = re.escape(p)
+            pattern_regex = re.compile(rf"(?<!\w){esc}(?!\w)", re.IGNORECASE)
+
+            def make_replacement(match):
+                nonlocal total_fixes
+                orig = match.group(0)
+                # Pertahankan TitleCase atau uppercase jika kata asli diawali huruf kapital
+                if orig.isupper():
+                    res = repl.upper()
+                elif orig[0].isupper():
+                    res = repl.capitalize()
+                else:
+                    res = repl
+                total_fixes += 1
+                fix_log.append({
+                    "baris": line_idx,
+                    "id": rule_id,
+                    "sebelum": orig,
+                    "sesudah": res
+                })
+                return res
+
+            modified_line = pattern_regex.sub(make_replacement, modified_line)
+        fixed_lines.append(modified_line)
+
+    return ("".join(fixed_lines), total_fixes, fix_log)
+
+
 def print_report(findings, filename=""):
     findings = deduplicate_report_findings(findings)
 
@@ -275,11 +350,26 @@ def main():
     if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):
         print(__doc__)
         print("Pilihan tambahan:")
+        print("    --fix            Lakukan perbaikan otomatis (autofix) pada bentuk leksikal deterministik")
+        print("    --write, -w      Tulis hasil perbaikan langsung ke berkas asli (digunakan bersama --fix)")
         print("    --kampus <id>    Gunakan aturan format spesifik kampus (ui, itb, ugm, its, ipb, undip, unpad, unair, ub, telkom, udinus)")
         print("    --preset <nama>  Preset domain audit: umum (default), akademik, dinas, jurnalistik")
         sys.exit(0)
 
     args = sys.argv[1:]
+
+    # Parse --fix and --write flags
+    do_fix = False
+    write_in_place = False
+    if "--fix" in args:
+        do_fix = True
+        args.remove("--fix")
+    if "--write" in args:
+        write_in_place = True
+        args.remove("--write")
+    if "-w" in args:
+        write_in_place = True
+        args.remove("-w")
 
     # Parse --preset flag
     preset = "umum"
@@ -333,6 +423,17 @@ Meskipun akurat, bukan berarti arsitektur ini tanpa kompromi performa.
 
     with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
         content = f.read()
+
+    if do_fix:
+        fixed_content, fix_count, fix_log = fix_text(content, kalke_dict, glosarium_dict, kampus_dict, preset)
+        if write_in_place:
+            with open(filepath, "w", encoding="utf-8") as f:
+                f.write(fixed_content)
+            print(f"[✓] Berhasil memperbaiki {fix_count} temuan langsung pada berkas: {filepath}")
+        else:
+            print(f"[*] Hasil autofix ({fix_count} penggantian diterapkan):\n")
+            print(fixed_content)
+        return
 
     findings = audit_text(content, kalke_dict, glosarium_dict, kampus_dict, preset)
     print_report(findings, filepath)
