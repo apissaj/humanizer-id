@@ -679,6 +679,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Sintaksis Skripsi Jurnal JPLED Unimal (JRN-009..010) ---
+CUSTOM_RULES.extend([
+    # JRN-009: konjungsi intrakalimat 'Dan' di awal kalimat mandiri (hlm. 807)
+    (lambda p: p == 'konjungsi dan di awal kalimat baru',
+     [re.compile(r'(?:^|[.!?]\s+)\bDan\b\s+')]),
+    # JRN-010: kontaminasi kuantor 'sebagian banyak' (hlm. 809)
+    (lambda p: p == 'sebagian banyak',
+     [re.compile(r'(?i)\bsebagian\s+banyak\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

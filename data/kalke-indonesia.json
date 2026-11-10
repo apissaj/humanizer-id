@@ -1763,6 +1763,28 @@
           "penjelasan": "Merujuk kajian kalimat abstrak skripsi (Jurnal Retorika Uniflor, 2022, hlm. 56), penyisipan penggolong 'orang' setelah angka definit pada nomina insani adalah pleonasme.",
           "contoh_salah": "Sampel penelitian terdiri atas 112 orang siswa.",
           "contoh_benar": "Sampel penelitian terdiri atas 112 siswa."
+        },
+        {
+          "id": "JRN-009",
+          "pola": "konjungsi dan di awal kalimat baru",
+          "saran_pengganti": [
+            "Selain itu,",
+            "gabungkan klausa ke kalimat sebelumnya dengan tanda koma"
+          ],
+          "penjelasan": "Merujuk kajian sintaksis skripsi (Jurnal JPLED Unimal, 2024, hlm. 807), 'dan' adalah konjungsi intrakalimat sehingga tidak boleh dipakai di awal kalimat mandiri.",
+          "contoh_salah": "Penelitian terdahulu menguji aspek x. Dan perbedaan penelitian ini terletak pada metodenya.",
+          "contoh_benar": "Penelitian terdahulu menguji aspek x, dan perbedaan penelitian ini terletak pada metodenya."
+        },
+        {
+          "id": "JRN-010",
+          "pola": "sebagian banyak",
+          "saran_pengganti": [
+            "sebagian besar",
+            "banyak"
+          ],
+          "penjelasan": "Merujuk kajian kalimat skripsi (Jurnal JPLED Unimal, 2024, hlm. 809), frasa 'sebagian banyak' adalah kontaminasi rancu antara 'sebagian besar' dan 'banyak'.",
+          "contoh_salah": "Sebagian banyak masyarakat menggantungkan hidupnya pada laut.",
+          "contoh_benar": "Sebagian besar masyarakat menggantungkan hidupnya pada laut."
         }
       ]
     },

@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BS. Konjungsi Koordinatif Awal Kalimat & Kontaminasi Kuantor (Jurnal JPLED Unimal 2024)
+
+1. **Konjungsi Koordinatif 'Dan' di Awal Kalimat Baru (JRN-009):** Konjungsi *dan* adalah penghubung intrakalimat (antarklausa) sehingga tidak boleh mengawali kalimat mandiri baru; gabungkan dengan tanda koma ke kalimat sebelumnya atau gunakan konjungsi antarkalimat seperti *Selain itu,* (hlm. 807).
+2. **Kontaminasi Kuantor 'sebagian banyak' (JRN-010):** Frasa *sebagian banyak* merupakan kontaminasi tidak baku yang mencampuradukkan partitif *sebagian besar* dan kuantor *banyak*; gunakan salah satu bentuk baku tersebut (hlm. 809).
+
 ### BR. Tipografi Tanda Baca & Simbol Logografis Skripsi (Jurnal Jurribah 2026 / EBI Ed. V)
 
 1. **Simbol Ampersand '&' dalam Narasi Prosa (JRN-007):** Pemakaian simbol logografis *&* sebagai pengganti konjungsi *dan* dalam narasi ilmiah (*ATP & WTP*, *tour & travel*) melanggar kaidah penulisan akademik; tulis penuh sebagai kata *dan* (hlm. 479).
