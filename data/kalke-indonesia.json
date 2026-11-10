@@ -1701,6 +1701,16 @@
           "penjelasan": "Merujuk modul BI PT UNJA (Kuntarto, hlm. 108), akhiran -kan sudah bermakna benefaktif; penyisipan 'untuk' adalah redundansi.",
           "contoh_salah": "Ibu membelikan untuk adik seragam sekolah yang baru.",
           "contoh_benar": "Ibu membelikan adik seragam sekolah yang baru."
+        },
+        {
+          "id": "UIN-009",
+          "pola": "tempat di mana / tempat dimana",
+          "saran_pengganti": [
+            "Hapus 'di mana' (gunakan kata 'tempat' langsung tanpa frasa tanya)"
+          ],
+          "penjelasan": "Merujuk buku ajar BI PT (Halimah, 2014, hlm. 125), di mana tidak berfungsi sebagai relatif lokatif penjelas (kalke place where); cukup gunakan 'tempat' langsung.",
+          "contoh_salah": "Ruangan ini adalah tempat di mana panitia menyusun laporan kegiatan.",
+          "contoh_benar": "Ruangan ini adalah tempat panitia menyusun laporan kegiatan."
         }
       ]
     },
@@ -2569,6 +2579,16 @@
           "penjelasan": "Merujuk TBBBI Ed-4 (Badan Bahasa, 2017, hlm. 229), amat, sangat, dan sekali memiliki fungsi elatif identik; penumpukan amat sangat adalah pleonasme takformal.",
           "contoh_salah": "Gaya kerjanya amat sangat cekatan dalam menyelesaikan naskah.",
           "contoh_benar": "Gaya kerjanya sangat cekatan dalam menyelesaikan naskah."
+        },
+        {
+          "id": "UIN-010",
+          "pola": "zaman dahulu kala",
+          "saran_pengganti": [
+            "Gunakan bentuk hemat: zaman dahulu ATAU dahulu kala"
+          ],
+          "penjelasan": "Merujuk buku ajar BI PT (Halimah, 2014, hlm. 125), zaman, dahulu, dan kala adalah penanda temporal masa lalu; penumpukan ketiganya adalah pleonasme boros.",
+          "contoh_salah": "Kisah rakyat itu berasal dari cerita pada zaman dahulu kala.",
+          "contoh_benar": "Kisah rakyat itu berasal dari cerita pada zaman dahulu."
         }
       ]
     },

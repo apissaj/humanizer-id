@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BL. Kehematan Kata & Diksi Karya Ilmiah Perguruan Tinggi (UIN Alauddin, Halimah 2014)
+
+1. **Relatif Lokatif Kalke 'tempat di mana' (UIN-009):** Frasa tanya *di mana* dilarang berfungsi sebagai penghubung relatif penjelas tempat (kalke dari bahasa Inggris *place where* atau Belanda *waar*); gunakan kata *tempat* langsung (*tempat mahasiswa berdiskusi*, bukan *tempat di mana mahasiswa berdiskusi*) (hlm. 125).
+2. **Pleonasme Temporal Rangkap Tiga (UIN-010):** Unsur *zaman*, *dahulu*, dan *kala* memiliki penandaan makna waktu lampau yang berlebih jika digabung sekaligus; gunakan salah satu bentuk hemat: *zaman dahulu* atau *dahulu kala* (hlm. 125).
+
 ### BK. Tanda Hubung Prefiks Ejaan Resmi (EYD Lengkap & PUEBI 2016)
 
 1. **Prefiks se- Bertemu Huruf Kapital (EYD-026):** Awalan *se-* yang dirangkaikan dengan kata berhuruf awal kapital wajib memakai tanda hubung (*se-Indonesia, se-Asia, se-Jawa*), bukan diserangkai polos (*seIndonesia*) (EYD hlm. 61).

@@ -599,6 +599,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Buku PT UIN Alauddin Makassar (UIN-009..010) ---
+CUSTOM_RULES.extend([
+    # UIN-009: relatif lokatif tempat di mana (Halimah hlm. 125)
+    (lambda p: 'tempat di mana / tempat dimana' in p,
+     [re.compile(r'(?i)\btempat\s+di\s*mana\b')]),
+    # UIN-010: pleonasme temporal zaman dahulu kala (Halimah hlm. 125)
+    (lambda p: 'zaman dahulu kala' in p,
+     [re.compile(r'(?i)\b(?:zaman|pada zaman)\s+dahulu\s+kala\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
