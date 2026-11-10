@@ -624,6 +624,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Pedoman Surat-Menyurat Resmi 1985 (SRT-007..008) ---
+CUSTOM_RULES.extend([
+    # SRT-007: kenapa -> mengapa (hlm. 55)
+    (lambda p: p == 'kenapa',
+     [re.compile(r'(?i)\bkenapa\b')]),
+    # SRT-008: haturkan / menghaturkan terima kasih (hlm. 52)
+    (lambda p: 'menghaturkan/haturkan' in p,
+     [re.compile(r'(?i)\b(?:menghaturkan|haturkan)\s+(?:terima kasih|penghargaan|salam|permohonan|puji|syukur)\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 

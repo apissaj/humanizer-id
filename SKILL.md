@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BN. Ragam Baku Bahasa Surat Dinas & Komunikasi Resmi (Pusat Bahasa 1985)
+
+1. **Interogatif Informal 'kenapa' (SRT-007):** Di dalam teks formal, laporan resmi, dan karya ilmiah, kata tanya kausatif baku adalah *mengapa*, bukan *kenapa* yang merupakan ragam percakapan santai (hlm. 55).
+2. **Diksi Takbaku Kedaerahan 'haturkan' (SRT-008):** Ungkapan santun surat penutup resmi menggunakan *ucapkan terima kasih* atau *sampaikan terima kasih*; bentuk *haturkan terima kasih* atau *menghaturkan puji syukur* tidak baku dalam bahasa Indonesia resmi (hlm. 52).
+
 ### BM. Ortografi Morfologis & Gabungan Kata (Seri Penyuluhan Bentuk dan Pilihan Kata 2019)
 
 1. **Geminasi Huruf K Akhiran -kan (BPK-032):** Kata dasar berakhiran fonem /k/ yang diberi akhiran *-kan* wajib ditulis dengan dua huruf /k/ (*menunjukkan, ditunjukkan, mengontrakkan, dikontrakkan*), bukan satu huruf (*menunjukan*) (hlm. 41).

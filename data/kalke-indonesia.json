@@ -4190,6 +4190,26 @@
           "penjelasan": "Merujuk Seri Penyuluhan Bentuk & Pilihan Kata (Badan Bahasa, 2019, hlm. 43), gabungan kata tanggung jawab dengan konfiks per-...-an ditulis serangkai: pertanggungjawaban.",
           "contoh_salah": "Laporan pertanggungan jawab organisasi harus diserahkan sebelum batas waktu.",
           "contoh_benar": "Laporan pertanggungjawaban organisasi harus diserahkan sebelum batas waktu."
+        },
+        {
+          "id": "SRT-007",
+          "pola": "kenapa",
+          "saran_pengganti": [
+            "mengapa"
+          ],
+          "penjelasan": "Merujuk Pedoman Surat Resmi (Pusat Bahasa, 1985, hlm. 55), 'kenapa' adalah ragam informal lisan; bentuk baku resmi adalah 'mengapa'.",
+          "contoh_salah": "Penulis belum memahami kenapa variabel tersebut tidak berkorelasi.",
+          "contoh_benar": "Penulis belum memahami mengapa variabel tersebut tidak berkorelasi."
+        },
+        {
+          "id": "SRT-008",
+          "pola": "menghaturkan/haturkan + terima kasih/penghargaan/salam/puji",
+          "saran_pengganti": [
+            "Gunakan padanan baku: ucapkan / sampaikan / panjatkan"
+          ],
+          "penjelasan": "Merujuk Pedoman Surat Resmi (Pusat Bahasa, 1985, hlm. 52), 'haturkan' merupakan serapan daerah informal; gunakan 'ucapkan' atau 'sampaikan'.",
+          "contoh_salah": "Kami haturkan terima kasih atas kerja sama yang telah terjalin.",
+          "contoh_benar": "Kami ucapkan terima kasih atas kerja sama yang telah terjalin."
         }
       ]
     }
