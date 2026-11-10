@@ -66,6 +66,44 @@ class TestComprehensiveSmoke(unittest.TestCase):
                 f"False positive pada sampel bersih: {text} -> {[f['id'] for f in fs]}"
             )
 
+
+    def test_reduplication_scientific_terms_zero_fp(self):
+        """Istilah teknis/sains berakhiran 2 tidak boleh memicu EJ-004 atau EYD-025."""
+        scientific_sentences = [
+            "Emisi gas CO2 dan NO2 meningkat seiring pertumbuhan industri otomotif.",
+            "Area konservasi ini memiliki luas sekitar 45 km2 dan mencakup 120 m2 fasilitas observasi.",
+            "Protokol otentikasi menggunakan OAuth2 di atas koneksi HTTP2.",
+            "Model evaluasi menghasilkan koefisien determinasi R2 sebesar 0,89 pada arsitektur Llama2 dan GPT2.",
+        ]
+        for s in scientific_sentences:
+            fs = audit_text(s, self.kalke, self.glos)
+            redup_fps = [f["id"] for f in fs if f["id"] in ("EJ-004", "EYD-025")]
+            self.assertEqual(
+                len(redup_fps), 0,
+                f"False positive pada istilah sains: {s} -> {redup_fps}"
+            )
+
+    def test_reduplication_informal_triggers_correctly(self):
+        """Reduplikasi informal angka 2 wajib memicu temuan."""
+        informal_samples = [
+            "Buku2 itu telah dikembalikan ke perpustakaan.",
+            "Anak2 bermain di lapangan terbuka.",
+        ]
+        for s in informal_samples:
+            fs = audit_text(s, self.kalke, self.glos)
+            redup_hits = [f["id"] for f in fs if f["id"] in ("EJ-004", "EYD-025")]
+            self.assertGreater(
+                len(redup_hits), 0,
+                f"Gagal mendeteksi reduplikasi angka 2: {s}"
+            )
+
+    def test_metadata_docs_count_integrity(self):
+        """Angka entri kalke riil di JSON wajib konsisten dan tidak fiktif."""
+        total_kalke = sum(len(cat["entri"]) for cat in self.kalke["kategori"].values())
+        total_glos = sum(len(b.get("istilah", [])) for b in self.glos.get("bidang", {}).values())
+        self.assertGreater(total_kalke, 300, "Total kalke riil minimal 300")
+        self.assertGreater(total_glos, 80, "Total glosarium riil minimal 80")
+
     def test_performance_throughput_above_2000_wps(self):
         """Mesin audit wajib memproses minimal 2.000 kata/detik."""
         sample = "Penelitian ini mengkaji penerapan arsitektur sistem informasi terintegrasi untuk meningkatkan efisiensi operasional.\n" * 50

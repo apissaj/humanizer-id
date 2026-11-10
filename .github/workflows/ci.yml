@@ -21,14 +21,21 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Run Humanizer-ID Regression Suite
+      - name: Install test tools
         run: |
-          python tests/test_regression.py
+          python -m pip install --upgrade pip
+          pip install pytest build
 
-      - name: Run End-to-End Benchmark
+      - name: Run Full Test Suite (pytest)
         run: |
-          python tests/test_benchmark.py
+          pytest tests/
 
       - name: Verify CLI Demo
         run: |
           python scripts/audit.py --demo
+
+      - name: Test Wheel Build & Packaging Integrity
+        run: |
+          python -m build
+          pip install dist/*.whl
+          python -c "from humanizer_id import audit_text; from humanizer_id.audit import load_default_data; k, g = load_default_data(); assert len(k['kategori']) > 0; print('Packaging verified successfully!')"

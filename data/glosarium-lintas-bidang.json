@@ -270,6 +270,46 @@
           "asing": "divide et impera",
           "baku": "divide et impera (cetak miring)",
           "catatan": "Istilah Latin asing dicetak miring PUPI 2005 (hlm. 7)."
+        },
+        {
+          "asing": "prompt",
+          "baku": "perintah acuan / prompt (cetak miring jika ragam teknis)",
+          "catatan": "Teks instruksi masukan pada model generatif (PUPI 2005 hlm. 8)."
+        },
+        {
+          "asing": "hallucination",
+          "baku": "halusinasi model / fabrikasi informasi",
+          "catatan": "Respons model generatif yang tampak meyakinkan namun tidak berdasar fakta."
+        },
+        {
+          "asing": "grounding",
+          "baku": "penambatan konteks / penjangkaran data",
+          "catatan": "Proses mengaitkan respons model dengan sumber data terverifikasi."
+        },
+        {
+          "asing": "embedding",
+          "baku": "penanaman vektor / representasi vektor",
+          "catatan": "Pemetaan data teks atau multimodal ke dalam ruang vektor berdimensi tinggi."
+        },
+        {
+          "asing": "inference",
+          "baku": "inferensi / penyimpulan model",
+          "catatan": "Tahap eksekusi komputasi model terlatih untuk menghasilkan prediksi."
+        },
+        {
+          "asing": "zero-shot",
+          "baku": "tanpa contoh / tembakan nol",
+          "catatan": "Kemampuan model menyelesaikan tugas tanpa contoh pelatihan sebelumnya."
+        },
+        {
+          "asing": "few-shot",
+          "baku": "bercontoh sedikit / beberapa contoh",
+          "catatan": "Pemberian beberapa contoh demonstrasi tugas di dalam konteks masukan."
+        },
+        {
+          "asing": "context window",
+          "baku": "jendela konteks",
+          "catatan": "Batas kapasitas token yang dapat diproses model dalam satu sesi inferensi."
         }
       ]
     },

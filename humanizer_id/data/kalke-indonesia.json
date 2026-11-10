@@ -1832,6 +1832,71 @@
           "penjelasan": "Merujuk kajian keefektifan kalimat skripsi (Jurnal Kande, 2021, hlm. 155), 'sehingga' adalah konjungsi subordinatif intrakalimat penanda akibat dan tidak boleh mengawali kalimat mandiri baru setelah titik; perbaikannya adalah menggabungkannya ke kalimat sebelumnya dengan koma atau menggantinya dengan konjungsi antarkalimat.",
           "contoh_salah": "Kami datang terlambat. Sehingga kami tidak dapat mengikuti perkuliahan.",
           "contoh_benar": "Kami datang terlambat sehingga seluruh rombongan tidak dapat mengikuti perkuliahan."
+        },
+        {
+          "id": "TBBBI-001",
+          "pola": "membahas tentang",
+          "saran_pengganti": [
+            "membahas",
+            "membicarakan"
+          ],
+          "penjelasan": "Menurut Tata Bahasa Baku Bahasa Indonesia (TBBBI) Edisi IV hlm. 284, verba transitif \"membahas\" menuntut objek langsung tanpa perantara preposisi \"tentang\". Frasa \"membahas tentang\" merupakan kalke dari \"discuss about\".",
+          "contoh_salah": "Artikel ini membahas tentang optimasi algoritma penjadwalan.",
+          "contoh_benar": "Artikel ini membahas optimasi algoritma penjadwalan."
+        },
+        {
+          "id": "TBBBI-002",
+          "pola": "mengkaji tentang",
+          "saran_pengganti": [
+            "mengkaji",
+            "meneliti"
+          ],
+          "penjelasan": "Menurut TBBBI Edisi IV, verba transitif \"mengkaji\" menghendaki objek penderita langsung tanpa preposisi \"tentang\".",
+          "contoh_salah": "Bab kedua mengkaji tentang teori komputasi terdistribusi.",
+          "contoh_benar": "Bab kedua mengkaji teori komputasi terdistribusi."
+        },
+        {
+          "id": "TBBBI-003",
+          "pola": "menganalisis tentang",
+          "saran_pengganti": [
+            "menganalisis"
+          ],
+          "penjelasan": "Menurut TBBBI Edisi IV, verba \"menganalisis\" adalah verba transitif yang langsung diikuti nomina objek, bukan frasa preposisional \"tentang\".",
+          "contoh_salah": "Penelitian ini menganalisis tentang efisiensi daya pada mikroprosesor.",
+          "contoh_benar": "Penelitian ini menganalisis efisiensi daya pada mikroprosesor."
+        },
+        {
+          "id": "TBBBI-004",
+          "pola": "menjelaskan mengenai",
+          "saran_pengganti": [
+            "menjelaskan",
+            "memaparkan"
+          ],
+          "penjelasan": "Menurut TBBBI Edisi IV hlm. 286, verba transitif aktif \"menjelaskan\" wajib diikuti objek langsung, bukan preposisi \"mengenai\".",
+          "contoh_salah": "Penulis menjelaskan mengenai metode pengumpulan data survei.",
+          "contoh_benar": "Penulis menjelaskan metode pengumpulan data survei."
+        },
+        {
+          "id": "TBBBI-005",
+          "pola": "menceritakan tentang",
+          "saran_pengganti": [
+            "menceritakan",
+            "mengisahkan"
+          ],
+          "penjelasan": "Menurut TBBBI Edisi IV, verba transitif \"menceritakan\" memerlukan objek penderita langsung tanpa preposisi \"tentang\".",
+          "contoh_salah": "Naskah tersebut menceritakan tentang perjuangan tokoh pergerakan nasional.",
+          "contoh_benar": "Naskah tersebut menceritakan perjuangan tokoh pergerakan nasional."
+        },
+        {
+          "id": "TBBBI-006",
+          "pola": "mempelajari tentang",
+          "saran_pengganti": [
+            "mempelajari",
+            "belajar tentang"
+          ],
+          "penjelasan": "Menurut TBBBI Edisi IV, verba transitif \"mempelajari\" langsung menerima objek tanpa sisipan preposisi \"tentang\".",
+          "contoh_salah": "Mahasiswa mempelajari tentang struktur data lanjutan pada semester tiga.",
+          "contoh_benar": "Mahasiswa mempelajari struktur data lanjutan pada semester tiga."
         }
       ]
     },
@@ -4362,6 +4427,66 @@
           "penjelasan": "Merujuk EBI Edisi V dan analisis ejaan skripsi (Jurnal Jurribah, 2026, hlm. 479), tanda titik dua tidak boleh didahului spasi.",
           "contoh_salah": "Dosen Pembimbing : Ahmad Fatoni",
           "contoh_benar": "Dosen Pembimbing: Ahmad Fatoni"
+        },
+        {
+          "id": "EYD-028",
+          "pola": "non formal",
+          "saran_pengganti": [
+            "nonformal"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"non-\" ditulis serangkai dengan kata dasar yang mengikutinya.",
+          "contoh_salah": "Pendidikan non formal memberikan keterampilan praktis kepada pemuda desa.",
+          "contoh_benar": "Pendidikan nonformal memberikan keterampilan praktis kepada pemuda desa."
+        },
+        {
+          "id": "EYD-029",
+          "pola": "non teknis",
+          "saran_pengganti": [
+            "nonteknis"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"non-\" ditulis serangkai tanpa spasi.",
+          "contoh_salah": "Kendala non teknis menyebabkan keterlambatan penyelesaian proyek.",
+          "contoh_benar": "Kendala nonteknis menyebabkan keterlambatan penyelesaian proyek."
+        },
+        {
+          "id": "EYD-030",
+          "pola": "antar universitas",
+          "saran_pengganti": [
+            "antaruniversitas"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"antar-\" ditulis serangkai dengan kata dasar yang mengikutinya.",
+          "contoh_salah": "Kompetisi basket antar universitas diselenggarakan di Semarang.",
+          "contoh_benar": "Kompetisi basket antaruniversitas diselenggarakan di Semarang."
+        },
+        {
+          "id": "EYD-031",
+          "pola": "sub bagian",
+          "saran_pengganti": [
+            "subbagian"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"sub-\" ditulis serangkai dengan kata yang mengikutinya.",
+          "contoh_salah": "Laporan tersebut diserahkan kepada sub bagian tata usaha.",
+          "contoh_benar": "Laporan tersebut diserahkan kepada subbagian tata usaha."
+        },
+        {
+          "id": "EYD-032",
+          "pola": "sub sektor",
+          "saran_pengganti": [
+            "subsektor"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"sub-\" ditulis serangkai tanpa spasi.",
+          "contoh_salah": "Pemerintah mendorong pertumbuhan sub sektor ekonomi kreatif.",
+          "contoh_benar": "Pemerintah mendorong pertumbuhan subsektor ekonomi kreatif."
+        },
+        {
+          "id": "EYD-033",
+          "pola": "multi fungsi",
+          "saran_pengganti": [
+            "multifungsi"
+          ],
+          "penjelasan": "Menurut EYD Edisi V Bab II Huruf C, bentuk terikat \"multi-\" ditulis serangkai dengan kata dasar yang mengikutinya.",
+          "contoh_salah": "Gedung olahraga multi fungsi ini dapat digunakan untuk berbagai kegiatan.",
+          "contoh_benar": "Gedung olahraga multifungsi ini dapat digunakan untuk berbagai kegiatan."
         }
       ]
     }

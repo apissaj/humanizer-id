@@ -12,6 +12,56 @@ Kaidah baru cukup ditambah satu baris di sini tanpa menyentuh audit.py.
 
 import re
 
+# --- Helper Reduplikasi Angka 2 (Aman dari false positive sains/teknologi) ---
+TECH_OR_SCIENTIFIC_TERMS_ENDING_IN_2 = {
+    # Satuan metrik luas & volume
+    "m", "km", "cm", "mm", "dm", "ha", "in", "ft",
+    # Senyawa kimia & rumus molekul
+    "co", "o", "no", "so", "h", "n", "cl", "tio", "h2o", "f", "br", "i",
+    # Metrik matematika, statistik, machine learning
+    "r", "l", "p", "v", "z", "x", "y", "chi", "f1",
+    # Standar komputasi, model AI, hardware, teknologi
+    "oauth", "http", "tls", "ssl", "tcp", "udp", "ipv", "win", "ps", "usb", "pci",
+    "gpt", "llama", "bert", "dalle", "gemini", "stable", "vue", "angular", "python",
+    "layer", "web", "level", "act", "gen", "part", "stage", "step", "tier",
+    "nd", "st", "rd", "th",
+}
+
+
+class Reduplication2Matcher:
+    """Matcher reduplikasi informal angka 2 bahasa Indonesia (mis. anak2, buku2).
+    
+    Kebal terhadap:
+    - Satuan metrik luas: km2, m2, cm2
+    - Senyawa kimia: CO2, O2, SO2, NO2
+    - Istilah teknologi & AI: OAuth2, HTTP2, Llama2, GPT2, PS2, Win32
+    - Notasi matematika/statistika: R2, L2
+    """
+    def __init__(self):
+        self.pattern = r"\b(?:[a-zA-Z]+-)?([a-zA-Z]+)2(-?[a-zA-Z]+)?\b"
+
+    def search(self, text):
+        for m in re.finditer(r"\b(?:[a-zA-Z]+-)?([a-zA-Z]+)2(-?[a-zA-Z]+)?\b", text):
+            base = m.group(1)
+            # Tolak jika all-caps (CO2, O2, SO2, PS2, HTTP2, R2)
+            if base.isupper():
+                continue
+            # Tolak jika mixed-case / camelCase (OAuth2, Llama2, GPT2)
+            if not (base.islower() or (base.istitle() and len(base) > 2)):
+                continue
+            base_lower = base.lower()
+            if len(base_lower) < 3:
+                continue
+            if base_lower in TECH_OR_SCIENTIFIC_TERMS_ENDING_IN_2:
+                continue
+            if not re.search(r'[aeiou]', base_lower):
+                continue
+            return m
+        return None
+
+
+REDUPLICATION_2_MATCHER = Reduplication2Matcher()
+
 CUSTOM_RULES = [
     (lambda p: 'bukan berarti' in p, [re.compile('\\bbukan\\s+berarti\\b', re.IGNORECASE)]),
     (lambda p: 'antara' in p and 'dengan' in p, [re.compile('\\bantara\\b.+?\\bdengan\\b', re.IGNORECASE)]),
@@ -138,7 +188,7 @@ CUSTOM_RULES = [
     (lambda p: 'booking room / grand opening' in p, [re.compile('\\b(booking\\s+room|grand\\s+opening|meeting\\s+room|launching\\s+produk)\\b', re.IGNORECASE)]),
     (lambda p: 'mengacuhkan (diartikan mengabaikan)' in p, [re.compile('\\b(mengacuhkan\\s+(?:peringatan|nasihat|himbauan|aturan|larangan)|absensi\\s+(?:siswa|karyawan|peserta)\\s+meningkat|tidak\\s+bergeming\\s+menatap)\\b', re.IGNORECASE)]),
     (lambda p: 'sangat mutlak / kondisi prasyarat awal' in p, [re.compile('\\b(sangat\\s+mutlak|kondisi\\s+prasyarat\\s+awal|saling\\s+tolong-menolong\\s+satu\\s+sama\\s+lain)\\b', re.IGNORECASE)]),
-    (lambda p: 'angka 2 sebagai penanda' in p, [re.compile('\\b[a-zA-Z]+2\\b')]),
+    (lambda p: 'angka 2 sebagai penanda' in p, [REDUPLICATION_2_MATCHER]),
 ]
 
 
@@ -382,7 +432,7 @@ CUSTOM_RULES.extend([
      [re.compile(r'(?i)\bmaha\s+(?:siswa|kuasa|esa|guru|pemimpin|karya|wisuda|dewa|raja)\b')]),
     # EYD-025: angka 2 sebagai penanda reduplikasi pada naskah resmi (hlm. 35)
     (lambda p: 'orang2 / anak2 / buku2' in p,
-     [re.compile(r'\b[a-zA-Z]{3,}2\b')]),
+     [REDUPLICATION_2_MATCHER]),
 ])
 
 
@@ -719,14 +769,16 @@ def _find_custom_rule(pattern_str):
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
-    Return (is_handled, matched):
+    Return (is_handled, matched, span):
     - is_handled: True jika pola punya penanganan kustom di tabel
     - matched: True jika baris memicu kaidah (satu regex cukup)
+    - span: tuple (start, end) dari karakter yang cocok atau None
     """
     compiled_list = _find_custom_rule(pattern_str)
     if compiled_list is not None:
         for rgx in compiled_list:
-            if rgx.search(clean_line):
-                return (True, True)
-        return (True, False)
-    return (False, False)
+            m = rgx.search(clean_line)
+            if m:
+                return (True, True, m.span())
+        return (True, False, None)
+    return (False, False, None)

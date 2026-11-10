@@ -94,7 +94,7 @@ Seluruh kaidah di dalam Humanizer ID **bukan karangan bebas** — setiap aturan 
 - **Pedoman Skripsi Universitas Indonesia (UI)** — kaidah sitasi dan format persamaan.
 
 ### Data Lexikon & Korpus (Komunitas Terbuka)
-- Dataset distilasi EYD V (38 kategori aturan resmi), leksikon 141 kata baku↔nonbaku, glosarium istilah teknologi (47 entri) & hukum (10 entri).
+- Dataset distilasi EYD V (38 kategori aturan resmi), leksikon 147 kata baku↔nonbaku, glosarium istilah teknologi (55 entri) & hukum (10 entri).
 - Statistik leksikon resmi KBBI: 112.538 entri (50.668 dasar + 26.835 turunan + 31.492 gabungan).
 
 > Setiap entri di [`data/kalke-indonesia.json`](data/kalke-indonesia.json) yang bersumber dari buku mencantumkan rujukan halaman (contoh: *Buku Bahasa Indonesia Kelas XI Revisi 2024, hlm. 213*), sehingga bisa diverifikasi langsung ke dokumen aslinya.
@@ -231,8 +231,8 @@ git clone https://github.com/apissaj/humanizer-id.git .agents/skills/humanizer-i
 ## Kamus Terbuka & Glosarium Lintas Bidang (`data/`)
 
 Repositori ini menyediakan dataset terbuka berupa leksikon dan pola sintaksis terstruktur:
-- [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json): 351 entri leksikon kalke terjemahan mesin, verba ringan, pola antisipatif AI, dan kaidah morfologi peluluhan KTSP resmi EYD V.
-- [**`data/glosarium-lintas-bidang.json`**](data/glosarium-lintas-bidang.json): 45+ padanan istilah baku dari berbagai kalangan profesional (Teknologi & Software, Hukum & Regulasi, Jurnalistik & Media Siber, serta Bisnis & Manajemen).
+- [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json): 363 entri leksikon kalke terjemahan mesin, verba ringan, pola antisipatif AI, dan kaidah morfologi peluluhan KTSP resmi EYD V.
+- [**`data/glosarium-lintas-bidang.json`**](data/glosarium-lintas-bidang.json): 97 padanan istilah baku dari berbagai kalangan profesional (Teknologi & Software, Hukum & Regulasi, Jurnalistik & Media Siber, serta Bisnis & Manajemen).
 
 Panduan register dan gaya penulisan mendalam untuk tiap kalangan tersedia di dokumen [**`references/panduan-gaya-lintas-kalangan.md`**](references/panduan-gaya-lintas-kalangan.md).
 
@@ -306,7 +306,7 @@ python jurnal/scripts/word_count_check.py <naskah.md>
 2. Judul maksimal 14 kata, spesifik, memuat kata kunci.
 3. Nama penulis tanpa gelar/pangkat/jabatan (Pedoman Jurnal Dikbud).
 4. Novelty dinyatakan eksplisit di akhir Introduction.
-5. Semua kaidah kebahasaan humanizer-id (351 entri) berlaku juga di sini.
+5. Semua kaidah kebahasaan humanizer-id (363 entri) berlaku juga di sini.
 
 ---
 

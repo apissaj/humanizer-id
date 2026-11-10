@@ -135,10 +135,13 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
                     continue
 
                 # Deteksi via tabel matcher data-driven (scripts/matchers.py)
-                is_handled, matched = match_custom_rules(pattern_str, clean_line)
+                res = match_custom_rules(pattern_str, clean_line)
+                is_handled, matched = res[0], res[1]
+                span = res[2] if len(res) > 2 else None
                 if not is_handled:
-                    # Fallback literal: cocokkan pola sebagai frasa literal utuh
-                    matched = bool(_compile_word_pattern(pattern_str).search(clean_line))
+                    m = _compile_word_pattern(pattern_str).search(clean_line)
+                    matched = bool(m)
+                    span = m.span() if m else None
                 if matched:
                     findings.append({
                         "baris": line_idx,
@@ -147,7 +150,8 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
                         "pola": pattern_str,
                         "saran": entry["saran_pengganti"],
                         "penjelasan": entry["penjelasan"],
-                        "kalimat": clean_line
+                        "kalimat": clean_line,
+                        "span": span
                     })
 
         # 2. Scan Glosarium Lintas Bidang (Istilah Asing Belum Dibakukan & Ungkapan Jenuh)
@@ -188,7 +192,56 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
 
     return findings
 
+def deduplicate_report_findings(findings):
+    """Konsolidasikan temuan yang tumpang tindih pada baris yang sama.
+    
+    Jika beberapa kaidah berbeda memicu span kata/frasa yang beririsan (misal
+    UNJA-005, KOH-001, dan TBG-003 pada kata 'Sedangkan'), satukan menjadi
+    satu entri laporan dengan rujukan gabungan agar laporan bersih dan informatif.
+    """
+    if not findings:
+        return []
+    
+    from collections import defaultdict
+    by_line = defaultdict(list)
+    for f in findings:
+        by_line[f["baris"]].append(f)
+        
+    consolidated = []
+    for line_num in sorted(by_line.keys()):
+        items = by_line[line_num]
+        merged = []
+        for it in items:
+            it_span = it.get("span")
+            matched = None
+            for ex in merged:
+                ex_span = ex.get("span")
+                # Jika span beririsan pada baris yang sama
+                if it_span and ex_span:
+                    if max(it_span[0], ex_span[0]) < min(it_span[1], ex_span[1]):
+                        matched = ex
+                        break
+                # Fallback: pola teks serupa
+                it_pola = str(it.get("pola", "")).strip().lower()
+                ex_pola = str(ex.get("pola", "")).strip().lower()
+                if it_pola == ex_pola or (len(it_pola) >= 4 and it_pola in ex_pola) or (len(ex_pola) >= 4 and ex_pola in it_pola):
+                    matched = ex
+                    break
+            if matched:
+                cur_ids = set(matched["id"].split(" / "))
+                if it["id"] not in cur_ids:
+                    matched["id"] = f"{matched['id']} / {it['id']}"
+                if len(it.get("penjelasan", "")) > len(matched.get("penjelasan", "")):
+                    matched["penjelasan"] = it["penjelasan"]
+            else:
+                merged.append(dict(it))
+        consolidated.extend(merged)
+    return consolidated
+
+
 def print_report(findings, filename=""):
+    findings = deduplicate_report_findings(findings)
+
     print("=" * 72)
     print("  HUMANIZER ID - LAPORAN PEMERIKSAAN GAYA, KALKE, & ISTILAH BAKU")
     if filename:
