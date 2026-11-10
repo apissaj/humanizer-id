@@ -4120,6 +4120,26 @@
           "penjelasan": "Merujuk Seri Penyuluhan Paragraf (Suladi, 2015, hlm. 55), konjungsi penumpu kalimat simpulan berkedudukan sebagai konjungsi antarkalimat (ekstraklausal) sehingga wajib diikuti tanda koma.",
           "contoh_salah": "Akibatnya banyak warga kehilangan mata pencaharian pokok mereka.",
           "contoh_benar": "Akibatnya, banyak warga kehilangan mata pencaharian pokok mereka."
+        },
+        {
+          "id": "EYD-026",
+          "pola": "se[Kapital] tanpa tanda hubung (seIndonesia, seAsia, seJawa)",
+          "saran_pengganti": [
+            "Sisipkan tanda hubung: se-Indonesia, se-Asia, se-Jawa"
+          ],
+          "penjelasan": "Merujuk EYD (hlm. 61) & PUEBI (hlm. 36), prefiks se- yang bertemu huruf kapital wajib memakai tanda hubung.",
+          "contoh_salah": "Konferensi ini dihadiri oleh perwakilan seIndonesia.",
+          "contoh_benar": "Konferensi ini dihadiri oleh perwakilan se-Indonesia."
+        },
+        {
+          "id": "EYD-027",
+          "pola": "ke[Angka] tanpa tanda hubung (ke2, ke10, ke100)",
+          "saran_pengganti": [
+            "Sisipkan tanda hubung: ke-2, ke-10, ke-100"
+          ],
+          "penjelasan": "Merujuk EYD (hlm. 61) & PUEBI (hlm. 36), prefiks ke- bertemu angka ordinal wajib memakai tanda hubung.",
+          "contoh_salah": "Perlombaan ini merupakan gelombang ke2 dari rangkaian seleksi.",
+          "contoh_benar": "Perlombaan ini merupakan gelombang ke-2 dari rangkaian seleksi."
         }
       ]
     }

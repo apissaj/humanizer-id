@@ -230,7 +230,7 @@ git clone https://github.com/apissaj/humanizer-id.git .agents/skills/humanizer-i
 ## Kamus Terbuka & Glosarium Lintas Bidang (`data/`)
 
 Repositori ini menyediakan dataset terbuka berupa leksikon dan pola sintaksis terstruktur:
-- [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json): 328 entri leksikon kalke terjemahan mesin, verba ringan, pola antisipatif AI, dan kaidah morfologi peluluhan KTSP resmi EYD V.
+- [**`data/kalke-indonesia.json`**](data/kalke-indonesia.json): 330 entri leksikon kalke terjemahan mesin, verba ringan, pola antisipatif AI, dan kaidah morfologi peluluhan KTSP resmi EYD V.
 - [**`data/glosarium-lintas-bidang.json`**](data/glosarium-lintas-bidang.json): 45+ padanan istilah baku dari berbagai kalangan profesional (Teknologi & Software, Hukum & Regulasi, Jurnalistik & Media Siber, serta Bisnis & Manajemen).
 
 Panduan register dan gaya penulisan mendalam untuk tiap kalangan tersedia di dokumen [**`references/panduan-gaya-lintas-kalangan.md`**](references/panduan-gaya-lintas-kalangan.md).
@@ -305,7 +305,7 @@ python jurnal/scripts/word_count_check.py <naskah.md>
 2. Judul maksimal 14 kata, spesifik, memuat kata kunci.
 3. Nama penulis tanpa gelar/pangkat/jabatan (Pedoman Jurnal Dikbud).
 4. Novelty dinyatakan eksplisit di akhir Introduction.
-5. Semua kaidah kebahasaan humanizer-id (328 entri) berlaku juga di sini.
+5. Semua kaidah kebahasaan humanizer-id (330 entri) berlaku juga di sini.
 
 ---
 

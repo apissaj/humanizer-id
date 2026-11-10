@@ -773,6 +773,11 @@ ightarrow$ serangkai: *mahakasih*.
 
 1. **Kata Berlabel Cakapan (RGM-001):** Kata-kata berlabel *cak* pada kamus resmi dilarang masuk ke naskah formal: *nggak* → *tidak*; *gimana* → *bagaimana*; *cuman* → *hanya*; *banget* → *sangat/amat*; *capek* → *lelah/letih*.
 
+### BK. Tanda Hubung Prefiks Ejaan Resmi (EYD Lengkap & PUEBI 2016)
+
+1. **Prefiks se- Bertemu Huruf Kapital (EYD-026):** Awalan *se-* yang dirangkaikan dengan kata berhuruf awal kapital wajib memakai tanda hubung (*se-Indonesia, se-Asia, se-Jawa*), bukan diserangkai polos (*seIndonesia*) (EYD hlm. 61).
+2. **Prefiks Ordinal ke- Bertemu Angka Arab (EYD-027):** Awalan *ke-* yang dirangkaikan dengan angka penunjuk ordinal wajib memakai tanda hubung (*ke-2, ke-10, ke-100*), bukan disatukan polos (*ke2, ke10*) (EYD hlm. 61).
+
 ### BJ. Ragam Baku Bahasa Ilmiah Perguruan Tinggi (Kuntarto UNJA & Suyatno UIN Jakarta)
 
 1. **Posesif Kalke Asing 'dari' (UIN-007):** Pola kepemilikan bahasa Indonesia langsung (*kesimpulan penelitian, tujuan program, anak Pak Lurah*), bukan lewat *dari* (*kesimpulan dari penelitian*) yang merupakan kalke struktur asing *van/of* (UNJA hlm. 98).

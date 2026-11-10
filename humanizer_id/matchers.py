@@ -588,6 +588,17 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah Tanda Hubung EYD & PUEBI (EYD-026..027) ---
+CUSTOM_RULES.extend([
+    # EYD-026: se- + huruf kapital tanpa tanda hubung (EYD hlm. 61)
+    (lambda p: 'se[Kapital] tanpa tanda hubung' in p,
+     [re.compile(r'\bse[A-Z][a-z]+\b')]),
+    # EYD-027: ke- + angka ordinal tanpa tanda hubung (EYD hlm. 61)
+    (lambda p: 'ke[Angka] tanpa tanda hubung' in p,
+     [re.compile(r'\bke\d+\b')]),
+])
+
+
 def match_custom_rules(pattern_str, clean_line):
     """Cek satu entri kaidah terhadap satu baris teks.
 
