@@ -67,6 +67,26 @@ class TestComprehensiveSmoke(unittest.TestCase):
             )
 
 
+    def test_ramlan_and_tarigan_rules(self):
+        """Memastikan kaidah M. Ramlan (pleonasme enumerasi) dan Tarigan (konjungsi ragam cakap) terdeteksi presisi."""
+        samples = [
+            ("Layanan awan menyediakan fitur, antara lain seperti penyimpanan objek.", "RML-001"),
+            ("Penerapan teknik sangat luas, contohnya misalnya dalam klasifikasi citra.", "RML-002"),
+            ("Protokol transmisi data modern, seperti contohnya TLS 1.3 dan QUIC.", "RML-003"),
+            ("Bahasa pemrograman statis, seperti misalnya Rust dan Go, aman memori.", "RML-004"),
+            ("Akurasi model menurun. Meskipun begitu, latensi inferensi terpangkas.", "TRG-001"),
+            ("Biaya komputasi kluster tinggi. Walaupun begitu, hasil eksperimen konsisten.", "TRG-002"),
+            ("Data latih berderau. Kendatipun begitu, konvergensi bobot tetap tercapai.", "TRG-003"),
+            ("Arsitektur monolitik sederhana. Sungguhpun begitu, skalabilitas terbatas.", "TRG-004"),
+        ]
+        for sentence, expected_id in samples:
+            findings = audit_text(sentence, self.kalke, self.glos)
+            ids = [f["id"] for f in findings]
+            self.assertTrue(
+                any(expected_id in id_str for id_str in ids),
+                f"Kaidah {expected_id} gagal mendeteksi: '{sentence}', terdeteksi: {ids}"
+            )
+
     def test_kridalaksana_lanin_sugono_rules(self):
         """Memastikan kaidah Kridalaksana (afiksasi ganda), Lanin (kalke campur kode), dan Sugono (temporal) terdeteksi akurat."""
         samples = [

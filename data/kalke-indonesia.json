@@ -2923,6 +2923,50 @@
           "penjelasan": "Frasa transisi 'berkenaan dengan hal tersebut' adalah basa-basi dinas yang bertele-tele dan boros kata. Dalam teks ilmiah dan penulisan lugas, gunakan konjungsi antarkalimat yang padat seperti 'terkait hal tersebut' atau 'oleh karena itu'.",
           "contoh_salah": "Berkenaan dengan hal tersebut, sistem dihentikan sementara.",
           "contoh_benar": "Terkait hal tersebut, sistem dihentikan sementara."
+        },
+        {
+          "id": "RML-001",
+          "pola": "antara lain seperti",
+          "saran_pengganti": [
+            "antara lain",
+            "seperti"
+          ],
+          "penjelasan": "Menurut Prof. Drs. M. Ramlan (Sintaksis, hlm. 142), pemakaian 'antara lain seperti' merupakan pleonasme enumerasi karena frasa 'antara lain' dan kata 'seperti' sama-sama berfungsi sebagai penanda perincian contoh. Gunakan salah satu: 'antara lain' (untuk rincian sebagian) atau 'seperti' (untuk ilustrasi contoh).",
+          "contoh_salah": "Layanan komputasi awan menyediakan berbagai fitur, antara lain seperti penyimpanan objek dan basis data relasional.",
+          "contoh_benar": "Layanan komputasi awan menyediakan berbagai fitur, antara lain penyimpanan objek dan basis data relasional."
+        },
+        {
+          "id": "RML-002",
+          "pola": "contohnya misalnya",
+          "saran_pengganti": [
+            "misalnya",
+            "sebagai contoh"
+          ],
+          "penjelasan": "Menurut M. Ramlan, penggabungan kata 'contohnya' dan 'misalnya' secara berurutan adalah pleonasme. Pilih salah satu: 'contohnya' atau 'misalnya'.",
+          "contoh_salah": "Penerapan teknik ini sangat luas, contohnya misalnya dalam klasifikasi citra medis resolusi tinggi.",
+          "contoh_benar": "Penerapan teknik ini sangat luas, misalnya dalam klasifikasi citra medis resolusi tinggi."
+        },
+        {
+          "id": "RML-003",
+          "pola": "seperti contohnya",
+          "saran_pengganti": [
+            "seperti",
+            "sebagai contoh"
+          ],
+          "penjelasan": "Menurut M. Ramlan, frasa 'seperti contohnya' mubazir. Gunakan 'seperti' atau 'sebagai contoh'.",
+          "contoh_salah": "Banyak protokol transmisi data modern, seperti contohnya TLS 1.3 dan QUIC.",
+          "contoh_benar": "Banyak protokol transmisi data modern, seperti TLS 1.3 dan QUIC."
+        },
+        {
+          "id": "RML-004",
+          "pola": "seperti misalnya",
+          "saran_pengganti": [
+            "seperti",
+            "misalnya"
+          ],
+          "penjelasan": "Menurut M. Ramlan, bentuk 'seperti misalnya' merupakan pemborosan leksikal ganda penanda contoh. Pilih kata 'seperti' atau 'misalnya'.",
+          "contoh_salah": "Bahasa pemrograman bertipe statis, seperti misalnya Rust dan Go, menjamin integritas memori.",
+          "contoh_benar": "Bahasa pemrograman bertipe statis, seperti Rust dan Go, menjamin integritas memori."
         }
       ]
     },
@@ -4782,6 +4826,46 @@
           "penjelasan": "Menurut Dendy Sugono, penunjuk waktu kurun periode yang benar adalah 'pada masa', bukan 'di masa'.",
           "contoh_salah": "Pembaruan arsitektur basis data dilakukan di masa transisi layanan.",
           "contoh_benar": "Pembaruan arsitektur basis data dilakukan pada masa transisi layanan."
+        },
+        {
+          "id": "TRG-001",
+          "pola": "meskipun begitu",
+          "saran_pengganti": [
+            "meskipun demikian"
+          ],
+          "penjelasan": "Menurut Prof. Dr. Henry Guntur Tarigan (Pengajaran Wacana, hlm. 78) dan TBBBI, frasa 'meskipun begitu' tergolong ragam lisan/cakap santai. Untuk ragam formal karya tulis ilmiah, gunakan konjungsi antarkalimat baku 'meskipun demikian'.",
+          "contoh_salah": "Akurasi model mengalami sedikit penurunan. Meskipun begitu, latensi inferensi terpangkas separuh.",
+          "contoh_benar": "Akurasi model mengalami sedikit penurunan. Meskipun demikian, latensi inferensi terpangkas separuh."
+        },
+        {
+          "id": "TRG-002",
+          "pola": "walaupun begitu",
+          "saran_pengganti": [
+            "walaupun demikian"
+          ],
+          "penjelasan": "Menurut Henry Guntur Tarigan, 'walaupun begitu' merupakan bentuk konjungsi ragam santai nonbaku. Gunakan bentuk baku 'walaupun demikian'.",
+          "contoh_salah": "Biaya komputasi kluster cukup tinggi. Walaupun begitu, hasil eksperimen sangat konsisten.",
+          "contoh_benar": "Biaya komputasi kluster cukup tinggi. Walaupun demikian, hasil eksperimen sangat konsisten."
+        },
+        {
+          "id": "TRG-003",
+          "pola": "kendatipun begitu",
+          "saran_pengganti": [
+            "kendatipun demikian"
+          ],
+          "penjelasan": "Bentuk formal ragam ilmiah yang baku adalah 'kendatipun demikian', bukan ragam lisan 'kendatipun begitu'.",
+          "contoh_salah": "Data latih memiliki sedikit derau. Kendatipun begitu, konvergensi bobot tetap tercapai.",
+          "contoh_benar": "Data latih memiliki sedikit derau. Kendatipun demikian, konvergensi bobot tetap tercapai."
+        },
+        {
+          "id": "TRG-004",
+          "pola": "sungguhpun begitu",
+          "saran_pengganti": [
+            "sungguhpun demikian"
+          ],
+          "penjelasan": "Dalam teks akademik resmi, gunakan bentuk baku 'sungguhpun demikian' alih-alih ragam percakapan 'sungguhpun begitu'.",
+          "contoh_salah": "Arsitektur monolitik lebih sederhana. Sungguhpun begitu, skalabilitas layanannya terbatas.",
+          "contoh_benar": "Arsitektur monolitik lebih sederhana. Sungguhpun demikian, skalabilitas layanannya terbatas."
         }
       ]
     }
