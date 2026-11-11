@@ -32,7 +32,7 @@ mengganggu kaidah umum, tetapi tetap memakai mesin audit, dataset kalke, dan pro
 5. Abstrak TANPA sitasi, TANPA singkatan/akronim yang belum didefinisikan, TANPA referensi silang — Pedoman Jurnal Pendidikan dan Kebudayaan Kemendikbud.
 6. Judul artikel maksimal 14 kata, spesifik, memuat kata kunci — Pedoman Jurnal Dikbud.
 7. Nama penulis tanpa gelar, pangkat, atau jabatan — Pedoman Jurnal Dikbud.
-8. Semua kaidah kebahasaan humanizer-id (420 entri) berlaku di sini juga.
+8. Semua kaidah kebahasaan humanizer-id (465 entri) berlaku di sini juga.
 
 ## Struktur IMRaD Standar Scopus
 1. Title & Abstract (150-250 kata, satu paragraf, tujuan-metode-hasil-simpulan)

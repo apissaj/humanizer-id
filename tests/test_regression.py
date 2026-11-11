@@ -92,5 +92,26 @@ class TestHumanizerRegression(unittest.TestCase):
         self.assertEqual(accidental, [], f"Entri [telaah] memicu FP pada teks benar: {accidental}")
 
 
+    def test_eyd_v_dan_naskah_dinas_2025(self):
+        """Memastikan kaidah EYD V, Seri Penyuluhan 2025, dan Tata Naskah Dinas terdeteksi akurat."""
+        cases = [
+            ("Penyelenggaraan kongres angkatan ke-XI berjalan lancar.", "SPE-011"),
+            ("Pelamar minimal lulusan S1 dari perguruan tinggi terakreditasi.", "SPE-012"),
+            ("Pejabat berwenang dengan NIP. 198204xxxxxxxxxxxx menandatangani berkas.", "DIN-006"),
+            ("Surat edaran diteken oleh Plt Kepala Biro Hukum.", "DIN-007"),
+            ("Panitia memberitahukan kepada peserta bahwa jadwal ujian diubah.", "DIN-008"),
+            ("Bagi semua pegawai menyerahkan laporan kinerja sebelum Jumat.", "DIN-009"),
+            ("Walaupun anggaran terbatas, namun riset tetap rampung tepat waktu.", "SPK-010"),
+            ("Keterlambatan pengiriman disebabkan terjadinya cuaca buruk.", "SPK-011"),
+            ("Kedua delegasi saling berpandangan sebelum menandatangani perjanjian.", "BPK-046"),
+        ]
+        for text, expected_id in cases:
+            ids = [m["id"] for m in audit_text(text, self.kalke, self.glos)]
+            self.assertIn(expected_id, ids, f"{expected_id} gagal terdeteksi pada: {text}")
+
+        clean = "Meskipun anggaran terbatas, Plt. Kepala Biro berbekal NIP 198204xxxxxxxxxxxx dan ijazah S-1 menyelesaikan rapat."
+        self.assertEqual(audit_text(clean, self.kalke, self.glos), [])
+
+
 if __name__ == "__main__":
     unittest.main(verbosity=2)

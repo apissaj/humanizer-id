@@ -264,6 +264,10 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
 - **Ordinal satu sistem (hlm. 34):** *ke-45* atau *XLV* — *ke-XLV* salah.
 - **Berkenaan vs berkenan (hlm. 39):** 'sehubungan dengan' = *berkenaan dengan*.
 
+- **Singkatan dinas & jenjang (TND 2025; SPE 2025):** tulis `NIP 19...` tanpa titik; `a.n.`, `Plt.`, `Plh.` wajib bertitik; jenjang pendidikan `S-1`, `S-2`, `S-3`, `D-3`, `D-4`; hindari `ke-` + Romawi (`angkatan XI`).
+- **Gabungan kata berimbuhan tunggal (SPE 2025):** imbuhan tunggal tetap terpisah (`tanda tangani`, `sebar luaskan`, `garis bawahi`, `penanggung jawab`, `kami beri tahukan`); berkonfiks serangkai (`pertanggungjawaban`).
+- **Kalimat dinas & korelatif (TND 2025; SPK 2025):** hindari `memberitahukan kepada ... bahwa`, `Bagi semua ... menyerahkan`, `walaupun/meskipun ..., namun ...`, `disebabkan/dikarenakan terjadinya`, dan `saling ber-...-an`.
+
 ### Format Keluaran Wajib (Diff Beranotasi):
 1. **Informasi Mode:** Tuliskan mode yang digunakan (misal: `[Mode: Akademik Ketat]`).
 2. **Naskah Hasil Suntingan:** Teks bersih dan siap digunakan.

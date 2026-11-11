@@ -760,6 +760,38 @@ CUSTOM_RULES.extend([
 ])
 
 
+# --- Kaidah EYD V (2022) & Seri Penyuluhan / Tata Naskah Dinas (2025) ---
+CUSTOM_RULES.extend([
+    # SPE-011: bilangan tingkat Romawi didahului 'ke-' (ke-XI, ke-IX) -> hapus 'ke-' atau pakai angka Arab
+    (lambda p: 'ke-Romawi bertingkat ganda' in p,
+     [re.compile(r'\bke-(?=[IVXLCDM]+\b)(?:M{0,3}(?:CM|CD|D?C{0,3})(?:XC|XL|L?X{0,3})(?:IX|IV|V?I{0,3}))\b')]),
+    # SPE-012: jenjang pendidikan tanpa tanda hubung antara huruf dan angka (S1, S2, S3, D3, D4)
+    (lambda p: 'jenjang pendidikan tanpa tanda hubung' in p,
+     [re.compile(r'\b(?:S[1-3]|D[1-4])\b')]),
+    # BPK-046: pleonasme resiprokal ganda 'saling' + ber-...-an
+    (lambda p: 'saling + ber-...-an resiprokal ganda' in p,
+     [re.compile(r'(?i)\bsaling\s+ber(?:pandang|gandeng|rangkul|papas|tabrak|peluk|jabat|sentuh|salam|tukar|hadap|temu|pegang)an\b')]),
+    # DIN-006: singkatan NIP diikuti tanda titik sebelum nomor induk
+    (lambda p: 'singkatan NIP bertitik sebelum nomor' in p,
+     [re.compile(r'\bNIP\.(?=\s*\d)')]),
+    # DIN-007: singkatan jabatan/atas nama surat dinas tanpa tanda titik (a.n, Plt, Plh)
+    (lambda p: 'singkatan jabatan surat dinas tanpa titik' in p,
+     [re.compile(r'(?:(?<!\w)a\.n(?!\.)\s+|\bPl[th](?!\.)\s+(?=[A-Z]))')]),
+    # DIN-008: verba berakhiran -kan ('memberitahukan') disisipi preposisi 'kepada' + insani
+    (lambda p: 'memberitahukan kepada [insani]' in p,
+     [re.compile(r'(?i)\bmemberitahukan\s+kepada\s+(?:saudara|bapak|ibu|peserta|seluruh|semua|para)\b')]),
+    # DIN-009: pembuka surat tanpa subjek diawali 'Bagi semua/seluruh/para ...' + verba aktif
+    (lambda p: "subjek surat diawali preposisi 'Bagi semua/seluruh" in p,
+     [re.compile(r'(?:^|[.!?]\s+)Bagi\s+(?:semua|seluruh|para)\s+[^.!?,]{3,60}\b(?:menyerahkan|mengirimkan|mengisi|melengkapi|membawa|mengikuti)\b')]),
+    # SPK-010: konjungsi korelatif ganda 'walaupun/meskipun ... , namun'
+    (lambda p: "konjungsi korelatif ganda 'walaupun/meskipun ... namun'" in p,
+     [re.compile(r'(?i)\b(?:walaupun|meskipun|biarpun|kendatipun)\b[^,.!?]{3,120},\s*namun\b')]),
+    # SPK-011: pertumpukan dua penanda kausal 'disebabkan terjadinya' / 'dikarenakan terjadinya'
+    (lambda p: 'disebabkan terjadinya / dikarenakan terjadinya' in p,
+     [re.compile(r'(?i)\b(?:disebabkan|dikarenakan)\s+terjadi(?:nya)?\b')]),
+])
+
+
 @functools.lru_cache(maxsize=1024)
 def _find_custom_rule(pattern_str):
     for predicate, compiled_list in CUSTOM_RULES:

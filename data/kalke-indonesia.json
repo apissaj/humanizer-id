@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -281,6 +281,41 @@
         "penerbit": "Pusat Data dan Analisa Tempo",
         "tahun": 2008,
         "bab_relevan": "Ekonomi Kata Jurnalistik: Pemangkasan Basa-Basi Dinas Penunda Fakta, Anti-Verba Kering, dan Pereduksian Klausa Relatif Berlebih"
+      },
+      {
+        "judul": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V) — Keputusan Kepala Badan Pengembangan dan Pembinaan Bahasa Nomor 0424/I/BS.00.01/2022",
+        "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Kemendikbudristek",
+        "tahun": 2022,
+        "bab_relevan": "Penulisan Kata, Tanda Baca, Unsur Serapan"
+      },
+      {
+        "judul": "Seri Penyuluhan Bahasa Indonesia: Ejaan (Edisi 2025)",
+        "penulis": "Tim Penyusun Badan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikdasmen",
+        "tahun": 2025,
+        "bab_relevan": "Bentuk Terikat, Gabungan Kata Berimbuhan, Tanda Hubung, Unsur Serapan (hlm. 32-117)"
+      },
+      {
+        "judul": "Seri Penyuluhan Bahasa Indonesia: Bentuk dan Pilihan Kata (Edisi 2025)",
+        "penulis": "Tim Penyusun Badan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikdasmen",
+        "tahun": 2025,
+        "bab_relevan": "Peluluhan Konsonan k-p-t-s, Bentuk Takbaku, Resiprokal Ganda (hlm. 21-58)"
+      },
+      {
+        "judul": "Seri Penyuluhan Bahasa Indonesia: Kalimat (Edisi 2025)",
+        "penulis": "Tim Penyusun Badan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikdasmen",
+        "tahun": 2025,
+        "bab_relevan": "Keefektifan Kalimat, Konjungsi Korelatif, Kehematan (hlm. 18-81)"
+      },
+      {
+        "judul": "Bahasa Indonesia dalam Tata Naskah Dinas dan Surat Dinas",
+        "penulis": "Tim Penyusun Badan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikdasmen",
+        "tahun": 2025,
+        "bab_relevan": "Ejaan Singkatan Jabatan dan NIP, Imbuhan Gabungan Kata, Struktur Kalimat Surat Dinas (hlm. 40-59)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -303,7 +338,8 @@
     "rujukan_studi_ai_slop": {
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
-    }
+    },
+    "total_entri": 465
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -2044,6 +2080,38 @@
           "penjelasan": "Menurut Dr. Felicia Utorodewo dkk., frasa 'dalam mana' merupakan terjemahan harfiah kalke bahasa Belanda (waarin) atau Inggris (in which). Ganti dengan kata penghubung temporal atau spasial yang tepat seperti 'saat', 'ketika', atau 'tempat'.",
           "contoh_salah": "Terdapat fase kritis dalam mana sistem enkripsi menyinkronkan kunci publik.",
           "contoh_benar": "Terdapat fase kritis saat sistem enkripsi menyinkronkan kunci publik."
+        },
+        {
+          "id": "DIN-008",
+          "pola": "memberitahukan kepada [insani] bahwa",
+          "saran_pengganti": [
+            "memberitahukan bahwa",
+            "memberi tahu Saudara bahwa"
+          ],
+          "penjelasan": "Verba transitif aktif memberitahukan langsung diikuti objek berita bahwa..., tidak disisipi preposisi kepada di depan penerima berita; untuk objek penerima langsung gunakan memberi tahu Saudara (Tata Naskah Dinas 2025 hlm. 57).",
+          "contoh_salah": "Melalui surat edaran resmi, panitia memberitahukan kepada peserta bahwa jadwal ujian mengalami perubahan.",
+          "contoh_benar": "Melalui surat edaran resmi, panitia memberi tahu peserta bahwa jadwal ujian mengalami perubahan."
+        },
+        {
+          "id": "DIN-009",
+          "pola": "subjek surat diawali preposisi 'Bagi semua/seluruh ... menyerahkan/mengirimkan'",
+          "saran_pengganti": [
+            "Semua [subjek] [verba]"
+          ],
+          "penjelasan": "Peletakan preposisi bagi di awal kalimat sebelum subjek membuat kalimat kehilangan subjek sintaktis saat diikuti verba aktif (Tata Naskah Dinas 2025 hlm. 57).",
+          "contoh_salah": "Bagi semua calon pegawai negeri sipil menyerahkan berkas asli ke bagian kepegawaian.",
+          "contoh_benar": "Semua calon pegawai negeri sipil menyerahkan berkas asli ke bagian kepegawaian."
+        },
+        {
+          "id": "SPK-010",
+          "pola": "konjungsi korelatif ganda 'walaupun/meskipun ... namun'",
+          "saran_pengganti": [
+            "Walaupun ..., [klausa utama]",
+            "..., namun ..."
+          ],
+          "penjelasan": "Pemakaian konjungsi subordinatif konsesif (walaupun, meskipun, biarpun) bersama konjungsi antarkalimat namun dalam satu kalimat majemuk menghilangkan induk kalimat baku (Seri Penyuluhan Kalimat 2025 hlm. 65).",
+          "contoh_salah": "Walaupun anggaran operasional sangat terbatas, namun tim peneliti menyelesaikan pengujian tepat waktu.",
+          "contoh_benar": "Walaupun anggaran operasional sangat terbatas, tim peneliti menyelesaikan pengujian tepat waktu."
         }
       ]
     },
@@ -3065,6 +3133,28 @@
           "penjelasan": "Menurut Jos Daniel Parera, penggunaan berurutan 'sebab dikarenakan' adalah bentuk kerancuan kausal. Pilih kata 'sebab' atau 'karena'.",
           "contoh_salah": "Galat koneksi muncul sebab dikarenakan waktu tunggu soket telah terlampaui.",
           "contoh_benar": "Galat koneksi muncul karena waktu tunggu soket telah terlampaui."
+        },
+        {
+          "id": "BPK-046",
+          "pola": "saling + ber-...-an resiprokal ganda (saling berpandangan / saling bergandengan / saling berangkulan)",
+          "saran_pengganti": [
+            "berpandangan",
+            "saling pandang"
+          ],
+          "penjelasan": "Konfiks ber-...-an pada verba resiprokal sudah menyatakan makna berbalasan sehingga penambahan kata saling menjadi pleonasme (Seri Penyuluhan Bentuk dan Pilihan Kata 2025 hlm. 46).",
+          "contoh_salah": "Kedua delegasi saling berpandangan sejenak sebelum menandatangani nota kesepahaman tersebut.",
+          "contoh_benar": "Kedua delegasi berpandangan sejenak sebelum menandatangani nota kesepahaman tersebut."
+        },
+        {
+          "id": "SPK-011",
+          "pola": "disebabkan terjadinya / dikarenakan terjadinya",
+          "saran_pengganti": [
+            "terjadi karena",
+            "disebabkan oleh"
+          ],
+          "penjelasan": "Penggabungan disebabkan atau dikarenakan langsung dengan terjadinya menumpuk dua penanda kausal-kejadian yang membuat kalimat tidak efektif (Kesalahan Berbahasa dalam Terbitan Ilmiah hlm. 36).",
+          "contoh_salah": "Keterlambatan pengiriman logistik disebabkan terjadinya gangguan cuaca ekstrem di jalur laut.",
+          "contoh_benar": "Keterlambatan pengiriman logistik terjadi karena gangguan cuaca ekstrem di jalur laut."
         }
       ]
     },
@@ -5088,6 +5178,412 @@
           "penjelasan": "Menurut Dr. Felicia Utorodewo dkk. (Bahasa Indonesia Pengantar Penulisan Ilmiah, hlm. 83), kata tugas 'sehubungan' wajib berpasangan dengan preposisi 'dengan'. Bentuk tanpa 'dengan' adalah cacat idiomatis.",
           "contoh_salah": "Sehubungan hal tersebut, jadwal presentasi laporan akhir dimajukan.",
           "contoh_benar": "Sehubungan dengan hal tersebut, jadwal presentasi laporan akhir dimajukan."
+        },
+        {
+          "id": "EYD-042",
+          "pola": "tuna karya",
+          "saran_pengganti": [
+            "tunakarya"
+          ],
+          "penjelasan": "Bentuk terikat tuna- ditulis serangkai menjadi tunakarya (EYD V hlm. 18; Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Program pelatihan keterampilan itu menyasar kelompok tuna karya di pinggiran kota.",
+          "contoh_benar": "Program pelatihan keterampilan itu menyasar kelompok tunakarya di pinggiran kota."
+        },
+        {
+          "id": "EYD-043",
+          "pola": "tuna wisma",
+          "saran_pengganti": [
+            "tunawisma"
+          ],
+          "penjelasan": "Bentuk terikat tuna- ditulis serangkai tanpa spasi menjadi tunawisma (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Pemerintah daerah menyediakan rumah singgah sementara bagi warga tuna wisma selama musim hujan.",
+          "contoh_benar": "Pemerintah daerah menyediakan rumah singgah sementara bagi warga tunawisma selama musim hujan."
+        },
+        {
+          "id": "EYD-044",
+          "pola": "nara sumber",
+          "saran_pengganti": [
+            "narasumber"
+          ],
+          "penjelasan": "Bentuk terikat nara- wajib ditulis serangkai tanpa spasi menjadi narasumber (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Panitia mengundang tiga nara sumber dari perguruan tinggi untuk mengisi lokakarya penulisan.",
+          "contoh_benar": "Panitia mengundang tiga narasumber dari perguruan tinggi untuk mengisi lokakarya penulisan."
+        },
+        {
+          "id": "EYD-045",
+          "pola": "nara pidana",
+          "saran_pengganti": [
+            "narapidana"
+          ],
+          "penjelasan": "Bentuk terikat nara- ditulis serangkai menjadi narapidana (EYD V hlm. 18; Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Lembaga pemasyarakatan membekali para nara pidana dengan keterampilan menjahit sebelum bebas.",
+          "contoh_benar": "Lembaga pemasyarakatan membekali para narapidana dengan keterampilan menjahit sebelum bebas."
+        },
+        {
+          "id": "EYD-046",
+          "pola": "manca negara",
+          "saran_pengganti": [
+            "mancanegara"
+          ],
+          "penjelasan": "Bentuk terikat manca- ditulis serangkai menjadi mancanegara (EYD V hlm. 18; Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Jumlah wisatawan manca negara yang berkunjung ke Yogyakarta meningkat menjelang akhir kuartal.",
+          "contoh_benar": "Jumlah wisatawan mancanegara yang berkunjung ke Yogyakarta meningkat menjelang akhir kuartal."
+        },
+        {
+          "id": "EYD-047",
+          "pola": "semi permanen",
+          "saran_pengganti": [
+            "semipermanen"
+          ],
+          "penjelasan": "Bentuk terikat semi- ditulis serangkai tanpa spasi menjadi semipermanen (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Pasar darurat itu dibangun dengan struktur semi permanen sambil menunggu gedung utama rampung.",
+          "contoh_benar": "Pasar darurat itu dibangun dengan struktur semipermanen sambil menunggu gedung utama rampung."
+        },
+        {
+          "id": "EYD-048",
+          "pola": "semi resmi",
+          "saran_pengganti": [
+            "semiresmi"
+          ],
+          "penjelasan": "Bentuk terikat semi- ditulis serangkai dengan bentuk dasarnya menjadi semiresmi (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Pertemuan antarlembaga itu berlangsung dalam suasana semi resmi agar diskusi lebih cair.",
+          "contoh_benar": "Pertemuan antarlembaga itu berlangsung dalam suasana semiresmi agar diskusi lebih cair."
+        },
+        {
+          "id": "EYD-049",
+          "pola": "sub tema",
+          "saran_pengganti": [
+            "subtema"
+          ],
+          "penjelasan": "Bentuk terikat sub- ditulis serangkai tanpa spasi menjadi subtema (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Setiap kelompok mahasiswa memilih satu sub tema yang sesuai dengan fokus kajian lingkungan.",
+          "contoh_benar": "Setiap kelompok mahasiswa memilih satu subtema yang sesuai dengan fokus kajian lingkungan."
+        },
+        {
+          "id": "EYD-050",
+          "pola": "multi etnik",
+          "saran_pengganti": [
+            "multietnik"
+          ],
+          "penjelasan": "Bentuk terikat multi- ditulis serangkai tanpa spasi menjadi multietnik (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Masyarakat perkotaan cenderung membentuk komunitas multi etnik yang saling bertukar budaya.",
+          "contoh_benar": "Masyarakat perkotaan cenderung membentuk komunitas multietnik yang saling bertukar budaya."
+        },
+        {
+          "id": "EYD-051",
+          "pola": "dwi warna",
+          "saran_pengganti": [
+            "dwiwarna"
+          ],
+          "penjelasan": "Bentuk terikat dwi- ditulis serangkai tanpa spasi menjadi dwiwarna (EYD V hlm. 18; Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Bendera dwi warna berkibar di halaman gedung balai kota sejak pagi hari.",
+          "contoh_benar": "Bendera dwiwarna berkibar di halaman gedung balai kota sejak pagi hari."
+        },
+        {
+          "id": "EYD-052",
+          "pola": "dwi bahasa",
+          "saran_pengganti": [
+            "dwibahasa"
+          ],
+          "penjelasan": "Bentuk terikat dwi- wajib ditulis serangkai menjadi dwibahasa (Seri Penyuluhan Ejaan 2025 hlm. 32).",
+          "contoh_salah": "Sekolah dasar itu menerbitkan buku cerita anak berformat dwi bahasa untuk siswa kelas awal.",
+          "contoh_benar": "Sekolah dasar itu menerbitkan buku cerita anak berformat dwibahasa untuk siswa kelas awal."
+        },
+        {
+          "id": "EYD-053",
+          "pola": "rumahtangga",
+          "saran_pengganti": [
+            "rumah tangga"
+          ],
+          "penjelasan": "Gabungan kata yang tidak berkonfiks ditulis terpisah menjadi rumah tangga (Seri Penyuluhan Ejaan 2025 hlm. 33).",
+          "contoh_salah": "Survei ekonomi mencatat kenaikan pengeluaran pangan pada kelompok rumahtangga berpendapatan menengah.",
+          "contoh_benar": "Survei ekonomi mencatat kenaikan pengeluaran pangan pada kelompok rumah tangga berpendapatan menengah."
+        },
+        {
+          "id": "EYD-054",
+          "pola": "rumahsakit",
+          "saran_pengganti": [
+            "rumah sakit"
+          ],
+          "penjelasan": "Gabungan kata bebas tanpa imbuhan pengapit ditulis terpisah menjadi rumah sakit (Seri Penyuluhan Ejaan 2025 hlm. 33).",
+          "contoh_salah": "Pasien segera dirujuk menuju rumahsakit provinsi agar memperoleh penanganan spesialis jantung.",
+          "contoh_benar": "Pasien segera dirujuk menuju rumah sakit provinsi agar memperoleh penanganan spesialis jantung."
+        },
+        {
+          "id": "EYD-055",
+          "pola": "tatabahasa",
+          "saran_pengganti": [
+            "tata bahasa"
+          ],
+          "penjelasan": "Gabungan kata tata bahasa ditulis terpisah kecuali saat mengemban konfiks penuh ketatabahasaan (Seri Penyuluhan Ejaan 2025 hlm. 33).",
+          "contoh_salah": "Penyunting memeriksa ketepatan tatabahasa sebelum naskah buku pelajaran dikirim ke percetakan.",
+          "contoh_benar": "Penyunting memeriksa ketepatan tata bahasa sebelum naskah buku pelajaran dikirim ke percetakan."
+        },
+        {
+          "id": "EYD-056",
+          "pola": "tatacara",
+          "saran_pengganti": [
+            "tata cara"
+          ],
+          "penjelasan": "Gabungan kata tata cara harus ditulis terpisah dengan spasi (Seri Penyuluhan Ejaan 2025 hlm. 33).",
+          "contoh_salah": "Pedoman teknis menjelaskan tatacara pendaftaran peserta secara terperinci melalui portal resmi.",
+          "contoh_benar": "Pedoman teknis menjelaskan tata cara pendaftaran peserta secara terperinci melalui portal resmi."
+        },
+        {
+          "id": "EYD-057",
+          "pola": "pertanggung jawaban",
+          "saran_pengganti": [
+            "pertanggungjawaban"
+          ],
+          "penjelasan": "Gabungan kata yang mendapat konfiks per-...-an ditulis serangkai menjadi pertanggungjawaban (Tata Naskah Dinas 2025 hlm. 41).",
+          "contoh_salah": "Bendahara kegiatan menyerahkan laporan pertanggung jawaban anggaran kepada tim pemeriksa internal.",
+          "contoh_benar": "Bendahara kegiatan menyerahkan laporan pertanggungjawaban anggaran kepada tim pemeriksa internal."
+        },
+        {
+          "id": "SPE-009",
+          "pola": "was-was",
+          "saran_pengganti": [
+            "waswas"
+          ],
+          "penjelasan": "Kata waswas bukan bentuk ulang karena unsurnya tidak berdiri sendiri, sehingga ditulis serangkai tanpa tanda hubung (Seri Penyuluhan Ejaan 2025 hlm. 85).",
+          "contoh_salah": "Warga pesisir merasa was-was ketika ketinggian gelombang laut meningkat pada malam hari.",
+          "contoh_benar": "Warga pesisir merasa waswas ketika ketinggian gelombang laut meningkat pada malam hari."
+        },
+        {
+          "id": "SPE-010",
+          "pola": "dagdigdug",
+          "saran_pengganti": [
+            "dag-dig-dug"
+          ],
+          "penjelasan": "Bentuk ulang bunyi berunsur tiga memakai tanda hubung di antara unsurnya menjadi dag-dig-dug (Seri Penyuluhan Ejaan 2025 hlm. 85).",
+          "contoh_salah": "Jantung peserta ujian berdebar dagdigdug saat pengumuman kelulusan dibuka serentak.",
+          "contoh_benar": "Jantung peserta ujian berdebar dag-dig-dug saat pengumuman kelulusan dibuka serentak."
+        },
+        {
+          "id": "SPE-011",
+          "pola": "ke-Romawi bertingkat ganda (angkatan ke-XI / HUT ke-IX)",
+          "saran_pengganti": [
+            "angkatan XI",
+            "angkatan ke-11",
+            "angkatan kesebelas"
+          ],
+          "penjelasan": "Penulisan bilangan tingkat tidak boleh menggabungkan prefiks ke- dengan angka Romawi; pilih angkatan XI, angkatan ke-11, atau angkatan kesebelas (Seri Penyuluhan Ejaan 2025 hlm. 62).",
+          "contoh_salah": "Acara peringatan hari ulang tahun lembaga angkatan ke-XI diselenggarakan di aula utama.",
+          "contoh_benar": "Acara peringatan hari ulang tahun lembaga angkatan XI diselenggarakan di aula utama."
+        },
+        {
+          "id": "SPE-012",
+          "pola": "jenjang pendidikan tanpa tanda hubung (S1/S2/S3/D3/D4)",
+          "saran_pengganti": [
+            "S-1 / S-2 / S-3 / D-3 / D-4"
+          ],
+          "penjelasan": "Tanda hubung merangkai huruf dengan angka pada singkatan jenjang pendidikan: S-1, S-2, S-3, D-3, D-4 (Seri Penyuluhan Ejaan 2025 hlm. 86).",
+          "contoh_salah": "Calon pelamar wajib menyertakan salinan ijazah pendidikan terakhir minimal S1 atau D4.",
+          "contoh_benar": "Calon pelamar wajib menyertakan salinan ijazah pendidikan terakhir minimal S-1 atau D-4."
+        },
+        {
+          "id": "SPE-013",
+          "pola": "garisbawahi",
+          "saran_pengganti": [
+            "garis bawahi"
+          ],
+          "penjelasan": "Gabungan kata yang hanya mendapat akhiran (-i atau -kan) tanpa awalan tetap ditulis terpisah: garis bawahi (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Pembaca perlu garisbawahi gagasan pokok pada paragraf pembuka sebelum merangkum artikel.",
+          "contoh_benar": "Pembaca perlu menggarisbawahi gagasan pokok pada paragraf pembuka sebelum merangkum artikel."
+        },
+        {
+          "id": "SPE-014",
+          "pola": "tandatangani",
+          "saran_pengganti": [
+            "tanda tangani"
+          ],
+          "penjelasan": "Gabungan kata tanda tangan yang hanya berakhiran -i tanpa awalan tetap ditulis terpisah: tanda tangani (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Surat perjanjian kerja sama tersebut harus segera Anda tandatangani sebelum masa berlaku berakhir.",
+          "contoh_benar": "Surat perjanjian kerja sama tersebut harus segera Anda tanda tangani sebelum masa berlaku berakhir."
+        },
+        {
+          "id": "SPE-015",
+          "pola": "sebarluaskan",
+          "saran_pengganti": [
+            "sebar luaskan"
+          ],
+          "penjelasan": "Gabungan kata sebar luas yang hanya berakhiran -kan ditulis terpisah: sebar luaskan (Seri Penyuluhan Ejaan 2025 hlm. 35; Tata Naskah Dinas 2025 hlm. 41).",
+          "contoh_salah": "Informasi jadwal seleksi nasional itu harap Anda sebarluaskan kepada seluruh mahasiswa tingkat akhir.",
+          "contoh_benar": "Informasi jadwal seleksi nasional itu harap Anda sebar luaskan kepada seluruh mahasiswa tingkat akhir."
+        },
+        {
+          "id": "SPE-016",
+          "pola": "lipatgandakan",
+          "saran_pengganti": [
+            "lipat gandakan"
+          ],
+          "penjelasan": "Gabungan kata lipat ganda yang hanya berakhiran -kan tanpa awalan ditulis terpisah: lipat gandakan (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Kapasitas produksi pabrik komponen itu akan kami lipatgandakan menjelang kuartal ketiga.",
+          "contoh_benar": "Kapasitas produksi pabrik komponen itu akan kami lipat gandakan menjelang kuartal ketiga."
+        },
+        {
+          "id": "SPE-017",
+          "pola": "bebastugaskan",
+          "saran_pengganti": [
+            "bebas tugaskan"
+          ],
+          "penjelasan": "Gabungan kata bebas tugas yang hanya mendapat akhiran -kan tetap ditulis terpisah: bebas tugaskan (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Pimpinan unit terpaksa bebastugaskan petugas lapangan yang melanggar prosedur keselamatan kerja.",
+          "contoh_benar": "Pimpinan unit terpaksa membebastugaskan petugas lapangan yang melanggar prosedur keselamatan kerja."
+        },
+        {
+          "id": "SPE-018",
+          "pola": "ujicobakan",
+          "saran_pengganti": [
+            "uji cobakan"
+          ],
+          "penjelasan": "Gabungan kata uji coba yang hanya berakhiran -kan tanpa awalan ditulis terpisah: uji cobakan (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Modul aplikasi presensi digital itu akan tim pengembang ujicobakan pada unit layanan terpadu.",
+          "contoh_benar": "Modul aplikasi presensi digital itu akan tim pengembang uji cobakan pada unit layanan terpadu."
+        },
+        {
+          "id": "BPK-035",
+          "pola": "menyabut",
+          "saran_pengganti": [
+            "mencabut"
+          ],
+          "penjelasan": "Konsonan /c/ pada kata dasar cabut tidak luluh dengan prefiks meng-, sehingga bentuk bakunya mencabut (Seri Penyuluhan Bentuk dan Pilihan Kata 2025 hlm. 14).",
+          "contoh_salah": "Petugas dinas pertamanan menyabut rumput liar yang tumbuh di sepanjang trotoar jalan utama.",
+          "contoh_benar": "Petugas dinas pertamanan mencabut rumput liar yang tumbuh di sepanjang trotoar jalan utama."
+        },
+        {
+          "id": "BPK-036",
+          "pola": "menyontoh",
+          "saran_pengganti": [
+            "mencontoh"
+          ],
+          "penjelasan": "Konsonan /c/ pada kata dasar contoh tidak luluh oleh prefiks meng-, sehingga bentuk bakunya mencontoh (Seri Penyuluhan Bentuk dan Pilihan Kata 2025 hlm. 14).",
+          "contoh_salah": "Kabupaten tetangga menyontoh sistem pengelolaan sampah terpadu milik pemerintah kota.",
+          "contoh_benar": "Kabupaten tetangga mencontoh sistem pengelolaan sampah terpadu milik pemerintah kota."
+        },
+        {
+          "id": "BPK-037",
+          "pola": "diketemukan",
+          "saran_pengganti": [
+            "ditemukan"
+          ],
+          "penjelasan": "Kata dasar verba ini adalah temu, bukan ketemu; bentuk pasif bakunya ditemukan (Seri Penyuluhan Bentuk dan Pilihan Kata 2025 hlm. 27).",
+          "contoh_salah": "Sejumlah artefak tembikar kuno diketemukan di situs penggalian dekat muara sungai.",
+          "contoh_benar": "Sejumlah artefak tembikar kuno ditemukan di situs penggalian dekat muara sungai."
+        },
+        {
+          "id": "BPK-038",
+          "pola": "mengaktipkan",
+          "saran_pengganti": [
+            "mengaktifkan"
+          ],
+          "penjelasan": "Kata dasar serapan baku adalah aktif dengan huruf f, sehingga bentuk turunannya mengaktifkan (Tata Naskah Dinas 2025 hlm. 40).",
+          "contoh_salah": "Operator jaringan segera mengaktipkan fitur pengamanan ganda pada seluruh akun administrator.",
+          "contoh_benar": "Operator jaringan segera mengaktifkan fitur pengamanan ganda pada seluruh akun administrator."
+        },
+        {
+          "id": "BPK-039",
+          "pola": "mengkesampingkan",
+          "saran_pengganti": [
+            "mengesampingkan"
+          ],
+          "penjelasan": "Konsonan awal /k/ pada gabungan ke samping luluh ketika mendapat prefiks meng-, sehingga bentuk bakunya mengesampingkan (Tata Naskah Dinas 2025 hlm. 40).",
+          "contoh_salah": "Hakim mengingatkan agar kedua belah pihak tidak mengkesampingkan bukti tertulis selama persidangan.",
+          "contoh_benar": "Hakim mengingatkan agar kedua belah pihak tidak mengesampingkan bukti tertulis selama persidangan."
+        },
+        {
+          "id": "BPK-040",
+          "pola": "mengritik",
+          "saran_pengganti": [
+            "mengkritik"
+          ],
+          "penjelasan": "Kata dasar berawal gugus konsonan kr- (kritik) tidak meluluh ketika diawali meng-, sehingga bentuk bakunya mengkritik (Tata Naskah Dinas 2025 hlm. 40).",
+          "contoh_salah": "Pengamat kebijakan publik mengritik lambatnya penyaluran bantuan logistik ke daerah terdampak.",
+          "contoh_benar": "Pengamat kebijakan publik mengkritik lambatnya penyaluran bantuan logistik ke daerah terdampak."
+        },
+        {
+          "id": "BPK-041",
+          "pola": "menglasifikasi",
+          "saran_pengganti": [
+            "mengklasifikasi",
+            "mengklasifikasikan"
+          ],
+          "penjelasan": "Gugus konsonan awal kl- pada klasifikasi tidak luluh saat diberi prefiks meng-, sehingga bentuk bakunya mengklasifikasi atau mengklasifikasikan (Tata Naskah Dinas 2025 hlm. 40).",
+          "contoh_salah": "Pustakawan menglasifikasi koleksi arsip langka berdasarkan tahun terbit dan asal penerbitan.",
+          "contoh_benar": "Pustakawan mengklasifikasikan koleksi arsip langka berdasarkan tahun terbit dan asal penerbitan."
+        },
+        {
+          "id": "BPK-042",
+          "pola": "kait-mengkait",
+          "saran_pengganti": [
+            "mengait",
+            "berkaitan"
+          ],
+          "penjelasan": "Bentuk berulang kait-mengkait tidak baku karena prefiks meng- meluluhkan konsonan /k/ dan pengulangan ini mubazir; gunakan mengait atau berkaitan (Tata Naskah Dinas 2025 hlm. 40).",
+          "contoh_salah": "Permasalahan distribusi dan harga bahan pokok saling kait-mengkait dalam rantai pasok daerah.",
+          "contoh_benar": "Permasalahan distribusi dan harga bahan pokok berkaitan erat dalam rantai pasok daerah."
+        },
+        {
+          "id": "BPK-043",
+          "pola": "penandatangan",
+          "saran_pengganti": [
+            "penanda tangan"
+          ],
+          "penjelasan": "Gabungan kata yang hanya mendapat awalan pe- tanpa akhiran tetap ditulis terpisah: penanda tangan (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Nama penandatangan berita acara serah terima wajib dicantumkan lengkap beserta nomor induk pegawai.",
+          "contoh_benar": "Nama penanda tangan berita acara serah terima wajib dicantumkan lengkap beserta nomor induk pegawai."
+        },
+        {
+          "id": "BPK-044",
+          "pola": "penanggungjawab",
+          "saran_pengganti": [
+            "penanggung jawab"
+          ],
+          "penjelasan": "Gabungan kata yang hanya menerima awalan pe- tanpa akhiran tetap ditulis terpisah: penanggung jawab (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Koordinator lapangan bertindak sebagai penanggungjawab utama atas keselamatan seluruh relawan.",
+          "contoh_benar": "Koordinator lapangan bertindak sebagai penanggung jawab utama atas keselamatan seluruh relawan."
+        },
+        {
+          "id": "BPK-045",
+          "pola": "bekerjabakti",
+          "saran_pengganti": [
+            "bekerja bakti"
+          ],
+          "penjelasan": "Gabungan kata kerja bakti yang hanya mendapat awalan ber- tanpa akhiran tetap ditulis terpisah: bekerja bakti (Seri Penyuluhan Ejaan 2025 hlm. 35).",
+          "contoh_salah": "Warga desa bekerja sama dan bekerjabakti membersihkan saluran air menjelang puncak musim hujan.",
+          "contoh_benar": "Warga desa bekerja sama dan bekerja bakti membersihkan saluran air menjelang puncak musim hujan."
+        },
+        {
+          "id": "DIN-005",
+          "pola": "kami beritahukan",
+          "saran_pengganti": [
+            "kami beri tahukan"
+          ],
+          "penjelasan": "Pada konstruksi pasif diri tanpa awalan mem-, gabungan kata beri tahu yang hanya berakhiran -kan wajib ditulis terpisah menjadi kami beri tahukan (Tata Naskah Dinas 2025 hlm. 58; Seri Penyuluhan Ejaan 2025 hlm. 36).",
+          "contoh_salah": "Dengan surat ini kami beritahukan bahwa jadwal rapat koordinasi diundur ke minggu depan.",
+          "contoh_benar": "Dengan surat ini kami beri tahukan bahwa jadwal rapat koordinasi diundur ke minggu depan."
+        },
+        {
+          "id": "DIN-006",
+          "pola": "singkatan NIP bertitik sebelum nomor (NIP. 19...)",
+          "saran_pengganti": [
+            "NIP [Nomor]"
+          ],
+          "penjelasan": "Singkatan resmi berhuruf kapital penuh seperti NIP tidak diikuti tanda titik di belakangnya: tulis NIP 1987... bukan NIP. 1987... (Tata Naskah Dinas 2025 hlm. 43).",
+          "contoh_salah": "Surat tugas itu disahkan oleh pejabat berwenang dengan NIP. 198204xxxxxxxxxxxx.",
+          "contoh_benar": "Surat tugas itu disahkan oleh pejabat berwenang dengan NIP 198204xxxxxxxxxxxx."
+        },
+        {
+          "id": "DIN-007",
+          "pola": "singkatan jabatan surat dinas tanpa titik (a.n / Plt / Plh)",
+          "saran_pengganti": [
+            "a.n.",
+            "Plt.",
+            "Plh."
+          ],
+          "penjelasan": "Singkatan frasa dan jabatan pada naskah dinas seperti a.n., Plt., dan Plh. wajib diakhiri tanda titik (Tata Naskah Dinas 2025 hlm. 43-44).",
+          "contoh_salah": "Surat edaran diterbitkan oleh Plt Kepala Biro Hukum atas persetujuan pimpinan instansi.",
+          "contoh_benar": "Surat edaran diterbitkan oleh Plt. Kepala Biro Hukum atas persetujuan pimpinan instansi."
         }
       ]
     }

@@ -836,6 +836,13 @@ ightarrow$ serangkai: *mahakasih*.
 1. **Koma Konjungsi Penumpu Simpulan (PRG-001):** Konjungsi penumpu simpulan yang berfungsi sebagai konjungsi antarkalimat wajib diikuti koma: *Akhirnya,* / *Akibatnya,* / *Oleh karena itu,* / *Maka dari itu,* / *Dengan demikian,* / *Berdasarkan uraian di atas,* (Suladi, 2015, hlm. 55).
 2. **Kesatuan Paragraf & Kalimat Sumbang (PRG-002) `[telaah]`:** Tiap paragraf hanya boleh memuat satu gagasan utama; pisahkan topik baru ke paragraf terpisah dan hapus kalimat yang menyimpang dari kalimat topik (hlm. 13-14).
 
+### BU. EYD Edisi V (2022), Seri Penyuluhan (2025), & Tata Naskah Dinas (2025)
+
+1. **Bentuk Terikat & Gabungan Kata (EYD-042..057):** Bentuk terikat (`tuna-`, `nara-`, `manca-`, `semi-`, `sub-`, `multi-`, `dwi-`) ditulis serangkai (`tunakarya`, `narasumber`, `mancanegara`, `semipermanen`, `subtema`, `multietnik`, `dwibahasa`). Gabungan kata bebas tanpa konfiks ditulis terpisah (`rumah tangga`, `rumah sakit`, `tata bahasa`, `tata cara`); berkonfiks penuh serangkai (`pertanggungjawaban`).
+2. **Gabungan Kata Berimbuhan Tunggal (SPE-009..018, BPK-043..045, DIN-005):** Gabungan kata dengan awalan atau akhiran saja tetap terpisah (`garis bawahi`, `tanda tangani`, `sebar luaskan`, `lipat gandakan`, `bebas tugaskan`, `uji cobakan`, `penanda tangan`, `penanggung jawab`, `bekerja bakti`, `kami beri tahukan`). `waswas` tanpa tanda hubung; `dag-dig-dug` bertanda hubung.
+3. **Bilangan Tingkat, Jenjang, & Singkatan Dinas (SPE-011..012, DIN-006..007):** Hindari `ke-` + Romawi (`angkatan ke-XI` → `angkatan XI` / `angkatan ke-11`). Jenjang wajib bertanda hubung (`S-1`, `S-2`, `S-3`, `D-3`, `D-4`). `NIP` tidak bertitik sebelum nomor (`NIP 198204xxxxxxxxxxxx`); `a.n.`, `Plt.`, `Plh.` wajib bertitik.
+4. **Morfologi, Resiprokal, & Kalimat Efektif (BPK-035..042, BPK-046, DIN-008..009, SPK-010..011):** Gunakan `mencabut`, `mencontoh`, `ditemukan`, `mengaktifkan`, `mengesampingkan`, `mengkritik`, `mengklasifikasi`, `berkaitan`. Hindari `saling ber-...-an` (`berpandangan`), `memberitahukan kepada ... bahwa`, `Bagi semua ... menyerahkan`, `walaupun/meskipun ..., namun ...`, dan `disebabkan/dikarenakan terjadinya`.
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
