@@ -15,5 +15,4 @@ humanizer_id.egg-info/
 .venv/
 
 # Derived working artifacts (regenerable from books/)
-work/text_dumps/
-work/_candidate_*.json
+work/
