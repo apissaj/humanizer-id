@@ -650,7 +650,7 @@
           "pola": "sehingga kami",
           "saran_pengganti": [
             "; oleh karena itu,",
-            ", sehingga"
+            "sehingga"
           ],
           "penjelasan": "Konjungsi intrakalimat subordinatif 'sehingga' dilarang berdiri di awal kalimat mandiri (kalimat buntung). Hubungkan dengan klausa sebelumnya menggunakan koma atau ganti konjungsi antarkalimat 'Oleh karena itu' (Modul Kalimat Efektif UNJA, hlm. 127).",
           "contoh_salah": "Server mengalami lonjakan beban. Sehingga kami menunda proses batch.",
@@ -816,40 +816,6 @@
           "penjelasan": "Bentuk lisan tidak baku. Bentuk baku sesuai KBBI adalah 'balas' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
           "contoh_salah": "Kami mohon agar dibales segera.",
           "contoh_benar": "Kami mohon agar dibalas segera."
-        },
-        {
-          "id": "S12X-002",
-          "pola": "ngirim",
-          "saran_pengganti": [
-            "mengirim"
-          ],
-          "penjelasan": "Bentuk lisan tidak baku dengan penyengauan dan penanggalan awalan. Bentuk baku: 'mengirim' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
-          "contoh_salah": "Mohon ngirim berkas sebelum deadline.",
-          "contoh_benar": "Mohon mengirim berkas sebelum tenggat."
-        },
-        {
-          "id": "S12X-003",
-          "pola": "soalnya",
-          "saran_pengganti": [
-            "karena",
-            "sebab",
-            "oleh sebabnya"
-          ],
-          "penjelasan": "Bentuk percakapan tidak baku. Dalam ragam formal gunakan 'karena' atau 'sebab' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
-          "contoh_salah": "Rapat ditunda, soalnya ruangan belum siap.",
-          "contoh_benar": "Rapat ditunda karena ruangan belum siap."
-        },
-        {
-          "id": "S12X-004",
-          "pola": "bilang",
-          "saran_pengganti": [
-            "berkata",
-            "menyatakan",
-            "memberitahukan"
-          ],
-          "penjelasan": "Bentuk percakapan tidak baku. Dalam ragam formal gunakan 'berkata' atau 'memberitahukan' (Buku Kelas XII Kemendikbudristek, 2024, Tabel 1.6 hlm. 33).",
-          "contoh_salah": "Beliau bilang rapat dimulai besok.",
-          "contoh_benar": "Beliau memberitahukan bahwa rapat dimulai besok."
         },
         {
           "id": "KJK-001",
@@ -3155,6 +3121,40 @@
           "penjelasan": "Penggabungan disebabkan atau dikarenakan langsung dengan terjadinya menumpuk dua penanda kausal-kejadian yang membuat kalimat tidak efektif (Kesalahan Berbahasa dalam Terbitan Ilmiah hlm. 36).",
           "contoh_salah": "Keterlambatan pengiriman logistik disebabkan terjadinya gangguan cuaca ekstrem di jalur laut.",
           "contoh_benar": "Keterlambatan pengiriman logistik terjadi karena gangguan cuaca ekstrem di jalur laut."
+        },
+        {
+          "id": "TM-001",
+          "pola": "kurang lebih sekitar",
+          "saran_pengganti": [
+            "kurang lebih",
+            "sekitar",
+            "kira-kira"
+          ],
+          "penjelasan": "Pleonasme aproksimatif ganda. Cukup gunakan salah satu: kurang lebih atau sekitar (Rujukan Bambang Trim, Penerbit BRIN 2023).",
+          "contoh_salah": "Jumlah peserta pelatihan ini ada kurang lebih sekitar seratus orang.",
+          "contoh_benar": "Jumlah peserta pelatihan ini ada sekitar seratus orang."
+        },
+        {
+          "id": "TM-002",
+          "pola": "semata-mata hanya",
+          "saran_pengganti": [
+            "semata-mata",
+            "hanya"
+          ],
+          "penjelasan": "Pleonasme pembatas ganda. Cukup gunakan salah satu: semata-mata atau hanya (Rujukan Bambang Trim, Penerbit BRIN 2023).",
+          "contoh_salah": "Keputusan ini diambil tidak semata-mata hanya untuk kepentingan kelompok.",
+          "contoh_benar": "Keputusan ini diambil tidak semata-mata demi kepentingan kelompok."
+        },
+        {
+          "id": "TM-003",
+          "pola": "misteri rahasia",
+          "saran_pengganti": [
+            "misteri",
+            "rahasia"
+          ],
+          "penjelasan": "Pleonasme sinonimik lewah. Misteri telah mengandung arti rahasia (Rujukan Bambang Trim, Penerbit BRIN 2023).",
+          "contoh_salah": "Ilmuwan berusaha mengungkap misteri rahasia di palung laut terdalam.",
+          "contoh_benar": "Ilmuwan berusaha mengungkap misteri di palung laut terdalam."
         }
       ]
     },
@@ -5584,6 +5584,47 @@
           "penjelasan": "Singkatan frasa dan jabatan pada naskah dinas seperti a.n., Plt., dan Plh. wajib diakhiri tanda titik (Tata Naskah Dinas 2025 hlm. 43-44).",
           "contoh_salah": "Surat edaran diterbitkan oleh Plt Kepala Biro Hukum atas persetujuan pimpinan instansi.",
           "contoh_benar": "Surat edaran diterbitkan oleh Plt. Kepala Biro Hukum atas persetujuan pimpinan instansi."
+        },
+        {
+          "id": "KK-001",
+          "pola": "mensosialisasi",
+          "saran_pengganti": [
+            "menyosialisasi",
+            "menyosialisasikan"
+          ],
+          "penjelasan": "Morfofonemik prefiks meN- pada kata dasar berfonem awal /s/ wajib luluh menjadi /ny/ (Rujukan Kantor Bahasa Kaltim 2005).",
+          "contoh_salah": "Lembaga terkait wajib mensosialisasi regulasi baru tersebut ke masyarakat.",
+          "contoh_benar": "Lembaga terkait wajib menyosialisasikan regulasi baru tersebut ke masyarakat."
+        },
+        {
+          "id": "KK-002",
+          "pola": "mengkontrol",
+          "saran_pengganti": [
+            "mengontrol"
+          ],
+          "penjelasan": "Morfofonemik meN- pada kata dasar asing berfonem /k/ yang telah diserap wajib luluh menjadi /ng/ (Rujukan Kantor Bahasa Kaltim 2005).",
+          "contoh_salah": "Pemerintah berupaya mengkontrol laju inflasi bahan pokok.",
+          "contoh_benar": "Pemerintah berupaya mengontrol laju inflasi bahan pokok."
+        },
+        {
+          "id": "KK-003",
+          "pola": "keefektivan",
+          "saran_pengganti": [
+            "keefektifan"
+          ],
+          "penjelasan": "Bentuk baku turunan konfiks ke-...-an dari kata dasar efektif mempertahankan fonem /f/, bukan /v/ (Rujukan Kantor Bahasa Kaltim 2005).",
+          "contoh_salah": "Studi ini meneliti tingkat keefektivan vaksin pada kelompok lansia.",
+          "contoh_benar": "Studi ini meneliti tingkat keefektifan vaksin pada kelompok lansia."
+        },
+        {
+          "id": "KK-004",
+          "pola": "diprioritas",
+          "saran_pengganti": [
+            "diprioritaskan"
+          ],
+          "penjelasan": "Bentuk pasif verba turunan prioritas wajib mempertahankan sufiks -kan (diprioritaskan, bukan diprioritas) (Rujukan Kantor Bahasa Kaltim 2005).",
+          "contoh_salah": "Penyelesaian infrastruktur jalan desa harus diprioritas tahun depan.",
+          "contoh_benar": "Penyelesaian infrastruktur jalan desa harus diprioritaskan tahun depan."
         }
       ]
     }

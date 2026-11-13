@@ -703,5 +703,15 @@
     "source_url": "https://badanbahasa.kemendikdasmen.go.id/",
     "status": "skipped:out-of-scope",
     "catatan": "Berisi tata kelola dan standar pengujian UKBI, bukan kaidah penulisan/ejaan preskriptif."
+  },
+  {
+    "title": "Taktis Menyunting: Panduan Belajar & Berlatih Mematut Naskah Sehebat Penyunting Profesional (Penerbit BRIN)",
+    "file": "books/taktis_menyunting_brin.pdf",
+    "source_url": "https://penerbit.brin.go.id/press/catalog/book/835",
+    "download_url": "https://penerbit.brin.go.id/press/catalog/download/835/796/19947",
+    "sha256": "89640c39b38d49c013a37453c6aaddddbf738e43f332bfc55247bfb89b8bca0f",
+    "pages": 253,
+    "avg_chars_per_page": 1061.5,
+    "status": "downloaded_verified"
   }
 ]

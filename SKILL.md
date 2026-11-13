@@ -843,6 +843,33 @@ ightarrow$ serangkai: *mahakasih*.
 3. **Bilangan Tingkat, Jenjang, & Singkatan Dinas (SPE-011..012, DIN-006..007):** Hindari `ke-` + Romawi (`angkatan ke-XI` → `angkatan XI` / `angkatan ke-11`). Jenjang wajib bertanda hubung (`S-1`, `S-2`, `S-3`, `D-3`, `D-4`). `NIP` tidak bertitik sebelum nomor (`NIP 198204xxxxxxxxxxxx`); `a.n.`, `Plt.`, `Plh.` wajib bertitik.
 4. **Morfologi, Resiprokal, & Kalimat Efektif (BPK-035..042, BPK-046, DIN-008..009, SPK-010..011):** Gunakan `mencabut`, `mencontoh`, `ditemukan`, `mengaktifkan`, `mengesampingkan`, `mengkritik`, `mengklasifikasi`, `berkaitan`. Hindari `saling ber-...-an` (`berpandangan`), `memberitahukan kepada ... bahwa`, `Bagi semua ... menyerahkan`, `walaupun/meskipun ..., namun ...`, dan `disebabkan/dikarenakan terjadinya`.
 
+
+### BV. Kaidah Editorial Taktis Menyunting & Preskripsi Terbitan Ilmiah (Rujukan Bambang Trim Penerbit BRIN 2023 & Winarti dkk. Kantor Bahasa Kaltim 2005)
+1. **Preservasi Makna Kata Spesifik (Penerbit BRIN):**
+   - *acuh* bermakna peduli (jangan gunakan *acuh* untuk arti cuek tanpa kata ingkar *tidak*; gunakan *tidak acuh*).
+   - *bergeming* bermakna diam/kukuh/tidak bergerak (jangan gunakan *bergeming* untuk arti goyah tanpa ingkar; gunakan *tidak bergeming*).
+   - *senonoh* bermakna patut/sopan (larang pemakaian *senonoh* dalam arti asusila tanpa kata ingkar; gunakan *tidak senonoh*).
+   - *tukas* bermakna menuduh (larang penggunaan *tukasnya* sebagai varian pewarta kata netral; gunakan *ujarnya* atau *tegasnya*).
+2. **Diferensiasi Nomina Relasional & Waktu (Penerbit BRIN):**
+   - Pembedaan *langganan* (pihak penyedia/toko) vs *pelanggan* (konsumen pembeli).
+   - Pembedaan *jam* (rentang durasi, mis. *selama dua jam*) vs *pukul* (titik saat spesifik, mis. *pukul 14.00 WIB*).
+   - Pembedaan *tiap-tiap* (posisi awal anteseden nomina) vs *masing-masing* (distributif posisi akhir).
+   - Pembedaan *pemelajar* (orang yang belajar/siswa/mahasiswa) vs *pembelajar* (pengajar/instruktur yang membelajarkan).
+   - Pembedaan *permukiman* (kawasan tempat tinggal) vs *pemukiman* (proses memukimkan).
+   - Pembedaan *persebaran* (kondisi/peta tersebarnya objek) vs *penyebaran* (tindakan aktif menyebarkan).
+3. **Pembersihan Pleonasme Leksikal Ekstrem & Kontaminasi Partitif (Penerbit BRIN):**
+   - Larang *sangat sempurna sekali* / *luar biasa sempurna* (cukup *sempurna*).
+   - Larang *kurang lebih sekitar* (pilih: *kurang lebih* atau *sekitar*).
+   - Larang *semata-mata hanya* (pilih: *semata-mata* atau *hanya*).
+   - Larang *misteri rahasia* (pilih: *misteri* atau *rahasia*).
+   - Larang kontaminasi partitif dan enumeratif terbuka: frasa pembuka *seperti / di antaranya / misalnya* dilarang diakhiri dengan *dan lain-lain / dan sebagainya*.
+4. **Kaidah Sintaksis & Pembentukan Kata Ilmiah (Kantor Bahasa Kaltim):**
+   - Larang pleonasme kuantor jamak pada kata ulang: *semua lahan-lahan* / *semua faktor-faktor* -> pilih *semua lahan* atau *lahan-lahan*.
+   - Pasangan preposisi rentang waktu preskriptif: bentuk *mulai Maret sampai Mei* tidak baku; gunakan *dari Maret sampai Mei*, *sejak Maret hingga Mei*, atau *mulai Maret hingga Mei*.
+   - Pembentukan pasif berawalan *di-* wajib mempertahankan sufiks *-kan*: *memprioritaskan* -> pasif baku *diprioritaskan* (bukan *diprioritas*).
+   - Penghilangan preposisi pemblokir subjek pada komplemen *bahwa*: kalimat *menunjukkan bahwa pada persentase N sangat rendah* wajib disunting menjadi *menunjukkan bahwa persentase N sangat rendah*.
+   - Larangan tanda koma sebelum konjungsi komplementer *bahwa*: pola *menyatakan, bahwa* / *menemukan, bahwa* wajib ditertibkan menjadi *menyatakan bahwa* tanpa tanda koma.
+
 ## 5. Prosedur Kerja Tiga Langkah
 
 1. **Langkah 1 — Diagnostik & Penentuan Mode:**
