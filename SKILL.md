@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 1.5.1
+version: 1.7.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -869,6 +869,16 @@ ightarrow$ serangkai: *mahakasih*.
    - Pembentukan pasif berawalan *di-* wajib mempertahankan sufiks *-kan*: *memprioritaskan* -> pasif baku *diprioritaskan* (bukan *diprioritas*).
    - Penghilangan preposisi pemblokir subjek pada komplemen *bahwa*: kalimat *menunjukkan bahwa pada persentase N sangat rendah* wajib disunting menjadi *menunjukkan bahwa persentase N sangat rendah*.
    - Larangan tanda koma sebelum konjungsi komplementer *bahwa*: pola *menyatakan, bahwa* / *menemukan, bahwa* wajib ditertibkan menjadi *menyatakan bahwa* tanpa tanda koma.
+
+### BW. Kaidah Terintegrasi Sesi Ekstraksi 13 Nov 2026 (36 Entri Baru: KPT, LKB, HKT, MAB, E9L + Glosarium MLR)
+
+1. **Gabungan Kata Seri Korporat (KPT-009..010, 018; Sumber Penerbit BRIN 2022):** `kerjasama` → `kerja sama`; `terimakasih` → `terima kasih`; `bertanggung-jawab` → `bertanggung jawab` (awalan saja = terpisah); `memadu padankan` → `memadupadankan` (awalan serangkai kata pertama); `memunyai` → `mempunyai`.
+2. **Kebakuan Serapan Korporat & Umum (KPT-011..015, LKB-041..047, HKT-015..016):** `analisa` → `analisis`; `baterei/batere` → `baterai`; `coklat` → `cokelat`; `detil` → `detail`; `eksport` → `ekspor`; `hipotesa` → `hipotesis`; `jum'at` → `Jumat`; `kwalitas` → `kualitas`; `kosmetika` → `kosmetik`; `obyektif` → `objektif`; `visuil` → `visual`; `relativ` → `relatif`; `psychologis` → `psikologis`; `alculturasi` → `alkulturasi`; `Restaurant` → `restoran`; `Faktuur` → `faktur`; `phase` → `fase`.
+3. **Gabungan Kata Padu (E9L-011..015; Seri Penyuluhan 9 EYD 1978):** `pra sangka` → `prasangka`; `barang kali` → `barangkali`; `mana kala` → `manakala`; `pada hal` → `padahal`; `sepakbola` → `sepak bola`; `hak2` → `hak-hak` (angka 2 hanya tulisan cepat/kuitansi).
+4. **Diksi & Padanan Media (LKB-048..050, MAB-003, E9L-023..025; Badan Bahasa 2016, Buletin MABBIM 15/2024, Baharman KBI X):** `diaturkan` → `disampaikan` (*hatur* tidak baku naskah formal); `sesuai fakta` → `sesuai dengan fakta` (pasangan idiomatis); `pergantian nasi` → `pengganti nasi` (nomina hasil, bukan proses); `ngemil` → `mengemil`; `bebenahan` → `bebenah`; `karaba` → `keramba`/`karamba`; `Reshuffle` → `perombakan`; `zebra cross` → `jalur pejalan kaki`.
+5. **Ekonomi Kata Korporat (KPT-016, verba_ringan):** `memberikan informasi` → `menginformasikan` (ringkas verba+nomina menjadi verba derivasional); `dll.`/`dsb.` dihindari dalam naskah formal (menunjukkan kemalasan penulis — Penerbit BRIN 2022, hlm. 19).
+6. **Padanan Istilah Glosarium Baru (12 entri GLOS-BIS/TEK):** `contact person` → `narahubung`; `laundry` → `penatu`; `mall` → `mal`; `global warming` → `pemanasan global`; `sales outlet` → `toko penjualan`; `fashion` → `mode`/`pakaian`; `grand opening` → `pembukaan perdana`; `fax` → `faksimile`; `cattering` → `katering`; `musholla` → `musala`; `situs web` → `laman`; `zebra cross` → `jalur pejalan kaki` (Sumber: Buku Saku Istilah Media Luar Ruang 2015; Baharman KBI X).
+7. **Rujukan Baru:** `Tata Cara dan Mekanisme Pengawasan Penggunaan Bahasa Indonesia` (Prihartono dkk., Badan Bahasa 2023); `Buku Saku Istilah-Istilah di Media Luar Ruang` (Kantor Bahasa NTB, 2015); `Komunikasi Perusahaan Melalui Tulisan` (Kemas Ferri Rahman, Penerbit BRIN 2022, CC BY-NC-SA 4.0); `Hukum dalam Teroka Linguistik` (Penerbit BRIN); `Latihan Soal Kemahiran Berbahasa Indonesia` (Kaniah dkk., Badan Bahasa 2016); `Buletin MABBIM` Vol. 15 (2024); `Seri Penyuluhan 9: EYD` (Hakim dkk., Pusat Bahasa 1978); `Penguatan BI melalui Penyerapan dan Pemadanan Istilah` (Baharman, UNM).
 
 ## 5. Prosedur Kerja Tiga Langkah
 

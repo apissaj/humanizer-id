@@ -310,6 +310,16 @@
           "asing": "context window",
           "baku": "jendela konteks",
           "catatan": "Batas kapasitas token yang dapat diproses model dalam satu sesi inferensi."
+        },
+        {
+          "asing": "zebra cross",
+          "baku": "jalur pejalan kaki",
+          "catatan": "Padanan kreasi (Baharman, KBI X / Buku Saku MLR 2015)."
+        },
+        {
+          "asing": "situs web",
+          "baku": "laman",
+          "catatan": "Padanan resmi (Baharman, Tempo 2017)."
         }
       ]
     },
@@ -477,6 +487,56 @@
           "asing": "milestone",
           "baku": "tonggak capaian",
           "catatan": "Titik evaluasi penting dalam linimasa proyek."
+        },
+        {
+          "asing": "contact person",
+          "baku": "narahubung",
+          "catatan": "Padanan dibakukan (Buku Saku MLR, Badan Bahasa 2015, hlm. 69)."
+        },
+        {
+          "asing": "laundry",
+          "baku": "penatu",
+          "catatan": "Padanan resmi buku saku MLR (Badan Bahasa 2015, hlm. 41)."
+        },
+        {
+          "asing": "mall",
+          "baku": "mal",
+          "catatan": "Serapan baku KBBI; tulis 'mal' (Badan Bahasa 2015)."
+        },
+        {
+          "asing": "global warming",
+          "baku": "pemanasan global",
+          "catatan": "Padanan resmi buku saku MLR (Badan Bahasa 2015)."
+        },
+        {
+          "asing": "sales outlet",
+          "baku": "toko penjualan",
+          "catatan": "Padanan buku saku MLR (Badan Bahasa 2015, hlm. 25-26)."
+        },
+        {
+          "asing": "fashion",
+          "baku": "mode / pakaian",
+          "catatan": "Padanan KBBI 2013: 923 (Badan Bahasa 2015, hlm. 74)."
+        },
+        {
+          "asing": "grand opening",
+          "baku": "pembukaan perdana",
+          "catatan": "Padanan buku saku MLR (Badan Bahasa 2015, hlm. 112)."
+        },
+        {
+          "asing": "fax",
+          "baku": "faksimile",
+          "catatan": "Padanan baku (Badan Bahasa 2015, hlm. 56-57)."
+        },
+        {
+          "asing": "cattering",
+          "baku": "katering",
+          "catatan": "Serapan benar: katering (Badan Bahasa 2015, hlm. 56-57)."
+        },
+        {
+          "asing": "musholla",
+          "baku": "musala",
+          "catatan": "Serapan Arab disesuaikan: musala (Badan Bahasa 2015, hlm. 56-57, 76-77)."
         }
       ]
     },

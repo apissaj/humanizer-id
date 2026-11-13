@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "1.4.0",
+    "version": "1.7.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -316,6 +316,55 @@
         "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikdasmen",
         "tahun": 2025,
         "bab_relevan": "Ejaan Singkatan Jabatan dan NIP, Imbuhan Gabungan Kata, Struktur Kalimat Surat Dinas (hlm. 40-59)"
+      },
+      {
+        "judul": "Komunikasi Perusahaan Melalui Tulisan",
+        "penulis": "Kemas Ferri Rahman",
+        "penerbit": "Penerbit BRIN",
+        "tahun": 2022,
+        "bab_relevan": "Kaidah Editing Korporat, Gabungan Kata, Kata Baku (hlm. 14-21); Surat dan Press Release 5W1H (hlm. 94-99)"
+      },
+      {
+        "judul": "Bahan Ajar Pengayaan: Latihan Soal Kemahiran Berbahasa Indonesia",
+        "penulis": "Kaniah, Fairul Zabadi, Sri Kusuma Winahyu, dkk.",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Pusat Pembinaan",
+        "tahun": 2016,
+        "bab_relevan": "Pemahaman Kaidah: Ejaan, Diksi, Kalimat Efektif + Kunci (hlm. 12-23, 70-84)"
+      },
+      {
+        "judul": "Buku Saku Istilah-Istilah di Media Luar Ruang",
+        "penulis": "Tim Kantor Bahasa Provinsi NTB",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+        "tahun": 2015,
+        "bab_relevan": "Padanan Istilah Asing pada Reklame dan Rambu (hlm. 16-141)"
+      },
+      {
+        "judul": "Tata Cara dan Mekanisme Pengawasan terhadap Penggunaan Bahasa Indonesia",
+        "penulis": "Wawan Prihartono, Riza Sukma, dkk.",
+        "penerbit": "Pusat Pembinaan Bahasa dan Sastra, Badan Bahasa, Kemendikbudristek",
+        "tahun": 2023,
+        "bab_relevan": "Ruang Lingkup dan Kriteria Penilaian Objek Bahasa Lanskap dan Dokumen (hlm. 6-23)"
+      },
+      {
+        "judul": "Buletin MABBIM Volume 15",
+        "penulis": "Tim MABBIM",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikdasmen",
+        "tahun": 2024,
+        "bab_relevan": "Wisata Kata: karaba/karamba/keramba; Pencipta Kandungan vs Pencipta Konten (hlm. 16-19)"
+      },
+      {
+        "judul": "Seri Penyuluhan 9: Ejaan Bahasa Indonesia yang Disempurnakan",
+        "penulis": "Lukman Hakim, Jessy Agusdin, S.W. Rujiati Mulyadi, Marida Siregar, Suparyanto",
+        "penerbit": "Pusat Pembinaan dan Pengembangan Bahasa, Depdikbud",
+        "tahun": 1978,
+        "bab_relevan": "Kaidah EYD 1972 dan Lampiran Kesalahan Ejaan Pers (hlm. 27-44)"
+      },
+      {
+        "judul": "Hukum dalam Teroka Linguistik",
+        "penulis": "Tim Penyusun Penerbit BRIN",
+        "penerbit": "Penerbit BRIN",
+        "tahun": 2023,
+        "bab_relevan": "Kaidah Diksi dan Sintaksis Naskah Hukum/Akademik (hlm. 39-75)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -339,7 +388,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 465
+    "total_entri": 505
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -2078,6 +2127,26 @@
           "penjelasan": "Pemakaian konjungsi subordinatif konsesif (walaupun, meskipun, biarpun) bersama konjungsi antarkalimat namun dalam satu kalimat majemuk menghilangkan induk kalimat baku (Seri Penyuluhan Kalimat 2025 hlm. 65).",
           "contoh_salah": "Walaupun anggaran operasional sangat terbatas, namun tim peneliti menyelesaikan pengujian tepat waktu.",
           "contoh_benar": "Walaupun anggaran operasional sangat terbatas, tim peneliti menyelesaikan pengujian tepat waktu."
+        },
+        {
+          "id": "E9L-024",
+          "pola": "Reshuffle",
+          "saran_pengganti": [
+            "perombakan"
+          ],
+          "penjelasan": "Padanan resmi media: perombakan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Kabinet reshuffle kembali.",
+          "contoh_benar": "Kabinet dirombak kembali."
+        },
+        {
+          "id": "E9L-025",
+          "pola": "zebra cross",
+          "saran_pengganti": [
+            "jalur pejalan kaki"
+          ],
+          "penjelasan": "Padanan baku media (Tempo 2017/Baharman) (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Penyeberang menunggu di zebra cross.",
+          "contoh_benar": "Penyeberang menunggu di jalur pejalan kaki."
         }
       ]
     },
@@ -2187,6 +2256,16 @@
           "penjelasan": "Bentuk verba dasar aktif.",
           "contoh_salah": "Antarmuka baru memberikan bantuan bagi pengguna pemula.",
           "contoh_benar": "Antarmuka baru membantu pengguna pemula."
+        },
+        {
+          "id": "KPT-019",
+          "pola": "memberikan informasi",
+          "saran_pengganti": [
+            "menginformasikan"
+          ],
+          "penjelasan": "Ekonomi kata korporat: ringkas verba+nomina menjadi verba derivasional (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 17).",
+          "contoh_salah": "Surat ini memberikan informasi jadwal audit tahunan.",
+          "contoh_benar": "Surat ini menginformasikan jadwal audit tahunan."
         }
       ]
     },
@@ -2353,8 +2432,8 @@
           "pola": "salah nalar frasa bebas parkir (diartikan boleh parkir atau gratis parkir)",
           "saran_pengganti": "Ganti dengan frasa yang logis: parkir gratis atau bebas biaya parkir; makna bebas X ialah 'tanpa ada X' (bebas narkoba = tanpa narkoba), sehingga bebas parkir bermakna larangan parkir (Suyatno dkk., hlm. 108).",
           "penjelasan": "Bab Kalimat Efektif (Suyatno dkk., 2017) membongkar salah kaprah menahun bebas parkir: pola bebas + nomina dalam bebas buta huruf, bebas becak, bebas narkoba, bebas bea bermakna 'tidak ada/tidak dikenakan X'. Dengan pola itu, bebas parkir justru bermakna daerah tanpa parkir (larangan parkir); papan petunjuk yang dimaksud gratis haruslah parkir gratis atau bebas biaya parkir.",
-          "contoh_salah": "Papan di area mall itu bertuliskan bebas parkir untuk kendaraan pengunjung.",
-          "contoh_benar": "Papan di area mall itu bertuliskan parkir gratis untuk kendaraan pengunjung.",
+          "contoh_salah": "Papan di area perbelanjaan itu bertuliskan bebas parkir untuk kendaraan pengunjung.",
+          "contoh_benar": "Papan di area perbelanjaan itu bertuliskan parkir gratis untuk kendaraan pengunjung.",
           "rujukan": {
             "penulis": "Suyatno, Tri Pujiati, Didah Nurhamidah, Lutfi Syauki Faznur",
             "buku": "Bahasa Indonesia untuk Perguruan Tinggi (Membangun Karakter Mahasiswa melalui Bahasa)",
@@ -5625,6 +5704,337 @@
           "penjelasan": "Bentuk pasif verba turunan prioritas wajib mempertahankan sufiks -kan (diprioritaskan, bukan diprioritas) (Rujukan Kantor Bahasa Kaltim 2005).",
           "contoh_salah": "Penyelesaian infrastruktur jalan desa harus diprioritas tahun depan.",
           "contoh_benar": "Penyelesaian infrastruktur jalan desa harus diprioritaskan tahun depan."
+        },
+        {
+          "id": "KPT-009",
+          "pola": "kerjasama",
+          "saran_pengganti": [
+            "kerja sama"
+          ],
+          "penjelasan": "Bentuk baku 'kerja sama' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'kerjasama'.",
+          "contoh_benar": "Perbaikan baku: 'kerja sama'."
+        },
+        {
+          "id": "KPT-010",
+          "pola": "terimakasih",
+          "saran_pengganti": [
+            "terima kasih"
+          ],
+          "penjelasan": "Bentuk baku 'terima kasih' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'terimakasih'.",
+          "contoh_benar": "Perbaikan baku: 'terima kasih'."
+        },
+        {
+          "id": "KPT-011",
+          "pola": "baterei",
+          "saran_pengganti": [
+            "baterai"
+          ],
+          "penjelasan": "Bentuk baku 'baterai' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'baterei'.",
+          "contoh_benar": "Perbaikan baku: 'baterai'."
+        },
+        {
+          "id": "KPT-012",
+          "pola": "batere",
+          "saran_pengganti": [
+            "baterai"
+          ],
+          "penjelasan": "Bentuk baku 'baterai' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'batere'.",
+          "contoh_benar": "Perbaikan baku: 'baterai'."
+        },
+        {
+          "id": "KPT-013",
+          "pola": "coklat",
+          "saran_pengganti": [
+            "cokelat"
+          ],
+          "penjelasan": "Bentuk baku 'cokelat' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'coklat'.",
+          "contoh_benar": "Perbaikan baku: 'cokelat'."
+        },
+        {
+          "id": "KPT-014",
+          "pola": "detil",
+          "saran_pengganti": [
+            "detail"
+          ],
+          "penjelasan": "Bentuk baku 'detail' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'detil'.",
+          "contoh_benar": "Perbaikan baku: 'detail'."
+        },
+        {
+          "id": "KPT-015",
+          "pola": "eksport",
+          "saran_pengganti": [
+            "ekspor"
+          ],
+          "penjelasan": "Bentuk baku 'ekspor' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'eksport'.",
+          "contoh_benar": "Perbaikan baku: 'ekspor'."
+        },
+        {
+          "id": "KPT-016",
+          "pola": "hipotesa",
+          "saran_pengganti": [
+            "hipotesis"
+          ],
+          "penjelasan": "Bentuk baku 'hipotesis' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'hipotesa'.",
+          "contoh_benar": "Perbaikan baku: 'hipotesis'."
+        },
+        {
+          "id": "KPT-017",
+          "pola": "bertanggung-jawab",
+          "saran_pengganti": [
+            "bertanggung jawab"
+          ],
+          "penjelasan": "Bentuk baku 'bertanggung jawab' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'bertanggung-jawab'.",
+          "contoh_benar": "Perbaikan baku: 'bertanggung jawab'."
+        },
+        {
+          "id": "KPT-018",
+          "pola": "memadu padankan",
+          "saran_pengganti": [
+            "memadupadankan"
+          ],
+          "penjelasan": "Bentuk baku 'memadupadankan' (gabungan kata terpisah / penyerapan KBBI) (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 16-17).",
+          "contoh_salah": "Naskah lama masih menulis 'memadu padankan'.",
+          "contoh_benar": "Perbaikan baku: 'memadupadankan'."
+        },
+        {
+          "id": "LKB-041",
+          "pola": "kwalitas",
+          "saran_pengganti": [
+            "kualitas"
+          ],
+          "penjelasan": "Penyerapan [q] awal menjadi [k] (Badan Bahasa 2016, hlm. 17).",
+          "contoh_salah": "Naskah memakai 'kwalitas'.",
+          "contoh_benar": "Perbaikan: '['kualitas']'."
+        },
+        {
+          "id": "LKB-042",
+          "pola": "bebenahan",
+          "saran_pengganti": [
+            "bebenah"
+          ],
+          "penjelasan": "Bentuk baku 'bebenah'; 'berbenahan' tidak baku (Badan Bahasa 2016, hlm. 17-18).",
+          "contoh_salah": "Naskah memakai 'bebenahan'.",
+          "contoh_benar": "Perbaikan: '['bebenah']'."
+        },
+        {
+          "id": "LKB-043",
+          "pola": "memunyai",
+          "saran_pengganti": [
+            "mempunyai"
+          ],
+          "penjelasan": "Verba 'mempunyai' wajib ganda konsonan p (Badan Bahasa 2016, hlm. 18).",
+          "contoh_salah": "Naskah memakai 'memunyai'.",
+          "contoh_benar": "Perbaikan: '['mempunyai']'."
+        },
+        {
+          "id": "LKB-044",
+          "pola": "ngemil",
+          "saran_pengganti": [
+            "mengemil"
+          ],
+          "penjelasan": "Bentuk lisan tidak baku; baku 'mengemil' (Badan Bahasa 2016, hlm. 21-22).",
+          "contoh_salah": "Naskah memakai 'ngemil'.",
+          "contoh_benar": "Perbaikan: '['mengemil']'."
+        },
+        {
+          "id": "LKB-045",
+          "pola": "diaturkan",
+          "saran_pengganti": [
+            "disampaikan"
+          ],
+          "penjelasan": "'hatur' bukan kosakata baku naskah formal; gunakan 'disampaikan' (Badan Bahasa 2016, hlm. 18).",
+          "contoh_salah": "Naskah memakai 'diaturkan'.",
+          "contoh_benar": "Perbaikan: '['disampaikan']'."
+        },
+        {
+          "id": "LKB-046",
+          "pola": "sesuai fakta",
+          "saran_pengganti": [
+            "sesuai dengan fakta"
+          ],
+          "penjelasan": "Pasangan idiomatis: 'sesuai dengan' (Badan Bahasa 2016, hlm. 19).",
+          "contoh_salah": "Naskah memakai 'sesuai fakta'.",
+          "contoh_benar": "Perbaikan: '['sesuai dengan fakta']'."
+        },
+        {
+          "id": "LKB-047",
+          "pola": "pergantian nasi",
+          "saran_pengganti": [
+            "pengganti nasi"
+          ],
+          "penjelasan": "Pilihan kata: nomina hasil 'pengganti', bukan nomina proses 'pergantian' (Badan Bahasa 2016, hlm. 16).",
+          "contoh_salah": "Naskah memakai 'pergantian nasi'.",
+          "contoh_benar": "Perbaikan: '['pengganti nasi']'."
+        },
+        {
+          "id": "HKT-015",
+          "pola": "kosmetika",
+          "saran_pengganti": [
+            "kosmetik"
+          ],
+          "penjelasan": "Serapan baku: 'kosmetik' (Penerbit BRIN (Hukum dalam Teroka Linguistik), hlm. 42).",
+          "contoh_salah": "Teks masih menulis 'kosmetika'.",
+          "contoh_benar": "Baku: 'kosmetik'."
+        },
+        {
+          "id": "HKT-016",
+          "pola": "obyektif",
+          "saran_pengganti": [
+            "objektif"
+          ],
+          "penjelasan": "Serapan baku: 'objektif' (Penerbit BRIN (Hukum dalam Teroka Linguistik), hlm. 42).",
+          "contoh_salah": "Teks masih menulis 'obyektif'.",
+          "contoh_benar": "Baku: 'objektif'."
+        },
+        {
+          "id": "MAB-003",
+          "pola": "karaba",
+          "saran_pengganti": [
+            "keramba",
+            "karamba"
+          ],
+          "penjelasan": "'karaba' bentuk tidak baku dari 'karamba' (KBBI); pilih 'keramba' (membudidayakan ikan) atau 'karamba' (beternak ikan) sesuai konteks (Buletin MABBIM 15/2024, hlm. 16-17).",
+          "contoh_salah": "Warga memasang karaba baru di sungai.",
+          "contoh_benar": "Warga memasang keramba baru di sungai."
+        },
+        {
+          "id": "E9L-011",
+          "pola": "hak2",
+          "saran_pengganti": [
+            "hak-hak"
+          ],
+          "penjelasan": "Angka 2 untuk reduplikasi hanya pada tulisan cepat/kuitansi; naskah resmi menulis ulang lengkap (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Hak2 asasi dijamin konstitusi.",
+          "contoh_benar": "Hak asasi dijamin konstitusi."
+        },
+        {
+          "id": "E9L-012",
+          "pola": "pra sangka",
+          "saran_pengganti": [
+            "prasangka"
+          ],
+          "penjelasan": "Gabungan kata padu ditulis serangkai (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Ia penuh pra sangka.",
+          "contoh_benar": "Ia penuh prasangka."
+        },
+        {
+          "id": "E9L-013",
+          "pola": "barang kali",
+          "saran_pengganti": [
+            "barangkali"
+          ],
+          "penjelasan": "Bentuk padu: serangkai (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Barang kali ia tak hadir.",
+          "contoh_benar": "Barangkali ia tak hadir."
+        },
+        {
+          "id": "E9L-014",
+          "pola": "mana kala",
+          "saran_pengganti": [
+            "manakala"
+          ],
+          "penjelasan": "Bentuk padu: serangkai (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Mana kala ia datang, kami pergi.",
+          "contoh_benar": "Manakala ia datang, kami pergi."
+        },
+        {
+          "id": "E9L-015",
+          "pola": "pada hal",
+          "saran_pengganti": [
+            "padahal"
+          ],
+          "penjelasan": "Bentuk padu: serangkai (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Pada hal soal itu sudah dibahas.",
+          "contoh_benar": "Padahal soal itu sudah dibahas."
+        },
+        {
+          "id": "E9L-016",
+          "pola": "visuil",
+          "saran_pengganti": [
+            "visual"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Pameran visuil dibuka.",
+          "contoh_benar": "Pameran visual dibuka."
+        },
+        {
+          "id": "E9L-017",
+          "pola": "relativ",
+          "saran_pengganti": [
+            "relatif"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Nilainya relativ.",
+          "contoh_benar": "Nilainya relatif."
+        },
+        {
+          "id": "E9L-018",
+          "pola": "psychologis",
+          "saran_pengganti": [
+            "psikologis"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Pendekatan psychologis dipakai.",
+          "contoh_benar": "Pendekatan psikologis dipakai."
+        },
+        {
+          "id": "E9L-019",
+          "pola": "alculturasi",
+          "saran_pengganti": [
+            "alkulturasi"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Proses alculturasi berlangsung.",
+          "contoh_benar": "Proses alkulturasi berlangsung."
+        },
+        {
+          "id": "E9L-020",
+          "pola": "Restaurant",
+          "saran_pengganti": [
+            "restoran"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Restaurant itu tutup.",
+          "contoh_benar": "Restoran itu tutup."
+        },
+        {
+          "id": "E9L-021",
+          "pola": "Faktuur",
+          "saran_pengganti": [
+            "faktur"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Faktuur dilampirkan.",
+          "contoh_benar": "Faktur dilampirkan."
+        },
+        {
+          "id": "E9L-022",
+          "pola": "phase",
+          "saran_pengganti": [
+            "fase"
+          ],
+          "penjelasan": "Penyesuaian ejaan serapan (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Memasuki phase kedua.",
+          "contoh_benar": "Memasuki fase kedua."
+        },
+        {
+          "id": "E9L-023",
+          "pola": "sepakbola",
+          "saran_pengganti": [
+            "sepak bola"
+          ],
+          "penjelasan": "Gabungan kata terpisah (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
+          "contoh_salah": "Tim sepakbola menang.",
+          "contoh_benar": "Tim sepak bola menang."
         }
       ]
     }
