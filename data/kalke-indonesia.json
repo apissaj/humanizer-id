@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -409,7 +409,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 556
+    "total_entri": 577
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -555,7 +555,7 @@
           "saran_pengganti": [
             "antara A dan B"
           ],
-          "penjelasan": "Pasangan perangkai korelatif baku untuk kata 'antara' adalah 'dan', bukan 'dengan' (Rujukan: TBBBI Edisi IV, Hasan Alwi dkk.).",
+          "penjelasan": "Pasangan perangkai korelatif baku untuk kata 'antara' adalah 'dan', bukan 'dengan' (Rujukan: TBBBI Edisi IV, Hasan Alwi dkk.). Dikonfirmasi Buku Siswa Bahasa Indonesia Kelas XII (Kemendikbudristek 2024, hlm. 203, Tabel 5.7).",
           "contoh_salah": "Perbandingan antara metode A dengan metode B menunjukkan galat 2%.",
           "contoh_benar": "Perbandingan antara metode A dan metode B menunjukkan galat 2%."
         },
@@ -1811,7 +1811,7 @@
           "saran_pengganti": [
             "baik ... maupun ..."
           ],
-          "penjelasan": "Merujuk penelitian diksi skripsi (Jurnal Genre UAD, 2021, hlm. 100), pasangan korelatif baku untuk kata 'baik' adalah 'maupun', bukan 'ataupun'.",
+          "penjelasan": "Merujuk penelitian diksi skripsi (Jurnal Genre UAD, 2021, hlm. 100), pasangan korelatif baku untuk kata 'baik' adalah 'maupun', bukan 'ataupun'. Dikonfirmasi Buku Siswa Bahasa Indonesia Kelas XII (Kemendikbudristek 2024, hlm. 203, Tabel 5.7).",
           "contoh_salah": "Kebijakan ini berlaku baik untuk dosen ataupun mahasiswa.",
           "contoh_benar": "Kebijakan ini berlaku baik untuk dosen maupun mahasiswa."
         },
@@ -2168,6 +2168,48 @@
           "penjelasan": "Padanan baku media (Tempo 2017/Baharman) (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
           "contoh_salah": "Penyeberang menunggu di zebra cross.",
           "contoh_benar": "Penyeberang menunggu di jalur pejalan kaki."
+        },
+        {
+          "id": "JSK-001",
+          "pola": "didunia",
+          "saran_pengganti": [
+            "di dunia"
+          ],
+          "penjelasan": "'di' sebagai kata depan ditulis terpisah; 'di-' imbuhan ditulis serangkai (kumpulan jurnal analisis kesalahan skripsi, 2021-2026).",
+          "contoh_salah": "Fenomena itu berkembang didunia akademik.",
+          "contoh_benar": "Fenomena itu berkembang di dunia akademik."
+        },
+        {
+          "id": "JSK-002",
+          "pola": "diberbagai",
+          "saran_pengganti": [
+            "di berbagai"
+          ],
+          "penjelasan": "'di' sebagai kata depan ditulis terpisah dari kata berimbuhan 'berbagai' (kumpulan jurnal analisis kesalahan skripsi).",
+          "contoh_salah": "Praktik serupa diberbagai negara berbeda.",
+          "contoh_benar": "Praktik serupa terjadi di berbagai negara."
+        },
+        {
+          "id": "JSK-003",
+          "pola": "dikarenakan karena",
+          "saran_pengganti": [
+            "dikarenakan",
+            "karena"
+          ],
+          "penjelasan": "Penggabungan 'dikarenakan' dan 'karena' dalam satu frasa adalah kontaminasi kausal ganda (kumpulan jurnal analisis kesalahan skripsi).",
+          "contoh_salah": "Dikarenakan karena cuaca buruk, acara ditunda.",
+          "contoh_benar": "Karena cuaca buruk, acara ditunda."
+        },
+        {
+          "id": "JSK-006",
+          "pola": "menyampaikan mengenai",
+          "saran_pengganti": [
+            "menyampaikan",
+            "mengenai"
+          ],
+          "penjelasan": "'Menyampaikan mengenai' adalah kalke double-preposition 'convey regarding'; cukup satu preposisi (kumpulan jurnal analisis kesalahan skripsi).",
+          "contoh_salah": "Speaker menyampaikan mengenai tren pasar terkini.",
+          "contoh_benar": "Pembicara menyampaikan tren pasar terkini."
         }
       ]
     },
@@ -3255,6 +3297,48 @@
           "penjelasan": "Pleonasme sinonimik lewah. Misteri telah mengandung arti rahasia (Rujukan Bambang Trim, Penerbit BRIN 2023).",
           "contoh_salah": "Ilmuwan berusaha mengungkap misteri rahasia di palung laut terdalam.",
           "contoh_benar": "Ilmuwan berusaha mengungkap misteri di palung laut terdalam."
+        },
+        {
+          "id": "BSXII-001",
+          "pola": "dibandingkan dengan",
+          "saran_pengganti": [
+            "dibanding",
+            "dibandingkan"
+          ],
+          "penjelasan": "Pasangan frasa korelatif yang tepat adalah 'dibanding ...' atau 'dibandingkan ...'; 'dibandingkan dengan' berlebihan (Bahasa Indonesia Kelas XII, hlm. 202, Tabel 5.6).",
+          "contoh_salah": "Angka ini lebih tinggi dibandingkan dengan tahun lalu.",
+          "contoh_benar": "Angka ini lebih tinggi dibandingkan tahun lalu."
+        },
+        {
+          "id": "BSXII-004",
+          "pola": "bukan ..., tetapi ...",
+          "saran_pengganti": [
+            "bukan ..., melainkan ..."
+          ],
+          "penjelasan": "Pasangan pertentangan yang baku: 'bukan ..., melainkan ...' (Bahasa Indonesia Kelas XII, hlm. 203, Tabel 5.7).",
+          "contoh_salah": "AI bukan menggantikan manusia, tetapi mendampinginya.",
+          "contoh_benar": "AI bukan menggantikan manusia, melainkan mendampinginya."
+        },
+        {
+          "id": "JSK-004",
+          "pola": "sangat amat",
+          "saran_pengganti": [
+            "sangat",
+            "amat"
+          ],
+          "penjelasan": "'Sangat' dan 'amat' adalah sinonim intensitas; memakai keduanya mubazir (kumpulan jurnal analisis kesalahan skripsi).",
+          "contoh_salah": "Hasilnya sangat amat signifikan.",
+          "contoh_benar": "Hasilnya sangat signifikan."
+        },
+        {
+          "id": "JSK-005",
+          "pola": "saling jalin-menjalin",
+          "saran_pengganti": [
+            "saling menjalin"
+          ],
+          "penjelasan": "'Saling' sudah menyatakan resiprokal; pengulangan 'jalin-menjalin' mubazir (kumpulan jurnal analisis kesalahan skripsi).",
+          "contoh_salah": "Keduanya saling jalin-menjalin kerja sama.",
+          "contoh_benar": "Keduanya saling menjalin kerja sama."
         }
       ]
     },
@@ -6567,6 +6651,136 @@
           "penjelasan": "Kaidah penyerapan: lamination -> laminasi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
           "contoh_salah": "Data lamination.",
           "contoh_benar": "Data laminasi."
+        },
+        {
+          "id": "BPK15-001",
+          "pola": "penglepasan",
+          "saran_pengganti": [
+            "pelepasan"
+          ],
+          "penjelasan": "Awalan 'peng-' berubah menjadi 'pe-' jika dirangkaikan dengan kata dasar berawal /l/ (Seri Penyuluhan Bentuk dan Pilihan Kata, Mustakim 2015, hlm. 15-16).",
+          "contoh_salah": "Proses penglepasan sandera berlangsung cepat.",
+          "contoh_benar": "Proses pelepasan sandera berlangsung cepat."
+        },
+        {
+          "id": "BPK15-002",
+          "pola": "pengrusakan",
+          "saran_pengganti": [
+            "perusakan"
+          ],
+          "penjelasan": "Dasar berawal /r/ menuntut awalan 'pe-' (perusak, perusakan), bukan 'peng-' (Mustakim 2015, hlm. 16).",
+          "contoh_salah": "Polisi menyelidiki pengrusakan fasilitas umum itu.",
+          "contoh_benar": "Polisi menyelidiki perusakan fasilitas umum itu."
+        },
+        {
+          "id": "BPK15-003",
+          "pola": "pengrajin",
+          "saran_pengganti": [
+            "perajin"
+          ],
+          "penjelasan": "Bentukan yang tepat adalah 'perajin', bukan 'pengrajin' (Mustakim 2015, hlm. 16).",
+          "contoh_salah": "Pengrajin batik lokal ikut pameran itu.",
+          "contoh_benar": "Perajin batik lokal ikut pameran itu."
+        },
+        {
+          "id": "BPK15-004",
+          "pola": "ketabrak",
+          "saran_pengganti": [
+            "tertabrak"
+          ],
+          "penjelasan": "Awalan 'ke-' penyata tindakan tak sengaja adalah struktur bahasa daerah; ragam baku memakai 'ter-' (Mustakim 2015, hlm. 21-22).",
+          "contoh_salah": "Ia nyaris ketabrak kereta api.",
+          "contoh_benar": "Ia nyaris tertabrak kereta api."
+        },
+        {
+          "id": "BPK15-005",
+          "pola": "ketimpa",
+          "saran_pengganti": [
+            "tertimpa"
+          ],
+          "penjelasan": "Ragam baku: 'tertimpa', bukan 'ketimpa' (Mustakim 2015, hlm. 22).",
+          "contoh_salah": "Bangunan itu roboh karena ketimpa pohon tumbang.",
+          "contoh_benar": "Bangunan itu roboh karena tertimpa pohon tumbang."
+        },
+        {
+          "id": "BPK15-006",
+          "pola": "ketubruk",
+          "saran_pengganti": [
+            "tertubruk"
+          ],
+          "penjelasan": "Ragam baku: 'tertubruk', bukan 'ketubruk' (Mustakim 2015, hlm. 22).",
+          "contoh_salah": "Motor itu ketubruk truk di tikungan.",
+          "contoh_benar": "Motor itu tertubruk truk di tikungan."
+        },
+        {
+          "id": "BPK15-007",
+          "pola": "kesandung",
+          "saran_pengganti": [
+            "tersandung"
+          ],
+          "penjelasan": "Ragam baku: 'tersandung', bukan 'kesandung' (Mustakim 2015, hlm. 22).",
+          "contoh_salah": "Ia kesandung kabel dan terjatuh.",
+          "contoh_benar": "Ia tersandung kabel dan terjatuh."
+        },
+        {
+          "id": "BPK15-009",
+          "pola": "dikontrakan",
+          "saran_pengganti": [
+            "dikontrakkan"
+          ],
+          "penjelasan": "Dasar 'kontrak' berakhiran /k/ + akhiran '-kan' menuntut dua huruf k: 'dikontrakkan', 'mengontrakkan' (Mustakim 2015, hlm. 36).",
+          "contoh_salah": "Rumah itu dikontrakan sejak bulan lalu.",
+          "contoh_benar": "Rumah itu dikontrakkan sejak bulan lalu."
+        },
+        {
+          "id": "BPK15-010",
+          "pola": "ditunjukan",
+          "saran_pengganti": [
+            "ditunjukkan"
+          ],
+          "penjelasan": "Dasar 'tunjuk' berakhiran /k/ + '-kan': 'ditunjukkan'/'menunjukkan' dengan dua huruf k (Mustakim 2015, hlm. 36).",
+          "contoh_salah": "Pemenang ditunjukan oleh juri.",
+          "contoh_benar": "Pemenang ditunjukkan oleh juri."
+        },
+        {
+          "id": "BPK15-011",
+          "pola": "menyolok",
+          "saran_pengganti": [
+            "mencolok"
+          ],
+          "penjelasan": "Fonem /c/ pada awal dasar tidak luluh dengan awalan 'meng-': 'mencolok', bukan 'menyolok' (Mustakim 2015, hlm. 17).",
+          "contoh_salah": "Warnanya menyolok di antara daun hijau.",
+          "contoh_benar": "Warnanya mencolok di antara daun hijau."
+        },
+        {
+          "id": "BPK15-012",
+          "pola": "mentaati",
+          "saran_pengganti": [
+            "menaati"
+          ],
+          "penjelasan": "Dasar 'taat': /t/ luluh dengan 'meN-' menjadi 'menaati', bukan 'mentaati' (Mustakim 2015, hlm. 16).",
+          "contoh_salah": "Warga mentaati aturan baru itu.",
+          "contoh_benar": "Warga menaati aturan baru itu."
+        },
+        {
+          "id": "BPK15-013",
+          "pola": "mengkaitkan",
+          "saran_pengganti": [
+            "mengaitkan"
+          ],
+          "penjelasan": "Dasar 'kait': /k/ luluh dengan 'meN-' menjadi 'mengaitkan' (Mustakim 2015, hlm. 16).",
+          "contoh_salah": "Penulis mengkaitkan dua variabel itu.",
+          "contoh_benar": "Penulis mengaitkan dua variabel itu."
+        },
+        {
+          "id": "BPK15-014",
+          "pola": "menterjemahkan",
+          "saran_pengganti": [
+            "menerjemahkan"
+          ],
+          "penjelasan": "Dasar 'terjemah': /t/ luluh dengan 'meN-' menjadi 'menerjemahkan' (Mustakim 2015, hlm. 16).",
+          "contoh_salah": "Penerjemah menterjemahkan naskah itu.",
+          "contoh_benar": "Penerjemah menerjemahkan naskah itu."
         }
       ]
     }

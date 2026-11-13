@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 1.8.0
+version: 1.9.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -892,6 +892,21 @@ Sumber: bedah 6 dokumen baru (commit b90950c): *Prosiding Semiloka Bahasa Negara
 6. **Kaidah Serapan Klasik (BSX-004..014; Buku Siswa Kelas X Edisi Revisi hlm. 191/196):** `club` → `klub`; `commission` → `komisi`; `conference` → `konferensi`; `politic` → `politik`; `economy` → `ekonomi`; `communicative` → `komunikatif`; `colonial` → `kolonial`; `critic` → `kritik`; `microfilm` → `mikrofilm`; `patriotic` → `patriotik`; `stability` → `stabilitas`; `socialization` → `sosialisasi`; `organization` → `organisasi`; `lamination` → `laminasi`.
 7. **Glosarium Baru (+21, bidang bisnis_dan_manajemen):** `stop line`, `car free day`, `handphone`, `laptop`, `sparepart`, `railing tangga`, `folding gate`, `room division`, `hunting`, `airline`, `stockiest`, `beauty salon`, `cash back`, `bilingual class`, `make up`, `eyelash extension`, `real estate`, `delete`, `room service` → `layanan kamar`, `cashier` → `kasir`, `airliner` → `pesawat penumpang`.
 8. **Rujukan Baru (metadata):** Prosiding Semiloka Bahasa Negara (Badan Bahasa 2019); Kumpulan Makalah Semiloka (2019); Bahasa Indonesia Kelas X Edisi Revisi (Aulia dkk., Kemendikbudristek 2023).
+
+### BY. Kaidah Terintegrasi Sesi Bedah 14 Nov 2026 Batch II (30 Entri Baru: BPK15, BSXII, JSK + Glosarium Kurikulum Merdeka)
+
+Sumber: bedah 5 dokumen baru (commit 6ae6984): *Seri Penyuluhan Bentuk dan Pilihan Kata* (Mustakim, 2015), *Bahasa Indonesia Kelas XII* (Kurniawan dkk., 2024), *Buku Siswa BI Kelas XI* (Marwati & Waskitaningtyas, 2024), *Modul Diklat KTI (PTK)* Pusdiklat (2017), dan kompilasi 5 jurnal empiris kesalahan skripsi (DiSastra, DEIKTIS, JPLED, KIBASP, DE_JOURNAL). Detail sitasi halaman: lihat file di `references/` dengan prefix `BPK15-`, `BSXII-`, `BSXI-`, `KTI-`, `JSK-`.
+
+1. **Pelepasan Awalan Peng- → Pe- (BPK15-001..003; Mustakim 2015, hlm. 15-16):** `penglepasan` → `pelepasan`; `pengrusak`/`pengrusakan` → `perusak`/`perusakan`; `pengrajin` → `perajin`. Dasar berawal /l/ atau /r/ menuntut `pe-`, bukan `peng-`.
+2. **Awalan Ke- → Ter- (BPK15-004..007; Mustakim 2015, hlm. 21-22):** `ketabrak` → `tertabrak`; `ketimpa` → `tertimpa`; `ketubruk` → `tertubruk`; `kesandung` → `tersandung`; `ketangkap` → `tertangkap`. Awalan `ke-` tindakan tak sengaja adalah struktur bahasa daerah.
+3. **Dua Huruf K pada -Kkan (BPK15-008..010; Mustakim 2015, hlm. 35-36):** `diketemukan` sudah ada; `dikontrakan` → `dikontrakkan`; `ditunjukan` → `ditunjukkan`. Dasar berakhir /k/ + `-kan` menuntut dua huruf k.
+4. **Peluluhan /c/, /t/, /k/, /s/, /p/ dengan meN- (BPK15-011..014; Mustakim 2015, hlm. 16-17):** `menyolok` → `mencolok`; `mentaati` → `menaati`; `mengkaitkan` → `mengaitkan`; `menterjemahkan` → `menerjemahkan`. Fonem /c/ dan gugus konsonan /st/, /pr/, /sk/ tidak luluh dengan meN-.
+5. **Frasa Korelatif (BSXII-001; Kurniawan dkk. 2024, hlm. 202, Tabel 5.6):** `dibandingkan dengan` → `dibanding` atau `dibandingkan`. Padanan korelatif lain (antara-dan, baik-maupun, bukan-melainkan) sudah terwakili entri TBB-001, TBB-002, JRN-003.
+6. **Salah Tulis Kata Depan (JSK-001..002; 5 jurnal empiris):** `didunia` → `di dunia`; `diberbagai` → `di berbagai`. `di` kata depan ditulis terpisah dari kata berimbuhan.
+7. **Pleonasme Kontaminasi (JSK-003..006; 5 jurnal empiris):** `dikarenakan karena` → `karena`/`dikarenakan`; `sangat amat` → `sangat`/`amat`; `saling jalin-menjalin` → `saling menjalin`; `menyampaikan mengenai` → `menyampaikan`.
+8. **Glosarium Kurikulum Merdeka (+7 padanan):** `virtual assistant` → asisten virtual; `marketplace` → lokapasar; `a la carte` → menu manasuka; `drive-thru` → layanan tanpa turun (lantatur); `outsourcing` → alih daya; `podcast` → siniar; `stand up comedy` → komedi tunggal.
+9. **Kaidah KTI/PTK (KTI-001..039):** Kaidah sistematika laporan KTI, judul, abstrak, kaidah bahasa baku, kutipan, proposal — diintegrasikan sebagai referensi (bukan rule regex). Detail di `references/modul-diklat-kti-ptk-kemdikbud.md`.
+10. **Kaidah Empiris Skripsi (JSK-001..047):** 47 pola kesalahan nyata dari 5 jurnal (pembentukan kata, diksi, pleonasme, sintaksis tanpa subjek, ejaan PUEBI). Terpilih 6 pola prioritas masuk engine; seluruh 47 tersimpan di `references/jurnal-analisis-kesalahan-skripsi-kompilasi.md`.
 
 ## 5. Prosedur Kerja Tiga Langkah
 

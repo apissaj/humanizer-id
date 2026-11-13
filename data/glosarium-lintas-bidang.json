@@ -320,6 +320,16 @@
           "asing": "situs web",
           "baku": "laman",
           "catatan": "Padanan resmi (Baharman, Tempo 2017)."
+        },
+        {
+          "asing": "virtual assistant",
+          "baku": "asisten virtual",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 155)."
+        },
+        {
+          "asing": "marketplace",
+          "baku": "lokapasar",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 146)."
         }
       ]
     },
@@ -405,6 +415,16 @@
           "asing": "clickbait",
           "baku": "umpan klik",
           "catatan": "Judul sensasional penarik lalu lintas pembaca."
+        },
+        {
+          "asing": "podcast",
+          "baku": "siniar",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 138)."
+        },
+        {
+          "asing": "stand up comedy",
+          "baku": "komedi tunggal",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
         }
       ],
       "kaidah_ekonomi_kata": [
@@ -642,6 +662,21 @@
           "asing": "cashier",
           "baku": "kasir",
           "catatan": "Paralel padanan ruang usaha (hlm. 271-273)."
+        },
+        {
+          "asing": "a la carte",
+          "baku": "menu manasuka",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 200)."
+        },
+        {
+          "asing": "drive-thru",
+          "baku": "layanan tanpa turun (lantatur)",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
+        },
+        {
+          "asing": "outsourcing",
+          "baku": "alih daya",
+          "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
         }
       ]
     },
