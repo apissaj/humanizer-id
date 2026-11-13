@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 1.7.0
+version: 1.8.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -879,6 +879,19 @@ ightarrow$ serangkai: *mahakasih*.
 5. **Ekonomi Kata Korporat (KPT-016, verba_ringan):** `memberikan informasi` → `menginformasikan` (ringkas verba+nomina menjadi verba derivasional); `dll.`/`dsb.` dihindari dalam naskah formal (menunjukkan kemalasan penulis — Penerbit BRIN 2022, hlm. 19).
 6. **Padanan Istilah Glosarium Baru (12 entri GLOS-BIS/TEK):** `contact person` → `narahubung`; `laundry` → `penatu`; `mall` → `mal`; `global warming` → `pemanasan global`; `sales outlet` → `toko penjualan`; `fashion` → `mode`/`pakaian`; `grand opening` → `pembukaan perdana`; `fax` → `faksimile`; `cattering` → `katering`; `musholla` → `musala`; `situs web` → `laman`; `zebra cross` → `jalur pejalan kaki` (Sumber: Buku Saku Istilah Media Luar Ruang 2015; Baharman KBI X).
 7. **Rujukan Baru:** `Tata Cara dan Mekanisme Pengawasan Penggunaan Bahasa Indonesia` (Prihartono dkk., Badan Bahasa 2023); `Buku Saku Istilah-Istilah di Media Luar Ruang` (Kantor Bahasa NTB, 2015); `Komunikasi Perusahaan Melalui Tulisan` (Kemas Ferri Rahman, Penerbit BRIN 2022, CC BY-NC-SA 4.0); `Hukum dalam Teroka Linguistik` (Penerbit BRIN); `Latihan Soal Kemahiran Berbahasa Indonesia` (Kaniah dkk., Badan Bahasa 2016); `Buletin MABBIM` Vol. 15 (2024); `Seri Penyuluhan 9: EYD` (Hakim dkk., Pusat Bahasa 1978); `Penguatan BI melalui Penyerapan dan Pemadanan Istilah` (Baharman, UNM).
+
+### BX. Kaidah Terintegrasi Sesi Bedah 14 Nov 2026 (51 Entri Baru: PSB, KMS, BGX, BGI, BSX + Glosarium Semiloka)
+
+Sumber: bedah 6 dokumen baru (commit b90950c): *Prosiding Semiloka Bahasa Negara* (Badan Bahasa 2019), *Kumpulan Makalah Semiloka* (2019), *Buku Guru BI Kelas XII* (Kemendikbudristek), *Buku Guru BI Kelas XI* (Kemendikbudristek), *Buku Siswa BI Kelas X Edisi Revisi* (Aulia dkk., 2023), 6 Modul SMA Direktorat SMA. Detail sitasi halaman: lihat `references/prosiding-semiloka-bahasa-negara-2019.md`, `references/kumpulan-makalah-semiloka-2019.md`, `references/buku-guru-bahasa-indonesia-kelas-xii.md`, `references/buku-guru-bahasa-indonesia-kelas-xi.md`, `references/buku-siswa-bahasa-indonesia-kelas-x-edisi-revisi.md`.
+
+1. **Pasangan Salah-Baku Ruang Publik (PSB-023..032; Semiloka 2019, Yayuk hlm. 546-549):** `umroh` → `umrah`; `import` → `impor`; `ojeg` → `ojek`; `tissue` → `tisu`; `komplit` → `komplet`; `villa` → `vila`; `ice lemon (tea)` → `es lemon`; `tea manis` → `teh manis`; `stop line` → `garis setop`; `foto copy` → `fotokopi`.
+2. **Padanan Nama Resmi (PSB-033):** `Car Free Day` → `Hari Bebas Kendaraan Bermotor` (Hariyadi hlm. 192).
+3. **Padanan Ruang Usaha (KMS-003..023; Yayuk hlm. 271-273, Zaka hlm. 322, Raudloh hlm. 226):** `service` → `servis`; `handphone` → `telepon genggam`; `laptop` → `komputer jinjing`; `sparepart` → `suku cadang`; `folding gate` → `pintu lipat`; `room division` → `pembagian ruangan`; `hunting` → `pencarian`; `airline` → `maskapai`; `stockiest` → `distributor`; `beauty salon` → `salon kecantikan`; `cash back` → `uang kembali`; `bilingual class` → `kelas dwibahasa`; `make up` → `tata rias`; `eyelash extension` → `penyambungan bulu mata`; `real estate` → `perumahan`; `delete` → `hapus`; `bikin` → `membuat` (ragam formal).
+4. **Kaidah Surat Lamaran (BGX-025..026; Buku Guru Kelas XII hlm. 80):** `tehnik` → `teknik`; `foto kopi` → `fotokopi`. Kaidah struktur surat (perihal/lampiran, titik koma daftar lampiran, subjek surel "Posisi - Nama") tercatat di referensi, tidak jadi rule regex.
+5. **Konjungsi (BGI-057; Buku Guru Kelas XI hlm. 81):** `tapi` → `tetapi`; di awal kalimat gunakan `akan tetapi`/`namun` (TBBBI Ed-4). Rule `tak` → `tidak` sengaja TIDAK diintegrasikan: 'tak' adalah kata valid KBBI (ragam sastra); flag menyeluruh menghasilkan false positive (terbukti menandai contoh_benar E9L-013).
+6. **Kaidah Serapan Klasik (BSX-004..014; Buku Siswa Kelas X Edisi Revisi hlm. 191/196):** `club` → `klub`; `commission` → `komisi`; `conference` → `konferensi`; `politic` → `politik`; `economy` → `ekonomi`; `communicative` → `komunikatif`; `colonial` → `kolonial`; `critic` → `kritik`; `microfilm` → `mikrofilm`; `patriotic` → `patriotik`; `stability` → `stabilitas`; `socialization` → `sosialisasi`; `organization` → `organisasi`; `lamination` → `laminasi`.
+7. **Glosarium Baru (+21, bidang bisnis_dan_manajemen):** `stop line`, `car free day`, `handphone`, `laptop`, `sparepart`, `railing tangga`, `folding gate`, `room division`, `hunting`, `airline`, `stockiest`, `beauty salon`, `cash back`, `bilingual class`, `make up`, `eyelash extension`, `real estate`, `delete`, `room service` → `layanan kamar`, `cashier` → `kasir`, `airliner` → `pesawat penumpang`.
+8. **Rujukan Baru (metadata):** Prosiding Semiloka Bahasa Negara (Badan Bahasa 2019); Kumpulan Makalah Semiloka (2019); Bahasa Indonesia Kelas X Edisi Revisi (Aulia dkk., Kemendikbudristek 2023).
 
 ## 5. Prosedur Kerja Tiga Langkah
 

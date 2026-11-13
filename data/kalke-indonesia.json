@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -365,6 +365,27 @@
         "penerbit": "Penerbit BRIN",
         "tahun": 2023,
         "bab_relevan": "Kaidah Diksi dan Sintaksis Naskah Hukum/Akademik (hlm. 39-75)"
+      },
+      {
+        "judul": "Prosiding Semiloka Bahasa Negara",
+        "penulis": "Tim Penyusun Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa",
+        "tahun": 2019,
+        "bab_relevan": "Kaidah salah-baku ruang publik & padanan istilah (hlm. 165-581)"
+      },
+      {
+        "judul": "Kumpulan Makalah Semiloka",
+        "penulis": "Tim Penyusun Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa",
+        "tahun": 2019,
+        "bab_relevan": "Pasangan salah-baku papan nama (hlm. 271-273)"
+      },
+      {
+        "judul": "Bahasa Indonesia untuk SMA/MA/SMK/MAK Kelas X (Edisi Revisi)",
+        "penulis": "Fadillah Tri Aulia, Sei Indra Gumilar, Alvian Kurniawan",
+        "penerbit": "Kemendikbudristek",
+        "tahun": 2023,
+        "bab_relevan": "Kaidah kata serapan (hlm. 191-196)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -388,7 +409,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 505
+    "total_entri": 556
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -6035,6 +6056,517 @@
           "penjelasan": "Gabungan kata terpisah (Seri Penyuluhan 9 EYD 1978 (Pusat Bahasa)).",
           "contoh_salah": "Tim sepakbola menang.",
           "contoh_benar": "Tim sepak bola menang."
+        },
+        {
+          "id": "PSB-023",
+          "pola": "umroh",
+          "saran_pengganti": [
+            "umrah"
+          ],
+          "penjelasan": "Bentuk baku serapan Arab menurut KBBI adalah 'umrah'; varian 'umroh' tidak baku (Prosiding Semiloka Bahasa Negara 2019, Yayuk hlm. 549).",
+          "contoh_salah": "Menunaikan ibadah umroh.",
+          "contoh_benar": "Menunaikan ibadah umrah."
+        },
+        {
+          "id": "PSB-024",
+          "pola": "import",
+          "saran_pengganti": [
+            "impor"
+          ],
+          "penjelasan": "Serapan Inggris 'import' disesuaikan menjadi 'impor' (Prosiding 2019, Yayuk hlm. 549).",
+          "contoh_salah": "Nilai import naik.",
+          "contoh_benar": "Nilai impor naik."
+        },
+        {
+          "id": "PSB-025",
+          "pola": "ojeg",
+          "saran_pengganti": [
+            "ojek"
+          ],
+          "penjelasan": "Bentuk baku 'ojek'; varian 'ojeg' tidak baku (Prosiding 2019, Yayuk hlm. 549).",
+          "contoh_salah": "Tarif ojeg naik.",
+          "contoh_benar": "Tarif ojek naik."
+        },
+        {
+          "id": "PSB-026",
+          "pola": "tissue",
+          "saran_pengganti": [
+            "tisu"
+          ],
+          "penjelasan": "Serapan 'tissue' disesuaikan menjadi 'tisu' (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Menyediakan tissue.",
+          "contoh_benar": "Menyediakan tisu."
+        },
+        {
+          "id": "PSB-027",
+          "pola": "komplit",
+          "saran_pengganti": [
+            "komplet"
+          ],
+          "penjelasan": "Bentuk baku 'komplet'; 'komplit' tidak baku (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Data sudah komplit.",
+          "contoh_benar": "Data sudah komplet."
+        },
+        {
+          "id": "PSB-028",
+          "pola": "villa",
+          "saran_pengganti": [
+            "vila"
+          ],
+          "penjelasan": "Bentuk baku 'vila'; 'villa' mengekalkan huruf ganda asing (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Menginap di villa.",
+          "contoh_benar": "Menginap di vila."
+        },
+        {
+          "id": "PSB-029",
+          "pola": "ice lemon",
+          "saran_pengganti": [
+            "es lemon"
+          ],
+          "penjelasan": "Istilah 'ice lemon' diganti padanan Indonesia 'es lemon' (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Pesan ice lemon.",
+          "contoh_benar": "Pesan es lemon."
+        },
+        {
+          "id": "PSB-030",
+          "pola": "ice lemon tea",
+          "saran_pengganti": [
+            "es lemon"
+          ],
+          "penjelasan": "'Ice lemon tea' diganti padanan Indonesia 'es lemon' (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Menu ice lemon tea.",
+          "contoh_benar": "Menu es lemon."
+        },
+        {
+          "id": "PSB-031",
+          "pola": "tea manis",
+          "saran_pengganti": [
+            "teh manis"
+          ],
+          "penjelasan": "Serapan 'tea' menjadi 'teh' (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Menyajikan tea manis.",
+          "contoh_benar": "Menyajikan teh manis."
+        },
+        {
+          "id": "PSB-032",
+          "pola": "stop line",
+          "saran_pengganti": [
+            "garis setop"
+          ],
+          "penjelasan": "Padanan 'stop line' adalah 'garis setop' (Prosiding 2019, Yayuk hlm. 546).",
+          "contoh_salah": "Melanggar stop line.",
+          "contoh_benar": "Melanggar garis setop."
+        },
+        {
+          "id": "PSB-033",
+          "pola": "car free day",
+          "saran_pengganti": [
+            "Hari Bebas Kendaraan Bermotor",
+            "Hari Tanpa Kendaraan Bermotor"
+          ],
+          "penjelasan": "Padanan resmi 'Car Free Day' menurut semiloka adalah 'Hari Bebas Kendaraan Bermotor' (Prosiding 2019, Hariyadi hlm. 192).",
+          "contoh_salah": "Acara car free day.",
+          "contoh_benar": "Acara Hari Bebas Kendaraan Bermotor."
+        },
+        {
+          "id": "PSB-034",
+          "pola": "foto copy",
+          "saran_pengganti": [
+            "fotokopi"
+          ],
+          "penjelasan": "Serapan 'foto copy' diserap utuh menjadi 'fotokopi' (Prosiding 2019, Yayuk hlm. 548).",
+          "contoh_salah": "Jasa foto copy.",
+          "contoh_benar": "Jasa fotokopi."
+        },
+        {
+          "id": "KMS-002",
+          "pola": "bikin",
+          "saran_pengganti": [
+            "membuat"
+          ],
+          "penjelasan": "Kata 'bikin' berlabel ragam cakapan; dalam ragam formal gunakan 'membuat' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271-273).",
+          "contoh_salah": "Bikin laporan.",
+          "contoh_benar": "Membuat laporan."
+        },
+        {
+          "id": "KMS-003",
+          "pola": "service",
+          "saran_pengganti": [
+            "servis"
+          ],
+          "penjelasan": "Serapan 'service' dipadankan 'servis' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Service berkala.",
+          "contoh_benar": "Servis berkala."
+        },
+        {
+          "id": "KMS-004",
+          "pola": "accessories",
+          "saran_pengganti": [
+            "aksesori"
+          ],
+          "penjelasan": "Serapan 'accessories' dipadankan 'aksesori' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Menjual accessories.",
+          "contoh_benar": "Menjual aksesori."
+        },
+        {
+          "id": "KMS-005",
+          "pola": "handphone",
+          "saran_pengganti": [
+            "telepon genggam"
+          ],
+          "penjelasan": "Padanan 'handphone' adalah 'telepon genggam' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271).",
+          "contoh_salah": "Mengisi pulsa handphone.",
+          "contoh_benar": "Mengisi pulsa telepon genggam."
+        },
+        {
+          "id": "KMS-006",
+          "pola": "laptop",
+          "saran_pengganti": [
+            "komputer jinjing"
+          ],
+          "penjelasan": "Padanan 'laptop' adalah 'komputer jinjing' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271).",
+          "contoh_salah": "Membeli laptop.",
+          "contoh_benar": "Membeli komputer jinjing."
+        },
+        {
+          "id": "KMS-007",
+          "pola": "sparepart",
+          "saran_pengganti": [
+            "suku cadang"
+          ],
+          "penjelasan": "Padanan 'sparepart' adalah 'suku cadang' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Stok sparepart.",
+          "contoh_benar": "Stok suku cadang."
+        },
+        {
+          "id": "KMS-008",
+          "pola": "spare part",
+          "saran_pengganti": [
+            "suku cadang"
+          ],
+          "penjelasan": "Padanan 'spare part' adalah 'suku cadang' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Beli spare part.",
+          "contoh_benar": "Beli suku cadang."
+        },
+        {
+          "id": "KMS-009",
+          "pola": "railing tangga",
+          "saran_pengganti": [
+            "rel tangga"
+          ],
+          "penjelasan": "Padanan 'railing tangga' adalah 'rel tangga' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Pasang railing tangga.",
+          "contoh_benar": "Pasang rel tangga."
+        },
+        {
+          "id": "KMS-010",
+          "pola": "folding gate",
+          "saran_pengganti": [
+            "pintu lipat"
+          ],
+          "penjelasan": "Padanan 'folding gate' adalah 'pintu lipat' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Buka folding gate.",
+          "contoh_benar": "Buka pintu lipat."
+        },
+        {
+          "id": "KMS-011",
+          "pola": "room division",
+          "saran_pengganti": [
+            "pembagian ruangan"
+          ],
+          "penjelasan": "Padanan 'room division' adalah 'pembagian ruangan' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271).",
+          "contoh_salah": "Bagian room division.",
+          "contoh_benar": "Bagian pembagian ruangan."
+        },
+        {
+          "id": "KMS-012",
+          "pola": "hunting",
+          "saran_pengganti": [
+            "pencarian"
+          ],
+          "penjelasan": "Padanan 'hunting' adalah 'pencarian' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Sedang hunting kerja.",
+          "contoh_benar": "Sedang pencarian kerja."
+        },
+        {
+          "id": "KMS-013",
+          "pola": "airline",
+          "saran_pengganti": [
+            "maskapai"
+          ],
+          "penjelasan": "Padanan 'airline' adalah 'maskapai' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Tiket airline.",
+          "contoh_benar": "Tiket maskapai."
+        },
+        {
+          "id": "KMS-014",
+          "pola": "stockiest",
+          "saran_pengganti": [
+            "distributor"
+          ],
+          "penjelasan": "Padanan 'stockiest' adalah 'distributor' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Jadi stockiest.",
+          "contoh_benar": "Jadi distributor."
+        },
+        {
+          "id": "KMS-015",
+          "pola": "beauty salon",
+          "saran_pengganti": [
+            "salon kecantikan"
+          ],
+          "penjelasan": "Padanan 'beauty salon' adalah 'salon kecantikan' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Buka beauty salon.",
+          "contoh_benar": "Buka salon kecantikan."
+        },
+        {
+          "id": "KMS-016",
+          "pola": "cash back",
+          "saran_pengganti": [
+            "uang kembali"
+          ],
+          "penjelasan": "Padanan 'cash back' adalah 'uang kembali' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271).",
+          "contoh_salah": "Promo cash back.",
+          "contoh_benar": "Promo uang kembali."
+        },
+        {
+          "id": "KMS-017",
+          "pola": "bilingual class",
+          "saran_pengganti": [
+            "kelas dwibahasa"
+          ],
+          "penjelasan": "Padanan 'bilingual class' adalah 'kelas dwibahasa' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271).",
+          "contoh_salah": "Ikut bilingual class.",
+          "contoh_benar": "Ikut kelas dwibahasa."
+        },
+        {
+          "id": "KMS-018",
+          "pola": "islamic full day school",
+          "saran_pengganti": [
+            "sekolah Islam sehari penuh"
+          ],
+          "penjelasan": "Padanan 'Islamic full day school' adalah 'sekolah Islam sehari penuh' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 271).",
+          "contoh_salah": "Mendaftar Islamic full day school.",
+          "contoh_benar": "Mendaftar sekolah Islam sehari penuh."
+        },
+        {
+          "id": "KMS-019",
+          "pola": "make up",
+          "saran_pengganti": [
+            "tata rias"
+          ],
+          "penjelasan": "Padanan 'make up' adalah 'tata rias' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Jasa make up.",
+          "contoh_benar": "Jasa tata rias."
+        },
+        {
+          "id": "KMS-020",
+          "pola": "eyelash extension",
+          "saran_pengganti": [
+            "penyambungan bulu mata"
+          ],
+          "penjelasan": "Padanan 'eyelash extension' adalah 'penyambungan bulu mata' (Kumpulan Makalah Semiloka 2019, Yayuk hlm. 272).",
+          "contoh_salah": "Eyelash extension murah.",
+          "contoh_benar": "Penyambungan bulu mata murah."
+        },
+        {
+          "id": "KMS-021",
+          "pola": "real estate",
+          "saran_pengganti": [
+            "perumahan"
+          ],
+          "penjelasan": "Padanan 'real estate' adalah 'perumahan' (Kumpulan Makalah Semiloka 2019, Zaka hlm. 322).",
+          "contoh_salah": "Agen real estate.",
+          "contoh_benar": "Agen perumahan."
+        },
+        {
+          "id": "KMS-022",
+          "pola": "delete",
+          "saran_pengganti": [
+            "hapus"
+          ],
+          "penjelasan": "Istilah 'delete' lebih akrab di ruang publik, padanannya 'hapus' (Kumpulan Makalah Semiloka 2019, Raudloh hlm. 226).",
+          "contoh_salah": "Tekan tombol delete.",
+          "contoh_benar": "Tekan tombol hapus."
+        },
+        {
+          "id": "KMS-023",
+          "pola": "estate",
+          "saran_pengganti": [
+            "perumahan"
+          ],
+          "penjelasan": "Padanan 'estate' dalam konteks properti adalah 'perumahan' (Kumpulan Makalah Semiloka 2019, Zaka hlm. 322).",
+          "contoh_salah": "Kawasan estate.",
+          "contoh_benar": "Kawasan perumahan."
+        },
+        {
+          "id": "BGX-025",
+          "pola": "tehnik",
+          "saran_pengganti": [
+            "teknik"
+          ],
+          "penjelasan": "Bentuk baku 'teknik'; 'tehnik' tidak baku (Buku Guru Bahasa Indonesia Kelas XII, hlm. 80).",
+          "contoh_salah": "Tehnik penulisan.",
+          "contoh_benar": "Teknik penulisan."
+        },
+        {
+          "id": "BGX-026",
+          "pola": "foto kopi",
+          "saran_pengganti": [
+            "fotokopi"
+          ],
+          "penjelasan": "Buku guru menetapkan perbaikan 'foto kopi' menjadi 'fotokopi' (Buku Guru Bahasa Indonesia Kelas XII, hlm. 80).",
+          "contoh_salah": "Jasa foto kopi.",
+          "contoh_benar": "Jasa fotokopi."
+        },
+        {
+          "id": "BGI-057",
+          "pola": "tapi",
+          "saran_pengganti": [
+            "tetapi"
+          ],
+          "penjelasan": "Konjungsi baku adalah 'tetapi'; 'tapi' berlabel ragam cakapan (Buku Guru Bahasa Indonesia Kelas XI, hlm. 81). Di awal kalimat gunakan 'akan tetapi' atau 'namun' (TBBBI Ed-4, hlm. 417).",
+          "contoh_salah": "Alat sudah dikalibrasi, tapi hasil pengukuran berbeda tipis.",
+          "contoh_benar": "Alat sudah dikalibrasi, tetapi hasil pengukuran berbeda tipis."
+        },
+        {
+          "id": "BSX-015",
+          "pola": "club",
+          "saran_pengganti": [
+            "klub"
+          ],
+          "penjelasan": "Kaidah penyerapan: club -> klub (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data club.",
+          "contoh_benar": "Data klub."
+        },
+        {
+          "id": "BSX-016",
+          "pola": "commission",
+          "saran_pengganti": [
+            "komisi"
+          ],
+          "penjelasan": "Kaidah penyerapan: commission -> komisi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data commission.",
+          "contoh_benar": "Data komisi."
+        },
+        {
+          "id": "BSX-017",
+          "pola": "conference",
+          "saran_pengganti": [
+            "konferensi"
+          ],
+          "penjelasan": "Kaidah penyerapan: conference -> konferensi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data conference.",
+          "contoh_benar": "Data konferensi."
+        },
+        {
+          "id": "BSX-018",
+          "pola": "politic",
+          "saran_pengganti": [
+            "politik"
+          ],
+          "penjelasan": "Kaidah penyerapan: politic -> politik (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data politic.",
+          "contoh_benar": "Data politik."
+        },
+        {
+          "id": "BSX-019",
+          "pola": "economy",
+          "saran_pengganti": [
+            "ekonomi"
+          ],
+          "penjelasan": "Kaidah penyerapan: economy -> ekonomi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data economy.",
+          "contoh_benar": "Data ekonomi."
+        },
+        {
+          "id": "BSX-020",
+          "pola": "communicative",
+          "saran_pengganti": [
+            "komunikatif"
+          ],
+          "penjelasan": "Kaidah penyerapan: communicative -> komunikatif (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data communicative.",
+          "contoh_benar": "Data komunikatif."
+        },
+        {
+          "id": "BSX-021",
+          "pola": "colonial",
+          "saran_pengganti": [
+            "kolonial"
+          ],
+          "penjelasan": "Kaidah penyerapan: colonial -> kolonial (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data colonial.",
+          "contoh_benar": "Data kolonial."
+        },
+        {
+          "id": "BSX-022",
+          "pola": "critic",
+          "saran_pengganti": [
+            "kritik"
+          ],
+          "penjelasan": "Kaidah penyerapan: critic -> kritik (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data critic.",
+          "contoh_benar": "Data kritik."
+        },
+        {
+          "id": "BSX-023",
+          "pola": "microfilm",
+          "saran_pengganti": [
+            "mikrofilm"
+          ],
+          "penjelasan": "Kaidah penyerapan: microfilm -> mikrofilm (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data microfilm.",
+          "contoh_benar": "Data mikrofilm."
+        },
+        {
+          "id": "BSX-024",
+          "pola": "patriotic",
+          "saran_pengganti": [
+            "patriotik"
+          ],
+          "penjelasan": "Kaidah penyerapan: patriotic -> patriotik (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data patriotic.",
+          "contoh_benar": "Data patriotik."
+        },
+        {
+          "id": "BSX-025",
+          "pola": "stability",
+          "saran_pengganti": [
+            "stabilitas"
+          ],
+          "penjelasan": "Kaidah penyerapan: stability -> stabilitas (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data stability.",
+          "contoh_benar": "Data stabilitas."
+        },
+        {
+          "id": "BSX-026",
+          "pola": "socialization",
+          "saran_pengganti": [
+            "sosialisasi"
+          ],
+          "penjelasan": "Kaidah penyerapan: socialization -> sosialisasi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data socialization.",
+          "contoh_benar": "Data sosialisasi."
+        },
+        {
+          "id": "BSX-027",
+          "pola": "organization",
+          "saran_pengganti": [
+            "organisasi"
+          ],
+          "penjelasan": "Kaidah penyerapan: organization -> organisasi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data organization.",
+          "contoh_benar": "Data organisasi."
+        },
+        {
+          "id": "BSX-028",
+          "pola": "lamination",
+          "saran_pengganti": [
+            "laminasi"
+          ],
+          "penjelasan": "Kaidah penyerapan: lamination -> laminasi (Buku Siswa Bahasa Indonesia Kelas X Edisi Revisi, hlm. 191/196).",
+          "contoh_salah": "Data lamination.",
+          "contoh_benar": "Data laminasi."
         }
       ]
     }
