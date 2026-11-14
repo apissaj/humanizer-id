@@ -296,7 +296,7 @@ def fix_text(content, kalke_dict, glosarium_dict=None, kampus_dict=None, preset=
                 if orig.isupper():
                     res = repl.upper()
                 elif orig[0].isupper():
-                    res = repl.capitalize()
+                    res = repl[0].upper() + repl[1:]
                 else:
                     res = repl
                 total_fixes += 1
