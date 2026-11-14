@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "1.9.0",
+    "version": "2.0.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -409,7 +409,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 577
+    "total_entri": 592
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -2210,6 +2210,49 @@
           "penjelasan": "'Menyampaikan mengenai' adalah kalke double-preposition 'convey regarding'; cukup satu preposisi (kumpulan jurnal analisis kesalahan skripsi).",
           "contoh_salah": "Speaker menyampaikan mengenai tren pasar terkini.",
           "contoh_benar": "Pembicara menyampaikan tren pasar terkini."
+        },
+        {
+          "id": "JRN18-005",
+          "pola": "demi untuk",
+          "saran_pengganti": [
+            "demi",
+            "untuk"
+          ],
+          "penjelasan": "Kontaminasi dua preposisi tujuan sekaligus (kalimat rancu); cukup satu (Modul Jurnalistik 2018, hlm. 21).",
+          "contoh_salah": "Demi untuk memenuhi target, tim bekerja lembur.",
+          "contoh_benar": "Untuk memenuhi target, tim bekerja lembur."
+        },
+        {
+          "id": "JRN18-006",
+          "pola": "agar supaya",
+          "saran_pengganti": [
+            "agar",
+            "supaya"
+          ],
+          "penjelasan": "Kontaminasi dua konjungsi tujuan; cukup satu (Modul Jurnalistik 2018, hlm. 21).",
+          "contoh_salah": "Latihan dilakukan agar supaya hasil maksimal.",
+          "contoh_benar": "Latihan dilakukan agar hasil maksimal."
+        },
+        {
+          "id": "JRN18-007",
+          "pola": "selain daripada itu",
+          "saran_pengganti": [
+            "selain itu",
+            "lain daripada itu"
+          ],
+          "penjelasan": "Kontaminasi 'selain itu' dan 'lain daripada itu'; pilih satu bentuk (Modul Jurnalistik 2018, hlm. 21).",
+          "contoh_salah": "Selain daripada itu, biaya operasional juga naik.",
+          "contoh_benar": "Selain itu, biaya operasional juga naik."
+        },
+        {
+          "id": "JRN18-008",
+          "pola": "sementara orang",
+          "saran_pengganti": [
+            "beberapa orang"
+          ],
+          "penjelasan": "'Sementara' bermakna 'sedang', bukan penanda kuantitas jamak; padanan tepat 'beberapa orang' (Modul Jurnalistik 2018, hlm. 21).",
+          "contoh_salah": "Sementara orang mengeluh soal layanan itu.",
+          "contoh_benar": "Beberapa orang mengeluh soal layanan itu."
         }
       ]
     },
@@ -2329,6 +2372,47 @@
           "penjelasan": "Ekonomi kata korporat: ringkas verba+nomina menjadi verba derivasional (Penerbit BRIN 2022 (Komunikasi Perusahaan Melalui Tulisan, Kemas Ferri Rahman), hlm. 17).",
           "contoh_salah": "Surat ini memberikan informasi jadwal audit tahunan.",
           "contoh_benar": "Surat ini menginformasikan jadwal audit tahunan."
+        },
+        {
+          "id": "JRN18-001",
+          "pola": "pada saat ini",
+          "saran_pengganti": [
+            "kini"
+          ],
+          "penjelasan": "'Pada saat ini' frasa verba ringan 3-kata; padanan satu kata cukup (Modul Pelatihan Jurnalistik Dasar, Pusdiklat 2018, hlm. 19).",
+          "contoh_salah": "Pada saat ini masyarakat bergantung pada gawai.",
+          "contoh_benar": "Kini masyarakat bergantung pada gawai."
+        },
+        {
+          "id": "JRN18-002",
+          "pola": "membubuhkan tanda tangannya",
+          "saran_pengganti": [
+            "menandatangani"
+          ],
+          "penjelasan": "Frasa verba ringan panjang; padanan baku satu kata (Jurnalistik Pusdiklat 2018, hlm. 19).",
+          "contoh_salah": "Direktur membubuhkan tanda tangannya pada kontrak.",
+          "contoh_benar": "Direktur menandatangani kontrak."
+        },
+        {
+          "id": "JRN18-003",
+          "pola": "melangsungkan pernikahan",
+          "saran_pengganti": [
+            "kawin",
+            "menikah"
+          ],
+          "penjelasan": "Eufemisme berlapis; padanan lugas 'kawin'/'menikah' (Jurnalistik Pusdiklat 2018, hlm. 19).",
+          "contoh_salah": "Pasangan itu melangsungkan pernikahan di Balai Kota.",
+          "contoh_benar": "Pasangan itu menikah di Balai Kota."
+        },
+        {
+          "id": "JRN18-004",
+          "pola": "mampu melarikan diri",
+          "saran_pengganti": [
+            "lolos"
+          ],
+          "penjelasan": "Verba ringan 'mampu' + frasa panjang; padanan satu kata 'lolos' (Jurnalistik Pusdiklat 2018, hlm. 19).",
+          "contoh_salah": "Tersangka mampu melarikan diri dari penyelidik.",
+          "contoh_benar": "Tersangka lolos dari penyelidik."
         }
       ]
     },
@@ -3339,6 +3423,67 @@
           "penjelasan": "'Saling' sudah menyatakan resiprokal; pengulangan 'jalin-menjalin' mubazir (kumpulan jurnal analisis kesalahan skripsi).",
           "contoh_salah": "Keduanya saling jalin-menjalin kerja sama.",
           "contoh_benar": "Keduanya saling menjalin kerja sama."
+        },
+        {
+          "id": "SMD-001",
+          "pola": "dihaturkan terima kasih",
+          "saran_pengganti": [
+            "kami mengucapkan terima kasih"
+          ],
+          "penjelasan": "'Dihaturkan' adalah kalke ragam krama Jawa ('dihaturake') yang tidak lazim dalam ragam formal nasional (Surat-Menyurat dalam BI, Pusat Bahasa, hlm. 19).",
+          "contoh_salah": "Atas perhatiannya, dihaturkan terima kasih.",
+          "contoh_benar": "Atas perhatian Saudara, kami mengucapkan terima kasih."
+        },
+        {
+          "id": "SMD-002",
+          "pola": "atas perhatiannya",
+          "saran_pengganti": [
+            "atas perhatian Saudara",
+            "atas perhatian Bapak/Ibu"
+          ],
+          "penjelasan": "Enklitika '-nya' mengacu orang ketiga; dalam penutup surat yang ditujukan langsung ke mitra tutur, gunakan pronomina hormat eksplisit (Surat-Menyurat dalam BI, hlm. 28).",
+          "contoh_salah": "Atas perhatiannya, kami ucapkan terima kasih.",
+          "contoh_benar": "Atas perhatian Saudara, kami ucapkan terima kasih."
+        },
+        {
+          "id": "JRN18-010",
+          "pola": "ramalan masa depan",
+          "saran_pengganti": [
+            "ramalan"
+          ],
+          "penjelasan": "'Ramalan' sudah bermakna prediksi masa depan; 'masa depan' mubazir (Modul Jurnalistik 2018, hlm. 19).",
+          "contoh_salah": "Ramalan masa depan ekonomi menunjukkan pemulihan.",
+          "contoh_benar": "Ramalan ekonomi menunjukkan pemulihan."
+        },
+        {
+          "id": "JRN18-011",
+          "pola": "alternatif lain",
+          "saran_pengganti": [
+            "alternatif"
+          ],
+          "penjelasan": "'Alternatif' sendiri berarti pilihan lain; 'lain' mubazir (Modul Jurnalistik 2018, hlm. 19).",
+          "contoh_salah": "Kami menawarkan alternatif lain yang lebih murah.",
+          "contoh_benar": "Kami menawarkan alternatif yang lebih murah."
+        },
+        {
+          "id": "JRN18-012",
+          "pola": "hadiah cuma-cuma",
+          "saran_pengganti": [
+            "hadiah"
+          ],
+          "penjelasan": "Hadiah pada dasarnya diberikan tanpa imbalan; 'cuma-cuma' mubazir (Modul Jurnalistik 2018, hlm. 19).",
+          "contoh_salah": "Pembeli mendapat hadiah cuma-cuma.",
+          "contoh_benar": "Pembeli mendapat hadiah."
+        },
+        {
+          "id": "JRN18-013",
+          "pola": "kesimpulan akhir",
+          "saran_pengganti": [
+            "kesimpulan"
+          ],
+          "penjelasan": "Kesimpulan selalu berada di akhir; 'akhir' mubazir (Modul Jurnalistik 2018, hlm. 19).",
+          "contoh_salah": "Kesimpulan akhir laporan itu menjelaskan tiga temuan.",
+          "contoh_benar": "Kesimpulan laporan itu menjelaskan tiga temuan."
         }
       ]
     },
@@ -6781,6 +6926,16 @@
           "penjelasan": "Dasar 'terjemah': /t/ luluh dengan 'meN-' menjadi 'menerjemahkan' (Mustakim 2015, hlm. 16).",
           "contoh_salah": "Penerjemah menterjemahkan naskah itu.",
           "contoh_benar": "Penerjemah menerjemahkan naskah itu."
+        },
+        {
+          "id": "JRN18-009",
+          "pola": "mengkampanyekan",
+          "saran_pengganti": [
+            "mengampanyekan"
+          ],
+          "penjelasan": "Dasar 'kampanye' berawalan /k/: fonem /k/ luluh dengan meN- menjadi 'mengampanyekan' (Modul Jurnalistik 2018, hlm. 22).",
+          "contoh_salah": "Calon itu mengkampanyekan visi digitalnya.",
+          "contoh_benar": "Calon itu mengampanyekan visi digitalnya."
         }
       ]
     }

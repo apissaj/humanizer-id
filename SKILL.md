@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 1.9.0
+version: 2.0.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -907,6 +907,34 @@ Sumber: bedah 5 dokumen baru (commit 6ae6984): *Seri Penyuluhan Bentuk dan Pilih
 8. **Glosarium Kurikulum Merdeka (+7 padanan):** `virtual assistant` → asisten virtual; `marketplace` → lokapasar; `a la carte` → menu manasuka; `drive-thru` → layanan tanpa turun (lantatur); `outsourcing` → alih daya; `podcast` → siniar; `stand up comedy` → komedi tunggal.
 9. **Kaidah KTI/PTK (KTI-001..039):** Kaidah sistematika laporan KTI, judul, abstrak, kaidah bahasa baku, kutipan, proposal — diintegrasikan sebagai referensi (bukan rule regex). Detail di `references/modul-diklat-kti-ptk-kemdikbud.md`.
 10. **Kaidah Empiris Skripsi (JSK-001..047):** 47 pola kesalahan nyata dari 5 jurnal (pembentukan kata, diksi, pleonasme, sintaksis tanpa subjek, ejaan PUEBI). Terpilih 6 pola prioritas masuk engine; seluruh 47 tersimpan di `references/jurnal-analisis-kesalahan-skripsi-kompilasi.md`.
+
+### BZ. Kaidah Terintegrasi Sesi Bedah 14 Nov 2026 Batch III (15 Entri Baru: PJK, SMD, JRN18; Milestone v2.0.0)
+
+Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Kebudayaan* (Balitbang Kemdikbud), *Surat-Menyurat dalam Bahasa Indonesia: Seri Penyuluhan 2* (Pusat Bahasa, 1991), dan *Modul Pelatihan Jurnalistik Tingkat Dasar* (Pusdiklat Kemendikbud, 2018). Detail sitasi halaman: lihat `references/pedoman-penulisan-jurnal-dikbud.md`, `references/surat-menyurat-dalam-bahasa-indonesia.md`, `references/modul-pelatihan-jurnalistik-kemdikbud.md`.
+
+1. **Hemat Kata Ragam Pers (JRN18-001..004; Pusdiklat 2018, hlm. 19):**
+   - `pada saat ini` → `kini` (verba ringan pemicu monotoni pembuka).
+   - `membubuhkan tanda tangannya` → `menandatangani`.
+   - `melangsungkan pernikahan` → `kawin` / `menikah` (eufemisme berlapis).
+   - `mampu melarikan diri` → `lolos`.
+2. **Kontaminasi Konjungsi & Preposisi Ganda (JRN18-005..008; Pusdiklat 2018, hlm. 21):**
+   - `demi untuk` → `demi` atau `untuk`.
+   - `agar supaya` → `agar` atau `supaya`.
+   - `selain daripada itu` → `selain itu` atau `lain daripada itu`.
+   - `sementara orang` → `beberapa orang` (*sementara* bukan penanda jumlah jamak).
+3. **Peluluhan KTSP Pers (JRN18-009; Pusdiklat 2018, hlm. 22):**
+   - `mengkampanyekan` → `mengampanyekan` (dasar *kampanye*, /k/ luluh dengan meN-).
+4. **Pleonasme Frasa Pers (JRN18-010..013; Pusdiklat 2018, hlm. 19):**
+   - `ramalan masa depan` → `ramalan`; `alternatif lain` → `alternatif`; `hadiah cuma-cuma` → `hadiah`; `kesimpulan akhir` → `kesimpulan`.
+5. **Kaidah Korespondensi Resmi (SMD-001..002; Pusat Bahasa 1991, hlm. 19, 28):**
+   - `dihaturkan terima kasih` → `kami mengucapkan terima kasih` (*dihaturkan* kalke ragam krama Jawa yang tak lazim dalam naskah dinas nasional).
+   - `atas perhatiannya` pada penutup surat → `atas perhatian Saudara / Bapak / Ibu` (enklitika *-nya* orang ketiga tunggal salah sasaran untuk mitra tutur).
+6. **Kaidah Standar Jurnal Dikbud (PJK-001..012; Balitbang Kemdikbud):**
+   - Batas keras judul maksimal 14 kata.
+   - Anatomi abstrak 1 paragraf, 150–200 kata, 0 sitasi, 0 akronim tanpa kepanjangan.
+   - Identitas penulis wajib tanpa gelar, pangkat, atau jabatan.
+   - Proporsi IMRaD: Pendahuluan 10%, Kajian Literatur 15%, Metode 10%, Hasil & Pembahasan 50%, Simpulan 15%.
+   - Minimal 80% pustaka acuan berasal dari sumber primer 10 tahun terakhir.
 
 ## 5. Prosedur Kerja Tiga Langkah
 
