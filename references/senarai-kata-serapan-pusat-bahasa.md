@@ -19,27 +19,25 @@
 
 ## Teks Pengantar Verbatim
 
-### Kata Pengantar (hlm. III / HAL 3)
+### Kata Pengantar (hlm. III / HAL 3) - kutipan inti
 
-> Hasil yang diharapkan melalui usaha pembinaan bahasa ialah bahwa warga negara Indonesia semakin cinta. bangga. dan setia kepada bahasa Indonesia . Kecintaan . kcbanggaan. dan kesetiaan itu dapat tumbuh dan herkembang jika ada kemahiran berbahasa Indonesia yang ditunjang dengan pcnguasaan kosakata yang memada1. Jika tidak. godaan untuk hcralih menggunakan bahasa lain yang mungkin lebih dikuasai. 1111salnya hahasa asing ( khususnya bahasa lnggris). semakin besar.
->
-> Khazanah bahasa Indonesia sesungguhnya tidak semi skin seperti : ang dikira banyak orang. Sebagaimana halnya bahasa dinamis yang lain. bahasa Indonesia dalam perkembangannya sang.at tidak mungkin untuk menutup din atau untuk tidak menerima pengaruh dan bahasa-bahasa lam. Akibatnya. kosakata bahasa Indonesia sekarang banyak sekali yang berasal dan bahasa daerah dan. terutama. dari bahasa asrng. Masalahnya adalah bahwa tidak hanyak orang yang mengetalrni kata-kata tertentu yang sudah biasa mercka gunakan sehenarnya merupakan kata scrapan (dari hahasil asmg 1.
->
 > Untuk memungkinkan penutur bahasa Indonesia mengenali kembal1 asal-muasal kekayaan bahasa Indonesia itu. diterbitkan buku kecil ini dengan _judul Senarai Kaw Serapan dala111 Bahasa Indonesia. Pada edisi perta111a i111 ditampilkan kata-kata serapan bahasa Indonesia ctari bahasa Arab. Belanda. Latin. Ponugis. Sanskena. dan Tamil.
 >
 > Jakarta. Oktobcr 1995  
 > Kepala Pusat Pcmhmaal' Jan Pengembangan Baha~a  
 > Hasan Alwi
 
-### Petunjuk Ringkas (hlm. IV / HAL 4)
+(Verbatim HAL 3, OCR rusak: kembal1=kembali, dala111=dalam, perta111a i111=pertama ini, ctari=dari, Ponugis=Portugis, Sanskena=Sanskerta, Oktobcr=Oktober, Pcmhmaal'=Pembinaan, Baha~a=Bahasa. Paragraf pembuka pengantar menegaskan tujuan pembinaan: agar warga negara "semakin cinta. bangga. dan setia kepada bahasa Indonesia".)
 
-> Buku ini menyajikan senarai kaca serapan dari bahasa asing yang disajikan menurut urutan abjad: Arab. Belanda. Latin. Por·tugis. Sanskerta. dan Tamil. Keenam sumber bahasa itu diutamakan dengan dua pertimbangan. Pertama. kontak dengan bahasa yang bersangkuran te1:jadi berabad-abad yang silam: kedua. beberapa bahasa sumber itu sudah tidak merupakan bahasa yang "hidup " lagi sekarang ini. Kedua ha! itu menyebabkan banyak kata serapan yang mungkin sudah tidak dikenali lagi asal-muasalnya.
->
+### Petunjuk Ringkas (hlm. IV / HAL 4) - kutipan inti
+
 > Untuk mengenali asal-usul kata serapan itu. pada kolom kedua disajikan bentuk asli pada bahasa sumbernya. Kolom ketiga berisi sekadar petunjuk tentang pengertian kata serapan yang bersangkutan. Karena keterangan iru tidak dimaksudkan sebagai definisi kata serapan. pembaca dianjurkan melihat ke kamus untuk mengetahu1 makna kata tersebut secara tepat.
 >
-> Senarai yang disajikan di sini tidak merupakan daftar lengkap kata serapan dari keenam bahasa tersebut di atas. Salah satu pertimbangan pemilihan kata yang dimuat di smi adalah kemanfaatannya untuk pengembangan bahasa Indonesia serta kebakuan bentuk kata serapan ttu. Kara serapan yang dipilih di sini terutama adalah yang bentuknya bertalian erat dengan bentuk ash pada bahasa tertentu. Kata serapan yang secara sinkronis tidak dapat ditentukan sumbernya secara pasti tidak dihimpun di sini.
+> Senarai yang disajikan di sini tidak merupakan daftar lengkap kata serapan dari keenam bahasa tersebut di atas. Salah satu pertimbangan pemilihan kata yang dimuat di smi adalah kemanfaatannya untuk pengembangan bahasa Indonesia serta kebakuan bentuk kata serapan ttu.
 >
 > Khusus kata-kata dari bahasa Laun. karena peranan bahasa itu yang penting pada zamannya tidak saja dalam bidang agama. tetapi juga bidang ilmu dan hukum. banyak yang dipenahankan ejaannya di beberapa bahasa. Dalam bahasa Indonesia kata serapan dari bahasa Latin itu juga banyak yang dipertahankan ejaannya. Dimasukkan juga di sini beberapa singkatan kata Latin yang lazim digunakan dalam konteks bahasa Indonesia.
+
+(Verbatim HAL 4, OCR rusak: iru=itu, mengetahu1=mengetahui, smi=sini, ttu=itu, Laun=Latin, dipenahankan=dipertahankan. Halaman ditutup angka cetak "Ill"=IV. Kalimat pertama halaman: "Buku ini menyajikan senarai kaca serapan dari bahasa asing yang disajikan menurut urutan abjad: Arab. Belanda. Latin. Por·tugis. Sanskerta. dan Tamil." - kaca=OCR untuk kata.)
 
 ---
 
@@ -78,23 +76,23 @@
 - **Bentuk Serapan:** kaifiat
 - **Bentuk Asal (verbatim):** kayfiyyat
 - **Kutipan Verbatim (HAL 20 / hlm. 15):** `kaifiat | kayfiyyat | kualitas; mutu: keadaan | menurut sifat (tabiat) yang | asli; cara yang khusus`
-- **Catatan:** Sering disalahpahami sebagai istilah keagamaan semata; makna pertama entri resmi justru kualitas/mutu. Dalam teks ilmiah-resmi, kualitas (baku) sudah lazim dipakai, tetapi kaifiat tetap tercatat resmi untuk makna keadaan menurut sifat asli atau cara yang khusus.
+- **Catatan:** Sering disalahpahami sebagai istilah keagamaan semata; makna pertama entri resmi justru kualitas/mutu.
 
 ### SKS-002 - anasir
 - **Sumber:** Arab
 - **Sitasi:** HAL 7 dump = hlm. cetak 2
 - **Bentuk Serapan:** anasir
 - **Bentuk Asal (verbatim):** anasir
-- **Kutipan Verbatim (HAL 7 / hlm. 2):** `egois | anasir | anasir | element`
-- **Catatan:** Di dump keterangan tertulis element; padanan Indonesianya unsur/elemen. Entri resminya netral; konotasi negatif (anasir subversif) merupakan bias pemakaian masa lalu, bukan makna leksikal bawaannya.
+- **Kutipan Verbatim (HAL 7 / hlm. 2):** `anasir | anasir | element`
+- **Catatan:** Keterangan resmi tertulis element; padanan Indonesianya unsur/elemen. Konotasi negatif (anasir subversif) adalah bias pemakaian, bukan makna leksikal.
 
 ### SKS-003 - hakikat / hakiki
 - **Sumber:** Arab
 - **Sitasi:** HAL 13 dump = hlm. cetak 8
 - **Bentuk Serapan:** hakikat; hakiki
 - **Bentuk Asal (verbatim):** haqlqah; haqliy
-- **Kutipan Verbatim (HAL 13 / hlm. 8):** `pengantara: wasit | hakikat | l}aqlqah | inti sari`
-- **Catatan:** Bentuk baku hakikat dan hakiki, bukan hakekat/hakeki. Keterangan resmi: inti sari (hakikat), benar (hakiki). Huruf Arab ḥ rusak di OCR menjadi simbol l}.
+- **Kutipan Verbatim (HAL 13 / hlm. 8):** `hakikat | l}aqlqah | inti sari` + `hakiki | l~aqlqiy | benar`
+- **Catatan:** Baku: hakikat/hakiki, bukan hakekat/hakeki. Huruf ha Arab rusak OCR menjadi simbol l}.
 
 ### SKS-004 - mustakim
 - **Sumber:** Arab
@@ -102,7 +100,7 @@
 - **Bentuk Serapan:** mustakim
 - **Bentuk Asal (verbatim):** mustaqim
 - **Kutipan Verbatim (HAL 30 / hlm. 25):** `mustakim | mustaqlm | yang berterus cerang: terus`
-- **Catatan:** Keterangan resmi: yang berterus terang; terus terang. Sering hanya dikenal lewat frasa doa keagamaan, padahal diserap resmi sebagai adjektiva lurus/jujur/terus terang.
+- **Catatan:** Sering hanya dikenal lewat frasa doa; entri resmi memaknai adjektiva umum lurus/terus terang.
 
 ### SKS-005 - tadbir
 - **Sumber:** Arab
@@ -110,15 +108,15 @@
 - **Bentuk Serapan:** tadbir
 - **Bentuk Asal (verbatim):** tadbir
 - **Kutipan Verbatim (HAL 41 / hlm. 36):** `tadbir | tadblr | administrasi`
-- **Catatan:** Padanan Arab untuk administrasi (administratie versi Belanda). Keterangan resmi: administrasi. Berdampingan dengan tadmin (jaminan).
+- **Catatan:** Padanan Arab untuk administrasi; sering dianggap istilah keagamaan semata.
 
 ### SKS-006 - abad / abadiah / abadiat
 - **Sumber:** Arab
 - **Sitasi:** HAL 6 dump = hlm. cetak 1
 - **Bentuk Serapan:** abad; abadiah; abadiat
 - **Bentuk Asal (verbatim):** abad; abadiyyah
-- **Kutipan Verbatim (HAL 6 / hlm. 1):** `masa seratus tahun | abadiah | abadiyyah | kekekalan | abadiat`
-- **Catatan:** Serapan Arab dasar. Keterangan resmi: masa seratus tahun (abad) dan kekekalan (abadiah/abadiat). Penyerapan tanpa tanda glotal/apostrof di tengah.
+- **Kutipan Verbatim (HAL 6 / hlm. 1):** `abadiah | abadiyyah | kekekalan` (pasangan abad tercatat `abad | a bad | masa seratus tahun`)
+- **Catatan:** Keterangan resmi: masa seratus tahun (abad); kekekalan (abadiah/abadiat).
 
 ### SKS-007 - kualitas
 - **Sumber:** Belanda
@@ -126,7 +124,7 @@
 - **Bentuk Serapan:** kualitas
 - **Bentuk Asal (verbatim):** kwaliteit
 - **Kutipan Verbatim (HAL 59 / hlm. 54):** `kualitas | kwaliteit | kadar; derajat atau taraf`
-- **Catatan:** Kaidah penyerapan kw- menjadi ku-. Bentuk kwalitas tidak terdaftar di senarai resmi; baku: kualitas. Keterangan resmi: kadar; derajat atau taraf.
+- **Catatan:** Kaidah kw- menjadi ku-. Bentuk kwalitas tidak terdaftar di senarai; baku: kualitas.
 
 ### SKS-008 - kuitansi
 - **Sumber:** Belanda
@@ -134,7 +132,7 @@
 - **Bentuk Serapan:** kuitansi
 - **Bentuk Asal (verbatim):** kwitantie
 - **Kutipan Verbatim (HAL 59 / hlm. 54):** `kuitansi | kwitantie | surat bukti penerimaan uang`
-- **Catatan:** Penyerapan kw- menjadi ku- (kuitansi, bukan kwitansi). Keterangan resmi: surat bukti penerimaan uang. Merupakan salah satu kata yang paling sering salah dieja di naskah dinas.
+- **Catatan:** kw- menjadi ku- (bukan kwitansi). Salah satu kata yang paling sering salah eja di naskah dinas.
 
 ### SKS-009 - risiko
 - **Sumber:** Belanda
@@ -142,7 +140,7 @@
 - **Bentuk Serapan:** risiko
 - **Bentuk Asal (verbatim):** risico
 - **Kutipan Verbatim (HAL 67 / hlm. 62):** `risiko | risico | akibat yang kurang | menyenangkan`
-- **Catatan:** Vokal kedua /i/: risiko, bukan resiko. Keterangan resmi: akibat yang kurang menyenangkan. Diserap dari Belanda risico.
+- **Catatan:** Vokal kedua /i/: risiko, bukan resiko.
 
 ### SKS-010 - administrasi
 - **Sumber:** Belanda
@@ -150,7 +148,7 @@
 - **Bentuk Serapan:** administrasi
 - **Bentuk Asal (verbatim):** administratie
 - **Kutipan Verbatim (HAL 49 / hlm. 44):** `administrasi | administratie`
-- **Catatan:** Akhiran -tie diserap -si (administrasi, bukan administrati). Keterangan resmi: kegiatan kantor dan tata usaha. Bentuk ajektivalnya administratif dicatat pada halaman yang sama.
+- **Catatan:** Akhiran -tie diserap -si. Bentuk ajektival administratif tercatat di halaman sama.
 
 ### SKS-011 - paragraf
 - **Sumber:** Belanda
@@ -158,23 +156,23 @@
 - **Bentuk Serapan:** paragraf
 - **Bentuk Asal (verbatim):** paragraaf
 - **Kutipan Verbatim (HAL 64 / hlm. 59):** `paragraf | paragraaf`
-- **Catatan:** Akhiran -aaf diserap -af dengan huruf f, bukan p. Keterangan resmi: alinea; pasal.
+- **Catatan:** Akhiran -aaf diserap -af dengan f, bukan p.
 
 ### SKS-012 - a posteriori / a priori
 - **Sumber:** Latin
 - **Sitasi:** HAL 72 dump = hlm. cetak 67
 - **Bentuk Serapan:** a posteriori; a priori
 - **Bentuk Asal (verbatim):** a posteriori; a priori
-- **Kutipan Verbatim (HAL 72 / hlm. 67):** `a posteriori | a posteriori | penalaran induktif | a pnon`
-- **Catatan:** Ejaan Latin dipertahankan utuh sesuai Petunjuk Ringkas. Keterangan resmi: penalaran induktif (a posteriori) dan penalaran deduktif (a priori; di dump terocr a pnon).
+- **Kutipan Verbatim (HAL 72 / hlm. 67):** `a posteriori | a posteriori | penalaran induktif` (pasangan a priori tercatat `a pnon | a pnon | penalaran deduktif`)
+- **Catatan:** Ejaan Latin dipertahankan utuh sesuai Petunjuk Ringkas. a priori di dump ter-OCR a pnon.
 
 ### SKS-013 - ad hoc / ad interim
 - **Sumber:** Latin
 - **Sitasi:** HAL 72 dump = hlm. cetak 67
 - **Bentuk Serapan:** ad hoc; ad interim
 - **Bentuk Asal (verbatim):** ad hoc; ad interim (a.i)
-- **Kutipan Verbatim (HAL 72 / hlm. 67):** `ad hoc | ad hoc | dibentuk untuk satu tujuan | ad interim`
-- **Catatan:** Singkatan a.i. dicatat resmi dalam senarai (ad interim (a.i)). Keterangan resmi: dibentuk untuk satu tujuan (ad hoc); sementara (ad interim). Keduanya lazim pada teks dinas/organisasi.
+- **Kutipan Verbatim (HAL 72 / hlm. 67):** `ad hoc | ad hoc | dibentuk untuk satu tujuan` + `ad interim | ad interim (a.i) | sementara`
+- **Catatan:** Singkatan a.i. dicatat resmi (ad interim (a.i)). Lazim pada teks dinas.
 
 ### SKS-014 - doktrin
 - **Sumber:** Latin
@@ -182,7 +180,7 @@
 - **Bentuk Serapan:** doktrin
 - **Bentuk Asal (verbatim):** doctrine
 - **Kutipan Verbatim (HAL 73 / hlm. 68):** `doktrin | doctrine | ajaran`
-- **Catatan:** Serapan Latin via Belanda doctrine. Keterangan resmi: ajaran. Bentuk baku doktrin (bukan doctrine/doktrina). Berdampingan dengan entri de facto dan de jure.
+- **Catatan:** Serapan Latin via Belanda doctrine; baku: doktrin. Berdampingan dengan de facto dan de jure.
 
 ### SKS-015 - algojo
 - **Sumber:** Portugis
@@ -190,7 +188,7 @@
 - **Bentuk Serapan:** algojo
 - **Bentuk Asal (verbatim):** algoz
 - **Kutipan Verbatim (HAL 78 / hlm. 73):** `algojo | algoz | orang bengis ~an kejam`
-- **Catatan:** Keterangan resmi: orang bengis dan kejam. Bukti kontak maritim Portugis abad ke-16 di Nusantara.
+- **Catatan:** Bukti kontak maritim Portugis abad ke-16 di Nusantara.
 
 ### SKS-016 - antero
 - **Sumber:** Portugis
@@ -198,7 +196,7 @@
 - **Bentuk Serapan:** antero
 - **Bentuk Asal (verbatim):** inteiro
 - **Kutipan Verbatim (HAL 78 / hlm. 73):** `antero | inteiro | seluruh`
-- **Catatan:** Sering disangka kata asli Melayu (seantero), padahal serapan Portugis inteiro. Keterangan resmi: seluruh.
+- **Catatan:** Sering disangka kata asli Melayu (seantero), padahal serapan Portugis.
 
 ### SKS-017 - pesta
 - **Sumber:** Portugis
@@ -206,7 +204,7 @@
 - **Bentuk Serapan:** pesta
 - **Bentuk Asal (verbatim):** festa
 - **Kutipan Verbatim (HAL 80 / hlm. 75):** `pesta | festa | perjamuan makan dan minum`
-- **Catatan:** Perubahan fonem f menjadi p khas serapan Portugis masa lampau. Keterangan resmi: perjamuan makan dan minum. Berdampingan dengan meja (mesa) dan mentega (manteiga).
+- **Catatan:** Perubahan fonem f menjadi p khas serapan Portugis lama; berdampingan dengan meja (mesa), mentega (manteiga).
 
 ### SKS-018 - merdeka
 - **Sumber:** Sanskerta
@@ -214,7 +212,7 @@
 - **Bentuk Serapan:** merdeka
 - **Bentuk Asal (verbatim):** maharddhika
 - **Kutipan Verbatim (HAL 89 / hlm. 84):** `merdeka | maharddhika | tidak terikat`
-- **Catatan:** Keterangan resmi: tidak terikat. Berasal dari Sanskerta maharddhika (orang luhur/bijaksana). Sering disangka kata asli Nusantara.
+- **Catatan:** Dari maharddhika (orang luhur); sering disangka kata asli Nusantara.
 
 ### SKS-019 - pranata
 - **Sumber:** Sanskerta
@@ -222,7 +220,7 @@
 - **Bentuk Serapan:** pranata
 - **Bentuk Asal (verbatim):** pranata
 - **Kutipan Verbatim (HAL 92 / hlm. 87):** `pranata | pranata | institusi`
-- **Catatan:** Keterangan resmi: institusi. Bentuk Sanskerta untuk konsep sistem norma/lembaga sosial. Berdampingan dengan prakata (kata pendahuluan; mukadimah).
+- **Catatan:** Bentuk Sanskerta untuk konsep kelembagaan; berdampingan dengan prakata.
 
 ### SKS-020 - cukai
 - **Sumber:** Tamil
@@ -230,16 +228,16 @@
 - **Bentuk Serapan:** cukai
 - **Bentuk Asal (verbatim):** cukkai
 - **Kutipan Verbatim (HAL 95 / hlm. 90):** `cukai | c;:ukkai | pajak`
-- **Catatan:** Keterangan resmi: pajak. Bukti serapan kosakata perniagaan dan tata niaga pelabuhan dari bahasa Tamil di Nusantara.
+- **Catatan:** Bukti serapan kosakata perniagaan Tamil di Nusantara.
 
 ---
 
 ## Catatan Integrasi untuk Humanizer-ID
 
-1. **Penguat Kaidah BPK Eksisting:** Entri `kualitas` (SKS-007), `kuitansi` (SKS-008), dan `risiko` (SKS-009) berfungsi sebagai rujukan penguat primer untuk kaidah ortografi baku di `references/bentuk-pilihan-kata-baku-tidakbaku.md` (BPK-015 dan sekitarnya). Senarai 1995 ini membuktikan bahwa pembakuan vokal /i/ pada risiko dan /u/ pada gugus ku- sudah dikodifikasi secara resmi oleh Pusat Bahasa sejak 1995.
-2. **Klarifikasi Makna Netral:** Kata `anasir` (SKS-002) dan `kaifiat` (SKS-001) sering mengalami bias konteks. Dalam teks ilmiah, anasir sering dicurigai bernuansa peyoratif (warisan Orde Baru: 'anasir subversif'), padahal secara leksikal berarti murni unsur/elemen dasar. Senarai 1995 mencatat keterangan aslinya murni 'element'.
-3. **Kata Serapan yang Dikira Melayu Asli:** Kata `antero` (SKS-016, Portugis *inteiro*), `merdeka` (SKS-018, Sanskerta *maharddhika*), dan `cukai` (SKS-020, Tamil *cukkai*) membuktikan kedalaman lapisan serapan dalam kosakata dasar Indonesia, berguna untuk materi edukasi kebahasaan.
-4. **Perlakuan Ejaan Latin:** Sesuai Petunjuk Ringkas hlm. IV, bentuk serapan dari bahasa Latin (seperti `a posteriori`, `a priori`, `ad hoc`, `ad interim`) banyak yang dipertahankan ejaannya secara utuh dan dalam naskah ilmiah/dinas resmi ditulis murni atau dengan huruf miring bila belum diserap secara fonotaktis penuh.
+1. **Penguat Kaidah BPK Eksisting:** `kualitas` (SKS-007), `kuitansi` (SKS-008), `risiko` (SKS-009) memperkuat kaidah ortografi di `references/bentuk-pilihan-kata-baku-tidakbaku.md` (BPK-015 dkk.): pembakuan kw- -> ku- dan vokal /i/ pada risiko sudah dikodifikasi Pusat Bahasa sejak 1995.
+2. **Klarifikasi Makna Netral:** `anasir` (SKS-002) dan `kaifiat` (SKS-001) sering mengalami bias konteks; entri resminya netral (element; kualitas/mutu), bukan peyoratif.
+3. **Dikira Kata Asli, Padahal Serapan:** `antero` (SKS-016), `merdeka` (SKS-018), `cukai` (SKS-020) - berguna untuk materi edukasi etimologi.
+4. **Perlakuan Ejaan Latin:** Sesuai Petunjuk Ringkas hlm. IV, serapan Latin (`a posteriori`, `a priori`, `ad hoc`, `ad interim`) banyak yang dipertahankan ejaannya; tulis miring bila belum diserap fonotaktis.
 
 ---
 
