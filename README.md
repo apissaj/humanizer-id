@@ -8,6 +8,22 @@ Panduan penyuntingan bahasa Indonesia akademik dan profesional untuk agen kecerd
 
 ---
 
+## Arsitektur Skill (v2.1.0)
+
+Sejak v2.1.0, panduan editorial dipecah agar hemat konteks agen:
+
+- **`SKILL.md` (induk, ~195 baris)** — aturan integritas ilmiah, pengecualian dokumen, empat mode eksekusi, eliminasi penyakit AI leksikal, prosedur kerja, format luaran, dan **tabel rute** ke sub-kaidah.
+- **`skills/humanizer-id-ejaan-morfologi/`** — 17 blok kaidah EYD V, PUEBI, peluluhan fonem, gabungan kata.
+- **`skills/humanizer-id-sintaksis/`** — 21 blok kaidah kesejajaran, korelatif, kalimat efektif, morfofonemik verba.
+- **`skills/humanizer-id-diksi-istilah/`** — 13 blok kaidah pilihan kata, peristilahan PUPI, padanan lintas bidang.
+- **`skills/humanizer-id-wacana-retorika/`** — 18 blok kaidah kohesi paragraf, sitasi terajut, hedging epistemik.
+- **`skills/humanizer-id-naskah-resmi/`** — 6 blok kaidah bahasa pewara, surat dinas, metadata jurnal.
+- **`references/log-integrasi-kaidah.md`** — arsip provenance sesi bedah (bukan aturan operasional).
+
+Agen memuat induk dulu, lalu hanya sub-berkas yang relevan dengan naskah.
+
+---
+
 ## Mengapa Naskah AI Bahasa Indonesia Terasa Kaku?
 
 Kekakuan tulisan AI bahasa Indonesia jarang disebabkan oleh kesalahan tata bahasa. Penyebab utamanya adalah:
@@ -209,11 +225,12 @@ Jika Anda menggunakan antarmuka web (tanpa coding agent):
 ### 2. Pemasangan pada AI Coding Agents
 
 #### Hermes Agent
-Simpan berkas `SKILL.md` ke folder skill Hermes Anda:
+Simpan berkas `SKILL.md` (induk) beserta folder `skills/` (sub-kaidah) ke folder skill Hermes Anda:
 ```bash
 # Direktori skill aktif
 mkdir -p ~/.hermes/skills/creative/humanizer-id
 cp SKILL.md ~/.hermes/skills/creative/humanizer-id/
+cp -r skills/ ~/.hermes/skills/creative/humanizer-id/skills/
 ```
 
 #### Claude Code
