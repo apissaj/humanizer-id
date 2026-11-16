@@ -11,6 +11,7 @@
 [![CI](https://github.com/apissaj/humanizer-id/actions/workflows/ci.yml/badge.svg)](https://github.com/apissaj/humanizer-id/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/badge/PyPI-humanizer--id-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/humanizer-id/)
 [![Release](https://img.shields.io/github/v/release/apissaj/humanizer-id?style=flat-square)](https://github.com/apissaj/humanizer-id/releases)
+[![skills.sh](https://skills.sh/b/apissaj/humanizer-id?style=flat-square)](https://skills.sh/apissaj/humanizer-id)
 [![License: MIT](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](LICENSE)
 
 </div>
@@ -107,9 +108,17 @@ for f in findings:
 
 ### AI Coding Agents
 
-#### Installer (rekomendasi)
+#### skills.sh (rekomendasi)
 
-Satu perintah memasang skill ke semua agen AI terdeteksi (Hermes Agent, Claude Code, Google Antigravity):
+Humanizer ID terdaftar di [skills.sh](https://skills.sh/apissaj/humanizer-id), direktori terbuka skill agen:
+
+```bash
+npx skills add apissaj/humanizer-id
+```
+
+#### Installer paket (alternatif)
+
+Bila paket Python sudah terpasang, satu perintah memasang skill ke semua agen AI terdeteksi (Hermes Agent, Claude Code, Google Antigravity):
 
 ```bash
 humanizer-id install
