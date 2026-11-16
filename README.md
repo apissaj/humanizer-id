@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.webp">
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.webp">
+    <img src="assets/banner-light.webp" alt="Humanizer ID — panduan penyuntingan bahasa Indonesia untuk agen AI" width="100%" />
+  </picture>
+</p>
+
 <div align="center">
 
 # Humanizer ID
@@ -21,6 +29,8 @@
 **Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 592 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + lima sub-kaidah dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
+
+<a href="assets/compare/before-after.webp"><img src="assets/compare/before-after.webp" alt="Sebelum: draf AI dengan frasa berantakan; sesudah: kalimat lugas hasil Humanizer ID" width="100%"></a>
 
 Contoh penyuntingan abstrak penelitian teknik (studi kasus lengkap di [examples/](examples/)):
 
