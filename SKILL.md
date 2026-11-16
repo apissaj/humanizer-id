@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 2.2.0
+version: 2.3.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -165,6 +165,19 @@ Tabel wajib yang memetakan kalimat yang mengalami perbaikan beserta alasan kaida
 
 ### 4. Poin Konfirmasi Penulis (Bila Ada)
 Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi dari penulis asli tanpa direkayasa.
+
+---
+
+## 7. Mode AFTER - Audit Bernomor (Tidak Menyunting)
+
+Dipicu saat pengguna meminta audit naskah yang **sudah jadi** (bukan menyunting langsung). Kontraknya: laporan dulu, persetujuan nomor, baru eksekusi.
+
+1. **Langkah 1 — Jalankan audit deterministik:** `python scripts/audit.py <naskah> --report` menghasilkan `humanizer/audit-NNN-YYYY-MM-DD.md` dengan temuan bernomor urut naik (NNN lanjut dari laporan sebelumnya, tidak pernah ditimpa). Setiap temuan diberi prioritas: **HIGH** (kalke/verba ringan/klise AI - cacat makna/kalimat), **MEDIUM** (istilah asing tak baku/glosarium), **LOW** (gaya/domain/kampus).
+2. **Langkah 2 — Serahkan laporan, jangan sentuh naskah:** Tampilkan nomor + kutipan + saran. Mode AFTER melarang perubahan apa pun sampai pengguna menyebutkan nomor yang disetujui. Nomor yang tidak disebut dibiarkan apa adanya.
+3. **Langkah 3 — Eksekusi nomor yang disetujui saja:** Perbaiki hanya temuan yang dirujuk pengguna. Untuk setiap perbaikan, tetap patuhi Aturan Integritas Ilmiah (angka/sitasi utuh) dan susun Diff Table.
+4. **Langkah 4 — Laporan susulan:** Tambahkan seksi "Hasil Perbaikan" ke laporan audit yang sama (nomor, sebelum -> sesudah, status). Jalankan Delivery Gate pada hasil akhir.
+
+Penilaian editorial non-deterministik (kalimat efektif, kohesi, retorika) tidak dihasilkan `--report`; kerjakan manual hanya bila pengguna meminta, dengan format temuan bernomor yang sama dan prioritas yang jelas.
 
 ---
 

@@ -352,6 +352,7 @@ def main():
         print("Pilihan tambahan:")
         print("    --fix            Lakukan perbaikan otomatis (autofix) pada bentuk leksikal deterministik")
         print("    --write, -w      Tulis hasil perbaikan langsung ke berkas asli (digunakan bersama --fix)")
+        print("    --report         Tulis temuan bernomor ke humanizer/audit-NNN-YYYY-MM-DD.md (mode AFTER; naskah tidak diubah)")
         print("    --kampus <id>    Gunakan aturan format spesifik kampus (ui, itb, ugm, its, ipb, undip, unpad, unair, ub, telkom, udinus)")
         print("    --preset <nama>  Preset domain audit: umum (default), akademik, dinas, jurnalistik")
         sys.exit(0)
@@ -370,6 +371,12 @@ def main():
     if "-w" in args:
         write_in_place = True
         args.remove("-w")
+
+    # Parse --report (mode AFTER: laporan bernomor, naskah tidak diubah)
+    report_dir = None
+    if "--report" in args:
+        report_dir = "humanizer"
+        args.remove("--report")
 
     # Parse --preset flag
     preset = "umum"
@@ -398,6 +405,26 @@ def main():
     except FileNotFoundError as exc:
         print(f"[!] {exc}", file=sys.stderr)
         sys.exit(2)
+
+    if report_dir is not None:
+        if args and args[0] == "--demo":
+            print("[!] --report tidak berlaku untuk --demo.", file=sys.stderr)
+            sys.exit(1)
+        if not args:
+            print("[!] --report butuh berkas naskah.", file=sys.stderr)
+            sys.exit(1)
+        filepath = args[0]
+        if not os.path.exists(filepath):
+            print(f"[!] Berkas tidak ditemukan: {filepath}", file=sys.stderr)
+            sys.exit(1)
+        with open(filepath, "r", encoding="utf-8", errors="ignore") as f:
+            content = f.read()
+        from .report import tulis_laporan
+        findings = audit_text(content, kalke_dict, glosarium_dict, kampus_dict, preset)
+        report_path = tulis_laporan(findings, filepath, report_dir)
+        print(f"[✓] Laporan audit bernomor ditulis: {report_path}")
+        print(f"    Temuan: {len(findings)} (prioritas HIGH/MEDIUM/LOW di laporan)")
+        return
 
     if args and args[0] == "--demo":
         sample_text = """
