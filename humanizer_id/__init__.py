@@ -1,6 +1,7 @@
 """Humanizer ID: mesin editorial bahasa Indonesia berbasis 465 kaidah preskriptif."""
 
-__version__ = "1.6.0"
+__version__ = "2.3.0"
 
 from .audit import audit_text  # noqa: F401
 from .engine import fix_text   # noqa: F401
+from .report import tulis_laporan, render_laporan, klasifikasi_prioritas  # noqa: F401

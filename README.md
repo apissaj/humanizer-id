@@ -333,6 +333,18 @@ python jurnal/scripts/word_count_check.py <naskah.md>
 
 ---
 
+## Mode AFTER: Audit Bernomor
+
+Periksa naskah tanpa menyuntingnya - laporan temuan bernomor, eksekusi hanya nomor yang disetujui:
+
+```bash
+python scripts/audit.py naskah.md --report
+```
+
+Menghasilkan `humanizer/audit-001-YYYY-MM-DD.md` (nomor urut naik otomatis, tidak pernah menimpa laporan lama). Setiap temuan memuat prioritas HIGH (kalke/verba ringan/klise AI), MEDIUM (istilah tak baku/glosarium), LOW (gaya/domain), kutipan, saran, dan catatan kaidah.
+
+---
+
 ## Lisensi
 
 Perangkat lunak dan panduan ini dilisensikan di bawah [Lisensi MIT](LICENSE) © 2026 Hafizh Muzani.
