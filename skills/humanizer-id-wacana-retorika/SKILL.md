@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-wacana-retorika
 description: Use when fixing kohesi paragraf & retorika naskah.
-version: 2.1.0
+version: 2.3.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -20,175 +20,153 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 ---
 
 ### A. Eliminasi Monotoni Pembuka Antar-Paragraf (*Connector Addiction*)
-AI memiliki kecenderungan adiktif menaruh kata penghubung mekanis di kata pertama setiap awal paragraf (*Selain itu,*, *Lebih lanjut,*, *Oleh karena itu,*, *Di sisi lain,*).
-- **Aturan:** Maksimal satu konjungsi transisi di awal paragraf per halaman teks.
-- **Solusi:** Buka paragraf baru dengan subjek tematis langsung, frasa nomina fokus, atau kalimat simpulan data terdahulu.
+
+1. **Pola:** *Selain itu, ...* / *Lebih lanjut, ...* / *Oleh karena itu, ...* / *Di sisi lain, ...* (kata penghubung mekanis di kata pertama setiap awal paragraf) → **Perbaikan:** maksimal satu konjungsi transisi di awal paragraf per halaman teks; buka paragraf baru dengan subjek tematis langsung, frasa nomina fokus, atau kalimat simpulan data terdahulu — **Sebab:** AI memiliki kecenderungan adiktif menaruh kata penghubung mekanis di awal tiap paragraf (*connector addiction*).
+
+---
 
 ### B. Eliminasi Transisi Kopong & Ilusi Keterhubungan (*Illusory Cohesion*)
-AI gemar menyisipkan kata sambung kausalitas (*“Dengan demikian, hal ini membuktikan bahwa...”*, *“Konsekuensinya, algoritma ini...”*) padahal kalimat sebelumnya belum memuat data premis yang cukup untuk menarik kesimpulan tersebut.
-- **Aturan:** Evaluasi apakah kalimat sebelumnya benar-benar memuat premis pembukti. Bila bukti belum memadai, hapus transisi kausalitas tiruan dan tampilkan relasi sebagai hubungan koordinatif wajar.
+
+1. **Pola:** *Dengan demikian, hal ini membuktikan bahwa...* / *Konsekuensinya, algoritma ini...* (kata sambung kausalitas padahal kalimat sebelumnya belum memuat premis) → **Perbaikan:** evaluasi apakah kalimat sebelumnya benar-benar memuat premis pembukti; bila bukti belum memadai, hapus transisi kausalitas tiruan dan tampilkan relasi sebagai hubungan koordinatif wajar — **Sebab:** ilusi keterhubungan (*illusory cohesion*): kata sambung kausalitas tanpa data premis yang cukup menyesatkan pembaca.
+
+---
 
 ### C. Penertiban Sudut Pandang Aktor (*Agent Drift Consistency*)
-Cegah pergeseran pelaku tindakan yang bercampur baur dalam satu bab:
-- **Salah:** *“Sistem dirancang oleh kami, lalu pengujian dilakukan oleh peneliti, dan laporan disusun oleh penulis.”*
-- **Baku:** Tetapkan satu sudut pandang konsisten: pasif objektif murni (*“Sistem dirancang..., pengujian dilakukan..., dan laporan disusun...”*) atau konsisten menggunakan sebutan *peneliti*.
+
+1. **Pola:** *Sistem dirancang oleh kami, lalu pengujian dilakukan oleh peneliti, dan laporan disusun oleh penulis* (pelaku tindakan bercampur baur dalam satu bab) → **Perbaikan:** *Sistem dirancang..., pengujian dilakukan..., dan laporan disusun...* (pasif objektif murni) atau konsisten menggunakan sebutan *peneliti* — **Sebab:** pergeseran sudut pandang aktor (*agent drift*) merusak konsistensi pelaku tindakan dalam satu bab.
+
+---
 
 ### D. Perajutan Sitasi Ilmiah Alami (*Citation Weaving*)
-Hentikan pola kutipan nama berulang di awal kalimat (*“Menurut Pratama (2021)... Senada dengan itu, Wijaya (2022) menyatakan...”*):
-- Fokuskan kalimat pada **sintesis temuan**, bukan nama penelitinya. Tempatkan nama dan tahun di kurung penutup:
-  *“Peningkatan akurasi arsitektur berbasis atensi terbukti konsisten pada dataset teks informal (Pratama, 2021; Wijaya, 2022).”*
-- Gabungkan rujukan yang memiliki kesimpulan seirama dalam satu kurung.
+
+1. **Pola:** *Menurut Pratama (2021)... Senada dengan itu, Wijaya (2022) menyatakan...* (kutipan nama berulang di awal kalimat) → **Perbaikan:** *Peningkatan akurasi arsitektur berbasis atensi terbukti konsisten pada dataset teks informal (Pratama, 2021; Wijaya, 2022)* — fokuskan kalimat pada sintesis temuan, bukan nama peneliti; tempatkan nama dan tahun di kurung penutup; gabungkan rujukan yang memiliki kesimpulan seirama dalam satu kurung — **Sebab:** kalimat harus menyintesis temuan, bukan mendaftar nama peneliti.
+
+---
 
 ### E. Kalibrasi Derajat Kepastian Epistemik (*Epistemic Hedging*)
-- **Fakta Empiris:** Gunakan verba deklaratif teruji: *menunjukkan, menghasilkan, membuktikan, mencatatkan*.
-- **Inferensi & Korelasi:** Gunakan verba terukur: *mengindikasikan, berkorelasi dengan, mencerminkan*.
-- **Hipotesis / Prakiraan:** Gunakan penanda probabilitas tunggal: *diduga, diproyeksikan, berpotensi*.
-- **Larangan Tumpukan Hedging:** Dilarang menumpuk modalitas ganda dalam satu klausa (*“data ini mungkin berpotensi dapat diindikasikan bahwa...”* → *“data ini mengindikasikan bahwa...”*).
+
+1. **Pola:** verba kepastian tidak dikalibrasi dengan jenis klaim (verba teruji untuk dugaan; penanda probabilitas untuk fakta empiris) → **Perbaikan:** fakta empiris — *menunjukkan, menghasilkan, membuktikan, mencatatkan*; inferensi & korelasi — *mengindikasikan, berkorelasi dengan, mencerminkan*; hipotesis / prakiraan — penanda probabilitas tunggal *diduga, diproyeksikan, berpotensi* — **Sebab:** kalibrasi derajat kepastian epistemik menuntut verba selaras dengan tingkat kepastian klaim.
+2. **Pola:** *data ini mungkin berpotensi dapat diindikasikan bahwa...* → **Perbaikan:** *data ini mengindikasikan bahwa...* — **Sebab:** larangan tumpukan *hedging*: dilarang menumpuk modalitas ganda dalam satu klausa.
+
+---
 
 ### F. Rujukan Tabel, Gambar, Persamaan Matematis, & Tipografi Teknis
-- **Hindari Penunjuk Spasial Semu:**
-  - Tabel & Gambar: Ubah *“tabel di bawah ini”* atau *“grafik di atas”* menjadi penunjuk bernomor ilmiah (*“Tabel 4.2”*, *“Gambar 3.1”*). Jangan merekayasa nomor bila belum tersedia.
-  - Persamaan Matematis: Ganti rujukan informal *“rumus di atas”* atau *“persamaan berikut”* menjadi format baku: *“Berdasarkan Persamaan (3.1)...”* atau *“...sebagaimana dirumuskan pada Persamaan (2.4)”* (Pedoman Skripsi UGM & UI).
-- **Tipografi Teknis:**
-  - `monospace`: Perintah terminal (`npm run dev`), nama berkas (`config.json`), nama fungsi (`calculateStreaks()`), blok kode.
-  - *Italic* (Cetak Miring): Istilah asing yang belum diserap resmi ke KBBI (*overfitting*, *zero-shot*, *loss function*).
-  - Tegak: Istilah berpadanan baku (*basis data*, *tembolok*, *antarmuka*).
+
+1. **Pola:** *tabel di bawah ini* / *grafik di atas* → **Perbaikan:** *Tabel 4.2* / *Gambar 3.1* (penunjuk bernomor ilmiah; jangan merekayasa nomor bila belum tersedia) — **Sebab:** hindari penunjuk spasial semu; rujukan tabel & gambar wajib bernomor karena tata letak dapat bergeser.
+2. **Pola:** *rumus di atas* / *persamaan berikut* → **Perbaikan:** *Berdasarkan Persamaan (3.1)...* / *...sebagaimana dirumuskan pada Persamaan (2.4)* — **Sebab:** rujukan persamaan matematis informal diganti format baku bernomor (Pedoman Skripsi UGM & UI).
+3. **Pola:** perintah terminal, nama berkas, nama fungsi, blok kode, istilah asing, dan istilah berpadanan baku tanpa pembedaan tipografi → **Perbaikan:** `monospace` untuk perintah terminal (`npm run dev`), nama berkas (`config.json`), nama fungsi (`calculateStreaks()`), blok kode; *italic* untuk istilah asing yang belum diserap resmi ke KBBI (*overfitting*, *zero-shot*, *loss function*); tegak untuk istilah berpadanan baku (*basis data*, *tembolok*, *antarmuka*) — **Sebab:** tipografi teknis menandai jenis token secara konsisten.
+
+---
 
 ### O. Singkatan Latin Catatan Kaki & Sifat Ragam Ilmiah (Rujukan Buku Bahasa Indonesia IAIN Curup, 2021)
 
-1. **Singkatan Latin wajib lengkap dengan titik dan dicetak miring:**
-   - *Salah:* *“op cit 45”*, *“loc cit”*, *“ibidem halaman 23”*.
-   - *Baku:* *“op. cit., hlm. 45”*; *“loc. cit., hlm. 12”*; *“ibid., hlm. 23”*.
-   - *Ibid.* = karya sama dengan catatan sebelumnya; *Op. cit.* = karya yang pernah dikutip (tidak berurutan); *Loc. cit.* = halaman sama yang sudah dikutip.
-2. **Tujuh sifat ragam ilmiah:** cendekia, lugas-jelas, anti-kalimat fragmentaris, bertolak dari gagasan (bukan penulis → didominasi kalimat pasif), formal-objektif, ringkas-padat, konsisten (istilah & tanda baca seragam sepanjang naskah).
-3. **Nama pengarang:** di footnote urutan normal (nama diri → nama keluarga); di daftar pustaka dibalik (nama keluarga dulu). Nomor halaman wajib di footnote, opsional di daftar pustaka.
+1. **Pola:** *op cit 45* / *loc cit* / *ibidem halaman 23* → **Perbaikan:** *op. cit., hlm. 45* / *loc. cit., hlm. 12* / *ibid., hlm. 23* — **Sebab:** singkatan Latin wajib lengkap dengan titik dan dicetak miring; *ibid.* = karya sama dengan catatan sebelumnya, *op. cit.* = karya yang pernah dikutip (tidak berurutan), *loc. cit.* = halaman sama yang sudah dikutip.
+2. **Pola:** ragam penulisan yang meninggalkan tujuh sifat ragam ilmiah (kalimat fragmentaris, bertolak dari penulis, tidak formal-objektif, tidak ringkas-padat, tidak konsisten) → **Perbaikan:** cendekia, lugas-jelas, anti-kalimat fragmentaris, bertolak dari gagasan (bukan penulis → didominasi kalimat pasif), formal-objektif, ringkas-padat, konsisten (istilah & tanda baca seragam sepanjang naskah) — **Sebab:** tujuh sifat tersebut menjadi tolok ukur ragam ilmiah yang sah.
+3. **Pola:** nama pengarang ditulis seragam (dibalik) di footnote dan daftar pustaka; nomor halaman diletakkan di daftar pustaka → **Perbaikan:** di footnote urutan normal (nama diri → nama keluarga); di daftar pustaka dibalik (nama keluarga dulu); nomor halaman wajib di footnote, opsional di daftar pustaka — **Sebab:** konvensi nama pengarang dan nomor halaman berbeda antara catatan kaki dan daftar pustaka.
 
 ---
 
 ### P. Identitas Penulis Ilmiah & Singkatan Halaman (Rujukan Buku Siswa Kelas XI Kemendikbudristek, 2024)
 
-1. **Nama penulis artikel ilmiah ditulis TANPA gelar akademik:** *“Dr. Ahmad Hidayat, M.Si.”* → *Baku:* *“Ahmad Hidayat”*.
-2. **Nama belakang dilarang disingkat:** *“Ahmad H”* → *Baku:* *“Ahmad Hidayat”* — nama belakang menjadi kunci rujukan sitasi.
-3. **Singkatan halaman baku:** `h.` untuk satu maupun banyak halaman (*h. 55–67*), bukan `hh.` (konvensi Indonesia tidak mengenal pluralisasi singkatan halaman).
-4. **Ragam bahasa ilmiah tiga syarat:** objektif (berbasis data/fakta), reproduktif (makna pembaca = maksud penulis), denotatif murni (bebas konotasi/metafora).
+1. **Pola:** *Dr. Ahmad Hidayat, M.Si.* → **Perbaikan:** *Ahmad Hidayat* — **Sebab:** nama penulis artikel ilmiah ditulis tanpa gelar akademik.
+2. **Pola:** *Ahmad H* → **Perbaikan:** *Ahmad Hidayat* — **Sebab:** nama belakang dilarang disingkat karena menjadi kunci rujukan sitasi.
+3. **Pola:** *hh. 55–67* → **Perbaikan:** *h. 55–67* — **Sebab:** singkatan halaman baku adalah `h.` untuk satu maupun banyak halaman; konvensi Indonesia tidak mengenal pluralisasi singkatan halaman.
+4. **Pola:** ragam bahasa yang memuat subjektivitas, konotasi, atau makna ganda → **Perbaikan:** objektif (berbasis data/fakta), reproduktif (makna pembaca = maksud penulis), denotatif murni (bebas konotasi/metafora) — **Sebab:** tiga syarat ragam bahasa ilmiah.
 
 ---
 
 ### R. Kesatuan Ide Pokok & Pola Pengembangan Paragraf (Rujukan Buku Siswa Kelas XI Kemendikbudristek, 2024)
 
-1. **Satu Paragraf Satu Ide Pokok:**
-   - Setiap paragraf wajib memiliki satu kalimat topik (ide pokok) yang dikawal oleh kalimat-kalimat penjelas yang koheren.
-   - Jangan mencampur dua topik berbeda (misal: membahas latensi model sekaligus membahas struktur dataset) dalam satu paragraf tunggal. Pecah menjadi dua paragraf tersendiri.
-2. **Konsistensi Pola Deduksi / Induksi:**
-   - **Deduksi (paling disukai ragam ilmiah):** Mulai dengan kalimat pernyataan umum/tesis di awal paragraf, kemudian diuraikan bukti empiris, metrik, atau elaborasinya di kalimat-kalimat berikutnya.
-   - **Induksi:** Sajikan rentetan data pengujian/fakta terperinci, lalu akhiri dengan penarikan simpulan umum pada kalimat pamungkas paragraf.
-   - Dilarang mencampuradukkan posisi kalimat topik secara acak yang membuat pembaca kebingungan menangkap gagasan sentral.
+1. **Pola:** mencampur dua topik berbeda dalam satu paragraf tunggal (mis. membahas latensi model sekaligus membahas struktur dataset) → **Perbaikan:** pecah menjadi dua paragraf tersendiri; setiap paragraf memuat satu kalimat topik (ide pokok) yang dikawal kalimat-kalimat penjelas yang koheren — **Sebab:** satu paragraf wajib memuat satu ide pokok.
+2. **Pola:** posisi kalimat topik diacak tanpa pola tetap sehingga pembaca kebingungan menangkap gagasan sentral → **Perbaikan:** deduksi (paling disukai ragam ilmiah) — kalimat pernyataan umum/tesis di awal paragraf, kemudian diuraikan bukti empiris, metrik, atau elaborasi di kalimat-kalimat berikutnya; induksi — sajikan rentetan data pengujian/fakta terperinci, lalu akhiri dengan penarikan simpulan umum pada kalimat pamungkas paragraf — **Sebab:** pola pengembangan paragraf harus konsisten; mencampuradukkan posisi kalimat topik secara acak dilarang.
 
 ---
 
 ### U. Sindrom Akronim Redundan (RAS) & Keserasian Kohesi Wacana (Rujukan TBBBI Moeliono dkk. 1988/1998 & Haslinda-Thaba 2018)
 
-1. **Larangan Sindrom RAS — Akronim Redundan:**
-   - Unsur kepanjangan dalam akronim TIDAK boleh disebut ulang:
-     - *nomor NIK* → *NIK* (N = Nomor)
-     - *kartu KIP / kartu KTP* → *KIP / KTP* (K = Kartu)
-     - *nomor PIN* → *PIN* (N = Number)
-     - *virus HIV* → *HIV* (V = Virus)
-     - *partai PPP / PDIP / PAN* → *PPP / PDI Perjuangan / PAN* (P = Partai)
-     - *ATM card* → *kartu ATM* (M = Machine; 'card' redundan)
-2. **Pronomina Anaforis Tunggal:**
-   - Pronomina (*ia, dia, mereka, -nya*) wajib punya anteseden tunggal.
-   - *Salah:* *"Ratna dan kawannya pergi karena ia harus mendaftar."* (taksa: siapa yang mendaftar?)
-   - *Baku:* *"Ratna dan kawannya pergi karena Ratna harus mendaftar."*
-3. **Urutan Hiponimi–Hipernim:**
-   - Kata umum mencakup kata khusus, tidak boleh dibalik.
-   - *Salah:* *"Jangankan membeli kursi, satu mebel pun kami tidak punya."*
-   - *Baku:* *"Jangankan membeli aneka mebel, satu kursi pun kami tidak punya."*
-4. **Pelesapan Subjek yang Sah:**
-   - Subjek identik antarklausa dalam kalimat majemuk sebaiknya dilesapkan (elipsis); pengulangan subjek di setiap klausa melanggar asas ekonomi wacana (TBBBI, hlm. 330–333).
+1. **Pola:** *nomor NIK* / *kartu KIP* / *kartu KTP* / *nomor PIN* / *virus HIV* / *partai PPP* / *partai PDIP* / *partai PAN* / *ATM card* → **Perbaikan:** *NIK* (N = Nomor) / *KIP* / *KTP* (K = Kartu) / *PIN* (N = Number) / *HIV* (V = Virus) / *PPP* / *PDI Perjuangan* / *PAN* (P = Partai) / *kartu ATM* (M = Machine; *card* redundan) — **Sebab:** unsur kepanjangan dalam akronim tidak boleh disebut ulang (larangan Sindrom RAS — Akronim Redundan).
+2. **Pola:** *Ratna dan kawannya pergi karena ia harus mendaftar* (taksa: siapa yang mendaftar?) → **Perbaikan:** *Ratna dan kawannya pergi karena Ratna harus mendaftar* — **Sebab:** pronomina anaforis tunggal: pronomina (*ia, dia, mereka, -nya*) wajib punya anteseden tunggal.
+3. **Pola:** *Jangankan membeli kursi, satu mebel pun kami tidak punya* → **Perbaikan:** *Jangankan membeli aneka mebel, satu kursi pun kami tidak punya* — **Sebab:** urutan hiponimi–hipernim: kata umum mencakup kata khusus, tidak boleh dibalik.
+4. **Pola:** subjek identik diulang di setiap klausa dalam kalimat majemuk → **Perbaikan:** lesapkan subjek yang identik antarklausa (elipsis) — **Sebab:** pelesapan subjek yang sah; pengulangan subjek di setiap klausa melanggar asas ekonomi wacana (TBBBI, hlm. 330–333).
 
 ---
 
 ### AJ. Kepaduan & Keruntutan Paragraf (Rujukan Suladi, *Paragraf: Seri Penyuluhan Bahasa Indonesia*, Badan Bahasa, 2019)
 
-1. **Arah Referensi & Koreferensi:** pronomina persona dan demonstratif (*itu, ini, ia, dia, -nya*) wajib memiliki anteseden anaforis yang jelas; hindari konstruksi kataforis rancu yang memunculkan pronomina sebelum maujud acuannya (hlm. 33–34).
-2. **Keruntutan Ordinal:** penanda perincian berurutan wajib runtut dan konsisten (*Pertama, Kedua, Ketiga, Keempat*) — pengulangan (*Ketiga, Ketiga*) atau lompatan nomor merusak pernalaran paragraf (hlm. 55–56).
-3. **Ketuntasan Klasifikasi:** jika kalimat topik memuat bilangan pasti (*tiga faktor*), kalimat penjelas wajib mengembangkan ketiga faktor secara lengkap tanpa meninggalkan sisa (hlm. 55).
+1. **Pola:** konstruksi kataforis rancu — pronomina muncul sebelum maujud acuannya → **Perbaikan:** pronomina persona dan demonstratif (*itu, ini, ia, dia, -nya*) diletakkan setelah anteseden anaforis yang jelas — **Sebab:** arah referensi & koreferensi wajib anaforis; hindari konstruksi kataforis rancu (hlm. 33–34).
+2. **Pola:** *Pertama, Kedua, Ketiga, Ketiga* / *Pertama, Kedua, Keempat* → **Perbaikan:** *Pertama, Kedua, Ketiga, Keempat* — **Sebab:** keruntutan ordinal: penanda perincian berurutan wajib runtut dan konsisten; pengulangan atau lompatan nomor merusak pernalaran paragraf (hlm. 55–56).
+3. **Pola:** kalimat topik memuat bilangan pasti (*tiga faktor*) tetapi kalimat penjelas hanya mengembangkan dua faktor → **Perbaikan:** kembangkan ketiga faktor secara lengkap tanpa meninggalkan sisa — **Sebab:** ketuntasan klasifikasi: unsur yang dijanjikan kalimat topik wajib diuraikan seluruhnya (hlm. 55).
+
+---
 
 ### AM. Kaidah Penyajian Data Visual & Struktur Observasi (Rujukan Modul Pembelajaran SMA: Teks Tanggapan Tabel-Grafik & Laporan Hasil Observasi, Indri Anatya Permatasari, M.Pd., Direktorat SMA Kemendikbud 2020)
 
-1. **Rujukan Visual Bernomor (TBG-001):** Deiksis spasial relatif (*grafik di atas, tabel di bawah ini, bagan berikut*) dilarang pada naskah ilmiah; wajib rujukan bernomor eksplisit (*Grafik 2, Tabel 4.1*) karena tata letak halaman dapat bergeser saat cetak/responsif (KD 3.1, hlm. 12-14).
-2. **Terminologi Media Visual (TBG-002):** *grafik* untuk data numerik kuantitatif/fluktuasi deret waktu; *bagan* untuk hierarki/komponen struktural; *diagram* untuk prosedur/skema. Menyebut grafik batang sebagai "bagan batang" adalah kerancuan terminologi (KD 3.1, hlm. 9-11).
-3. **Konjungsi Pertentangan Komparasi Data (TBG-003):** *Sedangkan* adalah konjungsi intrakalimat — dilarang membuka kalimat mandiri; ganti *Sementara itu, / Di sisi lain,* atau gabung klausa dengan koma (KD 3.1, hlm. 16-17; Alwi dkk. 2017).
-4. **Definisi Umum LHO (LHO-001):** Dilarang menumpuk kopula + partitif + verba inklusi (*merupakan salah satu termasuk*); pilih satu konstruksi definisi lugas (KD 3.1/4.1, hlm. 27).
-5. **Kolokasi Taksonomi (LHO-002):** *terbagi atas ...* (bukan *terbagi dari/dalam*); *dibagi menjadi ...* (KD 3.1/4.1, hlm. 24-25).
-6. **Penutup Perincian (LHO-003):** Kontaminasi *dan lain sebagainya* dilarang — pilih *dan lain-lain* (rincian heterogen) atau *dan sebagainya* (rincian homogen) (KD 3.1/4.1, hlm. 28).
+1. **Pola:** *grafik di atas* / *tabel di bawah ini* / *bagan berikut* → **Perbaikan:** *Grafik 2* / *Tabel 4.1* — **Sebab:** rujukan visual bernomor (TBG-001): deiksis spasial relatif dilarang pada naskah ilmiah; rujukan bernomor eksplisit wajib karena tata letak halaman dapat bergeser saat cetak/responsif (KD 3.1, hlm. 12-14).
+2. **Pola:** menyebut grafik batang sebagai *bagan batang* → **Perbaikan:** *grafik* untuk data numerik kuantitatif/fluktuasi deret waktu; *bagan* untuk hierarki/komponen struktural; *diagram* untuk prosedur/skema — **Sebab:** terminologi media visual (TBG-002): salah menyebut grafik, bagan, dan diagram adalah kerancuan terminologi (KD 3.1, hlm. 9-11).
+3. **Pola:** *Sedangkan, ...* (membuka kalimat mandiri) → **Perbaikan:** *Sementara itu, ...* / *Di sisi lain, ...* atau gabung klausa dengan koma — **Sebab:** konjungsi pertentangan komparasi data (TBG-003): *sedangkan* adalah konjungsi intrakalimat, dilarang membuka kalimat mandiri (KD 3.1, hlm. 16-17; Alwi dkk. 2017).
+4. **Pola:** *merupakan salah satu termasuk ...* → **Perbaikan:** pilih satu konstruksi definisi lugas (*merupakan ...* / *salah satu ...* / *termasuk ...*) — **Sebab:** definisi umum LHO (LHO-001): dilarang menumpuk kopula + partitif + verba inklusi (KD 3.1/4.1, hlm. 27).
+5. **Pola:** *terbagi dari ...* / *terbagi dalam ...* → **Perbaikan:** *terbagi atas ...* / *dibagi menjadi ...* — **Sebab:** kolokasi taksonomi (LHO-002): *terbagi atas ...* bukan *terbagi dari/dalam* (KD 3.1/4.1, hlm. 24-25).
+6. **Pola:** *dan lain sebagainya* → **Perbaikan:** *dan lain-lain* (rincian heterogen) atau *dan sebagainya* (rincian homogen) — **Sebab:** penutup perincian (LHO-003): kontaminasi *dan lain sebagainya* dilarang (KD 3.1/4.1, hlm. 28).
+
+---
 
 ### AN. Ragam Opini Epistemik & Pencegahan Interferensi Tuturan Lisan (Rujukan Modul Pembelajaran SMA Artikel Opini KD 3.10, Direktorat SMA Kemendikbud 2020; Widyaparwa Vol. 48 No. 1, Balai Bahasa DIY 2020)
 
-1. **Modalitas Spekulatif Lisan (OPN-002):** *bisa jadi, sepertinya, kayaknya* dilarang di teks formal; ganti *diduga, berpotensi, diindikasikan* (KD 3.10, hlm. 12).
-2. **Fakta vs Proyeksi (OPN-003):** Pisahkan klausa verifikasi empiris (*terbukti mereduksi 4,2%*) dari proyeksi masa depan (*diproyeksikan dalam penelitian lanjutan*) — klaim "eksperimen membuktikan X akan mengeliminasi seluruh Y" rancu epistemik [telaah] (KD 3.10, hlm. 12-14).
-3. **Opini Berevidensial (OPN-004):** Anjuran normatif (*seharusnya*) wajib disertai klausa evidensial berbasis regulasi/parameter/buji data; opini tanpa bukti adalah opini subjektif mentah [telaah] (KD 3.10, hlm. 16-18).
-4. **Pelesapan Agen (WDY-001):** Kalimat ilmiah dilarang diawali langsung verba aktif transitif tanpa subjek (*Menghitung indeks bias...*); hadirkan subjek (*Peneliti menghitung...*) atau pasif (*dihitung...*) — 50% tuturan lisan mengalami agent deletion, ragam tulis tidak mentolerir (Kirana, hlm. 20-21, 25-26).
-5. **Hierarki Topik (WDY-002):** Dilarang memajukan objek inanimat sebagai subjek semu lalu mengulang agen dengan pronomina (*Laporan ini bendahara telah menyelesaikannya*); selaraskan agen-subjek atau gunakan pasif baku [telaah] (Kirana, hlm. 20-21; Givon 1976; DeLancey 1981).
-6. **Enklitik Indefinit (WDY-003):** *Katanya...* / *hasilnya menunjukkan...* tanpa anteseden eksplisit ditolak; ganti *Menurut Hidayat dkk. (2019)...* / *hasil pengujian menunjukkan...* (Kirana, hlm. 22-23).
-7. **Transitivitas Tuntas (WDY-004):** Verba transitif tidak boleh menggantung tanpa objek penderita (*langkah berikutnya adalah memurnikan.*); lengkapi argumen objek (*memurnikan filtrat hasil maserasi*) [telaah] (Kirana, hlm. 24-26; Hopper & Thompson 1980).
-8. **Leksikon Denotatif Formal (WDY-005):** Slang eufemistis tuturan (*kurang mantap, cukup oke, nge-blend*) dilarang di register ilmiah; ganti *kurang memadai, efektif, terintegrasi* (Permita, hlm. 41-48).
-9. **Struktur K-P-O (WDY-006):** Kalimat diawali keterangan temporal/spasial lalu langsung verba tanpa subjek (*Pada saat melakukan pengambilan sampel darah di puskesmas menemukan...*) cacat struktur; sisipkan koma lalu subjek eksplisit (*...di puskesmas, petugas medis menemukan...*) (Kirana, hlm. 21).
+1. **Pola:** *bisa jadi* / *sepertinya* / *kayaknya* → **Perbaikan:** *diduga* / *berpotensi* / *diindikasikan* — **Sebab:** modalitas spekulatif lisan (OPN-002) dilarang di teks formal (KD 3.10, hlm. 12).
+2. **Pola:** *eksperimen membuktikan X akan mengeliminasi seluruh Y* → **Perbaikan:** pisahkan klausa verifikasi empiris (*terbukti mereduksi 4,2%*) dari proyeksi masa depan (*diproyeksikan dalam penelitian lanjutan*) — **Sebab:** fakta vs proyeksi (OPN-003): klaim yang mencampur keduanya rancu epistemik [telaah] (KD 3.10, hlm. 12-14).
+3. **Pola:** anjuran normatif *seharusnya ...* tanpa bukti → **Perbaikan:** sertakan klausa evidensial berbasis regulasi/parameter/bukti data — **Sebab:** opini berevidensial (OPN-004): opini tanpa bukti adalah opini subjektif mentah [telaah] (KD 3.10, hlm. 16-18).
+4. **Pola:** *Menghitung indeks bias...* (kalimat diawali verba aktif transitif tanpa subjek) → **Perbaikan:** *Peneliti menghitung indeks bias...* atau pasif *indeks bias dihitung...* — **Sebab:** pelesapan agen (WDY-001): kalimat ilmiah dilarang diawali langsung verba aktif transitif tanpa subjek; 50% tuturan lisan mengalami *agent deletion* (penghapusan agen), ragam tulis tidak mentolerirnya (Kirana, hlm. 20-21, 25-26).
+5. **Pola:** *Laporan ini bendahara telah menyelesaikannya* → **Perbaikan:** selaraskan agen-subjek (*Bendahara telah menyelesaikan laporan ini*) atau gunakan pasif baku (*Laporan ini telah diselesaikan bendahara*) — **Sebab:** hierarki topik (WDY-002): dilarang memajukan objek inanimat sebagai subjek semu lalu mengulang agen dengan pronomina [telaah] (Kirana, hlm. 20-21; Givon 1976; DeLancey 1981).
+6. **Pola:** *Katanya...* / *hasilnya menunjukkan...* (tanpa anteseden eksplisit) → **Perbaikan:** *Menurut Hidayat dkk. (2019)...* / *hasil pengujian menunjukkan...* — **Sebab:** enklitik indefinit (WDY-003): *-nya* tanpa anteseden eksplisit ditolak (Kirana, hlm. 22-23).
+7. **Pola:** *langkah berikutnya adalah memurnikan.* → **Perbaikan:** *langkah berikutnya adalah memurnikan filtrat hasil maserasi* — **Sebab:** transitivitas tuntas (WDY-004): verba transitif tidak boleh menggantung tanpa objek penderita [telaah] (Kirana, hlm. 24-26; Hopper & Thompson 1980).
+8. **Pola:** *kurang mantap* / *cukup oke* / *nge-blend* → **Perbaikan:** *kurang memadai* / *efektif* / *terintegrasi* — **Sebab:** leksikon denotatif formal (WDY-005): slang eufemistis tuturan lisan dilarang di register ilmiah (Permita, hlm. 41-48).
+9. **Pola:** *Pada saat melakukan pengambilan sampel darah di puskesmas menemukan...* → **Perbaikan:** *...di puskesmas, petugas medis menemukan...* — **Sebab:** struktur K-P-O (WDY-006): kalimat diawali keterangan temporal/spasial lalu langsung verba tanpa subjek adalah cacat; sisipkan koma lalu subjek eksplisit (Kirana, hlm. 21).
+
+---
 
 ### AP. Sindrom Akronim Redundantan, Kohesi Teks, Konversi Monograf, dan Peristilahan Ruang Publik (Rujukan Haslinda & Thaba 2018; Maharani/UI; Istiqomah 2020; Putusan Kongres Bahasa Indonesia VII 1998; Glosarium Linguistik 2002)
 
-1. **Akronim-Toponimi Redundan (RAS-005):** Nama wilayah sudah terkandung dalam akronim (*M*akassar pada PSM, *Ja*karta pada Persija); tulis *Persija melawan PSM*, bukan *Persija Jakarta melawan PSM Makassar* (Haslinda & Thaba, hlm. 4-5).
-2. **Akronim-Spesifikator Redundan (RAS-006..009):** Kata penjelas sudah termuat dalam akronim: *sistem SI*, *nomor ISBN/ISSN/NPWP*, *dosen DPA*, *kode QR code*, *monitor LCD display*, *mesin ATM machine* — gugurkan spesifikator duplikat (Haslinda & Thaba, hlm. 3-6).
-3. **Konjungsi "Maka" Awal Kalimat (KOH-003):** *Maka* adalah konjungsi konsekuensi intrakalimat; dilarang membuka kalimat mandiri tanpa klausa syarat (*Jika X, maka Y*), ganti *Oleh karena itu* (Maharani, hlm. 17).
-4. **Penomoran Subbab Monograf (MBI-002):** Penomoran desimal bertingkat dilarang melebihi tiga tingkat (*2.1.1.1*); gunakan judul bermakna atau tiga tingkat penuh (Istiqomah, hlm. 11).
-5. **Judul Bebas Latar Administratif (MBI-003):** Judul buku ilmiah dilarang memuat seting administratif (*di SMA Negeri 1 Batu Tahun Ajaran 2011/2012*); lokasi dan tahun penelitian cukup pada bagian metodologi (Istiqomah, hlm. 10, 13).
-6. **Eufemisme Birokratis (KBI-001):** Penutupan fakta negatif dengan pembalut halus (*penyesuaian tarif* = kenaikan harga; *mengamankan* = menangkap/menahan; *dirumahkan* = PHK) ditolak dalam ragam resmi; nyatakan kenyataannya lugas (Putusan Kongres VII, hlm. 6, Bagian Khusus B.2).
-7. **Istilah Asing Mentah Ruang Publik (KBI-002):** *booking room, grand opening, meeting room, launching* di dokumen resmi digantikan padanannya: *ruang pemesanan, pembukaan resmi, ruang rapat, peluncuran* (Putusan Kongres VII, hlm. 3, Bagian Khusus A.a.2).
-8. **Katakresis Paronim (GLS-002):** *Mengacuhkan* bukan *mengabaikan* (*mengacuhkan* = tidak menggubris dengan sengaja vs *mengabaikan* = tidak memedulikan); *absensi* bukan *kehadiran* melainkan daftar ketidakhadiran; *tidak bergeming* bukan berarti diam total (Lapoliwa & Nureni, hlm. 51).
-9. **Tautologi Kehematan (GLS-004):** Gugurkan kelewahan tautologis: *sangat mutlak*, *kondisi prasyarat awal*, *saling tolong-menolong satu sama lain* → *mutlak*, *prasyarat*, *saling tolong-menolong* (Lapoliwa & Nureni, hlm. 50, 71).
+1. **Pola:** *Persija Jakarta melawan PSM Makassar* → **Perbaikan:** *Persija melawan PSM* — **Sebab:** akronim-toponimi redundan (RAS-005): nama wilayah sudah terkandung dalam akronim (*Ja*karta pada Persija, *M*akassar pada PSM) (Haslinda & Thaba, hlm. 4-5).
+2. **Pola:** *sistem SI* / *nomor ISBN/ISSN/NPWP* / *dosen DPA* / *kode QR code* / *monitor LCD display* / *mesin ATM machine* → **Perbaikan:** *SI* / *ISBN/ISSN/NPWP* / *DPA* / *QR code* / *LCD display* / *ATM machine* — gugurkan spesifikator duplikat — **Sebab:** akronim-spesifikator redundan (RAS-006..009): kata penjelas sudah termuat dalam akronim (Haslinda & Thaba, hlm. 3-6).
+3. **Pola:** *Maka, ...* (membuka kalimat mandiri tanpa klausa syarat) → **Perbaikan:** *Oleh karena itu, ...* atau *Jika X, maka Y* — **Sebab:** konjungsi "maka" awal kalimat (KOH-003): *maka* adalah konjungsi konsekuensi intrakalimat, dilarang membuka kalimat mandiri (Maharani, hlm. 17).
+4. **Pola:** *2.1.1.1* (penomoran desimal melebihi tiga tingkat) → **Perbaikan:** judul bermakna atau tiga tingkat penuh (*2.1.1*) — **Sebab:** penomoran subbab monograf (MBI-002) dilarang melebihi tiga tingkat (Istiqomah, hlm. 11).
+5. **Pola:** judul *... di SMA Negeri 1 Batu Tahun Ajaran 2011/2012* → **Perbaikan:** judul bebas seting administratif; lokasi dan tahun penelitian cukup pada bagian metodologi — **Sebab:** judul bebas latar administratif (MBI-003): judul buku ilmiah dilarang memuat seting administratif (Istiqomah, hlm. 10, 13).
+6. **Pola:** *penyesuaian tarif* / *mengamankan* / *dirumahkan* → **Perbaikan:** *kenaikan harga* / *menangkap/menahan* / *PHK* — nyatakan kenyataannya lugas — **Sebab:** eufemisme birokratis (KBI-001): penutupan fakta negatif dengan pembalut halus ditolak dalam ragam resmi (Putusan Kongres VII, hlm. 6, Bagian Khusus B.2).
+7. **Pola:** *booking room* / *grand opening* / *meeting room* / *launching* → **Perbaikan:** *ruang pemesanan* / *pembukaan resmi* / *ruang rapat* / *peluncuran* — **Sebab:** istilah asing mentah ruang publik (KBI-002) digantikan padanannya di dokumen resmi (Putusan Kongres VII, hlm. 3, Bagian Khusus A.a.2).
+8. **Pola:** *mengacuhkan* (untuk arti 'mengabaikan') / *absensi* (untuk arti 'kehadiran') / *tidak bergeming* (untuk arti 'diam total') → **Perbaikan:** *mengabaikan* / *kehadiran* / bentuk yang tepat sesuai makna — **Sebab:** katakresis paronim (GLS-002): *mengacuhkan* = tidak menggubris dengan sengaja, bukan *mengabaikan* = tidak memedulikan; *absensi* = daftar ketidakhadiran, bukan kehadiran; *tidak bergeming* bukan berarti diam total (Lapoliwa & Nureni, hlm. 51).
+9. **Pola:** *sangat mutlak* / *kondisi prasyarat awal* / *saling tolong-menolong satu sama lain* → **Perbaikan:** *mutlak* / *prasyarat* / *saling tolong-menolong* — **Sebab:** tautologi kehematan (GLS-004): gugurkan kelewahan tautologis (Lapoliwa & Nureni, hlm. 50, 71).
+
+---
 
 ### AP-Amandemen. Kolokasi Metaforis, Ragam Santai Naskah Resmi, dan Anonimisasi Subjek Penelitian
 
-1. **Kolokasi Verba-Nomina Metaforis (GLS-003):** Pasangan verba-nomina wajib patuh kolokasi leksikal baku; *melahirkan* hanya untuk makhluk hidup (*melahirkan solusi* → *menghasilkan solusi*), *menghidangkan* untuk sajian konsumsi (*menghidangkan musik* → *menyajikan musik*), *mencanangkan* untuk program resmi (*mencanangkan pemecahan* → *merumuskan pemecahan*) (Lapoliwa & Nureni, hlm. 17).
-2. **Leksikon Percakapan di Naskah Resmi (KBI-004):** Partikel dan verba ragam santai (*banget, bikin bingung, kok, sih*) dilarang pada buku teks dan naskah dinas; ganti *sangat/membingungkan*, hapus partikel (Putusan Kongres VII, hlm. 5-6, Bagian Khusus A.f.2 & B.4) [aspek kontekstual dinilai manual: *telaah* untuk pemakaian figuratif].
-3. **Anonimisasi Subjek Penelitian (MBI-004):** Data identitas responden (*NIK, NIP, nomor KTP*) wajib disamarkan dengan inisial atau kode responden (*narasumber AD*); digit identitas pribadi mentah dalam naskah melanggar etika penelitian (Istiqomah, hlm. 5) [penilaian konteks naskah: *telaah* untuk kasus non-digit].
-4. **Rancu Taksonomi Meronimi-Hiponimi (KOH-005):** Relasi "bagian dari" (*piston, busi* terhadap *mesin*) tidak boleh disebut "jenis" (*tiga jenis mesin*); gunakan *komponen/bagian* untuk meronimi dan *jenis* hanya untuk hiponimi (Maharani, hlm. 8-9, 14) [*telaah*].
-5. **Pulau Anaforis (GLS-001):** Pronomina (*-nya, ini*) tidak boleh menggantikan nomina turunan utuh (*aromanya* untuk *aroma kopi* berbatas pulau anaforis); ulangi nomina lengkap atau bentuk padanannya (Lapoliwa & Nureni, hlm. 14) [*telaah*].
-6. **Leksikon Sensasional Naskah Resmi (KBI-003):** Ungkapan berkonotasi vulgar atau sensasional untuk memicu viralitas dilarang dalam publikasi dinas; gunakan gaya lugas berbasis data (Putusan Kongres VII, hlm. 6, Bagian Khusus B.8) [*telaah*].
+1. **Pola:** *melahirkan solusi* / *menghidangkan musik* / *mencanangkan pemecahan* → **Perbaikan:** *menghasilkan solusi* / *menyajikan musik* / *merumuskan pemecahan* — **Sebab:** kolokasi verba-nomina metaforis (GLS-003): *melahirkan* hanya untuk makhluk hidup, *menghidangkan* untuk sajian konsumsi, *mencanangkan* untuk program resmi (Lapoliwa & Nureni, hlm. 17).
+2. **Pola:** *banget* / *bikin bingung* / *kok* / *sih* → **Perbaikan:** *sangat* / *membingungkan* / hapus partikel — **Sebab:** leksikon percakapan di naskah resmi (KBI-004): partikel dan verba ragam santai dilarang pada buku teks dan naskah dinas (Putusan Kongres VII, hlm. 5-6, Bagian Khusus A.f.2 & B.4) [aspek kontekstual dinilai manual: *telaah* untuk pemakaian figuratif].
+3. **Pola:** data identitas responden mentah (*NIK, NIP, nomor KTP*) dalam naskah → **Perbaikan:** samarkan dengan inisial atau kode responden (*narasumber AD*) — **Sebab:** anonimisasi subjek penelitian (MBI-004): digit identitas pribadi mentah dalam naskah melanggar etika penelitian (Istiqomah, hlm. 5) [penilaian konteks naskah: *telaah* untuk kasus non-digit].
+4. **Pola:** *tiga jenis mesin* (untuk *piston*, *busi* yang merupakan bagian mesin) → **Perbaikan:** *komponen/bagian* untuk relasi meronimi; *jenis* hanya untuk hiponimi — **Sebab:** rancu taksonomi meronimi-hiponimi (KOH-005): relasi "bagian dari" tidak boleh disebut "jenis" (Maharani, hlm. 8-9, 14) [*telaah*].
+5. **Pola:** *aromanya* (menggantikan *aroma kopi*) → **Perbaikan:** ulangi nomina lengkap (*aroma kopi*) atau bentuk padanannya — **Sebab:** pulau anaforis (GLS-001): pronomina (*-nya, ini*) tidak boleh menggantikan nomina turunan utuh (Lapoliwa & Nureni, hlm. 14) [*telaah*].
+6. **Pola:** ungkapan berkonotasi vulgar atau sensasional untuk memicu viralitas → **Perbaikan:** gaya lugas berbasis data — **Sebab:** leksikon sensasional naskah resmi (KBI-003) dilarang dalam publikasi dinas (Putusan Kongres VII, hlm. 6, Bagian Khusus B.8) [*telaah*].
+
+---
 
 ### BI. Koherensi & Kesatuan Paragraf (Seri Penyuluhan Paragraf, Suladi 2015)
 
-1. **Koma Konjungsi Penumpu Simpulan (PRG-001):** Konjungsi penumpu simpulan yang berfungsi sebagai konjungsi antarkalimat wajib diikuti koma: *Akhirnya,* / *Akibatnya,* / *Oleh karena itu,* / *Maka dari itu,* / *Dengan demikian,* / *Berdasarkan uraian di atas,* (Suladi, 2015, hlm. 55).
-2. **Kesatuan Paragraf & Kalimat Sumbang (PRG-002) `[telaah]`:** Tiap paragraf hanya boleh memuat satu gagasan utama; pisahkan topik baru ke paragraf terpisah dan hapus kalimat yang menyimpang dari kalimat topik (hlm. 13-14).
+1. **Pola:** *Akhirnya ...* / *Akibatnya ...* / *Oleh karena itu ...* / *Maka dari itu ...* / *Dengan demikian ...* / *Berdasarkan uraian di atas ...* (tanpa koma) → **Perbaikan:** *Akhirnya,* / *Akibatnya,* / *Oleh karena itu,* / *Maka dari itu,* / *Dengan demikian,* / *Berdasarkan uraian di atas,* — **Sebab:** koma konjungsi penumpu simpulan (PRG-001): konjungsi antarkalimat wajib diikuti koma (Suladi, 2015, hlm. 55).
+2. **Pola:** satu paragraf memuat lebih dari satu gagasan utama atau memuat kalimat yang menyimpang dari kalimat topik → **Perbaikan:** pisahkan topik baru ke paragraf terpisah; hapus kalimat sumbang — **Sebab:** kesatuan paragraf & kalimat sumbang (PRG-002): tiap paragraf hanya boleh memuat satu gagasan utama `[telaah]` (hlm. 13-14).
+
+---
 
 ### BJ. Ragam Baku Bahasa Ilmiah Perguruan Tinggi (Kuntarto UNJA & Suyatno UIN Jakarta)
 
-1. **Posesif Kalke Asing 'dari' (UIN-007):** Pola kepemilikan bahasa Indonesia langsung (*kesimpulan penelitian, tujuan program, anak Pak Lurah*), bukan lewat *dari* (*kesimpulan dari penelitian*) yang merupakan kalke struktur asing *van/of* (UNJA hlm. 98).
-2. **Verba Benefaktif Akhiran -kan + 'untuk' (UIN-008):** Sufiks *-kan* sudah mengandung arti 'melakukan untuk orang lain'; dilarang menambahkan kata *untuk* di depan penyerta: *membelikan adik baju* (bukan *membelikan untuk adik baju*) (UNJA hlm. 108).
+1. **Pola:** *kesimpulan dari penelitian* → **Perbaikan:** *kesimpulan penelitian* / *tujuan program* / *anak Pak Lurah* — **Sebab:** posesif kalke asing 'dari' (UIN-007): kepemilikan bahasa Indonesia dinyatakan langsung, bukan lewat *dari* yang merupakan kalke struktur asing *van/of* (UNJA hlm. 98).
+2. **Pola:** *membelikan untuk adik baju* → **Perbaikan:** *membelikan adik baju* — **Sebab:** verba benefaktif akhiran *-kan* + 'untuk' (UIN-008): sufiks *-kan* sudah mengandung arti 'melakukan untuk orang lain'; *untuk* dilarang ditambahkan di depan penyerta (UNJA hlm. 108).
+
+---
 
 ### BV. Kaidah Editorial Taktis Menyunting & Preskripsi Terbitan Ilmiah (Rujukan Bambang Trim Penerbit BRIN 2023 & Winarti dkk. Kantor Bahasa Kaltim 2005)
-1. **Preservasi Makna Kata Spesifik (Penerbit BRIN):**
-   - *acuh* bermakna peduli (jangan gunakan *acuh* untuk arti cuek tanpa kata ingkar *tidak*; gunakan *tidak acuh*).
-   - *bergeming* bermakna diam/kukuh/tidak bergerak (jangan gunakan *bergeming* untuk arti goyah tanpa ingkar; gunakan *tidak bergeming*).
-   - *senonoh* bermakna patut/sopan (larang pemakaian *senonoh* dalam arti asusila tanpa kata ingkar; gunakan *tidak senonoh*).
-   - *tukas* bermakna menuduh (larang penggunaan *tukasnya* sebagai varian pewarta kata netral; gunakan *ujarnya* atau *tegasnya*).
-2. **Diferensiasi Nomina Relasional & Waktu (Penerbit BRIN):**
-   - Pembedaan *langganan* (pihak penyedia/toko) vs *pelanggan* (konsumen pembeli).
-   - Pembedaan *jam* (rentang durasi, mis. *selama dua jam*) vs *pukul* (titik saat spesifik, mis. *pukul 14.00 WIB*).
-   - Pembedaan *tiap-tiap* (posisi awal anteseden nomina) vs *masing-masing* (distributif posisi akhir).
-   - Pembedaan *pemelajar* (orang yang belajar/siswa/mahasiswa) vs *pembelajar* (pengajar/instruktur yang membelajarkan).
-   - Pembedaan *permukiman* (kawasan tempat tinggal) vs *pemukiman* (proses memukimkan).
-   - Pembedaan *persebaran* (kondisi/peta tersebarnya objek) vs *penyebaran* (tindakan aktif menyebarkan).
-3. **Pembersihan Pleonasme Leksikal Ekstrem & Kontaminasi Partitif (Penerbit BRIN):**
-   - Larang *sangat sempurna sekali* / *luar biasa sempurna* (cukup *sempurna*).
-   - Larang *kurang lebih sekitar* (pilih: *kurang lebih* atau *sekitar*).
-   - Larang *semata-mata hanya* (pilih: *semata-mata* atau *hanya*).
-   - Larang *misteri rahasia* (pilih: *misteri* atau *rahasia*).
-   - Larang kontaminasi partitif dan enumeratif terbuka: frasa pembuka *seperti / di antaranya / misalnya* dilarang diakhiri dengan *dan lain-lain / dan sebagainya*.
-4. **Kaidah Sintaksis & Pembentukan Kata Ilmiah (Kantor Bahasa Kaltim):**
-   - Larang pleonasme kuantor jamak pada kata ulang: *semua lahan-lahan* / *semua faktor-faktor* -> pilih *semua lahan* atau *lahan-lahan*.
-   - Pasangan preposisi rentang waktu preskriptif: bentuk *mulai Maret sampai Mei* tidak baku; gunakan *dari Maret sampai Mei*, *sejak Maret hingga Mei*, atau *mulai Maret hingga Mei*.
-   - Pembentukan pasif berawalan *di-* wajib mempertahankan sufiks *-kan*: *memprioritaskan* -> pasif baku *diprioritaskan* (bukan *diprioritas*).
-   - Penghilangan preposisi pemblokir subjek pada komplemen *bahwa*: kalimat *menunjukkan bahwa pada persentase N sangat rendah* wajib disunting menjadi *menunjukkan bahwa persentase N sangat rendah*.
-   - Larangan tanda koma sebelum konjungsi komplementer *bahwa*: pola *menyatakan, bahwa* / *menemukan, bahwa* wajib ditertibkan menjadi *menyatakan bahwa* tanpa tanda koma.
+
+1. **Pola:** *acuh* (untuk arti cuek) / *bergeming* (untuk arti goyah) / *senonoh* (untuk arti asusila) / *tukasnya* (sebagai varian pewarta netral) → **Perbaikan:** *tidak acuh* / *tidak bergeming* / *tidak senonoh* / *ujarnya* atau *tegasnya* — **Sebab:** preservasi makna kata spesifik: *acuh* = peduli, *bergeming* = diam/kukuh/tidak bergerak, *senonoh* = patut/sopan, *tukas* = menuduh (Penerbit BRIN).
+2. **Pola:** tertukarnya pasangan nomina relasional dan waktu: *langganan/pelanggan*, *jam/pukul*, *tiap-tiap/masing-masing*, *pemelajar/pembelajar*, *permukiman/pemukiman*, *persebaran/penyebaran* → **Perbaikan:** *langganan* (pihak penyedia/toko) vs *pelanggan* (konsumen pembeli); *jam* (rentang durasi, mis. *selama dua jam*) vs *pukul* (titik saat spesifik, mis. *pukul 14.00 WIB*); *tiap-tiap* (posisi awal anteseden nomina) vs *masing-masing* (distributif posisi akhir); *pemelajar* (orang yang belajar/siswa/mahasiswa) vs *pembelajar* (pengajar/instruktur yang membelajarkan); *permukiman* (kawasan tempat tinggal) vs *pemukiman* (proses memukimkan); *persebaran* (kondisi/peta tersebarnya objek) vs *penyebaran* (tindakan aktif menyebarkan) — **Sebab:** diferensiasi nomina relasional & waktu (Penerbit BRIN).
+3. **Pola:** *sangat sempurna sekali* / *luar biasa sempurna* / *kurang lebih sekitar* / *semata-mata hanya* / *misteri rahasia* / *seperti ..., dan lain-lain* → **Perbaikan:** *sempurna* / *kurang lebih* atau *sekitar* / *semata-mata* atau *hanya* / *misteri* atau *rahasia* / pilih satu (partitif atau enumeratif terbuka) — **Sebab:** pembersihan pleonasme leksikal ekstrem & kontaminasi partitif: frasa pembuka *seperti/di antaranya/misalnya* dilarang diakhiri *dan lain-lain/dan sebagainya* (Penerbit BRIN).
+4. **Pola:** *semua lahan-lahan* / *semua faktor-faktor* / *mulai Maret sampai Mei* / *diprioritas* / *menunjukkan bahwa pada persentase N sangat rendah* / *menyatakan, bahwa* / *menemukan, bahwa* → **Perbaikan:** *semua lahan* atau *lahan-lahan* / *dari Maret sampai Mei*, *sejak Maret hingga Mei*, atau *mulai Maret hingga Mei* / *diprioritaskan* (pasif *di-* dari *memprioritaskan*) / *menunjukkan bahwa persentase N sangat rendah* / *menyatakan bahwa* — **Sebab:** kaidah sintaksis & pembentukan kata ilmiah: pleonasme kuantor jamak pada kata ulang dilarang; pasif berawalan *di-* wajib mempertahankan sufiks *-kan*; preposisi pemblokir subjek pada komplemen *bahwa* dihapus; koma sebelum konjungsi komplementer *bahwa* dilarang (Kantor Bahasa Kaltim).
+
