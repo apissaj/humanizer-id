@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-wacana-retorika
 description: Use when fixing kohesi paragraf & retorika naskah.
-version: 2.3.1
+version: 2.4.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
