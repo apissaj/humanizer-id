@@ -6,7 +6,7 @@
 
 <code>pip install humanizer-id</code>
 
-[Instalasi](#instalasi) · [Arsitektur](#arsitektur-skill) · [Mode Kerja](#mode-kerja) · [Sebelum & Sesudah](#sebelum--sesudah) · [Cheat Sheet](#lembar-sontekan-diksi--kalke) · [FAQ](#faq)
+[Instalasi](#instalasi) · [Arsitektur](#arsitektur-skill) · [Mode Kerja](#mode-kerja) · [Sebelum & Sesudah](#sebelum--sesudah) · [Cheat Sheet](#lembar-sontekan-diksi--kalke) · [FAQ](#faq) · [Changelog](CHANGELOG.md)
 
 [![CI](https://github.com/apissaj/humanizer-id/actions/workflows/ci.yml/badge.svg)](https://github.com/apissaj/humanizer-id/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/badge/PyPI-humanizer--id-3775A9?style=flat-square&logo=pypi&logoColor=white)](https://pypi.org/project/humanizer-id/)
@@ -107,31 +107,37 @@ for f in findings:
 
 ### AI Coding Agents
 
-#### Hermes Agent
+#### Installer (rekomendasi)
+
+Satu perintah memasang skill ke semua agen AI terdeteksi (Hermes Agent, Claude Code, Google Antigravity):
 
 ```bash
+humanizer-id install
+```
+
+Opsi: `--target hermes|claude|antigravity` (pilih satu), `--with-references` (sertakan ekstrak buku), atau argumen path repo sendiri. Perintah ini menyalin `SKILL.md`, `skills/`, `scripts/`, `humanizer_id/`, dan `data/` — lengkap agar mode AFTER (`--report`) langsung jalan.
+
+#### Manual
+
+<details>
+<summary>Klik untuk langkah salin manual per agen</summary>
+
+```bash
+# Hermes Agent
 mkdir -p ~/.hermes/skills/creative/humanizer-id
 git clone https://github.com/apissaj/humanizer-id.git /tmp/humanizer-id
 cp /tmp/humanizer-id/SKILL.md ~/.hermes/skills/creative/humanizer-id/
 cp -r /tmp/humanizer-id/skills/ ~/.hermes/skills/creative/humanizer-id/skills/
-cp -r /tmp/humanizer-id/scripts/ /tmp/humanizer-id/humanizer_id/ /tmp/humanizer-id/data/ ~/.hermes/skills/creative/humanizer-id/  # agar mode AFTER (--report) jalan
-```
+cp -r /tmp/humanizer-id/scripts/ /tmp/humanizer-id/humanizer_id/ /tmp/humanizer-id/data/ ~/.hermes/skills/creative/humanizer-id/
 
-#### Claude Code
-
-```bash
+# Claude Code
 git clone https://github.com/apissaj/humanizer-id.git ~/.claude/skills/humanizer-id
-```
 
-#### Google Antigravity
-
-```bash
-# Global
+# Google Antigravity (global)
 git clone https://github.com/apissaj/humanizer-id.git ~/.gemini/config/skills/humanizer-id
-
-# Per-project workspace
-git clone https://github.com/apissaj/humanizer-id.git .agents/skills/humanizer-id
 ```
+
+</details>
 
 ### Antarmuka Web (ChatGPT, Claude, Gemini)
 
@@ -239,5 +245,5 @@ Semua agen pembaca SKILL.md: Hermes Agent, Claude Code, Google Antigravity, dan 
 
 ## Lisensi
 
-MIT: [LICENSE](LICENSE) © 2026 [Hafizh Muzani](https://github.com/apissaj)
+MIT: [LICENSE](LICENSE) © 2026 [Hafizh Muzani](https://github.com/apissaj) · Riwayat perubahan: [CHANGELOG.md](CHANGELOG.md)
 

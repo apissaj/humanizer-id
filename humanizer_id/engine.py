@@ -350,6 +350,7 @@ def main():
     if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):
         print(__doc__)
         print("Pilihan tambahan:")
+        print("    install          Pasang skill ke folder agen AI (Hermes/Claude Code/Antigravity); --target pilih satu, --with-references sertakan references/")
         print("    --fix            Lakukan perbaikan otomatis (autofix) pada bentuk leksikal deterministik")
         print("    --write, -w      Tulis hasil perbaikan langsung ke berkas asli (digunakan bersama --fix)")
         print("    --report         Tulis temuan bernomor ke humanizer/audit-NNN-YYYY-MM-DD.md (mode AFTER; naskah tidak diubah)")
