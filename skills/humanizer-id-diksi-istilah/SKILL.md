@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-diksi-istilah
 description: Use when fixing diksi, pleonasme, dan padanan istilah.
-version: 2.4.1
+version: 2.4.2
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
