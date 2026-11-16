@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-ejaan-morfologi
 description: Use when fixing ejaan, morfologi, dan bentuk baku Indonesia.
-version: 2.4.2
+version: 2.4.3
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -183,6 +183,8 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 2. **Pola:** *Fatimah Binti Salim / Charles Adriaan Van Ophuijsen* → **Perbaikan:** *Fatimah binti Salim / Charles Adriaan van Ophuijsen* — **Sebab:** kata bermakna "anak dari" (*bin, binti, boru, van*) nonkapital di tengah nama, kecuali di awal nama atau kata tugas *dari* (Butir 5 Bab I F, hlm. 8; `EYD-059`).
 3. **Pola:** *Proklamasi kemerdekaan / Perang Dunia* (peristiwa sejarah generik) → **Perbaikan:** *proklamasi kemerdekaan / perang dunia* — **Sebab:** peristiwa sejarah yang tidak digunakan sebagai nama ditulis nonkapital (Butir 15 Bab I F, hlm. 11; `EYD-060`).
 4. **Pola:** *batik cirebon / soto banjar / kopi gayo / bubur manado*
-5. **Pola:** *buku bahasa dan sastra / majalah bahasa dan sastra* → **Perbaikan:** *buku Bahasa dan Sastra / majalah Bahasa dan Sastra* — **Sebab:** kapital semua kata (termasuk kata ulang sempurna) pada nama buku/majalah/surat kabar/judul karangan, kecuali kata tugas non-awal (EYD 1987 butir 12 Bab II; `EYD-062`). → **Perbaikan:** *batik Cirebon / soto Banjar / kopi Gayo / bubur Manado* — **Sebab:** nama geografi yang menyatakan asal daerah ditulis kapital (Butir 19 Bab I F, hlm. 12; `EYD-061`).
+5. **Pola:** *buku bahasa dan sastra / majalah bahasa dan sastra*
+6. **Pola:** kutipan langsung bahasa asing/daerah tanpa pencetakan miring → **Perbaikan:** cetak miring seluruh kutipan asing — **Sebab:** kalimat/teks asing yang dikutip langsung wajib miring (PUEBI 2015 Bab I hlm. 12; `EYD-063`).
+7. **Pola:** *Michael Porter / World Bank* (nama diri asing) ditulis miring → **Perbaikan:** tulis tegak — **Sebab:** nama diri asing/daerah (orang, lembaga, organisasi) tidak ditulis miring (PUEBI 2015 Bab I hlm. 12; `EYD-064`). → **Perbaikan:** *buku Bahasa dan Sastra / majalah Bahasa dan Sastra* — **Sebab:** kapital semua kata (termasuk kata ulang sempurna) pada nama buku/majalah/surat kabar/judul karangan, kecuali kata tugas non-awal (EYD 1987 butir 12 Bab II; `EYD-062`). → **Perbaikan:** *batik Cirebon / soto Banjar / kopi Gayo / bubur Manado* — **Sebab:** nama geografi yang menyatakan asal daerah ditulis kapital (Butir 19 Bab I F, hlm. 12; `EYD-061`).
 
 > **Sumber verbatim:** teks resmi EYD V tersedia via transkripsi Wikisource Indonesia (`Halaman:SK_EYD_Edisi_V_16082022.pdf`) — detail pemetaan di `references/eyd-v-wikisource-2022.md`. PUEBI (SK 0321/I/BS.00.00/2021) telah dicabut oleh EYD V (Diktum KEEMPAT).

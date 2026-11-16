@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -6986,6 +6986,26 @@
           "penjelasan": "Huruf kapital dipakai sebagai huruf pertama semua kata (termasuk unsur kata ulang sempurna) di dalam nama buku, majalah, surat kabar, dan judul karangan, kecuali kata tugas (di, ke, dari, dan, yang, untuk) yang tidak terletak pada posisi awal (EYD 1987 Butir 12 Bab II; EYD V SK 0424/I/BS.00.01/2022 lanjutan butir 20 Bab I F).",
           "contoh_salah": "Ia mengutip buku bahasa dan sastra sebagai rujukan utama tesisnya.",
           "contoh_benar": "Ia mengutip buku Bahasa dan Sastra sebagai rujukan utama tesisnya."
+        },
+        {
+          "id": "EYD-063",
+          "pola": "[telaah] dikutip secara langsung dalam teks berbahasa Indonesia",
+          "saran_pengganti": [
+            "kutipan langsung bahasa asing/daerah wajib ditulis miring"
+          ],
+          "penjelasan": "Kalimat atau teks berbahasa asing atau berbahasa daerah yang dikutip secara langsung dalam teks berbahasa Indonesia ditulis dengan huruf miring (PUEBI 2015 Bab I hlm. 12; warisan kaidah ejaan resmi).",
+          "contoh_salah": "Naskah menyajikan kutipan asing berikut tanpa pencetakan khusus: The results show significant improvement.",
+          "contoh_benar": "Naskah menyajikan kutipan asing berikut dengan pencetakan miring: *The results show significant improvement.*"
+        },
+        {
+          "id": "EYD-064",
+          "pola": "[telaah] nama diri asing ditulis miring",
+          "saran_pengganti": [
+            "nama diri asing/daerah ditulis tegak (tidak miring)"
+          ],
+          "penjelasan": "Nama diri seperti nama orang, lembaga, atau organisasi dalam bahasa asing atau bahasa daerah tidak ditulis dengan huruf miring (PUEBI 2015 Bab I hlm. 12).",
+          "contoh_salah": "Penelitian ini merujuk kerangka teori dari *Michael Porter* dan lembaga *World Bank*.",
+          "contoh_benar": "Penelitian ini merujuk kerangka teori dari Michael Porter dan lembaga World Bank."
         }
       ]
     }

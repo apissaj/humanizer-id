@@ -86,3 +86,10 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - Ekstrak EYD 1987 5 bab penuh (Kepmendikbud 0543a/U/1987) dibedah verbatim: 66 KB, tabel wiki dikonversi markdown.
 - Total kaidah 597 (165+15+93+324); metadata data 2.2.0.
 - Matcher case-sensitive 'buku bahasa dan sastra'; uji salah/benar OK.
+
+
+## Integrasi EYD-063..064 (2026-11-17)
+
+- Sumber: PUEBI 2015 (Permendikbud 50/2015) Bab I hlm. 12 — ekstrak `references/puebi-2015-permendikbud50.md` (31 halaman Wikisource).
+- 2 kaidah [telaah]: huruf miring kutipan asing (EYD-063), nama diri asing tidak miring (EYD-064).
+- Total 599 kaidah (165+15+93+326); metadata 2.3.0.

@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-sintaksis
 description: Use when fixing sintaksis & kalimat efektif Indonesia.
-version: 2.4.2
+version: 2.4.3
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
