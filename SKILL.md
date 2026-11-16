@@ -1,7 +1,7 @@
 ---
 name: humanizer-id
 description: "Use when editing Indonesian prose. Preserve meaning."
-version: 2.1.0
+version: 2.2.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -15,6 +15,14 @@ metadata:
 # Humanizer ID
 
 Panduan penyuntingan bahasa Indonesia akademik dan profesional tingkat lanjut: membersihkan kalke terjemahan mesin, memangkas verba ringan, meniadakan ilusi keterhubungan logis semu, menata ritme kalimat, dan menjaga integritas fakta ilmiah tanpa manipulasi detektor statistik.
+
+---
+
+## Cara Memakai Skill Ini
+
+- Muat induk ini lebih dulu, lalu muat hanya sub-berkas yang relevan dengan naskah (tabel rute di seksi 4). Induk memegang mekanisme (integritas ilmiah, empat mode eksekusi, Delivery Gate); sub-berkas memegang kedalaman kaidah per strata.
+- Konvensi entri kaidah: **Pola** (bentuk yang cacat/kaku) -> **Perbaikan** (bentuk yang benar) -> **Sebab** (mengapa bentuk asal terbaca sebagai cacat), disertai sitasi sumber bila ada. Contoh di seksi 3 sudah memakai pola ini; blok deep-dive dinormalisasi bertahap ke bentuk yang sama.
+- Delivery Gate adalah gerbang akhir yang tidak bisa dilewati. Checklist Editorial dijalankan bersamanya sebagai pelengkap.
 
 ---
 
@@ -157,6 +165,40 @@ Tabel wajib yang memetakan kalimat yang mengalami perbaikan beserta alasan kaida
 
 ### 4. Poin Konfirmasi Penulis (Bila Ada)
 Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi dari penulis asli tanpa direkayasa.
+
+---
+
+## Delivery Gate (Wajib - PASS/FAIL)
+
+Jalankan gate ini SEBELUM menyerahkan hasil suntingan. Sertakan laporan PASS/FAIL bersama hasil: satu baris per butir, dan setiap `PASS` didukung bukti konkret. Jika ada butir `FAIL`, jangan serahkan: perbaiki dulu, lalu jalankan ulang gate. Laporan yang memuat FAIL tidak boleh dikirim.
+
+1. **Integritas angka & data** - setiap bilangan, persen, p-value, satuan, dan persamaan persis sama dengan naskah asli. *(PASS: tabel diff menunjukkan nol angka berubah.)*
+2. **Nol fabrikasi** - tidak ada metode, algoritma, parameter, atau sitasi baru yang ditambahkan. *(PASS: setiap sitasi di hasil ada di naskah asli.)*
+3. **Derajat modalitas terjaga** - harapan tidak diubah menjadi kepastian, dan sebaliknya. *(PASS: tidak ada "diharapkan" menjadi "terbukti" tanpa bukti.)*
+4. **Sitasi utuh** - semua rujukan asli dipertahankan; format mengikuti preset kampus bila relevan. *(PASS: jumlah sitasi hasil = jumlah sitasi asli.)*
+5. **Nol perangkuman isi** - kedalaman paragraf asli terjaga; kalimat yang dihapus (bila ada) terdaftar beserta alasannya. *(PASS: tabel diff mencakup seluruh kalimat yang diubah/dibuang.)*
+6. **Format luaran lengkap** - mode kerja, naskah hasil, tabel diff beranotasi, dan poin konfirmasi (bila ada) semuanya hadir. *(PASS: keempat bagian terisi.)*
+
+Gate ini tidak dapat didelegasikan atau digantikan ringkasan alur kerja lain. Hasil yang diserahkan tanpa laporan PASS/FAIL = belum selesai.
+
+---
+
+## Checklist Editorial (Pelengkap Gate)
+
+Jalankan bersamaan dengan Delivery Gate. Centang setiap butir sebelum menyerahkan:
+
+- [ ] Verba ringan dipangkas ke verba aktif/pasif aslinya (*melakukan pengukuran* -> **mengukur**).
+- [ ] Kalke terjemahan mesin dibersihkan (*in order to* -> **untuk** / **guna**).
+- [ ] Pembuka klise dan penutup utopis dihapus.
+- [ ] Kalimat terfragmentasi difusikan; ritme kalimat divariasikan.
+- [ ] Istilah teknis serapan baku dipertahankan (*konduktivitas*, *entalpi*) - tidak diganti padanan janggal.
+- [ ] Pasif metodologi dipertahankan pada bab Metode/Hasil.
+- [ ] Kopula *merupakan* dipertahankan pada definisi esensial.
+- [ ] EYD V dan leksikon KBBI dipatuhi; bentuk nonbaku (KTSP) diperbaiki.
+- [ ] Diksi selaras glosarium lintas bidang bila naskah lintas profesi.
+- [ ] Tabel diff beranotasi: setiap baris memuat alasan + ID aturan.
+- [ ] Ringkasan total dicantumkan (X diperiksa, Y disunting, Z dipertahankan).
+- [ ] Poin konfirmasi penulis ditulis untuk klaim tanpa rujukan/ambigu - tidak direkayasa.
 
 ---
 
