@@ -231,6 +231,7 @@ Simpan berkas `SKILL.md` (induk) beserta folder `skills/` (sub-kaidah) ke folder
 mkdir -p ~/.hermes/skills/creative/humanizer-id
 cp SKILL.md ~/.hermes/skills/creative/humanizer-id/
 cp -r skills/ ~/.hermes/skills/creative/humanizer-id/skills/
+cp -r scripts/ humanizer_id/ data/ ~/.hermes/skills/creative/humanizer-id/  # agar mode AFTER (--report) jalan
 ```
 
 #### Claude Code
