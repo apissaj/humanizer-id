@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -409,7 +409,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 592
+    "total_entri": 323
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -6936,6 +6936,46 @@
           "penjelasan": "Dasar 'kampanye' berawalan /k/: fonem /k/ luluh dengan meN- menjadi 'mengampanyekan' (Modul Jurnalistik 2018, hlm. 22).",
           "contoh_salah": "Calon itu mengkampanyekan visi digitalnya.",
           "contoh_benar": "Calon itu mengampanyekan visi digitalnya."
+        },
+        {
+          "id": "EYD-058",
+          "pola": "teori darwin",
+          "saran_pengganti": [
+            "teori Darwin"
+          ],
+          "penjelasan": "Huruf kapital digunakan pada nama orang pada nama teori, hukum, dan rumus: teori Darwin, hukum Archimedes, rumus Phytagoras (EYD V, SK No. 0424/I/BS.00.01/2022, Butir 4 Bab I F, hlm. 8).",
+          "contoh_salah": "Pembahasan dibuka dengan teori darwin tentang seleksi alam.",
+          "contoh_benar": "Pembahasan dibuka dengan teori Darwin tentang seleksi alam."
+        },
+        {
+          "id": "EYD-059",
+          "pola": "Binti",
+          "saran_pengganti": [
+            "binti"
+          ],
+          "penjelasan": "Huruf pertama kata bermakna 'anak dari' (bin, binti, boru, van) ditulis nonkapital di tengah nama, kecuali di awal nama atau kata tugas dari (EYD V, SK No. 0424/I/BS.00.01/2022, Butir 5 Bab I F, hlm. 8).",
+          "contoh_salah": "Naskah menyebut Fatimah Binti Salim sebagai informan utama.",
+          "contoh_benar": "Naskah menyebut Fatimah binti Salim sebagai informan utama."
+        },
+        {
+          "id": "EYD-060",
+          "pola": "Proklamasi kemerdekaan",
+          "saran_pengganti": [
+            "proklamasi kemerdekaan"
+          ],
+          "penjelasan": "Huruf pertama peristiwa sejarah yang tidak digunakan sebagai nama ditulis nonkapital (EYD V, SK No. 0424/I/BS.00.01/2022, Butir 15 Bab I F, hlm. 11).",
+          "contoh_salah": "Bangsa Indonesia memperingati Proklamasi kemerdekaan setiap tahun.",
+          "contoh_benar": "Bangsa Indonesia memperingati proklamasi kemerdekaan setiap tahun."
+        },
+        {
+          "id": "EYD-061",
+          "pola": "batik cirebon",
+          "saran_pengganti": [
+            "batik Cirebon"
+          ],
+          "penjelasan": "Huruf kapital digunakan untuk nama geografi yang menyatakan asal daerah: batik Cirebon, soto Banjar, kopi Gayo, bubur Manado (EYD V, SK No. 0424/I/BS.00.01/2022, Butir 19 Bab I F, hlm. 12).",
+          "contoh_salah": "Koleksi museum memuat batik cirebon sebagai warisan kuliner nusantara.",
+          "contoh_benar": "Koleksi museum memuat batik Cirebon sebagai warisan kuliner nusantara."
         }
       ]
     }

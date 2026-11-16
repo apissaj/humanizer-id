@@ -70,3 +70,11 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
    - Identitas penulis wajib tanpa gelar, pangkat, atau jabatan.
    - Proporsi IMRaD: Pendahuluan 10%, Kajian Literatur 15%, Metode 10%, Hasil & Pembahasan 50%, Simpulan 15%.
    - Minimal 80% pustaka acuan berasal dari sumber primer 10 tahun terakhir.
+
+
+## Integrasi EYD-058..061 (2026-11-17)
+
+- Sumber: EYD Edisi V (SK 0424/I/BS.00.01/2022) Bab I F butir 4, 5, 15, 19 — via transkrip Wikisource Indonesia (domain publik), ekstrak di `references/eyd-v-wikisource-2022.md`.
+- 4 entri baru kategori `kata_baku_dan_morfologi`: EYD-058 (kapital teori/hukum/rumus), EYD-059 (bin/binti/boru/van nonkapital), EYD-060 (peristiwa sejarah nonkapital), EYD-061 (nama geografi asal daerah kapital).
+- Total kategori menjadi 323; total kaidah 596 (165+15+93+323).
+- Matcher: 9 regex case-sensitive ditambah ke CUSTOM_RULES (kapitalisasi tak boleh IGNORECASE); pytest 45 passed; uji manual salah/benar 3 tertangkap / 3 lolos.

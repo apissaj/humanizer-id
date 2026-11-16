@@ -816,3 +816,15 @@ def match_custom_rules(pattern_str, clean_line):
                 return (True, True, m.span())
         return (True, False, None)
     return (False, False, None)
+
+# Kaidah kapitalisasi EYD V (SK 0424/I/BS.00.01/2022) — butuh cek CASE-SENSITIVE:
+# pola salah = huruf kecil / kapital salah; contoh benar harus TIDAK cocok.
+CUSTOM_RULES.append((lambda p: p == "teori darwin", [re.compile(r"\bteori\s+darwin\b")]))
+CUSTOM_RULES.append((lambda p: p == "hukum archimedes", [re.compile(r"\bhukum\s+archimedes\b")]))
+CUSTOM_RULES.append((lambda p: p == "rumus phytagoras", [re.compile(r"\brumus\s+phytagoras\b")]))
+CUSTOM_RULES.append((lambda p: p == "Binti", [re.compile(r"\bBinti\b")]))
+CUSTOM_RULES.append((lambda p: p == "Proklamasi kemerdekaan", [re.compile(r"\bProklamasi\s+kemerdekaan\b")]))
+CUSTOM_RULES.append((lambda p: p == "batik cirebon", [re.compile(r"\bbatik\s+cirebon\b")]))
+CUSTOM_RULES.append((lambda p: p == "soto banjar", [re.compile(r"\bsoto\s+banjar\b")]))
+CUSTOM_RULES.append((lambda p: p == "kopi gayo", [re.compile(r"\bkopi\s+gayo\b")]))
+CUSTOM_RULES.append((lambda p: p == "bubur manado", [re.compile(r"\bbubur\s+manado\b")]))

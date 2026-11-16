@@ -176,3 +176,12 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 10. **Pola:** *memberitahukan kepada ... bahwa / Bagi semua ... menyerahkan* → **Perbaikan:** buang kata hubung berlebih; *... menyerahkan* — **Sebab:** kalimat efektif: hindari *kepada ... bahwa* dan *Bagi ... menyerahkan*.
 11. **Pola:** *walaupun/meskipun ..., namun ...* → **Perbaikan:** *walaupun/meskipun X, Y* — **Sebab:** hindari ganda konjungsi konsesif.
 12. **Pola:** *disebabkan/dikarenakan terjadinya* → **Perbaikan:** *disebabkan oleh / karena* — **Sebab:** hindari *disebabkan/dikarenakan terjadinya* (tidak baku).
+
+### BV2. Huruf Kapital Khusus EYD V (Rujukan EYD Edisi V, SK Kepala Badan Bahasa No. 0424/I/BS.00.01/2022, Bab I F — transkrip Wikisource)
+
+1. **Pola:** *teori darwin / hukum archimedes / rumus pythagoras* → **Perbaikan:** *teori Darwin / hukum Archimedes / rumus Phytagoras* — **Sebab:** kapital pada nama orang dalam nama teori, hukum, dan rumus (Butir 4 Bab I F, hlm. 8; `EYD-058`).
+2. **Pola:** *Fatimah Binti Salim / Charles Adriaan Van Ophuijsen* → **Perbaikan:** *Fatimah binti Salim / Charles Adriaan van Ophuijsen* — **Sebab:** kata bermakna "anak dari" (*bin, binti, boru, van*) nonkapital di tengah nama, kecuali di awal nama atau kata tugas *dari* (Butir 5 Bab I F, hlm. 8; `EYD-059`).
+3. **Pola:** *Proklamasi kemerdekaan / Perang Dunia* (peristiwa sejarah generik) → **Perbaikan:** *proklamasi kemerdekaan / perang dunia* — **Sebab:** peristiwa sejarah yang tidak digunakan sebagai nama ditulis nonkapital (Butir 15 Bab I F, hlm. 11; `EYD-060`).
+4. **Pola:** *batik cirebon / soto banjar / kopi gayo / bubur manado* → **Perbaikan:** *batik Cirebon / soto Banjar / kopi Gayo / bubur Manado* — **Sebab:** nama geografi yang menyatakan asal daerah ditulis kapital (Butir 19 Bab I F, hlm. 12; `EYD-061`).
+
+> **Sumber verbatim:** teks resmi EYD V tersedia via transkripsi Wikisource Indonesia (`Halaman:SK_EYD_Edisi_V_16082022.pdf`) — detail pemetaan di `references/eyd-v-wikisource-2022.md`. PUEBI (SK 0321/I/BS.00.00/2021) telah dicabut oleh EYD V (Diktum KEEMPAT).
