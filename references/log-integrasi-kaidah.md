@@ -78,3 +78,11 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - 4 entri baru kategori `kata_baku_dan_morfologi`: EYD-058 (kapital teori/hukum/rumus), EYD-059 (bin/binti/boru/van nonkapital), EYD-060 (peristiwa sejarah nonkapital), EYD-061 (nama geografi asal daerah kapital).
 - Total kategori menjadi 323; total kaidah 596 (165+15+93+323).
 - Matcher: 9 regex case-sensitive ditambah ke CUSTOM_RULES (kapitalisasi tak boleh IGNORECASE); pytest 45 passed; uji manual salah/benar 3 tertangkap / 3 lolos.
+
+
+## Integrasi EYD-062 (2026-11-17)
+
+- Sumber: EYD 1987 Butir 12 Bab II (kapital nama buku/majalah) — via transkrip penuh Wikisource, ekstrak `references/eyd-1987-wikisource.md`.
+- Ekstrak EYD 1987 5 bab penuh (Kepmendikbud 0543a/U/1987) dibedah verbatim: 66 KB, tabel wiki dikonversi markdown.
+- Total kaidah 597 (165+15+93+324); metadata data 2.2.0.
+- Matcher case-sensitive 'buku bahasa dan sastra'; uji salah/benar OK.

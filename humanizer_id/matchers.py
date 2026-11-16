@@ -828,3 +828,4 @@ CUSTOM_RULES.append((lambda p: p == "batik cirebon", [re.compile(r"\bbatik\s+cir
 CUSTOM_RULES.append((lambda p: p == "soto banjar", [re.compile(r"\bsoto\s+banjar\b")]))
 CUSTOM_RULES.append((lambda p: p == "kopi gayo", [re.compile(r"\bkopi\s+gayo\b")]))
 CUSTOM_RULES.append((lambda p: p == "bubur manado", [re.compile(r"\bbubur\s+manado\b")]))
+CUSTOM_RULES.append((lambda p: p == "buku bahasa dan sastra", [re.compile(r"\bbuku\s+bahasa\s+dan\s+sastra\b")]))

@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -6976,6 +6976,16 @@
           "penjelasan": "Huruf kapital digunakan untuk nama geografi yang menyatakan asal daerah: batik Cirebon, soto Banjar, kopi Gayo, bubur Manado (EYD V, SK No. 0424/I/BS.00.01/2022, Butir 19 Bab I F, hlm. 12).",
           "contoh_salah": "Koleksi museum memuat batik cirebon sebagai warisan kuliner nusantara.",
           "contoh_benar": "Koleksi museum memuat batik Cirebon sebagai warisan kuliner nusantara."
+        },
+        {
+          "id": "EYD-062",
+          "pola": "buku bahasa dan sastra",
+          "saran_pengganti": [
+            "buku Bahasa dan Sastra"
+          ],
+          "penjelasan": "Huruf kapital dipakai sebagai huruf pertama semua kata (termasuk unsur kata ulang sempurna) di dalam nama buku, majalah, surat kabar, dan judul karangan, kecuali kata tugas (di, ke, dari, dan, yang, untuk) yang tidak terletak pada posisi awal (EYD 1987 Butir 12 Bab II; EYD V SK 0424/I/BS.00.01/2022 lanjutan butir 20 Bab I F).",
+          "contoh_salah": "Ia mengutip buku bahasa dan sastra sebagai rujukan utama tesisnya.",
+          "contoh_benar": "Ia mengutip buku Bahasa dan Sastra sebagai rujukan utama tesisnya."
         }
       ]
     }
