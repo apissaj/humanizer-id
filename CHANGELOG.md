@@ -4,6 +4,28 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 662 kaidah
+
+Bedah dilanjutkan ke Mustakim (2019), subbab 3.1.3 keserasian kata (hlm. 60-68):
+
+- `TMS-035` - verba tanpa awalan ber- sebagai predikat ragam resmi: `sudah kumpul`,
+  `telah kumpul`, `sampai jumpa` -> `berkumpul`, `berjumpa` (hlm. 62).
+- `TMS-036` - bentuk tidak baku dari tabel baku-tidak baku hlm. 67-68 yang belum tercakup
+  kaidah lain: `akte`, `beaya`, `efektip`, `effektif`, `effisien`. Bentuk baku tertangkap
+  kaidah lama: `analisa` -> `BAK-005`, `aktifitas` -> `TIQ-003`, `resiko` -> `BAK-008`,
+  `kwalitas`/`kwitansi`/`jadual` -> `BPK-015`, dan seterusnya.
+- `BPK-005` - daftar nomina ungkapan idiomatis tanpa preposisi diperluas dari daftar tertutup
+  menjadi terbuka: `tergantung cuaca`, `bergantung anggaran`, `tergantung penilaian` kini
+  tertandai. Frasa pendek yang lazim pada naskah hukum (`sesuai undang-undang`,
+  `sesuai jadwal`) sengaja tetap dibiarkan dan dicatat `[telaah]`.
+
+Referensi baru: `references/mustakim-2019-keserasian-kata-dan-tabel-baku.md` (kutipan
+verbatim hlm. 60-68 + tabel status mesin untuk seluruh lajur baku-tidak baku + anotasi
+`[telaah]` untuk `BPK-013`/`BPK-014` dan pasangan `antara lain`/`misalnya`).
+
+Verifikasi: `work/test_tms35_36.py` 16/16, `uv run pytest -q` 45 passed, uji nol positif
+palsu tetap 0. Regex `sampai jumpa` awalnya case-sensitive dan telah diberi `(?i)`.
+
 ### 660 kaidah
 
 Melanjutkan bedah Rusbiyantoro dkk. (2009), kali ini subbab 3.6 (tanda baca, hlm. 27-37) dan
