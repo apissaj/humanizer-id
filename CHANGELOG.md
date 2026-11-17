@@ -4,6 +4,32 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 670 kaidah
+
+Bedah lanjut Winarti dkk. (2009): subbab 2.1.3-2.1.4 Jurnal Budidaya Pertanian (hlm. 14-23)
+dan 2.3.1-2.3.2 Jurnal Ekonomi Pertanian dan Pembangunan (hlm. 32-37).
+
+- `TMS-042` - `teoritis` -> `teoretis` (penyerapan langsung dari *theoretical*, bukan
+  teori + -tis) dan `sekedar` -> `sekadar` (kadar + se-).
+- `SPK-012` - subjek didahului penghubung `bahwa` setelah keterangan `Menurut X,`:
+  `Menurut Kim H. Tan (1991), bahwa Al ...` -> penghubung dihilangkan.
+- `SPK-013` - frasa keterangan mengambil posisi subjek: `Berdasarkan hasil penelitian
+  menunjukkan bahwa ...` -> `Hasil penelitian menunjukkan bahwa ...`. Varian berkoma tetap
+  lolos karena frasa keterangan diikuti subjek sah.
+- `SPK-001` diperluas: daftar konjungsi syarat `jika|kalau|apabila` ditambah `bila`, mengikuti
+  contoh `bila melapuk maka tidak bisa diserap` pada hlm. 14. Kalimat `Pengujian dilakukan bila
+  cuaca mendukung.` tetap bersih.
+
+Sembilan bentuk lain pada bab yang sama sudah tertangkap mesin lama (`KK-001`, `TMS-001`,
+`BPK-032`, `BAK-011`, `BAK-001`, `KK-003`, `BAK-005`, `TBB-004`, `TMS-029`). Kasus yang
+menuntut analisis fungsi sintaksis - subjek berkata depan `Pada ...`, redundans
+`pemanfaatan ... dimanfaatkan`, dan `memiliki/mempunyai` - dicatat `[telaah]` tanpa pola.
+
+Referensi baru: `references/kaltim-2009-penyusunan-kalimat-dan-ekonomi.md`.
+
+Verifikasi: `work/test_tms42_spk012_013.py` 18/18, `uv run pytest -q` 45 passed, uji nol
+positif palsu tetap 0.
+
 ### 667 kaidah
 
 Bedah lanjut Winarti dkk. (2009) subbab 2.2.1-2.2.3, Jurnal Agrifor (hlm. 24-32):
