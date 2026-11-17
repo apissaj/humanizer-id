@@ -2,6 +2,36 @@
 
 Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti [Keep a Changelog](https://keepachangelog.com/id/1.1.0/) dan versi mengikuti [SemVer](https://semver.org/lang/id/).
 
+## [Belum dirilis]
+
+### 657 kaidah
+
+Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, *Beberapa Permasalahan Pemakaian Bahasa
+Indonesia* (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), subbab 3.8.1-3.8.3
+(hlm. 42-53):
+
+- `TMS-030` - gabungan kata dan partikel yang salah rangkai: `salahsatunya`, `tindaklanjuti`,
+  `unjukrasa`, `lagipula`, `non aktif`. Bentuk berimbuhan yang benar (`ditindaklanjuti`,
+  `menindaklanjuti`) sengaja dibiarkan lolos.
+- `TMS-031` - `kordinator`/`kordinasi` (KBBI memakai dua vokal `/oo/`) dan `mengkomentari`
+  (fonem awal `/k/` luluh menjadi `mengomentari`).
+
+Empat kaidah lama yang ada di data tanpa mesin kini punya matcher: `BAK-002` (`merubah`,
+`dirubah`), `BAK-004` (`mentargetkan`), `BPK-044` (`penanggungjawab`), `BPK-045`
+(`bekerjabakti`). `SPE-014` (`tandatangani`) ikut dipasang dengan regex yang tidak menangkap
+`ditandatangani`. `BDD-009` (klise `, di mana hal ini`) dipasang dengan syarat koma di depan
+agar klausa relatif yang sah tidak tertandai. `KPT-009` (`kerjasama`) sengaja tetap tanpa
+matcher `CUSTOM_RULES` karena `kerjasama` sudah dilaporkan mesin kata tidak baku di
+`engine.py`; menambah blok baru hanya menggandakan laporan.
+
+Referensi baru: `references/pusat-bahasa-2009-permasalahan-pemakaian-bahasa.md` (kutipan
+verbatim hlm. 42-53, penanda `[OCR]` untuk salah baca `l`->`I` dan `rn`->`m`, plus anotasi
+`[telaah]` untuk `ranking`, `beking`, `open race`, dan `dimana` di awal kalimat yang sengaja
+belum dipola).
+
+Verifikasi: `work/test_tms30_31.py` 29/29, `uv run pytest -q` 45 passed, uji nol positif
+palsu tetap 0.
+
 ## [2.4.6] - 2026-11-17
 
 ### 655 kaidah
