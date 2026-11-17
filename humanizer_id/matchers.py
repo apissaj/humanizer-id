@@ -930,3 +930,16 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("acap kali"),
     [re.compile(r"(?i)\b(?:acap\s+kali|sedia\s+kala|kaca\s+mata|karya\s+wisata|kasat\s+mata|suka\s+cita|kosa\s+kata|syah\s+bandar|mata\s+hari|olah\s+raga|peri\s+bahasa|duka\s+cita|puspa\s+warna)\b")],
 ))
+
+
+# --- TMS-005: bentuk lewah (Taktis Menyunting 2019, Tabel 5.6, hlm. 102-103) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("sangat sempurna sekali"),
+    [re.compile(r"(?i)\b(?:sangat\s+sempurna\s+sekali|sangat\s+jauh\s+sekali|banyak\s+buku\-buku|beberapa\s+pendapat\-pendapat|melakukan\s+penangkapan|melakukan\s+pembinaan|melakukan\s+perubahan|menyatakan\s+pendapat|menggabungkan\s+menjadi\s+satu|saling\s+salip\-menyalip|menanyakan\s+pertanyaan|berencana\s+akan|maka\s+daripada\s+itu|maju\s+ke\s+depan)\b")],
+))
+
+# --- TMS-006: ungkapan idiomatik (Taktis Menyunting 2019, Tabel 5.8, hlm. 105-106) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("berdasarkan atas"),
+    [re.compile(r"(?i)\b(?:berdasarkan\s+atas|bergantung\s+kepada|terjadi\s+atas)\b")],
+))

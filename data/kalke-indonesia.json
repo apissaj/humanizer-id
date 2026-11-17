@@ -7421,9 +7421,44 @@
           "penjelasan": "Gabungan kata yang sudah padu ditulis serangkai, bukan terpisah (Tabel 5.20 *Taktis Menyunting*, BRIN, 2019, hlm. 117). Buku ini juga mendaftar gabungan yang tetap terpisah (cendera mata, duta besar, ibu kota, kerja sama, orang tua, rumah sakit, wali kota) sehingga tidak dijadikan pola. Pasangan yang sudah tercakup entri lain tidak diulang (mana suka, dan pasangan TMS-002).",
           "contoh_salah": "Acap kali kaca mata dan olah raga dibahas di karya wisata.",
           "contoh_benar": "Acapkali kacamata dan olahraga dibahas di karyawisata."
+        },
+        {
+          "id": "TMS-005",
+          "pola": "sangat sempurna sekali / sangat jauh sekali / banyak buku-buku / beberapa pendapat-pendapat / melakukan penangkapan / melakukan pembinaan / melakukan perubahan / menyatakan pendapat / menggabungkan menjadi satu / saling salip-menyalip / menanyakan pertanyaan / berencana akan / maka daripada itu / maju ke depan",
+          "saran_pengganti": [
+            "sempurna",
+            "sangat jauh",
+            "banyak buku",
+            "beberapa pendapat",
+            "menangkap",
+            "membina",
+            "mengubah",
+            "berpendapat",
+            "menggabungkan",
+            "saling menyalip",
+            "mempertanyakan",
+            "berencana",
+            "maka dari itu",
+            "maju"
+          ],
+          "penjelasan": "Bentuk lewah (mubazir) memakai dua kata bermakna sama dalam satu frasa sehingga kalimat tidak efektif; salah satu unsurnya harus dihapus atau diganti bentuk yang lebih ringkas. Daftar diambil dari Tabel 5.6 (bentuk lewah dan bentuk efektif) *Taktis Menyunting* (BRIN, 2019), hlm. 102-103. Pasangan yang sudah tercakup entri lain tidak diulang: demi untuk, membicarakan tentang, kurang lebih sekitar, pada zaman dahulu kala, semata-mata hanya, misteri rahasia, tujuan daripada, maka dari itu, bertujuan untuk, seperti misalnya, adalah merupakan, agar supaya, terdiri dari, sehubungan, terkait, sesuai dengan, dibandingkan dengan.",
+          "contoh_salah": "Peneliti melakukan penangkapan data dan menanyakan pertanyaan yang berencana akan dijawab.",
+          "contoh_benar": "Peneliti menangkap data dan mempertanyakan hal yang berencana dijawab."
+        },
+        {
+          "id": "TMS-006",
+          "pola": "berdasarkan atas / bergantung kepada / terjadi atas",
+          "saran_pengganti": [
+            "berdasarkan",
+            "bergantung pada",
+            "terjadi karena"
+          ],
+          "penjelasan": "Ungkapan idiomatik memakai kata depan tertentu yang tidak boleh diganti; penggantian kata depan membuat ungkapan tidak lazim. Daftar diambil dari Tabel 5.8 (ungkapan idiomatik) *Taktis Menyunting* (BRIN, 2019), hlm. 105-106. Pasangan yang sudah tercakup entri lain tidak diulang: demi untuk, membicarakan tentang, kurang lebih sekitar, pada zaman dahulu kala, semata-mata hanya, misteri rahasia, tujuan daripada, maka dari itu, bertujuan untuk, seperti misalnya, adalah merupakan, agar supaya, terdiri dari, sehubungan, terkait, sesuai dengan, dibandingkan dengan.",
+          "contoh_salah": "Kesimpulan itu berdasarkan atas data yang bergantung kepada mutu wawancara.",
+          "contoh_benar": "Kesimpulan itu berdasarkan data yang bergantung pada mutu wawancara."
         }
       ]
     }
   },
-  "total_entri": 630
+  "total_entri": 632
 }
