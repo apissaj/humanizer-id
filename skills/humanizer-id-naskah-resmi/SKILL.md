@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-naskah-resmi
 description: Use when fixing naskah dinas, pewara & metadata jurnal.
-version: 2.4.3
+version: 2.4.4
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

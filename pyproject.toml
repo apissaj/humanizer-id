@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "humanizer-id"
-version = "2.4.3"
-description = "Indonesian academic writing editorial engine: 599 prescriptive rules to remove AI-sounding cliches, machine-translation calques, and nonstandard forms"
+version = "2.4.4"
+description = "Indonesian academic writing editorial engine: 611 prescriptive rules to remove AI-sounding cliches, machine-translation calques, and nonstandard forms"
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"

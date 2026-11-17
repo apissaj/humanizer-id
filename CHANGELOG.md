@@ -2,6 +2,19 @@
 
 Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti [Keep a Changelog](https://keepachangelog.com/id/1.1.0/) dan versi mengikuti [SemVer](https://semver.org/lang/id/).
 
+## [2.4.4] — 2026-11-17
+
+### Ditambahkan
+- **12 kaidah penyerapan istilah dari PUPI** (Kepmendiknas 146/U/2004): `PUPI-002`..`PUPI-009` untuk bentuk serapan leksikal (*frekwensi, subyektif, propinsi, komplek, jaman, kaedah, managemen, ekstrim*) dan `PUPI-010`..`PUPI-013` untuk bentuk terikat (*pra-, ekstra-, anti-, multi-*).
+- **`references/pupi-2004-kepmendiknas146.md`** — ekstrak verbatim 1.322 baris (Bab I–IV) termasuk tabel penyesuaian ejaan prefiks dan sufiks.
+- **Blok `BW`** pada sub-skill `ejaan-morfologi` berisi 12 entri Pola → Perbaikan → Sebab plus tabel rujukan serapan sufiks/prefiks.
+
+### Diperbaiki
+- Blok `BV2` sub-skill `ejaan-morfologi`: butir 4–7 sebelumnya kehilangan **Perbaikan/Sebab** karena penggabungan baris.
+
+### Catatan rilis
+- Versi 2.4.1–2.4.3 tidak tercatat terpisah di berkas ini; ketiganya berisi integrasi EYD V, EYD 1987, dan PUEBI 2015 (kaidah `EYD-058`..`EYD-064`).
+
 ## [2.4.0] — 2026-11-17
 
 ### Ditambahkan

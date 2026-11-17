@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "2.3.0",
+    "version": "2.4.4",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -409,7 +409,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 323
+    "total_entri": 611
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7006,6 +7006,129 @@
           "penjelasan": "Nama diri seperti nama orang, lembaga, atau organisasi dalam bahasa asing atau bahasa daerah tidak ditulis dengan huruf miring (PUEBI 2015 Bab I hlm. 12).",
           "contoh_salah": "Penelitian ini merujuk kerangka teori dari *Michael Porter* dan lembaga *World Bank*.",
           "contoh_benar": "Penelitian ini merujuk kerangka teori dari Michael Porter dan lembaga World Bank."
+        },
+        {
+          "id": "PUPI-002",
+          "pola": "frekwensi",
+          "saran_pengganti": [
+            "frekuensi"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.b memberi contoh frequency -> frekuensi (-ency menjadi -ensi); gugus qu pada serapan disesuaikan menjadi ku, bukan kw.",
+          "contoh_salah": "Frekwensi pemakaian kata gaul di media sosial terus naik.",
+          "contoh_benar": "Frekuensi pemakaian kata gaul di media sosial terus naik."
+        },
+        {
+          "id": "PUPI-003",
+          "pola": "subyektif",
+          "saran_pengganti": [
+            "subjektif"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.b menetapkan sufiks -ive/-ief diserap menjadi -if (demonstrative -> demonstratif); bentuk dasar subject diserap menjadi subjek, sehingga turunannya subjektif.",
+          "contoh_salah": "Penilaian juri dinilai terlalu subyektif oleh peserta.",
+          "contoh_benar": "Penilaian juri dinilai terlalu subjektif oleh peserta."
+        },
+        {
+          "id": "PUPI-004",
+          "pola": "propinsi",
+          "saran_pengganti": [
+            "provinsi"
+          ],
+          "penjelasan": "Bentuk baku serapan province menurut KBBI dan pola penyesuaian ejaan serapan PUPI II.4.2.1 adalah provinsi, bukan propinsi.",
+          "contoh_salah": "Pemerintah propinsi menargetkan vaksinasi tuntas bulan depan.",
+          "contoh_benar": "Pemerintah provinsi menargetkan vaksinasi tuntas bulan depan."
+        },
+        {
+          "id": "PUPI-005",
+          "pola": "komplek",
+          "saran_pengganti": [
+            "kompleks"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.1 menyesuaikan ejaan serapan pada gugus konsonan akhir: complex -> kompleks. Bentuk komplek kehilangan huruf s penutup.",
+          "contoh_salah": "Komplek perumahan itu dilengkapi ruang terbuka hijau.",
+          "contoh_benar": "Kompleks perumahan itu dilengkapi ruang terbuka hijau."
+        },
+        {
+          "id": "PUPI-006",
+          "pola": "jaman",
+          "saran_pengganti": [
+            "zaman"
+          ],
+          "penjelasan": "Lema baku KBBI adalah zaman (serapan Arab), bukan jaman; bentuk jaman termasuk ragam tidak baku.",
+          "contoh_salah": "Kebiasaan itu bertahan sejak jaman penjajahan.",
+          "contoh_benar": "Kebiasaan itu bertahan sejak zaman penjajahan."
+        },
+        {
+          "id": "PUPI-007",
+          "pola": "kaedah",
+          "saran_pengganti": [
+            "kaidah"
+          ],
+          "penjelasan": "Lema baku KBBI adalah kaidah (serapan Arab qa'idah), bukan kaedah; bentuk kaedah termasuk ragam tidak baku.",
+          "contoh_salah": "Kaedah penulisan judul tabel diatur pada bab berikutnya.",
+          "contoh_benar": "Kaidah penulisan judul tabel diatur pada bab berikutnya."
+        },
+        {
+          "id": "PUPI-008",
+          "pola": "managemen",
+          "saran_pengganti": [
+            "manajemen"
+          ],
+          "penjelasan": "Lema baku KBBI adalah manajemen (serapan management); bentuk managemen tidak sesuai pola penyesuaian ejaan serapan PUPI II.4.2.1.",
+          "contoh_salah": "Managemen proyek berjalan tanpa dokumentasi risiko.",
+          "contoh_benar": "Manajemen proyek berjalan tanpa dokumentasi risiko."
+        },
+        {
+          "id": "PUPI-009",
+          "pola": "ekstrim",
+          "saran_pengganti": [
+            "ekstrem"
+          ],
+          "penjelasan": "Lema baku KBBI adalah ekstrem (serapan extreme); bentuk ekstrim tidak tercatat sebagai varian baku.",
+          "contoh_salah": "Cuaca ekstrim memaksa panitia menunda pertandingan.",
+          "contoh_benar": "Cuaca ekstrem memaksa panitia menunda pertandingan."
+        },
+        {
+          "id": "PUPI-010",
+          "pola": "pra sekolah",
+          "saran_pengganti": [
+            "prasekolah",
+            "prasejarah"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.a mendaftar pra- (pre-) sebagai bentuk terikat yang ditulis serangkai: prasekolah, prasejarah, prakondisi. Penulisan terpisah mengubahnya menjadi frasa preposisional.",
+          "contoh_salah": "Program pra sekolah menyasar anak usia empat tahun.",
+          "contoh_benar": "Program prasekolah menyasar anak usia empat tahun."
+        },
+        {
+          "id": "PUPI-011",
+          "pola": "ekstra kurikuler",
+          "saran_pengganti": [
+            "ekstrakurikuler"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.a menetapkan prefiks asing extra- diserap menjadi ekstra- dan dirangkaikan pada bentuk dasar (extraterrestrial -> ekstraterestrial), sehingga ekstrakurikuler ditulis serangkai.",
+          "contoh_salah": "Kegiatan ekstra kurikuler wajib diikuti mahasiswa baru.",
+          "contoh_benar": "Kegiatan ekstrakurikuler wajib diikuti mahasiswa baru."
+        },
+        {
+          "id": "PUPI-012",
+          "pola": "anti korupsi",
+          "saran_pengganti": [
+            "antikorupsi",
+            "antivirus"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.a mendaftar anti- sebagai prefiks yang tetap anti- dan menempel langsung pada bentuk dasar (anticatalyst -> antikatalis), sehingga antikorupsi dan antivirus ditulis serangkai.",
+          "contoh_salah": "Kampus mencanangkan gerakan anti korupsi bagi mahasiswa baru.",
+          "contoh_benar": "Kampus mencanangkan gerakan antikorupsi bagi mahasiswa baru."
+        },
+        {
+          "id": "PUPI-013",
+          "pola": "multi disiplin",
+          "saran_pengganti": [
+            "multidisiplin",
+            "multifungsi"
+          ],
+          "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.a mendaftar multi- sebagai prefiks yang menempel langsung pada bentuk dasar; bentuk baku KBBI adalah multidisiplin, multifungsi, dan multimedia (serangkai).",
+          "contoh_salah": "Pendekatan multi disiplin dibutuhkan untuk menuntaskan masalah gizi.",
+          "contoh_benar": "Pendekatan multidisiplin dibutuhkan untuk menuntaskan masalah gizi."
         }
       ]
     }

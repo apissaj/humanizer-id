@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-ejaan-morfologi
 description: Use when fixing ejaan, morfologi, dan bentuk baku Indonesia.
-version: 2.4.3
+version: 2.4.4
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -182,9 +182,58 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 1. **Pola:** *teori darwin / hukum archimedes / rumus pythagoras* → **Perbaikan:** *teori Darwin / hukum Archimedes / rumus Phytagoras* — **Sebab:** kapital pada nama orang dalam nama teori, hukum, dan rumus (Butir 4 Bab I F, hlm. 8; `EYD-058`).
 2. **Pola:** *Fatimah Binti Salim / Charles Adriaan Van Ophuijsen* → **Perbaikan:** *Fatimah binti Salim / Charles Adriaan van Ophuijsen* — **Sebab:** kata bermakna "anak dari" (*bin, binti, boru, van*) nonkapital di tengah nama, kecuali di awal nama atau kata tugas *dari* (Butir 5 Bab I F, hlm. 8; `EYD-059`).
 3. **Pola:** *Proklamasi kemerdekaan / Perang Dunia* (peristiwa sejarah generik) → **Perbaikan:** *proklamasi kemerdekaan / perang dunia* — **Sebab:** peristiwa sejarah yang tidak digunakan sebagai nama ditulis nonkapital (Butir 15 Bab I F, hlm. 11; `EYD-060`).
-4. **Pola:** *batik cirebon / soto banjar / kopi gayo / bubur manado*
-5. **Pola:** *buku bahasa dan sastra / majalah bahasa dan sastra*
+4. **Pola:** *batik cirebon / soto banjar / kopi gayo / bubur manado* → **Perbaikan:** *batik Cirebon / soto Banjar / kopi Gayo / bubur Manado* — **Sebab:** nama geografi yang menyatakan asal daerah ditulis kapital (Butir 19 Bab I F, hlm. 12; `EYD-061`).
+5. **Pola:** *buku bahasa dan sastra / majalah bahasa dan sastra* → **Perbaikan:** *buku Bahasa dan Sastra / majalah Bahasa dan Sastra* — **Sebab:** kapital semua kata (termasuk kata ulang sempurna) pada nama buku/majalah/surat kabar/judul karangan, kecuali kata tugas non-awal (EYD 1987 butir 12 Bab II; `EYD-062`).
 6. **Pola:** kutipan langsung bahasa asing/daerah tanpa pencetakan miring → **Perbaikan:** cetak miring seluruh kutipan asing — **Sebab:** kalimat/teks asing yang dikutip langsung wajib miring (PUEBI 2015 Bab I hlm. 12; `EYD-063`).
-7. **Pola:** *Michael Porter / World Bank* (nama diri asing) ditulis miring → **Perbaikan:** tulis tegak — **Sebab:** nama diri asing/daerah (orang, lembaga, organisasi) tidak ditulis miring (PUEBI 2015 Bab I hlm. 12; `EYD-064`). → **Perbaikan:** *buku Bahasa dan Sastra / majalah Bahasa dan Sastra* — **Sebab:** kapital semua kata (termasuk kata ulang sempurna) pada nama buku/majalah/surat kabar/judul karangan, kecuali kata tugas non-awal (EYD 1987 butir 12 Bab II; `EYD-062`). → **Perbaikan:** *batik Cirebon / soto Banjar / kopi Gayo / bubur Manado* — **Sebab:** nama geografi yang menyatakan asal daerah ditulis kapital (Butir 19 Bab I F, hlm. 12; `EYD-061`).
+7. **Pola:** *Michael Porter / World Bank* (nama diri asing) ditulis miring → **Perbaikan:** tulis tegak — **Sebab:** nama diri asing/daerah (orang, lembaga, organisasi) tidak ditulis miring (PUEBI 2015 Bab I hlm. 12; `EYD-064`).
 
 > **Sumber verbatim:** teks resmi EYD V tersedia via transkripsi Wikisource Indonesia (`Halaman:SK_EYD_Edisi_V_16082022.pdf`) — detail pemetaan di `references/eyd-v-wikisource-2022.md`. PUEBI (SK 0321/I/BS.00.00/2021) telah dicabut oleh EYD V (Diktum KEEMPAT).
+
+---
+
+### BW. Penyerapan Istilah Asing (Rujukan PUPI, Kepmendiknas 146/U/2004, Bab II.4.2 — transkrip Wikisource)
+
+1. **Pola:** *frekwensi* → **Perbaikan:** *frekuensi* — **Sebab:** sufiks *-ency* diserap menjadi *-ensi* dan gugus *qu* menjadi *ku*, bukan *kw* (`PUPI-002`) (PUPI II.4.2.2.b).
+2. **Pola:** *subyektif* → **Perbaikan:** *subjektif* — **Sebab:** *subject* diserap menjadi *subjek*; turunan bersufiks *-ive* menjadi *-if* (`PUPI-003`) (PUPI II.4.2.2.b).
+3. **Pola:** *propinsi* → **Perbaikan:** *provinsi* — **Sebab:** penyesuaian ejaan serapan *province*; bentuk dengan *p* ganda tidak baku (`PUPI-004`) (PUPI II.4.2.1).
+4. **Pola:** *komplek* → **Perbaikan:** *kompleks* — **Sebab:** gugus konsonan akhir serapan *-x* disesuaikan menjadi *-ks* (`PUPI-005`) (PUPI II.4.2.1).
+5. **Pola:** *jaman* → **Perbaikan:** *zaman* — **Sebab:** bentuk baku serapan Arab memakai *z*, bukan *j* (`PUPI-006`) (KBBI).
+6. **Pola:** *kaedah* → **Perbaikan:** *kaidah* — **Sebab:** bentuk baku serapan Arab *qa'idah* adalah *kaidah* (`PUPI-007`) (KBBI).
+7. **Pola:** *managemen* → **Perbaikan:** *manajemen* — **Sebab:** penyesuaian ejaan serapan *management*; vokal pada suku kedua menjadi *a* (`PUPI-008`) (PUPI II.4.2.1).
+8. **Pola:** *ekstrim* → **Perbaikan:** *ekstrem* — **Sebab:** bentuk baku serapan *extreme* adalah *ekstrem* (`PUPI-009`) (KBBI).
+9. **Pola:** *pra sekolah / pra kondisi* → **Perbaikan:** *prasekolah / prakondisi* — **Sebab:** bentuk terikat *pra-* (pre-) menempel langsung pada bentuk dasar (`PUPI-010`) (PUPI II.4.2.2.a).
+10. **Pola:** *ekstra kurikuler / extra kulikuler* → **Perbaikan:** *ekstrakurikuler* — **Sebab:** prefiks asing *extra-* diserap menjadi *ekstra-* dan ditulis serangkai dengan bentuk dasar (`PUPI-011`) (PUPI II.4.2.2.a).
+11. **Pola:** *anti korupsi / anti virus* → **Perbaikan:** *antikorupsi / antivirus* — **Sebab:** prefiks *anti-* tetap *anti-* dan menempel pada bentuk dasar (`PUPI-012`) (PUPI II.4.2.2.a).
+12. **Pola:** *multi disiplin / multi fungsi* → **Perbaikan:** *multidisiplin / multifungsi* — **Sebab:** prefiks *multi-* menempel langsung pada bentuk dasar (`PUPI-013`) (PUPI II.4.2.2.a).
+
+#### Tabel rujukan penyesuaian ejaan serapan (PUPI II.4.2.2)
+
+| Sufiks asing | Serapan Indonesia | Contoh |
+|---|---|---|
+| *-iteit, -ity* | *-itas* | facility → fasilitas, quality → kualitas |
+| *-isatie, -ization* | *-isasi* | naturalization → naturalisasi |
+| *-atie, -(a)tion* | *-(a)si* | action → aksi, publication → publikasi |
+| *-logie, -logy* | *-logi* | technology → teknologi |
+| *-iek, -ic, -ique* | *-ik* | periodic → periodik, unique → unik |
+| *-isch, -ic, -ical* | *-is* | optimistic → optimistis |
+| *-ance, -ence* | *-ans, -ens* | ambulance → ambulans |
+| *-ancy, -ency* | *-ansi, -ensi* | frequency → frekuensi |
+| *-teit, -ty* | *-tas* | university → universitas |
+| *-eur, -or* | *-ir, -ur* | amateur → amatir, director → direktur |
+| *-archie, -archy* | *-arki* | monarchy → monarki |
+| *-lyse, -lysis* | *-lisis* | analysis → analisis |
+
+| Prefiks asing | Serapan Indonesia | Contoh |
+|---|---|---|
+| *cata-* | *kata-* | catalyst → katalis |
+| *co-, com-, con-* | *ko-, kom-, kon-* | coordination → koordinasi |
+| *contra-* | *kontra-* | contradiction → kontradiksi |
+| *eco-* | *eko-* | ecology → ekologi |
+| *ex-* | *eks-* | exclusive → eksklusif |
+| *extra-* | *ekstra-* | extraterrestrial → ekstraterestrial |
+| *hexa-* | *heksa-* | hexagon → heksagon |
+| *hyper-, hypo-* | *hiper-, hipo-* | hyperemia → hiperemia |
+| *post-* | *pasca-* | — |
+| *pre-* | *pra-* | — |
+
+> **Sumber verbatim:** seluruh kaidah di atas bersumber dari `references/pupi-2004-kepmendiknas146.md` (Kepmendiknas 146/U/2004, transkrip Wikisource Indonesia). Bentuk leksikal (*zaman, kaidah, ekstrem, propinsi*) diperiksa silang ke KBBI.

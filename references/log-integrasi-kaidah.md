@@ -93,3 +93,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - Sumber: PUEBI 2015 (Permendikbud 50/2015) Bab I hlm. 12 — ekstrak `references/puebi-2015-permendikbud50.md` (31 halaman Wikisource).
 - 2 kaidah [telaah]: huruf miring kutipan asing (EYD-063), nama diri asing tidak miring (EYD-064).
 - Total 599 kaidah (165+15+93+326); metadata 2.3.0.
+
+
+## Integrasi PUPI-002..013 (2026-11-17)
+
+- Sumber: Pedoman Umum Pembentukan Istilah, Kepmendiknas 146/U/2004 — transkrip Wikisource Indonesia, ekstrak `references/pupi-2004-kepmendiknas146.md` (1.322 baris; Bab I-IV, termasuk tabel prefiks II.4.2.2.a dan sufiks II.4.2.2.b).
+- 12 entri baru kategori `kata_baku_dan_morfologi`: PUPI-002 frekwensi, 003 subyektif, 004 propinsi, 005 komplek, 006 jaman, 007 kaedah, 008 managemen, 009 ekstrim (leksikal serapan); 010 pra sekolah, 011 ekstra kurikuler, 012 anti korupsi, 013 multi disiplin (bentuk terikat).
+- Ditolak sebagai duplikat: aktifitas (TIQ-003), sistim & metoda (BPK-017), prosentase (BPK-016), kwantitas (BPK-015), kreatifitas & produktifitas (BPK-027), obyek (BPK-018), pasca sarjana (EYD-035), sub bagian (EYD-039).
+- Matcher: 4 regex baru di `CUSTOM_RULES` untuk keluarga bentuk terikat (pra-, ekstra-/extra-, anti-, multi-).
+- Blok baru `BW` di `skills/humanizer-id-ejaan-morfologi/SKILL.md` + tabel rujukan penyesuaian ejaan sufiks/prefiks. Blok `BV2` diperbaiki: butir 4-7 sebelumnya tergabung tanpa Perbaikan/Sebab.
+- Total kaidah 611 (165+15+93+338); versi 2.4.4; pytest 45 passed; uji `work/uji-pupi.md` 12 salah tertangkap / 12 benar lolos.
