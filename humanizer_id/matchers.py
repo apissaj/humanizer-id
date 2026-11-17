@@ -959,3 +959,38 @@ CUSTOM_RULES.append((
     [re.compile(r"(?i)\b(?:19|20)\d{2}an\b"),
      re.compile(r"(?i)\bRp\s?\d[\d.]*an\b")],
 ))
+
+
+# --- TMS-009: spasi keliru pada tanda baca (Taktis Menyunting 2019, hlm. 124) ---
+# 'kata .', 'kata ,', '( kata', 'kata )', 'namun,mungkin'. Titik dua sudah di JRN-008.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("kata . / kata ,"),
+    [re.compile(r"(?<=\S)\s+[.,;!?](?!\.)"),
+     re.compile(r"[\(“\u2018]\s+"),
+     re.compile(r"\s+[)\)”\u2019]"),
+     re.compile(r",(?=[A-Za-z])")],
+))
+
+# --- TMS-010: koma/tanya kalimat langsung harus di dalam tanda petik (Tabel 5.25, hlm. 125) ---
+# '“ini”, kata' -> '“ini,” kata'; '“ini”? tanya' -> '“ini?” tanya'.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("'ini', kata"),
+    [re.compile(r"[\u201d\u201c\"]\s*,\s+(?=(?:kata|ujar|tanya|tutur|jelas|ujarnya|katanya|sambung|lanjut|jawab|tegas|tambah|imbuh|pinta|minta|tandas|sahut|ucap)\b)"),
+     re.compile(r"[\u201d\u201c\"]\s*\?(?=[\s,.;:])")],
+))
+
+# --- TMS-011: elipsis wajib berspasi (Taktis Menyunting 2019, hlm. 126) ---
+# 'sedang...buku' -> 'sedang ... buku'; 'mereka....' -> 'mereka ....'.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("sedang...buku"),
+    [re.compile(r"(?<=[A-Za-z])\.{3,}(?=[A-Za-z])"),
+     re.compile(r"(?<=[A-Za-z])\.{3,}(?=\s+[A-Za-z])")],
+))
+
+# --- TMS-012: tanda pisah en dash untuk rentang waktu (hlm. 126) ---
+# 'pukul 09:00-10:00' dan 'tanggal 10-11 November' -> en dash.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("pukul 09:00-10:00"),
+    [re.compile(r"\b\d{1,2}[:.]\d{2}\s*-\s*\d{1,2}[:.]\d{2}\b"),
+     re.compile(r"\b\d{1,2}\s*-\s*\d{1,2}\s+(?:Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\b")],
+))

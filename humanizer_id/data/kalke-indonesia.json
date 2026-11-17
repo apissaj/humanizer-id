@@ -7490,9 +7490,60 @@
           "penjelasan": "Angka yang diberi akhiran -an dirangkaikan dengan tanda hubung: tahun 1980-an, tahun 1990-an, seharga Rp2.000-an (Tabel 5.23 *Taktis Menyunting*, BRIN, 2019, hlm. 122). Bentuk tanpa tanda hubung (1980an, Rp2.000an) keliru. Pemeriksaan memakai pola angka empat digit dan nominal rupiah yang langsung diikuti -an, jadi angka lain seperti 2024an juga tertangkap.",
           "contoh_salah": "Kebijakan tahun 1980an itu berlaku sampai tahun 2000an dengan biaya Rp2.000an.",
           "contoh_benar": "Kebijakan tahun 1980-an itu berlaku sampai tahun 2000-an dengan biaya Rp2.000-an."
+        },
+        {
+          "id": "TMS-009",
+          "pola": "kata . / kata , / kata ! / kata ? / ( kata / kata ) / “ kata / kata ” / namun,mungkin",
+          "saran_pengganti": [
+            "kata. (tanpa spasi sebelum titik)",
+            "kata, (tanpa spasi sebelum koma)",
+            "kata!",
+            "kata?",
+            "(kata (tanpa spasi sesudah tanda buka)",
+            "kata) (tanpa spasi sebelum tanda tutup)",
+            "“kata",
+            "kata”",
+            "namun, mungkin (wajib satu spasi sesudah koma)"
+          ],
+          "penjelasan": "Tanda baca selalu ditulis serangkai dengan kata yang mendahului atau mengikutinya, tanpa spasi di antara keduanya (*Taktis Menyunting*, BRIN, 2019, hlm. 124). Empat kekeliruan yang diperiksa: spasi sebelum tanda penyudah atau penyela (termasuk titik, koma, seru, tanya), spasi sesudah tanda buka kurung atau petik, spasi sebelum tanda tutup, dan koma yang tidak diikuti spasi. Titik dua tidak diperiksa di sini karena sudah berkaidah pada JRN-008.",
+          "contoh_salah": "Namun,mungkin tidak bagi mereka . Mereka menganggap menulis seperti “ monster ” yang menakutkan ( plagiat ) .",
+          "contoh_benar": "Namun, mungkin tidak bagi mereka. Mereka menganggap menulis seperti “monster” yang menakutkan (plagiat)."
+        },
+        {
+          "id": "TMS-010",
+          "pola": "'ini', kata / 'ini'? tanya",
+          "saran_pengganti": [
+            "'ini,' kata (koma di dalam tanda petik)",
+            "'ini?' tanya (tanda tanya di dalam tanda petik)"
+          ],
+          "penjelasan": "Pada kalimat langsung, tanda koma atau tanda tanya diletakkan di dalam tanda petik, bukan sesudahnya (*Taktis Menyunting*, BRIN, 2019, Tabel 5.25, hlm. 125). Bentuk keliru: “Besok kita mulai”, kata Pak Mintarjo. dan “Apa yang kamu pahami”? tanya Tantri. Bentuk tepat: “Besok kita mulai,” kata Pak Mintarjo. dan “Apa yang kamu pahami?” tanya Tantri. Pemeriksaan hanya berlaku bila petik langsung diikuti verba pengiring (kata, ujar, tanya, tutur, jawab, dan sejenisnya) atau tanda baca akhir kalimat.",
+          "contoh_salah": "“Besok kita mulai perburuan ini”, kata Pak Mintarjo. “Apa yang belum dipahami”? tanya Tantri.",
+          "contoh_benar": "“Besok kita mulai perburuan ini,” kata Pak Mintarjo. “Apa yang belum dipahami?” tanya Tantri."
+        },
+        {
+          "id": "TMS-011",
+          "pola": "sedang...buku / mereka....",
+          "saran_pengganti": [
+            "sedang ... buku (elipsis diberi spasi sebelum dan sesudah)",
+            "mereka .... (elipsis dipisah dari kata)"
+          ],
+          "penjelasan": "Tanda elipsis di dalam kalimat ditulis dengan spasi sebelum dan sesudahnya (*Taktis Menyunting*, BRIN, 2019, hlm. 126). Bentuk keliru: Ia sedang... buku. dan Jangan pedulikan mereka.... Bentuk tepat: Ia sedang ... buku. dan Jangan pedulikan mereka ....",
+          "contoh_salah": "Ia sedang... membaca buku, jangan pedulikan mereka....",
+          "contoh_benar": "Ia sedang ... membaca buku, jangan pedulikan mereka ...."
+        },
+        {
+          "id": "TMS-012",
+          "pola": "pukul 09:00-10:00 / 10-11 November",
+          "saran_pengganti": [
+            "pukul 09.00–10.00 (tanda pisah en dash)",
+            "tanggal 10–11 November (tanda pisah en dash)"
+          ],
+          "penjelasan": "Tanda pisah (–) dipakai untuk menyatakan keterangan 'sampai dengan', berbeda dari tanda hubung (-) yang menyambung kata atau suku kata (*Taktis Menyunting*, BRIN, 2019, hlm. 126). Bentuk keliru: Rapat berlangsung pukul 09:00-10:00. dan Pelatihan diselenggarakan tanggal 10-11 November 2022. Bentuk tepat memakai tanda pisah. Rentang angka lain seperti 2020-2024 tidak diperiksa karena pada sitasi dan tabel sering ditulis dengan tanda hubung.",
+          "contoh_salah": "Rapat berlangsung pukul 09:00-10:00 pada 10-11 November 2022.",
+          "contoh_benar": "Rapat berlangsung pukul 09.00–10.00 pada 10–11 November 2022."
         }
       ]
     }
   },
-  "total_entri": 634
+  "total_entri": 638
 }
