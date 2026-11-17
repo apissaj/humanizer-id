@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 657
+    "total_entri": 660
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7819,9 +7819,72 @@
             "tahun": 2009,
             "halaman": "45-46"
           }
+        },
+        {
+          "id": "TMS-032",
+          "pola": "legalisir / inventarisir / terakomodir / terorganisir / mengkoordinir",
+          "saran_pengganti": [
+            "dilegalisasi",
+            "menginventarisasi",
+            "terakomodasi",
+            "terorganisasi",
+            "mengkoordinasi"
+          ],
+          "penjelasan": "Akhiran serapan -ir tidak baku; padanannya -asi atau -isasi. Bentuk baku: legalisasi (bukan legalisir), inventarisasi, akomodasi, organisasi, regionalisasi. Karena itu dilegalisir → dilegalisasi, menginventarisir → menginventarisasi, terakomodir → terakomodasi, terorganisir → terorganisasi, dan seterusnya. Sumber: Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, “Beberapa Permasalahan Pemakaian Bahasa Indonesia” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 38-40.",
+          "contoh_salah": "Fotokopi KTP yang telah dilegalisir, menginventarisir aset, terakomodir penuh, dan terorganisir rapi.",
+          "contoh_benar": "Fotokopi KTP yang telah dilegalisasi, menginventarisasi aset, terakomodasi penuh, dan terorganisasi rapi.",
+          "rujukan": {
+            "penulis": "Wenni Rusbiyantoro, Nur Bety, Mardi Nugroho",
+            "buku": "Beberapa Permasalahan Pemakaian Bahasa Indonesia",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "38-40"
+          }
+        },
+        {
+          "id": "TMS-033",
+          "pola": "tehknik / enerjik / rejional / aktip / perogram / konsil",
+          "saran_pengganti": [
+            "teknik",
+            "energik",
+            "regional",
+            "aktif",
+            "program",
+            "konsil"
+          ],
+          "penjelasan": "Ejaan serapan yang belum disesuaikan kaidah EYD: kh → k (tehknik → teknik), j untuk bunyi /dʒ/ → g (enerjik → energik, rejional → regional), p diganti f (aktip → aktif, perogram → program), dan penyesuaian bentuk asing lain (konsil dipertahankan sesuai KBBI). Sumber: Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, “Beberapa Permasalahan Pemakaian Bahasa Indonesia” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 40-41.",
+          "contoh_salah": "Direktur tehknik berperan aktip dan energik dalam perogram rejional itu.",
+          "contoh_benar": "Direktur teknik berperan aktif dan energik dalam program regional itu.",
+          "rujukan": {
+            "penulis": "Wenni Rusbiyantoro, Nur Bety, Mardi Nugroho",
+            "buku": "Beberapa Permasalahan Pemakaian Bahasa Indonesia",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "40-41"
+          }
+        },
+        {
+          "id": "TMS-034",
+          "pola": "Sementara itu ... / Oleh karena itu ... / Dengan demikian ... / Selain itu ... (tanpa koma)",
+          "saran_pengganti": [
+            "Sementara itu, ...",
+            "Oleh karena itu, ...",
+            "Dengan demikian, ...",
+            "Selain itu, ..."
+          ],
+          "penjelasan": "Kata atau ungkapan penghubung antarkalimat yang diletakkan pada awal kalimat wajib diikuti tanda koma. Kaidah ini melengkapi SPE-003 yang baru menangani Namun, Bahkan, Kemudian, dan Lagi pula. Bentuk berunsur dua kata seperti Sementara itu dan Oleh karena itu kerap ditulis tanpa koma karena pengaruh ragam lisan. Sumber: Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, “Beberapa Permasalahan Pemakaian Bahasa Indonesia” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 33.",
+          "contoh_salah": "Sementara itu perkembangan waduk tidak berpengaruh besar. Oleh karena itu pengawasan perlu diperketat.",
+          "contoh_benar": "Sementara itu, perkembangan waduk tidak berpengaruh besar. Oleh karena itu, pengawasan perlu diperketat.",
+          "rujukan": {
+            "penulis": "Wenni Rusbiyantoro, Nur Bety, Mardi Nugroho",
+            "buku": "Beberapa Permasalahan Pemakaian Bahasa Indonesia",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "33"
+          }
         }
       ]
     }
   },
-  "total_entri": 657
+  "total_entri": 660
 }

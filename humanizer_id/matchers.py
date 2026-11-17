@@ -1176,3 +1176,48 @@ CUSTOM_RULES.append((
     lambda p: p == "tandatangani",
     [re.compile(r"\btandatangani\b")],
 ))
+
+# --- TMS-032: akhiran serapan -ir tidak baku -> -asi/-isasi (Pusat Bahasa 2009, hlm. 38-40) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("legalisir / inventarisir"),
+    [re.compile(r"(?i)\b\w*legalisir\w*\b"),
+     re.compile(r"(?i)\b\w*inventarisir\w*\b"),
+     re.compile(r"(?i)\b\w*akomodir\w*\b"),
+     re.compile(r"(?i)\b\w*organisir\w*\b"),
+     re.compile(r"(?i)\b\w*regionalisir\w*\b"),
+     re.compile(r"(?i)\b\w*koordinir\w*\b")],
+))
+
+# --- TMS-033: ejaan serapan yang belum disesuaikan (Pusat Bahasa 2009, hlm. 40-41) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("tehknik / enerjik"),
+    [re.compile(r"(?i)\btehknik\w*\b|\btehnik\w*\b"),
+     re.compile(r"(?i)\b\w*enerjik\w*\b"),
+     re.compile(r"(?i)\b\w*rejional\w*\b"),
+     re.compile(r"(?i)\baktip\w*\b"),
+     re.compile(r"(?i)\bperogram\w*\b")],
+))
+
+# --- BAK-005: analisa alih-alih analisis ---
+CUSTOM_RULES.append((
+    lambda p: p == "analisa",
+    [re.compile(r"(?i)\banalisa\b|\banalisa\w*kan\b")],
+))
+
+# --- BAK-007: praktek alih-alih praktik ---
+CUSTOM_RULES.append((
+    lambda p: p == "praktek",
+    [re.compile(r"(?i)\bpraktek\w*\b")],
+))
+
+# --- BPK-038: mengaktipkan alih-alih mengaktifkan (Tata Naskah Dinas 2025, hlm. 40) ---
+CUSTOM_RULES.append((
+    lambda p: p == "mengaktipkan",
+    [re.compile(r"(?i)\b\w*aktipkan\b")],
+))
+
+# --- TMS-034: penghubung antarkalimat di awal kalimat tanpa koma (Pusat Bahasa 2009, hlm. 33) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Sementara itu ... / Oleh karena itu"),
+    [re.compile(r"(?m)(?:^|[.!?]\s+|\n)\s*(?:Sementara\s+itu|Oleh\s+karena\s+itu|Dengan\s+demikian|Selain\s+itu)\s+(?=[^\s,.;:])")],
+))
