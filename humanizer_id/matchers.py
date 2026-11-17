@@ -1123,3 +1123,56 @@ CUSTOM_RULES.append((
                 r"muda|tua|mahir|efisien|efektif|kompleks|rumit|sulit|mudah|produktif|signifikan)\s+dari\b"
                 r"(?!\s+\d)")],
 ))
+
+# --- BAK-002: me-/di- + rubah alih-alih ubah (Pusat Bahasa 2009, hlm. 49) ---
+CUSTOM_RULES.append((
+    lambda p: p == "merubah",
+    [re.compile(r"(?i)\b(?:me|di)rubah\w*\b")],
+))
+
+# --- BAK-004: mentargetkan alih-alih menargetkan (Pusat Bahasa 2009, hlm. 47) ---
+CUSTOM_RULES.append((
+    lambda p: p == "mentargetkan",
+    [re.compile(r"(?i)\bmentarget\w*\b")],
+))
+
+# --- BPK-044: penanggungjawab diserangkai (Seri Penyuluhan Ejaan 2025, hlm. 35) ---
+CUSTOM_RULES.append((
+    lambda p: p == "penanggungjawab",
+    [re.compile(r"(?i)\bpenanggungjawab\w*\b")],
+))
+
+# --- BPK-045: bekerjabakti diserangkai (Seri Penyuluhan Ejaan 2025, hlm. 35) ---
+CUSTOM_RULES.append((
+    lambda p: p == "bekerjabakti",
+    [re.compile(r"(?i)\bbekerjabakti\w*\b")],
+))
+
+# --- BDD-009: klise "di mana hal ini" (Badudu) ---
+CUSTOM_RULES.append((
+    lambda p: p == "di mana hal ini",
+    [re.compile(r"(?i),\s*di\s*mana\s+hal\s+ini\b")],
+))
+
+# --- TMS-030: gabungan kata dan partikel salah rangkai (Pusat Bahasa 2009, hlm. 42-45) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("salahsatunya / tindaklanjuti"),
+    [re.compile(r"(?i)\bsalahsatu(?:nya)?\b"),
+     re.compile(r"(?i)\btindaklanjuti\b|\b(?:di|men|meng)?tindak\s+lanjuti\b"),
+     re.compile(r"(?i)\bunjukrasa\b"),
+     re.compile(r"(?i)\blagipula\b"),
+     re.compile(r"(?i)\bnon\s+aktif\b")],
+))
+
+# --- TMS-031: kordinator dan mengkomentari (Pusat Bahasa 2009, hlm. 45-46) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("kordinator / kordinasi"),
+    [re.compile(r"(?i)\bkordinas\w*\b|\bkordinator\b"),
+     re.compile(r"(?i)\bmengkomentar\w*\b")],
+))
+
+# --- SPE-014: tandatangani alih-alih tanda tangani (ditandatangani tetap benar) ---
+CUSTOM_RULES.append((
+    lambda p: p == "tandatangani",
+    [re.compile(r"\btandatangani\b")],
+))

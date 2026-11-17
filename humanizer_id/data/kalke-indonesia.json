@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 655
+    "total_entri": 657
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7779,9 +7779,49 @@
             "tahun": 2019,
             "halaman": "79"
           }
+        },
+        {
+          "id": "TMS-030",
+          "pola": "salahsatunya / tindaklanjuti / unjukrasa / lagipula / non aktif",
+          "saran_pengganti": [
+            "salah satunya",
+            "tindak lanjut",
+            "unjuk rasa",
+            "lagi pula",
+            "nonaktif"
+          ],
+          "penjelasan": "Gabungan kata dan partikel yang unsur-unsurnya masih mandiri ditulis terpisah; kata turunan yang sudah mendapat awalan dan akhiran ditulis serangkai. Karena itu: salahsatunya → salah satu(nya), tindaklanjuti → tindak lanjut (tetapi ditindaklanjuti dan menindaklanjuti serangkai), unjukrasa → unjuk rasa, lagipula → lagi pula, non aktif → nonaktif. Sumber: Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, “Beberapa Permasalahan Pemakaian Bahasa Indonesia” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 42-45.",
+          "contoh_salah": "Salahsatunya adalah program unjukrasa yang akan ditindak lanjuti, lagipula statusnya non aktif.",
+          "contoh_benar": "Salah satunya adalah program unjuk rasa yang akan ditindaklanjuti, lagi pula statusnya nonaktif.",
+          "rujukan": {
+            "penulis": "Wenni Rusbiyantoro, Nur Bety, Mardi Nugroho",
+            "buku": "Beberapa Permasalahan Pemakaian Bahasa Indonesia",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "42-45"
+          }
+        },
+        {
+          "id": "TMS-031",
+          "pola": "kordinator / kordinasi / mengkomentari",
+          "saran_pengganti": [
+            "koordinator",
+            "koordinasi",
+            "mengomentari"
+          ],
+          "penjelasan": "Dua kaidah morfofonemis dilanggar sekaligus. Pertama, koordinator dan koordinasi ditulis dengan dua huruf vokal /oo/ sesuai KBBI, bukan kordinator. Kedua, fonem awal /k/ pada kata dasar komentar luluh ketika mendapat awalan meng-, sehingga bentuk bakunya mengomentari, bukan mengkomentari. Sumber: Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, “Beberapa Permasalahan Pemakaian Bahasa Indonesia” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 45-46.",
+          "contoh_salah": "Kordinator acara mengkomentari hasil rapat kordinasi wilayah.",
+          "contoh_benar": "Koordinator acara mengomentari hasil rapat koordinasi wilayah.",
+          "rujukan": {
+            "penulis": "Wenni Rusbiyantoro, Nur Bety, Mardi Nugroho",
+            "buku": "Beberapa Permasalahan Pemakaian Bahasa Indonesia",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "45-46"
+          }
         }
       ]
     }
   },
-  "total_entri": 655
+  "total_entri": 657
 }
