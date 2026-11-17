@@ -1043,3 +1043,17 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("bahasa inggris / bahasa indonesia"),
     [re.compile(r"\b(?:ber)?bahasa\s+(?:inggris|indonesia|arab|jepang|belanda|prancis|mandarin|jawa|sunda|korea)\b")],
 ))
+
+# --- TMS-020: gabungan kata bentuk bebas diserangkai (BP2, Bahasa Indonesia untuk Pejabat Pemerintah) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("sumberdaya / tatausaha"),
+    [re.compile(r"(?i)\b(?:sumberdaya|tatausaha|dayacipta|peranserta|jurutulis|serahterima)\b"),
+     re.compile(r"(?i)\b(?:sumber|tata|daya|peran|juru|serah)-(?:daya|usaha|cipta|serta|tulis|terima)\b")],
+))
+
+# --- TMS-021: unsur terikat ditulis terpisah (BP2, Bahasa Indonesia untuk Pejabat Pemerintah) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("non migas / antar daerah"),
+    [re.compile(r"(?i)\b(?:non[ -]migas|antar[ -]daerah|purna[ -]jual|pra[ -]sejarah|catur[ -]warga)\b"),
+     re.compile(r"(?i)\b(?:tri[ -]tunggal|dwi[ -]fungsi|eka[ -]darma|sapta[ -]pesona|sub[ -]sistem)\b")],
+))

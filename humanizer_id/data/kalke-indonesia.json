@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 625
+    "total_entri": 647
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7633,9 +7633,43 @@
           "penjelasan": "Nama bahasa ditulis dengan huruf kapital pada unsur nama bangsanya, sedangkan kata bahasa sendiri tetap berhuruf kecil di tengah kalimat. Kesalahan ini muncul pada contoh suntingan Kemas Ferri Rahman, “Komunikasi Perusahaan Melalui Tulisan” (Penerbit BRIN, 2022), hlm. 34–35: “Bahasa inggris” dan “google Translate” diperbaiki menjadi “bahasa Inggris” dan “Google Translate”. Kaidah ini sejalan dengan EYD tentang huruf kapital pada nama bangsa, suku bangsa, dan bahasa. Pola hanya menandai unsur nama bahasa yang berhuruf kecil; penulisan bahasa asing yang memang bukan nama bahasa tidak tersentuh.",
           "contoh_salah": "Ia menerjemahkan dokumen berbahasa inggris ke bahasa indonesia.",
           "contoh_benar": "Ia menerjemahkan dokumen berbahasa Inggris ke bahasa Indonesia."
+        },
+        {
+          "id": "TMS-020",
+          "pola": "sumberdaya / tatausaha / dayacipta / peranserta / jurutulis / serahterima",
+          "saran_pengganti": [
+            "sumber daya",
+            "tata usaha",
+            "daya cipta",
+            "peran serta",
+            "juru tulis",
+            "serah terima"
+          ],
+          "penjelasan": "Gabungan kata yang kedua unsurnya bentuk bebas ditulis terpisah selama belum mendapat imbuhan awalan dan akhiran sekaligus. Bentuk serangkai dan bentuk bertanda hubung sama-sama tidak baku. Daftar ini diambil dari tabel penulisan baku dan tidak baku pada Badan Pengembangan dan Pembinaan Bahasa, “Bahasa Indonesia untuk Pejabat Pemerintah”, hlm. 12–13: sumber daya (bukan sumberdaya atau sumber-daya), tata usaha (bukan tatausaha atau tata-usaha), daya cipta, peran serta, juru tulis, dan serah terima. Pasangan lain dari tabel yang sama sudah berkaidah tersendiri sehingga tidak diulang di sini: tanggung jawab, kerja sama, terima kasih, uji coba, dan tanda tangan ada pada EJ-001; tolok ukur ada pada BDD-005.",
+          "contoh_salah": "Setiap jurutulis menyerahkan laporan serahterima kepada bagian tatausaha.",
+          "contoh_benar": "Setiap juru tulis menyerahkan laporan serah terima kepada bagian tata usaha."
+        },
+        {
+          "id": "TMS-021",
+          "pola": "non migas / antar daerah / purna jual / pra sejarah / catur warga / tri tunggal / dwi fungsi / eka darma / sapta pesona / sub sistem",
+          "saran_pengganti": [
+            "nonmigas",
+            "antardaerah",
+            "purnajual",
+            "prasejarah",
+            "caturwarga",
+            "tritunggal",
+            "dwifungsi",
+            "ekadarma",
+            "saptapesona",
+            "subsistem"
+          ],
+          "penjelasan": "Unsur terikat ditulis serangkai dengan kata yang mengikutinya. Unsur non-, antar-, purna-, pra-, catur-, tri-, dwi-, eka-, sapta-, dan sub- bukan kata bebas, sehingga tidak dapat berdiri sendiri dan tidak dipisahkan spasi atau tanda hubung. Daftar ini diambil dari tabel bentuk terikat pada Badan Pengembangan dan Pembinaan Bahasa, “Bahasa Indonesia untuk Pejabat Pemerintah”, hlm. 13. Bentuk terikat lain dari tabel yang sama sudah berkaidah: antar kota, sub unit, dan maha guru ada pada EJ-003; non formal ada pada EYD-036; sub bagian ada pada EYD-039; sub sektor ada pada EYD-040; pasca panen dan pasca sarjana ada pada EYD-034 dan EYD-035; tuna wisma dan tuna karya ada pada EYD-043 dan EYD-042.",
+          "contoh_salah": "Program non migas itu menyasar antar daerah dengan skema purna jual dan sub sistem baru.",
+          "contoh_benar": "Program nonmigas itu menyasar antardaerah dengan skema purnajual dan subsistem baru."
         }
       ]
     }
   },
-  "total_entri": 645
+  "total_entri": 647
 }
