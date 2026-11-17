@@ -107,7 +107,7 @@ CUSTOM_RULES = [
     (lambda p: 'bentuk ulang resiprokal' in p, [re.compile('\\bsaling\\s+(\\w+)-(\\w+)\\b', re.IGNORECASE), re.compile('\\bsaling\\s+ber\\w+an\\b', re.IGNORECASE)]),
     (lambda p: 'penyalahgunaan dan sebagainya' in p, [re.compile('\\b(sesi\\s+\\w+,\\s*sesi\\s+\\w+|pertama,\\s*\\w+,\\s*kedua)[^.!?]{0,60}\\bdan\\s+lain-lain\\b', re.IGNORECASE)]),
     (lambda p: 'ungkapan idiomatis dihilangkan' in p, [re.compile('\\b(sesuai|berkaitan|sehubungan)\\s+(?!dengan\\b)(?=(tidak|kurang|konteks|hal|masalah|perkara|ketentuan|aturan))', re.IGNORECASE), re.compile('\\b(bergantung|tergantung)\\s+(?!pada\\b)(?=(hasil|kondisi|keputusan|situasi|tingkat))', re.IGNORECASE)]),
-    (lambda p: 'makna asal/sumber/penjelasan' in p, [re.compile('\\bterbuat\\s+daripada\\b|\\btujuan\\s+daripada\\b|\\bmaksud\\s+daripada\\b|\\bterbuat\\s+\\w*\\s*daripada\\b', re.IGNORECASE)]),
+    (lambda p: 'makna asal/sumber/penjelasan' in p, [re.compile('\\b(?:terbuat|berasal|terbentuk|tersusun)\\s+daripada\\b|\\btujuan\\s+daripada\\b|\\bmaksud\\s+daripada\\b|\\bterbuat\\s+\\w*\\s*daripada\\b', re.IGNORECASE)]),
     (lambda p: 'menggugurkan konsonan akhir' in p, [re.compile('\\b(dominant|informant|tolerant|relevant|optimist|realist|nationalist|manifest|latent|konsultan?\\w*ant)\\b', re.IGNORECASE)]),
     (lambda p: 'istilah klasik/generik dijauhkan' in p, [re.compile('\\bzat\\s+lemas\\b|\\bzat\\s+air\\b|\\bzat\\s+asam\\b|\\billmu\\s+pasti\\b|\\billmu\\s+pisah\\b|\\bsaran\\s+diri\\b', re.IGNORECASE)]),
     (lambda p: 'awalan non- dipertahankan mentah' in p, [re.compile('\\bnon-\\s?\\w+|\\bnon\\s\\w+', re.IGNORECASE)]),
@@ -131,9 +131,9 @@ CUSTOM_RULES = [
     (lambda p: 'konjungsi syarat berkorelasi mubazir' in p, [re.compile('\\b(jika|kalau|apabila)\\b[^.!?]*\\b,?\\s*maka\\b', re.IGNORECASE)]),
     (lambda p: 'objek verba transitif disisipi preposisi' in p, [re.compile('\\b(memerintahkan|menugaskan|menganjurkan|mempersilakan)\\s+kepada\\b', re.IGNORECASE)]),
     (lambda p: 'penghubung bertentangan rangkap tiga' in p, [re.compile('\\b(walaupun|meskipun|sungguhpun|sekalipun)\\b[^.!?]*\\b(namun|tetapi)\\b[^.!?]*\\b,?\\s*maka\\b', re.IGNORECASE)]),
-    (lambda p: 'pemakaian jam alih-alih pukul' in p, [re.compile('\\b(pada|sejak|hingga|sampai)\\s+jam\\b|\\bjam\\s+\\d{1,2}[.:]\\d{2}\\b', re.IGNORECASE)]),
-    (lambda p: 'verba kopula predikat definisi' in p, [re.compile('\\b\\w+\\s+yaitu\\s+(suatu|sebuah|metode|metoda|algoritma|teknik|proses|istilah|model|sistem|bentuk|cara|konsep|sifat|fungsi|keadaan|aktivitas)\\b', re.IGNORECASE)]),
-    (lambda p: 'kata bekas untuk mengacu pada manusia' in p, [re.compile('\\bbekas\\s+(rektor|presiden|gubernur|wali|bupati|mayor|menteri|kepala|ketua|direk|anggota|dosen|guru|kades|pejabat|jenderal|komandan|panglima|wakil)\\w*\\b', re.IGNORECASE)]),
+    (lambda p: 'pemakaian jam alih-alih pukul' in p, [re.compile('\\b(pada|sejak|hingga|sampai)\\s+jam\\b|\\bjam\\s+\\d{1,2}[.:]\\d{2}\\b|\\bjam\\s*:\\s*\\d{1,2}[.:]\\d{2}', re.IGNORECASE)]),
+    (lambda p: 'verba kopula predikat definisi' in p, [re.compile('\\b\\w+\\s+yaitu\\s+(suatu|sebuah|benda|alat|metode|metoda|algoritma|teknik|proses|istilah|model|sistem|bentuk|cara|konsep|sifat|fungsi|keadaan|aktivitas)\\b', re.IGNORECASE)]),
+    (lambda p: 'kata bekas untuk mengacu pada manusia' in p, [re.compile('\\bbekas\\s+(rektor|camat|lurah|presiden|gubernur|wali|bupati|mayor|menteri|kepala|ketua|direk|anggota|dosen|guru|kades|pejabat|hakim|jaksa|sekretaris|duta|jenderal|komandan|panglima|wakil)\\w*\\b', re.IGNORECASE)]),
     (lambda p: 'perincian tuntas berbilangan pasti' in p, [re.compile('\\b(dua|tiga|empat|lima)\\s+\\w+\\b[^.!?]*\\b(misalnya|antara lain)\\b', re.IGNORECASE)]),
     (lambda p: 'referensi kataforis dengan pronomina persona' in p, [re.compile('^(Dengan begitu|Dengan demikian|Karena itu|Setelah menyelidikinya)\\b[^.!?]*\\b(itu|ini|ia|dia)\\b')]),
     (lambda p: 'penomoran ordinal perincian tidak berurutan' in p, [re.compile('\\bPertama\\b[^P]{0,80}?Kedua\\b[^K]{0,80}?Ketiga\\b[^P]{0,80}?Ketiga\\b')]),
@@ -1097,12 +1097,6 @@ CUSTOM_RULES.append((
     [re.compile(r"(?i)\bkepada\s+(?:yth\.?(?!\s+(?:bapak|ibu|sdr|saudara)\b)|yang\s+terhormat)(?=\s|$)")],
 ))
 
-# --- BPK-007: "jam" alih-alih "pukul" untuk penunjuk waktu (Mustakim 2019, hlm. 78) ---
-CUSTOM_RULES.append((
-    lambda p: p.startswith("pemakaian jam alih-alih pukul"),
-    [re.compile(r"(?i)\bjam\s+\d{1,2}[.:]\d{2}"),
-     re.compile(r"(?i)\bjam\s*:\s*\d{1,2}[.:]\d{2}")],
-))
 
 # --- TMS-027: singkatan NIP berkapitalisasi campur atau diberi spasi kelompok (BP2, 2016, hlm. 71) ---
 CUSTOM_RULES.append((
@@ -1116,4 +1110,16 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("Tembusan: Yth."),
     [re.compile(r"(?i)\btembusan\s*:[^\n]{0,60}?\byth\."),
      re.compile(r"(?i)\btembusan\s*:[^\n]*\bsebagai\s+laporan\b")],
+))
+
+
+
+
+# --- TMS-029: adjektiva pembanding diikuti "dari" alih-alih "daripada" (Mustakim 2019, hlm. 79) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("lebih besar dari /"),
+    [re.compile(r"(?i)\b(?:lebih|kurang)\s+(?:besar|tinggi|jauh|banyak|kecil|berat|panjang|pendek|cepat|"
+                r"lambat|murah|mahal|baik|pandai|luas|sempit|dalam|dangkal|rendah|dekat|sedikit|kuat|lemah|"
+                r"muda|tua|mahir|efisien|efektif|kompleks|rumit|sulit|mudah|produktif|signifikan)\s+dari\b"
+                r"(?!\s+\d)")],
 ))

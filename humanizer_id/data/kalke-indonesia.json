@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 654
+    "total_entri": 655
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7760,9 +7760,28 @@
             "tahun": 2016,
             "halaman": "72"
           }
+        },
+        {
+          "id": "TMS-029",
+          "pola": "lebih besar dari / lebih tinggi dari / kurang cepat dari",
+          "saran_pengganti": [
+            "lebih besar daripada",
+            "lebih tinggi daripada",
+            "kurang cepat daripada"
+          ],
+          "penjelasan": "Kata daripada dipakai untuk menyatakan perbandingan, sedangkan dari menyatakan asal (tempat atau bahan). Karena itu, adjektiva pembanding (lebih/kurang + adjektiva) diikuti daripada, bukan dari: lebih pandai daripada Temon, bukan lebih pandai dari Temon. Sumber: Mustakim, “Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia” (Badan Pengembangan Bahasa dan Perbukuan, 2019), hlm. 79.",
+          "contoh_salah": "Kota Jakarta lebih besar dari kota Bandung.",
+          "contoh_benar": "Kota Jakarta lebih besar daripada kota Bandung.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan, Kemendikbud",
+            "tahun": 2019,
+            "halaman": "79"
+          }
         }
       ]
     }
   },
-  "total_entri": 654
+  "total_entri": 655
 }
