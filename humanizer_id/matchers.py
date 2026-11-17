@@ -943,3 +943,19 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("berdasarkan atas"),
     [re.compile(r"(?i)\b(?:berdasarkan\s+atas|bergantung\s+kepada|terjadi\s+atas)\b")],
 ))
+
+
+# --- TMS-007: partikel pun ditulis serangkai (Taktis Menyunting 2019, Tabel 5.21, hlm. 119) ---
+# adapun, ataupun, walaupun, meskipun; 'apa pun' dan 'terlambat pun' tetap terpisah.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("ada pun"),
+    [re.compile(r"(?i)\b(?:ada|jika|andai|kalau|atau|kendati|sungguh|bagaimana|walau|biar|meski|sementang)\s+pun\b")],
+))
+
+# --- TMS-008: angka + akhiran -an wajib bertanda hubung (Tabel 5.23, hlm. 122) ---
+# 1980an -> 1980-an, Rp2.000an -> Rp2.000-an.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("tahun 1980an"),
+    [re.compile(r"(?i)\b(?:19|20)\d{2}an\b"),
+     re.compile(r"(?i)\bRp\s?\d[\d.]*an\b")],
+))

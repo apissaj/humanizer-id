@@ -7456,9 +7456,43 @@
           "penjelasan": "Ungkapan idiomatik memakai kata depan tertentu yang tidak boleh diganti; penggantian kata depan membuat ungkapan tidak lazim. Daftar diambil dari Tabel 5.8 (ungkapan idiomatik) *Taktis Menyunting* (BRIN, 2019), hlm. 105-106. Pasangan yang sudah tercakup entri lain tidak diulang: demi untuk, membicarakan tentang, kurang lebih sekitar, pada zaman dahulu kala, semata-mata hanya, misteri rahasia, tujuan daripada, maka dari itu, bertujuan untuk, seperti misalnya, adalah merupakan, agar supaya, terdiri dari, sehubungan, terkait, sesuai dengan, dibandingkan dengan.",
           "contoh_salah": "Kesimpulan itu berdasarkan atas data yang bergantung kepada mutu wawancara.",
           "contoh_benar": "Kesimpulan itu berdasarkan data yang bergantung pada mutu wawancara."
+        },
+        {
+          "id": "TMS-007",
+          "pola": "ada pun / jika pun / andai pun / kalau pun / atau pun / kendati pun / sungguh pun / bagaimana pun / walau pun / biar pun / meski pun / sementang pun",
+          "saran_pengganti": [
+            "adapun",
+            "jikapun",
+            "andaipun",
+            "kalaupun",
+            "ataupun",
+            "kendatipun",
+            "sungguhpun",
+            "bagaimanapun",
+            "walaupun",
+            "biarpun",
+            "meskipun",
+            "sementangpun"
+          ],
+          "penjelasan": "Partikel pun ditulis serangkai pada bentuk-bentuk yang sudah padu sebagai penghubung: adapun, jikapun, andaipun, kalaupun, ataupun, kendatipun, sungguhpun, bagaimanapun, walaupun, biarpun, meskipun, sementangpun, sekalipun, maupun (Tabel 5.21 *Taktis Menyunting*, BRIN, 2019, hlm. 119). Sebaliknya, pun tetap terpisah pada pemakaian biasa, misalnya 'apa pun makanannya' dan 'terlambat pun ia datang', sehingga bentuk itu tidak dijadikan pola.",
+          "contoh_salah": "Walau pun hujan, kalau pun terlambat, meski pun ditolak, ia tetap datang.",
+          "contoh_benar": "Walaupun hujan, kalaupun terlambat, meskipun ditolak, ia tetap datang."
+        },
+        {
+          "id": "TMS-008",
+          "pola": "tahun 1980an / tahun 1990an / tahun 2000an / Rp2.000an",
+          "saran_pengganti": [
+            "tahun 1980-an",
+            "tahun 1990-an",
+            "tahun 2000-an",
+            "Rp2.000-an"
+          ],
+          "penjelasan": "Angka yang diberi akhiran -an dirangkaikan dengan tanda hubung: tahun 1980-an, tahun 1990-an, seharga Rp2.000-an (Tabel 5.23 *Taktis Menyunting*, BRIN, 2019, hlm. 122). Bentuk tanpa tanda hubung (1980an, Rp2.000an) keliru. Pemeriksaan memakai pola angka empat digit dan nominal rupiah yang langsung diikuti -an, jadi angka lain seperti 2024an juga tertangkap.",
+          "contoh_salah": "Kebijakan tahun 1980an itu berlaku sampai tahun 2000an dengan biaya Rp2.000an.",
+          "contoh_benar": "Kebijakan tahun 1980-an itu berlaku sampai tahun 2000-an dengan biaya Rp2.000-an."
         }
       ]
     }
   },
-  "total_entri": 632
+  "total_entri": 634
 }
