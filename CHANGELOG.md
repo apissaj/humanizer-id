@@ -4,6 +4,27 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 664 kaidah
+
+Bedah pindah ke Winarti dkk. (2009), *Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah
+Perguruan Tinggi di Kalimantan Timur*, subbab 2.1.1-2.1.2 (hlm. 7-14):
+
+- `TMS-037` - perangkapan verba, penyerapan keliru, dan preposisi serangkai:
+  `menstimulir` -> `menstimulasi`, `panili` -> `vanili`, `disekitar`/`diareal`/`diladang`
+  ditulis terpisah. `mensuplai`, `dianalisa`, dan `produktifitas` tidak dibuat kaidah baru
+  karena sudah tertangkap `BDD-006`, `BAK-005`, dan `BPK-027`.
+- `TMS-038` - preposisi gabungan tidak lengkap: `mulai Maret sampai Mei` dan
+  `dari Senin sampai Kamis` -> `sampai dengan`. Regex memakai huruf kapital nama bulan atau
+  angka sebagai penanda rentang waktu agar kalimat seperti "mulai naik setelah remedial
+  sampai tuntas" tidak tertandai; versi pertama dengan `(?i)` gagal kasus negatif itu dan
+  dipersempit.
+
+Referensi baru: `references/kaltim-2009-terbitan-ilmiah-pembentukan-kata.md` (kutipan
+verbatim hlm. 7-14 + penanda `[OCR]` + penjelasan penyerempitan regex).
+
+Verifikasi: `work/test_tms37_38.py` 19/19, `uv run pytest -q` 45 passed, uji nol positif
+palsu tetap 0.
+
 ### 662 kaidah
 
 Bedah dilanjutkan ke Mustakim (2019), subbab 3.1.3 keserasian kata (hlm. 60-68):
