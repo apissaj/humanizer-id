@@ -4,6 +4,31 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 667 kaidah
+
+Bedah lanjut Winarti dkk. (2009) subbab 2.2.1-2.2.3, Jurnal Agrifor (hlm. 24-32):
+
+- `TMS-039` - serapan dan turunannya: `memposisikan` -> `memosisikan`, `marjinal` ->
+  `marginal`, `hektar` -> `hektare`.
+- `TMS-040` - nomina `hasil` hanya dapat menerima konfiks: `menghasil` -> `menghasilkan`.
+  Pasangan `diprioritas` pada halaman yang sama sudah dijaga `KK-004`, sehingga tidak
+  diduplikasi.
+- `TMS-041` - `respon` -> `respons`; regex `respon` tanpa `\w*` di awal agar
+  `responden` tidak tertandai.
+
+Kaidah buku yang sudah tertangkap mesin lama: `dirubah` (`BAK-002`/`BPK-019`), `tehnik`
+(`BPK-030`), `dianalisa` (`BAK-005`), `mempengaruhi` (`BAK-001`), `terdiri dari`
+(`TBB-004`), dan pembanding `lebih ... dari` (`TMS-029`).
+
+Empat kasus penyusunan kalimat sengaja tidak dipola dan dicatat `[telaah]`: kesejajaran
+deret perincian, subjek preposisional `Oleh X + predikat aktif`, subjek berkata depan, dan
+verba kedua tanpa penghubung.
+
+Referensi baru: `references/kaltim-2009-terbitan-ilmiah-kalimat-jurnal-agrifor.md`.
+
+Verifikasi: `work/test_tms39_41.py` 15/15, `uv run pytest -q` 45 passed, uji nol positif
+palsu tetap 0.
+
 ### 664 kaidah
 
 Bedah pindah ke Winarti dkk. (2009), *Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah
