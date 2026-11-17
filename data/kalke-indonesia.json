@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "2.4.4",
+    "version": "2.4.5",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -409,7 +409,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 611
+    "total_entri": 618
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7129,6 +7129,76 @@
           "penjelasan": "PUPI (Kepmendiknas 146/U/2004) II.4.2.2.a mendaftar multi- sebagai prefiks yang menempel langsung pada bentuk dasar; bentuk baku KBBI adalah multidisiplin, multifungsi, dan multimedia (serangkai).",
           "contoh_salah": "Pendekatan multi disiplin dibutuhkan untuk menuntaskan masalah gizi.",
           "contoh_benar": "Pendekatan multidisiplin dibutuhkan untuk menuntaskan masalah gizi."
+        },
+        {
+          "id": "TII-010",
+          "pola": "[telaah] bentuk asing bersufiks -ization/-isatie yang dipakai tanpa penyesuaian ejaan",
+          "saran_pengganti": [
+            "-isasi (globalization → globalisasi, modernization → modernisasi, naturalization → naturalisasi)"
+          ],
+          "penjelasan": "Sufiks asing -isatie (Belanda) dan -ization (Inggris) diserap menjadi -isasi; bentuk aslinya tidak dipertahankan mentah dan tidak diterjemahkan harfiah (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian II.4.2.2.b).",
+          "contoh_salah": "Proses globalization mendorong standardization prosedur di seluruh unit kerja.",
+          "contoh_benar": "Proses globalisasi mendorong standardisasi prosedur di seluruh unit kerja."
+        },
+        {
+          "id": "TII-011",
+          "pola": "[telaah] bentuk asing bersufiks -logy/-ologie yang dipakai tanpa penyesuaian ejaan",
+          "saran_pengganti": [
+            "-logi (technology → teknologi, methodology → metodologi, analogy → analogi)"
+          ],
+          "penjelasan": "Sufiks asing -logie (Belanda) dan -logy (Inggris) diserap menjadi -logi, bukan -logy atau -ologi yang dipanjangkan tanpa dasar (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian II.4.2.2.b).",
+          "contoh_salah": "Laboratorium itu mengembangkan technology analisis spektrum massa.",
+          "contoh_benar": "Laboratorium itu mengembangkan teknologi analisis spektrum massa."
+        },
+        {
+          "id": "TII-012",
+          "pola": "[telaah] bentuk asing bersufiks -ity/-iteit yang dipakai tanpa penyesuaian ejaan",
+          "saran_pengganti": [
+            "-itas (reality → realitas, facility → fasilitas, university → universitas)"
+          ],
+          "penjelasan": "Sufiks asing -iteit (Belanda) dan -ity (Inggris) diserap menjadi -itas, bukan -iti atau -ity (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian II.4.2.2.b).",
+          "contoh_salah": "Rencana ekspansi itu belum mempertimbangkan reality anggaran lembaga.",
+          "contoh_benar": "Rencana ekspansi itu belum mempertimbangkan realitas anggaran lembaga."
+        },
+        {
+          "id": "TII-013",
+          "pola": "[telaah] bentuk asing bersufiks -ism yang dipakai tanpa penyesuaian ejaan",
+          "saran_pengganti": [
+            "-isme (expressionism → ekspresionisme, modernism → modernisme, extremism → ekstremisme)"
+          ],
+          "penjelasan": "Sufiks asing -ism (Inggris) dan -isme (Belanda) diserap menjadi -isme (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian II.4.2.2.b).",
+          "contoh_salah": "Aliran expressionism menolak keseragaman bentuk dalam seni rupa.",
+          "contoh_benar": "Aliran ekspresionisme menolak keseragaman bentuk dalam seni rupa."
+        },
+        {
+          "id": "TII-014",
+          "pola": "[telaah] bentuk asing berprefiks hyper-, hypo-, poly-, photo- tanpa penyesuaian ejaan",
+          "saran_pengganti": [
+            "hiper-, hipo-, poli-, foto- (hyperglycemia → hiperglikemia, polyamide → poliamida, phototherapy → fototerapi)"
+          ],
+          "penjelasan": "Prefiks dan bentuk terikat asing disesuaikan ejaannya: hyper- menjadi hiper-, hypo- menjadi hipo-, poly- menjadi poli-, photo- menjadi foto- (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian II.4.2.2.a).",
+          "contoh_salah": "Terapi photo- dan senyawa polyamide dipakai pada uji hyperglycemia.",
+          "contoh_benar": "Terapi foto- dan senyawa poliamida dipakai pada uji hiperglikemia."
+        },
+        {
+          "id": "TII-015",
+          "pola": "5 Newton / 3 Kg / 10 KM (lambang satuan salah kapital)",
+          "saran_pengganti": [
+            "5 newton / 3 kg / 10 km (lambang satuan baku: nama orang berhuruf kapital, bentuk lengkap huruf kecil)"
+          ],
+          "penjelasan": "Lambang satuan yang didasarkan pada nama orang ditulis kapital (N, A, K), sedangkan bentuk lengkapnya ditulis huruf kecil: 'newton', 'ampere', 'kelvin'. Lambang satuan umum selalu huruf kecil: kg, km, cm, ml (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian III.11).",
+          "contoh_salah": "Dosis 5 Mg per Kg berat badan diberikan dua kali sehari sejauh 10 KM.",
+          "contoh_benar": "Dosis 5 mg per kg berat badan diberikan dua kali sehari sejauh 10 km."
+        },
+        {
+          "id": "TII-016",
+          "pola": "[telaah] satu konsep memakai beberapa istilah berbeda dalam satu naskah",
+          "saran_pengganti": [
+            "pilih satu istilah baku per konsep dan pakai konsisten sepanjang naskah"
+          ],
+          "penjelasan": "Istilah sinonim dalam satu bidang sebaiknya dibakukan: satu konsep diwakili satu istilah agar naskah tidak membingungkan pembaca (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian IV.2).",
+          "contoh_salah": "Sistem ini memakai 'antarmuka' pada bab kedua, 'interface' pada bab ketiga, dan 'antar muka' pada lampiran.",
+          "contoh_benar": "Sistem ini memakai istilah 'antarmuka' secara konsisten di seluruh bab dan lampiran."
         }
       ]
     }

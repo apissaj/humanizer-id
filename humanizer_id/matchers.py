@@ -830,6 +830,17 @@ CUSTOM_RULES.append((lambda p: p == "kopi gayo", [re.compile(r"\bkopi\s+gayo\b")
 CUSTOM_RULES.append((lambda p: p == "bubur manado", [re.compile(r"\bbubur\s+manado\b")]))
 CUSTOM_RULES.append((lambda p: p == "buku bahasa dan sastra", [re.compile(r"\bbuku\s+bahasa\s+dan\s+sastra\b")]))
 
+# Lambang satuan salah kapital (PUPI III.9): "5 Newton" -> "5 newton", "3 Kg" -> "3 kg".
+# Case-sensitive: kapitalisasi adalah inti kesalahannya. Bentuk baku SI yang benar
+# (N, J, W, kg, km, MB, GB) tidak boleh tertangkap.
+CUSTOM_RULES.append((
+    lambda p: p == "5 Newton / 3 Kg / 10 KM (lambang satuan salah kapital)",
+    [re.compile(
+        r"\b\d+(?:[.,]\d+)?\s?(?:Kg|KM|Cm|Mm|ML|Mg|KW|KWh|KWH|Kkal|KKal"
+        r"|Newton|Joule|Watt|Volt|Ampere|Kelvin|Hertz|Pascal|Coulomb|Farad|Tesla|Ohm)\b"
+    )],
+))
+
 # Bentuk terikat PUPI II.4.2.2.a (Kepmendiknas 146/U/2004): prefiks asing yang
 # diserap menempel langsung pada bentuk dasar, bukan berdiri sebagai kata terpisah.
 CUSTOM_RULES.append((lambda p: p == "pra sekolah", [re.compile(r"\bpra\s+(?:sekolah|sejarah|kondisi|ujian|karya|sidang|kuliah|krisis)\b", re.IGNORECASE)]))

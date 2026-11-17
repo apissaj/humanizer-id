@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-ejaan-morfologi
 description: Use when fixing ejaan, morfologi, dan bentuk baku Indonesia.
-version: 2.4.4
+version: 2.4.5
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -180,7 +180,7 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 ### BV2. Huruf Kapital Khusus EYD V (Rujukan EYD Edisi V, SK Kepala Badan Bahasa No. 0424/I/BS.00.01/2022, Bab I F — transkrip Wikisource)
 
 1. **Pola:** *teori darwin / hukum archimedes / rumus pythagoras* → **Perbaikan:** *teori Darwin / hukum Archimedes / rumus Phytagoras* — **Sebab:** kapital pada nama orang dalam nama teori, hukum, dan rumus (Butir 4 Bab I F, hlm. 8; `EYD-058`).
-2. **Pola:** *Fatimah Binti Salim / Charles Adriaan Van Ophuijsen* → **Perbaikan:** *Fatimah binti Salim / Charles Adriaan van Ophuijsen* — **Sebab:** kata bermakna "anak dari" (*bin, binti, boru, van*) nonkapital di tengah nama, kecuali di awal nama atau kata tugas *dari* (Butir 5 Bab I F, hlm. 8; `EYD-059`).
+2. **Pola:** *Fatimah Binti Salim / Charles Adriaan Van Ophuijsen* → **Perbaikan:** *Fatimah binti Salim / Charles Adriaan van Ophuijsen* — **Sebab:** kata bermakna “anak dari” (*bin, binti, boru, van*) nonkapital di tengah nama, kecuali di awal nama atau kata tugas *dari* (Butir 5 Bab I F, hlm. 8; `EYD-059`).
 3. **Pola:** *Proklamasi kemerdekaan / Perang Dunia* (peristiwa sejarah generik) → **Perbaikan:** *proklamasi kemerdekaan / perang dunia* — **Sebab:** peristiwa sejarah yang tidak digunakan sebagai nama ditulis nonkapital (Butir 15 Bab I F, hlm. 11; `EYD-060`).
 4. **Pola:** *batik cirebon / soto banjar / kopi gayo / bubur manado* → **Perbaikan:** *batik Cirebon / soto Banjar / kopi Gayo / bubur Manado* — **Sebab:** nama geografi yang menyatakan asal daerah ditulis kapital (Butir 19 Bab I F, hlm. 12; `EYD-061`).
 5. **Pola:** *buku bahasa dan sastra / majalah bahasa dan sastra* → **Perbaikan:** *buku Bahasa dan Sastra / majalah Bahasa dan Sastra* — **Sebab:** kapital semua kata (termasuk kata ulang sempurna) pada nama buku/majalah/surat kabar/judul karangan, kecuali kata tugas non-awal (EYD 1987 butir 12 Bab II; `EYD-062`).
@@ -191,7 +191,7 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 
 ---
 
-### BW. Penyerapan Istilah Asing (Rujukan PUPI, Kepmendiknas 146/U/2004, Bab II.4.2 — transkrip Wikisource)
+### BW. Penyerapan Istilah Asing (Rujukan PUPI, Kepmendiknas 146/U/2004, Bab II.4.2, III.11, IV.2 — transkrip Wikisource)
 
 1. **Pola:** *frekwensi* → **Perbaikan:** *frekuensi* — **Sebab:** sufiks *-ency* diserap menjadi *-ensi* dan gugus *qu* menjadi *ku*, bukan *kw* (`PUPI-002`) (PUPI II.4.2.2.b).
 2. **Pola:** *subyektif* → **Perbaikan:** *subjektif* — **Sebab:** *subject* diserap menjadi *subjek*; turunan bersufiks *-ive* menjadi *-if* (`PUPI-003`) (PUPI II.4.2.2.b).
@@ -205,6 +205,13 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 10. **Pola:** *ekstra kurikuler / extra kulikuler* → **Perbaikan:** *ekstrakurikuler* — **Sebab:** prefiks asing *extra-* diserap menjadi *ekstra-* dan ditulis serangkai dengan bentuk dasar (`PUPI-011`) (PUPI II.4.2.2.a).
 11. **Pola:** *anti korupsi / anti virus* → **Perbaikan:** *antikorupsi / antivirus* — **Sebab:** prefiks *anti-* tetap *anti-* dan menempel pada bentuk dasar (`PUPI-012`) (PUPI II.4.2.2.a).
 12. **Pola:** *multi disiplin / multi fungsi* → **Perbaikan:** *multidisiplin / multifungsi* — **Sebab:** prefiks *multi-* menempel langsung pada bentuk dasar (`PUPI-013`) (PUPI II.4.2.2.a).
+13. **Pola:** *globalization / modernization / naturalization* → **Perbaikan:** *globalisasi / modernisasi / naturalisasi* — **Sebab:** sufiks *-isatie/-ization* diserap menjadi *-isasi*, bukan dipertahankan mentah (`TII-010`) (PUPI II.4.2.2.b).
+14. **Pola:** *technology / methodology / analogy* → **Perbaikan:** *teknologi / metodologi / analogi* — **Sebab:** sufiks *-logie/-logy* diserap menjadi *-logi* (`TII-011`) (PUPI II.4.2.2.b).
+15. **Pola:** *reality / facility / university* → **Perbaikan:** *realitas / fasilitas / universitas* — **Sebab:** sufiks *-iteit/-ity* diserap menjadi *-itas* (`TII-012`) (PUPI II.4.2.2.b).
+16. **Pola:** *expressionism / modernism / extremism* → **Perbaikan:** *ekspresionisme / modernisme / ekstremisme* — **Sebab:** sufiks *-isme (Belanda), -ism (Inggris)* diserap menjadi *-isme* (`TII-013`) (PUPI II.4.2.2.b).
+17. **Pola:** *hyperglycemia / polyamide / phototherapy* → **Perbaikan:** *hiperglikemia / poliamida / fototerapi* — **Sebab:** prefiks *hyper-, hypo-, poly-, photo-* diserap menjadi *hiper-, hipo-, poli-, foto-* (`TII-014`) (PUPI II.4.2.2.a).
+18. **Pola:** *5 Mg / 3 Kg / 10 KM / 5 Newton* → **Perbaikan:** *5 mg / 3 kg / 10 km / 5 newton* — **Sebab:** lambang satuan berhuruf kecil; lambang dari nama orang kapital (N, A, K), bentuk lengkapnya huruf kecil (`TII-015`) (PUPI III.11).
+19. **Pola:** [telaah] *antarmuka* di bab kedua, *interface* di bab ketiga, *antar muka* di lampiran → **Perbaikan:** satu istilah baku per konsep, dipakai konsisten — **Sebab:** istilah sinonim dalam satu bidang sebaiknya dibakukan agar naskah tidak membingungkan pembaca (`TII-016`) (PUPI IV.2).
 
 #### Tabel rujukan penyesuaian ejaan serapan (PUPI II.4.2.2)
 

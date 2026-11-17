@@ -347,6 +347,14 @@ def print_report(findings, filename=""):
     print("=" * 72)
 
 def main():
+    # Konsol Windows (cp1252) tidak selalu bisa mencetak panah dan simbol laporan;
+    # paksa UTF-8 agar audit tidak gagal di tengah jalan saat menemukan kaidah.
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
+
     if len(sys.argv) < 2 or sys.argv[1] in ("-h", "--help"):
         print(__doc__)
         print("Pilihan tambahan:")

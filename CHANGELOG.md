@@ -2,6 +2,19 @@
 
 Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti [Keep a Changelog](https://keepachangelog.com/id/1.1.0/) dan versi mengikuti [SemVer](https://semver.org/lang/id/).
 
+## [2.4.5] — 2026-11-17
+
+### Diperbaiki
+- **Demote 6 kaidah sufiks asing ke `[telaah]`** (`TII-010`..`TII-014`, `TII-016`): pola *-ization, -logy, -ity, -ism, hyper-/poly-* rawan salah tangkap pada kata Indonesia (mis. *Laboratorium*), jadi dijadikan rujukan telaah, bukan aturan aktif.
+- **Matcher `TII-015` lambang satuan salah kapital** — case-sensitive, menangkap *5 Newton*, *3 Kg*, *10 KM* tanpa salah tangkap lambang SI baku *N, J, W, kg, km, MB, GB*.
+- **Konsol Windows UTF-8** — `main()` memaksa `stdout/stderr` ber-encoding UTF-8 agar panah/simbol laporan tidak membuat audit gagal di tengah jalan.
+- Hapus `CUSTOM_RULES` mati milik kaidah yang di-demote.
+
+### Diubah
+- **`references/pupi-2004-kepmendiknas146.md`** — tulis ulang ekstrak verbatim.
+- Blok `BW` sub-skill `ejaan-morfologi` kini 19 entri (menambah `TII-010`..`TII-016` sebagai butir 13–19).
+- Angka kaidah terhitung ulang: **611 → 618** (582 aktif + 36 telaah).
+
 ## [2.4.4] — 2026-11-17
 
 ### Ditambahkan
