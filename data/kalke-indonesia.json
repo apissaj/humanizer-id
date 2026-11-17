@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "metadata": {
     "title": "Kamus Terbuka Kalke, Verba Ringan, & Kaidah Baku Bahasa Indonesia (EYD V & TBBBI)",
-    "version": "2.4.5",
+    "version": "2.4.6",
     "license": "MIT",
     "author": "Hafizh Muzani (apissaj)",
     "repository": "https://github.com/apissaj/humanizer-id",
@@ -386,6 +386,13 @@
         "penerbit": "Kemendikbudristek",
         "tahun": 2023,
         "bab_relevan": "Kaidah kata serapan (hlm. 191-196)"
+      },
+      {
+        "judul": "Buku Praktis Bahasa Indonesia 1 (Bab Kata)",
+        "penulis": "Pusat Bahasa",
+        "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+        "sumber": "id.wikisource.org (karya terbit Badan Bahasa/DKBS, domain publik Indonesia, UU No. 28/2014)",
+        "bab_relevan": "Bab Kata: Kata Baku dan Tidak Baku (tabel 32 pasang + tabel 21 pasang), Kata yang Mubazir, Daripada yang Mubazir, Jamak Mubazir, di mana, -isasi, Pengaruh Bahasa Asing; Bab Kalimat: Kalimat Efektif, Kesejajaran Satuan, Pewatas dan Penjelas, Ungkapan Penghubung Antarkalimat, karenanya/makanya"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -409,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 618
+    "total_entri": 625
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -668,7 +675,7 @@
             "namun,",
             "meskipun demikian"
           ],
-          "penjelasan": "'Namun demikian' adalah kombinasi konjungsi bentuk dwi-frasa yang tidak lazim dalam bahasa Indonesia baku. 'Namun' sudah cukup sebagai konjungsi adversatif tunggal (Rujukan: Suyatno dkk., Bahasa Indonesia untuk Perguruan Tinggi UIN Jakarta, hlm. 104).",
+          "penjelasan": "'Namun demikian' adalah kombinasi konjungsi bentuk dwi-frasa yang tidak lazim dalam bahasa Indonesia baku. 'Namun' sudah cukup sebagai konjungsi adversatif tunggal (Rujukan: Suyatno dkk., Bahasa Indonesia untuk Perguruan Tinggi UIN Jakarta, hlm. 104). (Lihat juga: Buku Praktis Bahasa Indonesia 1, 'namun demikian' = 'tetapi demikian' yang janggal; bentuk benar adalah 'namun'.)",
           "contoh_salah": "Namun demikian, model ini masih memiliki keterbatasan pada data outlier.",
           "contoh_benar": "Walaupun demikian, model ini masih memiliki keterbatasan pada data pencilan."
         },
@@ -1186,7 +1193,6 @@
           "id": "CX11-002",
           "pola": "kendati demikian (konsesif tidak paralel)",
           "saran_pengganti": [
-            "namun demikian",
             "meskipun demikian",
             "(cukup 'namun')"
           ],
@@ -3484,6 +3490,19 @@
           "penjelasan": "Kesimpulan selalu berada di akhir; 'akhir' mubazir (Modul Jurnalistik 2018, hlm. 19).",
           "contoh_salah": "Kesimpulan akhir laporan itu menjelaskan tiga temuan.",
           "contoh_benar": "Kesimpulan laporan itu menjelaskan tiga temuan."
+        },
+        {
+          "id": "BPBI-005",
+          "pola": "contohnya seperti / umpamanya seperti",
+          "saran_pengganti": [
+            "contohnya",
+            "umpamanya",
+            "misalnya",
+            "seperti"
+          ],
+          "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 2 (Badan Bahasa), bagian 61-90, 'Seperti Misalnya, Contohnya Seperti, Umpamanya Seperti': pemakaian dua kata bersinonim secara bersama (contohnya seperti, umpamanya seperti, seperti misalnya) adalah kelewahan/mubazir. Gunakan salah satu. Melengkapi RML-004 (seperti misalnya).",
+          "contoh_salah": "Teknologi membantu manusia, contohnya seperti komputer dan internet.",
+          "contoh_benar": "Teknologi membantu manusia, contohnya komputer dan internet."
         }
       ]
     },
@@ -7199,6 +7218,105 @@
           "penjelasan": "Istilah sinonim dalam satu bidang sebaiknya dibakukan: satu konsep diwakili satu istilah agar naskah tidak membingungkan pembaca (Pedoman Umum Pembentukan Istilah (Keputusan Mendiknas No. 146/U/2004, edisi ketiga 2005), bagian IV.2).",
           "contoh_salah": "Sistem ini memakai 'antarmuka' pada bab kedua, 'interface' pada bab ketiga, dan 'antar muka' pada lampiran.",
           "contoh_benar": "Sistem ini memakai istilah 'antarmuka' secara konsisten di seluruh bab dan lampiran."
+        },
+        {
+          "id": "BPBI-001",
+          "pola": "erobik / akountan / arkhais / gladi / hirarki / karir / kuatir / konggres / kurve / nahkoda / perangko / setasiun / sahdu / trampil / trotoir / wakap / wassalam",
+          "saran_pengganti": [
+            "aerobik",
+            "akuntan",
+            "arkais",
+            "geladi",
+            "hierarki",
+            "karier",
+            "khawatir",
+            "kongres",
+            "kurva",
+            "nakhoda",
+            "prangko",
+            "stasiun",
+            "syahdu",
+            "terampil",
+            "trotoar",
+            "wakaf",
+            "wasalam"
+          ],
+          "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 1 (Badan Bahasa), tabel kata baku vs tidak baku: erobik→aerobik, akountan→akuntan, arkhais→arkais, gladi→geladi, hirarki→hierarki, karir→karier, kuatir→khawatir, konggres→kongres, kurve→kurva, nahkoda→nakhoda, perangko→prangko, setasiun→stasiun, sahdu→syahdu, trampil→terampil, trotoir→trotoar, wakap→wakaf, wassalam→wasalam. Catatan: baud→baut dan sutra→sutera tercantum di buku namun tidak diaktifkan karena 'baud' sah sebagai satuan laju data dan 'sutra' sah dalam konteks akademik/keagamaan.",
+          "contoh_salah": "Panitia mengadakan gladi bersih dan menyiapkan acara untuk konggres tahunan.",
+          "contoh_benar": "Panitia mengadakan geladi bersih dan menyiapkan acara untuk kongres tahunan."
+        },
+        {
+          "id": "BPBI-002",
+          "pola": "antri / atlit / ajimat / faksimil / filem / ijin / joang / khabar / kangker / kongkrit / tentram / jiarah",
+          "saran_pengganti": [
+            "antre",
+            "atlet",
+            "azimat",
+            "faksimile",
+            "film",
+            "izin",
+            "juang",
+            "kabar",
+            "kanker",
+            "konkret",
+            "tenteram",
+            "ziarah"
+          ],
+          "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 1 (Badan Bahasa), tabel kata baku vs tidak baku (bagian kedua): antri→antre, atlit→atlet, ajimat→azimat, faksimil→faksimile, filem→film, ijin→izin, joang→juang, khabar→kabar, kangker→kanker, kongkrit→konkret, tentram→tenteram, jiarah→ziarah. Catatan: lembab→lembap tercantum namun tidak diaktifkan karena 'lembab' lazim dipakai dan menunggu telaah semantik.",
+          "contoh_salah": "Atlit itu berlatih di gedung olahraga dan mengirim faksimil ke pengurus.",
+          "contoh_benar": "Atlet itu berlatih di gedung olahraga dan mengirim faksimile ke pengurus."
+        },
+        {
+          "id": "BPBI-003",
+          "pola": "karenanya / makanya",
+          "saran_pengganti": [
+            "oleh karena itu",
+            "oleh sebab itu",
+            "jadi"
+          ],
+          "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 1 (Badan Bahasa), seksi 'Tepatkah karenanya dan makanya?'. Kata 'karenanya' dan 'makanya' bukan penghubung antarkalimat yang sah. 'karenanya' dipakai karena pengacauan dengan 'oleh karena itu' (bentuk idiomatis yang harus hadir utuh, tidak boleh dipendekkan); 'makanya' memakai 'maka' yang lazimnya penghubung intrakalimat, bukan antarkalimat. Ganti dengan 'oleh karena itu', 'oleh sebab itu', atau 'jadi'.",
+          "contoh_salah": "Banyak orang tua tidak memahami materi matematika anaknya. Makanya, mereka tidak bisa membantu mengerjakan pekerjaan rumah.",
+          "contoh_benar": "Banyak orang tua tidak memahami materi matematika anaknya. Oleh karena itu, mereka tidak bisa membantu mengerjakan pekerjaan rumah."
+        },
+        {
+          "id": "BPBI-004",
+          "pola": "dekret / azas / hutang / maghrib / atmosfir / eksim / apotik / kridit",
+          "saran_pengganti": [
+            "dekrit",
+            "asas",
+            "utang",
+            "magrib",
+            "atmosfer",
+            "eksem",
+            "apotek",
+            "kredit"
+          ],
+          "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 2 (Badan Bahasa), bagian 1-30 & 31-60: dekret→dekrit, azas→asas, hutang→utang, maghrib→magrib, atmosfir→atmosfer, eksim→eksem, apotik→apotek, kridit→kredit. Bentuk serapan lain yang sudah tercakup entri lain tidak diulang (menyolok→mencolok, sistim→sistem, ekstrim→ekstrem, adzan→azan, mempel→mengepel). Catatan: hisap→isap dan himbau→imbau tidak diaktifkan karena kontroversial dalam pemakaian modern.",
+          "contoh_salah": "Pemerintah menerbitkan dekret dan membuka apotik baru di dekat kampus.",
+          "contoh_benar": "Pemerintah menerbitkan dekrit dan membuka apotek baru di dekat kampus."
+        },
+        {
+          "id": "BPBI-006",
+          "pola": "dilola / sanjak",
+          "saran_pengganti": [
+            "dikelola",
+            "sajak"
+          ],
+          "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 1 (Badan Bahasa), bagian 'Lain-lain' dan 'Sastra'. (1) 'dilola' salah bentukan: prefiks di- + kelola menghasilkan 'dikelola' (fonem /k/ tidak luluh pada prefiks di-), bukan 'dilola'. (2) Istilah 'sanjak' dihindari pemakaiannya oleh Badan Bahasa; istilah yang dipakai adalah 'sajak'. Pasangan lain dari seksi yang sama sudah tercakup: mengetrapkan (BPK-012), mengenyampingkan (KRF-001).",
+          "contoh_salah": "Dana desa itu dilola dengan baik, dan sanjak lama itu masih dibaca di sekolah.",
+          "contoh_benar": "Dana desa itu dikelola dengan baik, dan sajak lama itu masih dibaca di sekolah."
+        },
+        {
+          "id": "BPBI-007",
+          "pola": "pirsawan / debet / voucher",
+          "saran_pengganti": [
+            "pemirsa",
+            "debit",
+            "voucer"
+          ],
+          "penjelasan": "Tiga bentuk tidak lazim menurut Badan Bahasa (Buku Praktis Bahasa Indonesia 2): (1) 'pirsawan' dibentuk dari kata dasar verba 'pirsa' + -wan, padahal -wan lazim melekat pada nomina/adjektiva — gunakan 'pemirsa'; (2) 'debet' bukan bentuk serapan yang benar, istilah perbankan yang baku adalah 'debit' (lajur debit, kartu debit); (3) 'voucher' adalah ejaan Inggris, bentuk Indonesia yang dipakai Badan Bahasa adalah 'voucer'. Catatan kontradiksi: BPBI2 menyarankan 'sukarelawan' dan menolak 'relawan' (rujukan KBBI 1996), tetapi KBBI edisi V sudah memuat 'relawan' sebagai bentuk baku — karena itu pasangan itu TIDAK diaktifkan; 'para hadirin' juga tidak dijadikan kaidah karena BPBI2 menyatakan bentuk itu tidak mubazir (hadirin dapat bermakna tunggal/jamak).",
+          "contoh_salah": "Pirsawan televisi itu membayar dengan kartu debet, lalu menukarkan voucher belanja.",
+          "contoh_benar": "Pemirsa televisi itu membayar dengan kartu debit, lalu menukarkan voucer belanja."
         }
       ]
     }

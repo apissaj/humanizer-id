@@ -847,3 +847,49 @@ CUSTOM_RULES.append((lambda p: p == "pra sekolah", [re.compile(r"\bpra\s+(?:seko
 CUSTOM_RULES.append((lambda p: p == "ekstra kurikuler", [re.compile(r"\b(?:ekstra|extra)\s+(?:kurikuler|kulikuler|kampus)\b", re.IGNORECASE)]))
 CUSTOM_RULES.append((lambda p: p == "anti korupsi", [re.compile(r"\banti\s+(?:korupsi|komunis|virus|oksidan|sosial|narkoba)\b", re.IGNORECASE)]))
 CUSTOM_RULES.append((lambda p: p == "multi disiplin", [re.compile(r"\bmulti\s+(?:disiplin|disipliner|fungsi|media|nasional|kultural|budaya)\b", re.IGNORECASE)]))
+# --- Kaidah Kata Baku-Tidak Baku Buku Praktis Bahasa Indonesia 1 (BPBI-001..002, Badan Bahasa) ---
+# Sumber: Buku Praktis Bahasa Indonesia 1, Bab Kata (id.wikisource.org). Tabel 32 + 21 pasang.
+# Catatan: baud->baut, sutra->sutera, lembab->lembap TIDAK diaktifkan (makna teknis/akademik/umum yang sah).
+CUSTOM_RULES.append((
+    lambda p: "erobik / akountan / arkhais" in p,
+    [re.compile(r"(?i)\b(?:erobik|akountan|arkhais|gladi|hirarki|karir|kuatir|konggres|kurve|nahkoda|perangko|setasiun|sahdu|trampil|trotoir|wakap|wassalam)\b")],
+))
+CUSTOM_RULES.append((
+    lambda p: "antri / atlit / ajimat" in p,
+    [re.compile(r"(?i)\b(?:antri|atlit|ajimat|faksimil|filem|ijin|joang|khabar|kangker|kongkrit|tentram|jiarah)\b")],
+))
+
+CUSTOM_RULES.append((
+    lambda p: "karenanya / makanya" in p,
+    [re.compile(r"(?i)\b(?:karenanya|makanya)\b")],
+))
+
+# --- Kaidah Kata Baku-Tidak Baku Buku Praktis Bahasa Indonesia 2 (BPBI-004, Badan Bahasa) ---
+# Sumber: Buku Praktis Bahasa Indonesia 2, bagian 1-30 & 31-60 (id.wikisource.org).
+# hisap->isap dan himbau->imbau TIDAK diaktifkan (kontroversial dalam pemakaian modern).
+CUSTOM_RULES.append((
+    lambda p: "dekret / azas / hutang" in p,
+    [re.compile(r"(?i)\b(?:dekret|azas|hutang|maghrib|atmosfir|eksim|apotik|kridit)\b")],
+))
+
+# --- Pleonasme penghubung contoh Buku Praktis Bahasa Indonesia 2 (BPBI-005, Badan Bahasa) ---
+# Melengkapi RML-004 (seperti misalnya). Sumber: BPBI2 61-90.
+CUSTOM_RULES.append((
+    lambda p: "contohnya seperti / umpamanya seperti" in p,
+    [re.compile(r"(?i)\b(?:contohnya seperti|umpamanya seperti)\b")],
+))
+
+# --- Kaidah Buku Praktis Bahasa Indonesia 1 / Lain-lain & Sastra (BPBI-006, Badan Bahasa) ---
+# 'dilola' salah bentukan (di- + kelola -> dikelola); 'sanjak' dihindari, dipakai 'sajak'.
+CUSTOM_RULES.append((
+    lambda p: "dilola / sanjak" in p,
+    [re.compile(r"(?i)\b(?:dilola|sanjak)\b")],
+))
+
+
+# --- Bentuk tidak lazim BPBI2 (BPBI-007, Badan Bahasa) ---
+# 'pirsawan' -> 'pemirsa'; 'debet' -> 'debit'; 'voucher' -> 'voucer'.
+CUSTOM_RULES.append((
+    lambda p: "pirsawan / debet / voucher" in p,
+    [re.compile(r"(?i)\b(?:pirsawan|debet|voucher)\b")],
+))
