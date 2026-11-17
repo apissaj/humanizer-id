@@ -7317,8 +7317,57 @@
           "penjelasan": "Tiga bentuk tidak lazim menurut Badan Bahasa (Buku Praktis Bahasa Indonesia 2): (1) 'pirsawan' dibentuk dari kata dasar verba 'pirsa' + -wan, padahal -wan lazim melekat pada nomina/adjektiva — gunakan 'pemirsa'; (2) 'debet' bukan bentuk serapan yang benar, istilah perbankan yang baku adalah 'debit' (lajur debit, kartu debit); (3) 'voucher' adalah ejaan Inggris, bentuk Indonesia yang dipakai Badan Bahasa adalah 'voucer'. Catatan kontradiksi: BPBI2 menyarankan 'sukarelawan' dan menolak 'relawan' (rujukan KBBI 1996), tetapi KBBI edisi V sudah memuat 'relawan' sebagai bentuk baku — karena itu pasangan itu TIDAK diaktifkan; 'para hadirin' juga tidak dijadikan kaidah karena BPBI2 menyatakan bentuk itu tidak mubazir (hadirin dapat bermakna tunggal/jamak).",
           "contoh_salah": "Pirsawan televisi itu membayar dengan kartu debet, lalu menukarkan voucher belanja.",
           "contoh_benar": "Pemirsa televisi itu membayar dengan kartu debit, lalu menukarkan voucer belanja."
+        },
+        {
+          "id": "TMS-001",
+          "pola": "frustasi / negoisasi / interprestasi / konkrit / komoditi / horisontal / infantri / marjin / dirijen / otobiografi / pondasi / birahi / minimun / orisinil / quantum / malpraktik",
+          "saran_pengganti": [
+            "frustrasi",
+            "negosiasi",
+            "interpretasi",
+            "konkret",
+            "komoditas",
+            "horizontal",
+            "infanteri",
+            "margin",
+            "dirigen",
+            "autobiografi",
+            "fondasi",
+            "berahi",
+            "minimum",
+            "orisinal",
+            "kuantum",
+            "malapraktik"
+          ],
+          "penjelasan": "Ejaan serapan yang salah pada naskah, dirangkum dari Tabel 5.1 'Daftar Kata/Frasa yang Benar dan Salah' (hlm. 95-96) dan Tabel 5.16 'Daftar Kata Baku dan Tidak Baku' (hlm. 112-113) Taktis Menyunting: Panduan Menyunting Naskah (BRIN, 2019). Pasangan yang sudah tercakup entri lain tidak diulang (resiko, antri, jadual, syndrom, prosentase, kreatifitas, karir, jender, jaman, hirarki, Jum'at, lembab, Nopember, was-was, analisa, diagnosa, elit). Pada tabel yang sama terdapat pasangan yang dibalik atau meragukan dan karena itu TIDAK diaktifkan: 'pedagogi', 'religiusitas', 'wanprestasi', 'memerhatikan', 'segitiga', 'seluler', 'mahadata', 'blakblakan', 'Bukittinggi'.",
+          "contoh_salah": "Hasil survei itu beresiko tinggi karena metodologinya horisontal dan datanya berdasar interpretasi yang minimun.",
+          "contoh_benar": "Hasil survei itu berisiko tinggi karena metodologinya horizontal dan datanya berdasarkan interpretasi yang minimum."
+        },
+        {
+          "id": "TMS-002",
+          "pola": "telanjur / perduli / autodidak / trend / goncang / inagurasi / rubuh / contek / nampak / juridis / qori' / propemerintah / cindera mata / cenderamata",
+          "saran_pengganti": [
+            "terlanjur",
+            "peduli",
+            "otodidak",
+            "tren",
+            "guncang",
+            "inaugurasi",
+            "roboh",
+            "sontek",
+            "tampak",
+            "yuridis",
+            "qari",
+            "pro pemerintah",
+            "cendera mata",
+            "cendera mata"
+          ],
+          "penjelasan": "Bentuk tidak baku yang sering lolos pada naskah, dari Tabel 5.1 dan Tabel 5.16 Taktis Menyunting (BRIN, 2019): telanjur->terlanjur, perduli->peduli, autodidak->otodidak, trend->tren, goncang->guncang, inagurasi->inaugurasi, rubuh->roboh, contek->sontek, nampak->tampak, juridis->yuridis, qori'->qari, propemerintah->pro pemerintah, cindera mata/cenderamata->cendera mata. Catatan: buku ini sendiri menyatakan bahwa nampak, kenapa, nggak, dan ketimbang wajar di dalam dialog cerita (ragam cakapan); kaidah ini untuk naskah formal, sehingga pemakaian pada tuturan langsung tidak dihitung sebagai kesalahan.",
+          "contoh_salah": "Wartawan itu nampak goncang saat membaca qori' yang jadi cindera mata acara.",
+          "contoh_benar": "Wartawan itu tampak guncang saat membaca qari yang jadi cendera mata acara."
         }
       ]
     }
-  }
+  },
+  "total_entri": 627
 }

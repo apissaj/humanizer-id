@@ -893,3 +893,19 @@ CUSTOM_RULES.append((
     lambda p: "pirsawan / debet / voucher" in p,
     [re.compile(r"(?i)\b(?:pirsawan|debet|voucher)\b")],
 ))
+
+
+# --- Ejaan serapan Taktis Menyunting (TMS-001, BRIN 2019) ---
+# Tabel 5.1 & 5.16: bentuk serapan salah eja pada naskah.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("frustasi / negoisasi"),
+    [re.compile(r"(?i)\b(?:frustasi|negoisasi|interprestasi|konkrit|komoditi|horisontal|infantri|marjin|dirijen|otobiografi|pondasi|birahi|minimun|orisinil|quantum|malpraktik)\b")],
+))
+
+
+# --- Bentuk tidak baku Taktis Menyunting (TMS-002, BRIN 2019) ---
+# telanjur->terlanjur, nampak->tampak, cindera mata->cendera mata.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("telanjur / perduli"),
+    [re.compile(r"(?i)\b(?:telanjur|perduli|autodidak|trend|goncang|inagurasi|rubuh|men?contek|nampak|juridis|propemerintah|cindera\s+mata|cenderamata)\b"), re.compile(r"(?i)\bqori'")],
+))
