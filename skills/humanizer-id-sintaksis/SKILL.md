@@ -217,3 +217,14 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 2. **Pola:** *hingga ... maupun* → **Perbaikan:** *baik ... maupun ...* — **Sebab:** kontaminasi korelatif: preposisi rentang tak boleh dipadukan konjungsi aditif (JRN-012) (Jurnal Lazuardi 2024, hlm. 58).
 3. **Pola:** *bertujuan untuk menganalisis* → **Perbaikan:** *bertujuan menganalisis* — **Sebab:** pleonasme frasa verba bertujuan: *bertujuan* sudah mengandung 'mempunyai tujuan' (JRN-013) (ILEAL 2018, hlm. 6).
 4. **Pola:** *Sehingga biaya membengkak.* (awal kalimat) → **Perbaikan:** *..., sehingga biaya membengkak.* atau *Oleh karena itu, / Akibatnya,* — **Sebab:** pemenggalan klausa subordinatif: *sehingga* penanda klausa akibat intrakalimat (JRN-014) (Jurnal Kande 2021, hlm. 155).
+
+---
+
+### BY. Penyusunan Kalimat Terbitan Ilmiah & Preposisi Gabungan (Winarti dkk., *Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur*, Pusat Bahasa, 2009)
+
+1. **Pola:** *Sementara itu pertumbuhan ekonomi melambat.* → **Perbaikan:** *Sementara itu, pertumbuhan ekonomi melambat.* — **Sebab:** penghubung antarkalimat dua kata wajib diikuti koma; pola satu kata sudah dijaga SPE-003 (TMS-034).
+2. **Pola:** *mulai Maret sampai Mei 2024, dari Senin sampai Kamis* → **Perbaikan:** *mulai Maret sampai dengan Mei 2024, dari Senin sampai dengan Kamis* — **Sebab:** preposisi gabungan dipakai berpasangan; *sampai* tanpa *dengan* memutus pasangan (TMS-038).
+3. **Pola:** *Menurut Kim H. Tan (1991), bahwa Al yang dilepaskan dijerap kompleks liat.* → **Perbaikan:** *Menurut Kim H. Tan (1991), Al yang dilepaskan dijerap kompleks liat.* — **Sebab:** subjek tidak boleh didahului penghubung *bahwa*; koma sebelum *bahwa* pun berlebihan (SPK-012).
+4. **Pola:** *Berdasarkan hasil penelitian menunjukkan bahwa perlakuan berbeda nyata.* → **Perbaikan:** *Hasil penelitian menunjukkan bahwa perlakuan berbeda nyata.* — **Sebab:** frasa *Berdasarkan X* adalah keterangan, bukan subjek; vokal berkoma seperti *Berdasarkan hasil penelitian, tingkat erosi rendah* tetap sah (SPK-013).
+5. **Pola:** *, di mana hal ini menunjukkan peningkatan* → **Perbaikan:** *, hal ini menunjukkan peningkatan* atau *, yang menunjukkan peningkatan* — **Sebab:** *di mana* sebagai penghubung relatif adalah residu ragam asing; klausa relatif sah tetap lolos (BDD-009).
+6. **Pola:** *bila melapuk maka tidak bisa diserap tanaman* → **Perbaikan:** *bila melapuk, tidak bisa diserap tanaman* — **Sebab:** konjungsi syarat dan *maka* tidak dipakai bersamaan dalam satu kalimat majemuk; daftar konjungsi syarat mencakup *jika, kalau, apabila, bila* (SPK-001).

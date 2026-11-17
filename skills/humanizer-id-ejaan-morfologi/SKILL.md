@@ -244,3 +244,20 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 | *pre-* | *pra-* | — |
 
 > **Sumber verbatim:** seluruh kaidah di atas bersumber dari `references/pupi-2004-kepmendiknas146.md` (Kepmendiknas 146/U/2004, transkrip Wikisource Indonesia). Bentuk leksikal (*zaman, kaidah, ekstrem, propinsi*) diperiksa silang ke KBBI.
+
+---
+
+### BX. Bentuk Baku Serapan & Morfologi Terbitan Ilmiah (Winarti dkk., *Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur*, Pusat Bahasa, 2009)
+
+1. **Pola:** *salahsatunya, ditindak Ianjuti, unjukrasa, lagipula, non aktif* → **Perbaikan:** *salah satunya, tindak lanjut, unjuk rasa, lagi pula, nonaktif* — **Sebab:** gabungan kata ditulis terpisah, sedangkan bentuk berimbuhan gabung ditulis serangkai; *ditindaklanjuti* dan *menindaklanjuti* tetap sah (TMS-030).
+2. **Pola:** *kordinator, kordinasi, mengkomentari* → **Perbaikan:** *koordinator, koordinasi, mengomentari* — **Sebab:** serapan *coordination* mempertahankan vokal *o* ganda; *mengomentari* berpangkal *komentar* sehingga tidak ada fonem luluh (TMS-031).
+3. **Pola:** *legalisir, inventarisir, terakomodir, terorganisir, mengkoordinir* → **Perbaikan:** *dilegalisasi, menginventarisasi, terakomodasi, terorganisasi, mengoordinasi* — **Sebab:** akhiran *-ir* warisan Belanda tidak produktif; bentuk baku memakai *-isasi*/*-asi* (TMS-032).
+4. **Pola:** *tehknik, enerjik, rejional, aktip, perogram* → **Perbaikan:** *teknik, energik, regional, aktif, program* — **Sebab:** digraf baku hanya *kh, ng, ny, sy*; *j* mewakili /dʒ/ pada *regional*; *-ip* dan *pe-* menyimpang dari bentuk serapan (TMS-033).
+5. **Pola:** *akte, beaya, efektip, effektif, effisien* → **Perbaikan:** *akta, biaya, efektif, efisien* — **Sebab:** bentuk baku serapan menetapkan *akta*, *biaya*, dan konsonan tunggal *f/s* (TMS-036).
+6. **Pola:** *memposisikan, marjinal, hektar* → **Perbaikan:** *memosisikan, marginal, hektare* — **Sebab:** fonem /p/ luluh setelah awalan *meng-*; *marginal* bukan *marjinal*; *hektare* mempertahankan vokal akhir (TMS-039).
+7. **Pola:** *menghasil, diprioritas* → **Perbaikan:** *menghasilkan, diprioritaskan* — **Sebab:** nomina *hasil* dan *prioritas* hanya menerima konfiks *meng-...-kan*, bukan awalan tunggal (TMS-040; KK-004).
+8. **Pola:** *respon* → **Perbaikan:** *respons* — **Sebab:** serapan *response* mempertahankan *-s* akhir; *responden* dan *responsif* tetap sah (TMS-041).
+9. **Pola:** *teoritis, sekedar* → **Perbaikan:** *teoretis, sekadar* — **Sebab:** *teoretis* diserap dari *theoretical*, bukan teori + *-tis*; *sekadar* berpangkal *kadar* + *se-* (TMS-042).
+10. **Pola:** *merubah, mentargetkan, analisa, praktek, mengaktipkan, penanggungjawab, bekerjabakti, tandatangani* → **Perbaikan:** *mengubah, menargetkan, analisis, praktik, mengaktifkan, penanggung jawab, bekerja bakti, menandatangani* — **Sebab:** bentuk dasar berfonem /r/, /t/, /p/ dan gabungan kata yang selama ini belum bermesin sekarang ikut diperiksa (BAK-002, BAK-004, BAK-005, BAK-007, BPK-038, BPK-044, BPK-045, SPE-014).
+11. **Pola:** *sudah kumpul, telah jumpa, sampai jumpa* → **Perbaikan:** *sudah berkumpul, telah berjumpa, sampai berjumpa* — **Sebab:** verba berobjek tak langsung menuntut awalan *ber-*; bentuk tanpa awalan tidak baku (TMS-035).
+12. **Pola:** *menstimulir, panili, disekitar, diareal, diladang* → **Perbaikan:** *menstimulasi, vanili, di sekitar, di area, di ladang* — **Sebab:** *stimulir* sudah verba sehingga *meng-* ganda; *panili* penyerapan keliru; preposisi *di* ditulis terpisah dari kata yang mengikutinya (TMS-037).
