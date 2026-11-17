@@ -917,3 +917,16 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("propesional / kerampilan"),
     [re.compile(r"(?i)\b(?:propesional|kerampilan|ketrampilan|mengkomunikasikan|mendiskritkan|tehnologi|mengasilkan|prosentasi|nampaknya)\b"), re.compile(r"(?i)\btergantung\s+dari\b")],
 ))
+
+
+# --- TMS-003: bentuk terikat ditulis serangkai (Taktis Menyunting 2019, Tabel 5.18) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("antar golongan"),
+    [re.compile(r"(?i)\b(?:antar\s+golongan|multi\s+lateral|purna\s+wirawan|nara\s+hubung|pra\s+jabatan|sapta\s+krida)\b")],
+))
+
+# --- TMS-004: gabungan kata padu ditulis serangkai (Taktis Menyunting 2019, Tabel 5.20) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("acap kali"),
+    [re.compile(r"(?i)\b(?:acap\s+kali|sedia\s+kala|kaca\s+mata|karya\s+wisata|kasat\s+mata|suka\s+cita|kosa\s+kata|syah\s+bandar|mata\s+hari|olah\s+raga|peri\s+bahasa|duka\s+cita|puspa\s+warna)\b")],
+))

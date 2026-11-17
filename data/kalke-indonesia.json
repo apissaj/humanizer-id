@@ -7384,9 +7384,46 @@
           "penjelasan": "Bentuk keliru yang diidentifikasi pada artikel jurnal ilmiah perguruan tinggi Kalimantan Timur (Winarti dkk., Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah, Pusat Bahasa, 2009): propesional->profesional (hlm. 92), kerampilan dan ketrampilan->keterampilan (hlm. 96, 44), mengkomunikasikan->mengomunikasikan (hlm. 97), mendiskritkan->mendiskreditkan (hlm. 99), tehnologi->teknologi (hlm. 100), mengasilkan->menghasilkan (hlm. 100), prosentasi->persentase (hlm. 99), nampaknya->tampaknya (hlm. 94), tergantung dari->bergantung pada (hlm. 49, pasangan idiomatik). Pasangan yang sudah tercakup entri lain tidak diulang (propinsi, frekwensi, ijin, sistim, tehnik, fihak, dirubah, menunjukan, bertujuan untuk, disebabkan karena, sangat terbatas, baik ... atau).",
           "contoh_salah": "Laporan itu ditulis secara propesional, tetapi tehnologi yang dipakai masih tergantung dari dana.",
           "contoh_benar": "Laporan itu ditulis secara profesional, tetapi teknologi yang dipakai masih bergantung pada dana."
+        },
+        {
+          "id": "TMS-003",
+          "pola": "antar golongan / multi lateral / purna wirawan / nara hubung / pra jabatan / sapta krida",
+          "saran_pengganti": [
+            "antargolongan",
+            "multilateral",
+            "purnawirawan",
+            "narahubung",
+            "prajabatan",
+            "saptakrida"
+          ],
+          "penjelasan": "Bentuk terikat seperti antar-, multi-, purna-, nara-, pra-, dan sapta- ditulis serangkai dengan kata yang mengikutinya, bukan dipisah spasi (Tabel 5.18 *Taktis Menyunting*, BRIN, 2019, hlm. 115). Pengecualian pada buku: bentuk terikat yang dilekatkan pada huruf kapital atau kata asing memakai tanda hubung (non-Indonesia, pro-Barat, anti-PKI). Pasangan yang sudah tercakup entri lain tidak diulang (pasca sarjana, sub bagian, non formal, ekstra kurikuler, manca negara, tuna karya).",
+          "contoh_salah": "Rapat antar golongan itu membahas purna wirawan dan nara hubung.",
+          "contoh_benar": "Rapat antargolongan itu membahas purnawirawan dan narahubung."
+        },
+        {
+          "id": "TMS-004",
+          "pola": "acap kali / sedia kala / kaca mata / karya wisata / kasat mata / suka cita / kosa kata / syah bandar / mata hari / olah raga / peri bahasa / duka cita / puspa warna",
+          "saran_pengganti": [
+            "acapkali",
+            "sediakala",
+            "kacamata",
+            "karyawisata",
+            "kasatmata",
+            "sukacita",
+            "kosakata",
+            "syahbandar",
+            "matahari",
+            "olahraga",
+            "peribahasa",
+            "dukacita",
+            "puspawarna"
+          ],
+          "penjelasan": "Gabungan kata yang sudah padu ditulis serangkai, bukan terpisah (Tabel 5.20 *Taktis Menyunting*, BRIN, 2019, hlm. 117). Buku ini juga mendaftar gabungan yang tetap terpisah (cendera mata, duta besar, ibu kota, kerja sama, orang tua, rumah sakit, wali kota) sehingga tidak dijadikan pola. Pasangan yang sudah tercakup entri lain tidak diulang (mana suka, dan pasangan TMS-002).",
+          "contoh_salah": "Acap kali kaca mata dan olah raga dibahas di karya wisata.",
+          "contoh_benar": "Acapkali kacamata dan olahraga dibahas di karyawisata."
         }
       ]
     }
   },
-  "total_entri": 628
+  "total_entri": 630
 }
