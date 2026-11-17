@@ -1,6 +1,6 @@
-# Ekstrak Kaidah: Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah (Kantor Bahasa Kaltim, 2005)
+# Ekstrak Kaidah: Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah (Pusat Bahasa, 2009)
 
-- **Sumber Karya:** *Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur*, Winarti dkk., Kantor Bahasa Provinsi Kalimantan Timur / Pusat Bahasa Depdiknas, 2005 (170 hlm).
+- **Sumber Karya:** *Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur*, Winarti dkk., Pusat Bahasa, Departemen Pendidikan Nasional, 2009 (xvi + 156 hlm). Catatan: versi awal referensi ini mencantumkan 2005/170 hlm; PDF yang dibedah adalah cetakan 2009.
 - **Fokus Bedah:** Analisis Kesalahan Pembentukan Kata, Pemilihan Kata, & Penyusunan Kalimat pada 13 Jurnal Ilmiah (hlm. 7–146).
 
 ---

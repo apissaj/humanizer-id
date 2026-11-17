@@ -7365,9 +7365,28 @@
           "penjelasan": "Bentuk tidak baku yang sering lolos pada naskah, dari Tabel 5.1 dan Tabel 5.16 Taktis Menyunting (BRIN, 2019): telanjur->terlanjur, perduli->peduli, autodidak->otodidak, trend->tren, goncang->guncang, inagurasi->inaugurasi, rubuh->roboh, contek->sontek, nampak->tampak, juridis->yuridis, qori'->qari, propemerintah->pro pemerintah, cindera mata/cenderamata->cendera mata. Catatan: buku ini sendiri menyatakan bahwa nampak, kenapa, nggak, dan ketimbang wajar di dalam dialog cerita (ragam cakapan); kaidah ini untuk naskah formal, sehingga pemakaian pada tuturan langsung tidak dihitung sebagai kesalahan.",
           "contoh_salah": "Wartawan itu nampak goncang saat membaca qori' yang jadi cindera mata acara.",
           "contoh_benar": "Wartawan itu tampak guncang saat membaca qari yang jadi cendera mata acara."
+        },
+        {
+          "id": "TBI-001",
+          "pola": "propesional / kerampilan / ketrampilan / mengkomunikasikan / mendiskritkan / tehnologi / mengasilkan / prosentasi / nampaknya / tergantung dari",
+          "saran_pengganti": [
+            "profesional",
+            "keterampilan",
+            "keterampilan",
+            "mengomunikasikan",
+            "mendiskreditkan",
+            "teknologi",
+            "menghasilkan",
+            "persentase",
+            "tampaknya",
+            "bergantung pada"
+          ],
+          "penjelasan": "Bentuk keliru yang diidentifikasi pada artikel jurnal ilmiah perguruan tinggi Kalimantan Timur (Winarti dkk., Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah, Pusat Bahasa, 2009): propesional->profesional (hlm. 92), kerampilan dan ketrampilan->keterampilan (hlm. 96, 44), mengkomunikasikan->mengomunikasikan (hlm. 97), mendiskritkan->mendiskreditkan (hlm. 99), tehnologi->teknologi (hlm. 100), mengasilkan->menghasilkan (hlm. 100), prosentasi->persentase (hlm. 99), nampaknya->tampaknya (hlm. 94), tergantung dari->bergantung pada (hlm. 49, pasangan idiomatik). Pasangan yang sudah tercakup entri lain tidak diulang (propinsi, frekwensi, ijin, sistim, tehnik, fihak, dirubah, menunjukan, bertujuan untuk, disebabkan karena, sangat terbatas, baik ... atau).",
+          "contoh_salah": "Laporan itu ditulis secara propesional, tetapi tehnologi yang dipakai masih tergantung dari dana.",
+          "contoh_benar": "Laporan itu ditulis secara profesional, tetapi teknologi yang dipakai masih bergantung pada dana."
         }
       ]
     }
   },
-  "total_entri": 627
+  "total_entri": 628
 }

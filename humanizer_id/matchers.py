@@ -909,3 +909,11 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("telanjur / perduli"),
     [re.compile(r"(?i)\b(?:telanjur|perduli|autodidak|trend|goncang|inagurasi|rubuh|men?contek|nampak|juridis|propemerintah|cindera\s+mata|cenderamata)\b"), re.compile(r"(?i)\bqori'")],
 ))
+
+
+# --- Kesalahan leksikal pada terbitan ilmiah Kaltim (TBI-001, Pusat Bahasa 2009) ---
+# propesional->profesional, ketrampilan->keterampilan, tergantung dari->bergantung pada.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("propesional / kerampilan"),
+    [re.compile(r"(?i)\b(?:propesional|kerampilan|ketrampilan|mengkomunikasikan|mendiskritkan|tehnologi|mengasilkan|prosentasi|nampaknya)\b"), re.compile(r"(?i)\btergantung\s+dari\b")],
+))
