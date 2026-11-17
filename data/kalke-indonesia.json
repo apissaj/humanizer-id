@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 667
+    "total_entri": 670
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3503,6 +3503,40 @@
           "penjelasan": "Merujuk Buku Praktis Bahasa Indonesia 2 (Badan Bahasa), bagian 61-90, 'Seperti Misalnya, Contohnya Seperti, Umpamanya Seperti': pemakaian dua kata bersinonim secara bersama (contohnya seperti, umpamanya seperti, seperti misalnya) adalah kelewahan/mubazir. Gunakan salah satu. Melengkapi RML-004 (seperti misalnya).",
           "contoh_salah": "Teknologi membantu manusia, contohnya seperti komputer dan internet.",
           "contoh_benar": "Teknologi membantu manusia, contohnya komputer dan internet."
+        },
+        {
+          "id": "SPK-012",
+          "pola": "Menurut X, bahwa ... (subjek didahului penghubung bahwa)",
+          "saran_pengganti": [
+            "Menurut X, ..."
+          ],
+          "penjelasan": "Subjek dalam bahasa Indonesia tidak didahului kata penghubung. Pada konstruksi Menurut Kim H. Tan (1991), bahwa Al yang dilepaskan ..., frasa setelah keterangan Menurut ... menduduki fungsi subjek sehingga penghubung bahwa wajib dihilangkan; koma sebelum bahwa pun tidak diperlukan. Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 11-12.",
+          "contoh_salah": "Menurut Kim H. Tan (1991), bahwa Al yang dilepaskan kemudian dijerap kompleks liat.",
+          "contoh_benar": "Menurut Kim H. Tan (1991), Al yang dilepaskan kemudian dijerap kompleks liat.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "11-12"
+          }
+        },
+        {
+          "id": "SPK-013",
+          "pola": "Berdasarkan X menunjukkan bahwa ... (frasa keterangan menduduki posisi subjek tanpa pengubahan)",
+          "saran_pengganti": [
+            "Hasil X menunjukkan bahwa ..."
+          ],
+          "penjelasan": "Frasa Berdasarkan hasil penelitian adalah keterangan, bukan subjek, sehingga kalimat Berdasarkan hasil penelitian menunjukkan bahwa ... tidak bersubjek. Perbaikan buku: hilangkan kata berdasarkan sehingga frasa itu menjadi subjek, atau urai menjadi dua kalimat. Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 19.",
+          "contoh_salah": "Berdasarkan hasil penelitian menunjukkan bahwa perlakuan itu berbeda nyata.",
+          "contoh_benar": "Hasil penelitian menunjukkan bahwa perlakuan itu berbeda nyata.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "19"
+          }
         }
       ]
     },
@@ -8015,9 +8049,27 @@
             "tahun": 2009,
             "halaman": "26"
           }
+        },
+        {
+          "id": "TMS-042",
+          "pola": "teoritis / sekedar",
+          "saran_pengganti": [
+            "teoretis",
+            "sekadar"
+          ],
+          "penjelasan": "Dua penyerapan dan bentukan yang keliru: teoritis tidak berasal dari teori + akhiran -tis, melainkan penyerapan langsung dari bahasa Inggris theoretical, sehingga bentuk bakunya teoretis; sekedar berasal dari kadar + awalan se-, sehingga bentuk bakunya sekadar. Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 33 dan 34.",
+          "contoh_salah": "Secara teoritis, model ini tidak hanya sekedar formalitas.",
+          "contoh_benar": "Secara teoretis, model ini tidak hanya sekadar formalitas.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "33-34"
+          }
         }
       ]
     }
   },
-  "total_entri": 667
+  "total_entri": 670
 }

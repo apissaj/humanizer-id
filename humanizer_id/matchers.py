@@ -128,7 +128,7 @@ CUSTOM_RULES = [
     (lambda p: 'preposisi titik waktu tidak baku' in p, [re.compile('\\bdi\\s+(?:tahun|periode|era|dekade)\\s+\\d{4}\\b|\\bdi\\s+(?:awal|tengah|akhir)\\s+(?:tahun|bulan|pekan|minggu)\\s+\\d{4}\\b|\\bdi\\s+(?:saat|kala)\\b|\\bdi\\s+(?:Senin|Selasa|Rabu|Kamis|Jumat|Sabtu|Minggu|Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\\b|\\bdi\\s+hari\\s+(?:Senin|Selasa|Rabu|Kamis|Jumat|Sabtu|Minggu)\\b', re.IGNORECASE)]),
     (lambda p: 'pleonasme preposisi majemuk' in p, [re.compile('\\bselain\\s+daripada\\b|\\bselain\\s+dari\\s+(itu|pada|laporan|biaya|data|hal|aspek|faktor)\\b', re.IGNORECASE)]),
     (lambda p: 'preposisi arah/lokasi ditulis serangkai tanpa spasi' in p, [re.compile('\\b(didalam|kedalam|diatas|keatas|dibawah|kebawah|didepan|kedepan|dibelakang|kebelakang|disamping|kesamping)\\b', re.IGNORECASE)]),
-    (lambda p: 'konjungsi syarat berkorelasi mubazir' in p, [re.compile('\\b(jika|kalau|apabila)\\b[^.!?]*\\b,?\\s*maka\\b', re.IGNORECASE)]),
+    (lambda p: 'konjungsi syarat berkorelasi mubazir' in p, [re.compile('\\b(jika|kalau|apabila|bila)\\b[^.!?]*\\b,?\\s*maka\\b', re.IGNORECASE)]),
     (lambda p: 'objek verba transitif disisipi preposisi' in p, [re.compile('\\b(memerintahkan|menugaskan|menganjurkan|mempersilakan)\\s+kepada\\b', re.IGNORECASE)]),
     (lambda p: 'penghubung bertentangan rangkap tiga' in p, [re.compile('\\b(walaupun|meskipun|sungguhpun|sekalipun)\\b[^.!?]*\\b(namun|tetapi)\\b[^.!?]*\\b,?\\s*maka\\b', re.IGNORECASE)]),
     (lambda p: 'pemakaian jam alih-alih pukul' in p, [re.compile('\\b(pada|sejak|hingga|sampai)\\s+jam\\b|\\bjam\\s+\\d{1,2}[.:]\\d{2}\\b|\\bjam\\s*:\\s*\\d{1,2}[.:]\\d{2}', re.IGNORECASE)]),
@@ -1272,4 +1272,23 @@ CUSTOM_RULES.append((
 CUSTOM_RULES.append((
     lambda p: p == "respon",
     [re.compile(r"(?i)\brespon\b")],
+))
+
+# --- TMS-042: teoritis/sekedar (Kaltim 2009, hlm. 33-34) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("teoritis / sekedar"),
+    [re.compile(r"(?i)\bteoritis\b"),
+     re.compile(r"(?i)\bsekedar\b")],
+))
+
+# --- SPK-012: subjek didahului penghubung bahwa setelah keterangan Menurut X (Kaltim 2009, hlm. 11-12) ---
+CUSTOM_RULES.append((
+    lambda p: "penghubung bahwa" in p,
+    [re.compile(r"(?i)\bmenurut\s+[^,]{3,60},\s*bahwa\b")],
+))
+
+# --- SPK-013: frasa Berdasarkan X menunjukkan tanpa subjek (Kaltim 2009, hlm. 19) ---
+CUSTOM_RULES.append((
+    lambda p: "menunjukkan bahwa" in p,
+    [re.compile(r"(?i)\bberdasarkan\s+[^,.]{3,60}\s+menunjukkan\b")],
 ))
