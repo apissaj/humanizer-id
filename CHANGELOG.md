@@ -2,6 +2,23 @@
 
 Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti [Keep a Changelog](https://keepachangelog.com/id/1.1.0/) dan versi mengikuti [SemVer](https://semver.org/lang/id/).
 
+## [2.4.6] — 2026-11-17
+### Ditambahkan
+- **Lima entri kaidah Buku Praktis Bahasa Indonesia (Badan Bahasa)** — `BPBI-001` (17 pasang: erobik→aerobik, akountan→akuntan, arkhais→arkais, gladi→geladi, hirarki→hierarki, karir→karier, kuatir→khawatir, konggres→kongres, kurve→kurva, nahkoda→nakhoda, perangko→prangko, setasiun→stasiun, sahdu→syahdu, trampil→terampil, trotoir→trotoar, wakap→wakaf, wassalam→wasalam) dan `BPBI-002` (12 pasang: antri→antre, atlit→atlet, ajimat→azimat, faksimil→faksimile, filem→film, ijin→izin, joang→juang, khabar→kabar, kangker→kanker, kongkrit→konkret, tentram→tenteram, jiarah→ziarah) dari BPBI1/Kata; `BPBI-003` (`karenanya`/`makanya` → *oleh karena itu*/*oleh sebab itu*/*jadi*) dari BPBI1/Kalimat; `BPBI-004` (8 pasang: dekret→dekrit, azas→asas, hutang→utang, maghrib→magrib, atmosfir→atmosfer, eksim→eksem, apotik→apotek, kridit→kredit) dari BPBI2/1-30 & 31-60; `BPBI-005` (`contohnya seperti`/`umpamanya seperti` sebagai pleonasme) dari BPBI2/61-90; `BPBI-006` (`dilola`→`dikelola`, `sanjak`→`sajak`) dari BPBI1/Lain-lain & Sastra. `BPBI-007` (`pirsawan`->`pemirsa`, `debet`->`debit`, `voucher`->`voucer`) dari BPBI2 bagian 1-90. Total entri **618 -> 625**.
+- **Matcher `BPBI-001`–`BPBI-005`** di `humanizer_id/matchers.py` — case-insensitive, `` word boundary; uji positif/negatif lolos tanpa false positive.
+- **Ekstrak referensi verbatim + sitasi**: `references/bpbi-1-kata-badan-bahasa.md`, `references/bpbi-1-kalimat-badan-bahasa.md`, `references/bpbi-1-tanya-kebahasaan-badan-bahasa.md`, `references/bpbi-2-tanya-jawab-badan-bahasa.md`, `references/bpbi-1-lain-lain-badan-bahasa.md`, `references/bpbi-2-1-90-badan-bahasa.md`, `references/bpbi-1-sastra-badan-bahasa.md` (id.wikisource.org, domain publik UU No. 28/2014).
+
+### Diperbaiki
+- **Kontradiksi `CX11-002`**: entri sempat menyarankan `namun demikian` sebagai bentuk benar, padahal Buku Praktis 1 (`namun demikian` = *tetapi demikian* yang janggal) dan `PT-001` menyatakan salah. Saran diganti menjadi `meskipun demikian` / `(cukup 'namun')`.
+- **`PT-001`** diperkaya sitasi Buku Praktis Bahasa Indonesia 1 sebagai sumber kedua.
+
+### Dipertahankan
+- `baud→baut`, `sutra→sutera`, `lembab→lembap` tercantum di buku namun **tidak diaktifkan** — `baud` sah sebagai satuan laju data, `sutra` sah dalam konteks akademik/keagamaan, `lembab` lazim dipakai (menunggu telaah semantik).
+- `hisap→isap` dan `himbau→imbau` **tidak diaktifkan** — kontroversial dalam pemakaian modern.
+- `mengetrapkan→menerapkan` dan `mengenyampingkan→mengesampingkan` dari BPBI1/Lain-lain **tidak diduplikasi** — sudah aktif di BPK-012 dan KRF-001.
+- Pembahasan "majas vs gaya bahasa" (BPBI1/Sastra) hanya telaah terminologis — tidak dijadikan matcher.
+- Pasangan BPBI2 **tidak diaktifkan**: `relawan->sukarelawan` (sumber merujuk KBBI 1996; KBBI V sudah memuat `relawan`), `para hadirin` (BPBI2 menilai tidak mubazir), `kurban/korban` (beda makna), `elit/elite` + `bonafid/bonafide` + `faksimil/faksimile` (pelafalan, false-positive tinggi).
+
 ## [2.4.5] — 2026-11-17
 
 ### Diperbaiki
