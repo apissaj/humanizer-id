@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 652
+    "total_entri": 654
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7722,9 +7722,47 @@
           "penjelasan": "Nomor surat dinas tidak diakhiri tanda titik dan tidak pula diakhiri tanda titik yang diikuti tanda hubung. Dasar: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 59 — “nomor surat tidak diakhiri dengan tanda titik ataupun tanda titik dan tanda hubung”, dengan contoh nomor yang benar Nomor: 3546/F8/C.11/2015. Pola hanya menyala bila tanda itu berada di akhir baris nomor, sehingga titik di tengah kode seperti C.11 tidak tersentuh.",
           "contoh_salah": "Nomor: 3546/F8/C.11/2015.",
           "contoh_benar": "Nomor: 3546/F8/C.11/2015"
+        },
+        {
+          "id": "TMS-027",
+          "pola": "Nip 195900071989031003 / NIP 197 101 031 991 032004",
+          "saran_pengganti": [
+            "NIP 195900071989031003",
+            "NIP 197101031991032004"
+          ],
+          "penjelasan": "Singkatan NIP diambil dari huruf awal ketiga kata (Nomor Induk Pegawai), sehingga seluruh hurufnya kapital: NIP, bukan Nip. Angka NIP bukan menyatakan jumlah, jadi tidak diberi titik atau spasi setiap tiga angka dan tidak dipisah pada batas tertentu. Sumber: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 71.",
+          "contoh_salah": "Surat itu ditandatangani oleh pejabat berwenang dengan Nip 195900071989031003.",
+          "contoh_benar": "Surat itu ditandatangani oleh pejabat berwenang dengan NIP 195900071989031003.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bahasa Indonesia untuk Aparatur Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2016,
+            "halaman": "71"
+          }
+        },
+        {
+          "id": "TMS-028",
+          "pola": "Tembusan: Yth. / Tembusan: sebagai laporan",
+          "saran_pengganti": [
+            "Tembusan:",
+            "1. Sekretaris Jenderal",
+            "tanpa singkatan Yth.",
+            "tanpa frasa sebagai laporan"
+          ],
+          "penjelasan": "Pihak yang diberi tembusan tidak didahului singkatan Yth. dan tidak diikuti frasa sebagai laporan; pihak itu ditulis di bawah kata tembusan, diberi nomor urut angka Arab bila lebih dari satu, dan tidak diakhiri titik koma. Sumber: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 72.",
+          "contoh_salah": "Tembusan: Yth. Kepala Biro Hukum dan Organisasi",
+          "contoh_benar": "Tembusan:\n1. Kepala Biro Hukum dan Organisasi",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bahasa Indonesia untuk Aparatur Pemerintah: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+            "tahun": 2016,
+            "halaman": "72"
+          }
         }
       ]
     }
   },
-  "total_entri": 652
+  "total_entri": 654
 }

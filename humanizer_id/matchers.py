@@ -205,7 +205,7 @@ CUSTOM_RULES.extend([
      [re.compile(r'\b(bikin\s+bingung|banget\b)|(\s+kok\s*(?=[.!?]))|(\s+sih\s*(?=[.!?]))', re.IGNORECASE)]),
     # MBI-004: identitas responden berdigit tanpa anonimisasi (Istiqomah 2020)
     (lambda p: 'data mentah identitas subjek' in p,
-     [re.compile(r'\b(?:NIK|NIP|No\.?\s*KTP)\s*[:=]?\s*\d{4,}\b', re.IGNORECASE)]),
+     [re.compile(r'\b(?:NIK|No\.?\s*KTP)\s*[:=]?\s*\d{4,}\b', re.IGNORECASE)]),
 ])
 
 
@@ -1095,4 +1095,25 @@ CUSTOM_RULES.append((
 CUSTOM_RULES.append((
     lambda p: p.startswith("Kepada Yth /"),
     [re.compile(r"(?i)\bkepada\s+(?:yth\.?(?!\s+(?:bapak|ibu|sdr|saudara)\b)|yang\s+terhormat)(?=\s|$)")],
+))
+
+# --- BPK-007: "jam" alih-alih "pukul" untuk penunjuk waktu (Mustakim 2019, hlm. 78) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("pemakaian jam alih-alih pukul"),
+    [re.compile(r"(?i)\bjam\s+\d{1,2}[.:]\d{2}"),
+     re.compile(r"(?i)\bjam\s*:\s*\d{1,2}[.:]\d{2}")],
+))
+
+# --- TMS-027: singkatan NIP berkapitalisasi campur atau diberi spasi kelompok (BP2, 2016, hlm. 71) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Nip 195900071989031003"),
+    [re.compile(r"\bNip(?=\s*\d)"),
+     re.compile(r"\bNIP\s+\d{1,6}(?:\s+\d{1,6})+\b")],
+))
+
+# --- TMS-028: pihak pemberi tembusan didahului "Yth." atau diikuti "sebagai laporan" (BP2, 2016, hlm. 72) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Tembusan: Yth."),
+    [re.compile(r"(?i)\btembusan\s*:[^\n]{0,60}?\byth\."),
+     re.compile(r"(?i)\btembusan\s*:[^\n]*\bsebagai\s+laporan\b")],
 ))
