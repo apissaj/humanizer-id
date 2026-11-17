@@ -7541,9 +7541,31 @@
           "penjelasan": "Tanda pisah (–) dipakai untuk menyatakan keterangan 'sampai dengan', berbeda dari tanda hubung (-) yang menyambung kata atau suku kata (*Taktis Menyunting*, BRIN, 2019, hlm. 126). Bentuk keliru: Rapat berlangsung pukul 09:00-10:00. dan Pelatihan diselenggarakan tanggal 10-11 November 2022. Bentuk tepat memakai tanda pisah. Rentang angka lain seperti 2020-2024 tidak diperiksa karena pada sitasi dan tabel sering ditulis dengan tanda hubung.",
           "contoh_salah": "Rapat berlangsung pukul 09:00-10:00 pada 10-11 November 2022.",
           "contoh_benar": "Rapat berlangsung pukul 09.00–10.00 pada 10–11 November 2022."
+        },
+        {
+          "id": "TMS-013",
+          "pola": "tidak hanya ..., tapi juga ...",
+          "saran_pengganti": [
+            "tidak hanya ..., tetapi juga ...",
+            "bukan hanya ..., melainkan juga ..."
+          ],
+          "penjelasan": "Konjungsi korelatif hadir berpasangan dan pasangannya sudah ditentukan: tidak hanya ... tetapi juga ... dan bukan hanya ... melainkan juga ... (*Taktis Menyunting*, BRIN, 2019, Tabel 5.29, hlm. 128). Contoh buku: “Anda tidak hanya diminta presentasi, tetapi juga menjawab setiap pertanyaan.” Bentuk dengan tapi juga keliru karena tapi tidak baku. Pola yang diperiksa hanya pasangan yang memuat tapi juga; pasangan ‘bukan hanya ... tapi juga’ terkena pemeriksaan yang sama. Pasangan kedua yang memakai tetapi juga tidak diperiksa karena bentuk itu masih lazim dan tidak menyalahi ke baku an kata.",
+          "contoh_salah": "Anda tidak hanya diminta presentasi, tapi juga menjawab setiap pertanyaan.",
+          "contoh_benar": "Anda tidak hanya diminta presentasi, tetapi juga menjawab setiap pertanyaan."
+        },
+        {
+          "id": "TMS-014",
+          "pola": "Kepada pengendara mobil diharap memarkirkan / Bagi peserta diharapkan hadir",
+          "saran_pengganti": [
+            "Pengendara mobil diharap memarkirkan kendaraannya di halaman belakang.",
+            "Peserta diharapkan hadir tepat waktu."
+          ],
+          "penjelasan": "Kalimat tidak sepadan terjadi bila gagasan dan struktur kalimat tidak seimbang, umumnya karena subjek didahului preposisi sehingga kalimat kehilangan subjek (*Taktis Menyunting*, BRIN, 2019, Tabel 5.32, hlm. 130). Bentuk keliru: “Kepada pengendara mobil diharap memarkirkan kendaraannya di halaman belakang.” Bentuk tepat: “Pengendara mobil diharap memarkirkan kendaraannya di halaman belakang.” Pola yang diperiksa: kepada atau bagi + perian + diharap/diharapkan/diminta/dipersilakan. Frasa relatif seperti ‘bantuan kepada warga yang diharapkan segera tiba’ tidak ditandai karena diharapkan di situ menerangkan warga, bukan predikat kalimat.",
+          "contoh_salah": "Kepada pengendara mobil diharap memarkirkan kendaraannya di halaman belakang. Bagi peserta diharapkan hadir tepat waktu.",
+          "contoh_benar": "Pengendara mobil diharap memarkirkan kendaraannya di halaman belakang. Peserta diharapkan hadir tepat waktu."
         }
       ]
     }
   },
-  "total_entri": 638
+  "total_entri": 640
 }

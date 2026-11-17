@@ -994,3 +994,18 @@ CUSTOM_RULES.append((
     [re.compile(r"\b\d{1,2}[:.]\d{2}\s*-\s*\d{1,2}[:.]\d{2}\b"),
      re.compile(r"\b\d{1,2}\s*-\s*\d{1,2}\s+(?:Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\b")],
 ))
+
+
+# --- TMS-013: konjungsi korelatif berpasangan, tapi juga tidak baku (Tabel 5.29, hlm. 128) ---
+# 'tidak hanya ... tapi juga' -> '..., tetapi juga'; 'bukan hanya ... tapi juga' -> '..., melainkan juga'.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("tidak hanya ..., tapi juga"),
+    [re.compile(r"(?i)\b(?:tidak|bukan)\s+hanya\b[^.!?\n]{0,120}?\btapi\s+juga\b")],
+))
+
+# --- TMS-014: kalimat tidak sepadan, subjek didahului preposisi (Tabel 5.32, hlm. 130) ---
+# 'Kepada pengendara mobil diharap ...' -> 'Pengendara mobil diharap ...'.
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Kepada pengendara mobil diharap"),
+    [re.compile(r"(?i)\b(?:kepada|bagi)(?!\s+hasil\b)\s+[A-Za-z][^.,;:!?\n]{2,50}?\s+(?<!yang )(?:diharap|diharapkan|diminta|dipersilakan)\b")],
+))
