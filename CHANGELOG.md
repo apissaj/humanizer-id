@@ -4,6 +4,36 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 660 kaidah
+
+Melanjutkan bedah Rusbiyantoro dkk. (2009), kali ini subbab 3.6 (tanda baca, hlm. 27-37) dan
+3.7 (unsur serapan, hlm. 38-41):
+
+- `TMS-032` - akhiran serapan `-ir` tidak baku: `dilegalisir`, `menginventarisir`,
+  `terakomodir`, `terorganisir`, `mengkoordinir`, `diregionalisir` -> bentuk `-asi`/`-isasi`.
+- `TMS-033` - ejaan serapan yang belum disesuaikan: `tehknik`, `enerjik`, `rejional`,
+  `aktip`, `perogram`.
+- `TMS-034` - penghubung antarkalimat berunsur dua kata di awal kalimat tanpa koma:
+  `Sementara itu`, `Oleh karena itu`, `Dengan demikian`, `Selain itu`; melengkapi `SPE-003`
+  yang hanya menangani bentuk satu kata (`Namun`, `Bahkan`, `Kemudian`, `Lagi pula`).
+
+Tiga kaidah lama yang ada di data tanpa mesin kini punya matcher: `BAK-005` (`analisa`),
+`BAK-007` (`praktek`, tanpa menandai `praktis`), dan `BPK-038` (`mengaktipkan`).
+Contoh buku (91)-(93) tentang koma sebelum anak kalimat kausal terverifikasi sudah
+tertangkap `KJK-005` dan `SPE-001`; contoh (107) `Hut ke 58` sudah tertangkap `EYD-027`.
+
+Lima kaidah buku sengaja tidak diaktifkan dan dicatat `[telaah]` di referensi: singkatan
+gelar tanpa titik (EYD V memperbolehkan), angka ribuan tanpa titik, koma serial sebelum
+`dan` (EYD V menjadikannya pilihan penulis), koma sebelum `tetapi`/`sedangkan` antarklausa,
+dan kutipan langsung tanpa tanda petik.
+
+Referensi baru: `references/pusat-bahasa-2009-tanda-baca-dan-serapan.md` (kutipan verbatim
+hlm. 27-41 + penanda `[OCR]` + anotasi `[telaah]`).
+
+Verifikasi: `work/test_tms32_33.py` 28/28, `work/test_tms34.py` 11/11, `uv run pytest -q`
+45 passed, uji nol positif palsu tetap 0.
+
+
 ### 657 kaidah
 
 Wenni Rusbiyantoro, Nur Bety, dan Mardi Nugroho, *Beberapa Permasalahan Pemakaian Bahasa
@@ -31,6 +61,7 @@ belum dipola).
 
 Verifikasi: `work/test_tms30_31.py` 29/29, `uv run pytest -q` 45 passed, uji nol positif
 palsu tetap 0.
+
 
 ## [2.4.6] - 2026-11-17
 
