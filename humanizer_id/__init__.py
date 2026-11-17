@@ -1,4 +1,4 @@
-"""Humanizer ID: mesin editorial bahasa Indonesia berbasis 634 kaidah preskriptif."""
+"""Humanizer ID: mesin editorial bahasa Indonesia berbasis 638 kaidah preskriptif."""
 
 __version__ = "2.4.6"
 
