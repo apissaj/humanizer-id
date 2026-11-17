@@ -26,7 +26,7 @@
 
 ---
 
-**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 638 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + lima sub-kaidah dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
+**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 640 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + lima sub-kaidah dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
 
@@ -192,7 +192,7 @@ Seluruh kaidah **bukan karangan bebas** — setiap aturan ditelusuri dari dokume
 
 Dataset terbuka di [data/](data/):
 
-- [data/kalke-indonesia.json](data/kalke-indonesia.json) - 638 entri leksikon kalke, verba ringan, pola antisipatif AI, kaidah morfologi EYD V.
+- [data/kalke-indonesia.json](data/kalke-indonesia.json) - 640 entri leksikon kalke, verba ringan, pola antisipatif AI, kaidah morfologi EYD V.
 - [data/glosarium-lintas-bidang.json](data/glosarium-lintas-bidang.json) - 137 padanan istilah baku (Teknologi 59, Bisnis 44, Linguistik 17, Hukum 10, Jurnalistik 7).
 - [data/pedoman-kampus.json](data/pedoman-kampus.json) - preset 16 perguruan tinggi + jurnal dikbud.
 
@@ -254,7 +254,7 @@ Bukan. Humanizer ID membersihkan pola tulisan AI agar terbaca manusiawi dan prof
 Ya. CLI auditor 100% pustaka standar Python tanpa dependensi; seluruh kaidah tersimpan lokal di data/ dan references/.
 
 **Apa bedanya dengan alat penyunting naskah AI generik?**
-Humanizer ID khusus bahasa Indonesia: 638 kaidah preskriptif bersumber dokumen resmi dengan nomor halaman, bukan penyaring gaya generik.
+Humanizer ID khusus bahasa Indonesia: 640 kaidah preskriptif bersumber dokumen resmi dengan nomor halaman, bukan penyaring gaya generik.
 
 **Apa itu sub-kaidah (skill)?**
 Folder berisi SKILL.md yang memperdalam satu ranah (ejaan, sintaksis, diksi, wacana, naskah resmi). Sub-kaidah merujuk kaidah induk lewat ID (mis. TBB-021) dan tidak pernah menduplikasinya - menambah satu tak mengubah induk.
