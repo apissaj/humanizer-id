@@ -1238,3 +1238,18 @@ CUSTOM_RULES.append((
      re.compile(r"(?i)\beffektif\w*\b"),
      re.compile(r"(?i)\beffisien\w*\b")],
 ))
+
+# --- TMS-037: perangkapan verba, penyerapan keliru, dan preposisi serangkai (Kaltim 2009, hlm. 8-11) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("menstimulir / panili"),
+    [re.compile(r"(?i)\b\w*stimulir\w*\b"),
+     re.compile(r"(?i)\bpanili\b"),
+     re.compile(r"(?i)\b(?:di(?:sekitar|areal|area|ladang|kebun|kantor|dunia|pasar|rumah|atas|sekolah))\b(?!\w)")],
+))
+
+# --- TMS-038: preposisi gabungan tidak lengkap (Kaltim 2009, hlm. 11) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("mulai Maret sampai Mei"),
+    [re.compile(r"\b(?:mulai|Mulai|MULAI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)"),
+     re.compile(r"\b(?:dari|Dari|DARI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)")],
+))

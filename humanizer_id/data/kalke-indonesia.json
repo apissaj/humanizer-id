@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 662
+    "total_entri": 664
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7922,9 +7922,49 @@
             "tahun": 2019,
             "halaman": "67-68"
           }
+        },
+        {
+          "id": "TMS-037",
+          "pola": "menstimulir / panili / disekitar / diareal / diladang",
+          "saran_pengganti": [
+            "menstimulasi",
+            "vanili",
+            "di sekitar",
+            "di area",
+            "di ladang"
+          ],
+          "penjelasan": "Bentukan perangkapan verba dan penyerapan yang keliru: menstimulir menangkap kata kerja dua kali (stimulir sudah verba, ditambah lagi meng-), bentuk bakunya menstimulasi dari nomina stimulasi; panili bukan penyerapan vanili yang baku; disekitar, diareal, dan diladang adalah preposisi di yang dilekatkan pada nomina sehingga harus ditulis terpisah. Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 8-11.",
+          "contoh_salah": "Auksin mampu menstimulir pembelahan pada tanaman panili yang dipelajari disekitar areal uji dan diladang percobaan.",
+          "contoh_benar": "Auksin mampu menstimulasi pembelahan pada tanaman vanili yang dipelajari di sekitar area uji dan di ladang percobaan.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "8-11"
+          }
+        },
+        {
+          "id": "TMS-038",
+          "pola": "mulai Maret sampai Mei (preposisi gabungan tidak lengkap)",
+          "saran_pengganti": [
+            "mulai Maret sampai dengan Mei",
+            "dari Maret sampai dengan Mei",
+            "sejak Maret hingga Mei"
+          ],
+          "penjelasan": "Preposisi gabungan terdiri atas dua unsur yang dipakai berpasangan dan terpisah oleh frasa lain: antara ... dengan ..., dari ... sampai dengan ..., sejak ... hingga ..., dan dari ... ke .... Pasangan mulai ... sampai ... kurang lengkap; bentuk bakunya mulai ... sampai dengan ... atau sejak ... hingga .... Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 11.",
+          "contoh_salah": "Pengambilan sampel dilakukan mulai Maret sampai Mei 2024.",
+          "contoh_benar": "Pengambilan sampel dilakukan mulai Maret sampai dengan Mei 2024.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "11"
+          }
         }
       ]
     }
   },
-  "total_entri": 662
+  "total_entri": 664
 }
