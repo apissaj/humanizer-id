@@ -1023,3 +1023,23 @@ CUSTOM_RULES.append((
     [re.compile(r"(?i)\b(?:impelementasi|pelaksaan)\b"),
      re.compile(r"(?i)\binstrument\b(?=\s+(?:penelitian|peneliti)\b)")],
 ))
+
+# --- TMS-017: kata depan di serangkai dengan nomina (Rahman, BRIN 2022) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("dimasa / diinternet"),
+    [re.compile(r"(?i)\bdi(?:masa|internet|rumah|kantor|lapangan|sekolah|kampus)\b")],
+))
+
+# --- TMS-018: imbuhan terpisah spasi dari bentuk dasar (Rahman, BRIN 2022) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("memudah kan / menumbuh kembangkan"),
+    [re.compile(r"(?i)\b(?:mem(?!ang\b)|men|meng|meny)[a-z]{2,}\s+(?:kan|lah|nya)\b"),
+     re.compile(r"(?<![A-Za-z])(?:men|mem|meng|meny)\s+[a-z]{4,}\b"),
+     re.compile(r"(?i)\bmenumbuh\s+kembangkan\b")],
+))
+
+# --- TMS-019: nama bahasa berhuruf kecil (EYD; contoh Rahman, BRIN 2022) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("bahasa inggris / bahasa indonesia"),
+    [re.compile(r"\b(?:ber)?bahasa\s+(?:inggris|indonesia|arab|jepang|belanda|prancis|mandarin|jawa|sunda|korea)\b")],
+))

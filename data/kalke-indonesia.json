@@ -7586,9 +7586,56 @@
           "penjelasan": "Kekeliruan bentuk kata yang lazim lolos pada penulisan akademik: huruf yang hilang atau tertukar dan kata yang belum diserap sempurna. Bentuk keliru “impelementasi” (seharusnya implementasi), “pelaksaan” (seharusnya pelaksanaan), dan “instrument penelitian” (seharusnya instrumen penelitian) tercatat sebagai kesalahan diksi pada Sihombing dkk., “Analisis Pemilihan Diksi terhadap Penulisan Skripsi Mahasiswa PGSD Universitas Negeri Medan”, AR RUMMAN 1(2), 2024, Tabel 1, hlm. 547-548. Kata instrument hanya ditandai bila diikuti penelitian atau peneliti agar teks berbahasa Inggris tidak ikut terkena.",
           "contoh_salah": "Pada tahap pelaksaan penelitian, impelementasi kebijakan diukur dengan instrument penelitian yang telah divalidasi.",
           "contoh_benar": "Pada tahap pelaksanaan penelitian, implementasi kebijakan diukur dengan instrumen penelitian yang telah divalidasi."
+        },
+        {
+          "id": "TMS-017",
+          "pola": "dimasa / diinternet / dirumah / dikantor / dilapangan / disekolah / dikampus",
+          "saran_pengganti": [
+            "di masa",
+            "di internet",
+            "di rumah",
+            "di kantor",
+            "di lapangan",
+            "di sekolah",
+            "di kampus"
+          ],
+          "penjelasan": "Kata depan di ditulis terpisah dari kata yang mengikutinya. Kesalahan ini tampak pada contoh suntingan Kemas Ferri Rahman, “Komunikasi Perusahaan Melalui Tulisan” (Penerbit BRIN, 2022), hlm. 34–35: versi keliru menulis “dimasa sekarang” dan “diinternet”, versi yang telah disunting menulis “di masa sekarang” dan “di internet”. Awalan di- yang serangkai hanya sah pada kata kerja pasif (ditulis, dikirim), bukan pada kata depan yang menerangkan tempat atau waktu. Pola dibatasi pada nomina yang lazim muncul dalam naskah dinas dan akademik agar kata seperti dinas, diri, atau dinding tidak ikut tertandai.",
+          "contoh_salah": "Berkas itu tersimpan dirumah dinas dan dikirim dikantor pusat sebelum diunggah diinternet.",
+          "contoh_benar": "Berkas itu tersimpan di rumah dinas dan dikirim di kantor pusat sebelum diunggah di internet."
+        },
+        {
+          "id": "TMS-018",
+          "pola": "memudah kan / menumbuh kembangkan / men translasi",
+          "saran_pengganti": [
+            "memudahkan",
+            "menumbuhkembangkan",
+            "mentranslasi"
+          ],
+          "penjelasan": "Awalan dan akhiran tidak boleh dipisahkan dari bentuk dasarnya dengan spasi. Contoh pada Kemas Ferri Rahman, “Komunikasi Perusahaan Melalui Tulisan” (Penerbit BRIN, 2022), hlm. 34–35: “memudah kan” seharusnya memudahkan, “menumbuh kembangkan” seharusnya menumbuhkembangkan, dan “men translasi” seharusnya mentranslasi. Pola yang diperiksa: imbuhan me- yang terpisah dari bentuk dasar, akhiran -kan/-lah/-nya yang terpisah dari kata berimbuhan, serta gabungan menumbuh kembangkan. Awalan men- atau mem- yang berdiri sendiri dalam teks berbahasa Inggris tidak ditandai karena pola peka huruf besar-kecil.",
+          "contoh_salah": "Aplikasi ini memudah kan pengguna dan menumbuh kembangkan kebiasaan membaca.",
+          "contoh_benar": "Aplikasi ini memudahkan pengguna dan menumbuhkembangkan kebiasaan membaca."
+        },
+        {
+          "id": "TMS-019",
+          "pola": "bahasa inggris / bahasa indonesia / bahasa arab / bahasa jepang / bahasa belanda / bahasa prancis / bahasa mandarin / bahasa jawa / bahasa sunda / bahasa korea",
+          "saran_pengganti": [
+            "bahasa Inggris",
+            "bahasa Indonesia",
+            "bahasa Arab",
+            "bahasa Jepang",
+            "bahasa Belanda",
+            "bahasa Prancis",
+            "bahasa Mandarin",
+            "bahasa Jawa",
+            "bahasa Sunda",
+            "bahasa Korea"
+          ],
+          "penjelasan": "Nama bahasa ditulis dengan huruf kapital pada unsur nama bangsanya, sedangkan kata bahasa sendiri tetap berhuruf kecil di tengah kalimat. Kesalahan ini muncul pada contoh suntingan Kemas Ferri Rahman, “Komunikasi Perusahaan Melalui Tulisan” (Penerbit BRIN, 2022), hlm. 34–35: “Bahasa inggris” dan “google Translate” diperbaiki menjadi “bahasa Inggris” dan “Google Translate”. Kaidah ini sejalan dengan EYD tentang huruf kapital pada nama bangsa, suku bangsa, dan bahasa. Pola hanya menandai unsur nama bahasa yang berhuruf kecil; penulisan bahasa asing yang memang bukan nama bahasa tidak tersentuh.",
+          "contoh_salah": "Ia menerjemahkan dokumen berbahasa inggris ke bahasa indonesia.",
+          "contoh_benar": "Ia menerjemahkan dokumen berbahasa Inggris ke bahasa Indonesia."
         }
       ]
     }
   },
-  "total_entri": 642
+  "total_entri": 645
 }
