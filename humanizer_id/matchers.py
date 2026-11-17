@@ -1253,3 +1253,23 @@ CUSTOM_RULES.append((
     [re.compile(r"\b(?:mulai|Mulai|MULAI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)"),
      re.compile(r"\b(?:dari|Dari|DARI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)")],
 ))
+
+# --- TMS-039: serapan memposisikan/marjinal/hektar (Kaltim 2009, hlm. 24-25) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("memposisikan / marjinal"),
+    [re.compile(r"(?i)\b\w*posisikan\b|\bmemposisi\b"),
+     re.compile(r"(?i)\bmarjinal\w*\b"),
+     re.compile(r"(?i)\bhektar\b")],
+))
+
+# --- TMS-040: konfiks wajib pada prioritas/hasil (Kaltim 2009, hlm. 25-26) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("menghasil (awalan meng-"),
+    [re.compile(r"(?i)\bmenghasil\b")],
+))
+
+# --- TMS-041: respon alih-alih respons (Kaltim 2009, hlm. 26) ---
+CUSTOM_RULES.append((
+    lambda p: p == "respon",
+    [re.compile(r"(?i)\brespon\b")],
+))

@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 664
+    "total_entri": 667
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7962,9 +7962,62 @@
             "tahun": 2009,
             "halaman": "11"
           }
+        },
+        {
+          "id": "TMS-039",
+          "pola": "memposisikan / marjinal / hektar",
+          "saran_pengganti": [
+            "memosisikan",
+            "marginal",
+            "hektare"
+          ],
+          "penjelasan": "Tiga bentuk serapan dan turunannya yang keliru: memposisikan menuliskan fonem /p/ yang seharusnya luluh setelah awalan meng- (bentuk baku memosisikan); marjinal menyerap /dʒ/ alih-alih /dʒ/ → j (bentuk baku marginal); hektar memangkas vokal akhir (bentuk baku hektare). Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, Departemen Pendidikan Nasional, 2009), hlm. 24-25.",
+          "contoh_salah": "Kebijakan itu memposisikan wilayah marjinal dengan luas 500 hektar.",
+          "contoh_benar": "Kebijakan itu memosisikan wilayah marginal dengan luas 500 hektare.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "24-25"
+          }
+        },
+        {
+          "id": "TMS-040",
+          "pola": "menghasil (awalan meng- tanpa akhiran -kan)",
+          "saran_pengganti": [
+            "menghasilkan"
+          ],
+          "penjelasan": "Nomina hasil tidak dapat hanya dilekati awalan meng-; bentuk turunan baku yang menyatakan tindakan adalah hasil dari konfiks meng-...-kan, yaitu menghasilkan. Bentuk menghasil tidak baku. Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, 2009), hlm. 25-26. Pasangan diprioritas pada halaman yang sama sudah dijaga kaidah KK-004.",
+          "contoh_salah": "Sektor unggulan diprioritaskan pemerintah untuk menghasil devisa daerah.",
+          "contoh_benar": "Sektor unggulan diprioritaskan pemerintah untuk menghasilkan devisa daerah.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "25-26"
+          }
+        },
+        {
+          "id": "TMS-041",
+          "pola": "respon",
+          "saran_pengganti": [
+            "respons"
+          ],
+          "penjelasan": "Bentuk baku serapan dari bahasa Inggris response adalah respons, bukan respon yang memangkas -s terakhir. Turunan yang lazim dipakai adalah responsif dan responsivitas. Sumber: Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, dan Erminawati, “Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur” (Pusat Bahasa, 2009), hlm. 26. Bentuk mempengaruhi dari halaman yang sama sudah dijaga kaidah BAK-001, sehingga tidak diduplikasi di sini.",
+          "contoh_salah": "Suhu memengaruhi respon fisiologis tanaman terhadap cekaman air.",
+          "contoh_benar": "Suhu memengaruhi respons fisiologis tanaman terhadap cekaman air.",
+          "rujukan": {
+            "penulis": "Winarti, Yudianti Herawati, Aminuddin Rifai, Diyan Kurniawati, Emiliana Patiung, Erminawati",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "26"
+          }
         }
       ]
     }
   },
-  "total_entri": 664
+  "total_entri": 667
 }
