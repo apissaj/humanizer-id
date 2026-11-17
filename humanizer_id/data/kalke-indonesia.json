@@ -7563,9 +7563,32 @@
           "penjelasan": "Kalimat tidak sepadan terjadi bila gagasan dan struktur kalimat tidak seimbang, umumnya karena subjek didahului preposisi sehingga kalimat kehilangan subjek (*Taktis Menyunting*, BRIN, 2019, Tabel 5.32, hlm. 130). Bentuk keliru: “Kepada pengendara mobil diharap memarkirkan kendaraannya di halaman belakang.” Bentuk tepat: “Pengendara mobil diharap memarkirkan kendaraannya di halaman belakang.” Pola yang diperiksa: kepada atau bagi + perian + diharap/diharapkan/diminta/dipersilakan. Frasa relatif seperti ‘bantuan kepada warga yang diharapkan segera tiba’ tidak ditandai karena diharapkan di situ menerangkan warga, bukan predikat kalimat.",
           "contoh_salah": "Kepada pengendara mobil diharap memarkirkan kendaraannya di halaman belakang. Bagi peserta diharapkan hadir tepat waktu.",
           "contoh_benar": "Pengendara mobil diharap memarkirkan kendaraannya di halaman belakang. Peserta diharapkan hadir tepat waktu."
+        },
+        {
+          "id": "TMS-015",
+          "pola": "media masa / nara blog",
+          "saran_pengganti": [
+            "media massa",
+            "narablog"
+          ],
+          "penjelasan": "Bentuk yang sudah padu ditulis serangkai atau dengan huruf yang benar, bukan dipisah atau diganti hurufnya. “media massa” bukan “media masa” karena masa berarti waktu, sedangkan massa berarti kumpulan orang banyak; “narablog” bukan “nara blog” karena nara- adalah bentuk terikat yang harus serangkai dengan kata yang mengikutinya. Kesalahan ini muncul berulang pada artikel M. Zaim, “Keberterimaan dan Kebermanfaatan Serapan Kata Asing dalam Bidang Teknologi Informasi oleh Penutur Indonesia” (2018): frasa “media masa” dipakai lima kali, sedangkan tabelnya sendiri menulis “narablog” untuk padanan blogger, sehingga artikel itu tidak konsisten dengan kaidah yang dikutipnya. Bentuk baku mengikuti KBBI: media massa, narablog, narahubung, narasumber, narapidana.",
+          "contoh_salah": "Berita itu dimuat media masa dan ditulis nara blog.",
+          "contoh_benar": "Berita itu dimuat media massa dan ditulis narablog."
+        },
+        {
+          "id": "TMS-016",
+          "pola": "impelementasi / pelaksaan / instrument penelitian",
+          "saran_pengganti": [
+            "implementasi",
+            "pelaksanaan",
+            "instrumen penelitian"
+          ],
+          "penjelasan": "Kekeliruan bentuk kata yang lazim lolos pada penulisan akademik: huruf yang hilang atau tertukar dan kata yang belum diserap sempurna. Bentuk keliru “impelementasi” (seharusnya implementasi), “pelaksaan” (seharusnya pelaksanaan), dan “instrument penelitian” (seharusnya instrumen penelitian) tercatat sebagai kesalahan diksi pada Sihombing dkk., “Analisis Pemilihan Diksi terhadap Penulisan Skripsi Mahasiswa PGSD Universitas Negeri Medan”, AR RUMMAN 1(2), 2024, Tabel 1, hlm. 547-548. Kata instrument hanya ditandai bila diikuti penelitian atau peneliti agar teks berbahasa Inggris tidak ikut terkena.",
+          "contoh_salah": "Pada tahap pelaksaan penelitian, impelementasi kebijakan diukur dengan instrument penelitian yang telah divalidasi.",
+          "contoh_benar": "Pada tahap pelaksanaan penelitian, implementasi kebijakan diukur dengan instrumen penelitian yang telah divalidasi."
         }
       ]
     }
   },
-  "total_entri": 640
+  "total_entri": 642
 }

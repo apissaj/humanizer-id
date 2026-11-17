@@ -1009,3 +1009,17 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("Kepada pengendara mobil diharap"),
     [re.compile(r"(?i)\b(?:kepada|bagi)(?!\s+hasil\b)\s+[A-Za-z][^.,;:!?\n]{2,50}?\s+(?<!yang )(?:diharap|diharapkan|diminta|dipersilakan)\b")],
 ))
+
+
+# --- TMS-015: bentuk padu keliru pada istilah media (Zaim 2018) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("media masa / nara blog"),
+    [re.compile(r"(?i)\bmedia\s+masa\b"), re.compile(r"(?i)\bnara\s+blog\b")],
+))
+
+# --- TMS-016: kekeliruan bentuk kata naskah akademik (Sihombing dkk. 2024) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("impelementasi / pelaksaan"),
+    [re.compile(r"(?i)\b(?:impelementasi|pelaksaan)\b"),
+     re.compile(r"(?i)\binstrument\b(?=\s+(?:penelitian|peneliti)\b)")],
+))
