@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 660
+    "total_entri": 662
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3859,7 +3859,7 @@
             "bergantung pada",
             "terdiri atas"
           ],
-          "penjelasan": "Ungkapan idiomatis berpreposisi sudah menjadi satu kesatuan makna; preposisi keduanya dilarang dihilangkan karena keduanya merupakan satu kesatuan (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 78).",
+          "penjelasan": "Ungkapan idiomatis berpreposisi sudah menjadi satu kesatuan makna; preposisi keduanya dilarang dihilangkan karena keduanya merupakan satu kesatuan (Mustakim, Bentuk dan Pilihan Kata, Pusat Bahasa 2014, hlm. 78). Pemerluasan siklus 2026-11: nomina keterangan acak (cuaca, anggaran, penilaian) ikut ditandai, tidak lagi terbatas daftar tertutup (Mustakim 2019, hlm. 63-64).",
           "contoh_salah": "Penggunaan kata ini tidak sesuai konteks kalimat akademik.",
           "contoh_benar": "Penggunaan kata ini tidak sesuai dengan konteks kalimat akademik."
         },
@@ -7882,9 +7882,49 @@
             "tahun": 2009,
             "halaman": "33"
           }
+        },
+        {
+          "id": "TMS-035",
+          "pola": "sudah kumpul / telah kumpul / sampai jumpa",
+          "saran_pengganti": [
+            "sudah berkumpul",
+            "telah berkumpul",
+            "sampai berjumpa"
+          ],
+          "penjelasan": "Bentuk gramatikal kata harus lengkap dengan imbuhannya dalam ragam resmi. Verba intransitif kumpul dan jumpa belum gramatikal sebagai predikat tanpa awalan ber-, sehingga bentuk bakunya berkumpul dan berjumpa. Sumber: Mustakim, “Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia” (Badan Pengembangan Bahasa dan Perbukuan, 2019), hlm. 62.",
+          "contoh_salah": "Para peserta upacara sudah kumpul di lapangan. Sampai jumpa pada kesempatan yang lain.",
+          "contoh_benar": "Para peserta upacara sudah berkumpul di lapangan. Sampai berjumpa pada kesempatan yang lain.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan",
+            "tahun": 2019,
+            "halaman": "62"
+          }
+        },
+        {
+          "id": "TMS-036",
+          "pola": "akte / beaya / efektip / effektif / effisien",
+          "saran_pengganti": [
+            "akta",
+            "biaya",
+            "efektif",
+            "efektif",
+            "efisien"
+          ],
+          "penjelasan": "Bentuk tidak baku pada daftar baku-tidak baku: akte → akta, beaya → biaya, efektip dan effektif → efektif, effisien → efisien. Bentuk baku dipilih dalam pemakaian bahasa resmi. Sumber: Mustakim, “Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia” (Badan Pengembangan Bahasa dan Perbukuan, 2019), hlm. 67-68.",
+          "contoh_salah": "Beaya pembuatan akte kelahiran dinilai effisien dan efektip oleh warga.",
+          "contoh_benar": "Biaya pembuatan akta kelahiran dinilai efisien dan efektif oleh warga.",
+          "rujukan": {
+            "penulis": "Mustakim",
+            "buku": "Bentuk dan Pilihan Kata: Seri Penyuluhan Bahasa Indonesia",
+            "penerbit": "Badan Pengembangan Bahasa dan Perbukuan",
+            "tahun": 2019,
+            "halaman": "67-68"
+          }
         }
       ]
     }
   },
-  "total_entri": 660
+  "total_entri": 662
 }

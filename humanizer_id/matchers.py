@@ -106,7 +106,7 @@ CUSTOM_RULES = [
     (lambda p: 'antara lain lalu ditutup' in p, [re.compile('\\b(misalnya|seperti|contohnya|umpamanya|antara lain)\\b[^.!?]{4,120}?\\b(dan\\s+lain-lain|dan\\s+sebagainya|dan\\s+seterusnya)\\b', re.IGNORECASE)]),
     (lambda p: 'bentuk ulang resiprokal' in p, [re.compile('\\bsaling\\s+(\\w+)-(\\w+)\\b', re.IGNORECASE), re.compile('\\bsaling\\s+ber\\w+an\\b', re.IGNORECASE)]),
     (lambda p: 'penyalahgunaan dan sebagainya' in p, [re.compile('\\b(sesi\\s+\\w+,\\s*sesi\\s+\\w+|pertama,\\s*\\w+,\\s*kedua)[^.!?]{0,60}\\bdan\\s+lain-lain\\b', re.IGNORECASE)]),
-    (lambda p: 'ungkapan idiomatis dihilangkan' in p, [re.compile('\\b(sesuai|berkaitan|sehubungan)\\s+(?!dengan\\b)(?=(tidak|kurang|konteks|hal|masalah|perkara|ketentuan|aturan))', re.IGNORECASE), re.compile('\\b(bergantung|tergantung)\\s+(?!pada\\b)(?=(hasil|kondisi|keputusan|situasi|tingkat))', re.IGNORECASE)]),
+    (lambda p: 'ungkapan idiomatis dihilangkan' in p, [re.compile('\\b(sesuai|berkaitan|sehubungan)\\s+(?!dengan\\b)(?=(tidak|kurang|konteks|hal|masalah|perkara|ketentuan|aturan))', re.IGNORECASE), re.compile('\\b(bergantung|tergantung)\\s+(?!pada\\b)(?=(hasil|kondisi|keputusan|situasi|tingkat|cuaca|anggaran|penilaian|kesepakatan|hasil survei|dukungan))', re.IGNORECASE)]),
     (lambda p: 'makna asal/sumber/penjelasan' in p, [re.compile('\\b(?:terbuat|berasal|terbentuk|tersusun)\\s+daripada\\b|\\btujuan\\s+daripada\\b|\\bmaksud\\s+daripada\\b|\\bterbuat\\s+\\w*\\s*daripada\\b', re.IGNORECASE)]),
     (lambda p: 'menggugurkan konsonan akhir' in p, [re.compile('\\b(dominant|informant|tolerant|relevant|optimist|realist|nationalist|manifest|latent|konsultan?\\w*ant)\\b', re.IGNORECASE)]),
     (lambda p: 'istilah klasik/generik dijauhkan' in p, [re.compile('\\bzat\\s+lemas\\b|\\bzat\\s+air\\b|\\bzat\\s+asam\\b|\\billmu\\s+pasti\\b|\\billmu\\s+pisah\\b|\\bsaran\\s+diri\\b', re.IGNORECASE)]),
@@ -1220,4 +1220,21 @@ CUSTOM_RULES.append((
 CUSTOM_RULES.append((
     lambda p: p.startswith("Sementara itu ... / Oleh karena itu"),
     [re.compile(r"(?m)(?:^|[.!?]\s+|\n)\s*(?:Sementara\s+itu|Oleh\s+karena\s+itu|Dengan\s+demikian|Selain\s+itu)\s+(?=[^\s,.;:])")],
+))
+
+# --- TMS-035: verba tanpa awalan ber- sebagai predikat (Mustakim 2019, hlm. 62) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("sudah kumpul / telah kumpul"),
+    [re.compile(r"(?i)\b(?:sudah|telah|akan|baru)\s+(?:kumpul|jumpa)\b"),
+     re.compile(r"(?i)\bsampai\s+jumpa\b")],
+))
+
+# --- TMS-036: bentuk tidak baku daftar Mustakim 2019 (hlm. 67-68) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("akte / beaya"),
+    [re.compile(r"(?i)\bakte\b"),
+     re.compile(r"(?i)\bbeaya\b"),
+     re.compile(r"(?i)\befektip\w*\b"),
+     re.compile(r"(?i)\beffektif\w*\b"),
+     re.compile(r"(?i)\beffisien\w*\b")],
 ))
