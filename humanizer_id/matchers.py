@@ -1057,3 +1057,42 @@ CUSTOM_RULES.append((
     [re.compile(r"(?i)\b(?:non[ -]migas|antar[ -]daerah|purna[ -]jual|pra[ -]sejarah|catur[ -]warga)\b"),
      re.compile(r"(?i)\b(?:tri[ -]tunggal|dwi[ -]fungsi|eka[ -]darma|sapta[ -]pesona|sub[ -]sistem)\b")],
 ))
+
+
+# --- TMS-023: singkatan jalan dan telepon pada alamat surat ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Jl. / Jln. / Telp. / Tip."),
+    [re.compile(r"\bJl\.\s*(?=[A-Z0-9])"),
+     re.compile(r"\bJln\.\s*"),
+     re.compile(r"(?i)\bTelp\.\s*(?=[0-9(])"),
+     re.compile(r"(?i)\bTip\.\s*(?=[0-9(])")],
+))
+
+# --- TMS-024: format tanggal surat dinas ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Tanggal 25 Bulan Juni Tahun 2015"),
+    [re.compile(r"(?i)\btanggal\s+\d{1,2}\s+bulan\s+[a-z]+\s+tahun\s+\d{4}\b"),
+     re.compile(r"\b\d{1,2}\s+(?:Jan|Feb|Mar|Apr|Mei|Jun|Jul|Agu|Sep|Okt|Nov|Des)\s*'\d{2}\b"),
+     re.compile(r"(?<![\d-])\d{1,2}-\d{2}-\d{4}(?![\d-])"),
+     re.compile(r"\b0\d\s+(?:Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\b")],
+))
+
+# --- TMS-025: penulisan jumlah lampiran surat dinas ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Lampiran: 5 (lima) lembar"),
+    [re.compile(r"(?i)\blampiran\s*:\s*(?:\d+\s*\([a-z]+\)|[a-z]+\s*\(\d+\))"),
+     re.compile(r"(?i)\blampiran\s*:\s*-\s*$"),
+     re.compile(r"(?i)\blamp(?:iran)?\.\s*(?=\d)")],
+))
+
+# --- TMS-026: nomor surat dinas diakhiri titik atau titik-hubung ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Nomor: 3546/F8/C.11/2015."),
+    [re.compile(r"(?i)\bnomor\s*:\s*\S+\s*\.-?\s*$")],
+))
+
+# --- TMS-022: alamat surat "Kepada Yth." / "Kepada Yang terhormat" (BP2, 2016) ---
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Kepada Yth /"),
+    [re.compile(r"(?i)\bkepada\s+(?:yth\.?(?!\s+(?:bapak|ibu|sdr|saudara)\b)|yang\s+terhormat)(?=\s|$)")],
+))

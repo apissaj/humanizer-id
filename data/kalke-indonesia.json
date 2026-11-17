@@ -416,7 +416,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 647
+    "total_entri": 652
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -7667,9 +7667,64 @@
           "penjelasan": "Unsur terikat ditulis serangkai dengan kata yang mengikutinya. Unsur non-, antar-, purna-, pra-, catur-, tri-, dwi-, eka-, sapta-, dan sub- bukan kata bebas, sehingga tidak dapat berdiri sendiri dan tidak dipisahkan spasi atau tanda hubung. Daftar ini diambil dari tabel bentuk terikat pada Badan Pengembangan dan Pembinaan Bahasa, “Bahasa Indonesia untuk Pejabat Pemerintah”, hlm. 13. Bentuk terikat lain dari tabel yang sama sudah berkaidah: antar kota, sub unit, dan maha guru ada pada EJ-003; non formal ada pada EYD-036; sub bagian ada pada EYD-039; sub sektor ada pada EYD-040; pasca panen dan pasca sarjana ada pada EYD-034 dan EYD-035; tuna wisma dan tuna karya ada pada EYD-043 dan EYD-042.",
           "contoh_salah": "Program non migas itu menyasar antar daerah dengan skema purna jual dan sub sistem baru.",
           "contoh_benar": "Program nonmigas itu menyasar antardaerah dengan skema purnajual dan subsistem baru."
+        },
+        {
+          "id": "TMS-022",
+          "pola": "Kepada Yth / Kepada Yang terhormat",
+          "saran_pengganti": [
+            "Yth."
+          ],
+          "penjelasan": "Alamat tujuan surat dinas dibuka dengan singkatan Yth. tanpa didahului kata kepada. Dasar: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 60–61 — “Penulisan alamat tujuan surat diawali dengan frasa Yang terhormat disingkat Yth. tanpa didahului kata kepada”. Pola ini melengkapi SRT-002 yang hanya menangkap bentuk bersapaan (“Kepada Yth. Bapak …”), sedangkan bentuk tanpa sapaan dan “Yang terhormat” diurus di sini. Buku itu beralasan bagian akhir surat, sebelum nama penanda tangan, juga tidak disertai kata dari; kata kepada baru dipakai pada nota dinas atau memo yang memang memasang pasangan Kepada–Dari.",
+          "contoh_salah": "Kepada Yth. Kepala Badan Pengembangan dan Pembinaan Bahasa",
+          "contoh_benar": "Yth. Kepala Badan Pengembangan dan Pembinaan Bahasa"
+        },
+        {
+          "id": "TMS-023",
+          "pola": "Jl. / Jln. / Telp. / Tip.",
+          "saran_pengganti": [
+            "Jalan",
+            "Telepon"
+          ],
+          "penjelasan": "Nama jalan dan sarana kontak pada kop serta alamat surat ditulis lengkap, tidak disingkat. Dasar: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 58 — “kata jalan tidak disingkat menjadi Jl. atau Jln., dan kata telepon pun ditulis lengkap, tidak disingkat menjadi Telp. atau Tip.” Singkatan bertitik tetap sah pada sapaan dan jabatan (Yth., a.n., Plt.), yang diatur kaidah lain; pola ini hanya menyasar singkatan jalan dan telepon.",
+          "contoh_salah": "Jl. Daksinapati Barat IV, Telp. (021) 4706287",
+          "contoh_benar": "Jalan Daksinapati Barat IV, Telepon (021) 4706287"
+        },
+        {
+          "id": "TMS-024",
+          "pola": "Tanggal 25 Bulan Juni Tahun 2015 / 24 Des '05 / 31-04-2015 / 07 Juni 2015",
+          "saran_pengganti": [
+            "25 Juni 2015",
+            "24 Desember 2005",
+            "7 Juni 2015"
+          ],
+          "penjelasan": "Tanggal surat dinas ditulis dengan angka, nama bulan lengkap berhuruf awal kapital, dan angka tahun, tanpa kata tanggal, bulan, dan tahun. Dasar: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 58–59 — “Kata tanggal, bulan, dan tahun juga tidak perlu ditulis”, “nama bulan harus ditulis lengkap dengan huruf awal kapital … tidak disingkat dengan Jun atau Des dan juga tidak diganti dengan angka”, dan “Angka yang menunjukkan tanggal yang kurang dari 10 tidak perlu ditambah 0”. Pola menangkap empat bentuk: kata tanggal–bulan–tahun yang ditulis semua, bulan singkat berapostrof tahun, tanggal berformat angka bertanda hubung, dan tanggal bersembulan nol. Bulan singkat tanpa apostrof (mis. “12 Mar 2019”) sengaja tidak dipola karena lazim muncul pada sitasi berbahasa Inggris.",
+          "contoh_salah": "Bandung, 24 Des '05",
+          "contoh_benar": "Bandung, 24 Desember 2005"
+        },
+        {
+          "id": "TMS-025",
+          "pola": "Lampiran: 5 (lima) lembar / Lampiran: Satu (1) berkas / Lampiran: -",
+          "saran_pengganti": [
+            "Lampiran: Lima lembar",
+            "Lampiran: Satu berkas",
+            "Lampiran: 3 eksemplar"
+          ],
+          "penjelasan": "Jumlah lampiran ditulis dengan huruf bila hanya satu atau dua kata dan dengan angka bila tiga kata atau lebih; angka dan huruf tidak dipasangkan, dan tanda hubung tidak dipakai untuk menyatakan tidak ada lampiran. Dasar: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 59–60 — “jumlah lampiran yang dapat ditulis dengan satu atau dua kata ditulis dengan huruf … sedangkan yang terdiri atas tiga kata atau lebih ditulis dengan menggunakan angka, tanpa disertai dengan huruf. Namun, apabila tidak ada hal yang dilampirkan, kata lampiran tidak ditulis.” Buku itu juga melarang singkatan lamp. atau lampir.",
+          "contoh_salah": "Lampiran: 5 (lima) lembar",
+          "contoh_benar": "Lampiran: Lima lembar"
+        },
+        {
+          "id": "TMS-026",
+          "pola": "Nomor: 3546/F8/C.11/2015. / Nomor: 3546/F8/C.11/2015.-",
+          "saran_pengganti": [
+            "Nomor: 3546/F8/C.11/2015"
+          ],
+          "penjelasan": "Nomor surat dinas tidak diakhiri tanda titik dan tidak pula diakhiri tanda titik yang diikuti tanda hubung. Dasar: Mustakim, “Bahasa Indonesia untuk Aparatur Pemerintah” (Seri Penyuluhan Bahasa Indonesia, Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa, 2016), hlm. 59 — “nomor surat tidak diakhiri dengan tanda titik ataupun tanda titik dan tanda hubung”, dengan contoh nomor yang benar Nomor: 3546/F8/C.11/2015. Pola hanya menyala bila tanda itu berada di akhir baris nomor, sehingga titik di tengah kode seperti C.11 tidak tersentuh.",
+          "contoh_salah": "Nomor: 3546/F8/C.11/2015.",
+          "contoh_benar": "Nomor: 3546/F8/C.11/2015"
         }
       ]
     }
   },
-  "total_entri": 647
+  "total_entri": 652
 }
