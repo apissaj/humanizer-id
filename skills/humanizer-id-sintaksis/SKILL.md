@@ -277,3 +277,11 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 
 1. **Pola:** *untuk jangan datang terlambat* / *berapa pukul acara dimulai* → **Perbaikan:** *agar tidak datang terlambat* / *pukul berapa acara dimulai* — **Sebab:** larangan taklangsung formal memakai *agar tidak* dan pertanyaan waktu baku berurutan DM *pukul berapa* (`LKB-050`) (Kaniah dkk. 2016, Soal 21 & 31).
 2. **Pola:** `[telaah]` *memenuhi ketentuan disyaratkan...* / *mengganggu kesehatan dan kerusakan disebabkan...* / rujukan *ibid./op.cit./loc.cit.* → **Perbaikan:** *memenuhi ketentuan yang disyaratkan*, *mengganggu ... dan menyebabkan ...*, serta sitasi nama-tahun APA (`LKB-052`) (Kaniah dkk. 2016, Soal 38–39; Modul Karya Ilmiah SMA, hlm. 41–52).
+
+---
+
+### CT. Klise Surat Kuno, Kontaminasi `maka` & Struktur KTI/PTK (Siklus 35–36)
+
+1. **Pola:** *Bersama ini kami kabarkan..., Demikianlah harap maklum* → **Perbaikan:** *Melalui surat ini kami memberitahukan...* / *Demikian surat pemberitahuan ini kami sampaikan.* — **Sebab:** rumus klise surat kuno diganti kalimat langsung yang informatif (`SMD-004`) (Pusat Bahasa 1991, hlm. 36).
+2. **Pola:** *Dengan alasan inilah maka... / Atas dasar itulah maka...* → **Perbaikan:** *Oleh karena itu, ...* — **Sebab:** kontaminasi frasa keterangan kausal dengan *maka* (`BSXI-003`) (*Cerdas Cergas Kelas XI*, hlm. 12).
+3. **Pola:** `[telaah]` rumusan masalah KTI tidak berupa kalimat tanya operasional, penyembunyian limitasi penelitian, serta pembalikan seluruh marga penulis di daftar pustaka (`Sayektiningsih, Tri dan Ma'ruf, Amir`) → **Perbaikan:** hanya balik nama penulis pertama (`Sayektiningsih, Tri dan Amir Ma'ruf`), susun rumusan masalah sebagai kalimat tanya, dan paparkan keterbatasan secara objektif (`KTI-001`) (*Diklat KTI/PTK*, hlm. 99–148; Kelas XI, hlm. 255).

@@ -208,3 +208,9 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 ### CR. Padanan Linguistik Baku (Kridalaksana, *Daftar Istilah Linguistik*, 1979)
 
 - **Padanan tambahan (`glosarium-lintas-bidang.json` 170 → 178):** *discourse* → **wacana**; *deep structure* → **struktur batin**; *surface structure* → **struktur lahir**; *paraphrase* → **parafrase**; *ambiguity* → **ketaksaan / ambiguitas**; *redundancy* → **kelimpahan / kelewahan**; *colloquialism* → **ragam tak resmi**; *metalanguage* → **metabahasa** (`linguistik_dan_ilmu_bahasa`).
+
+---
+
+### CU. Padanan Konten Digital & Wacana MABBIM/Kridalaksana (Siklus 35–36)
+
+- **Padanan tambahan (`glosarium-lintas-bidang.json` 178 → 180):** *content creator* → **pencipta konten / kreator konten** (*Buletin MABBIM* Vol. 15, 2024, hlm. 19; `jurnalistik_dan_media`); *tautology* → **tautologi** (Kridalaksana 1979, hlm. 40; `linguistik_dan_ilmu_bahasa`).

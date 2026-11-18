@@ -327,3 +327,11 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 1. **Pola:** *sekabupaten, seprovinsi, sejawa, seindonesia* → **Perbaikan:** *se-Kabupaten, se-Provinsi, se-Jawa, se-Indonesia* — **Sebab:** bentuk terikat *se-* diikuti nama geografis/negara memakai tanda hubung dan huruf awal kapital (`LKB-048`) (Kaniah dkk. 2016, hlm. 16/76).
 2. **Pola:** *Prof.Ahmad, Dr.Maman, Ir.Budi* → **Perbaikan:** *Prof. Ahmad, Dr. Maman, Ir. Budi* — **Sebab:** gelar di depan nama wajib diakhiri tanda titik dan dipisahkan satu spasi dari nama (`LKB-049`) (Kaniah dkk. 2016, hlm. 12/71).
 3. **Pola:** *mendatangkan lokasi / mendatangkan tempat / mendatangkan gedung* → **Perbaikan:** *mendatangi lokasi / mendatangi tempat / mendatangi gedung* — **Sebab:** verba *-kan* untuk objek yang dibawa/dihadirkan, sedangkan objek tempat statis wajib memakai akhiran *-i* (`LKB-051`) (hlm. 20–21/82).
+
+---
+
+### CS. Salam Surat Resmi, Spasi Satuan Ukur & Bentuk Baku MABBIM/Kemendikbud (Siklus 35–36)
+
+1. **Pola:** *Dengan Hormat / Hormat Saya / Hormat Kami / Salam Takzim* → **Perbaikan:** *Dengan hormat, / Hormat saya, / Hormat kami, / Salam takzim,* — **Sebab:** hanya kata pertama salam surat resmi yang diawali huruf kapital (`SMD-003`) (Pusat Bahasa 1991, hlm. 17–18).
+2. **Pola:** *50cm, 15m, 10kg, 25km* → **Perbaikan:** *50 cm, 15 m, 10 kg, 25 km* — **Sebab:** bilangan dan lambang satuan ukuran wajib dipisahkan satu spasi (`BSXI-001`) (*Cerdas Cergas Kelas XI*, hlm. 261).
+3. **Pola:** *katagori, species, karaba* → **Perbaikan:** *kategori, spesies, keramba* — **Sebab:** pembakuan KBBI/EYD V dan rubrik *Wisata Kata* MABBIM (`BSXI-002`) (Kelas XI hlm. 260; *Buletin MABBIM* Vol. 15, 2024, hlm. 16–17).

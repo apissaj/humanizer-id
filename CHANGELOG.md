@@ -4,6 +4,18 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 736 kaidah + 180 istilah glosarium
+
+Mekanisasi lanjutan *Surat-Menyurat dalam Bahasa Indonesia* (Pusat Bahasa 1991), *Cerdas Cergas Kelas XI*, *Diklat KTI/PTK*, dan *Buletin MABBIM* Vol. 15 (2024) (Siklus 35–36):
+
+- **Pusat Bahasa (*Surat-Menyurat*, 1991, hlm. 17–18, 36):**
+  - `SMD-003`..`SMD-004` — kapitalisasi salam surat resmi (`Dengan hormat,`, `Hormat saya,`, `Hormat kami,`) dan penghapusan rumus klise surat lama (`Bersama ini kami kabarkan`, `Demikianlah harap maklum`).
+- **Kemendikbud (*Cerdas Cergas Kelas XI*, hlm. 12, 255–261; *Diklat KTI/PTK*) & *Buletin MABBIM* (2024):**
+  - `BSXI-001`..`BSXI-003`, `KTI-001` — spasi angka-satuan (`50 cm`, `15 m`), bentuk baku (`kategori`, `spesies`, `keramba`), kontaminasi `Dengan alasan inilah maka`, serta `[telaah]` kaidah penyusunan KTI & pembalikan nama daftar pustaka.
+- **2 padanan glosarium baru (178 -> 180):** `content creator` (`pencipta konten / kreator konten`, MABBIM 2024) dan `tautology` (`tautologi`, Kridalaksana 1979).
+
+Referensi baru: `references/mekanisasi-surat-kti-kelasxi-mabbim.md`; blok `CS`–`CU` pada sub-skill terkait dan `SKILL.md` diperbarui.
+
 ### 730 kaidah + 178 istilah glosarium
 
 Mekanisasi lanjutan *Latihan Kemahiran Berbahasa Indonesia* (Badan Bahasa 2016) & *Daftar Istilah Linguistik* (Kridalaksana 1979) (Siklus 33–34):

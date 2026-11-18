@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 730
+    "total_entri": 736
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3784,6 +3784,43 @@
           "penjelasan": "Klausa pewatas pasif pada nomina wajib diawali kata penghubung yang agar tidak membentuk predikat ganda, klausa koordinatif wajib sejajar kelas katanya, dan naskah APA mutakhir menghindari ibid./op.cit./loc.cit. (Kaniah dkk., Badan Bahasa 2016, Soal 38-39; Modul Karya Ilmiah SMA, hlm. 41-52).",
           "contoh_salah": "Pelamar wajib memenuhi ketentuan disyaratkan sebagaimana tercantum pada bagian sebelumnya.",
           "contoh_benar": "Pelamar wajib memenuhi ketentuan yang disyaratkan sebagaimana tercantum pada bagian sebelumnya."
+        },
+        {
+          "id": "SMD-004",
+          "pola": "Bersama ini kami kabarkan / Demikianlah harap maklum (klise surat lama)",
+          "asal_frasa": "Archaic bureaucratic letter formula",
+          "saran_pengganti": [
+            "Melalui surat ini kami memberitahukan bahwa",
+            "Demikian surat pemberitahuan ini kami sampaikan."
+          ],
+          "penjelasan": "Rumus klise surat lama seperti Bersama ini kami kabarkan (bila tanpa berkas terlampir) dan Demikianlah harap maklum diganti dengan kalimat lugas langsung pada maksud surat (Pusat Bahasa 1991, hlm. 36).",
+          "contoh_salah": "Bersama ini kami kabarkan perubahan jadwal rapat bulanan, demikianlah harap maklum.",
+          "contoh_benar": "Melalui surat ini kami memberitahukan perubahan jadwal rapat bulanan."
+        },
+        {
+          "id": "BSXI-003",
+          "pola": "Dengan alasan inilah maka / Atas dasar itulah maka / Oleh sebab inilah maka",
+          "asal_frasa": "Contaminated causal transition with maka",
+          "saran_pengganti": [
+            "Oleh karena itu,",
+            "Oleh sebab itu,"
+          ],
+          "penjelasan": "Konjungsi antarkalimat pengantar simpulan tidak dirangkai memakai kata maka setelah frasa keterangan kausal; gunakan Oleh karena itu, secara lugas (Cerdas Cergas Bahasa Indonesia Kelas XI, hlm. 12).",
+          "contoh_salah": "Dengan alasan inilah maka konsumsi buah lokal meningkat pada musim panen raya.",
+          "contoh_benar": "Oleh karena itu, konsumsi buah lokal meningkat pada musim panen raya."
+        },
+        {
+          "id": "KTI-001",
+          "pola": "[telaah] rumusan masalah tidak berbentuk kalimat tanya operasional, penyembunyian limitasi KTI, serta pembalikan seluruh nama penulis daftar pustaka",
+          "asal_frasa": "KTI structure & APA bibliography inversion error",
+          "saran_pengganti": [
+            "Susun rumusan masalah sebagai kalimat tanya",
+            "Paparkan keterbatasan riset",
+            "Sayektiningsih, Tri dan Amir Ma'ruf"
+          ],
+          "penjelasan": "Modul Diklat KTI/PTK Kemendikbud (hlm. 99-106, 148) dan Cerdas Cergas Kelas XI (hlm. 255) mewajibkan laporan memuat keterbatasan/kegagalan secara objektif, rumusan masalah berupa kalimat tanya, serta pembalikan nama di daftar pustaka hanya pada penulis pertama.",
+          "contoh_salah": "Daftar pustaka menulis Sayektiningsih, Tri dan Ma'ruf, Amir dengan menyembunyikan kendala instrumen.",
+          "contoh_benar": "Daftar pustaka menulis Sayektiningsih, Tri dan Amir Ma'ruf serta memaparkan keterbatasan instrumen."
         }
       ]
     },
@@ -9025,9 +9062,47 @@
           "penjelasan": "Verba berkonfiks meN-...-kan menuntut objek yang dibawa atau dihadirkan; untuk objek tempat yang diam atau dituju wajib memakai verba berakhiran -i yaitu mendatangi (Kaniah dkk., Badan Bahasa 2016, Soal 34, hlm. 20-21/82).",
           "contoh_salah": "Tim survei lapangan langsung mendatangkan lokasi pengumpulan data sejak pagi.",
           "contoh_benar": "Tim survei lapangan langsung mendatangi lokasi pengumpulan data sejak pagi."
+        },
+        {
+          "id": "SMD-003",
+          "pola": "Dengan Hormat / Hormat Saya / Hormat Kami / Salam Takzim",
+          "saran_pengganti": [
+            "Dengan hormat,",
+            "Hormat saya,",
+            "Hormat kami,",
+            "Salam takzim,"
+          ],
+          "penjelasan": "Pada salam pembuka dan salam penutup surat resmi, huruf kapital hanya dipakai pada huruf pertama kata pertama, diikuti tanda koma di akhir salam (Pusat Bahasa 1991, hlm. 17-18).",
+          "contoh_salah": "Dengan Hormat, surat permohonan izin ini kami ajukan. Hormat Kami, panitia pelaksana.",
+          "contoh_benar": "Dengan hormat, surat permohonan izin ini kami ajukan. Hormat kami, panitia pelaksana."
+        },
+        {
+          "id": "BSXI-001",
+          "pola": "50cm / 15m / 10kg / 25km (angka dan lambang satuan rapat tanpa spasi)",
+          "saran_pengganti": [
+            "50 cm",
+            "15 m",
+            "10 kg",
+            "25 km"
+          ],
+          "penjelasan": "Bilangan dan lambang satuan ukuran (cm, mm, m, km, kg, mg, ml, Hz) wajib dipisahkan oleh satu spasi (Cerdas Cergas Bahasa Indonesia Kelas XI, hlm. 261; EYD V).",
+          "contoh_salah": "Tinggi rangka mencapai 50cm dengan lebar lintasan 15m serta beban maksimum 10kg sejauh 25km.",
+          "contoh_benar": "Tinggi rangka mencapai 50 cm dengan lebar lintasan 15 m serta beban maksimum 10 kg sejauh 25 km."
+        },
+        {
+          "id": "BSXI-002",
+          "pola": "katagori / species / karaba",
+          "saran_pengganti": [
+            "kategori",
+            "spesies",
+            "keramba"
+          ],
+          "penjelasan": "Bentuk baku KBBI menurut buku teks Kemendikbudristek (hlm. 260) dan Buletin MABBIM Vol. 15 (2024, hlm. 16-17): kategori (bukan katagori), spesies (bukan species), serta keramba/karamba (bukan karaba).",
+          "contoh_salah": "Penelitian ini mengelompokkan species ikan air tawar menurut katagori ukuran karaba apung.",
+          "contoh_benar": "Penelitian ini mengelompokkan spesies ikan air tawar menurut kategori ukuran keramba apung."
         }
       ]
     }
   },
-  "total_entri": 730
+  "total_entri": 736
 }

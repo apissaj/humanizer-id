@@ -1593,3 +1593,23 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("mendatangkan lokasi"),
      [re.compile(r"(?i)\bmendatangkan\s+(?:lokasi|tempat|gedung|kantor|ruangan|rumah)\b")]),
 ])
+
+# --- Kaidah Surat-Menyurat (1991), Cerdas Cergas XI, & MABBIM 2024 (Siklus 35-36: SMD-003..004, BSXI-001..003) ---
+CUSTOM_RULES.extend([
+    # SMD-003: kapitalisasi kata kedua salam surat resmi (Pusat Bahasa 1991, hlm. 17-18)
+    (lambda p: p.startswith("Dengan Hormat / Hormat Saya"),
+     [re.compile(r"\b(?:Dengan\s+Hormat|Hormat\s+Saya|Hormat\s+Kami|Salam\s+Takzim)\b")]),
+    # SMD-004: rumus klise surat kuno (Pusat Bahasa 1991, hlm. 36)
+    (lambda p: p.startswith("Bersama ini kami kabarkan"),
+     [re.compile(r"(?i)\b(?:Bersama|Dengan)\s+ini\s+(?:kami|saya)\s+(?:kabarkan|haturkan|beritahukan)\b"),
+      re.compile(r"(?i)\bDemikian(?:lah)?\s+harap\s+maklum\b")]),
+    # BSXI-001: angka dan satuan ukuran ditulis rapat tanpa spasi (Kelas XI hlm. 261)
+    (lambda p: p.startswith("50cm / 15m"),
+     [re.compile(r"\b\d+(?:[.,]\d+)?(?:cm|mm|km|kg|mg|ml|m|Hz|kHz|MHz|GHz)\b")]),
+    # BSXI-002: katagori, species, karaba (Kelas XI hlm. 260; MABBIM 2024 hlm. 16-17)
+    (lambda p: p.startswith("katagori / species"),
+     [re.compile(r"(?i)\b(?:katagori|species|karaba)\b")]),
+    # BSXI-003: kontaminasi keterangan pengantar + maka (Kelas XI hlm. 12)
+    (lambda p: p.startswith("Dengan alasan inilah maka"),
+     [re.compile(r"(?i)\b(?:Dengan\s+alasan\s+(?:inilah|itulah)|Atas\s+dasar\s+(?:inilah|itulah)|Oleh\s+sebab\s+(?:inilah|itulah))\s+maka\b")]),
+])

@@ -164,3 +164,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **5 entri baru (725 -> 730):** `LKB-048`..`LKB-052` (4 aktif, 1 `[telaah]`).
 - **8 istilah glosarium baru (170 -> 178):** `discourse`, `deep structure`, `surface structure`, `paraphrase`, `ambiguity`, `redundancy`, `colloquialism`, `metalanguage` (`linguistik_dan_ilmu_bahasa` 18 -> 26).
 - **Sub-skill diperbarui:** blok `CP` (`humanizer-id-ejaan-morfologi`), `CQ` (`humanizer-id-sintaksis`), `CR` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.
+
+---
+
+## Integrasi Siklus 35–36: *Surat-Menyurat* (1991), *Cerdas Cergas Kelas XI*, *Diklat KTI/PTK*, & *Buletin MABBIM* Vol. 15 (2026-11-18)
+
+- **Sumber:** *Surat-Menyurat dalam Bahasa Indonesia* (Pusat Bahasa 1991, hlm. 17–18, 36), *Cerdas Cergas Bahasa Indonesia Kelas XI* (hlm. 12, 255–261), *Modul Diklat KTI/PTK* (hlm. 99–148), dan *Buletin MABBIM* Vol. 15 (2024, hlm. 16–19).
+- **Referensi baru:** `references/mekanisasi-surat-kti-kelasxi-mabbim.md`.
+- **6 entri baru (730 -> 736):** `SMD-003`..`SMD-004` (2 aktif), `BSXI-001`..`BSXI-003` (3 aktif), `KTI-001` (1 `[telaah]`).
+- **2 istilah glosarium baru (178 -> 180):** `content creator` (`jurnalistik_dan_media` 14 -> 15) dan `tautology` (`linguistik_dan_ilmu_bahasa` 26 -> 27).
+- **Sub-skill diperbarui:** blok `CS` (`humanizer-id-ejaan-morfologi`), `CT` (`humanizer-id-sintaksis`), `CU` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.
