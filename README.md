@@ -26,7 +26,7 @@
 
 ---
 
-**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 688 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + lima sub-kaidah dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
+**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 688 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + sembilan sub-kaidah (lima strata + empat domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
 
@@ -63,6 +63,10 @@ Sejak v2.1.0 panduan editorial dipecah agar hemat konteks agen: induk dimuat dul
 | [skills/humanizer-id-ejaan-morfologi](skills/humanizer-id-ejaan-morfologi/SKILL.md) | 22 blok: EYD V lengkap, PUEBI, peluluhan fonem, gabungan kata, unsur serapan | Naskah ejaan/imbuhan |
 | [skills/humanizer-id-diksi-istilah](skills/humanizer-id-diksi-istilah/SKILL.md) | 14 blok: pilihan kata, peristilahan PUPI, padanan lintas bidang | Naskah istilah teknis |
 | [skills/humanizer-id-naskah-resmi](skills/humanizer-id-naskah-resmi/SKILL.md) | 6 blok: bahasa pewara, surat dinas, metadata jurnal | Naskah resmi/dinas |
+| [skills/humanizer-id-skripsi-kampus](skills/humanizer-id-skripsi-kampus/SKILL.md) | 3 blok: peta 18 preset kampus, kesalahan empiris skripsi, Simpulan vs Saran | Skripsi/tesis/proposal |
+| [skills/humanizer-id-bisnis-korporat](skills/humanizer-id-bisnis-korporat/SKILL.md) | 4 blok: prinsip KISS, surat 5W1H, siaran pers piramida terbalik, jargon bisnis | Memo/proposal/bisnis |
+| [skills/humanizer-id-jurnalistik-media](skills/humanizer-id-jurnalistik-media/SKILL.md) | 4 blok: 7 sifat pers, ekonomi kata Tempo, batas <=20 kata/kalimat, artikel opini | Berita/opini/rilis |
+| [skills/humanizer-id-hukum-regulasi](skills/humanizer-id-hukum-regulasi/SKILL.md) | 3 blok: zona terlarang kontrak/pasal, anti-multimakna, klaim produk realistis | Hukum/regulasi/klaim |
 | [jurnal/](jurnal/SKILL.md) | Modul jurnal bereputasi: IMRaD, checklist 28 poin, template abstrak/cover letter | Naskah Scopus/SINTA |
 
 Arsip provenance sesi bedah tersimpan di [references/log-integrasi-kaidah.md](references/log-integrasi-kaidah.md) (bukan aturan operasional). Setiap entri kaidah berformat **Pola → Perbaikan → Sebab** dengan sitasi halaman sumber.

@@ -4,6 +4,14 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 4 sub-skill domain baru (`skills/`)
+
+- `skills/humanizer-id-skripsi-kampus/SKILL.md` — peta 18 preset kampus (`pedoman-kampus.json`), daftar penyakit khas draf skripsi mahasiswa (5 jurnal empiris + Winarti 2009), dan pemisahan Simpulan vs Saran.
+- `skills/humanizer-id-bisnis-korporat/SKILL.md` — prinsip KISS dan surat instruksi 5W1H / siaran pers piramida terbalik (Rahman, BRIN 2022) serta padanan bisnis baku.
+- `skills/humanizer-id-jurnalistik-media/SKILL.md` — 7 sifat bahasa pers (Badudu), ekonomi kata Tempo, batas 17–20 kata/kalimat (Pusdiklat Kemendikbud 2018), padanan media, dan struktur artikel opini.
+- `skills/humanizer-id-hukum-regulasi/SKILL.md` — batas zona terlarang kontrak/pasal, anti-multimakna, pasif normatif pelengkap, dan diksi klaim produk realistis (*Hukum dalam Teroka Linguistik*, BRIN 2023).
+- Tabel rute `SKILL.md` induk dan `README.md` diperbarui mencakup 5 strata + 4 domain (`9 sub-skill` + modul `jurnal/`).
+
 ### 688 kaidah + 150 istilah glosarium
 
 Bedah menyeluruh lima rujukan resmi (Siklus 20–22):

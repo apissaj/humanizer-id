@@ -117,7 +117,9 @@ Bersihkan struktur bahasa Inggris yang dialihbahasakan secara harfiah:
 
 ## 4. Rute Sub-Kaidah (Deep-Dive On-Demand)
 
-Kaidah editorial lanjutan (sebelumnya satu seksi monolitik) kini terbagi ke lima berkas sub-skill di folder `skills/`. Muat HANYA rute yang relevan dengan naskah agar hemat konteks. Aturan integritas ilmiah pada dokumen ini tetap mengikat penuh dan TIDAK terduplikasi di sub-skill. Satu naskah boleh menyentuh beberapa strata sekaligus - muat semua berkas yang relevan.
+Kaidah editorial lanjutan terbagi ke **sembilan berkas sub-skill** di folder `skills/` (**lima strata kebahasaan** + **empat domain spesifik**). Muat HANYA rute yang relevan dengan naskah agar hemat konteks. Aturan integritas ilmiah pada dokumen ini tetap mengikat penuh dan TIDAK terduplikasi di sub-skill. Satu naskah boleh menyentuh beberapa strata dan satu domain sekaligus - muat semua berkas yang relevan.
+
+### Rute Strata Kebahasaan
 
 | Strata | Berkas | Cakupan |
 |---|---|---|
@@ -126,6 +128,15 @@ Kaidah editorial lanjutan (sebelumnya satu seksi monolitik) kini terbagi ke lima
 | Diksi, pleonasme & istilah | `skills/humanizer-id-diksi-istilah/SKILL.md` | Pilihan kata, peristilahan PUPI, padanan lintas bidang, salah kaprah, diksi preskriptif (14 blok kaidah) |
 | Wacana & retorika | `skills/humanizer-id-wacana-retorika/SKILL.md` | Kohesi-koherensi paragraf, sitasi terajut, hedging epistemik, monotoni pembuka, ragam opini (18 blok kaidah) |
 | Naskah resmi & metadata jurnal | `skills/humanizer-id-naskah-resmi/SKILL.md` | Bahasa pewara, surat dinas, penerbitan buku BRIN, proporsi IMRaD, penyajian data visual (6 blok kaidah) |
+
+### Rute Domain Spesifik
+
+| Domain | Berkas | Cakupan |
+|---|---|---|
+| Skripsi, tesis & preset kampus | `skills/humanizer-id-skripsi-kampus/SKILL.md` | Peta 18 preset kampus, penyakit khas draf skripsi, pemisahan Simpulan vs Saran (3 blok kaidah) |
+| Bisnis, korporat & proposal | `skills/humanizer-id-bisnis-korporat/SKILL.md` | Prinsip KISS, surat instruksi 5W1H, siaran pers piramida terbalik, padanan bisnis (4 blok kaidah) |
+| Jurnalistik, berita & opini | `skills/humanizer-id-jurnalistik-media/SKILL.md` | 7 sifat bahasa pers, ekonomi kata Tempo, batas 17-20 kata/kalimat, artikel opini (4 blok kaidah) |
+| Hukum, regulasi & klaim produk | `skills/humanizer-id-hukum-regulasi/SKILL.md` | Batas zona terlarang kontrak/pasal, anti-multimakna, pasif normatif, klaim realistis (3 blok kaidah) |
 
 Catatan provenance: log lengkap sesi integrasi kaidah (BW-BZ) pindah ke `references/log-integrasi-kaidah.md` - arsip asal-usul aturan, bukan aturan operasional.
 
