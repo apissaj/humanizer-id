@@ -4,6 +4,18 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 725 kaidah + 170 istilah glosarium
+
+Bedah lanjutan Pedoman Penerbitan Buku LIPI Press (2016), Modul Opini KD 3.11, dan Buku Saku Media Luar Ruang / Semiloka 2019 (Siklus 31–32):
+
+- **LIPI Press (`books/pedoman_penerbitan_buku_lipi_press.pdf`, hlm. 60, 67), Modul Opini (`hlm. 31`), & Semiloka 2019 (`hlm. 241`):**
+  - `BRN-005`..`BRN-007` — pemisahan `ke luar negeri/kota/daerah`, preposisi waktu `pada pagi/siang/sore/malam hari` (bukan `di ... hari`), serta ejaan baku `bertaraf`, `skala`, `suvenir`, `musala`, dan `gaji`.
+- **Buku Saku Media Luar Ruang 2015 (`hlm. 22–89, 110–124`) & Semiloka 2019 (`hlm. 271–272, 522–549`):**
+  - `PSB-035`..`PSB-036` — serapan baku `kontemporer`, `butik`, `fotokopi`, `taksi`, `mal`, serta `[telaah]` hukum DM–MD pada penamaan dan tanda seru (`!`) pada imbauan/larangan.
+  - 2 padanan sektor usaha (168 -> 170): `cottage` -> `pondok`, `food and beverage` -> `makanan dan minuman`.
+
+Referensi baru: `references/pedoman-lipi-press-dan-media-luar-ruang-lanjutan.md`; blok `CN`–`CO` pada sub-skill terkait dan `SKILL.md` diperbarui.
+
 ### 720 kaidah + 168 istilah glosarium
 
 Bedah lanjutan edisi revisi Badan Bahasa & Seri Penyuluhan 9 EYD (Siklus 29–30):

@@ -310,3 +310,12 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 1. **Pola:** *azasi, muqaddimah, akhlaq, centraal, romadhon, teknologie, kwota, extradiksi, effektiv, psikhologi, alkuran, ke-Tuhan-an, ma'siat, sa'at* → **Perbaikan:** *asasi, mukadimah, akhlak, sentral, Ramadan, teknologi, kuota, ekstradisi, efektif, psikologi, Al-Qur'an, ketuhanan, maksiat, saat* — **Sebab:** penyederhanaan konsonan ganda dan digraf serapan serta penghapusan apostrof palsu (`E9L-026`) (Seri Penyuluhan 9 EYD, hlm. 38–44).
 2. **Pola:** *D.P.R., U.U.D., K.B., S.M.A., S.M.P.* → **Perbaikan:** *DPR, UUD, KB, SMA, SMP* — **Sebab:** singkatan gabungan huruf awal nama resmi lembaga, badan, dan dokumen ketatanegaraan ditulis kapital tanpa tanda titik (`E9L-027`) (hlm. 41, 43; EYD V).
 3. **Pola:** *diseluruh, ditempat, diantara, ketengah* → **Perbaikan:** *di seluruh, di tempat, di antara, ke tengah* — **Sebab:** kata depan penunjuk tempat dan arah (*di, ke*) wajib dipisah dari nomina pengiringnya (`EYD-076`) (EYD V Bab II.G; Prosiding Semiloka 2019).
+
+---
+
+### CN. Penyuntingan Kebahasaan LIPI Press, Opini KD 3.11 & Ruang Publik (Siklus 31–32)
+
+1. **Pola:** *keluar negeri, keluar kota, keluar daerah* (saat bermakna arah tempat) → **Perbaikan:** *ke luar negeri, ke luar kota, ke luar daerah* — **Sebab:** *ke luar* + keterangan tempat ditulis terpisah (berpasangan dengan *di luar* / *dari luar*), sedangkan *keluar* serangkai khusus aktivitas (`BRN-005`) (LIPI Press, hlm. 67 Butir 24).
+2. **Pola:** *di malam hari, di siang hari, di pagi hari, di sore hari* → **Perbaikan:** *pada malam hari, pada siang hari, pada pagi hari, pada sore hari* — **Sebab:** keterangan waktu memakai preposisi *pada*, bukan *di* (`BRN-006`) (LIPI Press, hlm. 67 Butir 23).
+3. **Pola:** *bertarap, sekala, sovenir, musholla, mushola, gajih, contemporer, boutique, photocopy, taxi, mall* → **Perbaikan:** *bertaraf, skala, suvenir, musala, gaji, kontemporer, butik, fotokopi, taksi, mal* — **Sebab:** penyesuaian ejaan kata baku KBBI/EYD V (`BRN-007`, `PSB-035`) (LIPI Press hlm. 60; Opini XII hlm. 31; Media Luar Ruang 2015 hlm. 22–89; Semiloka 2019 hlm. 241).
+4. **Pola:** `[telaah]` penamaan lokal membalik urutan DM–MD ala Inggris (*East Park*) dan kalimat larangan tanpa `!` (`PSB-036`) (hlm. 110–124; Prosiding Semiloka 2019 hlm. 522–549).

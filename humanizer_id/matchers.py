@@ -1561,3 +1561,19 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("Ini [Nama] melaporkan dari"),
      [re.compile(r"(?i)\bIni\s+[A-Z][a-z]+\s+melaporkan\s+dari\b")]),
 ])
+
+# --- Kaidah LIPI Press & Media Luar Ruang Lanjutan (Siklus 31-32: BRN-005..007, PSB-035) ---
+CUSTOM_RULES.extend([
+    # BRN-005: ke luar + tempat dipisah (LIPI Press hlm. 67)
+    (lambda p: p.startswith("keluar negeri / keluar kota"),
+     [re.compile(r"(?i)\bkeluar\s+(?:negeri|kota|daerah)\b")]),
+    # BRN-006: preposisi di untuk keterangan waktu harian (LIPI Press hlm. 67)
+    (lambda p: p.startswith("di malam hari / di siang hari"),
+     [re.compile(r"(?i)\bdi\s+(?:malam|siang|pagi|sore)\s+(?:hari|sunyi|ini|itu)\b")]),
+    # BRN-007: ejaan baku bertaraf, skala, suvenir, musala, gaji (LIPI Press hlm. 60; Opini XII hlm. 31; Semiloka 2019)
+    (lambda p: p.startswith("bertarap / sekala / sovenir"),
+     [re.compile(r"(?i)\b(?:bertarap|sekala|sovenir|mushol?la|gajih)\b")]),
+    # PSB-035: serapan baku ruang publik (Media Luar Ruang 2015, hlm. 22-89)
+    (lambda p: p.startswith("contemporer / boutique"),
+     [re.compile(r"(?i)\b(?:contemporer|boutique|photocopy|photo\s+copy|taxi|mall)\b")]),
+])

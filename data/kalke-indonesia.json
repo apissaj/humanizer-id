@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 720
+    "total_entri": 725
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -8898,9 +8898,74 @@
           "penjelasan": "Verba intransitif dan kopulatif (menjadi, merupakan) beserta pelengkapnya tidak dapat dipasifkan menjadi bentuk *dijadi atau *dirupakan (Seri Penyuluhan Kalimat v2, hlm. 30).",
           "contoh_salah": "Tanggung jawab itu dijadi beban kerja, padahal usulan tersebut hanya dirupakan saran belaka.",
           "contoh_benar": "Beban kerja itu menjadi tanggung jawab tim, padahal usulan tersebut hanya merupakan saran belaka."
+        },
+        {
+          "id": "BRN-005",
+          "pola": "keluar negeri / keluar kota / keluar daerah (ke luar + keterangan tempat ditulis serangkai)",
+          "saran_pengganti": [
+            "ke luar negeri",
+            "ke luar kota",
+            "ke luar daerah"
+          ],
+          "penjelasan": "Kata depan ke luar yang diikuti keterangan tempat ditulis terpisah (berlawanan dengan di luar dan dari luar), berbeda dengan verba keluar yang bermakna aktivitas lawan kata masuk (Pedoman Penerbitan Buku LIPI Press, hlm. 67 Butir 24).",
+          "contoh_salah": "Delegasi lembaga penelitian berangkat dinas keluar negeri setelah meninjau cabang keluar kota dan keluar daerah.",
+          "contoh_benar": "Delegasi lembaga penelitian berangkat dinas ke luar negeri setelah meninjau cabang ke luar kota dan ke luar daerah."
+        },
+        {
+          "id": "BRN-006",
+          "pola": "di malam hari / di siang hari / di pagi hari / di sore hari (preposisi tempat di untuk waktu)",
+          "saran_pengganti": [
+            "pada malam hari",
+            "pada siang hari",
+            "pada pagi hari",
+            "pada sore hari"
+          ],
+          "penjelasan": "Preposisi pada digunakan untuk mengiringi keterangan waktu, sedangkan di khusus menandai tempat; hindari konstruksi seperti di malam sunyi atau di pagi hari (Pedoman Penerbitan Buku LIPI Press, hlm. 67 Butir 23).",
+          "contoh_salah": "Tim survei berangkat di pagi hari lalu menyusun rekap data di malam hari.",
+          "contoh_benar": "Tim survei berangkat pada pagi hari lalu menyusun rekap data pada malam hari."
+        },
+        {
+          "id": "BRN-007",
+          "pola": "bertarap / sekala / sovenir / musholla / mushola / gajih",
+          "saran_pengganti": [
+            "bertaraf",
+            "skala",
+            "suvenir",
+            "musala",
+            "gaji"
+          ],
+          "penjelasan": "Bentuk baku KBBI menurut pedoman penyuntingan LIPI Press (hlm. 60), modul artikel opini kelas XII (hlm. 31), dan pengamatan Semiloka 2019 (Arum Jayanti, hlm. 241): memakai f pada bertaraf, gugus sk pada skala, u pada suvenir, serta musala tanpa konsonan ganda.",
+          "contoh_salah": "Panitia acara bertarap nasional membagikan sovenir di dekat musholla setelah menerima gajih sekala proyek.",
+          "contoh_benar": "Panitia acara bertaraf nasional membagikan suvenir di dekat musala setelah menerima gaji skala proyek."
+        },
+        {
+          "id": "PSB-035",
+          "pola": "contemporer / boutique / photocopy / photo copy / taxi / mall",
+          "saran_pengganti": [
+            "kontemporer",
+            "butik",
+            "fotokopi",
+            "taksi",
+            "mal"
+          ],
+          "penjelasan": "Kata serapan yang telah dibakukan dalam EYD V/KBBI wajib menggunakan ejaan Indonesia baku: ou->u (butik), ph->f (fotokopi), c->k (kontemporer), x->ks (taksi), serta penyederhanaan konsonan ganda akhir (mal) (Buku Saku Media Luar Ruang 2015, hlm. 22-89).",
+          "contoh_salah": "Di seberang mall terdapat boutique bergaya contemporer, pangkalan taxi, dan kios photocopy.",
+          "contoh_benar": "Di seberang mal terdapat butik bergaya kontemporer, pangkalan taksi, dan kios fotokopi."
+        },
+        {
+          "id": "PSB-036",
+          "pola": "[telaah] pembalikan hukum DM-MD ala bahasa Inggris pada penamaan (*East Park / *Urban Signature) dan larangan/imbauan tanpa tanda seru (!)",
+          "saran_pengganti": [
+            "Taman Timur",
+            "Ciri Urban / Penanda Perkotaan",
+            "Dilarang merokok!"
+          ],
+          "penjelasan": "Frasa nomina bahasa Indonesia berpola Diterangkan-Menerangkan (DM) bukan MD seperti bahasa Inggris, serta kalimat larangan atau imbauan ringkas diakhiri tanda seru (!) (Buku Saku Media Luar Ruang 2015, hlm. 110-124; Prosiding Semiloka 2019, hlm. 522-549).",
+          "contoh_salah": "Kompleks East Park memasang papan pengumuman bertuliskan Dilarang bermesraan tanpa tanda baca akhir.",
+          "contoh_benar": "Kompleks Taman Timur memasang papan pengumuman bertuliskan Dilarang bermesraan!"
         }
       ]
     }
   },
-  "total_entri": 720
+  "total_entri": 725
 }

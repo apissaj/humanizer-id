@@ -144,3 +144,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **8 entri baru (712 -> 720):** `E9L-026`..`E9L-027` (2 aktif), `EYD-076` (1 aktif), `SPK-017`..`SPK-021` (3 aktif, 2 `[telaah]`).
 - **4 istilah glosarium baru (164 -> 168):** `download`, `upload`, `offline`, `mouse` (`teknologi_dan_rekayasa` 64 -> 68).
 - **Sub-skill diperbarui:** blok `CK` (`humanizer-id-ejaan-morfologi`), `CL` (`humanizer-id-sintaksis`), `CM` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.
+
+---
+
+## Integrasi Siklus 31–32: *Pedoman Penerbitan Buku LIPI Press*, Modul Opini KD 3.11, & *Media Luar Ruang / Semiloka 2019* (2026-11-18)
+
+- **Sumber:** `books/pedoman_penerbitan_buku_lipi_press.pdf` (hlm. 60, 67), `books/modul_kelas_XII_artikel_opini.pdf` (hlm. 31), `books/buku_saku_istilah_media_luar_ruang_2015.pdf` (hlm. 22–89, 110–124), serta `books/kumpulan_makalah_semiloka_2019.pdf` (hlm. 241, 271–272).
+- **Referensi baru:** `references/pedoman-lipi-press-dan-media-luar-ruang-lanjutan.md`.
+- **5 entri baru (720 -> 725):** `BRN-005`..`BRN-007` (3 aktif), `PSB-035`..`PSB-036` (1 aktif, 1 `[telaah]`).
+- **2 istilah glosarium baru (168 -> 170):** `cottage`, `food and beverage` (`bisnis_dan_manajemen` 58 -> 60).
+- **Sub-skill diperbarui:** blok `CN` (`humanizer-id-ejaan-morfologi`), `CO` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.

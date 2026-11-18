@@ -196,3 +196,9 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 ### CM. Padanan Istilah TI Mutakhir (Zaim, UNP 2018, hlm. 2)
 
 - **Padanan tambahan (`glosarium-lintas-bidang.json` 164 → 168):** *download* → **unduh**; *upload* → **unggah**; *offline* → **luring / luar jaringan**; *mouse* → **tetikus** (`teknologi_dan_rekayasa`).
+
+---
+
+### CO. Padanan Sektor Usaha & Perhotelan (Semiloka 2019, hlm. 271–272)
+
+- **Padanan tambahan (`glosarium-lintas-bidang.json` 168 → 170):** *cottage* → **pondok**; *food and beverage* → **makanan dan minuman** (`bisnis_dan_manajemen`).
