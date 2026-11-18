@@ -4,6 +4,25 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 688 kaidah + 150 istilah glosarium
+
+Bedah menyeluruh lima rujukan resmi (Siklus 20–22):
+
+- **EYD Edisi V (SK Kepala Badan Bahasa No. 0424/I/BS.00.01/2022) & Seri Penyuluhan Ejaan v2** (`books/eyd_edisi_5_2022.pdf`, `books/seri_penyuluhan_ejaan_badanbahasa_v2.pdf`):
+  - `EYD-065`..`EYD-068` — gabungan kata padu (`darmabakti`, `sukarela`, `saputangan`, `belasungkawa`, `manasuka`, `adakalanya`), gabungan kata bebas/berimbuhan sepihak (`tanda mata`, `kaki tangan`, `kaki lima`, `orang tua`, `berpesta pora`, `kerja baktikan`), gabungan kata berkonfiks penuh (`menyamaratakan`, `menganaktirikan`, `mengambinghitamkan`, `ketidaktahuan`, `keputusasaan`), serta bentuk terikat (`Yang Maha Kuasa`, `ekabahasa`, `nirgagasan`, `antar jemput`).
+  - `BAK-012` disempurnakan agar kata dasar `antar` bermakna 'bawa/kirim' (*antar jemput*, *antar barang*) tidak tertandai keliru.
+  - `EYD-069`..`EYD-070` — singkatan surat-menyurat bergaris miring (`a/n`, `u/p`, `u/b`, `d/a`), format `Rp` bertitik/berspasi, tanda titik setelah perincian berkurung `(a).`, tanda baca akhir ganda `?.`/`!.`, serta skor pertandingan bertitik dua (`skor 3:1` -> `skor 3-1`).
+  - `EYD-071`..`EYD-072` — unsur serapan EYD V Bab IV (asing: `akomodasi`, `aksesori`, `konsekuen`, `ekuivalen`, `suvenir`, `deskripsi`, `stereo`, `espreso`, `tenteram`; Arab: `tafakur`, `umat`, `kafah`, `tamat`, `nasihat`, `hakikat`, `makhluk`, `sahih`, `uzur`, `zalim`, `pikir`, `napas`, `faedah`).
+  - `EYD-073` (`[telaah]`) — huruf miring istilah asing/daerah, huruf tebal penegas, dan tanda pisah (`—`) untuk rentang.
+- **Winarti dkk. (2009), Subbab 2.3.3–2.11** (Jurnal Ekonomi Pertanian, Mahakam, Didaktika, Dedikasi, Prediksi, Sosial Politik, Forum Ekonomi, Dinamika Ilmu, Poltanesa, hlm. 38–137):
+  - `TMS-043`..`TMS-046` — peluluhan KTSP (`mengursuskan`, `menyukseskan`, `menyejahterakan`, `memercayai`, `ditelurkannya`), serapan ilmiah (`mendiskreditkan`, `sekretaris`, `seyogianya`, `praktik`, `ditoleransi`, `konferensi`), gabungan kata (`tenaga kerja`, `semipermeabel`, `menitikberatkan`), kerancuan diksi (`mengacu pada`, `hidup-hidup`, `membahas`, `di samping itu`, `pada/antara tahun`), serta perluasan `TMS-038` untuk `sejak ... sampai`.
+- **Buku Praktis Bahasa Indonesia 2 (Bahasa, Istilah, Kalimat), Sasangka (2015) Kalimat, & Suladi (2015) Paragraf**:
+  - `BPBI-008`..`BPBI-009` — ungkapan `Dirgahayu RI` / `HUT ke-N RI` / `WIB` (bukan `BBWI`) serta konjungsi `agar/supaya` (bukan `bahwa`) sesudah verba harapan/anjuran (`menganjurkan`, `mengharapkan`, `mengimbau`, `memohon`).
+  - `SPK-014`..`SPK-016` — kerancuan `Menurut pada X` & preposisi objek verba transitif (`mengamanatkan kepada`, `menyimpulkan tentang`), koma sesudah penghubung antarkalimat (`Oleh sebab itu,`, `Meskipun demikian,`, `Walaupun demikian,`, `Sehubungan dengan itu,`, `Berkaitan dengan hal itu,`), dan `[telaah]` kalimat partisipial awal verba (Sasangka 2015, hlm. 88–96).
+  - Glosarium lintas bidang bertambah 13 padanan resmi Pusat Bahasa (137 -> 150 istilah).
+
+Referensi baru: `references/eyd-v-2022-lengkap.md`, `references/seri-penyuluhan-ejaan-v2-badan-bahasa.md`, `references/kaltim-2009-jurnal-mahakam-sospol-ekonomi.md`, `references/bpbi-2-bahasa-istilah-kalimat.md`, dan `references/kalimat-efektif-sasangka-2015.md`; sub-skill `skills/humanizer-id-ejaan-morfologi/SKILL.md`, `skills/humanizer-id-sintaksis/SKILL.md`, `skills/humanizer-id-diksi-istilah/SKILL.md`, dan tabel rute `SKILL.md` diperbarui.
+
 ### 670 kaidah
 
 Bedah lanjut Winarti dkk. (2009): subbab 2.1.3-2.1.4 Jurnal Budidaya Pertanian (hlm. 14-23)

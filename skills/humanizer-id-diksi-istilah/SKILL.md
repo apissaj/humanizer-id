@@ -165,3 +165,12 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 
 1. **Pola:** *tempat di mana mahasiswa berdiskusi* → **Perbaikan:** *tempat mahasiswa berdiskusi* — **Sebab:** relatif lokatif kalke 'place where/waar': frasa tanya *di mana* dilarang jadi penghubung relatif penjelas tempat (UIN-009) (hlm. 125).
 2. **Pola:** *zaman dahulu kala* → **Perbaikan:** *zaman dahulu* atau *dahulu kala* — **Sebab:** pleonasme temporal rangkap tiga: *zaman, dahulu, kala* sama-sama menandai waktu lampau (UIN-010) (hlm. 125).
+
+---
+
+### CD. Diksi Resmi, Ungkapan Kenegaraan & Padanan Istilah (Winarti dkk. 2009 & BPBI 2)
+
+1. **Pola:** *mengacuh pada, hidup-hidupan, membahas dan membicarakan, lain di samping itu, pada antara tahun* → **Perbaikan:** *mengacu pada, hidup-hidup, membahas (atau membicarakan), di samping itu, pada tahun (atau antara tahun)* — **Sebab:** *acuh* bermakna 'peduli' bukan 'merujuk'; akhiran *-an* pada *hidup-hidupan* keliru; *membahas dan membicarakan* sinonim ganda; *lain di samping itu* dan *pada antara tahun* menumpuk penghubung/preposisi mubazir (TMS-046) (Winarti dkk. 2009, hlm. 78–87).
+2. **Pola:** *dirgahayu HUT RI ke-79, dirgahayu RI ke-79, HUT RI ke-79, BBWI* → **Perbaikan:** *Dirgahayu RI / Dirgahayu Republik Indonesia, HUT ke-79 RI, WIB* — **Sebab:** *dirgahayu* sudah bermakna 'berumur panjang' sehingga dilarang digabung dengan *HUT* atau *ke-N*; bilangan tingkat menerangkan *HUT*, bukan *RI*; singkatan wilayah waktu resmi ialah *WIB*, *Wita*, dan *WIT* (BPBI-008) (BPBI 2 Bahasa).
+3. **Pola:** istilah Inggris bisnis/teknis dibiarkan mentah (*after-sales service, cash flow, overbooking, due diligence, site plan, master plan, standby loan, boarding pass, airworthy, vacuum cleaner*) → **Perbaikan:** *layanan pascajual, arus kas, tempah lajak, uji tuntas, rencana tapak, rencana induk, pinjaman siaga, pas naik, laik terbang, pengisap debu* — **Sebab:** padanan resmi Pusat Bahasa dalam `data/glosarium-lintas-bidang.json` (BPBI 2 Istilah).
+

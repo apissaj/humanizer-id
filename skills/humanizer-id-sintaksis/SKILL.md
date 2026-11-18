@@ -228,3 +228,20 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 4. **Pola:** *Berdasarkan hasil penelitian menunjukkan bahwa perlakuan berbeda nyata.* → **Perbaikan:** *Hasil penelitian menunjukkan bahwa perlakuan berbeda nyata.* — **Sebab:** frasa *Berdasarkan X* adalah keterangan, bukan subjek; vokal berkoma seperti *Berdasarkan hasil penelitian, tingkat erosi rendah* tetap sah (SPK-013).
 5. **Pola:** *, di mana hal ini menunjukkan peningkatan* → **Perbaikan:** *, hal ini menunjukkan peningkatan* atau *, yang menunjukkan peningkatan* — **Sebab:** *di mana* sebagai penghubung relatif adalah residu ragam asing; klausa relatif sah tetap lolos (BDD-009).
 6. **Pola:** *bila melapuk maka tidak bisa diserap tanaman* → **Perbaikan:** *bila melapuk, tidak bisa diserap tanaman* — **Sebab:** konjungsi syarat dan *maka* tidak dipakai bersamaan dalam satu kalimat majemuk; daftar konjungsi syarat mencakup *jika, kalau, apabila, bila* (SPK-001).
+
+---
+
+### CB. Kerancuan Preposisi, Konjungsi Harapan & Penghubung Antarkalimat (BPBI 2, Sasangka 2015, Suladi 2015)
+
+1. **Pola:** *sejak bulan Januari sampai November 1998* → **Perbaikan:** *sejak bulan Januari hingga November 1998* (atau *dari ... sampai dengan ...*) — **Sebab:** preposisi gabungan dipakai berpasangan selaras (TMS-038 diperluas; Winarti dkk. 2009, hlm. 105).
+2. **Pola:** *Menurut pada pakar..., mengamanatkan kepada badan..., menyimpulkan tentang temuan* → **Perbaikan:** *Menurut pakar..., mengamanatkan [objek] kepada badan..., menyimpulkan temuan* — **Sebab:** kerancuan preposisi ganda setelah *menurut* dan penyisipan preposisi sebelum objek langsung verba aktif transitif (SPK-014) (Winarti 2009 hlm. 56; Sasangka 2015 hlm. 77).
+3. **Pola:** *menganjurkan bahwa / mengharapkan bahwa / mengimbau bahwa / memohon bahwa* → **Perbaikan:** *menganjurkan agar / mengharapkan agar / mengimbau agar / memohon agar* (atau *supaya*) — **Sebab:** predikat harapan atau anjuran menuntut konjungsi tujuan *agar/supaya*, bukan *bahwa* yang dipakai untuk verba penegasan (BPBI-009) (BPBI 2 Kalimat).
+4. **Pola:** *Oleh sebab itu / Meskipun demikian / Walaupun demikian / Sehubungan dengan itu* (di awal kalimat tanpa koma) → **Perbaikan:** beri tanda koma setelah ungkapan penghubung antarkalimat tersebut — **Sebab:** penghubung antarkalimat bersifat ekstraklausal sehingga wajib dipisahkan koma dari induk kalimat (SPK-015) (Suladi 2015, hlm. 55).
+
+---
+
+### CC. Kalimat Efektif & Kalimat Partisipial (Sasangka, *Seri Penyuluhan Kalimat*, 2015, hlm. 72–96)
+
+1. **Pola:** *Berbicara kepada media kemarin, dia mengatakan... / Melihat situasi mulai memanas, petugas... / Ditemani pengacaranya, dia...* → **Perbaikan:** *Ketika berbicara kepada media..., / Saat melihat situasi..., / Dengan ditemani pengacaranya...* — **Sebab:** `[telaah]` kalimat partisipial meniru struktur *participle* Inggris; bahasa Indonesia baku melarang frasa verbal mengawali kalimat kompleks tanpa konjungsi/preposisi penanda subordinatif (SPK-016) (hlm. 92–96).
+2. **Pola:** *dalam rangka peningkatan mutu, mendorong produktivitas, serta menjamin layanan* → **Perbaikan:** *dalam rangka meningkatkan mutu, mendorong produktivitas, serta menjamin layanan* — **Sebab:** `[telaah]` rincian koordinatif harus sejajar kategori frasanya (semua FV atau semua FN) (hlm. 88–91).
+

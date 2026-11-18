@@ -261,3 +261,26 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 10. **Pola:** *merubah, mentargetkan, analisa, praktek, mengaktipkan, penanggungjawab, bekerjabakti, tandatangani* → **Perbaikan:** *mengubah, menargetkan, analisis, praktik, mengaktifkan, penanggung jawab, bekerja bakti, menandatangani* — **Sebab:** bentuk dasar berfonem /r/, /t/, /p/ dan gabungan kata yang selama ini belum bermesin sekarang ikut diperiksa (BAK-002, BAK-004, BAK-005, BAK-007, BPK-038, BPK-044, BPK-045, SPE-014).
 11. **Pola:** *sudah kumpul, telah jumpa, sampai jumpa* → **Perbaikan:** *sudah berkumpul, telah berjumpa, sampai berjumpa* — **Sebab:** verba berobjek tak langsung menuntut awalan *ber-*; bentuk tanpa awalan tidak baku (TMS-035).
 12. **Pola:** *menstimulir, panili, disekitar, diareal, diladang* → **Perbaikan:** *menstimulasi, vanili, di sekitar, di area, di ladang* — **Sebab:** *stimulir* sudah verba sehingga *meng-* ganda; *panili* penyerapan keliru; preposisi *di* ditulis terpisah dari kata yang mengikutinya (TMS-037).
+
+---
+
+### BZ. Kaidah Lengkap EYD Edisi V (SK 0424/I/BS.00.01/2022) & Seri Penyuluhan Ejaan v2
+
+1. **Pola:** *darma bakti, suka rela, sapu tangan, bela sungkawa, mana suka, ada kalanya* → **Perbaikan:** *darmabakti, sukarela, saputangan, belasungkawa, manasuka, adakalanya* — **Sebab:** EYD Edisi V Bab II.B.3.e membakukan gabungan kata padu tersebut ditulis serangkai (EYD-065) (hlm. 20-21).
+2. **Pola:** *tandamata, kakitangan, kakilima, orangtua, berpestapora, kerjabaktikan* → **Perbaikan:** *tanda mata, kaki tangan, kaki lima, orang tua, berpesta pora, kerja baktikan* — **Sebab:** gabungan kata bebas dan gabungan kata yang hanya berawalan saja atau berakhiran saja ditulis terpisah (EYD-066) (hlm. 19-20).
+3. **Pola:** *menyama ratakan, menganak tirikan, mengambing hitamkan, ketidak tahuan, keputus asaan* → **Perbaikan:** *menyamaratakan, menganaktirikan, mengambinghitamkan, ketidaktahuan, keputusasaan* — **Sebab:** gabungan kata yang mendapat awalan dan akhiran sekaligus (konfiks penuh) ditulis serangkai (EYD-067) (hlm. 20).
+4. **Pola:** *Yang Mahakuasa, eka bahasa, nir gagasan, antarjemput* → **Perbaikan:** *Yang Maha Kuasa, ekabahasa, nirgagasan, antar jemput* — **Sebab:** bentuk terikat keilmuan serangkai, *maha-* untuk sifat Tuhan ditulis terpisah berkapital, sedangkan *antar* bermakna 'bawa/kirim' pada *antar jemput* ditulis terpisah (EYD-068) (hlm. 18-19; Ejaan v2 hlm. 39).
+5. **Pola:** *a/n, u/p, d/a, Rp. 50.000, Rp 50.000* → **Perbaikan:** *a.n., u.p., d.a., Rp50.000,00* — **Sebab:** singkatan surat dua huruf wajib bertitik per huruf; lambang `Rp` tanpa titik dan tanpa spasi sebelum angka (EYD-069) (hlm. 29, 31).
+6. **Pola:** *(a). ..., ...?., ...!., skor 3:1* → **Perbaikan:** *(a) ..., ...?, ...!, skor 3-1* — **Sebab:** huruf/angka perincian berkurung tidak diikuti titik; tanda tanya/seru tidak bersanding dengan titik; skor pertandingan memakai tanda hubung (EYD-070) (hlm. 37, 47).
+7. **Pola:** *akommodasi, asesoris, konsekwen, ekivalen, souvenir, diskripsi, stirio, espresso, tentrem* → **Perbaikan:** *akomodasi, aksesori, konsekuen, ekuivalen, suvenir, deskripsi, stereo, espreso, tenteram* — **Sebab:** EYD V Bab IV menyederhanakan konsonan ganda menjadi tunggal dan mempertahankan vokal sumber serta sisipan /e/ serapan daerah (EYD-071) (hlm. 57-75).
+8. **Pola:** *tafakkur, ummat, kaffah, tammat, nasehat, hakekat, mahluk, shohih, udzur, dzalim, fikir, nafas* → **Perbaikan:** *tafakur, umat, kafah, tamat, nasihat, hakikat, makhluk, sahih, uzur, zalim, pikir, napas* — **Sebab:** penyerapan kata Arab dalam EYD V Bab IV tanpa konsonan rangkap dan tanpa digraf nonbaku (EYD-072) (hlm. 57-75).
+9. **Pola:** kata asing/daerah diapit tanda petik (`"lockdown"`), atau rentang angka/tempat memakai tanda hubung (`1825-1830`) → **Perbaikan:** cetak miring (*lockdown*) dan tanda pisah (`1825—1830`) — **Sebab:** `[telaah]` ketentuan huruf miring, tebal, dan tanda pisah EYD V (EYD-073) (hlm. 14-16, 49).
+
+---
+
+### CA. Morfologi & Serapan Lanjutan Terbitan Ilmiah (Winarti dkk., 2009, Subbab 2.4–2.11)
+
+1. **Pola:** *mengkursuskan, mengsukseskan, mensejahterakan, mempercayai, ditelarkannya* → **Perbaikan:** *mengursuskan, menyukseskan, menyejahterakan, memercayai, ditelurkannya* — **Sebab:** peluluhan fonem /k, p, t, s/ berlaku pada bentuk dasar *kursus, sukses, sejahtera, percaya*; bentuk dasar *telur* menjadi *ditelurkannya* (TMS-043) (hlm. 59-95).
+2. **Pola:** *mendiskriditkan, sekertaris, sejogyanya, peraktek, ditolerir, konperensi* → **Perbaikan:** *mendiskreditkan, sekretaris, seyogianya, praktik, ditoleransi, konferensi* — **Sebab:** bentuk serapan baku KBBI tanpa akhiran *-ir* dan tanpa sisipan vokal keliru (TMS-044) (hlm. 81-115).
+3. **Pola:** *tenagakerja, semi permeabel, menitik beratkan* → **Perbaikan:** *tenaga kerja, semipermeabel, menitikberatkan* — **Sebab:** gabungan kata bebas terpisah, bentuk terikat *semi-* serangkai, dan gabungan kata berkonfiks penuh serangkai (TMS-045) (hlm. 122-136).
+
