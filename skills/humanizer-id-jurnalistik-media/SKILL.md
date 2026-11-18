@@ -43,7 +43,8 @@ Sub-kaidah domain Humanizer ID untuk berita, artikel opini, kolom populer, tajuk
 
 ### D. Padanan Istilah Media & Struktur Artikel Opini (`glosarium-lintas-bidang.json` & Modul Opini KD 3.11)
 
-- **Padanan istilah media baku:** *breaking news* → **berita sela / kabar kilat**; *coverage* → **liputan**; *off the record* → **bukan untuk disiarkan / tertutup**; *fact-checking* → **pemeriksaan fakta / verifikasi fakta**; *clickbait* → **umpan klik**; *podcast* → **siniar**; *stand up comedy* → **komedi tunggal**.
+- **Padanan istilah media baku:** *breaking news* → **berita sela / kabar kilat**; *coverage* → **liputan**; *off the record* → **bukan untuk disiarkan / tertutup**; *fact-checking* → **pemeriksaan fakta / verifikasi fakta**; *clickbait* → **umpan klik**; *podcast* → **siniar**; *stand up comedy* → **komedi tunggal**; *commuter line* → **kereta komuter**; *busway* → **jalur bus**; *reshuffle* → **perombakan**; *selfie* → **swafoto**; *rising star* → **bintang baru** (`glosarium-lintas-bidang.json`).
+- **Urutan penyebutan & serapan berita (Baharman, UNM):** dahulukan padanan Indonesia baru istilah asing bercetak miring dalam kurung (*paparan risiko (exposure)*, bukan *exposure (paparan risiko)*) (`TMS-048`), dan hindari salah adaptasi seperti *misskoordinasi* → **miskoordinasi** atau *volantilitas* → **volatilitas** (`TMS-047`).
 - **Struktur artikel opini:** tesis (pernyataan sikap jelas) → argumentasi (berbasis fakta/data terverifikasi, tanpa hiperbola *revolusioner* atau *luar biasa*) → penegasan ulang (simpulan konkret tanpa slogan utopis).
 
 ```bash

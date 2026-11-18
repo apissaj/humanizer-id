@@ -114,3 +114,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **13 istilah glosarium baru (137 -> 150):** 10 ranah bisnis & manajemen, 3 ranah teknologi & rekayasa dari BPBI 2 Istilah.
 - **Sub-skill diperbarui:** blok `BZ` & `CA` di `humanizer-id-ejaan-morfologi`, blok `CB` & `CC` di `humanizer-id-sintaksis`, blok `CD` di `humanizer-id-diksi-istilah`, serta tabel rute `SKILL.md`.
 
+
+---
+
+## Integrasi Siklus 23–25: Baharman (UNM), Kompilasi 3 Jurnal Empiris Skripsi/BIPA, & TBBBI Edisi IV (2026-11-18)
+
+- **Sumber:** `books/penguatan_penyerapan_pemadanan_istilah.pdf` (Baharman UNM, 22 hlm.), `books/jurnal_iain_curup_kesalahan_eyd_skripsi.pdf` (Ummul Khair, *ESTETIK* 2018, hlm. 33–53), `books/jurnal_unnes_kesalahan_sintaksis_skripsi.pdf` (Saputra & Alber, *JSI* UNNES 2021, hlm. 215–226), `books/jurnal_umk_kesalahan_diksi_kalimat.pdf` (Yahya dkk., *KREDO* UMK 2018, hlm. 53–69), dan `books/tata_bahasa_baku_bahasa_indonesia_edisi_4_2017.pdf` (Bab VII–X, hlm. 337–523).
+- **Referensi baru:** `references/baharman-penyerapan-pemadanan-istilah.md`, `references/jurnal-curup-unnes-umk-kesalahan-skripsi.md`, dan `references/tbbbi-edisi-4-2017-lanjutan.md`.
+- **12 entri baru (688 -> 700):** `TMS-047`..`TMS-048` (1 aktif, 1 `[telaah]`), `JSK-007`..`JSK-011` (4 aktif, 1 `[telaah]`), dan `TBB-032`..`TBB-036` (4 aktif, 1 `[telaah]`).
+- **10 istilah glosarium baru (150 -> 160):** 5 ranah `jurnalistik_dan_media` (7 -> 12), 3 ranah `bisnis_dan_manajemen` (54 -> 57), dan 2 ranah `teknologi_dan_rekayasa` (62 -> 64).
+- **Sub-skill diperbarui:** blok `CE` (`humanizer-id-ejaan-morfologi`), blok `CF` (`humanizer-id-sintaksis`), blok `CG` (`humanizer-id-diksi-istilah`), pembaruan butir B/D pada `humanizer-id-skripsi-kampus` & `humanizer-id-jurnalistik-media`, serta tabel rute `SKILL.md`.

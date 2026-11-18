@@ -26,7 +26,7 @@
 
 ---
 
-**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 688 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + sembilan sub-kaidah (lima strata + empat domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
+**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 700 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + sembilan sub-kaidah (lima strata + empat domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
 
@@ -184,7 +184,8 @@ Seluruh kaidah **bukan karangan bebas** — setiap aturan ditelusuri dari dokume
 |--------|-----------|
 | *Cerdas Cergas Berbahasa dan Bersastra Indonesia* Kelas XI & XII (Kemendikbudristek, 2024) | Ragam ilmiah denotatif-objektif, kalimat efektif, kaidah surat resmi (hlm. 210-215, 29-34) |
 | *Bahasa Indonesia untuk Perguruan Tinggi* (Suyatno dkk., UIN Jakarta, 2017) | Enam syarat keefektifan kalimat akademik (hlm. 100-107) |
-| *Tata Bahasa Baku Bahasa Indonesia* Edisi IV (Alwi dkk.) | Kesejajaran predikat, korelatif, pronomina, pelesapan konstituen |
+| *Tata Bahasa Baku Bahasa Indonesia* Edisi IV (Alwi dkk., 2017) | Kesejajaran predikat, korelatif, pronomina/tanya, `para`, `Tetapi` awal kalimat, diatesis (`TBB-001..036`) |
+| Baharman (UNM) & Jurnal Empiris Skripsi/BIPA (Khair 2018; UNNES 2021; UMK 2018) | Adaptasi serapan, urutan padanan Indonesia-asing, salah eja skripsi, preposisi `di`/`ke`, fragmen sintaksis |
 | EYD Edisi V (SK No. 0424/I/BS.00.01/2022) & PUEBI | Peluluhan KTSP, bentuk terikat, gabungan kata |
 | *Tata Istilah* (Pusat Bahasa 1978; Qodratillah 2019) | Paradigma imbuhan peristilahan, PUPI, padanan lintas bidang |
 | *Bentuk dan Pilihan Kata* (Mustakim 2014, 2019) | Anti-pleonasme, diksi preskriptif, pembedaan dll./dsb./dst. |
@@ -196,8 +197,8 @@ Seluruh kaidah **bukan karangan bebas** — setiap aturan ditelusuri dari dokume
 
 Dataset terbuka di [data/](data/):
 
-- [data/kalke-indonesia.json](data/kalke-indonesia.json) - 688 entri leksikon kalke, verba ringan, pola antisipatif AI, kaidah morfologi EYD V.
-- [data/glosarium-lintas-bidang.json](data/glosarium-lintas-bidang.json) - 150 padanan istilah baku (Teknologi 62, Bisnis 54, Linguistik 17, Hukum 10, Jurnalistik 7).
+- [data/kalke-indonesia.json](data/kalke-indonesia.json) - 700 entri leksikon kalke, verba ringan, pola antisipatif AI, kaidah morfologi EYD V.
+- [data/glosarium-lintas-bidang.json](data/glosarium-lintas-bidang.json) - 160 padanan istilah baku (Teknologi 64, Bisnis 57, Linguistik 17, Jurnalistik 12, Hukum 10).
 - [data/pedoman-kampus.json](data/pedoman-kampus.json) - preset 16 perguruan tinggi + jurnal dikbud.
 
 ## Preset Kampus

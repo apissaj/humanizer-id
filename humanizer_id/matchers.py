@@ -1463,3 +1463,39 @@ CUSTOM_RULES.append((
     lambda p: p.startswith("Oleh sebab itu / Meskipun demikian"),
     [re.compile(r"(?m)(?:^|[.!?]\s+|\n)\s*(?:Oleh\s+sebab\s+itu|Meskipun\s+demikian|Walaupun\s+demikian|Sehubungan\s+dengan\s+(?:hal\s+)?itu|Berkaitan\s+dengan\s+hal\s+itu)\s+(?=[^\s,.;:])")],
 ))
+
+# --- Kaidah Baharman (UNM) & Jurnal Skripsi/BIPA (Siklus 23-24: TMS-047, JSK-007..010) ---
+CUSTOM_RULES.extend([
+    # TMS-047: kesalahan adaptasi serapan (Baharman hlm. 11-12, 15)
+    (lambda p: p.startswith("misskoordinasi / volantilitas"),
+     [re.compile(r"(?i)\b(?:misskoordinasi|volantilitas|investation|illegal)\b")]),
+    # JSK-007: kesalahan ejaan leksikal proposal skripsi (Khair 2018, hlm. 47-48)
+    (lambda p: p.startswith("pengetauan / cendrung"),
+     [re.compile(r"(?i)\b(?:pengetauan|cendrung|defenisi|kesangupan)\b"),
+      re.compile(r"\balternative\b")]),
+    # JSK-008: kata depan penunjuk lokasi/arah serangkai (Khair 2018 hlm. 49; Saputra & Alber 2021; Yahya 2018 hlm. 63)
+    (lambda p: p.startswith("dikelas / kejenjang"),
+     [re.compile(r"(?i)\b(?:dikelas|kejenjang|disana|disini|disitu)\b")]),
+    # JSK-009: bentuk leksikal tidak baku (Yahya dkk. 2018, hlm. 63-64)
+    (lambda p: p.startswith("kaos / silahkan / membawah"),
+     [re.compile(r"(?i)\b(?:kaos|silahkan|membawah)\b")]),
+    # JSK-010: ragam lisan tidak baku dalam teks formal (Yahya dkk. 2018, hlm. 58, 63; TBBBI 4 hlm. 523)
+    (lambda p: p.startswith("tapi / udah / cuma"),
+     [re.compile(r"(?i)\b(?:tapi|udah|cuma(?!-cuma))\b")]),
+])
+
+# --- Kaidah TBBBI Edisi IV Lanjutan (Siklus 25: TBB-032..035) ---
+CUSTOM_RULES.extend([
+    # TBB-032: partikel -kah pada predikat tanya berpola S-P yang diawali yang (TBBBI 4 hlm. 346-348)
+    (lambda p: p.startswith("Yang ... apakah?"),
+     [re.compile(r"(?:^|[.!?]\s+)Yang\s+(?:[a-zA-Z-]+\s+){1,5}(?:apakah|siapakah)\b")]),
+    # TBB-033: konjungsi tetapi mengawali kalimat baru (TBBBI 4 hlm. 397-398)
+    (lambda p: p.startswith("Tetapi ... (konjungsi"),
+     [re.compile(r"(?m)(?:^|[.!?]\s+)Tetapi,?\s+")]),
+    # TBB-034: artikula para dengan nomina takspesifik (TBBBI 4 hlm. 401)
+    (lambda p: p.startswith("para anak / para orang / para manusia"),
+     [re.compile(r"(?i)\bpara\s+(?:anak|orang|manusia)\b(?!\s+(?:ilmu|hukum|ahli))")]),
+    # TBB-035: penanda sebab lisan tidak baku gara-gara / mentang-mentang (TBBBI 4 hlm. ~437)
+    (lambda p: p.startswith("gara-gara / mentang-mentang"),
+     [re.compile(r"(?i)\b(?:gara-gara|mentang-mentang)\b")]),
+])

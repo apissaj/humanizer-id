@@ -284,3 +284,12 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 2. **Pola:** *mendiskriditkan, sekertaris, sejogyanya, peraktek, ditolerir, konperensi* → **Perbaikan:** *mendiskreditkan, sekretaris, seyogianya, praktik, ditoleransi, konferensi* — **Sebab:** bentuk serapan baku KBBI tanpa akhiran *-ir* dan tanpa sisipan vokal keliru (TMS-044) (hlm. 81-115).
 3. **Pola:** *tenagakerja, semi permeabel, menitik beratkan* → **Perbaikan:** *tenaga kerja, semipermeabel, menitikberatkan* — **Sebab:** gabungan kata bebas terpisah, bentuk terikat *semi-* serangkai, dan gabungan kata berkonfiks penuh serangkai (TMS-045) (hlm. 122-136).
 
+
+---
+
+### CE. Kesalahan Ejaan Skripsi Empiris & Adaptasi Serapan (Khair 2018; Saputra & Alber 2021; Yahya dkk. 2018; Baharman)
+
+1. **Pola:** *misskoordinasi, volantilitas, investation, illegal* → **Perbaikan:** *miskoordinasi, volatilitas, investasi, ilegal* — **Sebab:** adaptasi istilah asing tidak menggandakan konsonan (`ss`, `ll`) dan tidak menyisipkan fonem *n* (*volantilitas*) (`TMS-047`) (Baharman, UNM, hlm. 11–15).
+2. **Pola:** *pengetauan, cendrung, defenisi, kesangupan, alternative* → **Perbaikan:** *pengetahuan, cenderung, definisi, kesanggupan, alternatif* — **Sebab:** penghilangan fonem (*h*/*g*), pertukaran vokal *i*→*e*, dan ejaan Inggris *alternative* lazim muncul di proposal skripsi (`JSK-007`) (Khair 2018, hlm. 47–48).
+3. **Pola:** *dikelas, kejenjang, disana, disini, disitu* → **Perbaikan:** *di kelas, ke jenjang, di sana, di sini, di situ* — **Sebab:** kata depan penunjuk lokasi dan arah (*di*, *ke*) wajib ditulis terpisah dari kata yang mengikutinya (`JSK-008`) (Khair 2018 hlm. 49; Saputra & Alber 2021 Data 8; Yahya dkk. 2018 hlm. 63).
+4. **Pola:** *kaos, silahkan, membawah* → **Perbaikan:** *kaus, silakan, membawa* — **Sebab:** ejaan baku KBBI memakai *au* pada *kaus* dan tanpa penambahan *h* pada *silakan* maupun *membawa* (`JSK-009`) (Yahya dkk. 2018, hlm. 63–64).

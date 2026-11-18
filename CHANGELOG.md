@@ -4,6 +4,21 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 700 kaidah + 160 istilah glosarium
+
+Bedah lanjutan lima sumber rujukan resmi & empiris (Siklus 23–25):
+
+- **Baharman (UNM)** — *Penguatan Penyerapan dan Pemadanan Istilah Asing sebagai Pembinaan dan Pengembangan Bahasa Indonesia* (`books/penguatan_penyerapan_pemadanan_istilah.pdf`, 22 hlm.):
+  - `TMS-047` — salah adaptasi serapan (`misskoordinasi` -> `miskoordinasi`, `volantilitas` -> `volatilitas`, `investation` -> `investasi`, `illegal` -> `ilegal`).
+  - `TMS-048` (`[telaah]`) — urutan wajib mendahulukan padanan Indonesia sebelum istilah asing dalam tanda kurung (hlm. 9).
+  - 9 padanan istilah pers/ekonomi/TI baru di `data/glosarium-lintas-bidang.json` (`commuter line`, `busway`, `reshuffle`, `selfie`, `rising star`, `community relation`, `year to date`, `month to month`, `online`).
+- **Kompilasi 3 Jurnal Empiris Skripsi & BIPA** (`books/jurnal_iain_curup_kesalahan_eyd_skripsi.pdf` Khair 2018; `books/jurnal_unnes_kesalahan_sintaksis_skripsi.pdf` Saputra & Alber 2021; `books/jurnal_umk_kesalahan_diksi_kalimat.pdf` Yahya dkk. 2018):
+  - `JSK-007`..`JSK-011` — ejaan leksikal proposal skripsi (`pengetahuan`, `cenderung`, `definisi`, `kesanggupan`, `alternatif`), preposisi `di`/`ke` serangkai (`di kelas`, `ke jenjang`, `di sana`, `di sini`, `di situ`), leksikon BIPA/skripsi (`kaus`, `silakan`, `membawa`, `tetapi`, `sudah`, `hanya`), serta `[telaah]` fragmen tanpa subjek (`Yang disebabkan...`) dan pembalikan hukum DM-MD (`pengetahuan kemampuan`); ditambah padanan `email` -> `pos-el / surat elektronik (surel)`.
+- ***Tata Bahasa Baku Bahasa Indonesia* (TBBBI) Edisi IV (2017)** (`books/tata_bahasa_baku_bahasa_indonesia_edisi_4_2017.pdf`):
+  - `TBB-032`..`TBB-036` — larangan `-kah` pada kalimat tanya S-P berawal `Yang ...` (`Yang ... apakah?`), larangan konjungsi `Tetapi` mengawali kalimat baru, artikula `para` dengan nomina takspesifik (`*para anak`, `*para orang`, `*para manusia`), penanda sebab lisan tidak baku (`gara-gara`, `mentang-mentang`), serta `[telaah]` larangan kepemilikan pronomina `ia` (`*istri ia`) dan diatesis pasif `-i` vs `-kan` (`ditugasi` vs `ditugaskan`).
+
+Referensi baru: `references/baharman-penyerapan-pemadanan-istilah.md`, `references/jurnal-curup-unnes-umk-kesalahan-skripsi.md`, dan `references/tbbbi-edisi-4-2017-lanjutan.md`; blok `CE`–`CG` ditambahkan pada `skills/humanizer-id-{ejaan-morfologi,sintaksis,diksi-istilah}/SKILL.md` serta pembaruan `humanizer-id-skripsi-kampus`, `humanizer-id-jurnalistik-media`, dan `SKILL.md`.
+
 ### 4 sub-skill domain baru (`skills/`)
 
 - `skills/humanizer-id-skripsi-kampus/SKILL.md` — peta 18 preset kampus (`pedoman-kampus.json`), daftar penyakit khas draf skripsi mahasiswa (5 jurnal empiris + Winarti 2009), dan pemisahan Simpulan vs Saran.

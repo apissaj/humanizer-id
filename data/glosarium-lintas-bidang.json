@@ -345,6 +345,16 @@
           "asing": "basement",
           "baku": "basemen / ruang bawah tanah",
           "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "online",
+          "baku": "daring / dalam jaringan",
+          "catatan": "Padanan kreasi resmi Badan Bahasa (Baharman, UNM, hlm. 12, 14)."
+        },
+        {
+          "asing": "email",
+          "baku": "pos-el / surat elektronik (surel)",
+          "catatan": "KBBI & Yahya dkk. (KREDO UMK 2018, hlm. 63)."
         }
       ]
     },
@@ -440,6 +450,31 @@
           "asing": "stand up comedy",
           "baku": "komedi tunggal",
           "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
+        },
+        {
+          "asing": "commuter line",
+          "baku": "kereta komuter",
+          "catatan": "Padanan pers resmi (Baharman, UNM, hlm. 13)."
+        },
+        {
+          "asing": "busway",
+          "baku": "jalur bus",
+          "catatan": "Padanan istilah transportasi publik (Baharman, UNM, hlm. 13)."
+        },
+        {
+          "asing": "reshuffle",
+          "baku": "perombakan",
+          "catatan": "Mis. perombakan kabinet dalam berita politik (Baharman, UNM, hlm. 13-14)."
+        },
+        {
+          "asing": "selfie",
+          "baku": "swafoto",
+          "catatan": "Padanan kreasi KBBI (Baharman, UNM, hlm. 13-14)."
+        },
+        {
+          "asing": "rising star",
+          "baku": "bintang baru",
+          "catatan": "Atau 'bintang yang bersinar' (Baharman, UNM, hlm. 13)."
         }
       ],
       "kaidah_ekonomi_kata": [
@@ -742,6 +777,21 @@
           "asing": "boarding pass",
           "baku": "pas naik",
           "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "community relation",
+          "baku": "hubungan masyarakat",
+          "catatan": "Padanan penerjemahan (Baharman, UNM, hlm. 12 Tabel 2)."
+        },
+        {
+          "asing": "year to date",
+          "baku": "sejauh tahun ini",
+          "catatan": "Istilah laporan kinerja keuangan (Baharman, UNM, hlm. 13 Tabel 2)."
+        },
+        {
+          "asing": "month to month",
+          "baku": "bulan ke bulan",
+          "catatan": "Pembandingan periode bulanan (Baharman, UNM, hlm. 13 Tabel 2)."
         }
       ]
     },

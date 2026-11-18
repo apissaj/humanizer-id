@@ -414,6 +414,20 @@
         "penerbit": "Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa",
         "tahun": 2015,
         "bab_relevan": "Bab 3 Kalimat Efektif & Kalimat Partisipial (hlm. 72-96)"
+      },
+      {
+        "judul": "Penguatan Penyerapan dan Pemadanan Istilah Asing sebagai Pembinaan dan Pengembangan Bahasa Indonesia",
+        "penulis": "Baharman",
+        "penerbit": "Universitas Negeri Makassar (korpus surat kabar Tempo 23 Oktober 2017)",
+        "tahun": 2017,
+        "bab_relevan": "Urutan penyebutan padanan Indonesia-asing (hlm. 9), kaidah adaptasi & pemadanan istilah (hlm. 11-16)"
+      },
+      {
+        "judul": "Kompilasi Jurnal Empiris Skripsi & BIPA: ESTETIK (IAIN Curup 2018), JSI (UNNES/UIR 2021), KREDO (UMK/UNS 2018)",
+        "penulis": "Ummul Khair; Mulyadi Saputra & Alber; Mokh. Yahya, Andayani & Kundharu Saddhono",
+        "penerbit": "IAIN Curup / UNNES / UMK",
+        "tahun": 2021,
+        "bab_relevan": "Kesalahan ejaan leksikal, preposisi di/ke, sintaksis fragmen, dan diksi ragam lisan pada karangan ilmiah & skripsi"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -437,7 +451,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 688
+    "total_entri": 700
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -2280,6 +2294,18 @@
           "penjelasan": "'Sementara' bermakna 'sedang', bukan penanda kuantitas jamak; padanan tepat 'beberapa orang' (Modul Jurnalistik 2018, hlm. 21).",
           "contoh_salah": "Sementara orang mengeluh soal layanan itu.",
           "contoh_benar": "Beberapa orang mengeluh soal layanan itu."
+        },
+        {
+          "id": "TMS-048",
+          "pola": "[telaah] pembalikan urutan penyebutan istilah asing di depan padanan bahasa Indonesianya (mis. exposure (paparan), commuter line (kereta komuter))",
+          "asal_frasa": "Foreign term first before Indonesian equivalent",
+          "saran_pengganti": [
+            "paparan (exposure)",
+            "kereta komuter (commuter line)"
+          ],
+          "penjelasan": "Baharman (UNM, hlm. 9) menegaskan bahwa apabila padanan bahasa Indonesia sudah tersedia, bentuk bahasa Indonesia wajib didahulukan baru diikuti istilah asingnya dalam tanda kurung (cetak miring), bukan sebaliknya.",
+          "contoh_salah": "Laporan keuangan itu membahas exposure (paparan risiko) serta volatility (gejolak harga).",
+          "contoh_benar": "Laporan keuangan itu membahas paparan risiko (exposure) serta gejolak harga pasar."
         }
       ]
     },
@@ -3634,6 +3660,31 @@
             "tahun": 2015,
             "halaman": "88-96"
           }
+        },
+        {
+          "id": "JSK-011",
+          "pola": "[telaah] fragmen kalimat takbersubjek berawalan relatif/konjungsi (Yang disebabkan..., Dan ...) serta pembalikan hukum DM-MD (pengetahuan kemampuan)",
+          "asal_frasa": "Incomplete clause fragment / reversed head-modifier order",
+          "saran_pengganti": [
+            "Hal itu disebabkan...",
+            "Selain itu, ...",
+            "kemampuan pengetahuan",
+            "Menurut saya, ..."
+          ],
+          "penjelasan": "Kesalahan sintaksis skripsi dan karangan akademik berupa fragmen kalimat tanpa induk kalimat atau subjek, serta pembalikan hukum diterangkan-menerangkan (DM) pada frasa nominal maupun preposisi keliru Dengan saya (Saputra & Alber 2021, Data 3, 4, 7, 12, 14; Yahya dkk. 2018, hlm. 61).",
+          "contoh_salah": "Pengetahuan kemampuan mahasiswa masih rendah. Yang disebabkan oleh kurangnya latihan.",
+          "contoh_benar": "Kemampuan pengetahuan mahasiswa masih rendah. Kondisi itu disebabkan oleh kurangnya latihan."
+        },
+        {
+          "id": "TBB-033",
+          "pola": "Tetapi ... (konjungsi intrakalimat tetapi mengawali kalimat baru)",
+          "saran_pengganti": [
+            "Akan tetapi, ...",
+            "Namun, ..."
+          ],
+          "penjelasan": "TBBBI Edisi IV (2017, 8.2.2, hlm. 397-398) menegaskan bahwa konjungsi koordinatif tetapi dalam bahasa baku tidak dipakai untuk memulai kalimat baru; gunakan konjungsi antarkalimat Akan tetapi, ....",
+          "contoh_salah": "Keadaan memang sudah mulai aman. Tetapi, kita harus tetap waspada menghadapi ancaman lanjutan.",
+          "contoh_benar": "Keadaan memang sudah mulai aman. Akan tetapi, kita harus tetap waspada menghadapi ancaman lanjutan."
         }
       ]
     },
@@ -8459,9 +8510,124 @@
             "tahun": 2004,
             "halaman": "Wikisource"
           }
+        },
+        {
+          "id": "TMS-047",
+          "pola": "misskoordinasi / volantilitas / investation / illegal",
+          "saran_pengganti": [
+            "miskoordinasi",
+            "volatilitas",
+            "investasi",
+            "ilegal"
+          ],
+          "penjelasan": "Penyerapan istilah asing kerap menyisipkan konsonan ganda atau huruf tambahan yang menyimpang dari kaidah adaptasi PUPI/EYD (Baharman, UNM, hlm. 11-12 Tabel 1, 15).",
+          "contoh_salah": "Krisis itu dipicu oleh misskoordinasi lintas lembaga, volantilitas pasar, penurunan investation, serta transaksi illegal.",
+          "contoh_benar": "Krisis itu dipicu oleh miskoordinasi lintas lembaga, volatilitas pasar, penurunan investasi, serta transaksi ilegal."
+        },
+        {
+          "id": "JSK-007",
+          "pola": "pengetauan / cendrung / defenisi / kesangupan / alternative",
+          "saran_pengganti": [
+            "pengetahuan",
+            "cenderung",
+            "definisi",
+            "kesanggupan",
+            "alternatif"
+          ],
+          "penjelasan": "Kesalahan ejaan leksikal berulang pada proposal skripsi mahasiswa akibat pelesapan fonem (h/g), perubahan vokal i menjadi e pada definisi, atau penggunaan ejaan Inggris alternative dalam kalimat Indonesia (Khair 2018, ESTETIK IAIN Curup, hlm. 47-48).",
+          "contoh_salah": "Mahasiswa cendrung menulis defenisi menurut pengetauan pribadi tanpa mengukur kesangupan metode alternative.",
+          "contoh_benar": "Mahasiswa cenderung menulis definisi menurut pengetahuan pribadi tanpa mengukur kesanggupan metode alternatif."
+        },
+        {
+          "id": "JSK-008",
+          "pola": "dikelas / kejenjang / disana / disini / disitu",
+          "saran_pengganti": [
+            "di kelas",
+            "ke jenjang",
+            "di sana",
+            "di sini",
+            "di situ"
+          ],
+          "penjelasan": "Kata depan penunjuk tempat dan arah (di, ke) wajib ditulis terpisah dari kata yang mengikutinya (Khair 2018, hlm. 49; Saputra & Alber 2021, Data 8; Yahya dkk. 2018, hlm. 63).",
+          "contoh_salah": "Pembelajaran dikelas tetap berlanjut hingga peserta didik melanjutkan kejenjang berikutnya disana maupun disini.",
+          "contoh_benar": "Pembelajaran di kelas tetap berlanjut hingga peserta didik melanjutkan ke jenjang berikutnya di sana maupun di sini."
+        },
+        {
+          "id": "JSK-009",
+          "pola": "kaos / silahkan / membawah",
+          "saran_pengganti": [
+            "kaus",
+            "silakan",
+            "membawa"
+          ],
+          "penjelasan": "Bentuk tidak baku pada tulisan mahasiswa dan pembelajar BIPA: pertukaran huruf vokal pada kaus, penambahan h pada silakan, serta akhiran h berlebih pada membawah (Yahya dkk. 2018, hlm. 63-64).",
+          "contoh_salah": "Para peserta mengenakan kaos seragam, silahkan mengambil modul sambil membawah alat tulis.",
+          "contoh_benar": "Peserta mengenakan kaus seragam, silakan mengambil modul sambil membawa alat tulis."
+        },
+        {
+          "id": "JSK-010",
+          "pola": "tapi / udah / cuma (alih-alih hanya)",
+          "saran_pengganti": [
+            "tetapi",
+            "sudah",
+            "hanya"
+          ],
+          "penjelasan": "Kata ragam lisan atau cakapan tidak baku dalam karangan ilmiah dan tulisan formal wajib diganti bentuk bakunya: tetapi, sudah, dan hanya (Yahya dkk. 2018, hlm. 58, 63; TBBBI Ed. 4 2017, hlm. 523).",
+          "contoh_salah": "Rancangan itu udah selesai dikerjakan, tapi hasilnya cuma memenuhi sebagian kecil sasaran.",
+          "contoh_benar": "Rancangan itu sudah selesai dikerjakan, tetapi hasilnya hanya memenuhi sebagian kecil sasaran."
+        },
+        {
+          "id": "TBB-032",
+          "pola": "Yang ... apakah? / Yang ... siapakah? (partikel -kah di belakang predikat tanya berpola S-P)",
+          "saran_pengganti": [
+            "Apakah yang ...?",
+            "Siapakah yang ...?",
+            "Yang ... apa?",
+            "Yang ... siapa?"
+          ],
+          "penjelasan": "Menurut TBBBI Edisi IV (2017, 7.2.2.4.1, hlm. 346-348), dalam kalimat tanya berurutan S-P yang subjeknya diawali kata yang, partikel -kah tidak dapat diletakkan pada kata tanya apa atau siapa di posisi predikat.",
+          "contoh_salah": "Yang dibeli Yusyanti apakah? Yang menulis laporan ini siapakah?",
+          "contoh_benar": "Apakah yang dibeli Yusyanti dan siapakah yang menulis laporan ini?"
+        },
+        {
+          "id": "TBB-034",
+          "pola": "para anak / para orang / para manusia",
+          "saran_pengganti": [
+            "anak-anak",
+            "orang-orang",
+            "umat manusia"
+          ],
+          "penjelasan": "Artikula kelompok para hanya mengiringi nomina manusia yang memiliki kesamaan pekerjaan, peran, atau kedudukan (para guru, para ilmuwan); bentuk *para anak, *para orang, dan *para manusia tidak digunakan dalam bahasa Indonesia baku (TBBBI Ed. 4 2017, 8.2.4.2, hlm. 401).",
+          "contoh_salah": "Kegiatan literasi pagi itu melibatkan para anak dan para orang di lingkungan desa.",
+          "contoh_benar": "Kegiatan literasi pagi itu melibatkan anak-anak dan warga masyarakat di lingkungan desa."
+        },
+        {
+          "id": "TBB-035",
+          "pola": "gara-gara / mentang-mentang (penanda sebab ragam lisan tidak baku)",
+          "saran_pengganti": [
+            "akibat",
+            "karena",
+            "disebabkan oleh"
+          ],
+          "penjelasan": "TBBBI Edisi IV (2017, 9.3.2.5.9, hlm. ~437) menggolongkan gara-gara dan mentang-mentang sebagai bentuk bahasa lisan tidak baku sehingga tidak layak dipakai dalam ragam ilmiah atau dinas.",
+          "contoh_salah": "Keterlambatan pengiriman terjadi gara-gara koordinasi tersendat, padahal bukan mentang-mentang anggaran terbatas.",
+          "contoh_benar": "Keterlambatan pengiriman terjadi akibat koordinasi tersendat, bukan karena keterbatasan anggaran."
+        },
+        {
+          "id": "TBB-036",
+          "pola": "[telaah] kepemilikan dengan pronomina ia (*istri ia) dan pembolak-balikan diatesis verba -i vs -kan (*ditugaskan pekerjaan / *Orang pintar dianggap dia)",
+          "saran_pengganti": [
+            "istrinya / istri dia",
+            "ditugasi pekerjaan",
+            "pekerjaan itu ditugaskan kepada",
+            "Dia saya anggap orang pintar"
+          ],
+          "penjelasan": "TBBBI Edisi IV (2017, hlm. 337, ~467) menetapkan bahwa hanya dia, -nya, dan beliau yang dapat menyatakan milik (bukan *istri ia), serta membedakan orientasi subjek pasif pada verba -i dan -kan (Dia ditugasi pekerjaan itu, bukan *Dia ditugaskan pekerjaan itu).",
+          "contoh_salah": "Istri ia menyusun laporan sementara petugas itu ditugaskan pekerjaan arsip tambahan.",
+          "contoh_benar": "Istrinya menyusun laporan sementara petugas itu ditugasi pekerjaan arsip tambahan."
         }
       ]
     }
   },
-  "total_entri": 670
+  "total_entri": 700
 }

@@ -174,3 +174,12 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 2. **Pola:** *dirgahayu HUT RI ke-79, dirgahayu RI ke-79, HUT RI ke-79, BBWI* → **Perbaikan:** *Dirgahayu RI / Dirgahayu Republik Indonesia, HUT ke-79 RI, WIB* — **Sebab:** *dirgahayu* sudah bermakna 'berumur panjang' sehingga dilarang digabung dengan *HUT* atau *ke-N*; bilangan tingkat menerangkan *HUT*, bukan *RI*; singkatan wilayah waktu resmi ialah *WIB*, *Wita*, dan *WIT* (BPBI-008) (BPBI 2 Bahasa).
 3. **Pola:** istilah Inggris bisnis/teknis dibiarkan mentah (*after-sales service, cash flow, overbooking, due diligence, site plan, master plan, standby loan, boarding pass, airworthy, vacuum cleaner*) → **Perbaikan:** *layanan pascajual, arus kas, tempah lajak, uji tuntas, rencana tapak, rencana induk, pinjaman siaga, pas naik, laik terbang, pengisap debu* — **Sebab:** padanan resmi Pusat Bahasa dalam `data/glosarium-lintas-bidang.json` (BPBI 2 Istilah).
 
+
+---
+
+### CG. Urutan Penyebutan Istilah & Padanan Leksikon Formal (Baharman, UNM; Yahya dkk. 2018; TBBBI Ed. 4)
+
+1. **Pola:** *exposure (paparan risiko)* / *commuter line (kereta komuter)* → **Perbaikan:** *paparan risiko (exposure)* / *kereta komuter (commuter line)* — **Sebab:** `[telaah]` bila padanan Indonesia sudah tersedia, bentuk bahasa Indonesia wajib disebutkan lebih dulu baru diikuti istilah asing bercetak miring dalam tanda kurung (`TMS-048`) (Baharman, UNM, hlm. 9).
+2. **Pola:** *tapi, udah, cuma* (di naskah ilmiah/berita) → **Perbaikan:** *tetapi, sudah, hanya* — **Sebab:** kata ragam lisan atau cakapan tidak baku dalam karangan formal wajib diganti bentuk bakunya (`JSK-010`) (Yahya dkk. 2018 hlm. 58, 63; TBBBI Ed. 4 2017, hlm. 523).
+3. **Pola:** *gara-gara, mentang-mentang* (di laporan formal) → **Perbaikan:** *akibat, karena, disebabkan oleh* — **Sebab:** penanda sebab ragam lisan tidak baku tidak layak dipakai di tulisan ilmiah atau dinas (`TBB-035`) (TBBBI Ed. 4 2017, hlm. ~437).
+4. **Padanan media/ekonomi/TI tambahan (`glosarium-lintas-bidang.json` 150 → 160):** *commuter line* → **kereta komuter**; *busway* → **jalur bus**; *reshuffle* → **perombakan**; *selfie* → **swafoto**; *rising star* → **bintang baru**; *community relation* → **hubungan masyarakat**; *year to date* → **sejauh tahun ini**; *month to month* → **bulan ke bulan**; *online* → **daring / dalam jaringan**; *email* → **pos-el / surat elektronik (surel)**.
