@@ -134,3 +134,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **12 entri baru (700 -> 712):** `TMS-049`..`TMS-051` (3 aktif), `EYD-074`..`EYD-075` (2 aktif), `JSK-012`..`JSK-018` (6 aktif, 1 `[telaah]`).
 - **4 istilah glosarium baru (160 -> 164):** `public figure`, `storyteller`, `library research`, `hard copy`.
 - **Sub-skill diperbarui:** blok `CH` (`humanizer-id-ejaan-morfologi`), `CI` (`humanizer-id-sintaksis`), `CJ` (`humanizer-id-diksi-istilah`), butir 7 `humanizer-id-skripsi-kampus`, serta tabel rute `SKILL.md`.
+
+---
+
+## Integrasi Siklus 29–30: *Seri Penyuluhan 9 EYD*, *Kalimat Edisi v2* (Badan Bahasa), & Padanan TI Zaim (2026-11-18)
+
+- **Sumber:** `books/seri_penyuluhan_9_eyd.pdf` (hlm. 38–44), `books/seri_penyuluhan_kalimat_badanbahasa_v2.pdf` (hlm. 25–32, 75–80), `books/prosiding_semiloka_bahasa_negara_2019.pdf`, dan `books/serapan_istilah_ti_2018.pdf` (Zaim, UNP 2018, hlm. 2).
+- **Referensi baru:** `references/seri-penyuluhan-9-eyd-dan-kalimat-v2.md`.
+- **8 entri baru (712 -> 720):** `E9L-026`..`E9L-027` (2 aktif), `EYD-076` (1 aktif), `SPK-017`..`SPK-021` (3 aktif, 2 `[telaah]`).
+- **4 istilah glosarium baru (164 -> 168):** `download`, `upload`, `offline`, `mouse` (`teknologi_dan_rekayasa` 64 -> 68).
+- **Sub-skill diperbarui:** blok `CK` (`humanizer-id-ejaan-morfologi`), `CL` (`humanizer-id-sintaksis`), `CM` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.

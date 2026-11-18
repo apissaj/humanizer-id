@@ -1538,3 +1538,26 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("Menurut (Nama, Tahun) menyatakan"),
      [re.compile(r"(?i)\bmenurut\s+\([A-Z][a-zA-Z]+[^)]*\d{4}[^)]*\)\s+(?:menyatakan|mengungkapkan|menjelaskan)\b")]),
 ])
+
+# --- Kaidah Seri Penyuluhan 9 EYD & Kalimat v2 (Siklus 29-30: E9L-026..027, EYD-076, SPK-017..019) ---
+CUSTOM_RULES.extend([
+    # E9L-026: kesalahan ejaan surat kabar & bahan latihan EYD (Seri Penyuluhan 9 EYD hlm. 38-44)
+    (lambda p: p.startswith("azasi / muqaddimah"),
+     [re.compile(r"(?i)\b(?:azasi|muqaddimah|akhlaq|centraal|romadhon|ramadhon|teknologie|kwota|extradiksi|effektiv|psikhologi|alkuran|ke-tuhan-an)\b"),
+      re.compile(r"(?i)\b(?:ma['’]siat|sa['’]at)\b")]),
+    # E9L-027: singkatan nama lembaga/istilah umum diberi titik per huruf (Seri Penyuluhan 9 EYD hlm. 41, 43)
+    (lambda p: p.startswith("D.P.R. / U.U.D."),
+     [re.compile(r"\b(?:D\.P\.R|U\.U\.D|K\.B|S\.M\.A|S\.M\.P)\.")]),
+    # EYD-076: preposisi penunjuk lokasi/arah serangkai tambahan (EYD V Bab II.G)
+    (lambda p: p.startswith("diseluruh / ditempat"),
+     [re.compile(r"(?i)\b(?:diseluruh|ditempat|diantara|ketengah)\b")]),
+    # SPK-017: preposisi menyisip sebelum objek langsung verba transitif (Kalimat v2 hlm. 25-26)
+    (lambda p: p.startswith("mengharap atas / berharap atas"),
+     [re.compile(r"(?i)\b(?:mengharap|berharap|membangun)\s+(?:atas|daripada)\b")]),
+    # SPK-018: pemasifan takgramatikal verba intransitif/kopulatif (Kalimat v2 hlm. 30)
+    (lambda p: p.startswith("dijadi / dirupakan"),
+     [re.compile(r"(?i)\b(?:dijadi|dirupakan)\b")]),
+    # SPK-019: kalke siaran berita Inggris (Kalimat v2 hlm. 28)
+    (lambda p: p.startswith("Ini [Nama] melaporkan dari"),
+     [re.compile(r"(?i)\bIni\s+[A-Z][a-z]+\s+melaporkan\s+dari\b")]),
+])

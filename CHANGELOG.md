@@ -4,6 +4,20 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 720 kaidah + 168 istilah glosarium
+
+Bedah lanjutan edisi revisi Badan Bahasa & Seri Penyuluhan 9 EYD (Siklus 29–30):
+
+- **Seri Penyuluhan 9 EYD (`books/seri_penyuluhan_9_eyd.pdf`, hlm. 38–44) & Prosiding Semiloka 2019:**
+  - `E9L-026`..`E9L-027` — ejaan serapan/digraf/apostrof surat kabar & latihan EYD (`azasi`, `muqaddimah`, `akhlaq`, `centraal`, `romadhon`, `teknologie`, `kwota`, `extradiksi`, `effektiv`, `psikhologi`, `alkuran`, `ma'siat`, `sa'at`) dan larangan tanda titik pada singkatan lembaga/istilah umum (`D.P.R.`, `U.U.D.`, `K.B.`, `S.M.A.`, `S.M.P.`).
+  - `EYD-076` — preposisi serangkai tambahan (`diseluruh`, `ditempat`, `diantara`, `ketengah`).
+- **Seri Penyuluhan Bahasa Indonesia: Kalimat Edisi v2 (`books/seri_penyuluhan_kalimat_badanbahasa_v2.pdf`, hlm. 25–32, 75–80):**
+  - `SPK-017`..`SPK-021` — larangan preposisi sebelum objek langsung (`mengharap atas`, `membangun daripada`), pemasifan takgramatikal kopula/intransitif (`dijadi`, `dirupakan`), kalke siaran (`Ini [Nama] melaporkan dari [Kota]`), serta `[telaah]` larangan pemasifan pelengkap, kesejajaran klausa majemuk koordinatif (`S-P dan P-S`), dan kelengkapan objek/pelengkap wajib.
+- **M. Zaim (UNP 2018, hlm. 2 — `books/serapan_istilah_ti_2018.pdf`):**
+  - 4 padanan istilah TI resmi (164 -> 168): `download` -> `unduh`, `upload` -> `unggah`, `offline` -> `luring / luar jaringan`, `mouse` -> `tetikus`.
+
+Referensi baru: `references/seri-penyuluhan-9-eyd-dan-kalimat-v2.md`; blok `CK`–`CM` pada sub-skill terkait dan `SKILL.md` diperbarui.
+
 ### 712 kaidah + 164 istilah glosarium
 
 Penyapuan tuntas sumber Pusat Bahasa & mekanisasi lanjutan temuan jurnal skripsi (Siklus 26–28):

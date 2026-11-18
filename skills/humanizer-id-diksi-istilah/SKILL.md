@@ -190,3 +190,9 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 
 1. **Pola:** *pastinya* (di karangan ilmiah/laporan resmi) → **Perbaikan:** *tentu, niscaya*, atau hapus bila penguat mubazir — **Sebab:** ragam cakapan merusak objektif register ilmiah (`JSK-016`) (Uswati & Mardikantoro, *DiSastra* 2021, hlm. 66).
 2. **Padanan tambahan (`glosarium-lintas-bidang.json` 160 → 164):** *public figure* → **figur publik / tokoh masyarakat**; *storyteller* → **pencerita / penutur cerita**; *library research* → **penelitian kepustakaan / kajian pustaka**; *hard copy* → **salinan cetak / naskah cetak**.
+
+---
+
+### CM. Padanan Istilah TI Mutakhir (Zaim, UNP 2018, hlm. 2)
+
+- **Padanan tambahan (`glosarium-lintas-bidang.json` 164 → 168):** *download* → **unduh**; *upload* → **unggah**; *offline* → **luring / luar jaringan**; *mouse* → **tetikus** (`teknologi_dan_rekayasa`).

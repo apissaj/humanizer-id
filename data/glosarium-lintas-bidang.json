@@ -355,6 +355,26 @@
           "asing": "email",
           "baku": "pos-el / surat elektronik (surel)",
           "catatan": "KBBI & Yahya dkk. (KREDO UMK 2018, hlm. 63)."
+        },
+        {
+          "asing": "download",
+          "baku": "unduh",
+          "catatan": "Padanan resmi Badan Bahasa bidang TI (Zaim, UNP 2018, hlm. 2)."
+        },
+        {
+          "asing": "upload",
+          "baku": "unggah",
+          "catatan": "Padanan resmi Badan Bahasa bidang TI (Zaim, UNP 2018, hlm. 2)."
+        },
+        {
+          "asing": "offline",
+          "baku": "luring / luar jaringan",
+          "catatan": "Lawan dari daring (Zaim, UNP 2018, hlm. 2)."
+        },
+        {
+          "asing": "mouse",
+          "baku": "tetikus",
+          "catatan": "Perangkat keras penunjuk (Zaim, UNP 2018, hlm. 2)."
         }
       ]
     },

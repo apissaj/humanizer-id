@@ -435,6 +435,13 @@
         "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
         "tahun": 2006,
         "bab_relevan": "Peluluhan memedomani, kata ulang tanpa spasi, preposisi terpisah, singkatan gelar & lembaga (hlm. 38-39, 81-85, 121-123)"
+      },
+      {
+        "judul": "Seri Penyuluhan Bahasa Indonesia: Kalimat (Edisi v2)",
+        "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa, Kemendikbud",
+        "tahun": 2019,
+        "bab_relevan": "Verba transitif-pelengkap, pemasifan takgramatikal, kalke siaran, & kesejajaran klausa (hlm. 25-32, 75-80)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -458,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 712
+    "total_entri": 720
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -2313,6 +2320,18 @@
           "penjelasan": "Baharman (UNM, hlm. 9) menegaskan bahwa apabila padanan bahasa Indonesia sudah tersedia, bentuk bahasa Indonesia wajib didahulukan baru diikuti istilah asingnya dalam tanda kurung (cetak miring), bukan sebaliknya.",
           "contoh_salah": "Laporan keuangan itu membahas exposure (paparan risiko) serta volatility (gejolak harga).",
           "contoh_benar": "Laporan keuangan itu membahas paparan risiko (exposure) serta gejolak harga pasar."
+        },
+        {
+          "id": "SPK-019",
+          "pola": "Ini [Nama] melaporkan dari [Kota] (kalke This is X reporting from Y)",
+          "asal_frasa": "This is X reporting from Y",
+          "saran_pengganti": [
+            "Demikian laporan [Nama] dari [Kota]",
+            "Demikianlah laporan [Nama] dari [Kota]"
+          ],
+          "penjelasan": "Ungkapan penutup laporan jurnalistik berbahasa Inggris 'This is X reporting from Y' kerap diterjemahkan harfiah menjadi *Ini X melaporkan dari Y; kata reporting dalam struktur tersebut bermakna nomina sehingga padanan bakunya adalah Demikian(lah) laporan X dari Y (Seri Penyuluhan Kalimat v2, hlm. 28).",
+          "contoh_salah": "Ini Sari melaporkan dari Makassar mengenai situasi arus balik pelabuhan.",
+          "contoh_benar": "Demikian laporan Sari dari Makassar mengenai situasi arus balik pelabuhan."
         }
       ]
     },
@@ -3716,6 +3735,30 @@
           "penjelasan": "Jika sumber kutipan menjadi subjek kalimat aktif sebelum verba pelaporan (menyatakan, mengungkapkan, menjelaskan), preposisi menurut harus dihapus dan nama penulis diletakkan di luar tanda kurung (DiSastra 2021, Kasus 6).",
           "contoh_salah": "Menurut (Mulyana 2005:21) menyatakan bahwa konteks merupakan latar terjadinya suatu komunikasi.",
           "contoh_benar": "Mulyana (2005:21) menyatakan bahwa konteks merupakan latar terjadinya suatu komunikasi."
+        },
+        {
+          "id": "SPK-020",
+          "pola": "[telaah] pemasifan pelengkap verba berobjek (*Cara beternak belut diajari orang itu) serta ketidaksejajaran klausa (S-P dan P-S / dalam rangka FN, FV)",
+          "asal_frasa": "Passivization of complement / non-parallel coordinate clauses",
+          "saran_pengganti": [
+            "Orang itu mengajari adik cara beternak belut",
+            "Buku itu dibuat oleh Badan Bahasa dan diterbitkan oleh Gramedia"
+          ],
+          "penjelasan": "Pelengkap verba dwitransitif (mengajari, membelikan, menghadiahi) tidak dapat dinaikkan menjadi subjek kalimat pasif, dan konjungsi koordinatif menuntut kesejajaran pola klausa maupun kategori frasa (Seri Penyuluhan Kalimat v2, hlm. 30, 79-80).",
+          "contoh_salah": "Buku itu dibuat oleh Badan Bahasa dan Gramedia yang menerbitkannya.",
+          "contoh_benar": "Buku itu dibuat oleh Badan Bahasa dan diterbitkan oleh Gramedia."
+        },
+        {
+          "id": "SPK-021",
+          "pola": "[telaah] penghilangan objek wajib verba transitif (*Jaksa menghadirkan) atau pelengkap wajib verba intransitif (*Tugu Monas berada)",
+          "asal_frasa": "Missing mandatory object / complement",
+          "saran_pengganti": [
+            "Jaksa menghadirkan saksi kunci",
+            "Tugu Monas berada di Jakarta Pusat"
+          ],
+          "penjelasan": "Verba transitif wajib (menghadirkan, menghadiri, mengatakan) menuntut kehadiran objek langsung, sedangkan verba intransitif berpelengkap (berada, menghadap, berasal) menuntut pelengkap (Seri Penyuluhan Kalimat v2, hlm. 25, 32).",
+          "contoh_salah": "Dalam persidangan tersebut jaksa menghadirkan, sementara para saksi mengatakan.",
+          "contoh_benar": "Dalam persidangan tersebut jaksa menghadirkan ahli bahasa untuk memberi keterangan."
         }
       ]
     },
@@ -8783,9 +8826,81 @@
           "penjelasan": "Nama ilmiah binomial hanya berkapital pada huruf pertama genus dan dicetak miring; kata tugas di tengah judul tetap huruf kecil; tanda kurung ilmiah wajib ditutup berpasangan; dan judul buku/novel dicetak miring (DEIKTIS 2026, hlm. 2474; KIBASP 2026, hlm. 525-528).",
           "contoh_salah": "Makalah ini meneliti IPOMOEA BATATAS pada bab Pendahuluan dan Novel Karya Sari.",
           "contoh_benar": "Makalah ini meneliti *Ipomoea batatas* pada bab pendahuluan serta novel *Karya Sari*."
+        },
+        {
+          "id": "E9L-026",
+          "pola": "azasi / muqaddimah / akhlaq / centraal / romadhon / teknologie / kwota / extradiksi / effektiv / psikhologi / alkuran / ma'siat / sa'at",
+          "saran_pengganti": [
+            "asasi",
+            "mukadimah",
+            "akhlak",
+            "sentral",
+            "Ramadan",
+            "teknologi",
+            "kuota",
+            "ekstradisi",
+            "efektif",
+            "psikologi",
+            "Al-Qur'an",
+            "maksiat",
+            "saat"
+          ],
+          "penjelasan": "Kesalahan ejaan serapan surat kabar dan bahan latihan penyesuaian EYD (Seri Penyuluhan 9 EYD, hlm. 38-44): penyederhanaan konsonan ganda/digraf (azasi->asasi, akhlaq->akhlak, centraal->sentral, kwota->kuota) dan pelurusan apostrof keliru pada maksiat serta saat.",
+          "contoh_salah": "Selama bulan romadhon, muqaddimah diskusi membahas hak azasi, akhlaq, serta kwota riset psikhologi secara effektiv.",
+          "contoh_benar": "Selama bulan Ramadan, mukadimah diskusi membahas hak asasi, akhlak, serta kuota riset psikologi secara efektif."
+        },
+        {
+          "id": "E9L-027",
+          "pola": "D.P.R. / U.U.D. / K.B. / S.M.A. / S.M.P. (singkatan huruf awal nama lembaga diberi titik)",
+          "saran_pengganti": [
+            "DPR",
+            "UUD",
+            "KB",
+            "SMA",
+            "SMP"
+          ],
+          "penjelasan": "Singkatan gabungan huruf awal nama resmi lembaga pemerintah, badan, dan dokumen ketatanegaraan ditulis dengan huruf kapital tanpa tanda titik (Seri Penyuluhan 9 EYD, hlm. 41, 43; EYD V).",
+          "contoh_salah": "Komisi pendidikan D.P.R. membahas pasal U.U.D. serta program K.B. untuk siswa S.M.A. dan S.M.P.",
+          "contoh_benar": "Komisi pendidikan DPR membahas pasal UUD serta program KB untuk siswa SMA dan SMP."
+        },
+        {
+          "id": "EYD-076",
+          "pola": "diseluruh / ditempat / diantara / ketengah (kata depan di/ke ditulis serangkai)",
+          "saran_pengganti": [
+            "di seluruh",
+            "di tempat",
+            "di antara",
+            "ke tengah"
+          ],
+          "penjelasan": "Kata depan penunjuk tempat dan arah (di, ke) ditulis terpisah dari kata yang mengikutinya (EYD V Bab II.G; Prosiding Semiloka Bahasa Negara 2019).",
+          "contoh_salah": "Sosialisasi digelar diseluruh cabang dan ditempat umum agar perbedaan diantara peserta dibawa ketengah forum.",
+          "contoh_benar": "Sosialisasi digelar di seluruh cabang dan di tempat umum agar perbedaan di antara peserta dibawa ke tengah forum."
+        },
+        {
+          "id": "SPK-017",
+          "pola": "mengharap atas / berharap atas / membangun daripada (preposisi menyisip sebelum objek langsung)",
+          "saran_pengganti": [
+            "mengharap kehadiran",
+            "berharap pada",
+            "membangun ekonomi"
+          ],
+          "penjelasan": "Verba transitif aktif seperti mengharap dan membangun harus langsung diikuti objek berwujud nomina atau frasa nominal tanpa disisipi preposisi atas maupun daripada (Seri Penyuluhan Kalimat v2, hlm. 25-26).",
+          "contoh_salah": "Panitia mengharap atas kehadiran tamu undangan sementara pemerintah membangun daripada infrastruktur desa.",
+          "contoh_benar": "Panitia mengharap kehadiran tamu undangan sementara pemerintah membangun infrastruktur desa."
+        },
+        {
+          "id": "SPK-018",
+          "pola": "dijadi / dirupakan (pemasifan takgramatikal verba intransitif/kopulatif)",
+          "saran_pengganti": [
+            "menjadi",
+            "merupakan"
+          ],
+          "penjelasan": "Verba intransitif dan kopulatif (menjadi, merupakan) beserta pelengkapnya tidak dapat dipasifkan menjadi bentuk *dijadi atau *dirupakan (Seri Penyuluhan Kalimat v2, hlm. 30).",
+          "contoh_salah": "Tanggung jawab itu dijadi beban kerja, padahal usulan tersebut hanya dirupakan saran belaka.",
+          "contoh_benar": "Beban kerja itu menjadi tanggung jawab tim, padahal usulan tersebut hanya merupakan saran belaka."
         }
       ]
     }
   },
-  "total_entri": 712
+  "total_entri": 720
 }

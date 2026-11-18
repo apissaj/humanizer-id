@@ -261,3 +261,12 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 ### CI. Kutipan Kurung Bersubjek `Menurut (Nama Tahun)` (DiSastra 2021)
 
 1. **Pola:** *Menurut (Mulyana 2005:21) menyatakan bahwa konteks merupakan...* → **Perbaikan:** *Mulyana (2005:21) menyatakan bahwa konteks merupakan...* — **Sebab:** apabila nama pengarang berperan sebagai subjek sebelum verba pelaporan (*menyatakan, mengungkapkan, menjelaskan*), preposisi *menurut* dihilangkan dan nama penulis ditempatkan di luar tanda kurung (`JSK-017`) (Uswati & Mardikantoro, *DiSastra* 2021, Kasus 6).
+
+---
+
+### CL. Objek Verba Transitif, Pemasifan Takgramatikal & Kesejajaran Klausa (Seri Penyuluhan Kalimat v2, hlm. 25–32, 75–80)
+
+1. **Pola:** *mengharap atas kehadiran... / membangun daripada infrastruktur...* → **Perbaikan:** *mengharap kehadiran... / membangun infrastruktur...* — **Sebab:** verba transitif aktif menuntut objek nomina langsung tanpa disisipi preposisi *atas* atau *daripada* (`SPK-017`) (hlm. 25–26).
+2. **Pola:** *Tanggung jawab itu dijadi beban kerja / usulan tersebut dirupakan saran belaka* → **Perbaikan:** *Beban kerja itu menjadi tanggung jawab... / usulan tersebut merupakan saran belaka* — **Sebab:** verba intransitif/kopulatif tidak dapat dipasifkan (`SPK-018`) (hlm. 30).
+3. **Pola:** *Ini Sari melaporkan dari Makassar* → **Perbaikan:** *Demikian(lah) laporan Sari dari Makassar* — **Sebab:** kalke siaran berbahasa Inggris *This is X reporting from Y* harus dialihkan ke konstruksi nominal laporan (`SPK-019`) (hlm. 28).
+4. **Pola:** `[telaah]` *Cara beternak belut diajari orang itu kepada adik saya* / *Buku itu dibuat oleh Badan Bahasa dan Gramedia yang menerbitkannya* / *Jaksa menghadirkan Ø* → **Perbaikan:** lengkapi objek/pelengkap wajib, larang pemasifan pelengkap, dan sejajarkan pola klausa koordinatif (`SPK-020`, `SPK-021`) (hlm. 25, 30–32, 79–80).
