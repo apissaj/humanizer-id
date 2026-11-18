@@ -1251,7 +1251,8 @@ CUSTOM_RULES.append((
 CUSTOM_RULES.append((
     lambda p: p.startswith("mulai Maret sampai Mei"),
     [re.compile(r"\b(?:mulai|Mulai|MULAI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)"),
-     re.compile(r"\b(?:dari|Dari|DARI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)")],
+     re.compile(r"\b(?:dari|Dari|DARI)\s+(?:[A-Z][a-z]+\s+|\d)[^.!?;\n]{0,60}?\bsampai\b(?!\s+dengan\b)"),
+     re.compile(r"\b(?:sejak|Sejak|SEJAK)\s+(?:bulan\s+)?(?:[A-Z][a-z]+\s+|\d)[^.!?;,\n]{0,60}?\bsampai\b(?!\s+dengan\b)")],
 ))
 
 # --- TMS-039: serapan memposisikan/marjinal/hektar (Kaltim 2009, hlm. 24-25) ---
@@ -1291,4 +1292,174 @@ CUSTOM_RULES.append((
 CUSTOM_RULES.append((
     lambda p: "menunjukkan bahwa" in p,
     [re.compile(r"(?i)\bberdasarkan\s+[^,.]{3,60}\s+menunjukkan\b")],
+))
+
+# --- Siklus 20-22: EYD V (2022), Ejaan v2, Winarti (2009) 2.3.3-2.11, BPBI 2, Sasangka & Suladi ---
+# Penyempurnaan BAK-012: kecualikan kata dasar 'antar' bermakna bawa/kirim (antar jemput, antar barang)
+CUSTOM_RULES.append((
+    lambda p: p == "antar ",
+    [re.compile(r"(?i)\bantar\s+(?!jemput\b|barang\b|makanan\b|paket\b|surat\b|dokumen\b|obat\b|tamu\b)\w+")],
+))
+
+# EYD-065: gabungan kata padu EYD V Bab II.B.3.e yang salah dipisah
+CUSTOM_RULES.append((
+    lambda p: p.startswith("darma bakti / suka rela"),
+    [re.compile(r"(?i)\bdarma\s+bakti\b"),
+     re.compile(r"(?i)\bsuka\s+rela\b"),
+     re.compile(r"(?i)\bsapu\s+tangan\b"),
+     re.compile(r"(?i)\bbelas?\s+sungkawa\b"),
+     re.compile(r"(?i)\bmana\s+suka\b"),
+     re.compile(r"(?i)\bada\s+kalanya\b")],
+))
+
+# EYD-066: gabungan kata bebas & berimbuhan sepihak salah dirangkai
+CUSTOM_RULES.append((
+    lambda p: p.startswith("tandamata / kakitangan"),
+    [re.compile(r"(?i)\btandamata\b"),
+     re.compile(r"(?i)\bkakitangan\b"),
+     re.compile(r"(?i)\bkakilima\b"),
+     re.compile(r"(?i)\borangtua\b"),
+     re.compile(r"(?i)\bberpestapora\b"),
+     re.compile(r"(?i)\bkerjabaktikan\b")],
+))
+
+# EYD-067: gabungan kata berkonfiks penuh salah dipisah
+CUSTOM_RULES.append((
+    lambda p: p.startswith("menyama ratakan / menganak tirikan"),
+    [re.compile(r"(?i)\b(?:menyama|disama|penyama)\s+ratakan\b|\bpenyama\s+rataan\b"),
+     re.compile(r"(?i)\b(?:menganak|dianak|penganak)\s+tirikan\b"),
+     re.compile(r"(?i)\b(?:mengambing|dikambing|pengambing)\s+hitamkan\b"),
+     re.compile(r"(?i)\b(?:menganak|dianak)\s+emaskan\b"),
+     re.compile(r"(?i)\b(?:menyerah|diserah|penyerah)\s+terimakan\b|\bpenyerah\s+terimaan\b"),
+     re.compile(r"(?i)\bketidak\s+(?:tahuan|nyamanan|sempurnaan|ramahan|jelasan|adilan|pastian|mampuan|cocokan|stabilan|seimbangan|puasan|sesuaian)\b"),
+     re.compile(r"(?i)\bkeputus\s+asaan\b"),
+     re.compile(r"(?i)\bpengambil\s+alihan\b")],
+))
+
+# EYD-068: bentuk terikat EYD V Bab II.B.1.b, e & antar bebas
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Yang Mahakuasa / eka bahasa"),
+    [re.compile(r"\bYang\s+Mahakuasa\b"),
+     re.compile(r"(?i)\beka\s+bahasa\b"),
+     re.compile(r"(?i)\bnir\s+gagasan\b"),
+     re.compile(r"(?i)\bantarjemput\b")],
+))
+
+# EYD-069: singkatan garis miring & format rupiah salah
+CUSTOM_RULES.append((
+    lambda p: p.startswith("a/n / u/p / d/a"),
+    [re.compile(r"(?i)(?<![a-z0-9])\b(?:a/n|u/p|u/b|d/a)\b"),
+     re.compile(r"\bRp\.\s*\d|\bRp\s+\d")],
+))
+
+# EYD-070: kesalahan tanda baca EYD V
+CUSTOM_RULES.append((
+    lambda p: p.startswith("(a). / ?."),
+    [re.compile(r"(?:^|\n)\s*\([a-z0-9]{1,2}\)\.\s+\S"),
+     re.compile(r"[?!]\.(?:\s|$)"),
+     re.compile(r"(?i)\bskor\s+\d+\s*:\s*\d+\b")],
+))
+
+# EYD-071: unsur serapan EYD V Bab IV (asing -> baku)
+CUSTOM_RULES.append((
+    lambda p: p.startswith("akommodasi / asesoris"),
+    [re.compile(r"(?i)\bakommodasi\b"),
+     re.compile(r"(?i)\basesoris\b"),
+     re.compile(r"(?i)\bkonsekwen(?:si)?\b"),
+     re.compile(r"(?i)\b(?:ekivalen|equivalen)\w*\b"),
+     re.compile(r"(?i)\bsouvenir\b"),
+     re.compile(r"(?i)\bdiskripsi\w*\b"),
+     re.compile(r"(?i)\bstirio\b"),
+     re.compile(r"(?i)\bespresso\b"),
+     re.compile(r"(?i)\btentrem\b"),
+     re.compile(r"(?i)\bgrebek\b"),
+     re.compile(r"(?i)\bblusukan\b")],
+))
+
+# EYD-072: unsur serapan Arab EYD V Bab IV
+CUSTOM_RULES.append((
+    lambda p: p.startswith("tafakkur / ummat"),
+    [re.compile(r"(?i)\btafakkur\b"),
+     re.compile(r"(?i)\bummat\b"),
+     re.compile(r"(?i)\bkaffah\b"),
+     re.compile(r"(?i)\btammat\b"),
+     re.compile(r"(?i)\bnasehat\w*\b"),
+     re.compile(r"(?i)\bhakekat\b"),
+     re.compile(r"(?i)\bmahluk\b"),
+     re.compile(r"(?i)\bsh[oa]hih\b"),
+     re.compile(r"(?i)\bitikad\b"),
+     re.compile(r"(?i)\budzur\b"),
+     re.compile(r"(?i)\b(?:dzalim|dholim|zhalim)\b"),
+     re.compile(r"(?i)\bdzat\b"),
+     re.compile(r"(?i)\b(?:fikir|berfikir|memfikirkan|pemfikiran)\b"),
+     re.compile(r"(?i)\b(?:nafas|bernafas|pernafasan)\b"),
+     re.compile(r"(?i)\bfaidah\b")],
+))
+
+# TMS-043: peluluhan KTSP & penyisipan /k/ keliru Kaltim 2009
+CUSTOM_RULES.append((
+    lambda p: p.startswith("mengkursuskan / mengsukseskan"),
+    [re.compile(r"(?i)\bmengkursuskan\b"),
+     re.compile(r"(?i)\bmengsukseskan\b"),
+     re.compile(r"(?i)\bmensejahterakan\b"),
+     re.compile(r"(?i)\bmempercayai\b"),
+     re.compile(r"(?i)\b(?:ditelarkan(?:nya)?|mentelarkan)\b")],
+))
+
+# TMS-044: serapan tidak baku terbitan ilmiah Kaltim 2009
+CUSTOM_RULES.append((
+    lambda p: p.startswith("mendiskriditkan / sekertaris"),
+    [re.compile(r"(?i)\bmendiskriditkan\b"),
+     re.compile(r"(?i)\b(?:sekertaris|serketaris)\b"),
+     re.compile(r"(?i)\bsejogyanya\b"),
+     re.compile(r"(?i)\bperaktek\w*\b"),
+     re.compile(r"(?i)\b(?:ditolerir|menolerir)\b"),
+     re.compile(r"(?i)\bkonperensi\b")],
+))
+
+# TMS-045: gabungan kata & bentuk terikat terbitan ilmiah Kaltim 2009
+CUSTOM_RULES.append((
+    lambda p: p.startswith("tenagakerja / semi permeabel"),
+    [re.compile(r"(?i)\btenagakerja\b"),
+     re.compile(r"(?i)\bsemi\s+permeabel\b"),
+     re.compile(r"(?i)\bmenitik\s+beratkan\b")],
+))
+
+# TMS-046: kerancuan diksi & preposisi Kaltim 2009
+CUSTOM_RULES.append((
+    lambda p: p.startswith("mengacuh pada / hidup-hidupan"),
+    [re.compile(r"(?i)\bmengacuh\s+(?:pada|kepada)\b"),
+     re.compile(r"(?i)\bhidup-hidupan\b"),
+     re.compile(r"(?i)\bmembahas\s+dan\s+membicarakan\b"),
+     re.compile(r"(?i)\blain\s+di\s+samping\s+itu\b"),
+     re.compile(r"(?i)\bpada\s+antara\s+tahun\b")],
+))
+
+# SPK-014: kerancuan Menurut pada X & preposisi objek verba transitif
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Menurut pada ... / mengamanatkan kepada"),
+    [re.compile(r"(?i)\bmenurut\s+pada\b"),
+     re.compile(r"(?i)\bmengamanatkan\s+kepada\b"),
+     re.compile(r"(?i)\bmenyimpulkan\s+tentang\b")],
+))
+
+# BPBI-008: ungkapan Dirgahayu & BBWI (BPBI 2 Bahasa)
+CUSTOM_RULES.append((
+    lambda p: p.startswith("dirgahayu HUT / dirgahayu RI ke-"),
+    [re.compile(r"(?i)\bdirgahayu\s+HUT\b"),
+     re.compile(r"(?i)\bdirgahayu\s+RI\s+ke[-\s]?\d+\b"),
+     re.compile(r"(?i)\bHUT\s+RI\s+ke[-\s]?\d+\b"),
+     re.compile(r"\bBBWI\b")],
+))
+
+# BPBI-009: bahwa setelah verba harapan/anjuran (BPBI 2 Kalimat)
+CUSTOM_RULES.append((
+    lambda p: p.startswith("menganjurkan bahwa / mengharapkan bahwa"),
+    [re.compile(r"(?i)\b(?:menganjurkan|mengharapkan|mengimbau|menghimbau|memohon)\s+bahwa\b")],
+))
+
+# SPK-015: konjungsi antarkalimat tanpa koma (Suladi 2015 & BPBI 2)
+CUSTOM_RULES.append((
+    lambda p: p.startswith("Oleh sebab itu / Meskipun demikian"),
+    [re.compile(r"(?m)(?:^|[.!?]\s+|\n)\s*(?:Oleh\s+sebab\s+itu|Meskipun\s+demikian|Walaupun\s+demikian|Sehubungan\s+dengan\s+(?:hal\s+)?itu|Berkaitan\s+dengan\s+hal\s+itu)\s+(?=[^\s,.;:])")],
 ))

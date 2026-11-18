@@ -330,6 +330,21 @@
           "asing": "marketplace",
           "baku": "lokapasar",
           "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 146)."
+        },
+        {
+          "asing": "airworthy",
+          "baku": "laik terbang",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "vacuum cleaner",
+          "baku": "pengisap debu",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "basement",
+          "baku": "basemen / ruang bawah tanah",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
         }
       ]
     },
@@ -677,6 +692,56 @@
           "asing": "outsourcing",
           "baku": "alih daya",
           "catatan": "Buku Siswa Kelas XII (Kemendikbudristek, hlm. 201)."
+        },
+        {
+          "asing": "after-sales service",
+          "baku": "layanan pascajual",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "customer service",
+          "baku": "layanan pelanggan / layanan nasabah",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "cash flow",
+          "baku": "arus kas",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "overbooking",
+          "baku": "tempah lajak",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "due diligence",
+          "baku": "uji tuntas / kecermatpatutan",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "site plan",
+          "baku": "rencana tapak",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "master plan",
+          "baku": "rencana induk",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "standby loan",
+          "baku": "pinjaman siaga",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "showroom",
+          "baku": "ruang pamer / ruang peraga",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
+        },
+        {
+          "asing": "boarding pass",
+          "baku": "pas naik",
+          "catatan": "Padanan resmi Pusat Bahasa (BPBI 2 Istilah)."
         }
       ]
     },

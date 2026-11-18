@@ -393,6 +393,27 @@
         "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
         "sumber": "id.wikisource.org (karya terbit Badan Bahasa/DKBS, domain publik Indonesia, UU No. 28/2014)",
         "bab_relevan": "Bab Kata: Kata Baku dan Tidak Baku (tabel 32 pasang + tabel 21 pasang), Kata yang Mubazir, Daripada yang Mubazir, Jamak Mubazir, di mana, -isasi, Pengaruh Bahasa Asing; Bab Kalimat: Kalimat Efektif, Kesejajaran Satuan, Pewatas dan Penjelas, Ungkapan Penghubung Antarkalimat, karenanya/makanya"
+      },
+      {
+        "judul": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+        "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Kemendikbudristek RI (SK No. 0424/I/BS.00.01/2022)",
+        "tahun": 2022,
+        "bab_relevan": "Bab I-IV lengkap: Huruf Miring/Tebal, Penulisan Kata, Pemakaian Tanda Baca, Penulisan Unsur Serapan (hlm. 14-75)"
+      },
+      {
+        "judul": "Seri Penyuluhan Bahasa Indonesia: Ejaan (Edisi v2)",
+        "penulis": "Tim Penyusun Badan Pengembangan dan Pembinaan Bahasa",
+        "penerbit": "Badan Pengembangan dan Pembinaan Bahasa",
+        "tahun": 2025,
+        "bab_relevan": "Bab II-V: Kapitalisasi, Gabungan Kata Berimbuhan, Kata Ganti kau-, Tanda Baca, Unsur Serapan (hlm. 15-109)"
+      },
+      {
+        "judul": "Seri Penyuluhan Bahasa Indonesia: Kalimat",
+        "penulis": "S.S.T. Wisnu Sasangka",
+        "penerbit": "Pusat Pembinaan, Badan Pengembangan dan Pembinaan Bahasa",
+        "tahun": 2015,
+        "bab_relevan": "Bab 3 Kalimat Efektif & Kalimat Partisipial (hlm. 72-96)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -416,7 +437,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 670
+    "total_entri": 688
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3536,6 +3557,82 @@
             "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
             "tahun": 2009,
             "halaman": "19"
+          }
+        },
+        {
+          "id": "SPK-014",
+          "pola": "Menurut pada ... / mengamanatkan kepada ... / menyimpulkan tentang ...",
+          "saran_pengganti": [
+            "Menurut ...",
+            "mengamanatkan ... kepada ...",
+            "menyimpulkan ..."
+          ],
+          "penjelasan": "Kata depan pada setelah menurut memicu kerancuan struktur; verba aktif transitif seperti mengamanatkan dan menyimpulkan langsung diikuti objek nominal tanpa sisipan preposisi kepada/tentang sebelum objek. Sumber: Winarti dkk. (2009), hlm. 56; Sasangka (2015), hlm. 77; BPBI 2 (Kalimat).",
+          "contoh_salah": "Menurut pada pakar hukum, pasal tersebut mengamanatkan kepada instansi untuk menyimpulkan tentang temuan audit.",
+          "contoh_benar": "Menurut pakar hukum, pasal tersebut mengamanatkan penyesuaian aturan kepada instansi untuk menyimpulkan temuan audit.",
+          "rujukan": {
+            "penulis": "S.S.T. Wisnu Sasangka; Winarti dkk.",
+            "buku": "Seri Penyuluhan Kalimat (2015); Kesalahan Berbahasa Terbitan Ilmiah (2009)",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa",
+            "tahun": 2015,
+            "halaman": "77; 56"
+          }
+        },
+        {
+          "id": "BPBI-009",
+          "pola": "menganjurkan bahwa / mengharapkan bahwa / mengimbau bahwa / memohon bahwa",
+          "saran_pengganti": [
+            "menganjurkan agar",
+            "mengharapkan agar",
+            "mengimbau agar",
+            "memohon agar"
+          ],
+          "penjelasan": "Predikat yang menyatakan harapan atau anjuran (menganjurkan, mengharapkan, mengimbau, memohon) menuntut konjungsi tujuan agar atau supaya, bukan bahwa (yang dipakai untuk verba penegasan seperti mengatakan atau melaporkan). Sumber: Pusat Bahasa, Buku Praktis Bahasa Indonesia 2 (Subhalaman Kalimat: Bahwa atau Agar).",
+          "contoh_salah": "Pemerintah mengimbau bahwa masyarakat mematuhi jadwal pengumpulan data tepat waktu.",
+          "contoh_benar": "Pemerintah mengimbau agar masyarakat mematuhi jadwal pengumpulan data tepat waktu.",
+          "rujukan": {
+            "penulis": "Pusat Bahasa",
+            "buku": "Buku Praktis Bahasa Indonesia 2 (Kalimat)",
+            "penerbit": "Departemen Pendidikan Nasional",
+            "tahun": 2004,
+            "halaman": "Wikisource"
+          }
+        },
+        {
+          "id": "SPK-015",
+          "pola": "Oleh sebab itu / Meskipun demikian / Walaupun demikian / Sehubungan dengan itu (tanpa koma di awal kalimat)",
+          "saran_pengganti": [
+            "Oleh sebab itu,",
+            "Meskipun demikian,",
+            "Walaupun demikian,",
+            "Sehubungan dengan itu,"
+          ],
+          "penjelasan": "Ungkapan penghubung antarkalimat pada awal kalimat wajib diikuti tanda koma untuk memisahkan unsur ekstraklausal dari induk kalimat berikutnya. Sumber: Suladi, Seri Penyuluhan Paragraf (2015), hlm. 55; Pusat Bahasa, BPBI 2 (Kalimat).",
+          "contoh_salah": "Meskipun demikian penelitian lapangan tetap berjalan sesuai rencana semula.",
+          "contoh_benar": "Meskipun demikian, penelitian lapangan tetap berjalan sesuai rencana semula.",
+          "rujukan": {
+            "penulis": "Suladi",
+            "buku": "Seri Penyuluhan Bahasa Indonesia: Paragraf",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa",
+            "tahun": 2015,
+            "halaman": "55"
+          }
+        },
+        {
+          "id": "SPK-016",
+          "pola": "[telaah] kalimat partisipial awal verba (Berbicara kepada..., Melihat situasi..., Ditemani...) & ketidaksejajaran frasa dalam rangka",
+          "saran_pengganti": [
+            "Tambahkan konjungsi/preposisi pembuka (Ketika/Saat/Dengan) dan sejajarkan jenis frasa rincian"
+          ],
+          "penjelasan": "Kalimat baku bahasa Indonesia tidak mengizinkan frasa verbal di awal kalimat menduduki predikat tanpa konjungsi subordinatif (kalke participle Inggris); selain itu, perincian setelah dalam rangka harus sejajar (semua frasa verbal atau semua nominal). Sumber: Sasangka, Seri Penyuluhan Kalimat (2015), hlm. 88-96.",
+          "contoh_salah": "Melihat situasi mulai memanas, petugas mengambil alih kendali dialog.",
+          "contoh_benar": "Ketika melihat situasi mulai memanas, petugas mengambil alih kendali dialog.",
+          "rujukan": {
+            "penulis": "S.S.T. Wisnu Sasangka",
+            "buku": "Seri Penyuluhan Bahasa Indonesia: Kalimat",
+            "penerbit": "Badan Pengembangan dan Pembinaan Bahasa",
+            "tahun": 2015,
+            "halaman": "88-96"
           }
         }
       ]
@@ -7980,7 +8077,7 @@
         },
         {
           "id": "TMS-038",
-          "pola": "mulai Maret sampai Mei (preposisi gabungan tidak lengkap)",
+          "pola": "mulai Maret sampai Mei / sejak Januari sampai November (preposisi gabungan tidak lengkap)",
           "saran_pengganti": [
             "mulai Maret sampai dengan Mei",
             "dari Maret sampai dengan Mei",
@@ -8066,6 +8163,301 @@
             "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
             "tahun": 2009,
             "halaman": "33-34"
+          }
+        },
+        {
+          "id": "EYD-065",
+          "pola": "darma bakti / suka rela / sapu tangan / bela sungkawa / mana suka / ada kalanya",
+          "saran_pengganti": [
+            "darmabakti",
+            "sukarela",
+            "saputangan",
+            "belasungkawa",
+            "manasuka",
+            "adakalanya"
+          ],
+          "penjelasan": "EYD Edisi V Bab II.B.3.e menetapkan gabungan kata yang sudah padu ditulis serangkai: darmabakti, sukarela, saputangan, belasungkawa, manasuka, adakala(nya). Sumber: Keputusan Kepala Badan Bahasa No. 0424/I/BS.00.01/2022 (EYD Edisi V), hlm. 20-21.",
+          "contoh_salah": "Para relawan bekerja dengan suka rela dan menyampaikan bela sungkawa kepada keluarga korban.",
+          "contoh_benar": "Para relawan bekerja dengan sukarela dan menyampaikan belasungkawa kepada keluarga korban.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "20-21"
+          }
+        },
+        {
+          "id": "EYD-066",
+          "pola": "tandamata / kakitangan / kakilima / orangtua / berpestapora / kerjabaktikan",
+          "saran_pengganti": [
+            "tanda mata",
+            "kaki tangan",
+            "kaki lima",
+            "orang tua",
+            "berpesta pora",
+            "kerja baktikan"
+          ],
+          "penjelasan": "EYD Edisi V Bab II.B.3.a & d menetapkan gabungan kata bebas dan gabungan kata yang hanya mendapat awalan saja atau akhiran saja tetap ditulis terpisah. Sumber: EYD Edisi V (2022), hlm. 19-20; Seri Penyuluhan Ejaan v2, hlm. 34-35.",
+          "contoh_salah": "Panitia menyerahkan tandamata kepada orangtua peserta sebelum acara berpestapora dimulai.",
+          "contoh_benar": "Panitia menyerahkan tanda mata kepada orang tua peserta sebelum acara berpesta pora dimulai.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "19-20"
+          }
+        },
+        {
+          "id": "EYD-067",
+          "pola": "menyama ratakan / menganak tirikan / mengambing hitamkan / ketidak tahuan / keputus asaan",
+          "saran_pengganti": [
+            "menyamaratakan",
+            "menganaktirikan",
+            "mengambinghitamkan",
+            "ketidaktahuan",
+            "keputusasaan"
+          ],
+          "penjelasan": "EYD Edisi V Bab II.B.3.c menetapkan gabungan kata yang mendapat awalan dan akhiran sekaligus (konfiks penuh) ditulis serangkai. Sumber: EYD Edisi V (2022), hlm. 20; Seri Penyuluhan Ejaan v2, hlm. 37-38.",
+          "contoh_salah": "Kebijakan tersebut tidak boleh menganak tirikan wilayah terpencil ataupun menyama ratakan kebutuhan daerah.",
+          "contoh_benar": "Kebijakan tersebut tidak boleh menganaktirikan wilayah terpencil ataupun menyamaratakan kebutuhan daerah.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "20"
+          }
+        },
+        {
+          "id": "EYD-068",
+          "pola": "Yang Mahakuasa / eka bahasa / nir gagasan / antarjemput",
+          "saran_pengganti": [
+            "Yang Maha Kuasa",
+            "ekabahasa",
+            "nirgagasan",
+            "antar jemput"
+          ],
+          "penjelasan": "EYD Edisi V Bab II.B.1.b & e: bentuk terikat keilmuan ditulis serangkai (ekabahasa, nirgagasan), khusus bentuk terikat maha- untuk sifat Tuhan ditulis terpisah dengan kapital (Yang Maha Kuasa), sedangkan antar bermakna 'bawa/kirim' pada antar jemput ditulis terpisah. Sumber: EYD Edisi V (2022), hlm. 18-19; Seri Penyuluhan Ejaan v2, hlm. 39.",
+          "contoh_salah": "Kamus eka bahasa itu dicetak untuk armada antarjemput peserta seminar.",
+          "contoh_benar": "Kamus ekabahasa itu dicetak untuk armada antar jemput peserta seminar.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "18-19"
+          }
+        },
+        {
+          "id": "EYD-069",
+          "pola": "a/n / u/p / d/a / Rp. 50.000 / Rp 50.000",
+          "saran_pengganti": [
+            "a.n.",
+            "u.p.",
+            "d.a.",
+            "Rp50.000,00"
+          ],
+          "penjelasan": "EYD Edisi V Bab II.F.4.b menetapkan singkatan dua huruf surat-menyurat diikuti tanda titik di setiap huruf (a.n., u.p., u.b., d.a.), dan Bab II.G.3 menetapkan lambang mata uang Rp ditulis tanpa titik dan tanpa spasi sebelum angka. Sumber: EYD Edisi V (2022), hlm. 29, 31.",
+          "contoh_salah": "Biaya pendaftaran sebesar Rp. 50.000 dikirimkan a/n Ketua Panitia.",
+          "contoh_benar": "Biaya pendaftaran sebesar Rp50.000,00 dikirimkan a.n. Ketua Panitia.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "29, 31"
+          }
+        },
+        {
+          "id": "EYD-070",
+          "pola": "(a). / ?. / !. / skor 3:1",
+          "saran_pengganti": [
+            "(a)",
+            "?",
+            "!",
+            "skor 3-1"
+          ],
+          "penjelasan": "EYD Edisi V Bab III: angka atau huruf yang sudah bertanda kurung tidak diberi tanda titik lagi; tanda tanya/seru tidak disandingkan dengan titik akhir; skor pertandingan menggunakan tanda hubung (-), bukan titik dua (:). Sumber: EYD Edisi V (2022), hlm. 37, 47; Seri Penyuluhan Ejaan v2, hlm. 68, 71, 87.",
+          "contoh_salah": "Pertandingan persahabatan itu berakhir dengan skor 3:1 dan siapa pencetak gol pertamanya?.",
+          "contoh_benar": "Pertandingan persahabatan itu berakhir dengan skor 3-1 dan siapa pencetak gol pertamanya?",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "37, 47"
+          }
+        },
+        {
+          "id": "EYD-071",
+          "pola": "akommodasi / asesoris / konsekwen / ekivalen / souvenir / diskripsi / stirio / espresso / tentrem",
+          "saran_pengganti": [
+            "akomodasi",
+            "aksesori",
+            "konsekuen",
+            "ekuivalen",
+            "suvenir",
+            "deskripsi",
+            "stereo",
+            "espreso",
+            "tenteram"
+          ],
+          "penjelasan": "EYD Edisi V Bab IV menyerap konsonan ganda asing menjadi tunggal (akomodasi, aksesori, espreso), q->k (konsekuen, ekuivalen), ou->u (suvenir), dan mempertahankan vokal asal serta sisipan /e/ kata daerah (deskripsi, stereo, tenteram). Sumber: EYD Edisi V (2022), hlm. 57-75.",
+          "contoh_salah": "Panitia menyiapkan akommodasi dan souvenir serta memaparkan diskripsi program secara lengkap.",
+          "contoh_benar": "Panitia menyiapkan akomodasi dan suvenir serta memaparkan deskripsi program secara lengkap.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "57-75"
+          }
+        },
+        {
+          "id": "EYD-072",
+          "pola": "tafakkur / ummat / kaffah / tammat / nasehat / hakekat / mahluk / shohih / udzur / dzalim / fikir / nafas",
+          "saran_pengganti": [
+            "tafakur",
+            "umat",
+            "kafah",
+            "tamat",
+            "nasihat",
+            "hakikat",
+            "makhluk",
+            "sahih",
+            "uzur",
+            "zalim",
+            "pikir",
+            "napas"
+          ],
+          "penjelasan": "EYD Edisi V Bab IV menyerap konsonan ganda Arab menjadi tunggal (tafakur, umat, kafah, tamat) dan membakukan bentuk serapan lazim tanpa digraf nonbaku (sahih, uzur, zalim, zat, makhluk, nasihat, hakikat, pikir, napas, faedah). Sumber: EYD Edisi V (2022), hlm. 57-75.",
+          "contoh_salah": "Naskah tersebut memuat nasehat tentang hakekat kehidupan serta dalil yang shohih.",
+          "contoh_benar": "Naskah tersebut memuat nasihat tentang hakikat kehidupan serta dalil yang sahih.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "57-75"
+          }
+        },
+        {
+          "id": "EYD-073",
+          "pola": "[telaah] huruf miring istilah asing/daerah & tanda pisah (—) rentang bilangan/tempat",
+          "saran_pengganti": [
+            "Gunakan huruf miring untuk kata asing/daerah (bukan tanda petik/tebal) dan tanda pisah (—) untuk rentang"
+          ],
+          "penjelasan": "EYD Edisi V Bab I.G-H dan III.F: kata asing atau daerah (kecuali nama diri) ditulis miring tanpa tanda petik; huruf tebal hanya menegaskan bagian miring atau judul bab/subbab; rentang bilangan/tanggal/tempat memakai tanda pisah (—). Sumber: EYD Edisi V (2022), hlm. 14-16, 49.",
+          "contoh_salah": "Perang Diponegoro berlangsung pada 1825-1830 dan istilah \"lockdown\" berarti karantina wilayah.",
+          "contoh_benar": "Perang Diponegoro berlangsung pada 1825—1830 dan istilah lockdown berarti 'karantina wilayah'.",
+          "rujukan": {
+            "penulis": "Badan Pengembangan dan Pembinaan Bahasa",
+            "buku": "Ejaan Bahasa Indonesia yang Disempurnakan (EYD Edisi V)",
+            "penerbit": "Kemendikbudristek RI",
+            "tahun": 2022,
+            "halaman": "14-16, 49"
+          }
+        },
+        {
+          "id": "TMS-043",
+          "pola": "mengkursuskan / mengsukseskan / mensejahterakan / mempercayai / ditelarkannya",
+          "saran_pengganti": [
+            "mengursuskan",
+            "menyukseskan",
+            "menyejahterakan",
+            "memercayai",
+            "ditelurkannya"
+          ],
+          "penjelasan": "Peluluhan fonem awal /k, p, t, s/ berlaku pada bentuk dasar kursus (mengursuskan), sukses (menyukseskan), sejahtera (menyejahterakan), dan percaya (memercayai); bentuk dasar telur menghasilkan ditelurkannya. Sumber: Winarti dkk., Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur (Pusat Bahasa, 2009), hlm. 59, 61, 67, 78, 95.",
+          "contoh_salah": "Program ini bertujuan menyalurkan bantuan guna mensejahterakan warga dan mengsukseskan pembangunan desa.",
+          "contoh_benar": "Program ini bertujuan menyalurkan bantuan guna menyejahterakan warga dan menyukseskan pembangunan desa.",
+          "rujukan": {
+            "penulis": "Winarti dkk.",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "59, 61, 67, 78, 95"
+          }
+        },
+        {
+          "id": "TMS-044",
+          "pola": "mendiskriditkan / sekertaris / sejogyanya / peraktek / ditolerir / konperensi",
+          "saran_pengganti": [
+            "mendiskreditkan",
+            "sekretaris",
+            "seyogianya",
+            "praktik",
+            "ditoleransi",
+            "konferensi"
+          ],
+          "penjelasan": "Bentuk serapan baku menurut KBBI adalah mendiskreditkan (dasar kredit), sekretaris, seyogianya (dasar yogia), praktik, menoleransi/ditoleransi (bukan akhiran -ir), dan konferensi. Sumber: Winarti dkk. (2009), hlm. 81-82, 98, 114-115.",
+          "contoh_salah": "Pelanggaran tersebut tidak dapat ditolerir oleh sekertaris panitia selama konperensi berlangsung.",
+          "contoh_benar": "Pelanggaran tersebut tidak dapat ditoleransi oleh sekretaris panitia selama konferensi berlangsung.",
+          "rujukan": {
+            "penulis": "Winarti dkk.",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "81-82, 98, 114-115"
+          }
+        },
+        {
+          "id": "TMS-045",
+          "pola": "tenagakerja / semi permeabel / menitik beratkan",
+          "saran_pengganti": [
+            "tenaga kerja",
+            "semipermeabel",
+            "menitikberatkan"
+          ],
+          "penjelasan": "Gabungan kata bebas tenaga kerja ditulis terpisah; bentuk terikat semi- ditulis serangkai (semipermeabel); gabungan kata berkonfiks penuh meN-...-kan (menitikberatkan) ditulis serangkai. Sumber: Winarti dkk. (2009), hlm. 122, 128, 136.",
+          "contoh_salah": "Penelitian ini menitik beratkan serapan tenagakerja melalui membran semi permeabel.",
+          "contoh_benar": "Penelitian ini menitikberatkan serapan tenaga kerja melalui membran semipermeabel.",
+          "rujukan": {
+            "penulis": "Winarti dkk.",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "122, 128, 136"
+          }
+        },
+        {
+          "id": "TMS-046",
+          "pola": "mengacuh pada / hidup-hidupan / membahas dan membicarakan / lain di samping itu / pada antara tahun",
+          "saran_pengganti": [
+            "mengacu pada",
+            "hidup-hidup",
+            "membahas",
+            "di samping itu",
+            "pada tahun / antara tahun"
+          ],
+          "penjelasan": "Acuh berarti 'peduli', sedangkan 'merujuk' harus ditulis mengacu pada; imbuhan -an pada hidup-hidupan keliru; membahas dan membicarakan bersinonim; lain di samping itu dan pada antara tahun menumpuk penghubung/preposisi mubazir. Sumber: Winarti dkk. (2009), hlm. 78, 80, 82, 86-87.",
+          "contoh_salah": "Kebijakan yang berlaku pada antara tahun tersebut harus mengacuh pada peraturan pusat.",
+          "contoh_benar": "Kebijakan yang berlaku pada tahun tersebut harus mengacu pada peraturan pusat.",
+          "rujukan": {
+            "penulis": "Winarti dkk.",
+            "buku": "Kesalahan Berbahasa Indonesia dalam Terbitan Ilmiah Perguruan Tinggi di Kalimantan Timur",
+            "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+            "tahun": 2009,
+            "halaman": "78, 80, 82, 86-87"
+          }
+        },
+        {
+          "id": "BPBI-008",
+          "pola": "dirgahayu HUT / dirgahayu RI ke-N / HUT RI ke-N / BBWI",
+          "saran_pengganti": [
+            "Dirgahayu RI / HUT ke-N RI / WIB"
+          ],
+          "penjelasan": "Dirgahayu bermakna 'berumur panjang' sehingga tidak digabung dengan HUT atau bilangan tingkat ke-N; pada HUT ke-N RI, bilangan tingkat menerangkan HUT (bukan RI ke-N); singkatan wilayah waktu baku ialah WIB (bukan BBWI). Sumber: Pusat Bahasa, Buku Praktis Bahasa Indonesia 2 (Subhalaman Bahasa).",
+          "contoh_salah": "Spanduk itu bertuliskan dirgahayu HUT RI ke-79 pada pukul 08.00 BBWI.",
+          "contoh_benar": "Spanduk itu bertuliskan dirgahayu RI pada pukul 08.00 WIB.",
+          "rujukan": {
+            "penulis": "Pusat Bahasa",
+            "buku": "Buku Praktis Bahasa Indonesia 2 (Bahasa)",
+            "penerbit": "Departemen Pendidikan Nasional",
+            "tahun": 2004,
+            "halaman": "Wikisource"
           }
         }
       ]

@@ -103,3 +103,14 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - Matcher: 4 regex baru di `CUSTOM_RULES` untuk keluarga bentuk terikat (pra-, ekstra-/extra-, anti-, multi-).
 - Blok baru `BW` di `skills/humanizer-id-ejaan-morfologi/SKILL.md` + tabel rujukan penyesuaian ejaan sufiks/prefiks. Blok `BV2` diperbaiki: butir 4-7 sebelumnya tergabung tanpa Perbaikan/Sebab.
 - Total kaidah 611 (165+15+93+338); versi 2.4.4; pytest 45 passed; uji `work/uji-pupi.md` 12 salah tertangkap / 12 benar lolos.
+
+---
+
+## Integrasi Siklus 20–22: EYD Edisi V Lengkap, Ejaan v2, Winarti (2009) 2.3.3–2.11, BPBI 2, & Sasangka/Suladi (2026-11-18)
+
+- **Sumber:** `books/eyd_edisi_5_2022.pdf` (75 hlm.), `books/seri_penyuluhan_ejaan_badanbahasa_v2.pdf` (118 hlm.), `books/kesalahan_berbahasa_terbitan_ilmiah_kaltim.pdf` (hlm. 38–137), `Buku_Praktis_Bahasa_Indonesia_2/{Bahasa,Istilah,Kalimat}` (Wikisource), `books/seri_penyuluhan_kalimat_2015_sasangka.pdf` (hlm. 72–96), dan `books/seri_penyuluhan_paragraf_2015_suladi.pdf` (hlm. 55).
+- **Referensi baru:** `references/eyd-v-2022-lengkap.md`, `references/seri-penyuluhan-ejaan-v2-badan-bahasa.md`, `references/kaltim-2009-jurnal-mahakam-sospol-ekonomi.md`, `references/bpbi-2-bahasa-istilah-kalimat.md`, dan `references/kalimat-efektif-sasangka-2015.md`.
+- **18 entri baru (670 -> 688):** `EYD-065`..`EYD-073` (9 entri, 1 `[telaah]`), `TMS-043`..`TMS-046` (4 entri), `SPK-014`..`SPK-016` (3 entri, 1 `[telaah]`), dan `BPBI-008`..`BPBI-009` (2 entri); perluasan `TMS-038` (`sejak ... sampai`) dan penyempurnaan `BAK-012` (pengecualian *antar jemput*/*antar barang*).
+- **13 istilah glosarium baru (137 -> 150):** 10 ranah bisnis & manajemen, 3 ranah teknologi & rekayasa dari BPBI 2 Istilah.
+- **Sub-skill diperbarui:** blok `BZ` & `CA` di `humanizer-id-ejaan-morfologi`, blok `CB` & `CC` di `humanizer-id-sintaksis`, blok `CD` di `humanizer-id-diksi-istilah`, serta tabel rute `SKILL.md`.
+
