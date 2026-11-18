@@ -255,3 +255,9 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 3. **Pola:** *para anak, para orang, para manusia* → **Perbaikan:** *anak-anak, orang-orang, umat manusia* — **Sebab:** artikula *para* hanya mengiringi nomina manusia yang memiliki kesamaan peran, pekerjaan, atau kedudukan (*para guru, para ilmuwan*) (`TBB-034`) (TBBBI Ed. 4 2017, hlm. 401).
 4. **Pola:** *\*Istri ia baru diwisuda* / *\*Dia ditugaskan pekerjaan itu* / *\*Orang pintar dianggap dia oleh saya* → **Perbaikan:** *Istrinya / istri dia*, *Dia ditugasi pekerjaan itu* (atau *Pekerjaan itu ditugaskan kepadanya*), *Dia saya anggap orang pintar* — **Sebab:** `[telaah]` *ia* tidak boleh menyatakan milik, dan diatesis pasif verba *-i* vs *-kan* membedakan subjek penerima vs objek sasaran (`TBB-036`) (TBBBI Ed. 4 2017, hlm. 337, ~467).
 5. **Pola:** *Yang disebabkan oleh kurangnya latihan.* / *Dan rubrik tersebut...* / *pengetahuan kemampuan* → **Perbaikan:** lengkapi subjek–predikat induk (*Hal itu disebabkan...*, *Selain itu, rubrik tersebut...*) dan benahi urutan diterangkan–menerangkan (*kemampuan pengetahuan*) — **Sebab:** `[telaah]` fragmen tanpa subjek/induk kalimat dan pembalikan hukum DM-MD di korpus skripsi & BIPA (`JSK-011`) (Saputra & Alber 2021; Yahya dkk. 2018 hlm. 61).
+
+---
+
+### CI. Kutipan Kurung Bersubjek `Menurut (Nama Tahun)` (DiSastra 2021)
+
+1. **Pola:** *Menurut (Mulyana 2005:21) menyatakan bahwa konteks merupakan...* → **Perbaikan:** *Mulyana (2005:21) menyatakan bahwa konteks merupakan...* — **Sebab:** apabila nama pengarang berperan sebagai subjek sebelum verba pelaporan (*menyatakan, mengungkapkan, menjelaskan*), preposisi *menurut* dihilangkan dan nama penulis ditempatkan di luar tanda kurung (`JSK-017`) (Uswati & Mardikantoro, *DiSastra* 2021, Kasus 6).

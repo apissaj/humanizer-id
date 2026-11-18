@@ -183,3 +183,10 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 2. **Pola:** *tapi, udah, cuma* (di naskah ilmiah/berita) → **Perbaikan:** *tetapi, sudah, hanya* — **Sebab:** kata ragam lisan atau cakapan tidak baku dalam karangan formal wajib diganti bentuk bakunya (`JSK-010`) (Yahya dkk. 2018 hlm. 58, 63; TBBBI Ed. 4 2017, hlm. 523).
 3. **Pola:** *gara-gara, mentang-mentang* (di laporan formal) → **Perbaikan:** *akibat, karena, disebabkan oleh* — **Sebab:** penanda sebab ragam lisan tidak baku tidak layak dipakai di tulisan ilmiah atau dinas (`TBB-035`) (TBBBI Ed. 4 2017, hlm. ~437).
 4. **Padanan media/ekonomi/TI tambahan (`glosarium-lintas-bidang.json` 150 → 160):** *commuter line* → **kereta komuter**; *busway* → **jalur bus**; *reshuffle* → **perombakan**; *selfie* → **swafoto**; *rising star* → **bintang baru**; *community relation* → **hubungan masyarakat**; *year to date* → **sejauh tahun ini**; *month to month* → **bulan ke bulan**; *online* → **daring / dalam jaringan**; *email* → **pos-el / surat elektronik (surel)**.
+
+---
+
+### CJ. Ragam Cakap `pastinya` & Padanan Jurnalistik/Riset (DiSastra 2021; BRIN 2022; DE_JOURNAL 2023)
+
+1. **Pola:** *pastinya* (di karangan ilmiah/laporan resmi) → **Perbaikan:** *tentu, niscaya*, atau hapus bila penguat mubazir — **Sebab:** ragam cakapan merusak objektif register ilmiah (`JSK-016`) (Uswati & Mardikantoro, *DiSastra* 2021, hlm. 66).
+2. **Padanan tambahan (`glosarium-lintas-bidang.json` 160 → 164):** *public figure* → **figur publik / tokoh masyarakat**; *storyteller* → **pencerita / penutur cerita**; *library research* → **penelitian kepustakaan / kajian pustaka**; *hard copy* → **salinan cetak / naskah cetak**.

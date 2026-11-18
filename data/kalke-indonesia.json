@@ -428,6 +428,13 @@
         "penerbit": "IAIN Curup / UNNES / UMK",
         "tahun": 2021,
         "bab_relevan": "Kesalahan ejaan leksikal, preposisi di/ke, sintaksis fragmen, dan diksi ragam lisan pada karangan ilmiah & skripsi"
+      },
+      {
+        "judul": "Beberapa Permasalahan Pemakaian Bahasa Indonesia",
+        "penulis": "Nur Bety; Mardi Nugroho; Tim Pusat Bahasa",
+        "penerbit": "Pusat Bahasa, Departemen Pendidikan Nasional",
+        "tahun": 2006,
+        "bab_relevan": "Peluluhan memedomani, kata ulang tanpa spasi, preposisi terpisah, singkatan gelar & lembaga (hlm. 38-39, 81-85, 121-123)"
       }
     ],
     "rujukan_pedoman_akademik": [
@@ -451,7 +458,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 700
+    "total_entri": 712
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3685,6 +3692,30 @@
           "penjelasan": "TBBBI Edisi IV (2017, 8.2.2, hlm. 397-398) menegaskan bahwa konjungsi koordinatif tetapi dalam bahasa baku tidak dipakai untuk memulai kalimat baru; gunakan konjungsi antarkalimat Akan tetapi, ....",
           "contoh_salah": "Keadaan memang sudah mulai aman. Tetapi, kita harus tetap waspada menghadapi ancaman lanjutan.",
           "contoh_benar": "Keadaan memang sudah mulai aman. Akan tetapi, kita harus tetap waspada menghadapi ancaman lanjutan."
+        },
+        {
+          "id": "JSK-016",
+          "pola": "pastinya (ragam cakapan dalam naskah ilmiah)",
+          "asal_frasa": "Colloquial certainty marker",
+          "saran_pengganti": [
+            "tentu",
+            "niscaya",
+            "[dihapus bila penguat takperlu]"
+          ],
+          "penjelasan": "Kata pastinya tergolong ragam cakapan/informal sehingga tidak selaras dengan register tulisan akademik maupun laporan resmi (Uswati & Mardikantoro, DiSastra 2021, hlm. 66).",
+          "contoh_salah": "Sebagai makhluk sosial, pastinya manusia membutuhkan kerja sama dengan pihak lain.",
+          "contoh_benar": "Sebagai makhluk sosial, manusia tentu membutuhkan kerja sama dengan pihak lain."
+        },
+        {
+          "id": "JSK-017",
+          "pola": "Menurut (Nama, Tahun) menyatakan/mengungkapkan... (preposisi merangkap subjek kurung)",
+          "asal_frasa": "Citation parenthesis preceded by Menurut",
+          "saran_pengganti": [
+            "Mulyana (2005) menyatakan bahwa..."
+          ],
+          "penjelasan": "Jika sumber kutipan menjadi subjek kalimat aktif sebelum verba pelaporan (menyatakan, mengungkapkan, menjelaskan), preposisi menurut harus dihapus dan nama penulis diletakkan di luar tanda kurung (DiSastra 2021, Kasus 6).",
+          "contoh_salah": "Menurut (Mulyana 2005:21) menyatakan bahwa konteks merupakan latar terjadinya suatu komunikasi.",
+          "contoh_benar": "Mulyana (2005:21) menyatakan bahwa konteks merupakan latar terjadinya suatu komunikasi."
         }
       ]
     },
@@ -8625,9 +8656,136 @@
           "penjelasan": "TBBBI Edisi IV (2017, hlm. 337, ~467) menetapkan bahwa hanya dia, -nya, dan beliau yang dapat menyatakan milik (bukan *istri ia), serta membedakan orientasi subjek pasif pada verba -i dan -kan (Dia ditugasi pekerjaan itu, bukan *Dia ditugaskan pekerjaan itu).",
           "contoh_salah": "Istri ia menyusun laporan sementara petugas itu ditugaskan pekerjaan arsip tambahan.",
           "contoh_benar": "Istrinya menyusun laporan sementara petugas itu ditugasi pekerjaan arsip tambahan."
+        },
+        {
+          "id": "TMS-049",
+          "pola": "mempedomani / febuari / transpotasi / himbauan / menghimbau / menimalisir / meminimalisir",
+          "saran_pengganti": [
+            "memedomani",
+            "Februari",
+            "transportasi",
+            "imbauan",
+            "mengimbau",
+            "meminimalkan"
+          ],
+          "penjelasan": "Peluluhan fonem p pada pedoman membentuk memedomani, kata dasar imbau tanpa fonem h awal, Februari dan transportasi mempertahankan konsonan r, serta verba baku berakhiran -kan memakai meminimalkan (Nur Bety, Beberapa Permasalahan, hlm. 81-82; Rahman, BRIN 2022, hlm. 17; JURRIBAH 2026, hlm. 478).",
+          "contoh_salah": "Pada bulan febuari, panitia mempedomani himbauan dinas untuk menimalisir gangguan transpotasi.",
+          "contoh_benar": "Pada bulan Februari, panitia mengikuti imbauan dinas untuk meminimalkan gangguan transportasi."
+        },
+        {
+          "id": "TMS-050",
+          "pola": "kearah / didaerah / diluar / disamping / walikota",
+          "saran_pengganti": [
+            "ke arah",
+            "di daerah",
+            "di luar",
+            "di samping",
+            "wali kota"
+          ],
+          "penjelasan": "Kata depan penunjuk lokasi atau arah (di, ke) wajib ditulis terpisah dari kata yang mengikutinya, dan gabungan kata bebas wali kota tidak dirangkai menjadi walikota (Nur Bety, Beberapa Permasalahan, hlm. 83-84; Mardi Nugroho, hlm. 123).",
+          "contoh_salah": "Kantor walikota menyalurkan bantuan kearah selatan dan didaerah pesisir diluar pusat kota, disamping wilayah desa.",
+          "contoh_benar": "Kantor wali kota menyalurkan bantuan ke arah selatan dan di daerah pesisir di luar pusat kota, di samping wilayah desa."
+        },
+        {
+          "id": "TMS-051",
+          "pola": "menindak lanjuti / ditindak lanjuti (gabungan kata berkonfiks terpisah)",
+          "saran_pengganti": [
+            "menindaklanjuti",
+            "ditindaklanjuti"
+          ],
+          "penjelasan": "Gabungan kata tindak lanjut yang mendapat awalan dan akhiran sekaligus (konfiks penuh meN-...-i atau di-...-i) wajib ditulis serangkai (Nur Bety, Beberapa Permasalahan, hlm. 82).",
+          "contoh_salah": "Pengaduan warga akan segera ditindak lanjuti oleh dinas terkait untuk menindak lanjuti hasil inspeksi.",
+          "contoh_benar": "Pengaduan warga akan segera ditindaklanjuti oleh dinas terkait untuk menindaklanjuti hasil inspeksi."
+        },
+        {
+          "id": "EYD-074",
+          "pola": "kata ulang berspasi di sekitar tanda hubung (hal - hal / rata- rata / parameter- parameter)",
+          "saran_pengganti": [
+            "hal-hal",
+            "rata-rata",
+            "parameter-parameter"
+          ],
+          "penjelasan": "Tanda hubung pada kata ulang ditulis rapat tanpa spasi sebelum maupun sesudah tanda hubung (Nur Bety, Beberapa Permasalahan, hlm. 83; EYD V).",
+          "contoh_salah": "Laporan itu merangkum hal - hal teknis beserta nilai rata- rata dari seluruh parameter- parameter uji.",
+          "contoh_benar": "Laporan itu merangkum hal-hal teknis beserta nilai rata-rata dari seluruh parameter-parameter uji."
+        },
+        {
+          "id": "EYD-075",
+          "pola": "Ssos / Msi / Spd / Amd / Skom / Mts (singkatan gelar & lembaga tanpa kapital awal unsur)",
+          "saran_pengganti": [
+            "S.Sos.",
+            "M.Si.",
+            "S.Pd.",
+            "A.Md.",
+            "S.Kom.",
+            "MTs"
+          ],
+          "penjelasan": "Setiap huruf pertama unsur singkatan gelar akademik maupun singkatan nama lembaga pendidikan resmi wajib ditulis kapital dan diberi tanda titik per unsur gelar (Mardi Nugroho, Beberapa Permasalahan, hlm. 121-123).",
+          "contoh_salah": "Pembimbing akademik bergelar Spd dan Msi itu mengajar siswa Mts.",
+          "contoh_benar": "Pembimbing akademik bergelar S.Pd. dan M.Si. itu mengajar siswa MTs."
+        },
+        {
+          "id": "JSK-012",
+          "pola": "akhiran -nya ditulis terpisah spasi dari kata dasar (banyak nya / khusus nya)",
+          "saran_pengganti": [
+            "banyaknya",
+            "khususnya",
+            "selanjutnya"
+          ],
+          "penjelasan": "Klitika atau akhiran -nya wajib ditulis serangkai dengan kata yang mendahuluinya karena membentuk satu kesatuan kata (KIBASP 2026, hlm. 529).",
+          "contoh_salah": "Analisis difokuskan pada banyak nya tuturan dalam naskah, khusus nya pada bagian pembuka.",
+          "contoh_benar": "Analisis difokuskan pada banyaknya tuturan dalam naskah, khususnya pada bagian pembuka."
+        },
+        {
+          "id": "JSK-013",
+          "pola": "tanda titik ganda .. di akhir kalimat pernyataan",
+          "saran_pengganti": [
+            ". (satu tanda titik penutup)"
+          ],
+          "penjelasan": "Kalimat pernyataan diakhiri satu tanda titik (.), bukan dua tanda titik berturut-turut (KIBASP 2026, hlm. 530).",
+          "contoh_salah": "Tahap pengujian prototipe sistem telah diselesaikan tepat waktu..",
+          "contoh_benar": "Tahap pengujian prototipe sistem telah diselesaikan tepat waktu."
+        },
+        {
+          "id": "JSK-014",
+          "pola": "yaitu; / yakni; (titik koma setelah penanda pemerinci)",
+          "saran_pengganti": [
+            "yaitu:",
+            "yakni:"
+          ],
+          "penjelasan": "Penanda perincian daftar pada kalimat lengkap memakai tanda titik dua (:) bila diikuti daftar vertikal atau tanpa titik dua sebelum rincian berjalan, bukan tanda titik koma (;) (KIBASP 2026, hlm. 531).",
+          "contoh_salah": "Teknik pengumpulan data meliputi dua cara, yakni; wawancara mendalam dan observasi langsung.",
+          "contoh_benar": "Teknik pengumpulan data meliputi dua cara, yakni wawancara mendalam dan observasi langsung."
+        },
+        {
+          "id": "JSK-015",
+          "pola": "manjemen / sehinnga / lingkukngan / Google From / Whatsapp",
+          "saran_pengganti": [
+            "manajemen",
+            "sehingga",
+            "lingkungan",
+            "Google Form",
+            "WhatsApp"
+          ],
+          "penjelasan": "Kesalahan tipografi dan kapitalisasi nama aplikasi resmi pada abstrak skripsi serta makalah mahasiswa (JURRIBAH 2026, hlm. 478; DEIKTIS 2026, hlm. 2474; Unmuh Jember 2020, hlm. 57).",
+          "contoh_salah": "Survei manjemen lingkukngan disebar lewat Google From dan Whatsapp sehinnga tanggapan cepat terkumpul.",
+          "contoh_benar": "Survei manajemen lingkungan disebar lewat Google Form dan WhatsApp sehingga tanggapan cepat terkumpul."
+        },
+        {
+          "id": "JSK-018",
+          "pola": "[telaah] pelanggaran nomenklatur binomial ICN/ICZN, kapital kata tugas dalam judul, dan judul karya sastra tidak miring",
+          "asal_frasa": "Scientific nomenclature & title casing errors",
+          "saran_pengganti": [
+            "*Oryza sativa*",
+            "Kisah yang Pilu untuk Kita yang Ragu",
+            "novel *Eccedentesiast*"
+          ],
+          "penjelasan": "Nama ilmiah binomial hanya berkapital pada huruf pertama genus dan dicetak miring; kata tugas di tengah judul tetap huruf kecil; tanda kurung ilmiah wajib ditutup berpasangan; dan judul buku/novel dicetak miring (DEIKTIS 2026, hlm. 2474; KIBASP 2026, hlm. 525-528).",
+          "contoh_salah": "Makalah ini meneliti IPOMOEA BATATAS pada bab Pendahuluan dan Novel Karya Sari.",
+          "contoh_benar": "Makalah ini meneliti *Ipomoea batatas* pada bab pendahuluan serta novel *Karya Sari*."
         }
       ]
     }
   },
-  "total_entri": 700
+  "total_entri": 712
 }

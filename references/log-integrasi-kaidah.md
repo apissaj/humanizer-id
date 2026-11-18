@@ -124,3 +124,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **12 entri baru (688 -> 700):** `TMS-047`..`TMS-048` (1 aktif, 1 `[telaah]`), `JSK-007`..`JSK-011` (4 aktif, 1 `[telaah]`), dan `TBB-032`..`TBB-036` (4 aktif, 1 `[telaah]`).
 - **10 istilah glosarium baru (150 -> 160):** 5 ranah `jurnalistik_dan_media` (7 -> 12), 3 ranah `bisnis_dan_manajemen` (54 -> 57), dan 2 ranah `teknologi_dan_rekayasa` (62 -> 64).
 - **Sub-skill diperbarui:** blok `CE` (`humanizer-id-ejaan-morfologi`), blok `CF` (`humanizer-id-sintaksis`), blok `CG` (`humanizer-id-diksi-istilah`), pembaruan butir B/D pada `humanizer-id-skripsi-kampus` & `humanizer-id-jurnalistik-media`, serta tabel rute `SKILL.md`.
+
+---
+
+## Integrasi Siklus 26–28: *Beberapa Permasalahan Pemakaian Bahasa Indonesia* & Mekanisasi Lanjutan `JSK-012`..`JSK-018` (2026-11-18)
+
+- **Sumber:** `books/beberapa_permasalahan_pemakaian_bahasa_indonesia.pdf` (*Nur Bety*, hlm. 81–85; *Mardi Nugroho*, hlm. 121–123), `books/komunikasi_perusahaan_melalui_tulisan_brin.pdf` (hlm. 17, 20), serta kompilasi jurnal skripsi (`KIBASP` 2026, `JURRIBAH` 2026, `DEIKTIS` 2026, `DiSastra` 2021, `DE_JOURNAL`/`UNDHARI` 2023, `UNIMAL`, `BB Unmuh Jember` 2020).
+- **Referensi baru:** `references/beberapa-permasalahan-pemakaian-lanjutan.md` dan `references/kompilasi-jurnal-skripsi-undhari-unimal-lanjutan.md`.
+- **12 entri baru (700 -> 712):** `TMS-049`..`TMS-051` (3 aktif), `EYD-074`..`EYD-075` (2 aktif), `JSK-012`..`JSK-018` (6 aktif, 1 `[telaah]`).
+- **4 istilah glosarium baru (160 -> 164):** `public figure`, `storyteller`, `library research`, `hard copy`.
+- **Sub-skill diperbarui:** blok `CH` (`humanizer-id-ejaan-morfologi`), `CI` (`humanizer-id-sintaksis`), `CJ` (`humanizer-id-diksi-istilah`), butir 7 `humanizer-id-skripsi-kampus`, serta tabel rute `SKILL.md`.

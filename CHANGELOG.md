@@ -4,6 +4,19 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 712 kaidah + 164 istilah glosarium
+
+Penyapuan tuntas sumber Pusat Bahasa & mekanisasi lanjutan temuan jurnal skripsi (Siklus 26–28):
+
+- **Pusat Bahasa — *Beberapa Permasalahan Pemakaian Bahasa Indonesia* (`books/beberapa_permasalahan_pemakaian_bahasa_indonesia.pdf`, hlm. 38–39, 81–85, 121–123) & BRIN (2022, hlm. 17):**
+  - `TMS-049`..`TMS-051` — peluluhan *mempedomani* -> *memedomani*, ejaan *Februari*, *transportasi*, *imbauan/mengimbau*, *meminimalkan* (JURRIBAH 2026 hlm. 478), preposisi serangkai (*ke arah*, *di daerah*, *di luar*, *di samping*), gabungan kata bebas *wali kota* terpisah vs konfiks penuh *menindaklanjuti* serangkai.
+  - `EYD-074`..`EYD-075` — larangan spasi sekitar tanda hubung kata ulang (*hal-hal*, *rata-rata*) dan kapital awal unsur singkatan gelar/lembaga (*S.Sos.*, *M.Si.*, *S.Pd.*, *A.Md.*, *MTs*).
+- **Mekanisasi lanjutan jurnal empiris skripsi (`KIBASP` 2026, `JURRIBAH` 2026, `DEIKTIS` 2026, `DiSastra` 2021, `BB Unmuh Jember` 2020):**
+  - `JSK-012`..`JSK-018` — klitika *-nya* terpisah (*banyak nya* -> *banyaknya*), titik ganda pernyataan (`..`), titik koma keliru sesudah *yaitu;*/*yakni;*, tipografi & kapitalisasi aplikasi (*manajemen*, *sehingga*, *lingkungan*, *Google Form*, *WhatsApp*), ragam cakap *pastinya*, format sitasi subjek `Menurut (Nama Tahun) menyatakan...`, serta `[telaah]` nomenklatur binomial ICN/ICZN & judul karya.
+- **4 padanan glosarium baru (160 -> 164):** `public figure`, `storyteller`, `library research`, dan `hard copy`.
+
+Referensi baru: `references/beberapa-permasalahan-pemakaian-lanjutan.md` dan `references/kompilasi-jurnal-skripsi-undhari-unimal-lanjutan.md`; blok `CH`–`CJ` pada `skills/humanizer-id-{ejaan-morfologi,sintaksis,diksi-istilah}/SKILL.md` serta `humanizer-id-skripsi-kampus` dan `SKILL.md` diperbarui.
+
 ### 700 kaidah + 160 istilah glosarium
 
 Bedah lanjutan lima sumber rujukan resmi & empiris (Siklus 23–25):

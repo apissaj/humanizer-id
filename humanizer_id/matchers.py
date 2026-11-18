@@ -1499,3 +1499,42 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("gara-gara / mentang-mentang"),
      [re.compile(r"(?i)\b(?:gara-gara|mentang-mentang)\b")]),
 ])
+
+# --- Kaidah Beberapa Permasalahan (Pusat Bahasa) & Mekanisasi JSK-012..017 (Siklus 26-28) ---
+CUSTOM_RULES.extend([
+    # TMS-049: peluluhan mempedomani, bentuk baku & -kan (Beberapa Permasalahan hlm. 81-82; BRIN 2022 hlm. 17; JURRIBAH 2026)
+    (lambda p: p.startswith("mempedomani / febuari"),
+     [re.compile(r"(?i)\b(?:mempedomani|febuari|transpotasi|himbauan|menghimbau|dihimbau|menimalisir|meminimalisir|minimalisir)\b")]),
+    # TMS-050: preposisi serangkai & walikota (Beberapa Permasalahan hlm. 83-84, 123)
+    (lambda p: p.startswith("kearah / didaerah"),
+     [re.compile(r"(?i)\b(?:kearah|didaerah|diluar|disamping|walikota)\b")]),
+    # TMS-051: gabungan kata berkonfiks tindak lanjut terpisah (Beberapa Permasalahan hlm. 82)
+    (lambda p: p.startswith("menindak lanjuti"),
+     [re.compile(r"(?i)\b(?:menindak|ditindak|penindak)\s+lanjut(?:i|kan)\b")]),
+    # EYD-074: spasi menyisip pada tanda hubung kata ulang (Beberapa Permasalahan hlm. 83)
+    (lambda p: p.startswith("kata ulang berspasi"),
+     [re.compile(r"(?i)\b([a-z]{3,})(?:\s+-\s*|-\s+)\1\b")]),
+    # EYD-075: singkatan gelar & lembaga huruf kecil (Beberapa Permasalahan hlm. 121-123)
+    (lambda p: p.startswith("Ssos / Msi / Spd"),
+     [re.compile(r"\b(?:Ssos|Msi|Spd|Amd|Skom|Mkom|Shum|Mhum|Mts)\b")]),
+    # JSK-012: akhiran -nya terpisah spasi (KIBASP 2026, hlm. 529)
+    (lambda p: p.startswith("akhiran -nya ditulis terpisah"),
+     [re.compile(r"(?i)(?<=[a-z]{3})\s+nya\b")]),
+    # JSK-013: tanda titik ganda .. (KIBASP 2026, hlm. 530)
+    (lambda p: p.startswith("tanda titik ganda .."),
+     [re.compile(r"(?<![.\s])\.\.(?!\.)(?=\s|$)")]),
+    # JSK-014: titik koma setelah yaitu/yakni (KIBASP 2026, hlm. 531)
+    (lambda p: p.startswith("yaitu; / yakni;"),
+     [re.compile(r"(?i)\b(?:yaitu|yakni)\s*;")]),
+    # JSK-015: typo abstrak & nama aplikasi (JURRIBAH 2026; DEIKTIS 2026; Unmuh Jember 2020)
+    (lambda p: p.startswith("manjemen / sehinnga"),
+     [re.compile(r"(?i)\b(?:manjemen|sehinnga|lingkukngan)\b"),
+      re.compile(r"\bGoogle\s+From\b"),
+      re.compile(r"\bWhatsapp\b")]),
+    # JSK-016: pastinya ragam cakapan ilmiah (DiSastra 2021, hlm. 66)
+    (lambda p: p.startswith("pastinya (ragam cakapan"),
+     [re.compile(r"(?i)\bpastinya\b")]),
+    # JSK-017: Menurut (Nama Tahun) menyatakan... (DiSastra 2021, Kasus 6)
+    (lambda p: p.startswith("Menurut (Nama, Tahun) menyatakan"),
+     [re.compile(r"(?i)\bmenurut\s+\([A-Z][a-zA-Z]+[^)]*\d{4}[^)]*\)\s+(?:menyatakan|mengungkapkan|menjelaskan)\b")]),
+])

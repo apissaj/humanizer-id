@@ -475,6 +475,16 @@
           "asing": "rising star",
           "baku": "bintang baru",
           "catatan": "Atau 'bintang yang bersinar' (Baharman, UNM, hlm. 13)."
+        },
+        {
+          "asing": "public figure",
+          "baku": "figur publik / tokoh masyarakat",
+          "catatan": "DiSastra (2021) & KBBI."
+        },
+        {
+          "asing": "storyteller",
+          "baku": "pencerita / penutur cerita",
+          "catatan": "Komunikasi Perusahaan BRIN (2022, hlm. 30)."
         }
       ],
       "kaidah_ekonomi_kata": [
@@ -792,6 +802,11 @@
           "asing": "month to month",
           "baku": "bulan ke bulan",
           "catatan": "Pembandingan periode bulanan (Baharman, UNM, hlm. 13 Tabel 2)."
+        },
+        {
+          "asing": "hard copy",
+          "baku": "salinan cetak / naskah cetak",
+          "catatan": "Komunikasi Perusahaan BRIN (2022, hlm. 20)."
         }
       ]
     },
@@ -882,6 +897,11 @@
           "asing": "dangling modifier",
           "baku": "pewatas tergantung",
           "catatan": "Frasa penjelas yang tidak memiliki acuan subjek yang jelas."
+        },
+        {
+          "asing": "library research",
+          "baku": "penelitian kepustakaan / kajian pustaka",
+          "catatan": "DE_JOURNAL (2023) & KBBI."
         }
       ]
     }
