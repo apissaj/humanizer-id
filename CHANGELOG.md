@@ -4,6 +4,19 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 740 kaidah + 180 istilah glosarium
+
+Bedah lanjutan *Bahan Penyuluhan Tata Naskah Dinas* (Karenisa dkk., Badan Bahasa 2025) dan buku ajar perguruan tinggi (Halimah dkk. 2020; Ifnaldi 2021; UNJA) (Siklus 37–38):
+
+- **Kity Karenisa dkk. (*Tata Naskah Dinas*, Badan Bahasa 2025, hlm. 27, 30, 46–47):**
+  - `DIN-010` — penghubung surat dinas kontaminatif `Maka dengan ini` / `, maka dengan ini`.
+  - `TMS-052` — `keikut sertaan` -> `keikutsertaan`, `legitimate` -> `legitimasi`, `cendikia/cendikiawan` -> `cendekia/cendekiawan`, dan `memperngaruhi` -> `memengaruhi`.
+- **Andi Halimah dkk. (*Bahasa Indonesia untuk Perguruan Tinggi*, UIN Alauddin 2020, hlm. 61, 110–111):**
+  - `RGM-002` — penyengauan lisan tanpa awalan *meN-* (`ngail`, `ngantuk`, `nabrak`, `nulis`, `nyubit`, `nyabut`, `nyari`, `nyuap`, `nolak`, `nanam`) dan dialek `ketawa` (`tertawa`).
+  - `UIN-011` — penulisan lambang bilangan angka di awal kalimat (`50 siswa ...`, `3 pemenang ...` -> `Lima puluh siswa ...`).
+
+Referensi baru: `references/tnd-2025-dan-buku-ajar-pt-lanjutan.md`; blok `CV`–`CW` pada sub-skill terkait dan `SKILL.md` diperbarui.
+
 ### 736 kaidah + 180 istilah glosarium
 
 Mekanisasi lanjutan *Surat-Menyurat dalam Bahasa Indonesia* (Pusat Bahasa 1991), *Cerdas Cergas Kelas XI*, *Diklat KTI/PTK*, dan *Buletin MABBIM* Vol. 15 (2024) (Siklus 35–36):

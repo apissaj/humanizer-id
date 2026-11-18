@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 736
+    "total_entri": 740
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3821,6 +3821,18 @@
           "penjelasan": "Modul Diklat KTI/PTK Kemendikbud (hlm. 99-106, 148) dan Cerdas Cergas Kelas XI (hlm. 255) mewajibkan laporan memuat keterbatasan/kegagalan secara objektif, rumusan masalah berupa kalimat tanya, serta pembalikan nama di daftar pustaka hanya pada penulis pertama.",
           "contoh_salah": "Daftar pustaka menulis Sayektiningsih, Tri dan Ma'ruf, Amir dengan menyembunyikan kendala instrumen.",
           "contoh_benar": "Daftar pustaka menulis Sayektiningsih, Tri dan Amir Ma'ruf serta memaparkan keterbatasan instrumen."
+        },
+        {
+          "id": "DIN-010",
+          "pola": "Maka dengan ini / , maka dengan ini (penghubung surat dinas kontaminatif)",
+          "asal_frasa": "Contaminated bureaucratic connector maka dengan ini",
+          "saran_pengganti": [
+            "Oleh karena itu,",
+            "Dengan demikian,"
+          ],
+          "penjelasan": "Penghubung antarkalimat maka dengan ini maupun penyisipan maka di awal induk kalimat sesudah keterangan pembuka surat tidak tepat dalam surat dinas baku; gunakan Oleh karena itu, secara lugas (Karenisa dkk., Tata Naskah Dinas 2025, hlm. 46-47).",
+          "contoh_salah": "Menindaklanjuti usulan peserta, maka dengan ini kami calonkan perwakilan unit kerja. Maka dengan ini kami mengharapkan konfirmasi jadwal.",
+          "contoh_benar": "Menindaklanjuti usulan peserta, kami mencalonkan perwakilan unit kerja. Oleh karena itu, kami mengharapkan konfirmasi jadwal."
         }
       ]
     },
@@ -9100,9 +9112,54 @@
           "penjelasan": "Bentuk baku KBBI menurut buku teks Kemendikbudristek (hlm. 260) dan Buletin MABBIM Vol. 15 (2024, hlm. 16-17): kategori (bukan katagori), spesies (bukan species), serta keramba/karamba (bukan karaba).",
           "contoh_salah": "Penelitian ini mengelompokkan species ikan air tawar menurut katagori ukuran karaba apung.",
           "contoh_benar": "Penelitian ini mengelompokkan spesies ikan air tawar menurut kategori ukuran keramba apung."
+        },
+        {
+          "id": "TMS-052",
+          "pola": "keikut sertaan / legitimate / cendikia / cendikiawan / memperngaruhi",
+          "saran_pengganti": [
+            "keikutsertaan",
+            "legitimasi",
+            "cendekia",
+            "cendekiawan",
+            "memengaruhi"
+          ],
+          "penjelasan": "Gabungan kata berkonfiks ke-...-an (keikutsertaan) wajib serangkai, bentuk serapan baku ialah legitimasi, vokal kedua cendekia menggunakan e bukan i, dan fonem p pada pengaruh luluh menjadi memengaruhi (Karenisa dkk. 2025, hlm. 27, 30; Ifnaldi 2021; UNJA).",
+          "contoh_salah": "Para cendikiawan mempertanyakan keikut sertaan mitra tanpa legitimate yang memperngaruhi kepercayaan publik.",
+          "contoh_benar": "Para cendekiawan mempertanyakan keikutsertaan mitra tanpa legitimasi yang memengaruhi kepercayaan publik."
+        },
+        {
+          "id": "RGM-002",
+          "pola": "ngail / ngantuk / nabrak / nulis / nyubit / nyabut / nyari / nyuap / nolak / nanam / ketawa",
+          "saran_pengganti": [
+            "mengail",
+            "mengantuk",
+            "menabrak",
+            "menulis",
+            "mencubit",
+            "mencabut",
+            "mencari",
+            "menyuap",
+            "menolak",
+            "menanam",
+            "tertawa"
+          ],
+          "penjelasan": "Penyengauan ragam lisan tanpa awalan meN- utuh serta bentuk berawalan ke- daerah (ketawa alih-alih tertawa) dilarang masuk tulisan formal (Halimah dkk., UIN Alauddin 2020, hlm. 110-111).",
+          "contoh_salah": "Peserta sidang nolak usulan itu sambil ketawa karena sibuk nyari catatan sebelum nulis laporan.",
+          "contoh_benar": "Peserta sidang menolak usulan itu sambil tertawa karena sibuk mencari catatan sebelum menulis laporan."
+        },
+        {
+          "id": "UIN-011",
+          "pola": "50 siswa ... / 3 pemenang ... (lambang bilangan angka mengawali kalimat)",
+          "saran_pengganti": [
+            "Lima puluh siswa ...",
+            "Tiga pemenang ..."
+          ],
+          "penjelasan": "Bilangan pada awal kalimat yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka Arab (Halimah dkk., UIN Alauddin 2020, hlm. 61; EYD V).",
+          "contoh_salah": "50 siswa teladan menerima beasiswa daerah. 3 pemenang lomba diundang ke ibu kota.",
+          "contoh_benar": "Lima puluh siswa teladan menerima beasiswa daerah. Tiga pemenang lomba diundang ke ibu kota."
         }
       ]
     }
   },
-  "total_entri": 736
+  "total_entri": 740
 }

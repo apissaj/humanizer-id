@@ -335,3 +335,11 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 1. **Pola:** *Dengan Hormat / Hormat Saya / Hormat Kami / Salam Takzim* → **Perbaikan:** *Dengan hormat, / Hormat saya, / Hormat kami, / Salam takzim,* — **Sebab:** hanya kata pertama salam surat resmi yang diawali huruf kapital (`SMD-003`) (Pusat Bahasa 1991, hlm. 17–18).
 2. **Pola:** *50cm, 15m, 10kg, 25km* → **Perbaikan:** *50 cm, 15 m, 10 kg, 25 km* — **Sebab:** bilangan dan lambang satuan ukuran wajib dipisahkan satu spasi (`BSXI-001`) (*Cerdas Cergas Kelas XI*, hlm. 261).
 3. **Pola:** *katagori, species, karaba* → **Perbaikan:** *kategori, spesies, keramba* — **Sebab:** pembakuan KBBI/EYD V dan rubrik *Wisata Kata* MABBIM (`BSXI-002`) (Kelas XI hlm. 260; *Buletin MABBIM* Vol. 15, 2024, hlm. 16–17).
+
+---
+
+### CV. Ragam Tulis Baku PT, Penyengauan Lisan & Bilangan Awal Kalimat (Siklus 37–38)
+
+1. **Pola:** *keikut sertaan, legitimate, cendikia, cendikiawan, memperngaruhi* → **Perbaikan:** *keikutsertaan, legitimasi, cendekia, cendekiawan, memengaruhi* — **Sebab:** konfiks penuh serangkai, serapan baku, vokal *e* kedua pada *cendekia*, serta peluluhan fonem *p* (`TMS-052`) (Karenisa dkk. 2025, hlm. 27, 30; Ifnaldi 2021; UNJA).
+2. **Pola:** *ngail, ngantuk, nabrak, nulis, nyubit, nyabut, nyari, nyuap, nolak, nanam, ketawa* → **Perbaikan:** *mengail, mengantuk, menabrak, menulis, mencubit, mencabut, mencari, menyuap, menolak, menanam, tertawa* — **Sebab:** penyengauan ragam tutur lisan tanpa awalan *meN-* maupun awalan daerah *ke-* dilarang masuk tulisan formal (`RGM-002`) (Halimah dkk. 2020, hlm. 110–111).
+3. **Pola:** *50 siswa teladan... / 3 pemenang...* di awal kalimat → **Perbaikan:** *Lima puluh siswa teladan... / Tiga pemenang...* — **Sebab:** bilangan satu atau dua kata pada posisi awal kalimat wajib ditulis dengan huruf (`UIN-011`) (Halimah dkk. 2020, hlm. 61; EYD V).

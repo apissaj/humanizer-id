@@ -1613,3 +1613,19 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("Dengan alasan inilah maka"),
      [re.compile(r"(?i)\b(?:Dengan\s+alasan\s+(?:inilah|itulah)|Atas\s+dasar\s+(?:inilah|itulah)|Oleh\s+sebab\s+(?:inilah|itulah))\s+maka\b")]),
 ])
+
+# --- Kaidah Tata Naskah Dinas 2025 & Buku Ajar PT (Siklus 37-38: DIN-010, TMS-052, RGM-002, UIN-011) ---
+CUSTOM_RULES.extend([
+    # DIN-010: Maka dengan ini di awal kalimat atau klausa induk (Karenisa dkk. 2025, hlm. 46-47)
+    (lambda p: p.startswith("Maka dengan ini / , maka"),
+     [re.compile(r"(?m)(?:^|[.!?]\s+)Maka\s+dengan\s+ini\b|,\s+maka\s+dengan\s+ini\b")]),
+    # TMS-052: keikut sertaan, legitimate, cendikia, memperngaruhi (TND 2025 hlm. 27, 30; PT)
+    (lambda p: p.startswith("keikut sertaan / legitimate"),
+     [re.compile(r"(?i)\b(?:keikut\s+sertaan|legitimate|cendikia(?:wan)?|memperngaruhi)\b")]),
+    # RGM-002: penyengauan lisan & ketawa di ragam tulis (Halimah dkk. 2020, hlm. 110-111)
+    (lambda p: p.startswith("ngail / ngantuk / nabrak"),
+     [re.compile(r"(?i)\b(?:ngail|ngantuk|nabrak|nulis|nyubit|nyabut|nyari|nyuap|nolak|nanam|ketawa)\b")]),
+    # UIN-011: angka mengawali kalimat alih-alih huruf bilangan (Halimah dkk. 2020, hlm. 61)
+    (lambda p: p.startswith("50 siswa ... / 3 pemenang"),
+     [re.compile(r"(?:^|[.!?]\s+)\d{1,3}\s+(?:siswa|mahasiswa|peserta|orang|responden|karyawan|pegawai|pemenang)\b")]),
+])

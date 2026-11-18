@@ -174,3 +174,12 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **6 entri baru (730 -> 736):** `SMD-003`..`SMD-004` (2 aktif), `BSXI-001`..`BSXI-003` (3 aktif), `KTI-001` (1 `[telaah]`).
 - **2 istilah glosarium baru (178 -> 180):** `content creator` (`jurnalistik_dan_media` 14 -> 15) dan `tautology` (`linguistik_dan_ilmu_bahasa` 26 -> 27).
 - **Sub-skill diperbarui:** blok `CS` (`humanizer-id-ejaan-morfologi`), `CT` (`humanizer-id-sintaksis`), `CU` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.
+
+---
+
+## Integrasi Siklus 37–38: *Tata Naskah Dinas* (2025) & Buku Ajar PT (Halimah 2020, Ifnaldi 2021, UNJA) (2026-11-18)
+
+- **Sumber:** Kity Karenisa dkk. (*Tata Naskah Dinas*, Badan Bahasa 2025, hlm. 27, 30, 46–47), Andi Halimah dkk. (UIN Alauddin 2020, hlm. 61, 110–111), Ifnaldi (IAIN Curup 2021, hlm. 36), dan Eko Kuntarto (UNJA, hlm. 51).
+- **Referensi baru:** `references/tnd-2025-dan-buku-ajar-pt-lanjutan.md`.
+- **4 entri aktif baru (736 -> 740):** `DIN-010`, `TMS-052`, `RGM-002`, `UIN-011`.
+- **Sub-skill diperbarui:** blok `CV` (`humanizer-id-ejaan-morfologi`), `CW` (`humanizer-id-sintaksis`), serta tabel rute `SKILL.md`.

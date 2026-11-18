@@ -285,3 +285,9 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 1. **Pola:** *Bersama ini kami kabarkan..., Demikianlah harap maklum* → **Perbaikan:** *Melalui surat ini kami memberitahukan...* / *Demikian surat pemberitahuan ini kami sampaikan.* — **Sebab:** rumus klise surat kuno diganti kalimat langsung yang informatif (`SMD-004`) (Pusat Bahasa 1991, hlm. 36).
 2. **Pola:** *Dengan alasan inilah maka... / Atas dasar itulah maka...* → **Perbaikan:** *Oleh karena itu, ...* — **Sebab:** kontaminasi frasa keterangan kausal dengan *maka* (`BSXI-003`) (*Cerdas Cergas Kelas XI*, hlm. 12).
 3. **Pola:** `[telaah]` rumusan masalah KTI tidak berupa kalimat tanya operasional, penyembunyian limitasi penelitian, serta pembalikan seluruh marga penulis di daftar pustaka (`Sayektiningsih, Tri dan Ma'ruf, Amir`) → **Perbaikan:** hanya balik nama penulis pertama (`Sayektiningsih, Tri dan Amir Ma'ruf`), susun rumusan masalah sebagai kalimat tanya, dan paparkan keterbatasan secara objektif (`KTI-001`) (*Diklat KTI/PTK*, hlm. 99–148; Kelas XI, hlm. 255).
+
+---
+
+### CW. Penghubung Surat Dinas Kontaminatif `Maka dengan ini` (Karenisa dkk., Badan Bahasa 2025, hlm. 46–47)
+
+1. **Pola:** *Maka dengan ini kami mengharapkan...* / *Menindaklanjuti surat..., maka dengan ini kami...* → **Perbaikan:** *Oleh karena itu, kami mengharapkan...* / langsung *... kami ...* — **Sebab:** *maka dengan ini* merupakan penghubung antarkalimat surat dinas tidak baku (`DIN-010`).
