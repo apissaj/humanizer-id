@@ -319,3 +319,11 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 2. **Pola:** *di malam hari, di siang hari, di pagi hari, di sore hari* → **Perbaikan:** *pada malam hari, pada siang hari, pada pagi hari, pada sore hari* — **Sebab:** keterangan waktu memakai preposisi *pada*, bukan *di* (`BRN-006`) (LIPI Press, hlm. 67 Butir 23).
 3. **Pola:** *bertarap, sekala, sovenir, musholla, mushola, gajih, contemporer, boutique, photocopy, taxi, mall* → **Perbaikan:** *bertaraf, skala, suvenir, musala, gaji, kontemporer, butik, fotokopi, taksi, mal* — **Sebab:** penyesuaian ejaan kata baku KBBI/EYD V (`BRN-007`, `PSB-035`) (LIPI Press hlm. 60; Opini XII hlm. 31; Media Luar Ruang 2015 hlm. 22–89; Semiloka 2019 hlm. 241).
 4. **Pola:** `[telaah]` penamaan lokal membalik urutan DM–MD ala Inggris (*East Park*) dan kalimat larangan tanpa `!` (`PSB-036`) (hlm. 110–124; Prosiding Semiloka 2019 hlm. 522–549).
+
+---
+
+### CP. Bentukan `se-`, Spasi Gelar Depan & Verba Lokasi (Latihan Kemahiran Badan Bahasa 2016)
+
+1. **Pola:** *sekabupaten, seprovinsi, sejawa, seindonesia* → **Perbaikan:** *se-Kabupaten, se-Provinsi, se-Jawa, se-Indonesia* — **Sebab:** bentuk terikat *se-* diikuti nama geografis/negara memakai tanda hubung dan huruf awal kapital (`LKB-048`) (Kaniah dkk. 2016, hlm. 16/76).
+2. **Pola:** *Prof.Ahmad, Dr.Maman, Ir.Budi* → **Perbaikan:** *Prof. Ahmad, Dr. Maman, Ir. Budi* — **Sebab:** gelar di depan nama wajib diakhiri tanda titik dan dipisahkan satu spasi dari nama (`LKB-049`) (Kaniah dkk. 2016, hlm. 12/71).
+3. **Pola:** *mendatangkan lokasi / mendatangkan tempat / mendatangkan gedung* → **Perbaikan:** *mendatangi lokasi / mendatangi tempat / mendatangi gedung* — **Sebab:** verba *-kan* untuk objek yang dibawa/dihadirkan, sedangkan objek tempat statis wajib memakai akhiran *-i* (`LKB-051`) (hlm. 20–21/82).

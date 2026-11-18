@@ -932,6 +932,46 @@
           "asing": "library research",
           "baku": "penelitian kepustakaan / kajian pustaka",
           "catatan": "DE_JOURNAL (2023) & KBBI."
+        },
+        {
+          "asing": "discourse",
+          "baku": "wacana",
+          "catatan": "Padanan resmi (Kridalaksana, Daftar Istilah Linguistik 1979, hlm. 12)."
+        },
+        {
+          "asing": "deep structure",
+          "baku": "struktur batin",
+          "catatan": "Bukan 'struktur dalam' (Kridalaksana 1979, hlm. 20; DIL-008)."
+        },
+        {
+          "asing": "surface structure",
+          "baku": "struktur lahir",
+          "catatan": "Bukan 'struktur luar/permukaan' (Kridalaksana 1979, hlm. 28)."
+        },
+        {
+          "asing": "paraphrase",
+          "baku": "parafrase",
+          "catatan": "Adaptasi baku KBBI (Kridalaksana 1979, hlm. 28)."
+        },
+        {
+          "asing": "ambiguity",
+          "baku": "ketaksaan / ambiguitas",
+          "catatan": "Padanan resmi (Kridalaksana 1979, hlm. 2)."
+        },
+        {
+          "asing": "redundancy",
+          "baku": "kelimpahan / kelewahan",
+          "catatan": "Atau kelewahan dalam analisis wacana (Kridalaksana 1979, hlm. 33)."
+        },
+        {
+          "asing": "colloquialism",
+          "baku": "ragam tak resmi",
+          "catatan": "Padanan resmi (Kridalaksana 1979, hlm. 8)."
+        },
+        {
+          "asing": "metalanguage",
+          "baku": "metabahasa",
+          "catatan": "Padanan resmi (Kridalaksana 1979, hlm. 24)."
         }
       ]
     }

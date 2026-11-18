@@ -14,7 +14,7 @@ import os
 import json
 import re
 import functools
-from .matchers import match_custom_rules
+from .matchers import match_custom_rules, _find_custom_rule
 
 # Pengecualian kaidah per preset domain (audit terfokus)
 # 'umum' = tanpa pengecualian (backward-compatible, seluruh kaidah aktif)
@@ -94,90 +94,104 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
     findings = []
     lines = text.splitlines()
 
+    # Pre-resolve exclusions and compiled regex scanners once per audit call
+    excluded_ids = PRESET_EXCLUSIONS.get(str(preset).lower(), set())
+    is_ipb_kampus = bool(kampus_dict and "ipb" in str(kampus_dict.get("nama", "")).lower())
+
+    rule_scanners = []
+    for cat_key, cat_data in kalke_dict.get("kategori", {}).items():
+        for entry in cat_data.get("entri", []):
+            if entry.get("id") in excluded_ids:
+                continue
+            pattern_str = entry["pola"]
+            if pattern_str.startswith("[telaah]"):
+                continue
+            compiled_list = _find_custom_rule(pattern_str)
+            word_rgx = None if compiled_list is not None else _compile_word_pattern(pattern_str)
+            rule_scanners.append((cat_key, entry, compiled_list, word_rgx))
+
+    glos_scanners = []
+    ekonomi_scanners = []
+    for domain_key, domain_data in glosarium_dict.get("bidang", {}).items():
+        glos_kat = f"glosarium_{domain_key}"
+        glos_id = f"GLOS-{domain_key[:3].upper()}"
+        for item in domain_data.get("istilah", []):
+            term_raw = item["asing"].split("(")[0].strip()
+            if len(term_raw) >= 3:
+                is_upper = term_raw.isupper() and len(term_raw) <= 5
+                glos_scanners.append((glos_kat, glos_id, item, _compile_word_pattern(term_raw, case_sensitive=is_upper)))
+        for item in domain_data.get("kaidah_ekonomi_kata", []):
+            jenuh_str = item["jenuh"]
+            ekonomi_scanners.append((jenuh_str.lower(), jenuh_str, item))
+
     for line_idx, line in enumerate(lines, start=1):
         clean_line = line.strip()
         if not clean_line or clean_line.startswith("```"):
             continue
 
         # Pemeriksaan Aturan Khusus Heading / Preset Kampus (bisa jalan pada baris markdown heading #)
-        if kampus_dict and clean_line.startswith("#"):
-            if "ipb" in str(kampus_dict.get("nama", "")).lower():
-                m_subbab = re.search(r'^(?:#+\s*)(\d+\.\d+\.)\s+(.+)', clean_line)
-                if m_subbab:
-                    findings.append({
-                        "baris": line_idx,
-                        "kategori": "pedoman_kampus_ipb",
-                        "id": "KAMPUS-IPB-01",
-                        "pola": m_subbab.group(1),
-                        "saran": [m_subbab.group(1)[:-1]],
-                        "penjelasan": "Pedoman PPKI IPB Edisi Ke-4: Penomoran sub-bab tidak boleh diakhiri titik (gunakan '" + m_subbab.group(1)[:-1] + "').",
-                        "kalimat": clean_line
-                    })
+        if is_ipb_kampus and clean_line.startswith("#"):
+            m_subbab = re.search(r'^(?:#+\s*)(\d+\.\d+\.)\s+(.+)', clean_line)
+            if m_subbab:
+                findings.append({
+                    "baris": line_idx,
+                    "kategori": "pedoman_kampus_ipb",
+                    "id": "KAMPUS-IPB-01",
+                    "pola": m_subbab.group(1),
+                    "saran": [m_subbab.group(1)[:-1]],
+                    "penjelasan": "Pedoman PPKI IPB Edisi Ke-4: Penomoran sub-bab tidak boleh diakhiri titik (gunakan '" + m_subbab.group(1)[:-1] + "').",
+                    "kalimat": clean_line
+                })
 
         # Baris heading markdown murni dilewati untuk audit leksikal teks isi
         if clean_line.startswith("#"):
             continue
 
-        # Filter kaidah berdasarkan preset domain
-        excluded_ids = PRESET_EXCLUSIONS.get(str(preset).lower(), set())
-
         # 1. Scan Kalke, Verba Ringan, Pola AI, Kata Baku
-        for cat_key, cat_data in kalke_dict.get("kategori", {}).items():
-            for entry in cat_data.get("entri", []):
-                # Lewati kaidah yang dikecualikan oleh preset domain aktif
-                if entry.get("id") in excluded_ids:
-                    continue
-
-                pattern_str = entry["pola"]
-                # Deteksi pola template seperti "Meskipun X, bukan berarti Y", "antara A dengan B", "baik A ataupun B"
-                # Entri [telaah] dievaluasi semantik oleh agent, dikecualikan dari scan regex otomatis
-                if pattern_str.startswith("[telaah]"):
-                    continue
-
-                # Deteksi via tabel matcher data-driven (scripts/matchers.py)
-                res = match_custom_rules(pattern_str, clean_line)
-                is_handled, matched = res[0], res[1]
-                span = res[2] if len(res) > 2 else None
-                if not is_handled:
-                    m = _compile_word_pattern(pattern_str).search(clean_line)
-                    matched = bool(m)
-                    span = m.span() if m else None
-                if matched:
-                    findings.append({
-                        "baris": line_idx,
-                        "kategori": cat_key,
-                        "id": entry["id"],
-                        "pola": pattern_str,
-                        "saran": entry["saran_pengganti"],
-                        "penjelasan": entry["penjelasan"],
-                        "kalimat": clean_line,
-                        "span": span
-                    })
+        for cat_key, entry, compiled_list, word_rgx in rule_scanners:
+            matched = False
+            span = None
+            if compiled_list is not None:
+                for rgx in compiled_list:
+                    m = rgx.search(clean_line)
+                    if m:
+                        matched = True
+                        span = m.span()
+                        break
+            else:
+                m = word_rgx.search(clean_line)
+                if m:
+                    matched = True
+                    span = m.span()
+            if matched:
+                findings.append({
+                    "baris": line_idx,
+                    "kategori": cat_key,
+                    "id": entry["id"],
+                    "pola": entry["pola"],
+                    "saran": entry["saran_pengganti"],
+                    "penjelasan": entry["penjelasan"],
+                    "kalimat": clean_line,
+                    "span": span
+                })
 
         # 2. Scan Glosarium Lintas Bidang (Istilah Asing Belum Dibakukan & Ungkapan Jenuh)
-        for domain_key, domain_data in glosarium_dict.get("bidang", {}).items():
-            # Cek istilah asing
-            for item in domain_data.get("istilah", []):
-                term_raw = item["asing"].split("(")[0].strip()
-                if len(term_raw) >= 3:
-                    # Akronim kapital (API, SDK, URL) dicocokkan case-sensitive agar tidak bentrok
-                    # dengan kata bahasa Indonesia serupa (api = kereta api, sdk tidak ada, dst.)
-                    is_upper = term_raw.isupper() and len(term_raw) <= 5
-                    regex = _compile_word_pattern(term_raw, case_sensitive=is_upper)
-                    if regex.search(clean_line):
-                        findings.append({
-                            "baris": line_idx,
-                            "kategori": f"glosarium_{domain_key}",
-                            "id": f"GLOS-{domain_key[:3].upper()}",
-                            "pola": item["asing"],
-                            "saran": [item["baku"]],
-                            "penjelasan": item.get("catatan", "Padanan istilah resmi bahasa Indonesia."),
-                            "kalimat": clean_line
-                        })
-            # Cek kaidah ekonomi kata jurnalistik
-            for item in domain_data.get("kaidah_ekonomi_kata", []):
-                jenuh_str = item["jenuh"]
-                if jenuh_str.lower() in clean_line.lower():
+        for glos_kat, glos_id, item, regex in glos_scanners:
+            if regex.search(clean_line):
+                findings.append({
+                    "baris": line_idx,
+                    "kategori": glos_kat,
+                    "id": glos_id,
+                    "pola": item["asing"],
+                    "saran": [item["baku"]],
+                    "penjelasan": item.get("catatan", "Padanan istilah resmi bahasa Indonesia."),
+                    "kalimat": clean_line
+                })
+
+        if ekonomi_scanners:
+            clean_lower = clean_line.lower()
+            for jenuh_lower, jenuh_str, item in ekonomi_scanners:
+                if jenuh_lower in clean_lower:
                     findings.append({
                         "baris": line_idx,
                         "kategori": "jurnalistik_ekonomi_kata",
@@ -187,8 +201,6 @@ def audit_text(text, kalke_dict, glosarium_dict, kampus_dict=None, preset="umum"
                         "penjelasan": item["alasan"],
                         "kalimat": clean_line
                     })
-
-
 
     return findings
 

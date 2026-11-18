@@ -270,3 +270,10 @@ Kutipan: footnote nama pengarang tidak dibalik (berbeda dari daftar pustaka); ha
 2. **Pola:** *Tanggung jawab itu dijadi beban kerja / usulan tersebut dirupakan saran belaka* → **Perbaikan:** *Beban kerja itu menjadi tanggung jawab... / usulan tersebut merupakan saran belaka* — **Sebab:** verba intransitif/kopulatif tidak dapat dipasifkan (`SPK-018`) (hlm. 30).
 3. **Pola:** *Ini Sari melaporkan dari Makassar* → **Perbaikan:** *Demikian(lah) laporan Sari dari Makassar* — **Sebab:** kalke siaran berbahasa Inggris *This is X reporting from Y* harus dialihkan ke konstruksi nominal laporan (`SPK-019`) (hlm. 28).
 4. **Pola:** `[telaah]` *Cara beternak belut diajari orang itu kepada adik saya* / *Buku itu dibuat oleh Badan Bahasa dan Gramedia yang menerbitkannya* / *Jaksa menghadirkan Ø* → **Perbaikan:** lengkapi objek/pelengkap wajib, larang pemasifan pelengkap, dan sejajarkan pola klausa koordinatif (`SPK-020`, `SPK-021`) (hlm. 25, 30–32, 79–80).
+
+---
+
+### CQ. Konstruksi Larangan/Waktu & Klausa Pewatas Pasif (Latihan Kemahiran Badan Bahasa 2016)
+
+1. **Pola:** *untuk jangan datang terlambat* / *berapa pukul acara dimulai* → **Perbaikan:** *agar tidak datang terlambat* / *pukul berapa acara dimulai* — **Sebab:** larangan taklangsung formal memakai *agar tidak* dan pertanyaan waktu baku berurutan DM *pukul berapa* (`LKB-050`) (Kaniah dkk. 2016, Soal 21 & 31).
+2. **Pola:** `[telaah]` *memenuhi ketentuan disyaratkan...* / *mengganggu kesehatan dan kerusakan disebabkan...* / rujukan *ibid./op.cit./loc.cit.* → **Perbaikan:** *memenuhi ketentuan yang disyaratkan*, *mengganggu ... dan menyebabkan ...*, serta sitasi nama-tahun APA (`LKB-052`) (Kaniah dkk. 2016, Soal 38–39; Modul Karya Ilmiah SMA, hlm. 41–52).

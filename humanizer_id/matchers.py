@@ -1577,3 +1577,19 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("contemporer / boutique"),
      [re.compile(r"(?i)\b(?:contemporer|boutique|photocopy|photo\s+copy|taxi|mall)\b")]),
 ])
+
+# --- Kaidah Latihan Kemahiran Berbahasa (Badan Bahasa 2016, Siklus 33-34: LKB-048..051) ---
+CUSTOM_RULES.extend([
+    # LKB-048: se- + nama geografis huruf kecil tanpa tanda hubung (LKB Soal 16, hlm. 16/76)
+    (lambda p: p.startswith("sekabupaten / seprovinsi"),
+     [re.compile(r"\bse(?:kabupaten|provinsi|kecamatan|jawa|sumatera|kalimantan|sulawesi|papua|indonesia|nusantara)\b")]),
+    # LKB-049: gelar depan tanpa spasi setelah tanda titik (LKB Soal 3, hlm. 12/71)
+    (lambda p: p.startswith("Prof.Ahmad / Dr.Maman"),
+     [re.compile(r"\b(?:Prof|Dr|Ir)\.[A-Z][a-z]+")]),
+    # LKB-050: untuk jangan & berapa pukul (LKB Soal 21 & 31)
+    (lambda p: p.startswith("untuk jangan / berapa pukul"),
+     [re.compile(r"(?i)\b(?:untuk\s+jangan|berapa\s+pukul)\b")]),
+    # LKB-051: mendatangkan lokasi statis alih-alih mendatangi (LKB Soal 34, hlm. 20-21/82)
+    (lambda p: p.startswith("mendatangkan lokasi"),
+     [re.compile(r"(?i)\bmendatangkan\s+(?:lokasi|tempat|gedung|kantor|ruangan|rumah)\b")]),
+])

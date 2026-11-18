@@ -154,3 +154,13 @@ Sumber: bedah 3 dokumen resmi baru: *Pedoman Penulisan Jurnal Pendidikan dan Keb
 - **5 entri baru (720 -> 725):** `BRN-005`..`BRN-007` (3 aktif), `PSB-035`..`PSB-036` (1 aktif, 1 `[telaah]`).
 - **2 istilah glosarium baru (168 -> 170):** `cottage`, `food and beverage` (`bisnis_dan_manajemen` 58 -> 60).
 - **Sub-skill diperbarui:** blok `CN` (`humanizer-id-ejaan-morfologi`), `CO` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.
+
+---
+
+## Integrasi Siklus 33–34: *Latihan Kemahiran Berbahasa Indonesia* (2016) & *Daftar Istilah Linguistik* Kridalaksana (1979) (2026-11-18)
+
+- **Sumber:** `books/latihan_kemahiran_berbahasa_indonesia.pdf` (Kaniah dkk., Badan Bahasa 2016, hlm. 12–23 / 70–84), `books/daftar_istilah_linguistik_asing_indonesia.pdf` (Kridalaksana 1979), dan Modul Karya Ilmiah SMA Kemdikbud (`MSA-002`).
+- **Referensi baru:** `references/latihan-kemahiran-dan-istilah-linguistik-lanjutan.md`.
+- **5 entri baru (725 -> 730):** `LKB-048`..`LKB-052` (4 aktif, 1 `[telaah]`).
+- **8 istilah glosarium baru (170 -> 178):** `discourse`, `deep structure`, `surface structure`, `paraphrase`, `ambiguity`, `redundancy`, `colloquialism`, `metalanguage` (`linguistik_dan_ilmu_bahasa` 18 -> 26).
+- **Sub-skill diperbarui:** blok `CP` (`humanizer-id-ejaan-morfologi`), `CQ` (`humanizer-id-sintaksis`), `CR` (`humanizer-id-diksi-istilah`), serta tabel rute `SKILL.md`.

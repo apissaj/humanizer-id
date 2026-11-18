@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 725
+    "total_entri": 730
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3759,6 +3759,31 @@
           "penjelasan": "Verba transitif wajib (menghadirkan, menghadiri, mengatakan) menuntut kehadiran objek langsung, sedangkan verba intransitif berpelengkap (berada, menghadap, berasal) menuntut pelengkap (Seri Penyuluhan Kalimat v2, hlm. 25, 32).",
           "contoh_salah": "Dalam persidangan tersebut jaksa menghadirkan, sementara para saksi mengatakan.",
           "contoh_benar": "Dalam persidangan tersebut jaksa menghadirkan ahli bahasa untuk memberi keterangan."
+        },
+        {
+          "id": "LKB-050",
+          "pola": "untuk jangan / berapa pukul (konstruksi larangan & pertanyaan waktu takbaku)",
+          "asal_frasa": "Colloquial negative purpose / inverted time question",
+          "saran_pengganti": [
+            "agar tidak",
+            "pukul berapa"
+          ],
+          "penjelasan": "Dalam ragam resmi, konstruksi tujuan negatif menggunakan agar tidak (bukan untuk jangan), dan pertanyaan waktu mengikuti hukum DM menjadi pukul berapa (bukan berapa pukul) (Kaniah dkk., Latihan Kemahiran Berbahasa Indonesia, Badan Bahasa 2016, Soal 21 & 31).",
+          "contoh_salah": "Peserta diingatkan untuk jangan datang terlambat dan menanyakan berapa pukul acara dimulai.",
+          "contoh_benar": "Peserta diingatkan agar tidak datang terlambat dan menanyakan pukul berapa acara dimulai."
+        },
+        {
+          "id": "LKB-052",
+          "pola": "[telaah] pewatas pasif tanpa kata yang (*ketentuan disyaratkan), ketidaksejajaran verba (*mengganggu ... dan kerusakan disebabkan), serta ibid./op.cit.",
+          "asal_frasa": "Reduced passive relative clause / non-parallel verbs",
+          "saran_pengganti": [
+            "ketentuan yang disyaratkan",
+            "mengganggu ... dan menyebabkan ...",
+            "rujuk nama-tahun APA"
+          ],
+          "penjelasan": "Klausa pewatas pasif pada nomina wajib diawali kata penghubung yang agar tidak membentuk predikat ganda, klausa koordinatif wajib sejajar kelas katanya, dan naskah APA mutakhir menghindari ibid./op.cit./loc.cit. (Kaniah dkk., Badan Bahasa 2016, Soal 38-39; Modul Karya Ilmiah SMA, hlm. 41-52).",
+          "contoh_salah": "Pelamar wajib memenuhi ketentuan disyaratkan sebagaimana tercantum pada bagian sebelumnya.",
+          "contoh_benar": "Pelamar wajib memenuhi ketentuan yang disyaratkan sebagaimana tercantum pada bagian sebelumnya."
         }
       ]
     },
@@ -8963,9 +8988,46 @@
           "penjelasan": "Frasa nomina bahasa Indonesia berpola Diterangkan-Menerangkan (DM) bukan MD seperti bahasa Inggris, serta kalimat larangan atau imbauan ringkas diakhiri tanda seru (!) (Buku Saku Media Luar Ruang 2015, hlm. 110-124; Prosiding Semiloka 2019, hlm. 522-549).",
           "contoh_salah": "Kompleks East Park memasang papan pengumuman bertuliskan Dilarang bermesraan tanpa tanda baca akhir.",
           "contoh_benar": "Kompleks Taman Timur memasang papan pengumuman bertuliskan Dilarang bermesraan!"
+        },
+        {
+          "id": "LKB-048",
+          "pola": "sekabupaten / seprovinsi / sejawa / seindonesia (bentuk terikat se- + wilayah huruf kecil tanpa tanda hubung)",
+          "saran_pengganti": [
+            "se-Kabupaten",
+            "se-Provinsi",
+            "se-Jawa",
+            "se-Indonesia"
+          ],
+          "penjelasan": "Bentuk terikat se- yang diikuti nama wilayah geografis atau negara berhuruf kapital wajib dirangkai menggunakan tanda hubung (-) serta huruf kapital awal pada nama tempat (Kaniah dkk., Badan Bahasa 2016, Soal 16, hlm. 16/76).",
+          "contoh_salah": "Kompetisi riset pelajar tingkat sekabupaten dan seprovinsi berlanjut menuju seleksi seindonesia.",
+          "contoh_benar": "Kompetisi riset pelajar tingkat se-Kabupaten dan se-Provinsi berlanjut menuju seleksi se-Indonesia."
+        },
+        {
+          "id": "LKB-049",
+          "pola": "Prof.Ahmad / Dr.Maman / Ir.Budi (gelar depan tanpa spasi sesudah tanda titik)",
+          "saran_pengganti": [
+            "Prof. Ahmad",
+            "Dr. Maman",
+            "Ir. Budi"
+          ],
+          "penjelasan": "Singkatan gelar akademik atau profesi di depan nama diri (Prof., Dr., Ir.) wajib diakhiri tanda titik dan dipisahkan satu spasi dari nama orang (Kaniah dkk., Badan Bahasa 2016, Soal 3, hlm. 12/71).",
+          "contoh_salah": "Penguji sidang dipimpin oleh Prof.Ahmad serta Dr.Maman dari fakultas teknik.",
+          "contoh_benar": "Penguji sidang dipimpin oleh Prof. Ahmad serta Dr. Maman dari fakultas teknik."
+        },
+        {
+          "id": "LKB-051",
+          "pola": "mendatangkan lokasi / mendatangkan tempat / mendatangkan gedung",
+          "saran_pengganti": [
+            "mendatangi lokasi",
+            "mendatangi tempat",
+            "mendatangi gedung"
+          ],
+          "penjelasan": "Verba berkonfiks meN-...-kan menuntut objek yang dibawa atau dihadirkan; untuk objek tempat yang diam atau dituju wajib memakai verba berakhiran -i yaitu mendatangi (Kaniah dkk., Badan Bahasa 2016, Soal 34, hlm. 20-21/82).",
+          "contoh_salah": "Tim survei lapangan langsung mendatangkan lokasi pengumpulan data sejak pagi.",
+          "contoh_benar": "Tim survei lapangan langsung mendatangi lokasi pengumpulan data sejak pagi."
         }
       ]
     }
   },
-  "total_entri": 725
+  "total_entri": 730
 }

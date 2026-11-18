@@ -202,3 +202,9 @@ Catatan penelitian (Kobak dkk., 2025): Studi 15,1 juta abstrak PubMed membuktika
 ### CO. Padanan Sektor Usaha & Perhotelan (Semiloka 2019, hlm. 271–272)
 
 - **Padanan tambahan (`glosarium-lintas-bidang.json` 168 → 170):** *cottage* → **pondok**; *food and beverage* → **makanan dan minuman** (`bisnis_dan_manajemen`).
+
+---
+
+### CR. Padanan Linguistik Baku (Kridalaksana, *Daftar Istilah Linguistik*, 1979)
+
+- **Padanan tambahan (`glosarium-lintas-bidang.json` 170 → 178):** *discourse* → **wacana**; *deep structure* → **struktur batin**; *surface structure* → **struktur lahir**; *paraphrase* → **parafrase**; *ambiguity* → **ketaksaan / ambiguitas**; *redundancy* → **kelimpahan / kelewahan**; *colloquialism* → **ragam tak resmi**; *metalanguage* → **metabahasa** (`linguistik_dan_ilmu_bahasa`).

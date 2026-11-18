@@ -4,6 +4,17 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### 730 kaidah + 178 istilah glosarium
+
+Mekanisasi lanjutan *Latihan Kemahiran Berbahasa Indonesia* (Badan Bahasa 2016) & *Daftar Istilah Linguistik* (Kridalaksana 1979) (Siklus 33–34):
+
+- **Kaniah dkk. (*Latihan Kemahiran Berbahasa Indonesia*, Badan Bahasa 2016, hlm. 12–23 / 70–84) & Modul Karya Ilmiah SMA:**
+  - `LKB-048`..`LKB-052` — bentukan `se-` + wilayah geografis huruf kecil (`sekabupaten`, `seprovinsi`, `seindonesia`), gelar depan tanpa spasi setelah titik (`Dr.Maman`, `Prof.Ahmad`), konstruksi takbaku `untuk jangan` & `berapa pukul`, verba lokasi `mendatangkan lokasi` -> `mendatangi lokasi`, serta `[telaah]` pewatas pasif tanpa `yang` dan larangan `ibid./op.cit./loc.cit.`.
+- **Harimurti Kridalaksana (*Daftar Istilah Linguistik Asing – Indonesia*, 1979):**
+  - 8 padanan istilah linguistik baku (170 -> 178): `discourse` (`wacana`), `deep structure` (`struktur batin`), `surface structure` (`struktur lahir`), `paraphrase` (`parafrase`), `ambiguity` (`ketaksaan / ambiguitas`), `redundancy` (`kelimpahan / kelewahan`), `colloquialism` (`ragam tak resmi`), `metalanguage` (`metabahasa`).
+
+Referensi baru: `references/latihan-kemahiran-dan-istilah-linguistik-lanjutan.md`; blok `CP`–`CR` pada sub-skill terkait dan `SKILL.md` diperbarui.
+
 ### 725 kaidah + 170 istilah glosarium
 
 Bedah lanjutan Pedoman Penerbitan Buku LIPI Press (2016), Modul Opini KD 3.11, dan Buku Saku Media Luar Ruang / Semiloka 2019 (Siklus 31–32):
