@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 773
+    "total_entri": 777
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4148,6 +4148,30 @@
           "penjelasan": "Topik makalah yang terlalu luas menyebabkan pembahasan dangkal; setiap makalah wajib membedakan sumber primer/sekunder dan melalui penyuntingan struktur serta ejaan sebelum disebarluaskan (Modul Menganalisis Makalah Kelas XI, Kemendikbud 2020, hlm. 7-8).",
           "contoh_salah": "Makalah ini membahas seluruh masalah pendidikan, ekonomi, dan teknologi di Indonesia secara menyeluruh.",
           "contoh_benar": "Makalah ini membatasi kajian pada efektivitas penggunaan kamus daring terhadap ketepatan ejaan esai siswa kelas XI."
+        },
+        {
+          "id": "SLM-003",
+          "pola": "[telaah] kaidah surat lamaran pekerjaan (nada sopan bermartabat, rincian identitas berhuruf awal kecil, tanda baca rincian lampiran)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII: Unsur Kebahasaan Surat Lamaran Pekerjaan (Kemendikbud 2020, hlm. 9-12)",
+          "saran_pengganti": [
+            "Gunakan nada sopan dan ringkas tanpa meminta belas kasihan atau merendahkan martabat pelamar",
+            "Tulis unsur rincian identitas lanjutan kalimat dengan huruf awal kecil (nama, tempat tanggal lahir, pendidikan terakhir, alamat) dan akhiri butir lampiran dengan titik koma (;) serta titik (.) di butir terakhir"
+          ],
+          "penjelasan": "Surat lamaran pekerjaan bersifat resmi; rincian identitas yang melanjutkan kalimat pembuka diawali huruf kecil, setiap butir lampiran diakhiri titik koma (;), dan ditutup kalimat permohonan yang sopan tanpa merendahkan diri (Modul Surat Lamaran Kelas XII, 2020, hlm. 9-12).",
+          "contoh_salah": "Saya yang sangat hina ini memohon belas kasihan agar diterima kerja. Nama: Budi.",
+          "contoh_benar": "Pelamar mencantumkan rincian identitas lanjutan dengan huruf kecil: nama: Budi Santoso; pendidikan terakhir: S-1 Statistika."
+        },
+        {
+          "id": "EDT-001",
+          "pola": "[telaah] pemilahan fakta vs opini & struktur tiga tahap teks editorial/eksposisi (tesis -> argumentasi -> penegasan ulang)",
+          "asal_frasa": "E-Modul Teks Editorial Kelas XII & Modul Teks Eksposisi Kelas X (Direktorat SMA Kemendikbud 2020)",
+          "saran_pengganti": [
+            "Pisahkan pernyataan fakta terverifikasi dari opini bermodalitas (mungkin, sebaiknya, seharusnya, menurut saya)",
+            "Susun teks editorial/eksposisi secara runtut: tesis -> argumentasi berbasis data/rujukan -> penegasan ulang"
+          ],
+          "penjelasan": "Teks editorial dan eksposisi memadukan fakta dan opini secara jernih dengan dukungan data, rujukan ahli, konjungsi kausalitas, dan diksi lugas bebas bahasa kiasan (Kemendikbud 2020).",
+          "contoh_salah": "Menurut saya angka inflasi pasti turun drastis karena semua pihak merasa optimis.",
+          "contoh_benar": "Data BPS mencatat inflasi tahunan turun menjadi 2,6% pada kuartal III; bank sentral sebaiknya mempertahankan suku bunga acuan agar stabilitas harga terjaga."
         }
       ]
     },
@@ -9542,9 +9566,31 @@
           "penjelasan": "Bentuk baku dalam KBBI adalah 'keraton' (dengan huruf e), bukan 'kraton' (Oktavia dkk., Badan Bahasa 2017, hlm. 96).",
           "contoh_salah": "Keluarga kraton menyelenggarakan upacara adat tahunan.",
           "contoh_benar": "Keluarga keraton menyelenggarakan upacara adat tahunan."
+        },
+        {
+          "id": "SLM-001",
+          "pola": "fotocopy / transkip / ijasah / pas photo",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII: Unsur Kebahasaan Surat Lamaran Pekerjaan (Kemendikbud 2020, hlm. 9, 11, 13)",
+          "saran_pengganti": [
+            "fotokopi / transkrip / ijazah / pasfoto"
+          ],
+          "penjelasan": "Bentuk baku istilah dokumen lamaran dan administrasi dalam KBBI adalah fotokopi (bukan fotocopy), transkrip (bukan transkip), ijazah (bukan ijasah), dan pasfoto (bukan pas photo) (Modul Surat Lamaran Kelas XII, Kemendikbud 2020, hlm. 9, 11, 13).",
+          "contoh_salah": "Pelamar melampirkan fotocopy ijasah, transkip nilai, dan pas photo terbaru.",
+          "contoh_benar": "Pelamar melampirkan fotokopi ijazah, transkrip nilai, dan pasfoto terbaru."
+        },
+        {
+          "id": "SLM-002",
+          "pola": "CV. / UD. / PD. (singkatan badan hukum diikuti tanda titik)",
+          "asal_frasa": "EYD V & Modul Unsur Kebahasaan Surat Lamaran Pekerjaan (Kemendikbud 2020, hlm. 11-12)",
+          "saran_pengganti": [
+            "CV / UD / PD (tanpa tanda titik)"
+          ],
+          "penjelasan": "Sesuai EYD V, singkatan nama badan usaha atau badan hukum yang terdiri atas huruf awal setiap kata (PT, CV, UD, PD) ditulis dengan huruf kapital tanpa tanda titik (melengkapi SPE-007).",
+          "contoh_salah": "Surat lamaran ditujukan kepada pimpinan CV. Karya Mandiri.",
+          "contoh_benar": "Surat lamaran ditujukan kepada pimpinan CV Karya Mandiri."
         }
       ]
     }
   },
-  "total_entri": 773
+  "total_entri": 777
 }

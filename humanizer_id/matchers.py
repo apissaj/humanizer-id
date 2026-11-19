@@ -1709,3 +1709,13 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("Nomor: 3546/F8/C.11/2018."),
      [re.compile(r"(?im)^\s*(?:Nomor|No\.?)\s*:\s*[A-Za-z0-9./-]+\/\d{4}\.-?\s*$")]),
 ])
+
+# --- Kaidah Modul SMA XII Surat Lamaran Pekerjaan (Kemendikbud 2020, SLM-001..002) ---
+CUSTOM_RULES.extend([
+    # SLM-001: fotocopy, transkip, ijasah, pas photo -> fotokopi, transkrip, ijazah, pasfoto
+    (lambda p: p.startswith("fotocopy / transkip"),
+     [re.compile(r"(?i)\b(?:fotocopy|transkip|ijasah|pas\s+photo)\b")]),
+    # SLM-002: singkatan badan hukum CV./UD./PD. diikuti tanda titik (melengkapi SPE-007 untuk PT.)
+    (lambda p: p.startswith("CV. / UD. / PD."),
+     [re.compile(r"\b(?:CV|UD|PD)\.\s+[A-Z]")]),
+])

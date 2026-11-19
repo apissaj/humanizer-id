@@ -4,6 +4,15 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah 3 Modul SMA Kemendikbud 2020: Surat Lamaran, Editorial & Eksposisi (`773 -> 777` kaidah, Siklus 45)
+
+- **Direktorat SMA Kemendikbud (2020, Repositori ID 21767, 19770, 19422):**
+  - `SLM-001` (regex aktif + autofix) — `fotocopy` → `fotokopi`, `transkip` → `transkrip`, `ijasah` → `ijazah`, `pas photo` → `pasfoto` (hlm. 9, 11, 13).
+  - `SLM-002` (regex aktif) — singkatan badan hukum `CV.` / `UD.` / `PD.` tanpa tanda titik sesuai EYD V (melengkapi `SPE-007`).
+  - `SLM-003` (`[telaah]`) — kaidah surat lamaran pekerjaan (nada sopan bermartabat, rincian identitas lanjutan berhuruf awal kecil, tanda baca rincian lampiran `;` dan `.`, hlm. 9–12).
+  - `EDT-001` (`[telaah]`) — pemilahan fakta terverifikasi vs opini bermodalitas & struktur tiga tahap teks editorial/eksposisi.
+- Referensi baru: `references/modul-sma-surat-lamaran-editorial-eksposisi-2020.md`.
+
 ### Bedah 3 Modul SMA XI Kemendikbud 2020: Karya Ilmiah, Proposal & Makalah (`770 -> 773` kaidah, Siklus 44)
 
 - **Direktorat SMA Kemendikbud (2020, Repositori ID 19576, 19575, 19802):**
