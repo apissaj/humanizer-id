@@ -4,6 +4,17 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah *Bahan Ajar Pengayaan Bahasa Indonesia* Badan Bahasa 2017 (`760 -> 765` kaidah, `210 -> 211` glosarium, Siklus 42)
+
+- **Wenny Oktavia, Kaniah, Kity Karenisa dkk. (*Bahan Ajar Pengayaan Bahasa Indonesia: Latihan Merespons Kaidah dan Pemahaman Bacaan*, Badan Bahasa 2017, ISBN 978-602-437-388-7):**
+  - `UKB-001` — kelewahan penanda kala ganda `kini sedang` (hlm. 74).
+  - `UKB-002` — verba transitif `menyarankan` diikuti konjungsi `agar` tanpa objek langsung (hlm. 73).
+  - `UKB-003` — pasangan preposisi tidak idiomatik `berbeda dari` → `berbeda dengan` (hlm. 82).
+  - `UKB-004` — serapan baku `standar` alih-alih bentuk Inggris mentah `standard` (hlm. 69, aktif di autofix).
+  - `UKB-005` — konjungsi temporal rangkap `setelah ..., kemudian` yang mengaburkan subjek (hlm. 78).
+  - Glosarium `teknologi_dan_rekayasa` (`70 -> 71`): `timer` → `pengatur waktu` (hlm. 77).
+- Referensi baru: `references/pengayaan-kaidah-ukbi-2017.md` (dilengkapi penguatan KBI XI 2018 *RAS Syndrome* & Modul Kohesi Paragraf 2020).
+
 ### Bedah *Pengindonesiaan Kata & Ungkapan Asing Ed. 2* (2005) & *Beberapa Konsep dalam Sintaksis* (1996) (`757 -> 760` kaidah, `202 -> 210` glosarium, Siklus 41)
 
 - **Dendy Sugono, Hasan Alwi, Anton M. Moeliono (*Pengindonesiaan Kata dan Ungkapan Asing Ed. 2*, Pusat Bahasa 2005):**

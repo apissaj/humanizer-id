@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 760
+    "total_entri": 765
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4020,6 +4020,52 @@
           "penjelasan": "Penyerapan unsur asing harus selektif untuk mengisi kekosongan konsep, bukan menggusur padanan Indonesia yang sudah ada dan jelas (Sugono dkk., Pusat Bahasa 2005, hlm. 2-5).",
           "contoh_salah": "Developer membangun tower dan menyediakan layanan laundry di kawasan garden baru.",
           "contoh_benar": "Pengembang membangun menara dan menyediakan layanan binatu di kawasan taman baru."
+        },
+        {
+          "id": "UKB-001",
+          "pola": "kini sedang (kelewahan penanda kala ganda)",
+          "asal_frasa": "Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, ISBN 978-602-437-388-7, hlm. 74)",
+          "saran_pengganti": [
+            "sedang",
+            "kini"
+          ],
+          "penjelasan": "Penyandingan kata 'kini' dengan aspek 'sedang' merupakan kelewahan makna waktu; pilih salah satu saja agar kalimat efektif (Oktavia dkk., Badan Bahasa 2017, hlm. 74).",
+          "contoh_salah": "Pasar piringan hitam kini sedang mengalami lonjakan permintaan.",
+          "contoh_benar": "Pasar piringan hitam sedang mengalami lonjakan permintaan."
+        },
+        {
+          "id": "UKB-002",
+          "pola": "menyarankan agar (verba transitif menyarankan diikuti konjungsi agar tanpa objek)",
+          "asal_frasa": "Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, hlm. 73)",
+          "saran_pengganti": [
+            "menyarankan [objek/tindakan]",
+            "mengusulkan agar / mengimbau agar"
+          ],
+          "penjelasan": "Verba transitif 'menyarankan' seharusnya langsung diikuti objek (hal yang disarankan), bukan disisipi konjungsi 'agar' (Oktavia dkk., Badan Bahasa 2017, hlm. 73).",
+          "contoh_salah": "Dokter menyarankan agar para wanita rutin memeriksakan diri.",
+          "contoh_benar": "Dokter menyarankan pemeriksaan rutin bagi para wanita."
+        },
+        {
+          "id": "UKB-003",
+          "pola": "berbeda dari (pasangan preposisi tidak idiomatik untuk berbeda)",
+          "asal_frasa": "Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, hlm. 82)",
+          "saran_pengganti": [
+            "berbeda dengan"
+          ],
+          "penjelasan": "Dalam pasangan idiomatik baku Badan Bahasa, verba 'berbeda' berpasangan dengan preposisi 'dengan' ('berbeda dengan'), bukan 'berbeda dari' (Oktavia dkk., Badan Bahasa 2017, hlm. 82).",
+          "contoh_salah": "Pantai Lehi berbeda dari pantai kebanyakan di Sulawesi Utara.",
+          "contoh_benar": "Pantai Lehi berbeda dengan pantai pada umumnya di Sulawesi Utara."
+        },
+        {
+          "id": "UKB-005",
+          "pola": "setelah ... , kemudian (konjungsi temporal rangkap yang mengaburkan subjek)",
+          "asal_frasa": "Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, hlm. 78)",
+          "saran_pengganti": [
+            "Setelah [klausa], [subjek] [predikat] (hapus 'kemudian' dan hadirkan subjek eksplisit)"
+          ],
+          "penjelasan": "Konjungsi 'setelah' yang diikuti 'kemudian' di awal induk kalimat menimbulkan konjungsi ganda dan sering melesapkan subjek kalimat (Oktavia dkk., Badan Bahasa 2017, hlm. 78).",
+          "contoh_salah": "Beberapa hari setelah tanam, kemudian dipindahkan ke media hidroponik.",
+          "contoh_benar": "Beberapa hari setelah tanam, bibit dipindahkan ke media hidroponik."
         }
       ]
     },
@@ -9392,9 +9438,20 @@
           "penjelasan": "Ungkapan yang terbata-bata atau terputus-putus dituliskan menggunakan tanda elipsis berspasi (...), bukan tanda hubung berulang (Untoro dkk., Badan Bahasa 2023, hlm. 65).",
           "contoh_salah": "Si-si-siapa namamu?",
           "contoh_benar": "Si ... si ... siapa namamu?"
+        },
+        {
+          "id": "UKB-004",
+          "pola": "standard",
+          "asal_frasa": "Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, hlm. 69)",
+          "saran_pengganti": [
+            "standar"
+          ],
+          "penjelasan": "Kata bahasa Inggris 'standard' telah diserap baku ke dalam bahasa Indonesia menjadi 'standar' tanpa huruf d di akhir (Oktavia dkk., Badan Bahasa 2017, hlm. 69).",
+          "contoh_salah": "Kendaraan tersebut telah lolos uji standard keselamatan internasional.",
+          "contoh_benar": "Kendaraan tersebut telah lolos uji standar keselamatan internasional."
         }
       ]
     }
   },
-  "total_entri": 760
+  "total_entri": 765
 }

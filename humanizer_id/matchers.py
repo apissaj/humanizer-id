@@ -1680,3 +1680,19 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("tentang bahwa / mengenai bahwa"),
      [re.compile(r"(?i)\b(?:tentang|mengenai|terhadap)\s+bahwa\b")]),
 ])
+
+# --- Kaidah Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, UKB-001..005) ---
+CUSTOM_RULES.extend([
+    # UKB-001: kelewahan kala ganda 'kini sedang' (hlm. 74)
+    (lambda p: p.startswith("kini sedang ("),
+     [re.compile(r"(?i)\bkini\s+sedang\b")]),
+    # UKB-002: verba transitif 'menyarankan agar' tanpa objek langsung (hlm. 73)
+    (lambda p: p.startswith("menyarankan agar ("),
+     [re.compile(r"(?i)\bmenyarankan\s+agar\b")]),
+    # UKB-003: pasangan preposisi tidak idiomatik 'berbeda dari' -> 'berbeda dengan' (hlm. 82)
+    (lambda p: p.startswith("berbeda dari ("),
+     [re.compile(r"(?i)\bberbeda\s+dari\b")]),
+    # UKB-005: konjungsi temporal rangkap 'setelah ..., kemudian' (hlm. 78)
+    (lambda p: p.startswith("setelah ... , kemudian"),
+     [re.compile(r"(?i)\bsetelah\s+[^.,;]{3,35},\s*kemudian\b")]),
+])
