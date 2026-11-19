@@ -375,6 +375,16 @@
           "asing": "mouse",
           "baku": "tetikus",
           "catatan": "Perangkat keras penunjuk (Zaim, UNP 2018, hlm. 2)."
+        },
+        {
+          "asing": "spreadsheet",
+          "baku": "lembar lajur / lembar sebar",
+          "catatan": "Perangkat lunak pengolah data tabel berbasis baris dan kolom (Pengindonesiaan Ed. 2, Pusat Bahasa 2005)."
+        },
+        {
+          "asing": "developer",
+          "baku": "pengembang",
+          "catatan": "Perancang/pembangun perangkat lunak atau kawasan properti (Pengindonesiaan Ed. 2, Pusat Bahasa 2005, hlm. 2)."
         }
       ]
     },
@@ -952,6 +962,36 @@
           "asing": "food and beverage",
           "baku": "makanan dan minuman",
           "catatan": "Padanan sektor perhotelan/usaha kuliner (Yayuk, Semiloka 2019, hlm. 271)."
+        },
+        {
+          "asing": "joint venture",
+          "baku": "usaha patungan",
+          "catatan": "Kerja sama dua perusahaan atau lebih dalam proyek/badan usaha bersama (Pengindonesiaan Kata dan Ungkapan Asing Ed. 2, Pusat Bahasa 2005)."
+        },
+        {
+          "asing": "franchise",
+          "baku": "waralaba",
+          "catatan": "Hak khusus menjual produk/layanan dengan merek dan sistem bisnis pemberi lisensi (Pengindonesiaan Ed. 2, Pusat Bahasa 2005)."
+        },
+        {
+          "asing": "turnover",
+          "baku": "perputaran / omzet",
+          "catatan": "Tingkat perputaran modal, penjualan, atau pergantian tenaga kerja (Pengindonesiaan Ed. 2, Pusat Bahasa 2005)."
+        },
+        {
+          "asing": "down payment",
+          "baku": "uang muka",
+          "catatan": "Pembayaran awal sebagian harga sebagai tanda jadi transaksi (Pengindonesiaan Ed. 2, Pusat Bahasa 2005)."
+        },
+        {
+          "asing": "wholesale",
+          "baku": "grosir / perdagangan besar",
+          "catatan": "Penjualan barang dalam jumlah besar kepada pengecer atau distributor (Pengindonesiaan Ed. 2, Pusat Bahasa 2005)."
+        },
+        {
+          "asing": "broker",
+          "baku": "pialang",
+          "catatan": "Perantara perdagangan saham, valuta, properti, atau komoditas (Pengindonesiaan Ed. 2, Pusat Bahasa 2005)."
         }
       ]
     },

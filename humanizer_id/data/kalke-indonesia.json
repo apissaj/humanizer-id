@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 757
+    "total_entri": 760
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3984,6 +3984,42 @@
           "penjelasan": "Berita yang ringkas tetap wajib memenuhi unsur 5W+1H secara detail dan melalui verifikasi akurasi fakta serta ketepatan bahasa sebelum diterbitkan (Ridho dkk., 2021, hlm. 18-20, 36).",
           "contoh_salah": "Sebuah kegiatan olahraga digelar baru-baru ini dan diikuti banyak peserta dengan antusias.",
           "contoh_benar": "Turnamen basket antarpelajar Kota Semarang digelar di GOR Sahabat pada 19—26 September 2025 dan diikuti 99 tim SD, SMP, dan SMA."
+        },
+        {
+          "id": "SNT-001",
+          "pola": "tentang bahwa / mengenai bahwa / terhadap bahwa (preposisi langsung mendahului klausa sematan bahwa)",
+          "asal_frasa": "Beberapa Konsep dalam Sintaksis (E. Zaenal Arifin, Pusat Bahasa 1996, ISBN 979-459-448-0, hlm. 22-37)",
+          "saran_pengganti": [
+            "bahwa (hapus preposisi tentang/mengenai/terhadap sebelum bahwa)",
+            "tentang fakta bahwa / mengenai kenyataan bahwa (jika preposisi wajib dipertahankan)"
+          ],
+          "penjelasan": "Klausa sematan pengisi objek/pelengkap yang diawali konjungsi bahwa tidak boleh langsung didahului preposisi tentang, mengenai, atau terhadap tanpa nomina penumpu (Arifin, Beberapa Konsep dalam Sintaksis, 1996, hlm. 22-37).",
+          "contoh_salah": "Laporan itu menjelaskan tentang bahwa kinerja sistem menurun pada beban puncak.",
+          "contoh_benar": "Laporan itu menjelaskan bahwa kinerja sistem menurun pada beban puncak."
+        },
+        {
+          "id": "SNT-002",
+          "pola": "[telaah] pemasifan kalimat berobjek ganda (objek resipien vs benefaktif) & kolokasi nomina-adjektiva baku",
+          "asal_frasa": "Beberapa Konsep dalam Sintaksis (E. Zaenal Arifin, Pusat Bahasa 1996, hlm. 1-9, 39-51)",
+          "saran_pengganti": [
+            "Pada verba berobjek ganda resipien (memberi), objek pertama lazim menjadi subjek pasif; pada verba benefaktif (membelikan), hindari pemasifan janggal yang memindahkan penerima tanpa penyesuaian struktur",
+            "Gunakan kolokasi alami N + A sesuai kaidah DM bahasa Indonesia"
+          ],
+          "penjelasan": "Analisis sintaksis objek sekunder membedakan perilaku pasif verba resipien dan benefaktif serta menetapkan keteraturan kolokasi nomina-adjektiva (Arifin, 1996, hlm. 1-9, 39-51).",
+          "contoh_salah": "Adik dibelikan buku itu oleh ayah (bila fokusnya buku, struktur pasif benefaktif sering rancu dengan penerima).",
+          "contoh_benar": "Buku itu dibelikan ayah untuk adik."
+        },
+        {
+          "id": "PKU-001",
+          "pola": "[telaah] asas penyerapan selektif & pengutamaan bahasa Indonesia pada penamaan ruang publik/badan usaha",
+          "asal_frasa": "Pengindonesiaan Kata dan Ungkapan Asing Edisi Kedua (Dendy Sugono, Hasan Alwi, Anton M. Moeliono, Pusat Bahasa 2005, hlm. 2-5)",
+          "saran_pengganti": [
+            "Serap kata asing dengan penyesuaian ejaan hanya bila konsep baru belum memiliki padanan (kondominium, manajemen); hindari serapan mubazir bila padanan Indonesia sudah ada (binatu, menara, pengembang)",
+            "Utamakan bahasa Indonesia untuk nama badan usaha, gedung, kawasan, papan petunjuk, dan iklan ruang publik"
+          ],
+          "penjelasan": "Penyerapan unsur asing harus selektif untuk mengisi kekosongan konsep, bukan menggusur padanan Indonesia yang sudah ada dan jelas (Sugono dkk., Pusat Bahasa 2005, hlm. 2-5).",
+          "contoh_salah": "Developer membangun tower dan menyediakan layanan laundry di kawasan garden baru.",
+          "contoh_benar": "Pengembang membangun menara dan menyediakan layanan binatu di kawasan taman baru."
         }
       ]
     },
@@ -9360,5 +9396,5 @@
       ]
     }
   },
-  "total_entri": 757
+  "total_entri": 760
 }

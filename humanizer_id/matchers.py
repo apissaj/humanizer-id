@@ -1673,3 +1673,10 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("Si-si-siapa / A-a-aku"),
      [re.compile(r"(?i)\b([a-z]{1,3})-\1-\1[a-z]+\b")]),
 ])
+
+# --- Kaidah Beberapa Konsep dalam Sintaksis (Arifin, Pusat Bahasa 1996, SNT-001) ---
+CUSTOM_RULES.extend([
+    # SNT-001: preposisi tentang/mengenai/terhadap langsung mendahului klausa bahwa (hlm. 22-37)
+    (lambda p: p.startswith("tentang bahwa / mengenai bahwa"),
+     [re.compile(r"(?i)\b(?:tentang|mengenai|terhadap)\s+bahwa\b")]),
+])

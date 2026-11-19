@@ -4,6 +4,16 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah *Pengindonesiaan Kata & Ungkapan Asing Ed. 2* (2005) & *Beberapa Konsep dalam Sintaksis* (1996) (`757 -> 760` kaidah, `202 -> 210` glosarium, Siklus 41)
+
+- **Dendy Sugono, Hasan Alwi, Anton M. Moeliono (*Pengindonesiaan Kata dan Ungkapan Asing Ed. 2*, Pusat Bahasa 2005):**
+  - `PKU-001` (`[telaah]`) — asas penyerapan selektif & pengutamaan bahasa Indonesia pada penamaan ruang publik/badan usaha (hlm. 2–5).
+  - 8 padanan glosarium baru (`202 -> 210`): Bisnis (`60 -> 66`: `joint venture`, `franchise`, `turnover`, `down payment`, `wholesale`, `broker`) dan Teknologi (`68 -> 70`: `spreadsheet`, `developer`).
+- **E. Zaenal Arifin (*Beberapa Konsep dalam Sintaksis*, Pusat Bahasa 1996, ISBN 979-459-448-0):**
+  - `SNT-001` (regex aktif) — larangan preposisi `tentang`/`mengenai`/`terhadap` langsung mendahului klausa sematan `bahwa` (hlm. 22–37).
+  - `SNT-002` (`[telaah]`) — pemasifan verba berobjek ganda resipien vs benefaktif & keteraturan kolokasi `N + A` (hlm. 1–9, 39–51).
+- Referensi baru: `references/pengindonesiaan-ed2-dan-sintaksis-arifin.md`.
+
 ### Bedah *Juknis Bahasa Hukum* (2022) & *Menjadi Jurnalis Milenial* (2021) (`755 -> 757` kaidah, `200 -> 202` glosarium, Siklus 40)
 
 - **Badan Bahasa (*Juknis KKLP Pembinaan dan Bahasa Hukum*, 2022, hlm. 14, 19–20):**

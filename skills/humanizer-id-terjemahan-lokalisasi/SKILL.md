@@ -30,7 +30,7 @@ Sub-kaidah domain Humanizer ID untuk penyuntingan hasil terjemahan (terutama Ing
 
 1. **Pola:** mendahulukan istilah asing lalu menaruh padanan Indonesia di dalam kurung (*exposure (paparan)*, *commuter line (kereta komuter)*, *latency (latensi)*) → **Perbaikan:** dahulukan padanan Indonesia baru istilah asing bercetak miring dalam kurung pada kemunculan pertama (*paparan (exposure)*, *kereta komuter (commuter line)*, *latensi (latency)*) — **Sebab:** urutan ini menegaskan bahasa Indonesia sebagai bahasa utama wacana (`TMS-048`, Baharman UNM).
 2. **Pola:** salah adaptasi serapan (*frustasi*, *negoisasi*, *konkrit*, *komoditi*, *orisinal* ditulis *orisinil*, *misskoordinasi*, *volantilitas*) atau penjamakan bentuk jamak asing (*data-data*, *kriteria-kriteria*, *alumnus-alumnus* dicampur *para alumni-alumni*) → **Perbaikan:** patuhi adaptasi baku KBBI/EYD V (*frustrasi*, *negosiasi*, *konkret*, *komoditas*, *orisinal*, *miskoordinasi*, *volatilitas*) dan gunakan bentuk tunggal atau penanda jamak non-ganda (*data*, *kriteria*, *para alumni*) — **Sebab:** PUPI melarang penjamakan ulang bentuk yang sudah bermakna jamak atau kolektif (`TMS-001`, `TMS-047`, `SPK-007`).
-3. **Rujukan pemadanan resmi:** prioritaskan 200 padanan terverifikasi di `data/glosarium-lintas-bidang.json` (Teknologi 68, Bisnis 60, Linguistik 27, Jurnalistik 25, Hukum 20) dan portal PASTI Kemendikdasmen sebelum menyerap mentah istilah asing.
+3. **Rujukan pemadanan resmi:** prioritaskan 210 padanan terverifikasi di `data/glosarium-lintas-bidang.json` (Teknologi 70, Bisnis 66, Linguistik 27, Jurnalistik 26, Hukum 21) dan asas penyerapan selektif Pusat Bahasa (`PKU-001`, Sugono dkk. 2005, hlm. 2–5) sebelum menyerap mentah istilah asing.
 
 ---
 
