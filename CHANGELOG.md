@@ -4,6 +4,13 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah Modul Pidato Persuasif & Modul Tabel/Grafik Kemendikbud (`788 -> 790` kaidah, Siklus 50)
+
+- **Kemendikbud (Repositori ID 18566 & 19784):**
+  - `TBL-001` (`[telaah]`) — urutan narasi data tabel dan grafik (judul → tren umum → rincian angka puncak/terendah/signifikan tanpa menyalin seluruh sel tabel, hlm. 18–21).
+  - `PRS-001` (`[telaah]`) — kaidah teks & pidato persuasif (ajakan `mari`/`ayo`/`-lah` berbasis fakta dan pronomina inklusif `kita`, hlm. 13–15).
+- Referensi baru: `references/modul-pidato-persuasif-dan-tabel-grafik.md`.
+
 ### Bedah Modul Biografi & E-Modul Teks Cerita Sejarah Kemendikbud 2020 (`785 -> 788` kaidah, Siklus 49)
 
 - **Direktorat SMA Kemendikbud (2020, Repositori ID 19396 & 19749):**

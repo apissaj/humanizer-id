@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 788
+    "total_entri": 790
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4277,6 +4277,28 @@
           "penjelasan": "Teks sejarah nonfiksi (biografi, autobiografi, catatan sejarah) terikat pada fakta objektif dan data historis, berbeda dari sejarah fiksi yang boleh merekonstruksi kehidupan batin tokoh menurut pandangan pengarang (E-Modul Teks Cerita Sejarah Kelas XII, 2020, hlm. 12-14).",
           "contoh_salah": "Pada malam menjelang proklamasi, hati para perumus naskah dipenuhi getaran batin yang tak terlukiskan.",
           "contoh_benar": "Penyusunan naskah proklamasi berlangsung pada dini hari 17 Agustus 1945 di rumah Laksamana Maeda dan disaksikan perwakilan golongan muda."
+        },
+        {
+          "id": "TBL-001",
+          "pola": "[telaah] urutan narasi data tabel dan grafik (judul -> gambaran umum -> rincian angka kunci)",
+          "asal_frasa": "Modul Bahasa dan Sastra Indonesia Kelas X: Menganalisis Informasi dari Tabel dan Grafik (Kemendikbud 2020, hlm. 18-21)",
+          "saran_pengganti": [
+            "Susun narasi tabel/grafik secara berurutan: (1) rujuk judul, (2) nyatakan tren umum keseluruhan, dan (3) rincikan titik kunci (tertinggi, terendah, lonjakan/penurunan) dengan angka eksak tanpa menyalin ulang seluruh sel tabel"
+          ],
+          "penjelasan": "Pengubahan data tabel atau grafik menjadi paragraf naratif harus mendahulukan gambaran umum lalu menyoroti angka puncak, titik terendah, dan perubahan paling bermakna (Modul Tabel dan Grafik Kelas X, 2020, hlm. 18-21).",
+          "contoh_salah": "Pada Tabel 1, Januari 10, Februari 12, Maret 15, April 11, Mei 18, Juni 20.",
+          "contoh_benar": "Tabel 1 menunjukkan pertumbuhan penjualan bulanan sepanjang semester pertama, dengan titik terendah pada Januari (10 unit) dan puncak pada Juni (20 unit)."
+        },
+        {
+          "id": "PRS-001",
+          "pola": "[telaah] kaidah teks dan pidato persuasif (ajakan berbasis bukti/alasan & pronomina inklusif kita)",
+          "asal_frasa": "Modul 2 Bahasa Indonesia: Pidato Persuasif (Kemendikbud, hlm. 13-15)",
+          "saran_pengganti": [
+            "Topang kalimat ajakan (mari, ayo, -lah) dengan alasan, fakta, atau contoh konkret terlebih dahulu serta gunakan pronomina inklusif 'kita' pada bagian penutup"
+          ],
+          "penjelasan": "Teks persuasif merupakan pengembangan argumentasi yang memaparkan fakta dan alasan sebelum mengajak pendengar/pembaca bertindak, sehingga ajakan terasa bernalar dan tidak menggurui (Modul Pidato Persuasif, hlm. 13-15).",
+          "contoh_salah": "Ayo semua orang wajib menjaga kebersihan lingkungan sekarang juga tanpa alasan apa pun!",
+          "contoh_benar": "Pemilahan sampah organik mengurangi volume limbah rumah tangga hingga 40%; oleh karena itu, mari kita mulai memilah sampah dari rumah."
         }
       ]
     },
@@ -9724,5 +9746,5 @@
       ]
     }
   },
-  "total_entri": 788
+  "total_entri": 790
 }
