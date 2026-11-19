@@ -4,6 +4,14 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah 3 Modul SMA Kemendikbud 2020: Negosiasi, Ceramah & Artikel Opini (`780 -> 783` kaidah, Siklus 47)
+
+- **Direktorat SMA Kemendikbud (2020, Repositori ID 21604, 21752, 21928):**
+  - `KAO-001` (regex aktif) — konstruksi buntung tanpa predikat `Hal ini karena ...` / `Hal tersebut karena ...` di awal kalimat → `Kondisi ini terjadi karena ...` / `Hal ini disebabkan oleh ...` (hlm. 12).
+  - `KAO-002` (`[telaah]`) — ciri kebahasaan artikel opini vs karya ilmiah murni (rujukan eksplisit, adverbia frekuentatif terukur, konjungsi penata & penguat argumen, objektivitas data, hlm. 11–14).
+  - `KAO-003` (`[telaah]`) — kesantunan & pasangan tuturan seimbang dalam teks negosiasi (hlm. 9–10) serta sapaan audiens & verba persuasif terukur dalam teks ceramah/pidato (hlm. 20–21).
+- Referensi baru: `references/modul-sma-negosiasi-ceramah-artikel-opini-2020.md`.
+
 ### Bedah 3 Modul SMA XI Kemendikbud 2020: Teks Prosedur, Eksplanasi & Resensi (`777 -> 780` kaidah, Siklus 46)
 
 - **Direktorat SMA Kemendikbud (2020, Repositori ID 21664, 21759, 21866):**

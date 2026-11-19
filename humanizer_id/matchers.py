@@ -1726,3 +1726,10 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("khromosom / rhetorika"),
      [re.compile(r"(?i)\b(?:khromosom|rhetorika|thema|hidrolik|seyogyanya)\b")]),
 ])
+
+# --- Kaidah Modul Kebahasaan Artikel Opini Kelas XII (Kemendikbud 2020, OPN-002) ---
+CUSTOM_RULES.extend([
+    # OPN-002: Hal ini karena / Hal tersebut karena (kalimat tanpa predikat verba di awal kalimat, hlm. 12)
+    (lambda p: p.startswith("Hal ini karena / Hal tersebut karena"),
+     [re.compile(r"(?i)(?:^|[.!?]\s+)Hal\s+(?:ini|tersebut)\s+karena\b")]),
+])

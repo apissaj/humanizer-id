@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 780
+    "total_entri": 783
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4196,6 +4196,42 @@
           "penjelasan": "Teks eksplanasi menjelaskan proses terjadinya fenomena dengan partisipan non-manusia, verba pasif, dan relasi kausalitas/kronologis; teks resensi mengevaluasi kelebihan dan kekurangan karya secara objektif dan komunikatif (Kemendikbud 2020).",
           "contoh_salah": "Novel ini sangat sempurna sekali dan pasti mengubah hidup setiap pembacanya.",
           "contoh_benar": "Novel ini menyajikan konflik keluarga secara rinci dalam bahasa yang ringan, tetapi alurnya melambat pada tiga bab pertengahan."
+        },
+        {
+          "id": "KAO-001",
+          "pola": "Hal ini karena / Hal tersebut karena (kalimat tanpa predikat verba di awal kalimat)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII: Kebahasaan Artikel Opini (Kemendikbud 2020, hlm. 12; TBBBI)",
+          "saran_pengganti": [
+            "Kondisi ini terjadi karena",
+            "Hal ini disebabkan oleh"
+          ],
+          "penjelasan": "Konstruksi 'Hal ini karena ...' di awal kalimat tidak memiliki predikat verba sehingga kalimat menjadi buntung; hadirkan verba seperti 'Kondisi ini terjadi karena ...' atau 'Hal ini disebabkan oleh ...' (Modul Kebahasaan Artikel Opini Kelas XII, Kemendikbud 2020, hlm. 12).",
+          "contoh_salah": "Hal ini karena tingkat literasi digital masih rendah.",
+          "contoh_benar": "Kondisi ini terjadi karena tingkat literasi digital masih rendah."
+        },
+        {
+          "id": "KAO-002",
+          "pola": "[telaah] kebahasaan artikel opini & pembedaan ragam ilmiah murni vs ilmiah populer",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII: Kebahasaan Artikel Opini (Kemendikbud 2020, hlm. 11-14)",
+          "saran_pengganti": [
+            "Gunakan kata baku, makna lugas/denotatif, kata rujukan eksplisit (menurut/berdasarkan), serta adverbia frekuentatif terukur (umumnya, sebagian besar)",
+            "Sesuaikan tingkat kekakuan istilah: artikel opini/populer memakai gaya komunikatif yang tetap baku dan objektif"
+          ],
+          "penjelasan": "Artikel opini menggabungkan struktur tesis-argumentasi-penegasan ulang dengan ragam komunikatif, kata rujukan eksplisit, konjungsi penata/penguat argumen, dan objektivitas data (Modul Kebahasaan Artikel Opini Kelas XII, 2020, hlm. 11-14).",
+          "contoh_salah": "Semua orang pasti sepakat bahwa literasi sangat penting sekali bagi kemajuan bangsa.",
+          "contoh_benar": "Data asesmen 2024 menunjukkan sebagian besar siswa memerlukan latihan membaca kritis untuk memahami teks eksposisi."
+        },
+        {
+          "id": "KAO-003",
+          "pola": "[telaah] kesantunan teks negosiasi & sapaan audiens dalam teks ceramah/pidato",
+          "asal_frasa": "Modul Teks Negosiasi Kelas X (hlm. 9-10) & Modul Teks Ceramah Kelas XI (hlm. 20-21), Kemendikbud 2020",
+          "saran_pengganti": [
+            "Pada negosiasi: gunakan kalimat deklaratif/persuasif yang santun, efektif, dan menjaga keseimbangan pasangan tuturan",
+            "Pada ceramah/pidato: gunakan sapaan audiens yang tepat (hadirin, Bapak/Ibu) dan verba persuasif terukur (perlu, sebaiknya)"
+          ],
+          "penjelasan": "Teks negosiasi mengutamakan kesantunan bahasa dan kejelasan usulan/penolakan; teks ceramah memadukan sapaan kolektif, istilah bidang, relasi sebab-akibat, dan ajakan persuasif yang wajar (Kemendikbud 2020).",
+          "contoh_salah": "Hadirin sekalian yang berbahagia, kalian harus langsung setuju tanpa syarat.",
+          "contoh_benar": "Hadirin yang berbahagia, kita perlu mempertimbangkan ulang jadwal pelaksanaan agar seluruh pihak siap."
         }
       ]
     },
@@ -9631,5 +9667,5 @@
       ]
     }
   },
-  "total_entri": 780
+  "total_entri": 783
 }
