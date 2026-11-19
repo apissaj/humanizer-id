@@ -4,6 +4,14 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah Modul Biografi & E-Modul Teks Cerita Sejarah Kemendikbud 2020 (`785 -> 788` kaidah, Siklus 49)
+
+- **Direktorat SMA Kemendikbud (2020, Repositori ID 19396 & 19749):**
+  - `SJR-002` (regex aktif + autofix) — `responsip` → `responsif`, `ksatria` → `kesatria` (hlm. 11, 14).
+  - `BIO-001` (`[telaah]`) — kebahasaan teks biografi (variasi pronomina ketiga `ia`/`dia`/`beliau` tanpa *synonym cycling* berlebih, verba pasif peristiwa, kronologi terstruktur, hlm. 8–9).
+  - `SJR-001` (`[telaah]`) — batas objektivitas sejarah nonfiksi (fakta/data terverifikasi) vs sejarah fiksi (hlm. 12–14).
+- Referensi baru: `references/modul-sma-biografi-sejarah-2020.md`.
+
 ### Bedah Kajian Istilah Pers (Baharman UNM) & Modul LHO / Debat Kemendikbud 2020 (`783 -> 785` kaidah, `212 -> 214` glosarium, Siklus 48)
 
 - **Baharman (UNM, Repositori ID 11100):**

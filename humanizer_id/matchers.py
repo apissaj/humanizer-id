@@ -1733,3 +1733,10 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("Hal ini karena / Hal tersebut karena"),
      [re.compile(r"(?i)(?:^|[.!?]\s+)Hal\s+(?:ini|tersebut)\s+karena\b")]),
 ])
+
+# --- Kaidah E-Modul Teks Cerita Sejarah Kelas XII (Kemendikbud 2020, SJR-002) ---
+CUSTOM_RULES.extend([
+    # SJR-002: responsip / ksatria -> responsif / kesatria
+    (lambda p: p.startswith("responsip / ksatria"),
+     [re.compile(r"(?i)\b(?:responsip|ksatria)\b")]),
+])

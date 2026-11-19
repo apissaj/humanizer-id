@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 785
+    "total_entri": 788
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4254,6 +4254,29 @@
           "penjelasan": "Debat ilmiah dan argumentasi kritis menuntut ketepatan bahasa baku, kejelasan mosi, dukungan fakta/data, dan etika sanggahan yang menyasar gagasan bukan pribadi (Modul Analisis Debat Kelas X, 2020).",
           "contoh_salah": "Pendapat pihak oposisi jelas konyol dan tidak masuk akal sama sekali.",
           "contoh_benar": "Argumen tersebut belum memperhitungkan biaya operasional tahunan yang menurut laporan audit 2024 meningkat sebesar 14%."
+        },
+        {
+          "id": "BIO-001",
+          "pola": "[telaah] kebahasaan teks biografi (variasi pronomina ketiga ia/dia/beliau, verba pasif peristiwa, kronologi terstruktur)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas X: Teks Biografi (Kemendikbud 2020, hlm. 8-9)",
+          "saran_pengganti": [
+            "Variasikan penyebutan nama tokoh dengan pronomina ketiga (ia, dia, beliau, -nya) secara wajar tanpa daur ulang julukan berlebihan (synonym cycling)",
+            "Gunakan verba pasif untuk peristiwa yang dialami tokoh dan konjungsi kronologis terurut (orientasi -> kejadian penting -> reorientasi)"
+          ],
+          "penjelasan": "Teks biografi memadukan pronomina orang ketiga tunggal yang bervariasi wajar dengan nama tokoh, verba tindakan dan pasif peristiwa, deskripsi watak berbasis bukti, serta urutan waktu kronologis (Modul Teks Biografi Kelas X, 2020, hlm. 8-9).",
+          "contoh_salah": "Tokoh jenius tersebut sangat luar biasa. Sosok visioner itu menginspirasi semua orang. Figur legendaris tersebut selalu berhasil.",
+          "contoh_benar": "Habibie menempuh studi teknik penerbangan di Jerman. Ia bekerja keras untuk menghemat biaya hidupnya sebelum ditugaskan memimpin proyek dirgantara nasional."
+        },
+        {
+          "id": "SJR-001",
+          "pola": "[telaah] batas objektivitas teks sejarah nonfiksi (biografi, autobiografi, catatan sejarah) vs sejarah fiksi",
+          "asal_frasa": "E-Modul Bahasa Indonesia Kelas XII: Teks Cerita Sejarah (Kemendikbud 2020, hlm. 12-14)",
+          "saran_pengganti": [
+            "Pada teks sejarah nonfiksi: seluruh peristiwa, tanggal, dan gambaran tokoh wajib bertumpu pada fakta objektif dan data terverifikasi tanpa rekayasa batin atau opini pengarang"
+          ],
+          "penjelasan": "Teks sejarah nonfiksi (biografi, autobiografi, catatan sejarah) terikat pada fakta objektif dan data historis, berbeda dari sejarah fiksi yang boleh merekonstruksi kehidupan batin tokoh menurut pandangan pengarang (E-Modul Teks Cerita Sejarah Kelas XII, 2020, hlm. 12-14).",
+          "contoh_salah": "Pada malam menjelang proklamasi, hati para perumus naskah dipenuhi getaran batin yang tak terlukiskan.",
+          "contoh_benar": "Penyusunan naskah proklamasi berlangsung pada dini hari 17 Agustus 1945 di rumah Laksamana Maeda dan disaksikan perwakilan golongan muda."
         }
       ]
     },
@@ -9685,9 +9708,21 @@
           "penjelasan": "Penulisan unsur serapan baku mengikuti pelafalan bahasa Indonesia dan asas satu bunyi satu huruf (tanpa kh/rh/th atau y sisipan pada seyogianya): kromosom, retorika, tema, hidraulik, dan seyogianya (Modul Resensi Kelas XI, Kemendikbud 2020, hlm. 8-9).",
           "contoh_salah": "Penelitian rhetorika dan khromosom itu memakai sistem hidrolik yang seyogyanya memperjelas thema kajian.",
           "contoh_benar": "Penelitian retorika dan kromosom itu memakai sistem hidraulik yang seyogianya memperjelas tema kajian."
+        },
+        {
+          "id": "SJR-002",
+          "pola": "responsip / ksatria",
+          "asal_frasa": "E-Modul Teks Cerita Sejarah Kelas XII (Kemendikbud 2020, hlm. 11, 14; KBBI)",
+          "saran_pengganti": [
+            "responsif",
+            "kesatria"
+          ],
+          "penjelasan": "Bentuk baku dalam KBBI adalah 'responsif' (serapan -ive -> -if, bukan -ip) dan 'kesatria' (dengan vokal sisipan e pada gugus konsonan awal, bukan 'ksatria') (KBBI & EYD V).",
+          "contoh_salah": "Para ksatria bersikap responsip terhadap perubahan situasi di medan tugas.",
+          "contoh_benar": "Para kesatria bersikap responsif terhadap perubahan situasi di medan tugas."
         }
       ]
     }
   },
-  "total_entri": 785
+  "total_entri": 788
 }
