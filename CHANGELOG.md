@@ -4,6 +4,15 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah Kajian Istilah Pers (Baharman UNM) & Modul LHO / Debat Kemendikbud 2020 (`783 -> 785` kaidah, `212 -> 214` glosarium, Siklus 48)
+
+- **Baharman (UNM, Repositori ID 11100):**
+  - 2 padanan baru `jurnalistik_dan_media` (`26 -> 28`): `mass rapid transit (MRT)` → `moda raya terpadu`, `light rail transit (LRT)` → `lintas rel terpadu` (hlm. 13–14).
+- **Direktorat SMA Kemendikbud (2020, Repositori ID 21641 & 21718):**
+  - `LHO-004` (`[telaah]`) — aspek kebahasaan teks Laporan Hasil Observasi (verba pengelompokan, verba relasional definisi, deskripsi indrawi terukur, hlm. 17–19).
+  - `DBT-001` (`[telaah]`) — ragam bahasa debat & sanggahan logis berbasis data tanpa serangan personal.
+- Referensi baru: `references/baharman-surat-kabar-lho-debat-2020.md`.
+
 ### Bedah 3 Modul SMA Kemendikbud 2020: Negosiasi, Ceramah & Artikel Opini (`780 -> 783` kaidah, Siklus 47)
 
 - **Direktorat SMA Kemendikbud (2020, Repositori ID 21604, 21752, 21928):**

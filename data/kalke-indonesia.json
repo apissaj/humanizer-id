@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 783
+    "total_entri": 785
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4232,6 +4232,28 @@
           "penjelasan": "Teks negosiasi mengutamakan kesantunan bahasa dan kejelasan usulan/penolakan; teks ceramah memadukan sapaan kolektif, istilah bidang, relasi sebab-akibat, dan ajakan persuasif yang wajar (Kemendikbud 2020).",
           "contoh_salah": "Hadirin sekalian yang berbahagia, kalian harus langsung setuju tanpa syarat.",
           "contoh_benar": "Hadirin yang berbahagia, kita perlu mempertimbangkan ulang jadwal pelaksanaan agar seluruh pihak siap."
+        },
+        {
+          "id": "LHO-004",
+          "pola": "[telaah] aspek kebahasaan teks Laporan Hasil Observasi (verba pengelompokan, verba relasional definisi & deskripsi indrawi terukur)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas X: Isi dan Aspek Kebahasaan Teks LHO (Kemendikbud 2020, hlm. 17-19)",
+          "saran_pengganti": [
+            "Gunakan nomina/fenomena umum, verba pengelompokan (terbagi menjadi, terdiri atas), verba relasional definisi (adalah, merupakan), dan kalimat deskripsi sifat indrawi terukur"
+          ],
+          "penjelasan": "Teks Laporan Hasil Observasi memisahkan definisi umum, deskripsi bagian, dan deskripsi manfaat dengan verba pengelompokan serta sifat teramati secara objektif tanpa opini pribadi (Modul LHO Kelas X, 2020, hlm. 17-19).",
+          "contoh_salah": "Menurut saya tanaman bakau itu sangat bagus sekali dan luar biasa manfaatnya.",
+          "contoh_benar": "Hutan bakau merupakan ekosistem pesisir yang terdiri atas jenis Rhizophora dan Avicennia dengan akar napas setinggi 30—60 cm."
+        },
+        {
+          "id": "DBT-001",
+          "pola": "[telaah] ragam bahasa debat & sanggahan berbasis argumen logis (bukan serangan personal/emosional)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas X: Analisis Isi Debat (Kemendikbud 2020)",
+          "saran_pengganti": [
+            "Gunakan ragam bahasa baku, nyatakan mosi dan posisi secara eksplisit, serta bangun sanggahan berbasis bukti dan penalaran logis tanpa menyerang pribadi lawan debat"
+          ],
+          "penjelasan": "Debat ilmiah dan argumentasi kritis menuntut ketepatan bahasa baku, kejelasan mosi, dukungan fakta/data, dan etika sanggahan yang menyasar gagasan bukan pribadi (Modul Analisis Debat Kelas X, 2020).",
+          "contoh_salah": "Pendapat pihak oposisi jelas konyol dan tidak masuk akal sama sekali.",
+          "contoh_benar": "Argumen tersebut belum memperhitungkan biaya operasional tahunan yang menurut laporan audit 2024 meningkat sebesar 14%."
         }
       ]
     },
@@ -9667,5 +9689,5 @@
       ]
     }
   },
-  "total_entri": 783
+  "total_entri": 785
 }
