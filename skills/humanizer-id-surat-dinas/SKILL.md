@@ -24,6 +24,7 @@ Sub-kaidah domain Humanizer ID untuk surat dinas, nota dinas, surat edaran, sura
 1. **Pola:** `Kepada Yth. Bapak Kepala Dinas...` atau `Yth. Bapak/Ibu Direktur...` → **Perbaikan:** `Yth. Kepala Dinas...` atau `Yth. Direktur...` (tanpa *Kepada*, tanpa sapaan *Bapak/Ibu* jika langsung diikuti nama jabatan) — **Sebab:** *Kepada* bermakna tujuan yang bertumpuk dengan *Yth.*, sedangkan nama jabatan tidak disapa dengan *Bapak/Ibu* (`SMD-001`, `DIN-005`).
 2. **Pola:** `Dengan Hormat,` (H kapital) atau `Dengan hormat.` (titik) → **Perbaikan:** `Dengan hormat,` (`h` kecil, diakhiri koma) — **Sebab:** salam pembuka bukan judul dan diikuti koma sebelum isi surat (`SMD-003`).
 3. **Pola:** alinea pembuka berpola non-verba / klise birokratis (*Bersama ini kami sampaikan...*, *Sehubungan dengan surat Saudara nomor..., maka dengan ini kami beritahukan bahwa...*) → **Perbaikan:** gunakan *Dengan ini kami sampaikan...* (tanpa lampiran) atau *Bersama surat ini kami lampirkan...* (bila ada lampiran), serta hapus *maka* pada kalimat bertingkat (`DIN-001`, `DIN-010`, `SPK-001`).
+4. **Pola:** kepala surat dinas memakai `Perihal:`, `Lampiran: -` atau `Lampiran: 5 (lima) lembar`, dan `Nomor: .../2018.-` → **Perbaikan:** gunakan `Hal:`, hapus baris `Lampiran` bila kosong (atau tulis `Lampiran: Lima lembar`), dan tulis `Nomor` tanpa titik/hubung akhir (`DIN-011`..`DIN-014`, Sriyanto 2018, hlm. 52–53).
 
 ---
 

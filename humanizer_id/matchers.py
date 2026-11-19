@@ -1696,3 +1696,16 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("setelah ... , kemudian"),
      [re.compile(r"(?i)\bsetelah\s+[^.,;]{3,35},\s*kemudian\b")]),
 ])
+
+# --- Kaidah Modul CPNS Penggunaan Bahasa Indonesia dalam Surat Dinas (Sriyanto, Pusdiklat 2018, DIN-011..013) ---
+CUSTOM_RULES.extend([
+    # DIN-011: Lampiran: - atau pengulangan angka-huruf Lampiran: 5 (lima) lembar (hlm. 53)
+    (lambda p: p.startswith("Lampiran: - / Lampiran:"),
+     [re.compile(r"(?im)^\s*Lampiran\s*:\s*(?:[-–—]\s*$|\d+\s*\([a-z\s]+\)|[a-z]+\s*\(\d+\))")]),
+    # DIN-012: Perihal: pada kepala surat dinas -> Hal: (hlm. 53)
+    (lambda p: p.startswith("Perihal: (kepala surat dinas"),
+     [re.compile(r"(?im)^\s*Perihal\s*:")]),
+    # DIN-013: Nomor surat dinas diakhiri titik atau titik-hubung (hlm. 52-53)
+    (lambda p: p.startswith("Nomor: 3546/F8/C.11/2018."),
+     [re.compile(r"(?im)^\s*(?:Nomor|No\.?)\s*:\s*[A-Za-z0-9./-]+\/\d{4}\.-?\s*$")]),
+])

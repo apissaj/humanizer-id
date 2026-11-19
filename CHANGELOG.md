@@ -4,6 +4,18 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah *Modul CPNS Surat Dinas* (Sriyanto 2018) & Lanjutan *Pengayaan Kaidah* 2017 (`765 -> 770` kaidah, `211 -> 212` glosarium, Siklus 43)
+
+- **Drs. Sriyanto, M.M., M.Pd. (*Penggunaan Bahasa Indonesia dalam Surat Dinas*, Pusdiklat Kemendikbud 2018, hlm. 52–53, 59):**
+  - `DIN-011` — larangan `Lampiran: -` dan pengulangan angka-huruf `Lampiran: 5 (lima) lembar` / `Satu (1) berkas`.
+  - `DIN-012` — penggunaan `Hal:` alih-alih `Perihal:` pada kepala surat dinas.
+  - `DIN-013` — larangan tanda titik/titik-hubung di akhir `Nomor:` surat dinas (`Nomor: .../2018.-`).
+  - `DIN-014` (`[telaah]`) — format tanggal surat tanpa mengulang kota kop & `Tembusan:` hanya bila ada pihak ditembusi.
+- **Lanjutan Oktavia, Karenisa dkk. (*Bahan Ajar Pengayaan Bahasa Indonesia*, Badan Bahasa 2017, hlm. 92, 96):**
+  - `UKB-006` — `kraton` → `keraton` (aktif di autofix).
+  - Glosarium `bisnis_dan_manajemen` (`66 -> 67`): `track record` → `rekam jejak`.
+- Referensi baru: `references/modul-cpns-surat-dinas-sriyanto-2018.md`; `skills/humanizer-id-surat-dinas/SKILL.md` diperbarui.
+
 ### Bedah *Bahan Ajar Pengayaan Bahasa Indonesia* Badan Bahasa 2017 (`760 -> 765` kaidah, `210 -> 211` glosarium, Siklus 42)
 
 - **Wenny Oktavia, Kaniah, Kity Karenisa dkk. (*Bahan Ajar Pengayaan Bahasa Indonesia: Latihan Merespons Kaidah dan Pemahaman Bacaan*, Badan Bahasa 2017, ISBN 978-602-437-388-7):**

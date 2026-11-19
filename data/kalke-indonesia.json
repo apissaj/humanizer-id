@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 765
+    "total_entri": 770
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4066,6 +4066,52 @@
           "penjelasan": "Konjungsi 'setelah' yang diikuti 'kemudian' di awal induk kalimat menimbulkan konjungsi ganda dan sering melesapkan subjek kalimat (Oktavia dkk., Badan Bahasa 2017, hlm. 78).",
           "contoh_salah": "Beberapa hari setelah tanam, kemudian dipindahkan ke media hidroponik.",
           "contoh_benar": "Beberapa hari setelah tanam, bibit dipindahkan ke media hidroponik."
+        },
+        {
+          "id": "DIN-011",
+          "pola": "Lampiran: - / Lampiran: 5 (lima) lembar (format lampiran surat dinas tidak efektif)",
+          "asal_frasa": "Penggunaan Bahasa Indonesia dalam Surat Dinas (Drs. Sriyanto, M.M., M.Pd., Pusdiklat Kemendikbud 2018, hlm. 53)",
+          "saran_pengganti": [
+            "Hapus baris Lampiran bila tidak ada berkas yang disertakan",
+            "Lampiran: Lima lembar / Lampiran: Satu berkas (tanpa pengulangan angka-huruf)"
+          ],
+          "penjelasan": "Bila tidak ada lampiran, kata Lampiran tidak perlu dicantumkan (jangan ditulis 'Lampiran: -'); jumlah lampiran ditulis lugas tanpa menggandakan angka dan huruf seperti '5 (lima) lembar' (Sriyanto, Pusdiklat Kemendikbud 2018, hlm. 53).",
+          "contoh_salah": "Lampiran: 5 (lima) lembar",
+          "contoh_benar": "Lampiran: Lima lembar"
+        },
+        {
+          "id": "DIN-012",
+          "pola": "Perihal: (kepala surat dinas seharusnya memakai Hal:)",
+          "asal_frasa": "Penggunaan Bahasa Indonesia dalam Surat Dinas (Drs. Sriyanto, Pusdiklat Kemendikbud 2018, hlm. 53)",
+          "saran_pengganti": [
+            "Hal:"
+          ],
+          "penjelasan": "Pada kepala surat dinas baku digunakan kata 'Hal:', bukan 'Perihal:', karena unsur 'peri-' sudah bermakna 'hal' sehingga 'perihal' bermakna 'hal-hal' (Sriyanto, Pusdiklat Kemendikbud 2018, hlm. 53).",
+          "contoh_salah": "Perihal: Undangan Rapat Koordinasi",
+          "contoh_benar": "Hal: Undangan Rapat Koordinasi"
+        },
+        {
+          "id": "DIN-013",
+          "pola": "Nomor: 3546/F8/C.11/2018. / .- (nomor surat dinas diakhiri titik atau titik-hubung)",
+          "asal_frasa": "Penggunaan Bahasa Indonesia dalam Surat Dinas (Drs. Sriyanto, Pusdiklat Kemendikbud 2018, hlm. 52-53)",
+          "saran_pengganti": [
+            "Nomor: 3546/F8/C.11/2018 (tanpa tanda titik atau titik-hubung di akhir)"
+          ],
+          "penjelasan": "Penulisan nomor surat dinas tidak boleh diakhiri tanda titik maupun tanda titik-hubung (Sriyanto, Pusdiklat Kemendikbud 2018, hlm. 52-53).",
+          "contoh_salah": "Nomor: 3546/F8/C.11/2018.-",
+          "contoh_benar": "Nomor: 3546/F8/C.11/2018"
+        },
+        {
+          "id": "DIN-014",
+          "pola": "[telaah] format tanggal surat dinas (tanpa kota ulang bila ada kop) & tembusan hanya bila ada pihak ditembusi",
+          "asal_frasa": "Penggunaan Bahasa Indonesia dalam Surat Dinas (Drs. Sriyanto, Pusdiklat Kemendikbud 2018, hlm. 52, 59)",
+          "saran_pengganti": [
+            "Tulis tanggal lengkap tanpa mengulang nama kota kop dan tanpa menyingkat bulan/tahun (25 April 2018)",
+            "Hapus bagian Tembusan: jika tidak ada pihak lain yang diberi tembusan"
+          ],
+          "penjelasan": "Jika kop surat sudah memuat nama kota instansi, nama kota tidak perlu diulang sebelum tanggal; tanggal tidak disingkat; dan kata Tembusan tidak dicantumkan bila tidak ada pihak yang ditembusi (Sriyanto, 2018, hlm. 52, 59).",
+          "contoh_salah": "Bandung, 31-04-2018. Tembusan: -",
+          "contoh_benar": "31 April 2018"
         }
       ]
     },
@@ -9449,9 +9495,20 @@
           "penjelasan": "Kata bahasa Inggris 'standard' telah diserap baku ke dalam bahasa Indonesia menjadi 'standar' tanpa huruf d di akhir (Oktavia dkk., Badan Bahasa 2017, hlm. 69).",
           "contoh_salah": "Kendaraan tersebut telah lolos uji standard keselamatan internasional.",
           "contoh_benar": "Kendaraan tersebut telah lolos uji standar keselamatan internasional."
+        },
+        {
+          "id": "UKB-006",
+          "pola": "kraton",
+          "asal_frasa": "Bahan Ajar Pengayaan Bahasa Indonesia (Oktavia, Karenisa dkk., Badan Bahasa 2017, hlm. 96)",
+          "saran_pengganti": [
+            "keraton"
+          ],
+          "penjelasan": "Bentuk baku dalam KBBI adalah 'keraton' (dengan huruf e), bukan 'kraton' (Oktavia dkk., Badan Bahasa 2017, hlm. 96).",
+          "contoh_salah": "Keluarga kraton menyelenggarakan upacara adat tahunan.",
+          "contoh_benar": "Keluarga keraton menyelenggarakan upacara adat tahunan."
         }
       ]
     }
   },
-  "total_entri": 765
+  "total_entri": 770
 }

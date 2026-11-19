@@ -237,7 +237,7 @@ Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menye
 
 ### 1. Dataset Terstruktur (`data/`)
 - **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (terus bertambah; baca berkas untuk jumlah mutakhir aktif) memetakan kalke terjemahan mesin, verba ringan, retorika klise AI, tata bilangan TBBBI, dan kaidah morfologi peluluhan KTSP lengkap dengan sitasi buku/halaman.
-- **`data/glosarium-lintas-bidang.json`**: Glosarium 211 padanan istilah resmi lintas 5 bidang profesi (Teknologi, Bisnis, Linguistik, Jurnalistik, Hukum) bersumber dari **PASTI Kemendikdasmen RI** (172.931 istilah, 59 ranah) dan buku rujukan resmi.
+- **`data/glosarium-lintas-bidang.json`**: Glosarium 212 padanan istilah resmi lintas 5 bidang profesi (Teknologi, Bisnis, Linguistik, Jurnalistik, Hukum) bersumber dari **PASTI Kemendikdasmen RI** (172.931 istilah, 59 ranah) dan buku rujukan resmi.
 - **`data/pedoman-kampus.json`**: Basis data konfigurasi format skripsi & tugas akhir untuk 18 preset (16 perguruan tinggi + 2 jurnal nasional).
 
 ### 2. Perkakas Pemindai Mandiri (`scripts/`)
