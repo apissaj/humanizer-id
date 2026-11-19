@@ -47,6 +47,8 @@ Sub-kaidah domain Humanizer ID untuk analisis hukum, naskah akademik/kajian regu
    - *compliance* → **kepatuhan**
    - *non-disclosure agreement (NDA)* → **perjanjian kerahasiaan informasi**
    - *dispute settlement* → **penyelesaian sengketa**
+   - *addendum* → **adendum / lampiran tambahan**; *affidavit* → **afidavit / surat pernyataan bersumpah**; *amicus curiae* → **sahabat pengadilan**; *bailout* → **dana talangan**; *class action* → **gugatan perwakilan kelompok**
+   - *disclaimer* → **sangkalan / pernyataan pelepasan tanggung jawab**; *injunction* → **putusan sela / perintah larangan pengadilan**; *jurisprudence* → **yurisprudensi**; *power of attorney* → **surat kuasa**; *whistleblower* → **pelapor pelanggaran**
    - *cybercrime* → **kejahatan dunia maya**; *omnibus law* → **undang-undang sapu jagad** (hlm. 58, 211–213).
 
 ```bash

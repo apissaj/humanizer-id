@@ -71,7 +71,7 @@ Tentukan mode kerja sebelum memulai penyuntingan. Bila tidak dinyatakan spesifik
    - Kepatuhan penuh EYD V dan leksikon KBBI; nol pujian tanpa pembuktian data statistik.
    - **Pemisahan Simpulan vs Saran:** Bagian Simpulan wajib menjawab rumusan masalah secara lugas berbasis data hasil pengujian; bagian Saran dikhususkan untuk limitasi teknis dan peluang riset lanjutan—tidak mencampurbaurkan opini pribadi atau harapan umum.
    - **Judul & Abstrak Dwibahasa:** Judul skripsi/makalah dalam bahasa Indonesia dan bahasa Inggris harus selaras makna tanpa distorsi istilah kunci.
-   - **Dukungan Preset Kampus:** Mendukung konvensi khusus 11 perguruan tinggi terkemuka (UI, ITB, UGM, ITS, IPB, UNDIP, UNPAD, UNAIR, UB, Telkom, UDINUS). Bila pengguna menyebut kampusnya, aktifkan kaidah spesifik dari `data/pedoman-kampus.json` dan panduan `references/panduan-preset-kampus.md` (misal: IPB sub-bab tanpa titik akhir, UGM/UI format `Persamaan (nomor)`).
+   - **Dukungan Preset Kampus:** Mendukung konvensi khusus 18 preset (16 perguruan tinggi: UI, ITB, UGM, ITS, IPB, UNDIP, UNPAD, UNAIR, UB, Telkom, UDINUS, UNS, UNNES, UPI, UNHAS, UNAND + 2 jurnal nasional: `jurnal-dikbud`, `jurnal-jipp`). Bila pengguna menyebut kampusnya, aktifkan kaidah spesifik dari `data/pedoman-kampus.json` dan panduan `references/panduan-preset-kampus.md` (misal: IPB sub-bab tanpa titik akhir, UGM/UI format `Persamaan (nomor)`).
 2. **Mode Esai & Opini Populer (Artikel, Kolom, Blog):**
    - Sudut pandang penulis (*saya* atau *kami*) dipertahankan.
    - Ritme kalimat dinamis dan variatif; analogi konkret diperbolehkan asal tidak klise.
@@ -117,7 +117,7 @@ Bersihkan struktur bahasa Inggris yang dialihbahasakan secara harfiah:
 
 ## 4. Rute Sub-Kaidah (Deep-Dive On-Demand)
 
-Kaidah editorial lanjutan terbagi ke **sembilan berkas sub-skill** di folder `skills/` (**lima strata kebahasaan** + **empat domain spesifik**). Muat HANYA rute yang relevan dengan naskah agar hemat konteks. Aturan integritas ilmiah pada dokumen ini tetap mengikat penuh dan TIDAK terduplikasi di sub-skill. Satu naskah boleh menyentuh beberapa strata dan satu domain sekaligus - muat semua berkas yang relevan.
+Kaidah editorial lanjutan terbagi ke **sebelas berkas sub-skill** di folder `skills/` (**lima strata kebahasaan** + **enam domain spesifik**). Muat HANYA rute yang relevan dengan naskah agar hemat konteks. Aturan integritas ilmiah pada dokumen ini tetap mengikat penuh dan TIDAK terduplikasi di sub-skill. Satu naskah boleh menyentuh beberapa strata dan satu domain sekaligus - muat semua berkas yang relevan.
 
 ### Rute Strata Kebahasaan
 
@@ -137,6 +137,8 @@ Kaidah editorial lanjutan terbagi ke **sembilan berkas sub-skill** di folder `sk
 | Bisnis, korporat & proposal | `skills/humanizer-id-bisnis-korporat/SKILL.md` | Prinsip KISS, surat instruksi 5W1H, siaran pers piramida terbalik, padanan bisnis (4 blok kaidah) |
 | Jurnalistik, berita & opini | `skills/humanizer-id-jurnalistik-media/SKILL.md` | 7 sifat bahasa pers, ekonomi kata Tempo, batas 17-20 kata/kalimat, artikel opini (4 blok kaidah) |
 | Hukum, regulasi & klaim produk | `skills/humanizer-id-hukum-regulasi/SKILL.md` | Batas zona terlarang kontrak/pasal, anti-multimakna, pasif normatif, klaim realistis (3 blok kaidah) |
+| Surat dinas, birokrasi & pewara | `skills/humanizer-id-surat-dinas/SKILL.md` | Tata Naskah Dinas 2025, alamat `Yth.`, salam/penutup resmi, pasif diri, `NIP`/`a.n.`, frasa pewara bernalar (3 blok kaidah) |
+| Dokumentasi teknis, TI & rekayasa | `skills/humanizer-id-teknis-it/SKILL.md` | Zona terlarang kode/satuan EYD V, 68 istilah PASTI TI, safeguard serapan baku, prosedur & paper teknik (3 blok kaidah) |
 
 Catatan provenance: log lengkap sesi integrasi kaidah (BW-BZ) pindah ke `references/log-integrasi-kaidah.md` - arsip asal-usul aturan, bukan aturan operasional.
 
@@ -232,8 +234,8 @@ Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menye
 
 ### 1. Dataset Terstruktur (`data/`)
 - **`data/kalke-indonesia.json`**: Dataset leksikon terbuka (terus bertambah; baca berkas untuk jumlah mutakhir aktif) memetakan kalke terjemahan mesin, verba ringan, retorika klise AI, tata bilangan TBBBI, dan kaidah morfologi peluluhan KTSP lengkap dengan sitasi buku/halaman.
-- **`data/glosarium-lintas-bidang.json`**: Glosarium 50+ padanan istilah resmi lintas 4 bidang profesi (Teknologi, Hukum, Jurnalistik, Bisnis) bersumber dari **PASTI Kemendikdasmen RI** (172.931 istilah, 59 ranah).
-- **`data/pedoman-kampus.json`**: Basis data konfigurasi format skripsi & tugas akhir untuk 11 perguruan tinggi terkemuka (UI, ITB, UGM, ITS, IPB, UNDIP, UNPAD, UNAIR, UB, Telkom, UDINUS).
+- **`data/glosarium-lintas-bidang.json`**: Glosarium 200 padanan istilah resmi lintas 5 bidang profesi (Teknologi, Bisnis, Linguistik, Jurnalistik, Hukum) bersumber dari **PASTI Kemendikdasmen RI** (172.931 istilah, 59 ranah) dan buku rujukan resmi.
+- **`data/pedoman-kampus.json`**: Basis data konfigurasi format skripsi & tugas akhir untuk 18 preset (16 perguruan tinggi + 2 jurnal nasional).
 
 ### 2. Perkakas Pemindai Mandiri (`scripts/`)
 - **`scripts/audit.py`**: Skrip CLI auditor berbasis 100% pustaka standar Python (tanpa dependensi luar/zero pip) yang memuat seluruh dataset leksikon, glosarium, dan aturan kampus secara real-time:
@@ -251,7 +253,7 @@ Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menye
 ### 3. Dokumentasi Rujukan & Ekstrak Buku Asli (`references/`)
 - **`references/ekstrak-buku-teks-kemdikbud.md`**: Intisari kaidah dan kunci jawaban resmi dari Buku Siswa Kelas XI (ISBN 978-634-00-0958-3) dan Kelas XII (2024).
 - **`references/buku-ajar-bahasa-indonesia-perguruan-tinggi.md`**: Enam syarat kalimat efektif akademik dari buku ajar UIN Syarif Hidayatullah Jakarta (Suyatno dkk., hlm. 100–107).
-- **`references/panduan-preset-kampus.md`**: Panduan detail penulisan tugas akhir untuk 11 perguruan tinggi Indonesia.
+- **`references/panduan-preset-kampus.md`**: Panduan detail penulisan tugas akhir untuk 16 perguruan tinggi dan 2 jurnal nasional Indonesia.
 - **`references/pedoman-kebahasaan-resmi.md`**: Rangkuman kaidah tata bahasa baku EYD V dan TBBBI Edisi IV.
 - **`references/panduan-gaya-lintas-kalangan.md`**: Karakteristik register 5 domain profesional.
 - **`references/puebi-*.md`**: Empat dokumen resmi PUEBI (kata depan, partikel pun, gabungan kata konfiks, bentuk ulang).

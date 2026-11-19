@@ -272,35 +272,68 @@ def fix_text(content, kalke_dict, glosarium_dict=None, kampus_dict=None, preset=
     for cat_key, cat_val in kalke_dict.get("kategori", {}).items():
         for entry in cat_val.get("entri", []):
             pola = entry.get("pola", "").strip()
-            # Abaikan telaah manual dan pola deskriptif panjang
-            if pola.startswith("[telaah]") or len(pola) > 40:
+            if pola.startswith("[telaah]"):
                 continue
             saran_list = entry.get("saran_pengganti", [])
-            if not saran_list or len(saran_list) == 0:
+            if isinstance(saran_list, str):
+                saran_list = [saran_list]
+            if not saran_list:
                 continue
-            # Ambil saran pertama jika bersih tanpa alternatif / penjelasan kondisional
-            saran_pertama = saran_list[0].strip()
-            if "/" in saran_pertama or "..." in saran_pertama or "[" in saran_pertama or "(" in saran_pertama:
-                continue
-            # Tolak jika saran hanya berupa prefiks terikat yang berakhiran tanda hubung (mis. pasca-)
-            if saran_pertama.endswith("-") or saran_pertama.startswith("-"):
-                continue
-            # Pastikan pola adalah leksikal wajar (kata/frasa pendek)
-            if not re.search(r"^[a-zA-Z0-9\s\-]+$", pola):
-                continue
-            deterministic_map[pola.lower()] = (saran_pertama, entry["id"])
 
-    # Urutkan pola dari yang terpanjang ke terpendek untuk mencegah partial replacement
+            # 1. Pola tunggal pendek 1-ke-1
+            saran_pertama = saran_list[0].strip()
+            if (
+                len(pola) <= 40
+                and not any(c in saran_pertama for c in ("/", "...", "[", "("))
+                and not saran_pertama.endswith("-")
+                and not saran_pertama.startswith("-")
+                and re.match(r"^[a-zA-Z0-9\s\-]+$", pola)
+            ):
+                deterministic_map[pola.lower()] = (saran_pertama, entry["id"])
+                continue
+
+            # 2. Pasangan sejajar dipisahkan '/' khusus kategori kata baku & morfologi
+            if (
+                cat_key == "kata_baku_dan_morfologi"
+                and "/" in pola
+                and not any(c in pola for c in ("(", "[", "...", "*", ":"))
+            ):
+                p_parts = [x.strip() for x in pola.split("/")]
+                if len(saran_list) == len(p_parts):
+                    s_parts = [x.strip() for x in saran_list]
+                elif len(saran_list) == 1 and "/" in saran_list[0]:
+                    s_parts = [x.strip() for x in saran_list[0].split("/")]
+                else:
+                    continue
+                if len(p_parts) == len(s_parts) and len(p_parts) >= 2:
+                    for pp, sp in zip(p_parts, s_parts):
+                        if len(pp) < 3 or len(pp) > 40 or len(sp) > 40:
+                            continue
+                        if len(pp.split()) > 3 or len(sp.split()) > 3:
+                            continue
+                        if any(c in sp for c in ("/", "...", "[", "(", ":")):
+                            continue
+                        if sp.endswith("-") or sp.startswith("-"):
+                            continue
+                        if not re.match(r"^[a-zA-Z0-9\s\-]+$", pp):
+                            continue
+                        if not re.match(r"^[a-zA-Z0-9\s\-]+$", sp):
+                            continue
+                        if pp.lower() == sp.lower():
+                            continue
+                        if pp.lower() not in deterministic_map:
+                            deterministic_map[pp.lower()] = (sp, entry["id"])
+
+    # Urutkan pola dari yang terpanjang ke terpendek & kompilasi sekali
     sorted_patterns = sorted(deterministic_map.keys(), key=len, reverse=True)
+    compiled_fixes = [
+        (re.compile(rf"(?<!\w){re.escape(p)}(?!\w)", re.IGNORECASE), deterministic_map[p][0], deterministic_map[p][1])
+        for p in sorted_patterns
+    ]
 
     for line_idx, line in enumerate(lines, 1):
         modified_line = line
-        for p in sorted_patterns:
-            repl, rule_id = deterministic_map[p]
-            # Cocokkan case-insensitive dengan word boundary
-            esc = re.escape(p)
-            pattern_regex = re.compile(rf"(?<!\w){esc}(?!\w)", re.IGNORECASE)
-
+        for pattern_regex, repl, rule_id in compiled_fixes:
             def make_replacement(match):
                 nonlocal total_fixes
                 orig = match.group(0)

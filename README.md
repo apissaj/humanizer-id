@@ -26,7 +26,7 @@
 
 ---
 
-**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 740 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + sembilan sub-kaidah (lima strata + empat domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
+**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 740 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + sebelas sub-kaidah (lima strata + enam domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
 
@@ -67,6 +67,8 @@ Sejak v2.1.0 panduan editorial dipecah agar hemat konteks agen: induk dimuat dul
 | [skills/humanizer-id-bisnis-korporat](skills/humanizer-id-bisnis-korporat/SKILL.md) | 4 blok: prinsip KISS, surat 5W1H, siaran pers piramida terbalik, jargon bisnis | Memo/proposal/bisnis |
 | [skills/humanizer-id-jurnalistik-media](skills/humanizer-id-jurnalistik-media/SKILL.md) | 4 blok: 7 sifat pers, ekonomi kata Tempo, batas <=20 kata/kalimat, artikel opini | Berita/opini/rilis |
 | [skills/humanizer-id-hukum-regulasi](skills/humanizer-id-hukum-regulasi/SKILL.md) | 3 blok: zona terlarang kontrak/pasal, anti-multimakna, klaim produk realistis | Hukum/regulasi/klaim |
+| [skills/humanizer-id-surat-dinas](skills/humanizer-id-surat-dinas/SKILL.md) | 3 blok: TND 2025, alamat `Yth.`, pasif diri, penutup resmi, `NIP`/`a.n.`, frasa pewara | Surat dinas/protokol |
+| [skills/humanizer-id-teknis-it](skills/humanizer-id-teknis-it/SKILL.md) | 3 blok: zona kode & satuan EYD V, 68 istilah PASTI TI, safeguard serapan, prosedur | Dokumentasi/paper TI |
 | [jurnal/](jurnal/SKILL.md) | Modul jurnal bereputasi: IMRaD, checklist 28 poin, template abstrak/cover letter | Naskah Scopus/SINTA |
 
 Arsip provenance sesi bedah tersimpan di [references/log-integrasi-kaidah.md](references/log-integrasi-kaidah.md) (bukan aturan operasional). Setiap entri kaidah berformat **Pola → Perbaikan → Sebab** dengan sitasi halaman sumber.
@@ -198,8 +200,8 @@ Seluruh kaidah **bukan karangan bebas** — setiap aturan ditelusuri dari dokume
 Dataset terbuka di [data/](data/):
 
 - [data/kalke-indonesia.json](data/kalke-indonesia.json) - 740 entri leksikon kalke, verba ringan, pola antisipatif AI, kaidah morfologi EYD V.
-- [data/glosarium-lintas-bidang.json](data/glosarium-lintas-bidang.json) - 180 padanan istilah baku (Teknologi 68, Bisnis 60, Linguistik 27, Jurnalistik 15, Hukum 10).
-- [data/pedoman-kampus.json](data/pedoman-kampus.json) - preset 16 perguruan tinggi + jurnal dikbud.
+- [data/glosarium-lintas-bidang.json](data/glosarium-lintas-bidang.json) - 200 padanan istilah baku (Teknologi 68, Bisnis 60, Linguistik 27, Jurnalistik 25, Hukum 20).
+- [data/pedoman-kampus.json](data/pedoman-kampus.json) - 18 preset (16 perguruan tinggi + 2 jurnal nasional).
 
 ## Preset Kampus
 
@@ -259,7 +261,7 @@ Bukan. Humanizer ID membersihkan pola tulisan AI agar terbaca manusiawi dan prof
 Ya. CLI auditor 100% pustaka standar Python tanpa dependensi; seluruh kaidah tersimpan lokal di data/ dan references/.
 
 **Apa bedanya dengan alat penyunting naskah AI generik?**
-Humanizer ID khusus bahasa Indonesia: 670 kaidah preskriptif bersumber dokumen resmi dengan nomor halaman, bukan penyaring gaya generik.
+Humanizer ID khusus bahasa Indonesia: 740 kaidah preskriptif bersumber dokumen resmi dengan nomor halaman, bukan penyaring gaya generik.
 
 **Apa itu sub-kaidah (skill)?**
 Folder berisi SKILL.md yang memperdalam satu ranah (ejaan, sintaksis, diksi, wacana, naskah resmi). Sub-kaidah merujuk kaidah induk lewat ID (mis. TBB-021) dan tidak pernah menduplikasinya - menambah satu tak mengubah induk.

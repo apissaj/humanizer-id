@@ -430,6 +430,56 @@
           "asing": "subpoena",
           "baku": "surat panggilan pengadilan",
           "catatan": "Perintah resmi menghadap pengadilan."
+        },
+        {
+          "asing": "addendum",
+          "baku": "adendum / lampiran tambahan",
+          "catatan": "Ketentuan atau pasal tambahan yang mengubah atau melengkapi kontrak pokok (KBBI & PASTI)."
+        },
+        {
+          "asing": "affidavit",
+          "baku": "afidavit / surat pernyataan bersumpah",
+          "catatan": "Pernyataan tertulis di bawah sumpah yang digunakan sebagai alat bukti (KBBI & PASTI)."
+        },
+        {
+          "asing": "amicus curiae",
+          "baku": "sahabat pengadilan",
+          "catatan": "Pihak ketiga yang tidak berperkara tetapi menyampaikan pendapat hukum bagi majelis hakim (PASTI)."
+        },
+        {
+          "asing": "bailout",
+          "baku": "dana talangan",
+          "catatan": "Bantuan keuangan darurat untuk menyelamatkan lembaga dari kepailitan (KBBI & PASTI)."
+        },
+        {
+          "asing": "class action",
+          "baku": "gugatan perwakilan kelompok",
+          "catatan": "Gugatan yang diajukan satu orang atau lebih yang mewakili kepentingan kelompok (PERMA No. 1/2002 & PASTI)."
+        },
+        {
+          "asing": "disclaimer",
+          "baku": "sangkalan / pernyataan pelepasan tanggung jawab",
+          "catatan": "Pernyataan hukum untuk membatasi atau melepaskan tanggung jawab atas isi dokumen/layanan (PASTI)."
+        },
+        {
+          "asing": "injunction",
+          "baku": "putusan sela / perintah larangan pengadilan",
+          "catatan": "Perintah pengadilan untuk menghentikan atau mewajibkan suatu tindakan hukum (PASTI)."
+        },
+        {
+          "asing": "jurisprudence",
+          "baku": "yurisprudensi",
+          "catatan": "Ajaran hukum yang tersusun dari dan dalam peradilan yang berkekuatan hukum tetap (KBBI)."
+        },
+        {
+          "asing": "power of attorney",
+          "baku": "surat kuasa",
+          "catatan": "Dokumen pemberian wewenang hukum dari pemberi kuasa kepada penerima kuasa (PASTI)."
+        },
+        {
+          "asing": "whistleblower",
+          "baku": "pelapor pelanggaran",
+          "catatan": "Pihak internal atau eksternal yang melaporkan dugaan pelanggaran hukum atau etika (PASTI & LPSK)."
         }
       ]
     },
@@ -510,6 +560,56 @@
           "asing": "content creator",
           "baku": "pencipta konten / kreator konten",
           "catatan": "Pinjam terjemah baku (Buletin MABBIM Vol. 15, 2024, hlm. 19)."
+        },
+        {
+          "asing": "anchorman",
+          "baku": "penyiar utama / pembawa berita utama",
+          "catatan": "Pemandu utama program berita televisi atau radio (KBBI & PASTI)."
+        },
+        {
+          "asing": "byline",
+          "baku": "baris nama penulis",
+          "catatan": "Baris kredit yang mencantumkan nama wartawan atau penulis artikel (PASTI)."
+        },
+        {
+          "asing": "deadline",
+          "baku": "tenggat",
+          "catatan": "Batas waktu penyerahan naskah atau penayangan berita (KBBI & Pedoman Bahasa Pers)."
+        },
+        {
+          "asing": "embargo",
+          "baku": "larangan siar sementara",
+          "catatan": "Kesepakatan menunda penyiaran berita hingga waktu yang ditentukan narasumber (PASTI)."
+        },
+        {
+          "asing": "feature",
+          "baku": "karangan khas",
+          "catatan": "Tulisan jurnalistik bernuansa mendalam dan humanis di luar berita lempang (KBBI & PASTI)."
+        },
+        {
+          "asing": "headline",
+          "baku": "tajuk utama / kepala berita",
+          "catatan": "Judul berita utama halaman muka surat kabar atau portal berita (KBBI & PASTI)."
+        },
+        {
+          "asing": "infographic",
+          "baku": "infografik",
+          "catatan": "Penyajian data atau berita dalam bentuk visual grafis terpadu (KBBI)."
+        },
+        {
+          "asing": "live streaming",
+          "baku": "siaran langsung daring",
+          "catatan": "Penyiaran audio-video secara waktu nyata melalui jaringan internet (PASTI)."
+        },
+        {
+          "asing": "press release",
+          "baku": "siaran pers",
+          "catatan": "Keterangan tertulis resmi lembaga yang diedarkan kepada media massa (KBBI & PASTI)."
+        },
+        {
+          "asing": "prime time",
+          "baku": "jam tayang utama",
+          "catatan": "Rentang waktu penyiaran dengan jumlah pemirsa tertinggi (PASTI)."
         }
       ],
       "kaidah_ekonomi_kata": [

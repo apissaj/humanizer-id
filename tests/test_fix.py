@@ -46,6 +46,28 @@ class TestAutofix(unittest.TestCase):
         self.assertEqual(fixed, sample)
         self.assertEqual(count, 0)
 
+    def test_fix_slash_paired_lexical_rules(self):
+        """Pasangan leksikal 1-ke-1 dipisahkan '/' pada kategori kata baku wajib diperbaiki otomatis."""
+        sample = "Mahasiswa cendrung menulis defenisi dikelas, keikut sertaan mereka memperngaruhi rapat sambil ketawa."
+        fixed, count, logs = fix_text(sample, self.kalke, self.glos)
+        self.assertIn("cenderung", fixed)
+        self.assertIn("definisi", fixed)
+        self.assertIn("di kelas", fixed)
+        self.assertIn("keikutsertaan", fixed)
+        self.assertIn("memengaruhi", fixed)
+        self.assertIn("tertawa", fixed)
+        self.assertEqual(count, 6)
+
+    def test_fix_zero_false_changes_on_clean_corpus(self):
+        """Korpus negatif baku wajib tidak mengalami perubahan satupun oleh fix_text."""
+        import json
+        neg_path = os.path.join(os.path.dirname(__file__), "corpus_negative.json")
+        with open(neg_path, "r", encoding="utf-8") as f:
+            neg = json.load(f)
+        for sent in neg["kalimat"]:
+            fixed, count, logs = fix_text(sent, self.kalke, self.glos)
+            self.assertEqual(count, 0, f"Autofix mengubah kalimat baku: {sent} -> {fixed} ({logs})")
+
 
 if __name__ == "__main__":
     unittest.main()

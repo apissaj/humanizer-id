@@ -266,7 +266,12 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
 
 - **Singkatan dinas & jenjang (TND 2025; SPE 2025):** tulis `NIP 19...` tanpa titik; `a.n.`, `Plt.`, `Plh.` wajib bertitik; jenjang pendidikan `S-1`, `S-2`, `S-3`, `D-3`, `D-4`; hindari `ke-` + Romawi (`angkatan XI`).
 - **Gabungan kata berimbuhan tunggal (SPE 2025):** imbuhan tunggal tetap terpisah (`tanda tangani`, `sebar luaskan`, `garis bawahi`, `penanggung jawab`, `kami beri tahukan`); berkonfiks serangkai (`pertanggungjawaban`).
-- **Kalimat dinas & korelatif (TND 2025; SPK 2025):** hindari `memberitahukan kepada ... bahwa`, `Bagi semua ... menyerahkan`, `walaupun/meskipun ..., namun ...`, `disebabkan/dikarenakan terjadinya`, dan `saling ber-...-an`.
+- **Kalimat dinas & korelatif (TND 2025; SPK 2025):** hindari `memberitahukan kepada ... bahwa`, `Bagi semua ... menyerahkan`, `walaupun/meskipun ..., namun ...`, `disebabkan/dikarenakan terjadinya`, `saling ber-...-an`, serta `Maka dengan ini` di awal kalimat atau induk kalimat.
+- **EYD V, TBBBI Ed. 4 & 4 Domain Spesifik (Skripsi, Bisnis, Jurnalistik, Hukum):**
+  - Ejaan & tipografi: pisahkan bilangan dan satuan ukur (`50 cm`, `15 m`), gabungkan klitika `-nya` (`banyaknya`, bukan *banyak nya*), hapus spasi sekitar tanda hubung kata ulang (`hal-hal`, bukan *hal - hal*), tulis bilangan 1–2 kata di awal kalimat dengan huruf (`Lima puluh siswa...`), serta kapitalkan hanya kata pertama salam surat (`Dengan hormat,`, `Hormat kami,`).
+  - Sintaksis TBBBI Ed. 4: larang `-kah` di belakang pertanyaan S-P berawalan `Yang ...` (`Apakah yang dibeli...?`), larang `Tetapi` mengawali kalimat baru (`Akan tetapi,`), larang `para anak/orang/manusia`, larang posesif `ia` (`istrinya`, bukan *istri ia*), dan bedakan diatesis `-i` vs `-kan` (`ditugasi pekerjaan` / `pekerjaan itu ditugaskan kepada`).
+  - Pemadanan istilah (Baharman UNM): bila padanan Indonesia tersedia, sebutkan bentuk Indonesia dahulu lalu istilah asing bercetak miring dalam kurung (`paparan risiko (*exposure*)`, bukan sebaliknya).
+  - Domain spesifik: **Skripsi** (pisahkan Simpulan vs Saran, patuhi 18 preset kampus); **Bisnis** (prinsip KISS, surat 5W1H, piramida terbalik); **Jurnalistik** (7 sifat bahasa pers, batas 17–20 kata/kalimat, hapus *Ini X melaporkan dari Y*); **Hukum** (jangan ubah pasal/klausul kontrak, hindari klaim produk takrealistis).
 
 ### Format Keluaran Wajib (Diff Beranotasi):
 1. **Informasi Mode:** Tuliskan mode yang digunakan (misal: `[Mode: Akademik Ketat]`).

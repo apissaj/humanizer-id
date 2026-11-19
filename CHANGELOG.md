@@ -4,6 +4,26 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Ekspansi Autofix, 200 Istilah Glosarium, 11 Sub-Skill Domain & 3 Studi Kasus Baru
+
+- **Perluasan autofix deterministik (`humanizer_id/engine.py`, `tests/test_fix.py`):**
+  - `fix_text()` kini membongkar pasangan leksikal 1-ke-1 berpemisah garis miring (`/`) pada kategori `kata_baku_dan_morfologi` serta mengompilasi pola sekali di luar loop baris — cakupan autofix meningkat dari **336 -> 733 aturan deterministik** (`+397`) dengan **0 perubahan palsu** pada korpus bersih (`corpus_negative.json` + seluruh 740 `contoh_benar`).
+  - Ditambahkan 2 pengujian unit baru di `tests/test_fix.py` (`test_fix_slash_paired_lexical_rules` dan `test_fix_zero_false_changes_on_clean_corpus`).
+- **200 padanan glosarium lintas bidang (`data/glosarium-lintas-bidang.json`):**
+  - `hukum_dan_regulasi` diperluas **10 -> 20** (+10: `addendum`, `affidavit`, `amicus curiae`, `bailout`, `class action`, `disclaimer`, `injunction`, `jurisprudence`, `power of attorney`, `whistleblower`).
+  - `jurnalistik_dan_media` diperluas **15 -> 25** (+10: `anchorman`, `byline`, `deadline`, `embargo`, `feature`, `headline`, `infographic`, `live streaming`, `press release`, `prime time`).
+  - Total glosarium kini **200 istilah** (Teknologi 68, Bisnis 60, Linguistik 27, Jurnalistik 25, Hukum 20), tersinkronisasi identik dengan `humanizer_id/data/glosarium-lintas-bidang.json`.
+- **2 sub-skill domain baru (`9 -> 11` sub-skill: 5 strata + 6 domain):**
+  - `skills/humanizer-id-surat-dinas/SKILL.md` (TND 2025, alamat `Yth.`, salam/penutup resmi, pasif diri, `NIP`/`a.n.`, frasa pewara bernalar).
+  - `skills/humanizer-id-teknis-it/SKILL.md` (zona terlarang kode & satuan EYD V, 68 istilah PASTI TI, safeguard serapan baku, prosedur & paper teknik).
+  - Tabel rute di `SKILL.md`, `README.md`, serta `tests/test_installer.py` (`9 -> 11`) diperbarui.
+- **3 studi kasus domain baru di `examples/` (`6 -> 9` contoh, reduksi 100%):**
+  - `examples/surat-dinas-korporat.md` (`16 -> 0` temuan)
+  - `examples/artikel-jurnalistik-opini.md` (`13 -> 0` temuan)
+  - `examples/ringkasan-hukum-regulasi.md` (`9 -> 0` temuan)
+- **Sinkronisasi dokumentasi & `PROMPT.md`:**
+  - `SKILL.md` dan `README.md` diselaraskan ke angka terkini (740 kaidah, 200 istilah glosarium, 18 preset, 11 sub-skill); `PROMPT.md` diperbarui dengan ringkasan EYD V, TBBBI Ed. 4, TND 2025, urutan padanan Baharman, dan panduan 4 domain.
+
 ### 740 kaidah + 180 istilah glosarium
 
 Bedah lanjutan *Bahan Penyuluhan Tata Naskah Dinas* (Karenisa dkk., Badan Bahasa 2025) dan buku ajar perguruan tinggi (Halimah dkk. 2020; Ifnaldi 2021; UNJA) (Siklus 37–38):
