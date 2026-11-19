@@ -70,3 +70,10 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 
 1. **Pola:** *kenapa* → **Perbaikan:** *mengapa* — **Sebab:** dalam teks formal, laporan resmi, dan karya ilmiah, kata tanya kausatif baku adalah *mengapa* (SRT-007); *kenapa* ragam percakapan santai (hlm. 55).
 2. **Pola:** *haturkan terima kasih* / *menghaturkan puji syukur* → **Perbaikan:** *ucapkan terima kasih* / *sampaikan terima kasih* — **Sebab:** bentuk *haturkan/menghaturkan* (SRT-008) tidak baku dalam bahasa Indonesia resmi (hlm. 52).
+
+---
+
+### BO. Bagian Pelengkap Buku & Penyuntingan Naskah (Untoro dkk., Badan Bahasa 2023/2024, `PPN-005`)
+
+1. **Pola:** menukar penamaan **Kata Pengantar**, **Sambutan**, **Prakata**, dan **Sekapur Sirih** → **Perbaikan:** bedakan sesuai penulisnya: **Kata Pengantar** ditulis orang lain/pimpinan (≤1 hlm.), **Sambutan** ditulis pemangku kepentingan di atas penulis Kata Pengantar, **Prakata** ditulis penulis buku sendiri, dan **Sekapur Sirih** adalah prakata khusus karya sastra (`PPN-005`, hlm. 84–88).
+2. **Pola:** judul buku memakai bentuk ulang berimbuhan kapital di kedua unsur (*Saat Lily Berjalan-Jalan*) → **Perbaikan:** hanya bentuk ulang utuh yang dikapitalkan kedua unsurnya (*Orang-Orang Pemberani*), sedangkan bentuk ulang berimbuhan tidak (*Saat Lily Berjalan-jalan*) (`PPN-005`, hlm. 62).

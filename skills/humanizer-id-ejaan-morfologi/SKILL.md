@@ -343,3 +343,12 @@ Sub-kaidah Humanizer ID. Muat berkas ini setelah `humanizer-id` (induk) menentuk
 1. **Pola:** *keikut sertaan, legitimate, cendikia, cendikiawan, memperngaruhi* → **Perbaikan:** *keikutsertaan, legitimasi, cendekia, cendekiawan, memengaruhi* — **Sebab:** konfiks penuh serangkai, serapan baku, vokal *e* kedua pada *cendekia*, serta peluluhan fonem *p* (`TMS-052`) (Karenisa dkk. 2025, hlm. 27, 30; Ifnaldi 2021; UNJA).
 2. **Pola:** *ngail, ngantuk, nabrak, nulis, nyubit, nyabut, nyari, nyuap, nolak, nanam, ketawa* → **Perbaikan:** *mengail, mengantuk, menabrak, menulis, mencubit, mencabut, mencari, menyuap, menolak, menanam, tertawa* — **Sebab:** penyengauan ragam tutur lisan tanpa awalan *meN-* maupun awalan daerah *ke-* dilarang masuk tulisan formal (`RGM-002`) (Halimah dkk. 2020, hlm. 110–111).
 3. **Pola:** *50 siswa teladan... / 3 pemenang...* di awal kalimat → **Perbaikan:** *Lima puluh siswa teladan... / Tiga pemenang...* — **Sebab:** bilangan satu atau dua kata pada posisi awal kalimat wajib ditulis dengan huruf (`UIN-011`) (Halimah dkk. 2020, hlm. 61; EYD V).
+
+---
+
+### CX. Pedoman Penyuntingan Naskah Badan Bahasa 2023/2024 (Untoro dkk., Siklus 39)
+
+1. **Pola:** tanda tanya dan tanda seru ganda atau berulang (*Apa?!*, *Awas!!!*, *Siapa???*) → **Perbaikan:** pilih satu tanda baca sesuai intonasi (*Apa?*, *Awas!*, *Siapa?*) — **Sebab:** penggabungan dan pengulangan tanda tanya/seru melanggar kaidah tanda baca baku (`PPN-001`, hlm. 64–65).
+2. **Pola:** kapitalisasi kata kekerabatan berpewatas (*Pamanku*, *Paman Itu*, *Ibuku*, *Bapaknya* di tengah kalimat) → **Perbaikan:** *pamanku*, *paman itu*, *ibuku*, *bapaknya* — **Sebab:** kata kekerabatan berpewatas posesif/demonstrativa ditulis nonkapital (`PPN-002`, hlm. 60–61; EYD V).
+3. **Pola:** kapitalisasi kata sandang *Si* / *Sang* di tengah kalimat/judul bukan unsur Tuhan (*Teladan Si Kambing*, *Rumah Sang Harimau*) → **Perbaikan:** *si Kambing*, *sang Harimau* (kapital hanya untuk *Sang Pencipta* / *Sang Hyang*) — **Sebab:** *si* dan *sang* adalah kata tugas (`PPN-003`, hlm. 62–63).
+4. **Pola:** ungkapan terbata-bata memakai tanda hubung (*Si-si-siapa namamu?*) → **Perbaikan:** gunakan elipsis berspasi (*Si ... si ... siapa namamu?*) — **Sebab:** kaidah penyuntingan ungkapan terputus-putus (`PPN-004`, hlm. 65).

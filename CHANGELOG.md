@@ -4,6 +4,16 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah *Pedoman Penyuntingan Naskah* Badan Bahasa 2023/2024 (`750 -> 755` kaidah, Siklus 39)
+
+- **Setyo Untoro dkk. (*Pedoman Penyuntingan Naskah Cerita Anak*, Pusat Pembinaan Bahasa dan Sastra, Badan Bahasa 2023/2024, ISBN 978-623-118-861-8):**
+  - `PPN-001` — larangan tanda tanya/seru ganda atau berulang (`?!`, `!?`, `???`, `!!!`, hlm. 64–65).
+  - `PPN-002` — kapitalisasi nonkapital kata kekerabatan berpewatas posesif/demonstrativa (`pamanku`, `paman itu`, `ibuku`, `bapaknya`, hlm. 60–61; EYD V).
+  - `PPN-003` — kata sandang `si`/`sang` nonkapital di tengah kalimat/judul kecuali unsur nama Tuhan (`Sang Pencipta`, hlm. 62–63).
+  - `PPN-004` — ungkapan terbata-bata memakai elipsis berspasi (`Si ... si ... siapa`), bukan tanda hubung berulang (`Si-si-siapa`, hlm. 65).
+  - `PPN-005` (`[telaah]`) — bentuk ulang berimbuhan pada judul (`Berjalan-jalan`), konsistensi sudut pandang pronomina paragraf, dan pembedaan resmi *Kata Pengantar*, *Sambutan*, *Prakata*, dan *Sekapur Sirih* (hlm. 62, 70, 73–76, 84–88).
+- Referensi baru: `references/pedoman-penyuntingan-naskah-badan-bahasa-2024.md`; Blok `CX` ditambahkan ke `skills/humanizer-id-ejaan-morfologi/SKILL.md` dan Blok `BO` ke `skills/humanizer-id-naskah-resmi/SKILL.md`.
+
 ### Integrasi *Wikipedia:Signs of AI writing* (*WP:AISIGNS*) & Tipografi EYD V (`740 -> 750` kaidah)
 
 - **10 kaidah baru (`AIS-001`..`AIS-010`) di `data/kalke-indonesia.json` + 8 regex aktif di `humanizer_id/matchers.py`:**

@@ -123,11 +123,11 @@ Kaidah editorial lanjutan terbagi ke **empat belas berkas sub-skill** di folder 
 
 | Strata | Berkas | Cakupan |
 |---|---|---|
-| Ejaan, morfologi & bentuk baku | `skills/humanizer-id-ejaan-morfologi/SKILL.md` | EYD V lengkap, PUEBI, peluluhan fonem, gabungan kata, bentuk terikat, unsur serapan (29 blok kaidah) |
+| Ejaan, morfologi & bentuk baku | `skills/humanizer-id-ejaan-morfologi/SKILL.md` | EYD V lengkap, PUEBI, peluluhan fonem, gabungan kata, bentuk terikat, unsur serapan (30 blok kaidah) |
 | Sintaksis & kalimat efektif | `skills/humanizer-id-sintaksis/SKILL.md` | Kesejajaran predikat, konjungsi korelatif, kalimat efektif, kalimat partisipial, klitika (30 blok kaidah) |
 | Diksi, pleonasme & istilah | `skills/humanizer-id-diksi-istilah/SKILL.md` | Pilihan kata, peristilahan PUPI, padanan lintas bidang, salah kaprah, diksi preskriptif (20 blok kaidah) |
 | Wacana & retorika | `skills/humanizer-id-wacana-retorika/SKILL.md` | Kohesi-koherensi paragraf, sitasi terajut, hedging epistemik, tanda tulisan AI (`WP:AISIGNS`), ragam opini (19 blok kaidah) |
-| Naskah resmi & metadata jurnal | `skills/humanizer-id-naskah-resmi/SKILL.md` | Bahasa pewara, surat dinas, penerbitan buku BRIN, proporsi IMRaD, penyajian data visual (6 blok kaidah) |
+| Naskah resmi & metadata jurnal | `skills/humanizer-id-naskah-resmi/SKILL.md` | Bahasa pewara, surat dinas, penerbitan buku BRIN, bagian pelengkap buku, proporsi IMRaD, penyajian data visual (7 blok kaidah) |
 
 ### Rute Domain Spesifik
 

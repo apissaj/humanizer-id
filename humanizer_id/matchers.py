@@ -1657,3 +1657,19 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith(" —  (tanda pisah"),
      [re.compile(r"\s—\s")]),
 ])
+
+# --- Kaidah Pedoman Penyuntingan Naskah Badan Bahasa 2023/2024 (Untoro dkk., PPN-001..004) ---
+CUSTOM_RULES.extend([
+    # PPN-001: tanda tanya dan tanda seru ganda atau berulang (hlm. 64-65)
+    (lambda p: p.startswith("?! / !? / ??? / !!!"),
+     [re.compile(r"(?:\?!|!\?|\?{2,}|!{2,})")]),
+    # PPN-002: kapitalisasi keliru kata kekerabatan berpewatas posesif/demonstrativa (hlm. 60-61)
+    (lambda p: p.startswith("Pamanku / Paman Itu /"),
+     [re.compile(r"(?<=[a-z,]\s)(?:(?:Bapak|Ibu|Kakak|Adik|Paman|Bibi|Kakek|Nenek)(?:ku|mu|nya)|(?:Bapak|Ibu|Kakak|Adik|Paman|Bibi|Kakek|Nenek)\s+(?:Itu|Ini|itu|ini))\b")]),
+    # PPN-003: kapitalisasi keliru kata sandang Si/Sang bukan unsur nama Tuhan (hlm. 62-63)
+    (lambda p: p.startswith("Si [Nama] / Sang [Nama]"),
+     [re.compile(r"(?<=[a-z])\s+(?:Si|Sang)\s+(?!Pencipta\b|Hyang\b|Kuasa\b|Maha\w*\b|Kholik\b|Khaliq\b|Ilahi\b)[A-Z][a-z]+")]),
+    # PPN-004: ungkapan terbata-bata memakai tanda hubung alih-alih elipsis (hlm. 65)
+    (lambda p: p.startswith("Si-si-siapa / A-a-aku"),
+     [re.compile(r"(?i)\b([a-z]{1,3})-\1-\1[a-z]+\b")]),
+])

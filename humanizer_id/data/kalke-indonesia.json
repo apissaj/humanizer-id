@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 750
+    "total_entri": 755
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3948,6 +3948,18 @@
           "penjelasan": "Pengulangan mekanis daftar tiga kata sifat di setiap paragraf, penebalan kepala tiap butir daftar, kapitalisasi seluruh kata di subjudul ala Inggris, serta emoji pada dokumen formal menjadi ciri kuat teks mentah LLM (WP:AISIGNS; EYD V; Eneste, Penyuntingan Naskah).",
           "contoh_salah": "Solusi ini cepat, akurat, dan terpercaya. Strategi Yang Efektif Untuk Masa Depan 🚀",
           "contoh_benar": "Solusi ini memproses 1.200 transaksi per detik dengan galat 0,02%. Strategi yang Efektif untuk Masa Depan"
+        },
+        {
+          "id": "PPN-005",
+          "pola": "[telaah] kaidah penyuntingan naskah & bagian pelengkap buku (judul ulang berimbuhan, konsistensi pronomina, Kata Pengantar vs Sambutan vs Prakata vs Sekapur Sirih)",
+          "asal_frasa": "Pedoman Penyuntingan Naskah Cerita Anak (Untoro dkk., Badan Bahasa 2023/2024, hlm. 62, 70, 73-76, 84-88)",
+          "saran_pengganti": [
+            "Bentuk ulang berimbuhan pada judul: Berjalan-jalan (bukan Berjalan-Jalan)",
+            "Jaga konsistensi pronomina sudut pandang dalam paragraf; bedakan Kata Pengantar (pimpinan/orang lain), Sambutan (pimpinan lebih tinggi), Prakata (penulis), dan Sekapur Sirih (prakata karya sastra)"
+          ],
+          "penjelasan": "Pedoman resmi Badan Bahasa (ISBN 978-623-118-861-8) menetapkan aturan kapitalisasi bentuk ulang berimbuhan pada judul, pelesapan subjek ganda anak kalimat, pemisahan paragraf dialog antartokoh, konsistensi pronomina, serta pembedaan tegas empat jenis pengantar buku.",
+          "contoh_salah": "Saat Lily Berjalan-Jalan. Prakata ditulis oleh menteri.",
+          "contoh_benar": "Saat Lily Berjalan-jalan. Kata Pengantar ditulis oleh menteri, sedangkan Prakata ditulis oleh penulis buku."
         }
       ]
     },
@@ -9272,9 +9284,57 @@
           "penjelasan": "Bilangan pada awal kalimat yang dapat dinyatakan dengan satu atau dua kata wajib ditulis dengan huruf, bukan angka Arab (Halimah dkk., UIN Alauddin 2020, hlm. 61; EYD V).",
           "contoh_salah": "50 siswa teladan menerima beasiswa daerah. 3 pemenang lomba diundang ke ibu kota.",
           "contoh_benar": "Lima puluh siswa teladan menerima beasiswa daerah. Tiga pemenang lomba diundang ke ibu kota."
+        },
+        {
+          "id": "PPN-001",
+          "pola": "?! / !? / ??? / !!! (tanda tanya dan tanda seru ganda atau berulang)",
+          "asal_frasa": "Pedoman Penyuntingan Naskah Cerita Anak (Untoro dkk., Badan Bahasa 2023/2024, hlm. 64-65)",
+          "saran_pengganti": [
+            "?",
+            "!"
+          ],
+          "penjelasan": "Tanda tanya dan tanda seru tidak boleh dipakai sekaligus (?! / !?) atau ditulis lebih dari satu (??? / !!!); pilih satu tanda baca sesuai intonasi kalimat (Untoro dkk., Badan Bahasa 2023, hlm. 64-65).",
+          "contoh_salah": "Apa katamu??? Awas ada ular?!",
+          "contoh_benar": "Apa katamu? Awas ada ular!"
+        },
+        {
+          "id": "PPN-002",
+          "pola": "Pamanku / Paman Itu / Ibuku / Bapaknya (kapitalisasi keliru kata kekerabatan berpewatas)",
+          "asal_frasa": "Pedoman Penyuntingan Naskah Cerita Anak (Untoro dkk., Badan Bahasa 2023/2024, hlm. 60-61; EYD V)",
+          "saran_pengganti": [
+            "pamanku / paman itu",
+            "ibuku / bapaknya"
+          ],
+          "penjelasan": "Sesuai EYD V, kata kekerabatan ditulis dengan huruf awal nonkapital apabila disertai pewatas artikula, demonstrativa (itu/ini), pronomina posesif (-ku/-mu/-nya), atau numeralia (Untoro dkk., Badan Bahasa 2023, hlm. 60-61).",
+          "contoh_salah": "Sudah dua tahun Pamanku dan Paman Itu mengajar di sana.",
+          "contoh_benar": "Sudah dua tahun pamanku dan paman itu mengajar di sana."
+        },
+        {
+          "id": "PPN-003",
+          "pola": "Si [Nama] / Sang [Nama] (kapitalisasi keliru kata sandang bukan unsur Tuhan)",
+          "asal_frasa": "Pedoman Penyuntingan Naskah Cerita Anak (Untoro dkk., Badan Bahasa 2023/2024, hlm. 62-63; EYD V)",
+          "saran_pengganti": [
+            "si [Nama]",
+            "sang [Nama] (kapital hanya untuk Sang Pencipta/Sang Hyang)"
+          ],
+          "penjelasan": "Kata sandang si dan sang termasuk kata tugas sehingga ditulis nonkapital di tengah kalimat maupun judul, kecuali sang yang menjadi unsur nama Tuhan seperti Sang Pencipta (Untoro dkk., Badan Bahasa 2023, hlm. 62-63).",
+          "contoh_salah": "Kisah teladan Si Kambing Kecil dan rumah Sang Harimau.",
+          "contoh_benar": "Kisah teladan si Kambing Kecil dan rumah sang Harimau yang berserah kepada Sang Pencipta."
+        },
+        {
+          "id": "PPN-004",
+          "pola": "Si-si-siapa / A-a-aku (ungkapan terbata-bata memakai tanda hubung alih-alih elipsis)",
+          "asal_frasa": "Pedoman Penyuntingan Naskah Cerita Anak (Untoro dkk., Badan Bahasa 2023/2024, hlm. 65)",
+          "saran_pengganti": [
+            "Si ... si ... siapa",
+            "A ... a ... aku"
+          ],
+          "penjelasan": "Ungkapan yang terbata-bata atau terputus-putus dituliskan menggunakan tanda elipsis berspasi (...), bukan tanda hubung berulang (Untoro dkk., Badan Bahasa 2023, hlm. 65).",
+          "contoh_salah": "Si-si-siapa namamu?",
+          "contoh_benar": "Si ... si ... siapa namamu?"
         }
       ]
     }
   },
-  "total_entri": 750
+  "total_entri": 755
 }
