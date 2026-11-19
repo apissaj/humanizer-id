@@ -4,6 +4,14 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah 3 Modul SMA XI Kemendikbud 2020: Karya Ilmiah, Proposal & Makalah (`770 -> 773` kaidah, Siklus 44)
+
+- **Direktorat SMA Kemendikbud (2020, Repositori ID 19576, 19575, 19802):**
+  - `KTI-002` (`[telaah]`) — 9 ciri kebahasaan karya ilmiah (impersonal, denotatif bebas konotasi/kiasan, eksplisit, kata kerja mental objektif, hlm. 17–19).
+  - `KTI-003` (`[telaah]`) — 8 ciri kebahasaan proposal (argumentatif berbasis bukti, persuasif terukur, verba tindakan metodologis, penanda keakanan/perencanaan, bebas kiasan, hlm. 9–11).
+  - `KTI-004` (`[telaah]`) — pembatasan ruang lingkup topik makalah, pemilahan data primer vs sekunder, dan swasunting struktur + ejaan sebelum publikasi (hlm. 7–8).
+- Referensi baru: `references/modul-sma-xi-karya-ilmiah-proposal-makalah-2020.md`.
+
 ### Bedah *Modul CPNS Surat Dinas* (Sriyanto 2018) & Lanjutan *Pengayaan Kaidah* 2017 (`765 -> 770` kaidah, `211 -> 212` glosarium, Siklus 43)
 
 - **Drs. Sriyanto, M.M., M.Pd. (*Penggunaan Bahasa Indonesia dalam Surat Dinas*, Pusdiklat Kemendikbud 2018, hlm. 52–53, 59):**

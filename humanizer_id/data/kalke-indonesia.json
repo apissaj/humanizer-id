@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 770
+    "total_entri": 773
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4112,6 +4112,42 @@
           "penjelasan": "Jika kop surat sudah memuat nama kota instansi, nama kota tidak perlu diulang sebelum tanggal; tanggal tidak disingkat; dan kata Tembusan tidak dicantumkan bila tidak ada pihak yang ditembusi (Sriyanto, 2018, hlm. 52, 59).",
           "contoh_salah": "Bandung, 31-04-2018. Tembusan: -",
           "contoh_benar": "31 April 2018"
+        },
+        {
+          "id": "KTI-002",
+          "pola": "[telaah] ciri kebahasaan karya ilmiah (impersonal, denotatif, eksplisit, kata kerja mental objektif)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XI: Merancang Karya Ilmiah KD 3.14 & 3.15 (Direktorat SMA Kemendikbud 2020, hlm. 17-19)",
+          "saran_pengganti": [
+            "Gunakan sudut pandang impersonal (penulis/peneliti/pasif), hindari aku/kamu",
+            "Gunakan makna denotatif-eksplisit bebas konotasi/kiasan dan kata kerja mental objektif (diduga, dianalisis, dipahami)"
+          ],
+          "penjelasan": "Karya ilmiah mensyaratkan sudut pandang impersonal, kelugasan denotatif tanpa makna ganda atau konotasi emosional, kepastian istilah keilmuan, dan kata kerja mental yang terukur (Modul Karya Ilmiah Kelas XI, Kemendikbud 2020, hlm. 17-19).",
+          "contoh_salah": "Aku melihat persoalan ini seperti gunung es yang panas membara di dunia pendidikan kita.",
+          "contoh_benar": "Penelitian ini menganalisis penurunan tingkat literasi siswa di tiga sekolah sasaran berdasarkan data asesmen 2024."
+        },
+        {
+          "id": "KTI-003",
+          "pola": "[telaah] ciri kebahasaan proposal (argumentatif, persuasif terukur, verba tindakan, keakanan, bebas kiasan)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XI: Merancang Proposal (Direktorat SMA Kemendikbud 2020, hlm. 9-11)",
+          "saran_pengganti": [
+            "Gunakan pernyataan argumentatif berbasis alasan/bukti, verba tindakan metodologis (mengamati, mendokumentasikan), dan penanda rencana/keakanan (akan, direncanakan)",
+            "Hindari bahasa kiasan agar tidak menimbulkan salah paham antara pengusul dan penerima proposal"
+          ],
+          "penjelasan": "Proposal penelitian atau kegiatan wajib memadukan argumen berbasis bukti, verba tindakan konkret, penanda pendefinisian/perincian, dan kata perencanaan yang denotatif (Modul Proposal Kelas XI, Kemendikbud 2020, hlm. 9-11).",
+          "contoh_salah": "Kegiatan ini pasti akan menyalakan api semangat revolusioner bagi seluruh generasi muda.",
+          "contoh_benar": "Kegiatan ini direncanakan melatih 60 siswa dalam teknik penulisan laporan hasil observasi selama dua hari."
+        },
+        {
+          "id": "KTI-004",
+          "pola": "[telaah] pembatasan topik makalah, pemilahan data primer/sekunder & swasunting sebelum publikasi",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa dan Sastra Indonesia Kelas XI: Menganalisis Makalah (Direktorat SMA Kemendikbud 2020, hlm. 7-8)",
+          "saran_pengganti": [
+            "Batasi ruang lingkup topik agar pembahasan terarah dan mendalam (tidak terlalu luas/dangkal)",
+            "Pastikan setiap catatan kutipan terhubung ke daftar pustaka dan lalui tahap swasunting struktur serta ejaan sebelum publikasi"
+          ],
+          "penjelasan": "Topik makalah yang terlalu luas menyebabkan pembahasan dangkal; setiap makalah wajib membedakan sumber primer/sekunder dan melalui penyuntingan struktur serta ejaan sebelum disebarluaskan (Modul Menganalisis Makalah Kelas XI, Kemendikbud 2020, hlm. 7-8).",
+          "contoh_salah": "Makalah ini membahas seluruh masalah pendidikan, ekonomi, dan teknologi di Indonesia secara menyeluruh.",
+          "contoh_benar": "Makalah ini membatasi kajian pada efektivitas penggunaan kamus daring terhadap ketepatan ejaan esai siswa kelas XI."
         }
       ]
     },
@@ -9510,5 +9546,5 @@
       ]
     }
   },
-  "total_entri": 770
+  "total_entri": 773
 }
