@@ -26,7 +26,7 @@
 
 ---
 
-**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 740 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + empat belas sub-kaidah (lima strata + sembilan domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
+**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 750 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + empat belas sub-kaidah (lima strata + sembilan domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
 
@@ -59,7 +59,7 @@ Sejak v2.1.0 panduan editorial dipecah agar hemat konteks agen: induk dimuat dul
 |-------|---------|------------|
 | **`SKILL.md`** (induk) | Aturan integritas ilmiah, pengecualian dokumen, 4 mode eksekusi, eliminasi penyakit AI leksikal, tabel rute, Delivery Gate | Semua naskah. Selalu dimuat |
 | [skills/humanizer-id-sintaksis](skills/humanizer-id-sintaksis/SKILL.md) | 24 blok: kesejajaran, korelatif, kalimat efektif, kalimat partisipial, morfofonemik verba | Naskah berkalimat cacat |
-| [skills/humanizer-id-wacana-retorika](skills/humanizer-id-wacana-retorika/SKILL.md) | 18 blok: kohesi paragraf, sitasi terajut, hedging epistemik | Naskah alur lemah |
+| [skills/humanizer-id-wacana-retorika](skills/humanizer-id-wacana-retorika/SKILL.md) | 19 blok: kohesi paragraf, sitasi terajut, hedging epistemik, tanda tulisan AI (`WP:AISIGNS`) | Naskah alur lemah |
 | [skills/humanizer-id-ejaan-morfologi](skills/humanizer-id-ejaan-morfologi/SKILL.md) | 22 blok: EYD V lengkap, PUEBI, peluluhan fonem, gabungan kata, unsur serapan | Naskah ejaan/imbuhan |
 | [skills/humanizer-id-diksi-istilah](skills/humanizer-id-diksi-istilah/SKILL.md) | 14 blok: pilihan kata, peristilahan PUPI, padanan lintas bidang | Naskah istilah teknis |
 | [skills/humanizer-id-naskah-resmi](skills/humanizer-id-naskah-resmi/SKILL.md) | 6 blok: bahasa pewara, surat dinas, metadata jurnal | Naskah resmi/dinas |
@@ -202,7 +202,7 @@ Seluruh kaidah **bukan karangan bebas** — setiap aturan ditelusuri dari dokume
 
 Dataset terbuka di [data/](data/):
 
-- [data/kalke-indonesia.json](data/kalke-indonesia.json) - 740 entri leksikon kalke, verba ringan, pola antisipatif AI, kaidah morfologi EYD V.
+- [data/kalke-indonesia.json](data/kalke-indonesia.json) - 750 entri leksikon kalke, verba ringan, pola antisipatif & *WP:AISIGNS*, kaidah morfologi EYD V.
 - [data/glosarium-lintas-bidang.json](data/glosarium-lintas-bidang.json) - 200 padanan istilah baku (Teknologi 68, Bisnis 60, Linguistik 27, Jurnalistik 25, Hukum 20).
 - [data/pedoman-kampus.json](data/pedoman-kampus.json) - 18 preset (16 perguruan tinggi + 2 jurnal nasional).
 
@@ -264,7 +264,7 @@ Bukan. Humanizer ID membersihkan pola tulisan AI agar terbaca manusiawi dan prof
 Ya. CLI auditor 100% pustaka standar Python tanpa dependensi; seluruh kaidah tersimpan lokal di data/ dan references/.
 
 **Apa bedanya dengan alat penyunting naskah AI generik?**
-Humanizer ID khusus bahasa Indonesia: 740 kaidah preskriptif bersumber dokumen resmi dengan nomor halaman, bukan penyaring gaya generik.
+Humanizer ID khusus bahasa Indonesia: 750 kaidah preskriptif bersumber dokumen resmi dengan nomor halaman, bukan penyaring gaya generik.
 
 **Apa itu sub-kaidah (skill)?**
 Folder berisi SKILL.md yang memperdalam satu ranah (ejaan, sintaksis, diksi, wacana, naskah resmi). Sub-kaidah merujuk kaidah induk lewat ID (mis. TBB-021) dan tidak pernah menduplikasinya - menambah satu tak mengubah induk.

@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 740
+    "total_entri": 750
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3833,6 +3833,121 @@
           "penjelasan": "Penghubung antarkalimat maka dengan ini maupun penyisipan maka di awal induk kalimat sesudah keterangan pembuka surat tidak tepat dalam surat dinas baku; gunakan Oleh karena itu, secara lugas (Karenisa dkk., Tata Naskah Dinas 2025, hlm. 46-47).",
           "contoh_salah": "Menindaklanjuti usulan peserta, maka dengan ini kami calonkan perwakilan unit kerja. Maka dengan ini kami mengharapkan konfirmasi jadwal.",
           "contoh_benar": "Menindaklanjuti usulan peserta, kami mencalonkan perwakilan unit kerja. Oleh karena itu, kami mengharapkan konfirmasi jadwal."
+        },
+        {
+          "id": "AIS-001",
+          "pola": ", menyoroti pentingnya / , menggarisbawahi peran vital / , memastikan integrasi yang mulus (analisis berekor kosong)",
+          "asal_frasa": "WP:AISIGNS — Superficial '-ing' analyses (highlighting the importance of..., ensuring seamless integration...)",
+          "saran_pengganti": [
+            "Hapus klausa ekor kosong atau ganti dengan fakta/data dampak yang konkret",
+            "Pisahkan menjadi kalimat kedua berisi bukti terukur"
+          ],
+          "penjelasan": "Klausa partisipial di akhir kalimat yang tampak analitis tetapi hanya mengulang klaim umum tanpa bukti baru (WP:AISIGNS: Superficial analyses; Keraf, Argumentasi dan Narasi).",
+          "contoh_salah": "Pembangunan jembatan itu selesai tepat waktu, menyoroti pentingnya kolaborasi lintas sektor.",
+          "contoh_benar": "Pembangunan jembatan itu selesai dalam 14 bulan berkat koordinasi Dinas PUPR dan kontraktor lokal."
+        },
+        {
+          "id": "AIS-002",
+          "pola": "para ahli berpendapat / banyak pengamat menilai / laporan industri menunjukkan (atribusi kabur)",
+          "asal_frasa": "WP:AISIGNS — Vague attributions / weasel words (experts argue, observers note, industry reports suggest)",
+          "saran_pengganti": [
+            "Sebutkan nama peneliti, lembaga, dan tahun rujukan secara eksplisit",
+            "Hapus atribusi anonim dan nyatakan data langsung"
+          ],
+          "penjelasan": "Atribusi kepada kelompok anonim ('para ahli', 'banyak pengamat') tanpa rujukan eksplisit menurunkan kredibilitas ilmiah dan jurnalistik (WP:AISIGNS: Vague attributions; Keraf, Komposisi).",
+          "contoh_salah": "Para ahli berpendapat bahwa kebijakan ini akan mendorong pertumbuhan ekonomi.",
+          "contoh_benar": "Peneliti LPEM UI (2024) memperkirakan kebijakan ini meningkatkan pertumbuhan kredit sebesar 1,8%."
+        },
+        {
+          "id": "AIS-003",
+          "pola": "penting untuk dicatat bahwa / perlu diingat bahwa / tak dapat dipungkiri bahwa (pengantar menggurui AI)",
+          "asal_frasa": "WP:AISIGNS — Didactic filler & throat-clearing (It is important to note that..., It is worth remembering that...)",
+          "saran_pengganti": [
+            "[hapus pengantar dan langsung nyatakan inti informasi]",
+            "Catatan: / Perlu diperhatikan, (hanya bila benar-benar batasan metodologis)"
+          ],
+          "penjelasan": "Frasa pengantar menggurui dan basa-basi pembuka memperlambat kalimat tanpa menambah substansi (WP:AISIGNS: Didactic disclaimers; Ekonomi Kata Tempo).",
+          "contoh_salah": "Penting untuk dicatat bahwa pengujian ini hanya mencakup data tahun 2024.",
+          "contoh_benar": "Pengujian ini terbatas pada data transaksi tahun 2024."
+        },
+        {
+          "id": "AIS-004",
+          "pola": "Tentu, berikut... / Pertanyaan yang bagus / Semoga membantu! (sisa percakapan chatbot)",
+          "asal_frasa": "WP:AISIGNS — Chatbot leftovers & sycophantic pleasantries (Certainly, here is..., Great question!, I hope this helps!)",
+          "saran_pengganti": [
+            "[hapus seluruh sisa percakapan antarmuka AI sebelum publikasi]"
+          ],
+          "penjelasan": "Artefak obrolan asisten AI dan pujian sycophantic yang terbawa ke naskah jadi wajib dibersihkan total (WP:AISIGNS: Chatbot artifacts & sycophantic tone).",
+          "contoh_salah": "Tentu, berikut adalah ringkasan laporan keuangan kuartal kedua. Semoga membantu!",
+          "contoh_benar": "Berikut ringkasan laporan keuangan kuartal kedua tahun 2025."
+        },
+        {
+          "id": "AIS-005",
+          "pola": "menjadi bukti nyata atas / berdiri sebagai simbol / menandai tonggak bersejarah (inflasi signifikansi)",
+          "asal_frasa": "WP:AISIGNS — Significance inflation & puffery copulas (serves as a testament to, stands as a symbol, watershed moment)",
+          "saran_pengganti": [
+            "Nyatakan fakta, angka, atau peran historis secara denotatif tanpa bombastis"
+          ],
+          "penjelasan": "Kopula pembesaran makna dan nada promosi melanggar kenetralan ragam ilmiah maupun informatif (WP:AISIGNS: Puffery & significance inflation; Keraf, Diksi dan Gaya Bahasa).",
+          "contoh_salah": "Gedung museum ini berdiri sebagai simbol ketangguhan budaya Nusantara.",
+          "contoh_benar": "Gedung museum yang dibangun pada 1932 ini menyimpan 1.400 koleksi artefak lokal."
+        },
+        {
+          "id": "AIS-006",
+          "pola": "bukan sekadar X, melainkan sebuah Y (paralelisme negatif formulaik)",
+          "asal_frasa": "WP:AISIGNS — Negative parallelisms (It's not just X, it's a Y)",
+          "saran_pengganti": [
+            "Nyatakan hakikat atau dampak Y secara langsung dan terukur tanpa kontras retoris paksaan"
+          ],
+          "penjelasan": "Bingkai kontras negatif 'bukan sekadar X, melainkan sebuah Y' yang diulang-ulang menciptakan nada retoris formulaik khas LLM (WP:AISIGNS: Negative parallelisms).",
+          "contoh_salah": "Inovasi ini bukan sekadar pembaruan teknis, melainkan sebuah revolusi layanan publik.",
+          "contoh_benar": "Pembaruan ini memangkas waktu antrean layanan dari 45 menit menjadi 12 menit."
+        },
+        {
+          "id": "AIS-007",
+          "pola": "Meskipun memiliki banyak kelebihan, X menghadapi sejumlah tantangan / prospek masa depan yang cerah",
+          "asal_frasa": "WP:AISIGNS — Outline-like conclusions on challenges and future prospects",
+          "saran_pengganti": [
+            "Sebutkan keterbatasan teknis spesifik dan langkah tindak lanjut terukur secara langsung"
+          ],
+          "penjelasan": "Templat penutup 'meskipun unggul, tetap menghadapi tantangan + prospek cerah' terlalu generik dan tidak memberi informasi spesifik (WP:AISIGNS: Challenges and future prospects).",
+          "contoh_salah": "Meskipun memiliki banyak kelebihan, sistem ini menghadapi sejumlah tantangan dan prospek masa depan yang cerah.",
+          "contoh_benar": "Sistem ini mempercepat verifikasi berkas, tetapi masih terkendala latensi jaringan di wilayah terpencil."
+        },
+        {
+          "id": "AIS-008",
+          "pola": " —  (tanda pisah em-dash berspasi khas keluaran LLM)",
+          "asal_frasa": "WP:AISIGNS — Em-dash overuse & EYD V tanda pisah tanpa spasi",
+          "saran_pengganti": [
+            "Gunakan tanda pisah tanpa spasi mengapit (kata—kata) sesuai EYD V, atau ganti dengan koma/tanda kurung"
+          ],
+          "penjelasan": "Menurut EYD Edisi V (SK 0424/I/BS.00.01/2022, Tanda Pisah), tanda pisah (—) yang membatasi penyisipan kalimat ditulis tanpa spasi di kiri dan kanannya; pemakaian berspasi berulang juga merupakan penanda tipografi khas keluaran LLM (WP:AISIGNS: Em dashes).",
+          "contoh_salah": "Pengujian dilakukan dua kali — pada pagi dan sore hari — untuk menjaga keandalan.",
+          "contoh_benar": "Pengujian dilakukan dua kali—pada pagi dan sore hari—untuk menjaga keandalan."
+        },
+        {
+          "id": "AIS-009",
+          "pola": "[telaah] daur ulang sinonim berlebihan (synonym cycling) dan rentang semu (false ranges)",
+          "asal_frasa": "WP:AISIGNS — Synonym cycling & false ranges (ranging from X to Y without a coherent scale)",
+          "saran_pengganti": [
+            "Pertahankan istilah konsisten atau pronomina jelas alih-alih mengganti nomina di setiap kalimat",
+            "Ganti rentang semu 'mulai dari X hingga Y' dengan rincian konkret yang sejenis"
+          ],
+          "penjelasan": "Menghindari pengulangan kata dengan terus mengganti sebutan entitas yang sama ('sistem ini' -> 'platform tersebut' -> 'arsitektur mutakhir itu') mengaburkan rujukan; rentang 'mulai dari X hingga Y' tanpa skala nyata hanya menambah bobot kata kosong (WP:AISIGNS; Keraf, Diksi dan Gaya Bahasa).",
+          "contoh_salah": "Sistem ini cepat. Platform tersebut aman. Arsitektur mutakhir itu mencakup berbagai hal, mulai dari inovasi teknologi hingga dampak sosial yang luas.",
+          "contoh_benar": "Sistem ini cepat dan aman, serta mendukung pelaporan transaksi dan audit berkas secara otomatis."
+        },
+        {
+          "id": "AIS-010",
+          "pola": "[telaah] pola tiga serangkai mekanis (rule of three) dan tipografi AI (boldface daftar, Title Case, emoji)",
+          "asal_frasa": "WP:AISIGNS — Rule of three & formatting tells (inline boldface lists, Title Case subheadings, emojis)",
+          "saran_pengganti": [
+            "Variasikan jumlah perincian sesuai kebutuhan substansi (2, 4, atau kalimat utuh)",
+            "Gunakan penebalan, kapitalisasi judul EYD V (kata tugas huruf kecil), dan tanpa emoji pada naskah formal"
+          ],
+          "penjelasan": "Pengulangan mekanis daftar tiga kata sifat di setiap paragraf, penebalan kepala tiap butir daftar, kapitalisasi seluruh kata di subjudul ala Inggris, serta emoji pada dokumen formal menjadi ciri kuat teks mentah LLM (WP:AISIGNS; EYD V; Eneste, Penyuntingan Naskah).",
+          "contoh_salah": "Solusi ini cepat, akurat, dan terpercaya. Strategi Yang Efektif Untuk Masa Depan 🚀",
+          "contoh_benar": "Solusi ini memproses 1.200 transaksi per detik dengan galat 0,02%. Strategi yang Efektif untuk Masa Depan"
         }
       ]
     },
@@ -9161,5 +9276,5 @@
       ]
     }
   },
-  "total_entri": 740
+  "total_entri": 750
 }

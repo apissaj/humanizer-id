@@ -1629,3 +1629,31 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("50 siswa ... / 3 pemenang"),
      [re.compile(r"(?:^|[.!?]\s+)\d{1,3}\s+(?:siswa|mahasiswa|peserta|orang|responden|karyawan|pegawai|pemenang)\b")]),
 ])
+
+# --- Kaidah WP:AISIGNS (Wikipedia:Signs of AI writing) & EYD V Tipografi (AIS-001..008) ---
+CUSTOM_RULES.extend([
+    # AIS-001: analisis berekor partisipial kosong (superficial -ing analyses)
+    (lambda p: p.startswith(", menyoroti pentingnya /"),
+     [re.compile(r"(?i),\s+(?:menyoroti|menggarisbawahi|mencerminkan|memastikan|menegaskan|menunjukkan)\s+(?:pentingnya|peran\s+(?:vital|krusial|penting)|dampak\s+(?:luas|signifikan)|integrasi\s+yang\s+mulus|komitmen\s+(?:terhadap|untuk))")]),
+    # AIS-002: atribusi kabur tanpa rujukan spesifik (vague attributions / weasel words)
+    (lambda p: p.startswith("para ahli berpendapat /"),
+     [re.compile(r"(?i)\b(?:para\s+ahli\s+(?:berpendapat|menilai|mengatakan|sepakat)|banyak\s+(?:pengamat|pakar|ahli)\s+(?:menilai|berpendapat|menyatakan)|laporan\s+industri\s+menunjukkan|beberapa\s+kritikus\s+berargumen)\b")]),
+    # AIS-003: pengantar menggurui khas chatbot (didactic filler)
+    (lambda p: p.startswith("penting untuk dicatat bahwa /"),
+     [re.compile(r"(?i)\b(?:penting\s+untuk\s+(?:dicatat|diingat|dipahami)\s+bahwa|perlu\s+(?:dicatat|diingat|digarisbawahi)\s+bahwa|tak\s+dapat\s+dipungkiri\s+bahwa|tidak\s+dapat\s+dipungkiri\s+bahwa)\b")]),
+    # AIS-004: sisa percakapan & pujian chatbot (chatbot leftovers & sycophantic pleasantries)
+    (lambda p: p.startswith("Tentu, berikut... /"),
+     [re.compile(r"(?im)(?:^\s*(?:tentu(?:,\s*berikut|\s+saja)|pertanyaan\s+yang\s+(?:bagus|hebat|menarik)|anda\s+benar\s+sekali)|semoga\s+(?:membantu|informasi\s+ini\s+bermanfaat)\s*!|berdasarkan\s+pengetahuan\s+terakhir\s+saya)")]),
+    # AIS-005: kopula inflasi signifikansi & promosi (significance inflation / puffery)
+    (lambda p: p.startswith("menjadi bukti nyata atas /"),
+     [re.compile(r"(?i)\b(?:menjadi\s+bukti\s+nyata\s+(?:atas|dari)|berdiri\s+sebagai\s+(?:simbol|monumen|bukti)|menandai\s+tonggak\s+(?:bersejarah|penting)|meninggalkan\s+jejak\s+(?:yang\s+)?(?:abadi|mendalam))\b")]),
+    # AIS-006: paralelisme negatif formulaik (bukan sekadar X, melainkan sebuah Y)
+    (lambda p: p.startswith("bukan sekadar X, melainkan sebuah Y"),
+     [re.compile(r"(?i)\b(?:bukan\s+(?:sekadar|sekedar|hanya\s+sekadar)\s+[^.,;]{3,50},\s*(?:melainkan|tetapi)\s+(?:juga\s+)?(?:sebuah|suatu|merupakan))\b")]),
+    # AIS-007: pembuka/penutup klise tantangan & prospek masa depan
+    (lambda p: p.startswith("Meskipun memiliki banyak kelebihan,"),
+     [re.compile(r"(?i)\b(?:meskipun\s+memiliki\s+(?:banyak\s+|berbagai\s+)?(?:kelebihan|keunggulan|potensi)[^.,;]{0,40},\s*[^.,;]{3,40}\s+menghadapi\s+(?:sejumlah|berbagai)\s+tantangan|prospek\s+masa\s+depan\s+(?:yang\s+)?(?:cerah|menjanjikan))\b")]),
+    # AIS-008: tanda pisah em-dash berspasi khas LLM (melanggar EYD V tanda pisah tanpa spasi)
+    (lambda p: p.startswith(" —  (tanda pisah"),
+     [re.compile(r"\s—\s")]),
+])

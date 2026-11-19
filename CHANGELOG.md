@@ -4,6 +4,20 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Integrasi *Wikipedia:Signs of AI writing* (*WP:AISIGNS*) & Tipografi EYD V (`740 -> 750` kaidah)
+
+- **10 kaidah baru (`AIS-001`..`AIS-010`) di `data/kalke-indonesia.json` + 8 regex aktif di `humanizer_id/matchers.py`:**
+  - `AIS-001` — analisis berekor partisipial kosong (*..., menyoroti pentingnya...*, *..., memastikan integrasi yang mulus...*).
+  - `AIS-002` — atribusi kabur tanpa rujukan (*para ahli berpendapat*, *banyak pengamat menilai*, *laporan industri menunjukkan*).
+  - `AIS-003` — pengantar menggurui khas chatbot (*penting untuk dicatat bahwa*, *perlu diingat bahwa*, *tak dapat dipungkiri bahwa*).
+  - `AIS-004` — sisa percakapan & pujian chatbot (*Tentu, berikut...*, *Pertanyaan yang bagus*, *Semoga membantu!*).
+  - `AIS-005` — inflasi signifikansi & kopula promosi (*menjadi bukti nyata atas*, *berdiri sebagai simbol*, *menandai tonggak bersejarah*).
+  - `AIS-006` — paralelisme negatif formulaik (*bukan sekadar X, melainkan sebuah Y*).
+  - `AIS-007` — templat tantangan & prospek masa depan (*Meskipun memiliki banyak kelebihan, X menghadapi sejumlah tantangan*).
+  - `AIS-008` — tanda pisah em-dash berspasi khas keluaran LLM (` — `) yang melanggar EYD V (tanda pisah tanpa spasi mengapit).
+  - `AIS-009`..`AIS-010` (`[telaah]`) — *synonym cycling*, rentang semu (*false ranges*), *rule of three* mekanis, daftar ber-**boldface**, *Title Case* Inggris, dan emoji di naskah formal.
+- Referensi baru: `references/wp-aisigns-indonesia.md`; Blok `BW` ditambahkan ke `skills/humanizer-id-wacana-retorika/SKILL.md`.
+
 ### Penguatan & Perluasan Sub-Skill Domain (`11 -> 14` sub-skill: 5 strata + 9 domain)
 
 - **3 sub-skill domain baru (`version: 2.4.6`):**
