@@ -179,7 +179,16 @@ Tanpa dependensi eksternal (100% pustaka standar Python):
 python scripts/audit.py --demo
 python scripts/audit.py path/ke/naskah.md
 python scripts/audit.py naskah.md --preset akademik
+
+# Mode Hemat Token (untuk agen AI & pratinjau cepat)
+python scripts/audit.py naskah.md --compact --only high,medium --top 15
+python scripts/audit.py naskah.md --extract
+python scripts/audit.py naskah.md --fix --diff
 ```
+
+**Mode Hemat Token (`Patch-Only` sebagai default di `SKILL.md` & `PROMPT.md`):**
+- Secara default, agen AI mengeluarkan hanya kalimat/klausa yang berubah, poin konfirmasi (jika ada), dan 1 baris `GATE: PASS [...]` tanpa mengulang paragraf yang sudah bersih.
+- Minta `Clean-Only` (naskah bersih saja) atau `Lengkap` (naskah + tabel diff beranotasi + gate 6 butir) jika membutuhkan keluaran penuh.
 
 ## Sumber Resmi
 

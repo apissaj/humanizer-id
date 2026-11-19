@@ -4,6 +4,18 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Mode Hemat Token (Skill AI `Patch-Only` Default + Flag CLI `--compact` / `--only` / `--top` / `--diff` / `--extract`)
+
+- **Skill AI & Prompt (`SKILL.md`, `PROMPT.md`):**
+  - Menetapkan **Mode Hemat Ekstrem (`Patch-Only`)** sebagai format keluaran default agar agen AI hanya mengirim baris/kalimat yang disunting, poin konfirmasi (jika ada), dan 1 baris `GATE: PASS [...]` — tanpa mengulang paragraf bersih atau boilerplate daftar periksa.
+  - Menyediakan opsi eksplisit `Clean-Only` (naskah bersih saja) dan `Lengkap` (format 4 blok + tabel diff beranotasi + gate 6 butir) bila diminta pengguna.
+- **CLI & Mesin (`humanizer_id/engine.py`, `tests/test_compact.py`):**
+  - `--compact`: keluaran ringkas 1 baris per temuan (`L<baris> [<PRIO>|<ID>] "<pola>" -> "<saran>"`) + ringkasan 1 baris.
+  - `--only <prio>`: menyaring temuan berdasarkan prioritas (`HIGH`, `MEDIUM`, `LOW`, mis. `--only high,medium`).
+  - `--top <N>`: membatasi ke `N` temuan teratas berurutan dari prioritas tertinggi dan mencatat jumlah temuan yang disembunyikan.
+  - `--diff`: bersama `--fix`, mencetak hanya frasa/baris yang berubah alih-alih seluruh naskah.
+  - `--extract`: mengekstrak hanya baris naskah yang mengandung temuan.
+
 ### Bedah Modul Pidato Persuasif & Modul Tabel/Grafik Kemendikbud (`788 -> 790` kaidah, Siklus 50)
 
 - **Kemendikbud (Repositori ID 18566 & 19784):**

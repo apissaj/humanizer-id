@@ -273,15 +273,13 @@ Sebelum menyunting, tetapkan mode kerja berdasarkan jenis dokumen (**JIKA PENGGU
   - Pemadanan istilah (Baharman UNM): bila padanan Indonesia tersedia, sebutkan bentuk Indonesia dahulu lalu istilah asing bercetak miring dalam kurung (`paparan risiko (*exposure*)`, bukan sebaliknya).
   - Domain spesifik: **Skripsi** (pisahkan Simpulan vs Saran, patuhi 18 preset kampus); **Bisnis** (prinsip KISS, surat 5W1H, piramida terbalik); **Jurnalistik** (7 sifat bahasa pers, batas 17–20 kata/kalimat, hapus *Ini X melaporkan dari Y*); **Hukum** (jangan ubah pasal/klausul kontrak, hindari klaim produk takrealistis).
 
-### Format Keluaran Wajib (Diff Beranotasi):
-1. **Informasi Mode:** Tuliskan mode yang digunakan (misal: `[Mode: Akademik Ketat]`).
-2. **Naskah Hasil Suntingan:** Teks bersih dan siap digunakan.
-3. **Tabel Selisih Beranotasi (Diff Table):**
+### Format Keluaran Wajib (Default: Mode Hemat Ekstrem / Patch-Only):
+Keluarkan **hanya** bagian yang berubah agar hemat token (kecuali pengguna meminta `Clean-Only` atau `Lengkap`):
+1. **Baris Mode & Ringkasan (1 baris):** `[Mode: Akademik Ketat | Format: Patch-Only | Sunting: Y/X kalimat]`
+2. **Daftar Selisih Ringkas (hanya kalimat yang disunting):**
+   - `L1: "Sistem melakukan implementasi terhadap cache database." -> "Sistem mengimplementasikan tembolok basis data." (VRB-001, GLOS-TEK)`
+3. **Poin Konfirmasi Penulis:** Tulis hanya jika ada bagian ambigu/data kurang; lewati jika tidak ada.
+4. **Delivery Gate (1 baris):** `GATE: PASS [angka=utuh, fabrikasi=0, modalitas=utuh, sitasi=utuh]`
 
-   | Kalimat Asli | Kalimat Revisi | Alasan (Kaidah) |
-   |---|---|---|
-   | Sistem melakukan implementasi terhadap cache database. | Sistem mengimplementasikan tembolok basis data. | Pemangkasan verba ringan & istilah baku. |
-
-4. Ringkasan jumlah kalimat: "Total: X kalimat diperiksa, Y disunting, Z dipertahankan utuh."
-5. Poin Konfirmasi Penulis (bila ada bagian ambigu atau data kurang).
+*(Catatan: Jika pengguna meminta `Clean-Only`, tampilkan baris mode + naskah bersih lengkap + 1 baris gate. Jika meminta `Lengkap`, tampilkan mode + naskah bersih + tabel diff beranotasi + poin konfirmasi + gate 6 butir.)*
 ```

@@ -15,6 +15,7 @@ import json
 import re
 import functools
 from .matchers import match_custom_rules, _find_custom_rule
+from .report import URUT_PRIORITAS, klasifikasi_prioritas
 
 # Pengecualian kaidah per preset domain (audit terfokus)
 # 'umum' = tanpa pengecualian (backward-compatible, seluruh kaidah aktif)
@@ -359,6 +360,86 @@ def fix_text(content, kalke_dict, glosarium_dict=None, kampus_dict=None, preset=
     return ("".join(fixed_lines), total_fixes, fix_log)
 
 
+def _format_saran(saran_raw):
+    if isinstance(saran_raw, str):
+        return saran_raw
+    if len(saran_raw) == 1:
+        return saran_raw[0]
+    return " / ".join(saran_raw)
+
+
+def filter_findings(findings, only_priorities=None, top_n=None):
+    """Deduplikasi, saring berdasarkan prioritas, dan batasi ke N temuan teratas."""
+    deduped = deduplicate_report_findings(findings)
+    total_before = len(deduped)
+    filtered = deduped
+
+    if only_priorities:
+        allowed = {p.strip().upper() for p in only_priorities if p.strip()}
+        filtered = [f for f in filtered if klasifikasi_prioritas(f["kategori"]) in allowed]
+
+    if top_n is not None:
+        filtered = sorted(
+            filtered,
+            key=lambda f: (URUT_PRIORITAS.get(klasifikasi_prioritas(f["kategori"]), 9), f["baris"]),
+        )[: max(0, top_n)]
+
+    return filtered, total_before
+
+
+def format_compact_report(findings, filename="", total_before_filter=None):
+    """Format ringkas 1 baris per temuan untuk menghemat token agen AI."""
+    label = filename or "Naskah"
+    if not findings:
+        if total_before_filter:
+            return f"[✓] {label}: 0 temuan ditampilkan ({total_before_filter} temuan di luar filter)."
+        return f"[✓] {label}: 0 temuan."
+
+    counts = {"HIGH": 0, "MEDIUM": 0, "LOW": 0}
+    lines = [f"[{label}]"]
+    for item in findings:
+        prio = klasifikasi_prioritas(item["kategori"])
+        counts[prio] = counts.get(prio, 0) + 1
+        saran_val = _format_saran(item["saran"])
+        lines.append(f'L{item["baris"]} [{prio}|{item["id"]}] "{item["pola"]}" -> "{saran_val}"')
+
+    summary = (
+        f"Total: {len(findings)} temuan "
+        f"(HIGH={counts['HIGH']}, MEDIUM={counts['MEDIUM']}, LOW={counts['LOW']})"
+    )
+    if total_before_filter is not None and total_before_filter > len(findings):
+        summary += f" (+{total_before_filter - len(findings)} temuan lain disembunyikan)"
+    lines.append(summary)
+    return "\n".join(lines)
+
+
+def format_fix_diff(fix_log, filename=""):
+    """Format hanya baris/frasa yang berubah dari autofix agar hemat token."""
+    label = filename or "Naskah"
+    if not fix_log:
+        return f"[✓] {label}: 0 penggantian."
+
+    lines = [f"[{label}]"]
+    for entry in fix_log:
+        lines.append(
+            f'L{entry["baris"]} [{entry["id"]}] "{entry["sebelum"]}" -> "{entry["sesudah"]}"'
+        )
+    lines.append(f"Total: {len(fix_log)} perbaikan diterapkan.")
+    return "\n".join(lines)
+
+
+def extract_problem_lines(content, findings):
+    """Ekstrak hanya baris asli yang memiliki temuan (1 baris per nomor baris unik)."""
+    deduped = deduplicate_report_findings(findings)
+    if not deduped:
+        return "[✓] Tidak ada baris bermasalah."
+
+    line_nums = sorted({item["baris"] for item in deduped})
+    src_lines = content.splitlines()
+    out = [f"L{ln}: {src_lines[ln - 1]}" for ln in line_nums if 1 <= ln <= len(src_lines)]
+    return "\n".join(out) if out else "[✓] Tidak ada baris bermasalah."
+
+
 def print_report(findings, filename=""):
     findings = deduplicate_report_findings(findings)
 
@@ -409,13 +490,21 @@ def main():
         print("    --report         Tulis temuan bernomor ke humanizer/audit-NNN-YYYY-MM-DD.md (mode AFTER; naskah tidak diubah)")
         print("    --kampus <id>    Gunakan aturan format spesifik kampus (ui, itb, ugm, its, ipb, undip, unpad, unair, ub, telkom, udinus)")
         print("    --preset <nama>  Preset domain audit: umum (default), akademik, dinas, jurnalistik")
+        print("    --compact        Laporan ringkas 1 baris per temuan (hemat token untuk agen AI)")
+        print("    --only <prio>    Saring prioritas temuan, mis. high atau high,medium (HIGH/MEDIUM/LOW)")
+        print("    --top <N>        Batasi ke N temuan teratas berdasarkan prioritas tertinggi")
+        print("    --diff           Tampilkan hanya selisih perbaikan (digunakan bersama --fix)")
+        print("    --extract        Ekstrak hanya baris naskah yang mengandung temuan")
         sys.exit(0)
 
     args = sys.argv[1:]
 
-    # Parse --fix and --write flags
+    # Parse --fix, --write, --compact, --diff, --extract flags
     do_fix = False
     write_in_place = False
+    compact_mode = False
+    diff_mode = False
+    extract_mode = False
     if "--fix" in args:
         do_fix = True
         args.remove("--fix")
@@ -425,6 +514,50 @@ def main():
     if "-w" in args:
         write_in_place = True
         args.remove("-w")
+    if "--compact" in args:
+        compact_mode = True
+        args.remove("--compact")
+    if "--diff" in args:
+        diff_mode = True
+        args.remove("--diff")
+    if "--extract" in args:
+        extract_mode = True
+        args.remove("--extract")
+
+    # Parse --only flag
+    only_priorities = None
+    if "--only" in args:
+        idx = args.index("--only")
+        if idx + 1 >= len(args):
+            print("[!] --only membutuhkan nilai prioritas (mis. high atau high,medium).", file=sys.stderr)
+            sys.exit(1)
+        raw_only = args[idx + 1]
+        args.pop(idx + 1)
+        args.pop(idx)
+        parsed_only = [p.strip().upper() for p in raw_only.split(",") if p.strip()]
+        invalid = [p for p in parsed_only if p not in URUT_PRIORITAS]
+        if not parsed_only or invalid:
+            print(f"[!] Prioritas tidak dikenal: '{raw_only}'. Opsi: HIGH, MEDIUM, LOW", file=sys.stderr)
+            sys.exit(1)
+        only_priorities = set(parsed_only)
+
+    # Parse --top flag
+    top_n = None
+    if "--top" in args:
+        idx = args.index("--top")
+        if idx + 1 >= len(args):
+            print("[!] --top membutuhkan angka bulat positif.", file=sys.stderr)
+            sys.exit(1)
+        raw_top = args[idx + 1]
+        args.pop(idx + 1)
+        args.pop(idx)
+        try:
+            top_n = int(raw_top)
+            if top_n < 1:
+                raise ValueError
+        except ValueError:
+            print(f"[!] Nilai --top harus bilangan bulat >= 1, bukan '{raw_top}'.", file=sys.stderr)
+            sys.exit(1)
 
     # Parse --report (mode AFTER: laporan bernomor, naskah tidak diubah)
     report_dir = None
@@ -488,9 +621,20 @@ Dapat disampaikan bahwa situasi force majeure menghalangi proses deployment ke s
 Meskipun akurat, bukan berarti arsitektur ini tanpa kompromi performa.
 ## 1.1. Latar Belakang Penelitian
         """
-        print("[*] Menjalankan demonstrasi pemindaian pada teks sampel lintas bidang...")
-        findings = audit_text(sample_text, kalke_dict, glosarium_dict, kampus_dict)
-        print_report(findings, f"Teks Demo (Preset Kampus: {kampus_id or 'Umum'})")
+        findings = audit_text(sample_text, kalke_dict, glosarium_dict, kampus_dict, preset)
+        demo_label = f"Teks Demo (Preset Kampus: {kampus_id or 'Umum'})"
+        if extract_mode:
+            selected, _ = filter_findings(findings, only_priorities, top_n)
+            print(extract_problem_lines(sample_text, selected))
+            return
+        selected, total_before = filter_findings(findings, only_priorities, top_n)
+        if compact_mode:
+            print(format_compact_report(selected, demo_label, total_before))
+        else:
+            print("[*] Menjalankan demonstrasi pemindaian pada teks sampel lintas bidang...")
+            print_report(selected, demo_label)
+            if total_before > len(selected):
+                print(f"(+{total_before - len(selected)} temuan lain disembunyikan oleh filter --only/--top)")
         return
 
     if not args:
@@ -511,13 +655,28 @@ Meskipun akurat, bukan berarti arsitektur ini tanpa kompromi performa.
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(fixed_content)
             print(f"[✓] Berhasil memperbaiki {fix_count} temuan langsung pada berkas: {filepath}")
+            if diff_mode:
+                print(format_fix_diff(fix_log, filepath))
+        elif diff_mode:
+            print(format_fix_diff(fix_log, filepath))
         else:
             print(f"[*] Hasil autofix ({fix_count} penggantian diterapkan):\n")
             print(fixed_content)
         return
 
     findings = audit_text(content, kalke_dict, glosarium_dict, kampus_dict, preset)
-    print_report(findings, filepath)
+    if extract_mode:
+        selected, _ = filter_findings(findings, only_priorities, top_n)
+        print(extract_problem_lines(content, selected))
+        return
+
+    selected, total_before = filter_findings(findings, only_priorities, top_n)
+    if compact_mode:
+        print(format_compact_report(selected, filepath, total_before))
+    else:
+        print_report(selected, filepath)
+        if total_before > len(selected):
+            print(f"(+{total_before - len(selected)} temuan lain disembunyikan oleh filter --only/--top)")
 
 if __name__ == "__main__":
     main()

@@ -158,29 +158,25 @@ Catatan provenance: log lengkap sesi integrasi kaidah (BW-BZ) pindah ke `referen
 
 ---
 
-## 6. Protokol Format Luaran Tunggal
+## 6. Protokol Format Luaran (Default: Mode Hemat Ekstrem / Patch-Only)
 
-Seluruh hasil penyuntingan wajib disajikan dalam struktur tunggal berikut tanpa pengecualian:
+**Default wajib adalah `Patch-Only` (Mode Hemat Ekstrem)** agar hemat token dan langsung pada bagian penting, kecuali pengguna secara eksplisit meminta format lain (`Clean-Only` atau `Lengkap`).
 
-### 1. Informasi Mode Kerja
-Nyatakan mode editorial yang digunakan: `[Mode: Akademik Ketat / Esai / Bisnis / Koreksi Minimal]`.
+### Format Default — `Patch-Only` (Hemat Ekstrem)
+Jangan mengulang kalimat atau paragraf yang sudah bersih. Keluarkan hanya 3–4 komponen ringkas berikut:
+1. **Baris Mode & Ringkasan (1 baris):**
+   `[Mode: Akademik Ketat | Format: Patch-Only | Sunting: Y/X kalimat]`
+2. **Daftar Selisih Ringkas (hanya kalimat/klausa yang diubah):**
+   - `L12: "Sistem melakukan implementasi terhadap cache database." -> "Sistem mengimplementasikan tembolok basis data." (VRB-001, GLOS-TEK)`
+   - `L18: "Data ini menghormati batas memori." -> "Data ini berada dalam rentang kapasitas memori." (KLK-001)`
+   *(Jika ada kalimat yang dihapus/digabung, sebutkan singkat alasannya di baris yang sama.)*
+3. **Poin Konfirmasi Penulis (hanya jika ada):** Tulis 1 baris per klaim ambigu/tanpa rujukan. **Lewati bagian ini sepenuhnya** jika tidak ada yang perlu dikonfirmasi.
+4. **Delivery Gate (1 baris):**
+   `GATE: PASS [angka=utuh, fabrikasi=0, modalitas=utuh, sitasi=utuh]`
 
-### 2. Naskah Hasil Suntingan
-Teks lengkap hasil revisi yang bersih, mengalir, dan siap digunakan.
-
-### 3. Tabel Selisih Beranotasi (*Annotated Diff Table*)
-Tabel wajib yang memetakan kalimat yang mengalami perbaikan beserta alasan kaidahnya:
-
-| Kalimat Asli | Kalimat Revisi | Alasan (Kaidah & ID Aturan) |
-|---|---|---|
-| Sistem melakukan implementasi terhadap cache database. | Sistem mengimplementasikan tembolok basis data. | Pemangkasan verba ringan (VRB-001) & glosarium teknis baku (GLOS-TEK). |
-| Data ini menghormati batas memori. | Data ini berada dalam rentang kapasitas memori. | Eliminasi kalke terjemahan mesin (KLK-001). |
-| Menurut Wijaya (2022), latensi menurun sebesar 12%. | Penurunan latensi sebesar 12% tercatat pada kondisi beban penuh (Wijaya, 2022). | Perajutan sitasi berbasis gagasan & pelestarian angka eksak. |
-
-*(Kalimat yang tidak diubah tidak perlu dimasukkan ke dalam tabel; cantumkan ringkasan: "Total: X kalimat diperiksa, Y kalimat disunting, Z kalimat dipertahankan utuh".)*
-
-### 4. Poin Konfirmasi Penulis (Bila Ada)
-Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi dari penulis asli tanpa direkayasa.
+### Format Opsional (Hanya Jika Diminta Pengguna)
+- **`Clean-Only`** *(jika pengguna meminta "naskah bersih saja" / "clean-only")*: Baris mode + Naskah lengkap hasil revisi + `GATE: PASS [...]` (tanpa tabel diff).
+- **`Lengkap`** *(jika pengguna meminta "mode lengkap" / "lengkap dengan tabel diff")*: (1) Informasi Mode Kerja, (2) Naskah Hasil Suntingan lengkap, (3) Tabel Selisih Beranotasi (`Kalimat Asli | Kalimat Revisi | Alasan & ID Aturan` + ringkasan `Total: X kalimat diperiksa, Y disunting, Z dipertahankan utuh`), (4) Poin Konfirmasi Penulis (bila ada), dan (5) Delivery Gate 6 butir.
 
 ---
 
@@ -188,9 +184,9 @@ Catat bagian ambigu, klaim tanpa rujukan, atau data yang membutuhkan klarifikasi
 
 Dipicu saat pengguna meminta audit naskah yang **sudah jadi** (bukan menyunting langsung). Kontraknya: laporan dulu, persetujuan nomor, baru eksekusi.
 
-1. **Langkah 1 — Jalankan audit deterministik:** `python scripts/audit.py <naskah> --report` menghasilkan `humanizer/audit-NNN-YYYY-MM-DD.md` dengan temuan bernomor urut naik (NNN lanjut dari laporan sebelumnya, tidak pernah ditimpa). Setiap temuan diberi prioritas: **HIGH** (kalke/verba ringan/klise AI - cacat makna/kalimat), **MEDIUM** (istilah asing tak baku/glosarium), **LOW** (gaya/domain/kampus).
-2. **Langkah 2 — Serahkan laporan, jangan sentuh naskah:** Tampilkan nomor + kutipan + saran. Mode AFTER melarang perubahan apa pun sampai pengguna menyebutkan nomor yang disetujui. Nomor yang tidak disebut dibiarkan apa adanya.
-3. **Langkah 3 — Eksekusi nomor yang disetujui saja:** Perbaiki hanya temuan yang dirujuk pengguna. Untuk setiap perbaikan, tetap patuhi Aturan Integritas Ilmiah (angka/sitasi utuh) dan susun Diff Table.
+1. **Langkah 1 — Jalankan audit deterministik:** `python scripts/audit.py <naskah> --report` menghasilkan `humanizer/audit-NNN-YYYY-MM-DD.md` dengan temuan bernomor urut naik (NNN lanjut dari laporan sebelumnya, tidak pernah ditimpa). Untuk pratinjau hemat token di terminal/konteks agen, gunakan `--compact --only high,medium --top 15` atau `--extract`. Setiap temuan diberi prioritas: **HIGH** (kalke/verba ringan/klise AI - cacat makna/kalimat), **MEDIUM** (istilah asing tak baku/glosarium), **LOW** (gaya/domain/kampus).
+2. **Langkah 2 — Serahkan laporan, jangan sentuh naskah:** Tampilkan nomor + kutipan + saran secara ringkas (1 baris per nomor). Mode AFTER melarang perubahan apa pun sampai pengguna menyebutkan nomor yang disetujui. Nomor yang tidak disebut dibiarkan apa adanya.
+3. **Langkah 3 — Eksekusi nomor yang disetujui saja:** Perbaiki hanya temuan yang dirujuk pengguna. Untuk setiap perbaikan, tetap patuhi Aturan Integritas Ilmiah (angka/sitasi utuh) dan keluarkan dalam format `Patch-Only` (atau `Lengkap` jika diminta).
 4. **Langkah 4 — Laporan susulan:** Tambahkan seksi "Hasil Perbaikan" ke laporan audit yang sama (nomor, sebelum -> sesudah, status). Jalankan Delivery Gate pada hasil akhir.
 
 Penilaian editorial non-deterministik (kalimat efektif, kohesi, retorika) tidak dihasilkan `--report`; kerjakan manual hanya bila pengguna meminta, dengan format temuan bernomor yang sama dan prioritas yang jelas.
@@ -199,22 +195,24 @@ Penilaian editorial non-deterministik (kalimat efektif, kohesi, retorika) tidak 
 
 ## Delivery Gate (Wajib - PASS/FAIL)
 
-Jalankan gate ini SEBELUM menyerahkan hasil suntingan. Sertakan laporan PASS/FAIL bersama hasil: satu baris per butir, dan setiap `PASS` didukung bukti konkret. Jika ada butir `FAIL`, jangan serahkan: perbaiki dulu, lalu jalankan ulang gate. Laporan yang memuat FAIL tidak boleh dikirim.
+Jalankan ke-6 pemeriksaan berikut **secara internal** SEBELUM menyerahkan hasil suntingan. Jika ada butir `FAIL`, jangan serahkan: perbaiki dulu, lalu jalankan ulang gate. Laporan yang memuat `FAIL` tidak boleh dikirim.
 
-1. **Integritas angka & data** - setiap bilangan, persen, p-value, satuan, dan persamaan persis sama dengan naskah asli. *(PASS: tabel diff menunjukkan nol angka berubah.)*
-2. **Nol fabrikasi** - tidak ada metode, algoritma, parameter, atau sitasi baru yang ditambahkan. *(PASS: setiap sitasi di hasil ada di naskah asli.)*
-3. **Derajat modalitas terjaga** - harapan tidak diubah menjadi kepastian, dan sebaliknya. *(PASS: tidak ada "diharapkan" menjadi "terbukti" tanpa bukti.)*
-4. **Sitasi utuh** - semua rujukan asli dipertahankan; format mengikuti preset kampus bila relevan. *(PASS: jumlah sitasi hasil = jumlah sitasi asli.)*
-5. **Nol perangkuman isi** - kedalaman paragraf asli terjaga; kalimat yang dihapus (bila ada) terdaftar beserta alasannya. *(PASS: tabel diff mencakup seluruh kalimat yang diubah/dibuang.)*
-6. **Format luaran lengkap** - mode kerja, naskah hasil, tabel diff beranotasi, dan poin konfirmasi (bila ada) semuanya hadir. *(PASS: keempat bagian terisi.)*
+1. **Integritas angka & data** - setiap bilangan, persen, p-value, satuan, dan persamaan persis sama dengan naskah asli.
+2. **Nol fabrikasi** - tidak ada metode, algoritma, parameter, atau sitasi baru yang ditambahkan.
+3. **Derajat modalitas terjaga** - harapan tidak diubah menjadi kepastian, dan sebaliknya.
+4. **Sitasi utuh** - semua rujukan asli dipertahankan; format mengikuti preset kampus bila relevan.
+5. **Nol perangkuman isi** - kedalaman paragraf asli terjaga; kalimat yang dihapus (bila ada) terdaftar beserta alasannya.
+6. **Format luaran sesuai mode** - default `Patch-Only` (atau `Clean-Only` / `Lengkap` jika diminta pengguna).
 
-Gate ini tidak dapat didelegasikan atau digantikan ringkasan alur kerja lain. Hasil yang diserahkan tanpa laporan PASS/FAIL = belum selesai.
+**Cara pelaporan gate:**
+- Pada mode default `Patch-Only` dan `Clean-Only`: cukup laporkan dalam **1 baris ringkas**: `GATE: PASS [angka=utuh, fabrikasi=0, modalitas=utuh, sitasi=utuh]`.
+- Pada mode `Lengkap`: laporkan 1 baris per butir (6 baris) dengan bukti konkret untuk setiap `PASS`.
 
 ---
 
-## Checklist Editorial (Pelengkap Gate)
+## Checklist Editorial (Pemeriksaan Internal)
 
-Jalankan bersamaan dengan Delivery Gate. Centang setiap butir sebelum menyerahkan:
+Verifikasi seluruh butir ini sebelum menyerahkan hasil (**jangan cetak daftar centang ini ke keluaran pengguna**, cukup pastikan terpenuhi):
 
 - [ ] Verba ringan dipangkas ke verba aktif/pasif aslinya (*melakukan pengukuran* -> **mengukur**).
 - [ ] Kalke terjemahan mesin dibersihkan (*in order to* -> **untuk** / **guna**).
@@ -225,9 +223,7 @@ Jalankan bersamaan dengan Delivery Gate. Centang setiap butir sebelum menyerahka
 - [ ] Kopula *merupakan* dipertahankan pada definisi esensial.
 - [ ] EYD V dan leksikon KBBI dipatuhi; bentuk nonbaku (KTSP) diperbaiki.
 - [ ] Diksi selaras glosarium lintas bidang bila naskah lintas profesi.
-- [ ] Tabel diff beranotasi: setiap baris memuat alasan + ID aturan.
-- [ ] Ringkasan total dicantumkan (X diperiksa, Y disunting, Z dipertahankan).
-- [ ] Poin konfirmasi penulis ditulis untuk klaim tanpa rujukan/ambigu - tidak direkayasa.
+- [ ] Setiap perubahan memuat ID aturan/alasan singkat; klaim ambigu tanpa rujukan dicatat di Poin Konfirmasi.
 
 ---
 
@@ -243,11 +239,17 @@ Repositori [apissaj/humanizer-id](https://github.com/apissaj/humanizer-id) menye
 ### 2. Perkakas Pemindai Mandiri (`scripts/`)
 - **`scripts/audit.py`**: Skrip CLI auditor berbasis 100% pustaka standar Python (tanpa dependensi luar/zero pip) yang memuat seluruh dataset leksikon, glosarium, dan aturan kampus secara real-time:
   ```bash
-  # Uji coba demo multi-bidang
-  python scripts/audit.py --demo
+  # Uji coba demo ringkas (hemat token)
+  python scripts/audit.py --demo --compact
 
-  # Pindai naskah skripsi umum
-  python scripts/audit.py path/ke/naskah.md
+  # Pindai naskah mode hemat token (1 baris/temuan, prioritas HIGH & MEDIUM, maks 15 teratas)
+  python scripts/audit.py path/ke/naskah.md --compact --only high,medium --top 15
+
+  # Ekstrak hanya baris yang bermasalah (abaikan paragraf bersih)
+  python scripts/audit.py path/ke/naskah.md --extract
+
+  # Autofix dan tampilkan hanya selisih perubahannya
+  python scripts/audit.py path/ke/naskah.md --fix --diff
 
   # Pindai naskah dengan kepatuhan format kampus tertentu (misal: IPB, UGM, UDINUS)
   python scripts/audit.py path/ke/naskah.md --kampus ipb
