@@ -26,7 +26,7 @@
 
 ---
 
-**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 740 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + sebelas sub-kaidah (lima strata + enam domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
+**Humanizer ID** adalah buku aturan yang dibaca agen AI setiap sesi penyuntingan naskah Indonesia. Ia membersihkan kalke terjemahan mesin, nominalisasi bertumpuk, verba ringan, fragmentasi kalimat, dan pola khas keluaran LLM — lalu berhenti di situ: pembersih pola, bukan penentu gaya. 740 kaidah preskriptif bersumber dokumen resmi lengkap nomor halaman. Satu induk + empat belas sub-kaidah (lima strata + sembilan domain) dimuat sesuai kebutuhan naskah, plus mesin audit deterministik ber-CLI. Integritas ilmiah mengikat: nol fabrikasi data, dan ini **bukan** alat bypass detektor AI.
 
 ## Sebelum & Sesudah
 
@@ -68,7 +68,10 @@ Sejak v2.1.0 panduan editorial dipecah agar hemat konteks agen: induk dimuat dul
 | [skills/humanizer-id-jurnalistik-media](skills/humanizer-id-jurnalistik-media/SKILL.md) | 4 blok: 7 sifat pers, ekonomi kata Tempo, batas <=20 kata/kalimat, artikel opini | Berita/opini/rilis |
 | [skills/humanizer-id-hukum-regulasi](skills/humanizer-id-hukum-regulasi/SKILL.md) | 3 blok: zona terlarang kontrak/pasal, anti-multimakna, klaim produk realistis | Hukum/regulasi/klaim |
 | [skills/humanizer-id-surat-dinas](skills/humanizer-id-surat-dinas/SKILL.md) | 3 blok: TND 2025, alamat `Yth.`, pasif diri, penutup resmi, `NIP`/`a.n.`, frasa pewara | Surat dinas/protokol |
-| [skills/humanizer-id-teknis-it](skills/humanizer-id-teknis-it/SKILL.md) | 3 blok: zona kode & satuan EYD V, 68 istilah PASTI TI, safeguard serapan, prosedur | Dokumentasi/paper TI |
+| [skills/humanizer-id-teknis-it](skills/humanizer-id-teknis-it/SKILL.md) | 4 blok: zona kode & satuan EYD V, 68 istilah PASTI TI, safeguard serapan, prosedur | Dokumentasi/paper TI |
+| [skills/humanizer-id-terjemahan-lokalisasi](skills/humanizer-id-terjemahan-lokalisasi/SKILL.md) | 4 blok: eliminasi kalke `KLK-*`, urutan padanan PUPI, lokalisasi UI/UX & safeguard | Terjemahan/lokalisasi |
+| [skills/humanizer-id-pendidikan-ajar](skills/humanizer-id-pendidikan-ajar/SKILL.md) | 4 blok: instruksi modul/LKPD, ejaan soal & satuan, KTI/PTK guru, penjenjangan BIPA | Bahan ajar/modul/BIPA |
+| [skills/humanizer-id-esai-konten-digital](skills/humanizer-id-esai-konten-digital/SKILL.md) | 4 blok: anti-klise blog/LinkedIn AI, suara penulis & ritme, salindia & copy web | Esai/blog/presentasi |
 | [jurnal/](jurnal/SKILL.md) | Modul jurnal bereputasi: IMRaD, checklist 28 poin, template abstrak/cover letter | Naskah Scopus/SINTA |
 
 Arsip provenance sesi bedah tersimpan di [references/log-integrasi-kaidah.md](references/log-integrasi-kaidah.md) (bukan aturan operasional). Setiap entri kaidah berformat **Pola → Perbaikan → Sebab** dengan sitasi halaman sumber.

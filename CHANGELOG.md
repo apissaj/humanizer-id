@@ -4,6 +4,16 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Penguatan & Perluasan Sub-Skill Domain (`11 -> 14` sub-skill: 5 strata + 9 domain)
+
+- **3 sub-skill domain baru (`version: 2.4.6`):**
+  - `skills/humanizer-id-terjemahan-lokalisasi/SKILL.md` — eliminasi kalke terjemahan mesin (`KLK-001..006`, `SPK-019`), urutan padanan PUPI (`TMS-048`), adaptasi serapan (`TMS-001`, `TMS-047`), lokalisasi UI/UX & safeguard.
+  - `skills/humanizer-id-pendidikan-ajar/SKILL.md` — bahasa instruksional modul/LKPD, ejaan soal & satuan (`BSXI-001..003`, `UIN-011`), KTI/PTK guru (`KTI-001`), dan penjenjangan BIPA (`RGM-001..002`).
+  - `skills/humanizer-id-esai-konten-digital/SKILL.md` — pembersihan klise blog/LinkedIn AI (`RET-001..006`), suara penulis & ritme semi-formal, salindia presentasi, copy web, dan media luar ruang.
+- **Penguatan 3 sub-skill domain eksisting:**
+  - `skills/humanizer-id-bisnis-korporat/SKILL.md`, `skills/humanizer-id-teknis-it/SKILL.md`, dan `skills/humanizer-id-hukum-regulasi/SKILL.md` diperkuat dengan pemetaan ID aturan terverifikasi (`VRB-*`, `KLK-*`, `RET-*`, `TMP-001`, `BSXI-001`, `HKT-015..016`, `SPK-007..010`, `UIN-003..004`, `DIN-003..004`, `SMD-003`), tabel *mini diff*, serta checklist Audit Mode AFTER.
+- Tabel rute di `SKILL.md`, `README.md`, dan `tests/test_installer.py` (`11 -> 14`) diselaraskan.
+
 ### Ekspansi Autofix, 200 Istilah Glosarium, 11 Sub-Skill Domain & 3 Studi Kasus Baru
 
 - **Perluasan autofix deterministik (`humanizer_id/engine.py`, `tests/test_fix.py`):**

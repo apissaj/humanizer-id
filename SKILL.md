@@ -117,7 +117,7 @@ Bersihkan struktur bahasa Inggris yang dialihbahasakan secara harfiah:
 
 ## 4. Rute Sub-Kaidah (Deep-Dive On-Demand)
 
-Kaidah editorial lanjutan terbagi ke **sebelas berkas sub-skill** di folder `skills/` (**lima strata kebahasaan** + **enam domain spesifik**). Muat HANYA rute yang relevan dengan naskah agar hemat konteks. Aturan integritas ilmiah pada dokumen ini tetap mengikat penuh dan TIDAK terduplikasi di sub-skill. Satu naskah boleh menyentuh beberapa strata dan satu domain sekaligus - muat semua berkas yang relevan.
+Kaidah editorial lanjutan terbagi ke **empat belas berkas sub-skill** di folder `skills/` (**lima strata kebahasaan** + **sembilan domain spesifik**). Muat HANYA rute yang relevan dengan naskah agar hemat konteks. Aturan integritas ilmiah pada dokumen ini tetap mengikat penuh dan TIDAK terduplikasi di sub-skill. Satu naskah boleh menyentuh beberapa strata dan satu domain sekaligus - muat semua berkas yang relevan.
 
 ### Rute Strata Kebahasaan
 
@@ -138,7 +138,10 @@ Kaidah editorial lanjutan terbagi ke **sebelas berkas sub-skill** di folder `ski
 | Jurnalistik, berita & opini | `skills/humanizer-id-jurnalistik-media/SKILL.md` | 7 sifat bahasa pers, ekonomi kata Tempo, batas 17-20 kata/kalimat, artikel opini (4 blok kaidah) |
 | Hukum, regulasi & klaim produk | `skills/humanizer-id-hukum-regulasi/SKILL.md` | Batas zona terlarang kontrak/pasal, anti-multimakna, pasif normatif, klaim realistis (3 blok kaidah) |
 | Surat dinas, birokrasi & pewara | `skills/humanizer-id-surat-dinas/SKILL.md` | Tata Naskah Dinas 2025, alamat `Yth.`, salam/penutup resmi, pasif diri, `NIP`/`a.n.`, frasa pewara bernalar (3 blok kaidah) |
-| Dokumentasi teknis, TI & rekayasa | `skills/humanizer-id-teknis-it/SKILL.md` | Zona terlarang kode/satuan EYD V, 68 istilah PASTI TI, safeguard serapan baku, prosedur & paper teknik (3 blok kaidah) |
+| Dokumentasi teknis, TI & rekayasa | `skills/humanizer-id-teknis-it/SKILL.md` | Zona terlarang kode/satuan EYD V, 68 istilah PASTI TI, safeguard serapan baku, prosedur & paper teknik (4 blok kaidah) |
+| Terjemahan, lokalisasi & istilah | `skills/humanizer-id-terjemahan-lokalisasi/SKILL.md` | Eliminasi kalke `KLK-*`, urutan padanan PUPI (`TMS-048`), lokalisasi UI/UX & safeguard (4 blok kaidah) |
+| Bahan ajar, modul, KTI guru & BIPA | `skills/humanizer-id-pendidikan-ajar/SKILL.md` | Bahasa instruksional LKPD/modul, ejaan soal & satuan (`BSXI-001`, `UIN-011`), KTI/PTK & penjenjangan BIPA (4 blok kaidah) |
+| Esai populer, blog & konten digital | `skills/humanizer-id-esai-konten-digital/SKILL.md` | Anti-klise blog/LinkedIn AI, suara penulis & ritme, batas ragam semi-formal, salindia & copy web (4 blok kaidah) |
 
 Catatan provenance: log lengkap sesi integrasi kaidah (BW-BZ) pindah ke `references/log-integrasi-kaidah.md` - arsip asal-usul aturan, bukan aturan operasional.
 

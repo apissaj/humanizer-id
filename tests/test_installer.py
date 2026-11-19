@@ -40,9 +40,9 @@ def test_install_ke_tmp(tmp_path):
         assert (dest / komponen).exists(), f"komponen {komponen} hilang"
     assert not (dest / "references").exists(), "references harusnya dilewati"
     assert (dest / "SKILL.md").read_text(encoding="utf-8").startswith("---")
-    # skills tersalin penuh 11 sub-skill (5 strata + 6 domain)
+    # skills tersalin penuh 14 sub-skill (5 strata + 9 domain)
     subs = [d.name for d in (dest / "skills").iterdir() if d.is_dir()]
-    assert len(subs) == 11, f"sub-skill {len(subs)} != 11"
+    assert len(subs) == 14, f"sub-skill {len(subs)} != 14"
 
 
 def test_install_dengan_references(tmp_path):

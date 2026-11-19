@@ -22,7 +22,7 @@ Sub-kaidah domain Humanizer ID untuk dokumentasi perangkat lunak, RFC, spesifika
 ### A. Zona Terlarang Teknis & Tipografi Kode (EYD V; `SKILL.md` Seksi 1.A)
 
 1. **Pola:** menerjemahkan paksa blok kode, nama *flag* CLI, variabel, *endpoint* REST, *identifier* pustaka, atau singkatan standar (`API`, `SDK`, `URL`, `JSON`, `HTTP`, `SQL`, `CI/CD`) → **Perbaikan:** **PERTAHANKAN** kode, *inline code* (`` `...` ``), *identifier*, nama produk/aplikasi sesuai kapitalisasi resmi (*WhatsApp*, *GitHub*, *PostgreSQL*, *Google Form*), serta singkatan standar dalam kapital yang tepat — **Sebab:** mengubah *identifier* atau *casing* teknis merusak akurasi dokumentasi dan dapat mematahkan perintah yang disalin pembaca.
-2. **Pola:** penulisan satuan/besaran tanpa spasi atau salah kapitalisasi (*50cm*, *10GB* vs *10 GB*, *500ms* di prosa) → **Perbaikan:** beri satu spasi antara angka dan simbol satuan baku SI/komputasi (*50 cm*, *10 GB*, *500 ms*, *2,4 GHz*), kecuali simbol persen (`95%`) dan derajat (`30°C`) — **Sebab:** kaidah EYD V dan ISO/SI memisahkan nilai numerik dari lambang satuan.
+2. **Pola:** penulisan satuan/besaran tanpa spasi atau salah kapitalisasi (*50cm*, *10GB* vs *10 GB*, *500ms* di prosa) → **Perbaikan:** beri satu spasi antara angka dan simbol satuan baku SI/komputasi (*50 cm*, *10 GB*, *500 ms*, *2,4 GHz*), kecuali simbol persen (`95%`) dan derajat (`30°C`) — **Sebab:** kaidah EYD V dan ISO/SI memisahkan nilai numerik dari lambang satuan (`BSXI-001`).
 
 ---
 
@@ -34,10 +34,20 @@ Sub-kaidah domain Humanizer ID untuk dokumentasi perangkat lunak, RFC, spesifika
 
 ---
 
-### C. Kejelasan Prosedur, Daftar & Kaidah Paper Teknik/Informatika
+### C. Kejelasan Prosedur, Daftar & Kaidah Paper Teknik/Informatika (`KLK-001`..`003`, `VRB-001`..`005`, `RET-001`)
 
-1. **Pola:** dokumentasi penuh hiperbola pemasaran AI (*arsitektur revolusioner yang secara mulus mengintegrasikan skalabilitas tanpa batas*) atau kalimat prosedur pasif berlapis → **Perbaikan:** tulis spesifikasi terukur (angka latensi, *throughput*, batas memori, versi dependensi), gunakan kalimat imperatif aktif untuk langkah instalasi/konfigurasi, dan jelaskan *mengapa* suatu keputusan arsitektur diambil (bukan hanya *apa*).
-2. **Pola:** makalah teknik/informatika mencampur gaya kutipan, menulis tabel/gambar tanpa rujukan teks, atau memakai subjek *saya/kita* di metode/hasil → **Perbaikan:** rujuk setiap gambar/tabel secara eksplisit sebelum tampil (*seperti ditunjukkan pada Gambar 1*), gunakan kalimat pasif objektif atau subjek artefak (*Model diuji pada 1.200 sampel...*), dan cocokkan preset kampus bila menulis tugas akhir (`--preset ui`, `--preset itb`, `--preset its`, `--preset telkom`, `--preset udinus`).
+1. **Pola:** dokumentasi penuh hiperbola pemasaran AI (*arsitektur revolusioner*), kalke teknis (*menghormati batas memori*, *tidak datang tanpa harga*, *menyelami lebih dalam*), atau penyangkalan antisipatif (*Meskipun cepat, bukan berarti tanpa cela*) → **Perbaikan:** tulis spesifikasi terukur (angka latensi, *throughput*, batas memori, versi dependensi), gunakan kolokasi teknis alami (*selaras dengan batas memori*, *menambah beban komputasi*, *menguraikan lebih lanjut*), dan nyatakan keterbatasan langsung (`KLK-001`..`003`, `RET-001`).
+2. **Pola:** kalimat prosedur berverba ringan (*melakukan implementasi*, *melakukan pengukuran*, *melakukan ekstraksi*) → **Perbaikan:** gunakan kalimat imperatif aktif langsung untuk langkah instalasi/konfigurasi (*Terapkan konfigurasi*, *Ukur latensi*, *Ekstrak arsip*) (`VRB-001`, `VRB-002`, `VRB-005`).
+3. **Pola:** makalah teknik/informatika mencampur gaya kutipan, menulis tabel/gambar tanpa rujukan teks, atau memakai subjek *saya/kita* di metode/hasil → **Perbaikan:** rujuk setiap gambar/tabel secara eksplisit sebelum tampil (*seperti ditunjukkan pada Gambar 1*), gunakan kalimat pasif objektif atau subjek artefak (*Model diuji pada 1.200 sampel...*), dan cocokkan preset kampus bila menulis tugas akhir (`--preset ui`, `--preset itb`, `--preset its`, `--preset telkom`, `--preset udinus`).
+
+---
+
+### D. Contoh Selisih Ringkas (*Mini Diff*)
+
+| Draf Dokumentasi / Paper TI | Hasil Suntingan Teknis | Kaidah |
+|---|---|---|
+| Sistem melakukan implementasi *cache* *database* yang menghormati batas memori 512MB. | Sistem menerapkan tembolok basis data yang selaras dengan batas memori 512 MB. | `VRB-001`, `GLOS-TEK`, `KLK-001`, `BSXI-001` |
+| Meskipun cepat, bukan berarti arsitektur ini tidak datang tanpa harga. | Kendati cepat, arsitektur ini menambah beban komputasi pada beban puncak. | `RET-001`, `KLK-002` |
 
 ```bash
 # Audit dokumentasi teknis atau README berbahasa Indonesia
