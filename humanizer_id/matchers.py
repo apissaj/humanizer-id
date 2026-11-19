@@ -1719,3 +1719,10 @@ CUSTOM_RULES.extend([
     (lambda p: p.startswith("CV. / UD. / PD."),
      [re.compile(r"\b(?:CV|UD|PD)\.\s+[A-Z]")]),
 ])
+
+# --- Kaidah Modul Resensi/Prosedur/Eksplanasi Kelas XI (Kemendikbud 2020, RSN-001) ---
+CUSTOM_RULES.extend([
+    # RSN-001: khromosom, rhetorika, thema, hidrolik, seyogyanya -> kromosom, retorika, tema, hidraulik, seyogianya
+    (lambda p: p.startswith("khromosom / rhetorika"),
+     [re.compile(r"(?i)\b(?:khromosom|rhetorika|thema|hidrolik|seyogyanya)\b")]),
+])

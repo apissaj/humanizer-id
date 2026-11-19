@@ -4,6 +4,14 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah 3 Modul SMA XI Kemendikbud 2020: Teks Prosedur, Eksplanasi & Resensi (`777 -> 780` kaidah, Siklus 46)
+
+- **Direktorat SMA Kemendikbud (2020, Repositori ID 21664, 21759, 21866):**
+  - `RSN-001` (regex aktif + autofix 5 pasang) — penyerapan baku `khromosom` → `kromosom`, `rhetorika` → `retorika`, `thema` → `tema`, `hidrolik` → `hidraulik`, `seyogyanya` → `seyogianya` (hlm. 8–9).
+  - `RSN-002` (`[telaah]`) — struktur & kebahasaan teks prosedur (verba imperatif `-kan`/`-i`/`-lah`, deskripsi alat/ukuran spesifik tanpa akhiran malas `dll.`/`dsb.`, hlm. 13–17).
+  - `RSN-003` (`[telaah]`) — kebahasaan teks eksplanasi (partisipan non-persona + verba pasif + kausalitas/kronologis) & evaluasi berimbang teks resensi (keunggulan + kelemahan berbasis bukti).
+- Referensi baru: `references/modul-sma-xi-prosedur-eksplanasi-resensi-2020.md`; `skills/humanizer-id-teknis-it/SKILL.md` dan `skills/humanizer-id-ejaan-morfologi/SKILL.md` diperbarui.
+
 ### Bedah 3 Modul SMA Kemendikbud 2020: Surat Lamaran, Editorial & Eksposisi (`773 -> 777` kaidah, Siklus 45)
 
 - **Direktorat SMA Kemendikbud (2020, Repositori ID 21767, 19770, 19422):**

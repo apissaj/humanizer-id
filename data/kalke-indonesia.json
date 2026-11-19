@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 777
+    "total_entri": 780
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4172,6 +4172,30 @@
           "penjelasan": "Teks editorial dan eksposisi memadukan fakta dan opini secara jernih dengan dukungan data, rujukan ahli, konjungsi kausalitas, dan diksi lugas bebas bahasa kiasan (Kemendikbud 2020).",
           "contoh_salah": "Menurut saya angka inflasi pasti turun drastis karena semua pihak merasa optimis.",
           "contoh_benar": "Data BPS mencatat inflasi tahunan turun menjadi 2,6% pada kuartal III; bank sentral sebaiknya mempertahankan suku bunga acuan agar stabilitas harga terjaga."
+        },
+        {
+          "id": "RSN-002",
+          "pola": "[telaah] struktur dan kebahasaan teks prosedur (tujuan -> langkah imperatif terukur -> penegasan ulang; deskripsi alat spesifik)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XI: Struktur dan Kebahasaan Teks Prosedur (Kemendikbud 2020, hlm. 13-17)",
+          "saran_pengganti": [
+            "Gunakan verba imperatif aktif (-kan, -i, -lah) pada langkah kerja dan cantumkan ukuran/jumlah/spesifikasi alat secara rinci",
+            "Susun utuh tiga bagian prosedur (tujuan, langkah berurutan, penegasan ulang) serta hindari akhiran daftar malas (dll./dsb.) pada daftar alat"
+          ],
+          "penjelasan": "Teks prosedur menuntut kelugasan verba imperatif (-kan/-i/-lah), ketepatan istilah teknis bidang, rincian bahan/alat beserta ukuran dan jumlahnya, serta konjungsi urutan yang jelas (Modul Teks Prosedur Kelas XI, 2020, hlm. 13-17).",
+          "contoh_salah": "Pertama, siapkan alat seperti pipa, pompa, dll. Kemudian pemasangan dilakukan dengan baik.",
+          "contoh_benar": "Siapkan tiga batang pipa PVC berukuran 2 inci dan satu pompa celup berdaya 25 watt, lalu pasang pipa pada rangka penyangga."
+        },
+        {
+          "id": "RSN-003",
+          "pola": "[telaah] kebahasaan teks eksplanasi (fenomena non-persona + pasif objektif) & evaluasi berimbang teks resensi",
+          "asal_frasa": "Modul Teks Eksplanasi & Modul Mengonstruksi Resensi Kelas XI (Kemendikbud 2020)",
+          "saran_pengganti": [
+            "Pada teks eksplanasi: gunakan nomina fenomena alam/sosial (bukan pronomina persona) serta verba pasif dan konjungsi kausalitas/kronologis yang presisi",
+            "Pada resensi/ulasan: sajikan keunggulan dan kelemahan karya berbasis bukti teks (isi, sistematika, ejaan) secara berimbang tanpa pujian kosong"
+          ],
+          "penjelasan": "Teks eksplanasi menjelaskan proses terjadinya fenomena dengan partisipan non-manusia, verba pasif, dan relasi kausalitas/kronologis; teks resensi mengevaluasi kelebihan dan kekurangan karya secara objektif dan komunikatif (Kemendikbud 2020).",
+          "contoh_salah": "Novel ini sangat sempurna sekali dan pasti mengubah hidup setiap pembacanya.",
+          "contoh_benar": "Novel ini menyajikan konflik keluarga secara rinci dalam bahasa yang ringan, tetapi alurnya melambat pada tiga bab pertengahan."
         }
       ]
     },
@@ -9588,9 +9612,24 @@
           "penjelasan": "Sesuai EYD V, singkatan nama badan usaha atau badan hukum yang terdiri atas huruf awal setiap kata (PT, CV, UD, PD) ditulis dengan huruf kapital tanpa tanda titik (melengkapi SPE-007).",
           "contoh_salah": "Surat lamaran ditujukan kepada pimpinan CV. Karya Mandiri.",
           "contoh_benar": "Surat lamaran ditujukan kepada pimpinan CV Karya Mandiri."
+        },
+        {
+          "id": "RSN-001",
+          "pola": "khromosom / rhetorika / thema / hidrolik / seyogyanya",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XI: Mengonstruksi Resensi (Kemendikbud 2020, hlm. 8-9; EYD V)",
+          "saran_pengganti": [
+            "kromosom",
+            "retorika",
+            "tema",
+            "hidraulik",
+            "seyogianya"
+          ],
+          "penjelasan": "Penulisan unsur serapan baku mengikuti pelafalan bahasa Indonesia dan asas satu bunyi satu huruf (tanpa kh/rh/th atau y sisipan pada seyogianya): kromosom, retorika, tema, hidraulik, dan seyogianya (Modul Resensi Kelas XI, Kemendikbud 2020, hlm. 8-9).",
+          "contoh_salah": "Penelitian rhetorika dan khromosom itu memakai sistem hidrolik yang seyogyanya memperjelas thema kajian.",
+          "contoh_benar": "Penelitian retorika dan kromosom itu memakai sistem hidraulik yang seyogianya memperjelas tema kajian."
         }
       ]
     }
   },
-  "total_entri": 777
+  "total_entri": 780
 }
