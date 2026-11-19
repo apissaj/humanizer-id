@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-teknis-it
 description: Use when auditing or editing Indonesian technical documentation, software engineering docs, IT proposals, READMEs, RFCs, or computer science/engineering papers.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

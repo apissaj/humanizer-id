@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-jurnalistik-media
 description: Use when editing Indonesian news, opinion articles, feature essays, or press releases.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-pendidikan-ajar
 description: Use when auditing or editing Indonesian textbooks, learning modules, LKPD worksheets, exam questions, teacher action research (PTK/KTI), or BIPA instructional materials.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-ejaan-morfologi
 description: Use when fixing ejaan, morfologi, dan bentuk baku Indonesia.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

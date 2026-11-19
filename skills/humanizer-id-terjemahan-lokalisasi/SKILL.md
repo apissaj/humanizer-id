@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-terjemahan-lokalisasi
 description: Use when editing Indonesian translations, localized software UI/UX copy, bilingual documents, or terminology-heavy adaptations from English.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

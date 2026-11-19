@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-esai-konten-digital
 description: Use when editing Indonesian essays, blog posts, newsletters, LinkedIn/social thought leadership, presentation slides, or web/digital content.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

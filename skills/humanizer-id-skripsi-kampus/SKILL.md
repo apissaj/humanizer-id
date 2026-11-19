@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-skripsi-kampus
 description: Use when editing Indonesian theses, dissertations, or research proposals with campus presets.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

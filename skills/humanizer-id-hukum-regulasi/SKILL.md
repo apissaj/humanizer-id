@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-hukum-regulasi
 description: Use when auditing or editing Indonesian legal analyses, policy briefs, regulations, or product claims.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

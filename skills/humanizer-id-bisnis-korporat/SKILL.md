@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-bisnis-korporat
 description: Use when editing Indonesian corporate, executive, proposal, memo, or press release prose.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

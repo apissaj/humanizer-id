@@ -1,7 +1,7 @@
 ---
 name: humanizer-id-surat-dinas
 description: Use when auditing or editing Indonesian official letters, government memos, institutional circulars, official notices, or formal MC/protocol scripts.
-version: 2.4.6
+version: 2.5.0
 author: Hafizh Muzani / Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]

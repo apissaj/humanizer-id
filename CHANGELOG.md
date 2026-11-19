@@ -4,6 +4,8 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+## [2.5.0] - 2026-11-20
+
 ### Mode Hemat Token (Skill AI `Patch-Only` Default + Flag CLI `--compact` / `--only` / `--top` / `--diff` / `--extract`)
 
 - **Skill AI & Prompt (`SKILL.md`, `PROMPT.md`):**
