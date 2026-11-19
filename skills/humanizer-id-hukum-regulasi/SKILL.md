@@ -21,7 +21,7 @@ Sub-kaidah domain Humanizer ID untuk analisis hukum, naskah akademik/kajian regu
 
 ### A. Batas Zona Terlarang & Kepatuhan Kaidah Bahasa (BRIN 2023, hlm. 40–42)
 
-1. **Pola:** menyunting langsung redaksi klausul kontrak, akta, paten, atau bunyi pasal undang-undang yang sudah sah berlaku → **Perbaikan:** **DILARANG** mengubah redaksi dokumen hukum mengikat secara sepihak; jalankan **Mode AFTER (`--report`)** untuk memberi catatan temuan bernomor saja tanpa mengubah teks pasal/kontrak — **Sebab:** pengubahan diksi klausul berisiko membuka celah sengketa hukum (`SKILL.md` Seksi 1.A).
+1. **Pola:** menyunting langsung redaksi klausul kontrak, akta, paten, bunyi pasal undang-undang yang sudah sah berlaku, atau transkrip ujaran/BAP bukti linguistik forensik → **Perbaikan:** **DILARANG** mengubah redaksi dokumen hukum mengikat maupun teks bukti forensik secara sepihak; jalankan **Mode AFTER (`--report`)** untuk memberi catatan temuan bernomor saja tanpa mengubah teks asli — **Sebab:** pengubahan diksi klausul membuka celah sengketa dan merusak keabsahan bukti peradilan (`SKILL.md` Seksi 1.A; `HKT-017`, Juknis KKLP Pembinaan dan Bahasa Hukum 2022, hlm. 19–20).
 2. **Pola:** menganggap bahasa hukum bebas dari kaidah EYD V dan KBBI (*kosmetika*, *obyektif*, *praktek*) → **Perbaikan:** *kosmetik* (nomina/adjektiva baku), *objektif*, *praktik* — **Sebab:** bahasa hukum tetap wajib mematuhi kaidah pembentukan kata, ejaan, dan struktur kalimat bahasa Indonesia baku (`HKT-015`, `HKT-016`, hlm. 41–42).
 
 ---

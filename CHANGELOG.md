@@ -4,6 +4,16 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Bedah *Juknis Bahasa Hukum* (2022) & *Menjadi Jurnalis Milenial* (2021) (`755 -> 757` kaidah, `200 -> 202` glosarium, Siklus 40)
+
+- **Badan Bahasa (*Juknis KKLP Pembinaan dan Bahasa Hukum*, 2022, hlm. 14, 19–20):**
+  - `HKT-017` (`[telaah]`) — pembedaan dua cabang ahli bahasa hukum (peraturan perundang-undangan vs peradilan/linguistik forensik; larangan menyunting teks bukti ujaran/BAP).
+  - Padanan baru `hukum_dan_regulasi`: `forensic linguistics` → `linguistik forensik` (`20 -> 21`).
+- **Irsyad Ridho dkk. (*Menjadi Jurnalis Milenial*, Kemendikbudristek 2021, ISBN 978-623-97764-2-8, hlm. 18–20, 32, 36):**
+  - `JRN18-014` (`[telaah]`) — kelengkapan unsur 5W+1H rinci & alur sunting redaksi 4 lapis (swasunting → editor bahasa → redaktur bidang → redaktur pelaksana).
+  - Padanan baru `jurnalistik_dan_media`: `doorstop interview` → `wawancara cegat` (`25 -> 26`).
+- Referensi baru: `references/juknis-bahasa-hukum-2022-dan-jurnalis-milenial-2021.md`; `humanizer-id-hukum-regulasi` dan `humanizer-id-jurnalistik-media` diperbarui.
+
 ### Bedah *Pedoman Penyuntingan Naskah* Badan Bahasa 2023/2024 (`750 -> 755` kaidah, Siklus 39)
 
 - **Setyo Untoro dkk. (*Pedoman Penyuntingan Naskah Cerita Anak*, Pusat Pembinaan Bahasa dan Sastra, Badan Bahasa 2023/2024, ISBN 978-623-118-861-8):**

@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 755
+    "total_entri": 757
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -3960,6 +3960,30 @@
           "penjelasan": "Pedoman resmi Badan Bahasa (ISBN 978-623-118-861-8) menetapkan aturan kapitalisasi bentuk ulang berimbuhan pada judul, pelesapan subjek ganda anak kalimat, pemisahan paragraf dialog antartokoh, konsistensi pronomina, serta pembedaan tegas empat jenis pengantar buku.",
           "contoh_salah": "Saat Lily Berjalan-Jalan. Prakata ditulis oleh menteri.",
           "contoh_benar": "Saat Lily Berjalan-jalan. Kata Pengantar ditulis oleh menteri, sedangkan Prakata ditulis oleh penulis buku."
+        },
+        {
+          "id": "HKT-017",
+          "pola": "[telaah] pembedaan ranah bahasa hukum (peraturan perundang-undangan vs peradilan/linguistik forensik)",
+          "asal_frasa": "Juknis KKLP Pembinaan dan Bahasa Hukum (Badan Bahasa 2022, hlm. 14, 19-20)",
+          "saran_pengganti": [
+            "Pada naskah peraturan perundang-undangan: pastikan presisi norma dan bebas multimakna",
+            "Pada bukti ujaran/BAP/linguistik forensik: DILARANG menyunting teks bukti asli; sajikan analisis semantik/pragmatik terpisah"
+          ],
+          "penjelasan": "Badan Bahasa membedakan dua cabang kompetensi ahli bahasa hukum: penyusunan peraturan perundang-undangan dan pembuktian peradilan/linguistik forensik; teks bukti ujaran atau BAP tidak boleh diubah redaksinya (Juknis KKLP Pembinaan dan Bahasa Hukum, 2022, hlm. 19-20).",
+          "contoh_salah": "Penyunting memperbaiki ejaan transkrip ujaran terlapor di dalam lampiran Berita Acara Penyidikan.",
+          "contoh_benar": "Transkrip ujaran terlapor dipertahankan apa adanya sebagai bukti forensik, sedangkan analisis kebahasaannya ditulis pada bagian telaah terpisah."
+        },
+        {
+          "id": "JRN18-014",
+          "pola": "[telaah] kelengkapan unsur berita 5W+1H dan penyuntingan berjenjang sebelum publikasi",
+          "asal_frasa": "Menjadi Jurnalis Milenial (Ridho dkk., Kemendikbudristek 2021, ISBN 978-623-97764-2-8, hlm. 18-20, 36)",
+          "saran_pengganti": [
+            "Pastikan berita memuat unsur What, Who, When (detail waktu), Where (lokasi spesifik), Why, dan How (kronologi)",
+            "Jalankan verifikasi bahasa dan akurasi fakta sebelum terbit (swasunting -> editor bahasa -> redaktur)"
+          ],
+          "penjelasan": "Berita yang ringkas tetap wajib memenuhi unsur 5W+1H secara detail dan melalui verifikasi akurasi fakta serta ketepatan bahasa sebelum diterbitkan (Ridho dkk., 2021, hlm. 18-20, 36).",
+          "contoh_salah": "Sebuah kegiatan olahraga digelar baru-baru ini dan diikuti banyak peserta dengan antusias.",
+          "contoh_benar": "Turnamen basket antarpelajar Kota Semarang digelar di GOR Sahabat pada 19—26 September 2025 dan diikuti 99 tim SD, SMP, dan SMA."
         }
       ]
     },
@@ -9336,5 +9360,5 @@
       ]
     }
   },
-  "total_entri": 755
+  "total_entri": 757
 }

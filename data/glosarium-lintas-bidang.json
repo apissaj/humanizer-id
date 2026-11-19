@@ -480,6 +480,11 @@
           "asing": "whistleblower",
           "baku": "pelapor pelanggaran",
           "catatan": "Pihak internal atau eksternal yang melaporkan dugaan pelanggaran hukum atau etika (PASTI & LPSK)."
+        },
+        {
+          "asing": "forensic linguistics",
+          "baku": "linguistik forensik",
+          "catatan": "Kajian kebahasaan untuk pembuktian hukum, BAP, dan persidangan (Juknis KKLP Pembinaan dan Bahasa Hukum, Badan Bahasa 2022, hlm. 20)."
         }
       ]
     },
@@ -610,6 +615,11 @@
           "asing": "prime time",
           "baku": "jam tayang utama",
           "catatan": "Rentang waktu penyiaran dengan jumlah pemirsa tertinggi (PASTI)."
+        },
+        {
+          "asing": "doorstop interview",
+          "baku": "wawancara cegat",
+          "catatan": "Wawancara singkat mendadak terhadap narasumber/pejabat saat keluar ruangan (Ridho dkk., Menjadi Jurnalis Milenial, Kemendikbudristek 2021, hlm. 32 & PASTI)."
         }
       ],
       "kaidah_ekonomi_kata": [
