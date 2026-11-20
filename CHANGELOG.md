@@ -4,6 +4,15 @@ Semua perubahan penting pada proyek ini dicatat di berkas ini. Format mengikuti 
 
 ## [Belum dirilis]
 
+### Siklus 51: Modul Kritik & Esai, Teks Berita, dan EYD V / KBBI (`790 -> 800` kaidah)
+
+- **EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa):**
+  - `EYD-077`..`EYD-082` (regex aktif + autofix): `otentik` → `autentik`, `nomer` → `nomor`, `suri tauladan` → `suri teladan`, `tekhnologi` → `teknologi`, `ma'af` → `maaf`, `barbekyu` → `barbeku`.
+- **Modul Kemendikbud (2020):**
+  - `KRT-001`, `KRT-002` (`[telaah]`) — kaidah kritik objektif berbasis bukti tekstual serta kebahasaan esai (pernyataan persuasif, verba mental, kausalitas, kata rujukan).
+  - `BRT-001`, `BRT-002` (`[telaah]`) — kelengkapan unsur berita **ADIKSIMBA** (dengan keterangan waktu/tempat spesifik) serta pemisahan kalimat langsung bertanda petik, konjungsi penerang `bahwa`, dan konjungsi temporal.
+- Referensi baru: `references/modul-kritik-esai-berita-eydv-2020.md`.
+
 ## [2.5.0] - 2026-11-20
 
 ### Mode Hemat Token (Skill AI `Patch-Only` Default + Flag CLI `--compact` / `--only` / `--top` / `--diff` / `--extract`)

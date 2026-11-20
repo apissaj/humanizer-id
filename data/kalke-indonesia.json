@@ -465,7 +465,7 @@
       "studi": "Kobak et al., 'Delving into LLM-assisted writing in biomedical publications through excess vocabulary', Science Advances (2025), DOI: 10.1126/sciadv.adt3813",
       "analisis": "Analisis 15,1 juta abstrak PubMed membuktikan lonjakan kosakata berlebih khas LLM: delve (28x), underscore (13,8x), showcase (10,7x). Di bahasa Indonesia, kata-kata ini mengalami kalke menjadi 'menyelami', 'menggarisbawahi secara repetitif', dan 'memamerkan'."
     },
-    "total_entri": 790
+    "total_entri": 800
   },
   "kategori": {
     "kalke_terjemahan_mesin": {
@@ -4299,6 +4299,50 @@
           "penjelasan": "Teks persuasif merupakan pengembangan argumentasi yang memaparkan fakta dan alasan sebelum mengajak pendengar/pembaca bertindak, sehingga ajakan terasa bernalar dan tidak menggurui (Modul Pidato Persuasif, hlm. 13-15).",
           "contoh_salah": "Ayo semua orang wajib menjaga kebersihan lingkungan sekarang juga tanpa alasan apa pun!",
           "contoh_benar": "Pemilahan sampah organik mengurangi volume limbah rumah tangga hingga 40%; oleh karena itu, mari kita mulai memilah sampah dari rumah."
+        },
+        {
+          "id": "KRT-001",
+          "pola": "[telaah] kaidah kritik sastra dan ilmiah (penilaian evaluatif objektif berbasis kriteria analitis dan bukti tekstual)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII KD 3.12-3.13: Kritik Sastra dan Esai (Kemendikbud, 2020)",
+          "saran_pengganti": [
+            "Sertakan kriteria analitis yang jelas dan rujukan/kutipan konkret dari karya yang dikritik agar penilaian evaluatif (kelebihan dan kelemahan) bersifat objektif serta argumentatif"
+          ],
+          "penjelasan": "Kritik berbeda dari ulasan emosional karena menilai karya secara objektif berdasarkan kaidah atau teori analitis serta bukti tekstual yang dapat diverifikasi (Modul Kritik Sastra dan Esai Kelas XII, 2020).",
+          "contoh_salah": "Novel ini sangat bagus sekali dan wajib dibaca semua orang karena ceritanya luar biasa menyentuh.",
+          "contoh_benar": "Novel ini kuat dalam membangun ketegangan psikologis lewat sudut pandang orang pertama pada bab III, meski alur penutupnya terasa tergesa."
+        },
+        {
+          "id": "KRT-002",
+          "pola": "[telaah] kaidah kebahasaan esai (pernyataan persuasif, verba mental, konjungsi kausalitas, dan kata rujukan terukur)",
+          "asal_frasa": "Modul Pembelajaran SMA Bahasa Indonesia Kelas XII KD 3.12-3.13: Kritik Sastra dan Esai (Kemendikbud, 2020)",
+          "saran_pengganti": [
+            "Topang sudut pandang esai dengan pernyataan persuasif yang bernalar, verba mental (memahami, menyimpulkan), konjungsi kausalitas (karena, oleh karena itu), dan kata rujukan (berdasarkan, merujuk pada)"
+          ],
+          "penjelasan": "Esai memadukan gaya personal penulis dengan argumentasi logis melalui verba mental, hubungan sebab-akibat eksplisit, dan rujukan data/ahli agar opini tetap terukur (Modul Kritik Sastra dan Esai Kelas XII, 2020).",
+          "contoh_salah": "Menurut saya masalah literasi digital itu pokoknya penting dan harus segera diselesaikan sekarang.",
+          "contoh_benar": "Berdasarkan survei literasi 2024, rendahnya verifikasi sumber memicu penyebaran hoaks; oleh karena itu, kita perlu memperkuat kurasi informasi di sekolah."
+        },
+        {
+          "id": "BRT-001",
+          "pola": "[telaah] kelengkapan unsur berita ADIKSIMBA (Apa, Di mana, Kapan, Siapa, Mengapa, Bagaimana) pada teras dan tubuh berita",
+          "asal_frasa": "Modul Pembelajaran Bahasa Indonesia: Teks Berita (Kemendikbud, 2020)",
+          "saran_pengganti": [
+            "Pastikan teras dan tubuh berita menjawab ADIKSIMBA secara ringkas serta mencantumkan keterangan waktu dan tempat secara spesifik"
+          ],
+          "penjelasan": "Informasi berita wajib memuat enam unsur pokok (Apa, Di mana, Kapan, Siapa, Mengapa, Bagaimana) dengan keterangan waktu dan tempat yang eksplisit agar valid dan tidak ambigu (Modul Teks Berita, 2020).",
+          "contoh_salah": "Belum lama ini terjadi gangguan sistem layanan publik yang membuat banyak warga kebingungan.",
+          "contoh_benar": "Gangguan server aplikasi layanan kependudukan di Kantor Dinas Dukcapil Bandung pada Senin (12/10) pukul 09.00 WIB menghambat pencetakan 140 dokumen warga akibat pembaruan basis data."
+        },
+        {
+          "id": "BRT-002",
+          "pola": "[telaah] kaidah kebahasaan teks berita (kalimat langsung bertanda petik dengan atribusi jelas, konjungsi penerang bahwa, dan konjungsi temporal)",
+          "asal_frasa": "Modul Pembelajaran Bahasa Indonesia: Teks Berita (Kemendikbud, 2020)",
+          "saran_pengganti": [
+            "Pisahkan kutipan langsung narasumber dengan tanda petik ganda dan atribusi jelas, gunakan konjungsi penerang 'bahwa' untuk pengutipan tak langsung, serta jaga urutan waktu dengan konjungsi temporal"
+          ],
+          "penjelasan": "Teks berita membedakan fakta lapangan dari ujaran narasumber melalui kalimat langsung bertanda petik atau kalimat tidak langsung berkonjungsi 'bahwa', serta merangkai kronologi lewat konjungsi temporal seperti 'kemudian', 'setelah itu', dan 'akhirnya' (Modul Teks Berita, 2020).",
+          "contoh_salah": "Kepala dinas bilang sistemnya sudah pulih tapi warga masih menunggu.",
+          "contoh_benar": "Kepala Dinas Dukcapil menyatakan bahwa layanan telah pulih sejak pukul 11.30 WIB. \"Seluruh antrean pagi sudah kami proses bertahap,\" ujarnya di Bandung."
         }
       ]
     },
@@ -9742,9 +9786,75 @@
           "penjelasan": "Bentuk baku dalam KBBI adalah 'responsif' (serapan -ive -> -if, bukan -ip) dan 'kesatria' (dengan vokal sisipan e pada gugus konsonan awal, bukan 'ksatria') (KBBI & EYD V).",
           "contoh_salah": "Para ksatria bersikap responsip terhadap perubahan situasi di medan tugas.",
           "contoh_benar": "Para kesatria bersikap responsif terhadap perubahan situasi di medan tugas."
+        },
+        {
+          "id": "EYD-077",
+          "pola": "otentik",
+          "asal_frasa": "EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek)",
+          "saran_pengganti": [
+            "autentik"
+          ],
+          "penjelasan": "Penyerapan unsur asing 'authentic' dalam KBBI dan EYD V mempertahankan diftong 'au-' sehingga bentuk bakunya adalah 'autentik', bukan 'otentik'.",
+          "contoh_salah": "Naskah kuno tersebut merupakan bukti otentik sejarah kerajaan.",
+          "contoh_benar": "Naskah kuno tersebut merupakan bukti autentik sejarah kerajaan."
+        },
+        {
+          "id": "EYD-078",
+          "pola": "nomer",
+          "asal_frasa": "EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek)",
+          "saran_pengganti": [
+            "nomor"
+          ],
+          "penjelasan": "Bentuk baku dalam KBBI untuk penanda urutan atau angka adalah 'nomor', bukan bentuk ragam lisan 'nomer'.",
+          "contoh_salah": "Cantumkan nomer induk mahasiswa pada sampul laporan.",
+          "contoh_benar": "Cantumkan nomor induk mahasiswa pada sampul laporan."
+        },
+        {
+          "id": "EYD-079",
+          "pola": "suri tauladan",
+          "asal_frasa": "EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek)",
+          "saran_pengganti": [
+            "suri teladan"
+          ],
+          "penjelasan": "Kata 'tauladan' tidak baku; bentuk bakunya adalah 'teladan', sehingga ungkapan resminya ialah 'suri teladan'.",
+          "contoh_salah": "Tokoh pendidik itu menjadi suri tauladan bagi para mahasiswa.",
+          "contoh_benar": "Tokoh pendidik itu menjadi suri teladan bagi para mahasiswa."
+        },
+        {
+          "id": "EYD-080",
+          "pola": "tekhnologi",
+          "asal_frasa": "EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek)",
+          "saran_pengganti": [
+            "teknologi"
+          ],
+          "penjelasan": "Dalam EYD V, gugus konsonan 'ch' pada 'technology' diserap menjadi 'k' (bukan 'kh'), sehingga bentuk bakunya adalah 'teknologi'.",
+          "contoh_salah": "Perkembangan tekhnologi informasi mempercepat diseminasi riset.",
+          "contoh_benar": "Perkembangan teknologi informasi mempercepat diseminasi riset."
+        },
+        {
+          "id": "EYD-081",
+          "pola": "ma'af",
+          "asal_frasa": "EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek)",
+          "saran_pengganti": [
+            "maaf"
+          ],
+          "penjelasan": "Penulisan kata serapan Arab yang sudah menyatu dalam KBBI tidak memakai apostrof di tengah kata: bentuk bakunya 'maaf', bukan \"ma'af\".",
+          "contoh_salah": "Kami memohon ma'af atas keterlambatan pengiriman berkas.",
+          "contoh_benar": "Kami memohon maaf atas keterlambatan pengiriman berkas."
+        },
+        {
+          "id": "EYD-082",
+          "pola": "barbekyu",
+          "asal_frasa": "EYD V & KBBI (Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek)",
+          "saran_pengganti": [
+            "barbeku"
+          ],
+          "penjelasan": "Serapan dari 'barbecue' dibakukan dalam KBBI menjadi 'barbeku', bukan 'barbekyu'.",
+          "contoh_salah": "Restoran itu menyajikan menu barbekyu khas Nusantara.",
+          "contoh_benar": "Restoran itu menyajikan menu barbeku khas Nusantara."
         }
       ]
     }
   },
-  "total_entri": 790
+  "total_entri": 800
 }
